@@ -1,4 +1,4 @@
-# farbeat-SDK
+# FarOS
 计算SDK初始化
 FarBeat.getInstance().init(context);
 通用SDK初始化
