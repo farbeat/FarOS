@@ -1,0 +1,4 @@
+LITEOS_ASFLAGS   += $(LITEOS_U_INCLUDES)
+LITEOS_CFLAGS    += $(LITEOS_U_INCLUDES)
+
+-include $(MK_PATH)/module.mk

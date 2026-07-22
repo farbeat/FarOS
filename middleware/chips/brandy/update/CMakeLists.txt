@@ -1,0 +1,7 @@
+#===============================================================================
+# @brief    cmake file
+# Copyright (c) @CompanyNameMagicTag 2022-2022. All rights reserved.
+#===============================================================================
+add_subdirectory_if_exist(common)
+add_subdirectory_if_exist(local_update)
+add_subdirectory_if_exist(storage)
