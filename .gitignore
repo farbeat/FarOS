@@ -9,9 +9,9 @@ tools/**
 # drivers/**
 # include/**
 # interim_binary/**
-kernel/**
-middleware/**
-open_source/**
+# kernel/**
+# middleware/**
+# open_source/**
 output/**
 protocol/**
 vendor/**

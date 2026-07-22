@@ -1,0 +1,6 @@
+config FS_YAFFS
+    bool "Enable YAFFS2"
+    default y
+    depends on FS_VFS && DRIVERS_MTD_NAND
+    help
+      Answer Y to enable LiteOS support yaffs2 filesystem.
