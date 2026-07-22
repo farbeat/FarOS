@@ -1,7 +1,7 @@
 .deveco/**
 .vscode/**
 # test/**
-tools/**
+# tools/**
 
 # application/**
 # bootloader/**
