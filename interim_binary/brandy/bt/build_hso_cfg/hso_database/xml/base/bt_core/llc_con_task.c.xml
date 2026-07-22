@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_con_upd_req_ind_handler:save, loc_proc_state=0x%x, operation=%d @llc_con_task.c(485),INFO" ID="0x896c0f2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC][PHY]llc_length_auto_req_ind_handler:discard the message @llc_con_task.c(605),INFO" ID="0x896c12ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC][PHY]llc_length_auto_req_ind_handler:Auto length req will send. @llc_con_task.c(616),INFO" ID="0x896c1345" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llc_chmap_update_req_ind_handler:map all zero @llc_con_task.c(686),WARNING" ID="0x896c1573" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_chmap_update_req_ind_handler:map not change @llc_con_task.c(703),INFO" ID="0x896c15fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]lld_stop_ind_llc_handler:no active bt link and no active ble master link @llc_con_task.c(876),INFO" ID="0x896c1b65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC][PHY]llc_phy_auto_req_ind_handler:discard the message @llc_con_task.c(987),INFO" ID="0x896c1edd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC][PHY]llc_phy_auto_req_ind_handler:conhdl=%d @llc_con_task.c(996),INFO" ID="0x896c1f25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][PHY]llc_phy_update_req_ind_handler:discard the message @llc_con_task.c(1044),WARNING" ID="0x896c20a3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_phy_update_req_ind_handler:cur_txphy=%d,cur_rxphy=%d,real_txphy=%d,real_rxphy=%d @llc_con_task.c(1094),INFO" ID="0x896c2235" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][PHY]llc_phy_update_req_ind_handler:flag=%d, phy_up_req_flag=%d @llc_con_task.c(1101),INFO" ID="0x896c226d" />
+			</MSG_LOG>

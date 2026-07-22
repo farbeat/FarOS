@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[HCI][C--&gt;H] ACTION=RECV_EVENT, CODE=0x%02x, LEN=%d, HANDLE=0x%x @hci_core_reserv.c(219),INFO" ID="0x8df206dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][C--&gt;H] ACTION=RECV_EVENT, CODE=0x%02x, LEN=%d @hci_core_reserv.c(222),INFO" ID="0x8df206f5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][C--&gt;H] ACTION=RECV_CMD_COMPLETE_EVENT, CODE=0x0E, OPCODE=0x%04x, OGF=0x%x, OCF=0x%x @hci_core_reserv.c(230),INFO" ID="0x8df20735" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][C--&gt;H] ACTION=RECV_CMD_STATUS_EVENT, CODE=0x0F, STATUS=0x%x, OPCODE=0x%04x @hci_core_reserv.c(235),INFO" ID="0x8df2075d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][C--&gt;H] ACTION=RECV_LE_META_EVENT, CODE=0x3E, SUB_EVENT_CODE=0x%x @hci_core_reserv.c(239),INFO" ID="0x8df2077d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][C--&gt;H] ACTION=RECV_OTHER_EVENT,CODE=0x%02x, LEN=%d @hci_core_reserv.c(243),INFO" ID="0x8df2079d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][C--&gt;H] ACTION=RECV_ACL_DATA, LEN=%u @hci_core_reserv.c(254),INFO" ID="0x8df207f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][C--&gt;H] %02x %02x %02x %02x @hci_core_reserv.c(262),INFO" ID="0x8df20835" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][C--&gt;H] %02x %02x %02x @hci_core_reserv.c(267),INFO" ID="0x8df2085d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][C--&gt;H] %02x %02x @hci_core_reserv.c(271),INFO" ID="0x8df2087d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][C--&gt;H] %02x @hci_core_reserv.c(273),INFO" ID="0x8df2088d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][SEND_ACL_DATA] SLOT=%u, the num=0 has been exhaust @hci_core_reserv.c(303),INFO" ID="0x8df2097d" />
+			</MSG_LOG>

@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(318),ERROR" ID="0xd8e009f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(335),ERROR" ID="0xd8e00a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(360),ERROR" ID="0xd8e00b42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(366),ERROR" ID="0xd8e00b72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rssi = %d  @stack_gap_if.c(391),INFO" ID="0xd8e00c3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="mode = %02x  @stack_gap_if.c(443),INFO" ID="0xd8e00ddd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s error @stack_gap_if.c(535),ERROR" ID="0xd8e010ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s error @stack_gap_if.c(539),ERROR" ID="0xd8e010da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(569),ERROR" ID="0xd8e011ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="name_len = %hu, name = %s  @stack_gap_if.c(573),INFO" ID="0xd8e011ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(609),ERROR" ID="0xd8e0130a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote addr : ***0x%x:0x%x:0x%x  @stack_gap_if.c(614),INFO" ID="0xd8e01335" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(698),ERROR" ID="0xd8e015d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(704),ERROR" ID="0xd8e01602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(743),ERROR" ID="0xd8e0173a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn_hdl=0x%x @stack_gap_if.c(749),INFO" ID="0xd8e0176d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="deinit bt sdk @stack_gap_if.c(756),INFO" ID="0xd8e017a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="send mem_id to bt in_id=0x%x out_id=0x%x @stack_gap_if.c(783),INFO" ID="0xd8e0187d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_gap_if.c(824),ERROR" ID="0xd8e019c2" />
+			</MSG_LOG>

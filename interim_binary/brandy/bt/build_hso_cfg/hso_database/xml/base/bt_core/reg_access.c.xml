@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][CFG]rf ctl reg wr type err 0x%x, us_reg=0x%x, usval=0x%x @reg_access.c(58),ERROR" ID="0x893001d2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][CFG]rf ctl reg wr type err 0x%x, us_reg=0x%x, usval=0x%x @reg_access.c(100),ERROR" ID="0x89300322" />
+			</MSG_LOG>

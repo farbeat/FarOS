@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GAP][HCI]memcpy failed @hci_core_ram.c(167),ERROR" ID="0x8ba6053a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI] cmd_opcode 0x%x @hci_core_ram.c(896),ERROR" ID="0x8ba61c02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hci][len] %02x @hci_core_ram.c(899),INFO" ID="0x8ba61c1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][H--&gt;C] %02x @hci_core_ram.c(902),INFO" ID="0x8ba61c35" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[T%x][TIMEOUT] OPCODE=0x%x, TIMER=0x%x @hci_core_ram.c(1250),WARNING" ID="0x8ba62713" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][TIMEOUT] OPCODE=0x%x, TIMER=0x%x @hci_core_ram.c(1254),ERROR" ID="0x8ba62732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMCPY_FAILED]RecvDataBuff Memcpy fail @hci_core_ram.c(1482),DBG" ID="0x8ba62e56" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMCPY_FAILED]RecvDataBuff Memcpy fail @hci_core_ram.c(1500),DBG" ID="0x8ba62ee6" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][RX]fsm buff overflow,white type pass! limit=%lu type=%d. @hci_core_ram.c(1514),ERROR" ID="0x8ba62f52" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][RX]fsm buff overflow!,invalid acl drop! limit=%lu. @hci_core_ram.c(1520),ERROR" ID="0x8ba62f82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][RX]fsm buff overflow,continue acl drop! limit=%lu. @hci_core_ram.c(1528),ERROR" ID="0x8ba62fc2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][RX]fsm buff overflow,white acl pass! limit=%lu cid=0x%x. @hci_core_ram.c(1538),ERROR" ID="0x8ba63012" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][RX]fsm buff overflow,black acl drop! limit=%lu cid=0x%x. @hci_core_ram.c(1542),ERROR" ID="0x8ba63032" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NO GLE]Gle %d! @hci_core_ram.c(1582),INFO" ID="0x8ba63175" />
+			</MSG_LOG>

@@ -1,0 +1,51 @@
+menu "Audio API Config"
+
+config SAP_DUMP_SUPPORT
+    bool "enable dump"
+    default n
+    help
+        enable dump in MPI
+
+config SAP_AI_DUMP_SUPPORT
+    bool "ai dump support"
+    default n
+    depends on SAP_DUMP_SUPPORT
+    help
+        enable ai dump in MPI
+
+config SAP_SEA_DUMP_SUPPORT
+    bool "sea dump support"
+    default n
+    depends on SAP_DUMP_SUPPORT
+    help
+        enable sea dump in MPI
+
+config SAP_ADEC_DUMP_SUPPORT
+    bool "adec dump support"
+    default n
+    depends on SAP_DUMP_SUPPORT
+    help
+        enable adec dump in MPI
+
+config SAP_AENC_DUMP_SUPPORT
+    bool "aenc dump support"
+    default n
+    depends on SAP_DUMP_SUPPORT
+    help
+        enable aenc dump in MPI
+
+config SAP_TRACK_DUMP_SUPPORT
+    bool "track dump support"
+    default n
+    depends on SAP_DUMP_SUPPORT
+    help
+        enable track dump in MPI
+
+config SAP_AO_DUMP_SUPPORT
+    bool "ao dump support"
+    default n
+    depends on SAP_DUMP_SUPPORT
+    help
+        enable ao dump in MPI
+
+endmenu

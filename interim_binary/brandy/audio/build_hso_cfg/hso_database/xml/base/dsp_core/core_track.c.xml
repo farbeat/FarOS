@@ -1,0 +1,42 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_delay Failed, Error Code: [0x%08X] @core_track.c(98),ERROR" ID="0x98520312" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_engine_handle Failed, Error Code: [0x%08X] @core_track.c(189),ERROR" ID="0x985205ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_engine_get_attr Failed, Error Code: [0x%08X] @core_track.c(195),ERROR" ID="0x9852061a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_create Failed, Error Code: [0x%08X] @core_track.c(201),ERROR" ID="0x9852064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_set_bypass Failed, Error Code: [0x%08X] @core_track.c(207),ERROR" ID="0x9852067a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_engine_attach_aip Failed, Error Code: [0x%08X] @core_track.c(214),ERROR" ID="0x985206b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_engine_detach_aip Failed, Error Code: [0x%08X] @core_track.c(228),ERROR" ID="0x98520722" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_set_bypass Failed, Error Code: [0x%08X] @core_track.c(234),ERROR" ID="0x98520752" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_destroy Failed, Error Code: [0x%08X] @core_track.c(240),ERROR" ID="0x98520782" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_get_module Failed, Error Code: [0x%08X] @core_track.c(254),ERROR" ID="0x985207f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]track = 0x%08X @core_track.c(255),INFO" ID="0x985207fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(323),INFO" ID="0x98520a1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_init Failed, Error Code: [0x%08X] @core_track.c(327),ERROR" ID="0x98520a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(331),INFO" ID="0x98520a5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(339),INFO" ID="0x98520a9d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_deinit Failed, Error Code: [0x%08X] @core_track.c(342),ERROR" ID="0x98520ab2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(348),INFO" ID="0x98520ae5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(363),INFO" ID="0x98520b5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(372),INFO" ID="0x98520ba5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(382),INFO" ID="0x98520bf5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]attr-&gt;buf_dur_ms = %u @core_track.c(388),ERROR" ID="0x98520c22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_alloc Failed, Error Code: [0x%08X] @core_track.c(394),ERROR" ID="0x98520c52" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call track_mmap_pts_reg Failed, Error Code: [0x%08X] @core_track.c(402),ERROR" ID="0x98520c92" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call track_create Failed, Error Code: [0x%08X] @core_track.c(409),ERROR" ID="0x98520cca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(419),INFO" ID="0x98520d1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]core_mod_free failed @core_track.c(425),ERROR" ID="0x98520d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(437),INFO" ID="0x98520dad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call track_destroy Failed, Error Code: [0x%08X] @core_track.c(441),ERROR" ID="0x98520dca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_free Failed, Error Code: [0x%08X] @core_track.c(450),ERROR" ID="0x98520e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(454),INFO" ID="0x98520e35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(463),INFO" ID="0x98520e7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(467),INFO" ID="0x98520e9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(484),INFO" ID="0x98520f25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]state = 0x%08X @core_track.c(487),ERROR" ID="0x98520f3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @core_track.c(494),ERROR" ID="0x98520f72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(507),INFO" ID="0x98520fdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(556),INFO" ID="0x98521165" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(560),INFO" ID="0x98521185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_track.c(569),INFO" ID="0x985211cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_track.c(573),INFO" ID="0x985211ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_set_bypass Failed, Error Code: [0x%08X] @core_track.c(603),ERROR" ID="0x985212da" />
+			</MSG_LOG>

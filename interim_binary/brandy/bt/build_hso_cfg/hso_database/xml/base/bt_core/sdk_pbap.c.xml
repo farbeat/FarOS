@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="pce_update_status null returned @sdk_pbap.c(168),WARNING" ID="0x8b740543" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap_pull_phone_book conn_hdl=0x%x @sdk_pbap.c(670),INFO" ID="0x8b7414f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap_pull_phone_book err ret=0x%x @sdk_pbap.c(683),WARNING" ID="0x8b74155b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s failed @sdk_pbap.c(696),ERROR" ID="0x8b7415c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s failed @sdk_pbap.c(843),ERROR" ID="0x8b741a5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s failed @sdk_pbap.c(943),ERROR" ID="0x8b741d7a" />
+			</MSG_LOG>

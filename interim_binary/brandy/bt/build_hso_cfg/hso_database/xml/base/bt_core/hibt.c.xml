@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][ISR]page tx_desc=0x%x, tx_desc_value=0x%x @hibt.c(147),ERROR" ID="0x8884049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[PAGE]record index=%d @hibt.c(150),INFO" ID="0x888404b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[PAGE]record%d: frrxok=%d, rxid=%d, format=%d @hibt.c(153),INFO" ID="0x888404cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][ISR]iscan tx_desc=0x%x, tx_desc_value=0x%x @hibt.c(163),ERROR" ID="0x8884051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]hibt_reset: RF test abort FAILED @hibt.c(238),ERROR" ID="0x88840772" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][BT]bt_chnlmap_print:cs_idx=%d, format=%d, nbchgood=%d @hibt.c(337),INFO" ID="0x88840a8d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][BT]bt_chnlmap_print:ch_map=0x%8x,%8x,%4x @hibt.c(343),INFO" ID="0x88840abd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][EA]APFM end of frame @hibt.c(407),INFO" ID="0x88840cbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]bt_isr: clear again, irq_stat(0x%x) @hibt.c(432),WARNING" ID="0x88840d83" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][EA]SW interrupt cur time=0%x @hibt.c(447),INFO" ID="0x88840dfd" />
+			</MSG_LOG>

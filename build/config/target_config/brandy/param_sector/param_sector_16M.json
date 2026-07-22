@@ -1,0 +1,58 @@
+{
+   "Partition_Tbl":{
+      "image_id" : "0x4B87A52D",
+      "stru_ver" : "0x00010000",
+      "version"  : "0x00000000",
+      "param_info_description" : [
+         "Address Constraints: flash type must fill with relative address, RAM regions must fill with absolute address.",
+         "Item ID Constraints: ssb type:                       0x00 ~ 0x0F, Relative address, Size",
+         "                     root public key and signature:  0x10 ~ 0x1F, Relative address, Size",
+         "                     firmware on flash:              0x20 ~ 0x2F, Relative address, Size",
+         "                     data on flash:                  0x30 ~ 0x3F, Relative address, Size",
+
+         "Fixed item id:  0x00: ssb",
+         "                0x01: ssb_backup",
+         "                0x10: configure RootPubKey",
+         "                0x11: signature certificate",
+         "                0x12: ssb image signature",
+         "                0x13: signature certificate backup",
+         "                0x14: ssb image backup signature",
+         "                0x15: algorithm signature",
+         "                0x16: recovery signature",
+         "                0x17: bt_image signature",
+         "                0x18: dsp_main_image signature",
+         "                0x19: dsp_overlay_image signature",
+         "                0x1A: acpu_image signature",
+         "                0x20: recovery",
+         "                0x21: bt_image",
+         "                0x22: dsp_main_image",
+         "                0x23: dsp_overlay_image",
+         "                0x24: acpu_image",
+         "                0x30: nv_data",
+         "                0x31: fota_data"
+      ],
+      "param_info" : [
+         ["0x00", "0x00000000", "0x00020000"],
+         ["0x01", "0x00020000", "0x00020000"],
+         ["0x10", "0x00040000", "0x00001000"],
+         ["0x11", "0x00041000", "0x00001000"],
+         ["0x12", "0x00042000", "0x00001000"],
+         ["0x13", "0x00043000", "0x00001000"],
+         ["0x14", "0x00044000", "0x00001000"],
+         ["0x15", "0x00045000", "0x00001000"],
+         ["0x16", "0x00046000", "0x00001000"],
+         ["0x17", "0x00047000", "0x00001000"],
+         ["0x18", "0x00048000", "0x00001000"],
+         ["0x19", "0x00049000", "0x00001000"],
+         ["0x1a", "0x0004A000", "0x00001000"],
+         ["0x20", "0x00B80000", "0x00100000"],
+         ["0x21", "0x00090000", "0x00070000"],
+         ["0x22", "0x00100000", "0x000C0000"],
+         ["0x23", "0x001C0000", "0x001C0000"],
+         ["0x24", "0x00380000", "0x00800000"],
+         ["0x30", "0x00C80000", "0x00004000"],
+         ["0x31", "0x00C84000", "0x00003000"]
+      ]
+   },
+   "Output_file_prefix":"AIoT"
+}

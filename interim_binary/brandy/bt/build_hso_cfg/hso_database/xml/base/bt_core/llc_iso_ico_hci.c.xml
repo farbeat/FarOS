@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ICO]accept status = %d, conhdl = %d @llc_iso_ico_hci.c(132),INFO" ID="0x89fa0425" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[iso_debug]remove ico 0x%x, %d @llc_iso_ico_hci.c(383),INFO" ID="0x89fa0bfd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO_debug]channel_num = %d, event_counter1 = %d, event_count2 = %d @llc_iso_ico_hci.c(441),INFO" ID="0x89fa0dcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AUTORATE] hci_le_set_ico_phy_cmd_handler warning @llc_iso_ico_hci.c(552),WARNING" ID="0x89fa1143" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AUTORATE]hci_le_set_ico_phy_cmd_handler:channel_id=%d,m2s_phy=0x%x,s2m_phy=0x%x,evt_counter=%d @llc_iso_ico_hci.c(585),INFO" ID="0x89fa124d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]hci_le_iso_test_mode_cmd_handler loopback_mode %d  @llc_iso_ico_hci.c(667),INFO" ID="0x89fa14dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="read_iso_buffer param-&gt;data_length=%d, data_len=%d, packet=%d @llc_iso_ico_hci.c(710),INFO" ID="0x89fa1635" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ISO] DBG REG RW 0x%x,0x%x @llc_iso_ico_hci.c(733),INFO" ID="0x89fa16ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ISO] DBG cfg_id: 0x%x, cfg_value:0x%x @llc_iso_ico_hci.c(754),INFO" ID="0x89fa1795" />
+			</MSG_LOG>

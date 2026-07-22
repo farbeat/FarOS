@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[SNIFF PEER REQ] sync link slave force sniff param @lc_sniff.c(322),INFO" ID="0x88700a15" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[SNIFF OFFSET] Cmd = %d 0:HL,1:PEER,2:UPDATE, offset = %d, Flag = %d @lc_sniff.c(379),INFO" ID="0x88700bdd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[SNIFF OFFSET] Linkid = %d, role = %d, 0:M,1:S, clockn = 0x%x, clk_off = 0x%x @lc_sniff.c(383),INFO" ID="0x88700bfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lc_sniff_get_lm_sniff_status reject host sniff linkid(%d) @lc_sniff.c(660),WARNING" ID="0x887014a3" />
+			</MSG_LOG>

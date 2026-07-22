@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]dsp_cfg mapped failed. @hal_audio.c(38),ERROR" ID="0x982e0132" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_dsp_cfg_address_map Failed, Error Code: [0x%08X] @hal_audio.c(64),ERROR" ID="0x982e0202" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_dsp_cfg_regs = 0x%08X @hal_audio.c(78),ERROR" ID="0x982e0272" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_dsp_cfg_regs = 0x%08X @hal_audio.c(92),ERROR" ID="0x982e02e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_dsp_cfg_regs = 0x%08X @hal_audio.c(106),ERROR" ID="0x982e0352" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_dsp_cfg_regs = 0x%08X @hal_audio.c(121),ERROR" ID="0x982e03ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_dsp_cfg_regs = 0x%08X @hal_audio.c(135),ERROR" ID="0x982e043a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_dsp_cfg_regs = 0x%08X @hal_audio.c(151),ERROR" ID="0x982e04ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]hifi02mcu_int1 timeout @hal_audio.c(160),ERROR" ID="0x982e0502" />
+			</MSG_LOG>

@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error value to string failed] @dfx_assist.cpp(36),ERROR" ID="0xe05c0122" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error message too long] @dfx_assist.cpp(43),ERROR" ID="0xe05c015a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc memory failed! @dfx_assist.cpp(50),ERROR" ID="0xe05c0192" />
+			<MSG STRUCTURE="diag_log_msg1" NAME=" [JS Error]: %s @dfx_assist.cpp(57),ERROR" ID="0xe05c01ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc memory failed! @dfx_assist.cpp(95),ERROR" ID="0xe05c02fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Exception backtrace]: @dfx_assist.cpp(99),ERROR" ID="0xe05c031a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%u: [Backtrace string too long] @dfx_assist.cpp(108),ERROR" ID="0xe05c0362" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="%u: %s @dfx_assist.cpp(112),ERROR" ID="0xe05c0382" />
+			</MSG_LOG>

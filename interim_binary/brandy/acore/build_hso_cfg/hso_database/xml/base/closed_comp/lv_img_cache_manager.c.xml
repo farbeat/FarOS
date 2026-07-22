@@ -1,0 +1,62 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="Invalid file path: %s @lv_img_cache_manager.c(92),ERROR" ID="0xc99002e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="File(%s) can not open. errno: %d. @lv_img_cache_manager.c(98),ERROR" ID="0xc9900312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to fread bin header. @lv_img_cache_manager.c(204),ERROR" ID="0xc9900662" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to malloc for info. @lv_img_cache_manager.c(214),ERROR" ID="0xc99006b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Invalid img index: %u. @lv_img_cache_manager.c(231),ERROR" ID="0xc990073a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to fread LvImgHeaderExt. @lv_img_cache_manager.c(242),ERROR" ID="0xc9900792" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Insufficient memory space. @lv_img_cache_manager.c(248),ERROR" ID="0xc99007c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to fread imgData. @lv_img_cache_manager.c(253),ERROR" ID="0xc99007ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="LoadOneFromFp failed. @lv_img_cache_manager.c(281),ERROR" ID="0xc99008ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Insufficient memory space. @lv_img_cache_manager.c(309),ERROR" ID="0xc99009aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to fread LvImgHeaderExt. @lv_img_cache_manager.c(321),ERROR" ID="0xc9900a0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to fread imgData. @lv_img_cache_manager.c(327),ERROR" ID="0xc9900a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="LoadAllFromFp failed. @lv_img_cache_manager.c(350),ERROR" ID="0xc9900af2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Invalid img index. @lv_img_cache_manager.c(358),ERROR" ID="0xc9900b32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Insufficient memory space. @lv_img_cache_manager.c(401),ERROR" ID="0xc9900c8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fread LvImgHeaderExt failed. @lv_img_cache_manager.c(425),ERROR" ID="0xc9900d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Insufficient memory space. @lv_img_cache_manager.c(444),ERROR" ID="0xc9900de2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fread data failed. @lv_img_cache_manager.c(450),ERROR" ID="0xc9900e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="The resource does not exist. @lv_img_cache_manager.c(469),ERROR" ID="0xc9900eaa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Invalid resId: %u. @lv_img_cache_manager.c(477),ERROR" ID="0xc9900eea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="reload resource failed. @lv_img_cache_manager.c(482),ERROR" ID="0xc9900f12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="load resource failed. @lv_img_cache_manager.c(488),ERROR" ID="0xc9900f42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to alloc for path. @lv_img_cache_manager.c(501),ERROR" ID="0xc9900faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="strcpy_s path failed. @lv_img_cache_manager.c(506),ERROR" ID="0xc9900fd2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path or fp is invalid. @lv_img_cache_manager.c(550),ERROR" ID="0xc9901132" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to alloc for cacheInfo. @lv_img_cache_manager.c(556),ERROR" ID="0xc9901162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="InsertToIdHash failed. @lv_img_cache_manager.c(577),ERROR" ID="0xc990120a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CreateCacheInfoFromFile failed. @lv_img_cache_manager.c(590),ERROR" ID="0xc9901272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(597),ERROR" ID="0xc99012aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path is NULL. @lv_img_cache_manager.c(601),ERROR" ID="0xc99012ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(633),ERROR" ID="0xc99013ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="imgCacheInfo is NULL. @lv_img_cache_manager.c(637),ERROR" ID="0xc99013ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="GetImgInfoById is NULL. @lv_img_cache_manager.c(643),ERROR" ID="0xc990141a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="LvHashInit g_idHash failed! @lv_img_cache_manager.c(665),ERROR" ID="0xc99014ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="LvHashInit g_fileHash failed! @lv_img_cache_manager.c(674),ERROR" ID="0xc9901512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cacheEntry is NULL. @lv_img_cache_manager.c(704),ERROR" ID="0xc9901602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="GetImgInfoById is NULL. @lv_img_cache_manager.c(710),ERROR" ID="0xc9901632" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(731),ERROR" ID="0xc99016da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path is NULL. @lv_img_cache_manager.c(736),ERROR" ID="0xc9901702" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(773),ERROR" ID="0xc990182a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path is NULL. @lv_img_cache_manager.c(777),ERROR" ID="0xc990184a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to alloc for cacheInfo. @lv_img_cache_manager.c(789),ERROR" ID="0xc99018aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="InsertToIdHash failed. @lv_img_cache_manager.c(811),ERROR" ID="0xc990195a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to alloc for infos. @lv_img_cache_manager.c(841),ERROR" ID="0xc9901a4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Insufficient memory space. @lv_img_cache_manager.c(856),ERROR" ID="0xc9901ac2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="InitImgCacheInfoFromBuf failed. @lv_img_cache_manager.c(882),ERROR" ID="0xc9901b92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(889),ERROR" ID="0xc9901bca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="buf is NULL. @lv_img_cache_manager.c(893),ERROR" ID="0xc9901bea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="alloc for cache info failed. @lv_img_cache_manager.c(899),ERROR" ID="0xc9901c1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="InitImgCacheInfoFromBuf failed. @lv_img_cache_manager.c(905),ERROR" ID="0xc9901c4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="InsertToIdHash failed. @lv_img_cache_manager.c(910),ERROR" ID="0xc9901c72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(926),ERROR" ID="0xc9901cf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cacheInfo or multi.info is NULL. @lv_img_cache_manager.c(931),ERROR" ID="0xc9901d1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Invalid resId: %u. @lv_img_cache_manager.c(936),ERROR" ID="0xc9901d42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(972),ERROR" ID="0xc9901e62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="res is not loaded. @lv_img_cache_manager.c(977),ERROR" ID="0xc9901e8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Invalid resId: %u. @lv_img_cache_manager.c(989),ERROR" ID="0xc9901eea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="multi.info is NULL. @lv_img_cache_manager.c(993),ERROR" ID="0xc9901f0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(1009),ERROR" ID="0xc9901f8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="fail to LvUnloadImgsByDirId: %u. @lv_img_cache_manager.c(1014),ERROR" ID="0xc9901fb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ImgCacheManager is not inited. @lv_img_cache_manager.c(1029),ERROR" ID="0xc990202a" />
+			</MSG_LOG>

@@ -1,0 +1,46 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[hifi]invalid port_name(%s), use default ai_port = %d. @test_core_ai.c(101),ERROR" ID="0x98d4032a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi]invalid rx_name(%s), use default rx_type = %d. @test_core_ai.c(117),ERROR" ID="0x98d403aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]invalid port_name(%s). @test_core_ai.c(143),ERROR" ID="0x98d4047a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]event = %d @test_core_ai.c(151),INFO" ID="0x98d404bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]Buffer full!!! @test_core_ai.c(170),ERROR" ID="0x98d40552" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rec_inst-&gt;buf_wpos = %u @test_core_ai.c(171),ERROR" ID="0x98d4055a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rec_inst-&gt;data_buf = 0x%08X @test_core_ai.c(172),ERROR" ID="0x98d40562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @test_core_ai.c(180),ERROR" ID="0x98d405a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_open Failed, Error Code: [0x%08X] @test_core_ai.c(205),ERROR" ID="0x98d4066a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_create Failed, Error Code: [0x%08X] @test_core_ai.c(212),ERROR" ID="0x98d406a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_open Failed, Error Code: [0x%08X] @test_core_ai.c(248),ERROR" ID="0x98d407c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_state Failed, Error Code: [0x%08X] @test_core_ai.c(255),ERROR" ID="0x98d407fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_start Failed, Error Code: [0x%08X] @test_core_ai.c(260),ERROR" ID="0x98d40822" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_stop Failed, Error Code: [0x%08X] @test_core_ai.c(288),ERROR" ID="0x98d40902" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_destroy Failed, Error Code: [0x%08X] @test_core_ai.c(292),ERROR" ID="0x98d40922" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_state Failed, Error Code: [0x%08X] @test_core_ai.c(301),ERROR" ID="0x98d4096a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @test_core_ai.c(328),ERROR" ID="0x98d40a42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_play_start Failed, Error Code: [0x%08X] @test_core_ai.c(355),ERROR" ID="0x98d40b1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_play_stop Failed, Error Code: [0x%08X] @test_core_ai.c(361),ERROR" ID="0x98d40b4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ai_cmd = %d @test_core_ai.c(365),ERROR" ID="0x98d40b6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @test_core_ai.c(385),ERROR" ID="0x98d40c0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rec_inst-&gt;data_buf = %p @test_core_ai.c(388),ERROR" ID="0x98d40c22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rec_inst-&gt;buf_size = 0x%08X @test_core_ai.c(389),ERROR" ID="0x98d40c2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_create Failed, Error Code: [0x%08X] @test_core_ai.c(420),ERROR" ID="0x98d40d22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_register_data_proc Failed, Error Code: [0x%08X] @test_core_ai.c(429),ERROR" ID="0x98d40d6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_start Failed, Error Code: [0x%08X] @test_core_ai.c(434),ERROR" ID="0x98d40d92" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_stop Failed, Error Code: [0x%08X] @test_core_ai.c(451),ERROR" ID="0x98d40e1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_destroy Failed, Error Code: [0x%08X] @test_core_ai.c(455),ERROR" ID="0x98d40e3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @test_core_ai.c(481),ERROR" ID="0x98d40f0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_rec_start Failed, Error Code: [0x%08X] @test_core_ai.c(505),ERROR" ID="0x98d40fca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_rec_stop Failed, Error Code: [0x%08X] @test_core_ai.c(511),ERROR" ID="0x98d40ffa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ai_cmd = %d @test_core_ai.c(515),ERROR" ID="0x98d4101a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_create Failed, Error Code: [0x%08X] @test_core_ai.c(565),ERROR" ID="0x98d411aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_register_event_proc Failed, Error Code: [0x%08X] @test_core_ai.c(572),ERROR" ID="0x98d411e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_reset_vad Failed, Error Code: [0x%08X] @test_core_ai.c(577),ERROR" ID="0x98d4120a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_stop Failed, Error Code: [0x%08X] @test_core_ai.c(594),ERROR" ID="0x98d41292" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_destroy Failed, Error Code: [0x%08X] @test_core_ai.c(598),ERROR" ID="0x98d412b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @test_core_ai.c(616),ERROR" ID="0x98d41342" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_vad_start Failed, Error Code: [0x%08X] @test_core_ai.c(636),ERROR" ID="0x98d413e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_vad_stop Failed, Error Code: [0x%08X] @test_core_ai.c(642),ERROR" ID="0x98d41412" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_reset_vad Failed, Error Code: [0x%08X] @test_core_ai.c(648),ERROR" ID="0x98d41442" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ai_cmd = %d @test_core_ai.c(652),ERROR" ID="0x98d41462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @test_core_ai.c(683),INFO" ID="0x98d4155d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @test_core_ai.c(685),ERROR" ID="0x98d4156a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @test_core_ai.c(704),INFO" ID="0x98d41605" />
+			</MSG_LOG>

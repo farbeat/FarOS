@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="black list lmp_esco_nego_big_desco_back_match i(%d) @lm_sco.c(358),WARNING" ID="0x88760b33" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LM][SCO]lm_get_sync_offset:OffsetReq = %d(0:GET,1:CHECK,2:UPDATE), offset = %d, Flag = %d @lm_sco.c(401),INFO" ID="0x88760c8d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM][SCO]lm_get_sync_offset:Linkid=%d, Role=%d, ClockN=0x%x, clk_off=0x%x @lm_sco.c(408),INFO" ID="0x88760cc5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]lm_check_esco_bandwidth:status=0x%x, Tesco=%d, Framesize=%d, Wesco=%d @lm_sco.c(780),INFO" ID="0x88761865" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sync_offset update fail, status = 0x%x @lm_sco.c(2276),WARNING" ID="0x88764723" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sync_offset update fail, status = 0x%x @lm_sco.c(2721),WARNING" ID="0x8876550b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sync_offset update fail, status = 0x%x @lm_sco.c(2856),WARNING" ID="0x88765943" />
+			</MSG_LOG>

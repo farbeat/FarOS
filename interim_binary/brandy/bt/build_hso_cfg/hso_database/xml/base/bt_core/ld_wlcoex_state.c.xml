@@ -1,0 +1,35 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] freq: %d -&gt; %d @ld_wlcoex_state.c(32),INFO" ID="0x881e0105" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] channel num: %d -&gt; %d @ld_wlcoex_state.c(38),INFO" ID="0x881e0135" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] band width: %d -&gt; %d @ld_wlcoex_state.c(44),INFO" ID="0x881e0165" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] scan state: %d -&gt; %d @ld_wlcoex_state.c(50),INFO" ID="0x881e0195" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] connect state: %d -&gt; %d @ld_wlcoex_state.c(56),INFO" ID="0x881e01c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] sleep state: %d -&gt; %d @ld_wlcoex_state.c(66),INFO" ID="0x881e0215" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] disable ps state: %d -&gt; %d @ld_wlcoex_state.c(72),INFO" ID="0x881e0245" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] vap state: %d -&gt; %d @ld_wlcoex_state.c(78),INFO" ID="0x881e0275" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] p2p scan state: %d -&gt; %d @ld_wlcoex_state.c(84),INFO" ID="0x881e02a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] p2p conn state: %d -&gt; %d @ld_wlcoex_state.c(90),INFO" ID="0x881e02d5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] opening state: %d -&gt; %d @ld_wlcoex_state.c(99),INFO" ID="0x881e031d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] dbac state: %d -&gt; %d @ld_wlcoex_state.c(105),INFO" ID="0x881e034d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] c1 siso state: %d -&gt; %d @ld_wlcoex_state.c(111),INFO" ID="0x881e037d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] dbdc state: %d -&gt; %d @ld_wlcoex_state.c(117),INFO" ID="0x881e03ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] ap mode state: %d -&gt; %d @ld_wlcoex_state.c(123),INFO" ID="0x881e03dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]Rf[%d] lowrate state: %d -&gt; %d @ld_wlcoex_state.c(128),INFO" ID="0x881e0405" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]ld_wlcoex_wlstate_process: ps_slot from[%d] change to[%d], ps_step[%d] @ld_wlcoex_state.c(210),INFO" ID="0x881e0695" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_on=%d, bt_reg=0x%04x @ld_wlcoex_state.c(448),INFO" ID="0x881e0e05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_inquiry=%d, bt_reg=0x%04x @ld_wlcoex_state.c(493),INFO" ID="0x881e0f6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_page=%d, bt_reg=0x%04x @ld_wlcoex_state.c(532),INFO" ID="0x881e10a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_data_send=%d, bt_reg=0x%04x @ld_wlcoex_state.c(557),INFO" ID="0x881e116d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_a2dp=%d, bt_reg=0x%04x @ld_wlcoex_state.c(598),INFO" ID="0x881e12b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_sco=%d, bt_reg=0x%04x @ld_wlcoex_state.c(623),INFO" ID="0x881e137d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_data_receive=%d, bt_reg=0x%04x @ld_wlcoex_state.c(682),INFO" ID="0x881e1555" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_acl_num=%d, bt_reg=0x%04x @ld_wlcoex_state.c(777),INFO" ID="0x881e184d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]wlcoex_btstate, link_id=%d, role=%d, bt_reg=0x%04x @ld_wlcoex_state.c(826),INFO" ID="0x881e19d5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]wlcoex_btstate, ble_all_state=0x%x, ble_reg=0x%04x, bt_reg=0x%04x @ld_wlcoex_state.c(853),INFO" ID="0x881e1aad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, ble_on=%d, ble_reg=0x%04x @ld_wlcoex_state.c(882),INFO" ID="0x881e1b95" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]wlcoex_btstate, ble_scan_state=%d, ble_reg=0x%04x, bt_reg=0x%04x @ld_wlcoex_state.c(909),INFO" ID="0x881e1c6d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][COEX]wlcoex_btstate, ble_con_state=%d, ble_reg=0x%04x, bt_reg=0x%04x @ld_wlcoex_state.c(936),INFO" ID="0x881e1d45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, ble_adv=%d, ble_reg=0x%04x @ld_wlcoex_state.c(962),INFO" ID="0x881e1e15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_sco_slot_state=%d, ble_reg=0x%04x @ld_wlcoex_state.c(988),INFO" ID="0x881e1ee5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, ble_init=%d, ble_reg=0x%04x @ld_wlcoex_state.c(1013),INFO" ID="0x881e1fad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]wlcoex_btstate, bt_music_code_state=%d, ble_reg=0x%04x @ld_wlcoex_state.c(1102),INFO" ID="0x881e2275" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call audio_osal_malloc Failed, Error Code: [0x%08X] @xafir_comp.c(81),ERROR" ID="0x98d0028a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call audio_osal_malloc Failed, Error Code: [0x%08X] @xafir_comp.c(88),ERROR" ID="0x98d002c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]data_size = 0x%08X @xafir_comp.c(144),ERROR" ID="0x98d00482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]out-&gt;bits_out_buf_size = 0x%08X @xafir_comp.c(145),ERROR" ID="0x98d0048a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]data_size = 0x%08X @xafir_comp.c(151),ERROR" ID="0x98d004ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]SCRATCH_BUF_SIZE = 0x%08X @xafir_comp.c(152),ERROR" ID="0x98d004c2" />
+			</MSG_LOG>

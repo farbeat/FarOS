@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] create_conn parameter fail! @bt_at_cmd_hfp.c(162),ERROR" ID="0xd88c0512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] create_conn addr fail! @bt_at_cmd_hfp.c(167),ERROR" ID="0xd88c053a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_transmit_dtmf_code fail! @bt_at_cmd_hfp.c(177),ERROR" ID="0xd88c058a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_voice_recognition_req fail! @bt_at_cmd_hfp.c(189),ERROR" ID="0xd88c05ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_voice_recognition_req fail! @bt_at_cmd_hfp.c(194),ERROR" ID="0xd88c0612" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_mic_vol_ctl fail! @bt_at_cmd_hfp.c(206),ERROR" ID="0xd88c0672" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_mic_vol_ctl fail! @bt_at_cmd_hfp.c(211),ERROR" ID="0xd88c069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_speaker_vol_ctl fail! @bt_at_cmd_hfp.c(223),ERROR" ID="0xd88c06fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_speaker_vol_ctl fail! @bt_at_cmd_hfp.c(228),ERROR" ID="0xd88c0722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_3_way_calling_chld_1 fail! @bt_at_cmd_hfp.c(240),ERROR" ID="0xd88c0782" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_3_way_calling_chld_1 fail! @bt_at_cmd_hfp.c(245),ERROR" ID="0xd88c07aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_3_way_calling_chld_2 fail! @bt_at_cmd_hfp.c(257),ERROR" ID="0xd88c080a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hfp_hf_3_way_calling_chld_2 fail! @bt_at_cmd_hfp.c(262),ERROR" ID="0xd88c0832" />
+			</MSG_LOG>

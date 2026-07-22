@@ -1,0 +1,39 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="stack gap set discovery mode result = 0x%x, mode = 0x%x  @bt_ahi_gap.c(87),INFO" ID="0x8c9e02bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap get discovery mode result = 0x%x, mode = 0x%x  @bt_ahi_gap.c(101),INFO" ID="0x8c9e032d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap stop discovery result = 0x%x, mode = 0x%x  @bt_ahi_gap.c(111),INFO" ID="0x8c9e037d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stack gap create acl result = 0x%x, dev_hdl = 0x%x, link type = %d  @bt_ahi_gap.c(125),INFO" ID="0x8c9e03ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_gap.c(138),ERROR" ID="0x8c9e0452" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stack gap create acl cfm cbk result = 0x%x, acl_hdl = 0x%x, link type = %d  @bt_ahi_gap.c(143),INFO" ID="0x8c9e047d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stack gap create acla result = 0x%x @bt_ahi_gap.c(152),INFO" ID="0x8c9e04c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap reconnect phone result = 0x%x, dev_hdl = 0x%x  @bt_ahi_gap.c(163),INFO" ID="0x8c9e051d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stack gap get rmt dev handle result = 0x%x @bt_ahi_gap.c(175),INFO" ID="0x8c9e057d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap device is connected result = 0x%x, dev_hdl = 0x%x  @bt_ahi_gap.c(187),INFO" ID="0x8c9e05dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk disconnect acl by handle result = 0x%x @bt_ahi_gap.c(198),INFO" ID="0x8c9e0635" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap pair device result = 0x%x, dev_hdl = 0x%x  @bt_ahi_gap.c(210),INFO" ID="0x8c9e0695" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stack gap add rmt device rsp.result = %x @bt_ahi_gap.c(227),INFO" ID="0x8c9e071d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap update rmt device name result = 0x%x, name = %s  @bt_ahi_gap.c(247),INFO" ID="0x8c9e07bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_gap.c(261),ERROR" ID="0x8c9e082a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stack gap update rmt device name cfm cbk result = 0x%x, opindex = 0x%x, size = %d  @bt_ahi_gap.c(269),INFO" ID="0x8c9e086d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stack gap update rmt device name async result = 0x%x @bt_ahi_gap.c(279),INFO" ID="0x8c9e08bd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stack gap get local name result = 0x%x, length = %d, name = %s  @bt_ahi_gap.c(315),INFO" ID="0x8c9e09dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="stack gap get rmt dev addr result = 0x%x, addr[%02x:**:**:**:%02x:%02x] @bt_ahi_gap.c(340),INFO" ID="0x8c9e0aa5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stack gap browse rmt service overflow, max_count = %d, svc_count = %d @bt_ahi_gap.c(362),ERROR" ID="0x8c9e0b52" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stack gap browse rmt service result = 0x%x, svc_count = %d, svc_hdl[0] = 0x%x @bt_ahi_gap.c(368),INFO" ID="0x8c9e0b85" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hfp enable sco:scohdl=0x%x inid=0x%x outid=0x%x @bt_ahi_gap.c(389),INFO" ID="0x8c9e0c2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hfp disable sco:scohdl=0x%x @bt_ahi_gap.c(393),INFO" ID="0x8c9e0c4d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="result = 0x%x, handle = 0x%x, service_class = %02x  @bt_ahi_gap.c(426),ERROR" ID="0x8c9e0d52" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stack gap init, res = 0x%x  @bt_ahi_gap.c(438),INFO" ID="0x8c9e0db5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="set bt tx power, hdl=0x%x, power=%d, ret=0x%x @bt_ahi_gap.c(451),INFO" ID="0x8c9e0e1d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="br gap read rssi, hdl=0x%x, rssi=%d, ret=0x%x @bt_ahi_gap.c(459),INFO" ID="0x8c9e0e5d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="set active scene scene = %d, bitrate = %d, delay = %d, ret=0x%x @bt_ahi_gap.c(475),INFO" ID="0x8c9e0edd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="set inquiry scan param interval = %d, window = %d @bt_ahi_gap.c(483),INFO" ID="0x8c9e0f1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_gap.c(494),ERROR" ID="0x8c9e0f72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stack gap restore rmt device rsp.result = %x @bt_ahi_gap.c(498),INFO" ID="0x8c9e0f95" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="br gap get link mode, hdl=0x%x, mode=%d, ret=0x%x @bt_ahi_gap.c(507),INFO" ID="0x8c9e0fdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mpc param null! @bt_ahi_gap.c(523),ERROR" ID="0x8c9e105a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mpc pkt_ptr is null! @bt_ahi_gap.c(528),ERROR" ID="0x8c9e1082" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AHI]set br secure param secure=%d. @bt_ahi_gap.c(532),ERROR" ID="0x8c9e10a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mpc param null! @bt_ahi_gap.c(539),ERROR" ID="0x8c9e10da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mpc pkt_ptr is null! @bt_ahi_gap.c(544),ERROR" ID="0x8c9e1102" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BTH][QOS]set bth flow limit max=%d high=%d low=%d. @bt_ahi_gap.c(552),ERROR" ID="0x8c9e1142" />
+			</MSG_LOG>

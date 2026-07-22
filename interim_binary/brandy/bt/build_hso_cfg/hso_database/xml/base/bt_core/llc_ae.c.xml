@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="llc stop:conhdl=%d, aux_adv_conhdl = %d, per_adv_conhdl= %d @llc_ae.c(70),INFO" ID="0x89e20235" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llm_util_check_ext_adv_data_param, ble_err = 0x%x @llc_ae.c(299),WARNING" ID="0x89e2095b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_ext_adv_heap_check, ble_err = 0x%x @llc_ae.c(305),WARNING" ID="0x89e2098b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llm_ext_adv_data_save_2_heap, ble_err = 0x%x @llc_ae.c(323),WARNING" ID="0x89e20a1b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llc_util_set_adv_tx_power: power %d -&gt; level %d @llc_ae.c(350),INFO" ID="0x89e20af5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]llc_set_ext_scan_rsp_data:adv_handle=%d,operation=%d,fragment=%d,data_len=%d @llc_ae.c(556),INFO" ID="0x89e21165" />
+			</MSG_LOG>

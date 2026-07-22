@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[GAP] inquiry result cbk i:%d eir[i]:%d @gap_hlp_br.c(116),ERROR" ID="0x8b8a03a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][LOGN_STACK_GAP_DIS_REGISTER] RegisterDIService success. @gap_hlp_br.c(1534),INFO" ID="0x8b8a2ff5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][LOGN_STACK_GAP_DIS_REGISTER] RegisterDIService failed. @gap_hlp_br.c(1538),WARNING" ID="0x8b8a3013" />
+			</MSG_LOG>

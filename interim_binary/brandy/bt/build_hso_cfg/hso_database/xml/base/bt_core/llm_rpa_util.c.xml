@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llm_util_bd_addr_wl_pub_add:wl_pub_nb=%d, position=%d @llm_rpa_util.c(153),INFO" ID="0x899404cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llm_util_bd_addr_wl_pub_add:wl_pub_nb=%d, position=%d @llm_rpa_util.c(180),INFO" ID="0x899405a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llm_util_bd_addr_wl_priv_add:wl_priv_nb=%d, position=%d @llm_rpa_util.c(214),INFO" ID="0x899406b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llm_util_bd_addr_wl_priv_rmv:wl_priv_nb=%d, position=%d @llm_rpa_util.c(247),INFO" ID="0x899407bd" />
+			</MSG_LOG>

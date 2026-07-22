@@ -1,0 +1,47 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="js value is not bool. @js_fwk_common.cpp(101),ERROR" ID="0xe062032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to set function property cause by empty name. @js_fwk_common.cpp(112),ERROR" ID="0xe0620382" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to set function property cause by empty handler. @js_fwk_common.cpp(117),ERROR" ID="0xe06203aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="jerry_value_to_string failed, can not continue to generate char buffer @js_fwk_common.cpp(151),ERROR" ID="0xe06204ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc buffer for convert jerry string failed @js_fwk_common.cpp(161),ERROR" ID="0xe062050a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="jerry string to char buffer failed, target size[%d] @js_fwk_common.cpp(172),ERROR" ID="0xe0620562" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="js value is not bool. @js_fwk_common.cpp(192),ERROR" ID="0xe0620602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="js number value is out of range. @js_fwk_common.cpp(210),DBG" ID="0xe0620696" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="js number value is out of range. @js_fwk_common.cpp(214),DBG" ID="0xe06206b6" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cstr is nullptr. @js_fwk_common.cpp(228),ERROR" ID="0xe0620722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="secLength is too long. @js_fwk_common.cpp(421),ERROR" ID="0xe0620d2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="append path error @js_fwk_common.cpp(445),ERROR" ID="0xe0620dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="error happen when append path @js_fwk_common.cpp(455),ERROR" ID="0xe0620e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="input path or fileName is invalid @js_fwk_common.cpp(472),ERROR" ID="0xe0620ec2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="input path or fileName is too long @js_fwk_common.cpp(479),ERROR" ID="0xe0620efa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="malloc buffer for path failed, needed length[%u] @js_fwk_common.cpp(487),ERROR" ID="0xe0620f3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc dirPath memory heap failed. @js_fwk_common.cpp(531),ERROR" ID="0xe062109a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Error stat'ing file: %s [%s] @js_fwk_common.cpp(608),ERROR" ID="0xe0621302" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="realpath handle failed, [%s] @js_fwk_common.cpp(625),ERROR" ID="0xe062138a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="file name too long. @js_fwk_common.cpp(643),ERROR" ID="0xe062141a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="splice trace data failed. @js_fwk_common.cpp(651),ERROR" ID="0xe062145a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="open file[%s] failed for reading. @js_fwk_common.cpp(667),ERROR" ID="0xe06214da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="open file[fd: %d] failed for reading @js_fwk_common.cpp(699),ERROR" ID="0xe06215da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="open file[path: %s] failed for reading @js_fwk_common.cpp(700),ERROR" ID="0xe06215e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="malloc buffer for file content failed, file length[%d] @js_fwk_common.cpp(706),ERROR" ID="0xe0621612" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="read fail, count(%d), length(%u), path(%s) @js_fwk_common.cpp(715),ERROR" ID="0xe062165a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="error index.js file path after locate @js_fwk_common.cpp(744),ERROR" ID="0xe0621742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="empty index.js file path after locate @js_fwk_common.cpp(749),ERROR" ID="0xe062176a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="malloc buffer for file path calculating from url, file length[%d] @js_fwk_common.cpp(819),ERROR" ID="0xe062199a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="append path error when calculating from url @js_fwk_common.cpp(823),ERROR" ID="0xe06219ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="watcher is undefined when inserting a watcher. @js_fwk_common.cpp(859),ERROR" ID="0xe0621ada" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc memory watcher failed. @js_fwk_common.cpp(866),ERROR" ID="0xe0621b12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No component binds element. @js_fwk_common.cpp(957),ERROR" ID="0xe0621dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed GetHeapMemoryInfo! @js_fwk_common.cpp(1107),ERROR" ID="0xe062229a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="malloc buffer for path failed, needed length[%u] @js_fwk_common.cpp(1218),ERROR" ID="0xe0622612" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="use strcpy_s secure function errro(%d) @js_fwk_common.cpp(1225),ERROR" ID="0xe062264a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get imagePath failed! @js_fwk_common.cpp(1262),ERROR" ID="0xe0622772" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="malloc buffer for path failed, needed length[%u] @js_fwk_common.cpp(1291),ERROR" ID="0xe062285a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="strcat_s failed! @js_fwk_common.cpp(1304),ERROR" ID="0xe06228c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the image suffix error, please check! @js_fwk_common.cpp(1314),ERROR" ID="0xe0622912" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to parse image src cause by empty source. @js_fwk_common.cpp(1328),ERROR" ID="0xe0622982" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to parse image src cause by empty source. @js_fwk_common.cpp(1332),ERROR" ID="0xe06229a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Relative path is not allowed in image src. @js_fwk_common.cpp(1339),ERROR" ID="0xe06229da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the fontFamily is too long @js_fwk_common.cpp(1388),ERROR" ID="0xe0622b62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc string failed @js_fwk_common.cpp(1394),ERROR" ID="0xe0622b92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="copy fontFamily failed @js_fwk_common.cpp(1398),ERROR" ID="0xe0622bb2" />
+			</MSG_LOG>

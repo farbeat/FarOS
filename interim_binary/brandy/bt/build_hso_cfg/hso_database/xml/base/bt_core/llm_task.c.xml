@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][SECCON][LLM]llm_ecc_result_ind_handler:cur_ecc_multiplication=%d @llm_task.c(119),INFO" ID="0x884e03bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][SECCON][LLM]llm_ecc_result_ind_handler:Could not write new secret key to NVDS @llm_task.c(159),ERROR" ID="0x884e04fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][SECCON][LLM]llm_ecc_result_ind_handler:cur_ecc_multiplication is LLM_ECC_IDLE @llm_task.c(164),ERROR" ID="0x884e0522" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLM]lld_stop_init_elt:init_state=%d, init_elt_num=%d @llm_task.c(260),WARNING" ID="0x884e0823" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLM]lld_stop_scan_elt:scan_state=%d, scan_elt_num=%d @llm_task.c(292),WARNING" ID="0x884e0923" />
+			</MSG_LOG>

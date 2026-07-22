@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="set dut mode=0x%x res=0x%x @dft_service.c(20),INFO" ID="0xd82000a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="set dut mode=0x%x res=0x%x @dft_service.c(28),INFO" ID="0xd82000e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="set sig cmd freq=%d mode=%d switch_trx=%d @dft_service.c(40),INFO" ID="0xd8200145" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set sig cmd res=0x%x @dft_service.c(41),INFO" ID="0xd820014d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dft set vednor cmd ocf=0x%02x param_len=%d param=[ @dft_service.c(46),INFO" ID="0xd8200175" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @dft_service.c(48),INFO" ID="0xd8200185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="] @dft_service.c(50),INFO" ID="0xd8200195" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set vendor cmd res=0x%x @dft_service.c(57),INFO" ID="0xd82001cd" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="set bredr tx mode=0x%x tx_power=0x%x tx_channel=0x%x pkt_type=0x%x pkt_len=0x%x br_edr=0x%x payload=0x%x @dft_service.c(80),INFO" ID="0xd8200285" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="res=0x%x @dft_service.c(82),INFO" ID="0xd8200295" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="set bredr rx mode=0x%x rx_channel=0x%x pkt_type=0x%x pkt_len=0x%x br_edr=0x%x payload=0x%x @dft_service.c(101),INFO" ID="0xd820032d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="res=0x%x @dft_service.c(103),INFO" ID="0xd820033d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="set ble tx mode=0x%x tx_channel=0x%x pkt_type=0x%x pkt_len=0x%x tx_phy=0x%x res=0x%x @dft_service.c(121),INFO" ID="0xd82003cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="set ble rx mode=0x%x rx_channel=0x%x rx_phy=0x%x res=0x%x @dft_service.c(132),INFO" ID="0xd8200425" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="reset rx count res=0x%x @dft_service.c(139),INFO" ID="0xd820045d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read rx count res=0x%x @dft_service.c(146),INFO" ID="0xd8200495" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="recieve dft msg cmdid=0x%x opcode=0x%x para size=%d @dft_service.c(172),INFO" ID="0xd8200565" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unknown dft cmd opcode=0x%x @dft_service.c(181),WARNING" ID="0xd82005ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft cmd registered @dft_service.c(191),INFO" ID="0xd82005fd" />
+			</MSG_LOG>

@@ -1,0 +1,29 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(26),INFO" ID="0x989400d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(28),INFO" ID="0x989400e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(34),INFO" ID="0x98940115" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(36),INFO" ID="0x98940125" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(45),INFO" ID="0x9894016d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_afe_dmic_get_chan_sel Failed, Error Code: [0x%08X] @dev_afe_dmic.c(51),ERROR" ID="0x9894019a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]chan_sel = %u @dev_afe_dmic.c(54),INFO" ID="0x989401b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_afe_dmic_open Failed, Error Code: [0x%08X] @dev_afe_dmic.c(58),ERROR" ID="0x989401d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(65),INFO" ID="0x9894020d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(73),INFO" ID="0x9894024d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @dev_afe_dmic.c(77),ERROR" ID="0x9894026a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(83),INFO" ID="0x9894029d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(91),INFO" ID="0x989402dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @dev_afe_dmic.c(95),ERROR" ID="0x989402fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_afe_dmic_set_enable Failed, Error Code: [0x%08X] @dev_afe_dmic.c(101),ERROR" ID="0x9894032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(105),INFO" ID="0x9894034d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(113),INFO" ID="0x9894038d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @dev_afe_dmic.c(117),ERROR" ID="0x989403aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(123),INFO" ID="0x989403dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(131),INFO" ID="0x9894041d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @dev_afe_dmic.c(135),ERROR" ID="0x9894043a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]gain-&gt;integer = %d @dev_afe_dmic.c(141),ERROR" ID="0x9894046a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]gain-&gt;decimal = %d @dev_afe_dmic.c(142),ERROR" ID="0x98940472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(146),INFO" ID="0x98940495" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_afe_dmic.c(154),INFO" ID="0x989404d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @dev_afe_dmic.c(158),ERROR" ID="0x989404f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_afe_dmic_get_gain Failed, Error Code: [0x%08X] @dev_afe_dmic.c(164),ERROR" ID="0x98940522" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_afe_dmic.c(168),INFO" ID="0x98940545" />
+			</MSG_LOG>

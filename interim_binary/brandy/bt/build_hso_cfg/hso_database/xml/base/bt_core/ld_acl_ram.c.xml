@@ -1,0 +1,42 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][high power] high power suspend mode, linkid:%d @ld_acl_ram.c(160),INFO" ID="0x889a0505" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][RSSI] this is a noraml rssi update @ld_acl_ram.c(397),INFO" ID="0x889a0c6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][RSSI] this is a disconnect rssi update @ld_acl_ram.c(399),INFO" ID="0x889a0c7d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][RSSI]GEAR0&amp;GEAR1 info2 = %x, info3 = %x @ld_acl_ram.c(411),INFO" ID="0x889a0cdd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][RSSI]GEAR2&amp;GEAR3 info2 = %x, info3 = %x @ld_acl_ram.c(421),INFO" ID="0x889a0d2d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][RSSI]CNT SUM info2 = %x, info3 = %x @ld_acl_ram.c(429),INFO" ID="0x889a0d6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][PER] this is a noraml per update @ld_acl_ram.c(478),INFO" ID="0x889a0ef5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][PER] this is a disconnect per update @ld_acl_ram.c(480),INFO" ID="0x889a0f05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][PER]GEAR0&amp;GEAR1 info2 = %x, info3 = %x @ld_acl_ram.c(491),INFO" ID="0x889a0f5d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][PER]GEAR2&amp;GEAR3 info2 = %x, info3 = %x @ld_acl_ram.c(501),INFO" ID="0x889a0fad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][PER]CNT SUM info2 = %x, info3 = %x @ld_acl_ram.c(509),INFO" ID="0x889a0fed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][ID_NO_OK] this is a noraml id no ok update @ld_acl_ram.c(562),INFO" ID="0x889a1195" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][ID_NO_OK] this is a disconnect id no ok update @ld_acl_ram.c(564),INFO" ID="0x889a11a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][ID_NO_OK]GEAR0&amp;GEAR1 info2 = %x, info3 = %x @ld_acl_ram.c(575),INFO" ID="0x889a11fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][ID_NO_OK]GEAR2&amp;GEAR3 info2 = %x, info3 = %x @ld_acl_ram.c(585),INFO" ID="0x889a124d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][ID_NO_OK]CNT SUM info2 = %x, info3 = %x @ld_acl_ram.c(594),INFO" ID="0x889a1295" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][SCO] this is a noraml SCO update @ld_acl_ram.c(648),INFO" ID="0x889a1445" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][SCO] this is a disconnect SCO update @ld_acl_ram.c(650),INFO" ID="0x889a1455" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][SCO]GEAR0&amp;GEAR1 info2 = %x, info3 = %x @ld_acl_ram.c(661),INFO" ID="0x889a14ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][SCO]GEAR2&amp;GEAR3 info2 = %x, info3 = %x @ld_acl_ram.c(672),INFO" ID="0x889a1505" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][SCO]SUM CNT info2 = %x, info3 = %x @ld_acl_ram.c(681),INFO" ID="0x889a154d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][CHNL_RSSI] this is a noraml chnlrssi update @ld_acl_ram.c(706),INFO" ID="0x889a1615" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO][CHNL_RSSI] this is a disconnect chnlrssi update @ld_acl_ram.c(708),INFO" ID="0x889a1625" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][CHNL_RSSI]GEAR0&amp;GEAR1 info2 = %x, info3 = %x @ld_acl_ram.c(720),INFO" ID="0x889a1685" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][CHNL_RSSI]GEAR2&amp;GEAR3 info2 = %x, info3 = %x @ld_acl_ram.c(730),INFO" ID="0x889a16d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR_INFO][CHNL_RSSI]CNT SUM info2 = %x, info3 = %x @ld_acl_ram.c(738),INFO" ID="0x889a1715" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO]sco_disconnect happen @ld_acl_ram.c(801),INFO" ID="0x889a190d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR_INFO]acl_disconnect happen @ld_acl_ram.c(880),INFO" ID="0x889a1b85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ld_acl_rx_unpack]link_id=%d, rxstat=0x%x, clock=0x%x, rxheader=%d @ld_acl_ram.c(1109),INFO" ID="0x889a22ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]MAX_NB_ACTIVE_ACL &lt;= link_id, return @ld_acl_ram.c(1153),WARNING" ID="0x889a240b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ld_acl_env_evt NULL, linkid %d, cs_txrxcntl_rxthr(0x%x), lr(0x%x) @ld_acl_ram.c(1161),INFO" ID="0x889a244d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO] ld_acl_end: reason=CON_TIMEOUT, rssi=%d, rssi=%d, rssi=%d @ld_acl_ram.c(1218),INFO" ID="0x889a2615" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX_OBEX]ld_acl_data_tx, data send start, link_id[%d] @ld_acl_ram.c(1279),INFO" ID="0x889a27fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][COEX_OBEX]ld_acl_data_tx,data send stop,g_data_trans_id[%d],g_short_data_times[%d],g_obex_rate[%d],g_obex_last_rate[%d] @ld_acl_ram.c(1295),INFO" ID="0x889a287d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;TWSR:MEAR:STATE:%d @ld_acl_ram.c(1360),INFO" ID="0x889a2a85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ld_acl_evt_start_cbk1]bt_coex_abort=%d, txstatus=0x%x, bt_acl_priocntl=0x%x, coex_status=0x%x @ld_acl_ram.c(1404),INFO" ID="0x889a2be5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ld_acl_evt_start_cbk2]link_id=%d, last_sync_ts=0x%x, queue_acl_tx=%d, csprio=%d @ld_acl_ram.c(1407),INFO" ID="0x889a2bfd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ld_acl_evt_start_cbk3]clock=0x%x, ts=0x%x, last_rx_flow=%d @ld_acl_ram.c(1409),INFO" ID="0x889a2c0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set aes rx pkt as 1 @ld_acl_ram.c(1417),WARNING" ID="0x889a2c4b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]ld_acl_clk_isr, sniff trans mode, clock(0x%x)prog_clock(0x%x)last_sync_ts(0x%x)link_id(%d) @ld_acl_ram.c(1472),INFO" ID="0x889a2e05" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]ld_acl_clk_isr, sniff trans mode, new_clk_off(0x%x)new_bit_off(0x%x)rx_win_size(0x%x) @ld_acl_ram.c(1475),INFO" ID="0x889a2e1d" />
+			</MSG_LOG>

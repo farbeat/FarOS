@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @probe.c(22),INFO" ID="0x982400b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]probe_context map failed. @probe.c(28),ERROR" ID="0x982400e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @probe.c(33),INFO" ID="0x9824010d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @probe.c(39),INFO" ID="0x9824013d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @probe.c(46),INFO" ID="0x98240175" />
+			</MSG_LOG>

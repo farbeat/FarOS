@@ -1,0 +1,38 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[HID]Service cb arg is NULL! @ble_general_hid.c(61),ERROR" ID="0x8cbc01ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Get Service Tree! @ble_general_hid.c(70),INFO" ID="0x8cbc0235" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Get Service error! @ble_general_hid.c(73),ERROR" ID="0x8cbc024a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Service cb arg is NULL! @ble_general_hid.c(93),ERROR" ID="0x8cbc02ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Get Service Tree! @ble_general_hid.c(102),INFO" ID="0x8cbc0335" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Get Service error! @ble_general_hid.c(105),ERROR" ID="0x8cbc034a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Report Map character is NULL @ble_general_hid.c(176),ERROR" ID="0x8cbc0582" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Report Map character is NULL @ble_general_hid.c(223),ERROR" ID="0x8cbc06fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Report Map character is NULL @ble_general_hid.c(274),ERROR" ID="0x8cbc0892" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HID] Unknown product type:%d @ble_general_hid.c(300),WARNING" ID="0x8cbc0963" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]mouse input character is NULL @ble_general_hid.c(319),ERROR" ID="0x8cbc09fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Keyboard input character is NULL @ble_general_hid.c(340),ERROR" ID="0x8cbc0aa2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Keyboard output character is NULL @ble_general_hid.c(350),ERROR" ID="0x8cbc0af2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]HID Information character is NULL @ble_general_hid.c(368),ERROR" ID="0x8cbc0b82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Report character is NULL @ble_general_hid.c(406),ERROR" ID="0x8cbc0cb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]register HID service @ble_general_hid.c(460),INFO" ID="0x8cbc0e65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]reg HID service NULL @ble_general_hid.c(467),ERROR" ID="0x8cbc0e9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Control Point character is NULL @ble_general_hid.c(497),ERROR" ID="0x8cbc0f8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Protocol Mode character is NULL @ble_general_hid.c(506),ERROR" ID="0x8cbc0fd2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Keyboard input character is NULL @ble_general_hid.c(524),ERROR" ID="0x8cbc1062" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Keyboard output character is NULL @ble_general_hid.c(536),ERROR" ID="0x8cbc10c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Report character is NULL @ble_general_hid.c(546),ERROR" ID="0x8cbc1112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Protocol Mode character is NULL @ble_general_hid.c(561),ERROR" ID="0x8cbc118a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]register HID service @ble_general_hid.c(578),INFO" ID="0x8cbc1215" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]reg HID service NULL @ble_general_hid.c(585),ERROR" ID="0x8cbc124a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]HID Information character is NULL @ble_general_hid.c(596),ERROR" ID="0x8cbc12a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Report Map character is NULL @ble_general_hid.c(606),ERROR" ID="0x8cbc12f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Control Point character is NULL @ble_general_hid.c(618),ERROR" ID="0x8cbc1352" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]ble generalHidCore service not register @ble_general_hid.c(629),INFO" ID="0x8cbc13ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HID]Enter service changed:startHal=%d,end_hdl=%d @ble_general_hid.c(635),INFO" ID="0x8cbc13dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]SendInputReport:data is NULL @ble_general_hid.c(669),ERROR" ID="0x8cbc14ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]SendInputReport:report id error @ble_general_hid.c(675),ERROR" ID="0x8cbc151a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HID]SendInputReport:att_hdl=%d @ble_general_hid.c(678),INFO" ID="0x8cbc1535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]SendInputReport:in is NULL @ble_general_hid.c(681),ERROR" ID="0x8cbc154a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]SendInputReport:memcpy data fail @ble_general_hid.c(686),ERROR" ID="0x8cbc1572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]SendInputReport:memset addr error @ble_general_hid.c(694),ERROR" ID="0x8cbc15b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]get bdi null @ble_general_hid.c(716),ERROR" ID="0x8cbc1662" />
+			</MSG_LOG>

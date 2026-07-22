@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]freq = %u @set_freq.c(44),ERROR" ID="0x98120162" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_set_total_cps Failed, Error Code: [0x%08X] @set_freq.c(54),ERROR" ID="0x981201b2" />
+			</MSG_LOG>

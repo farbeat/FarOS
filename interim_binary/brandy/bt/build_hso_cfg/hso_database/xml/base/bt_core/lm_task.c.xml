@@ -1,0 +1,48 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][ACL][LM]lm_cmd_cmp_send opcode = 0x%0x, status = %d @lm_task.c(238),INFO" ID="0x88660775" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][ACL][LM]lm_cmd_cmp_bd_addr_send opcode = 0x%0x, status = %d @lm_task.c(259),INFO" ID="0x8866081d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LM]found saved remote name command @lm_task.c(383),INFO" ID="0x88660bfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]status = %d @lm_task.c(454),ERROR" ID="0x88660e32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LM]found saved remote name command @lm_task.c(482),INFO" ID="0x88660f15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]status = %d @lm_task.c(532),ERROR" ID="0x886610a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][param]status = %d @lm_task.c(556),WARNING" ID="0x88661163" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]status = %d @lm_task.c(608),ERROR" ID="0x88661302" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]status = %d @lm_task.c(630),ERROR" ID="0x886613b2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]LM_INFO_DUMP: BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x, LM_STATE: %d @lm_task.c(657),INFO" ID="0x8866148d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LM]LM_INFO_DUMP: KE_TASK_STATE: %d, LC_PREV_STATE: %d @lm_task.c(660),INFO" ID="0x886614a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LM]hci_create_con_cmd_handler: BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @lm_task.c(672),INFO" ID="0x88661505" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LM]hci_create_con_cmd_handler lm_env.con_info[%d].lt_addr=%d @lm_task.c(720),INFO" ID="0x88661685" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]hci_create_con_cmd_handler status = %d @lm_task.c(768),ERROR" ID="0x88661802" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LM]hci_create_con_cancel_cmd_handler: BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @lm_task.c(793),INFO" ID="0x886618cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]hci_create_con_cancel_cmd_handler: BD_ADDR is 0x%02x:*:*:*:*:0x%02x,state=%d,link_id=%d @lm_task.c(801),INFO" ID="0x8866190d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]hci_create_con_cancel_cmd_handler Param ERROR @lm_task.c(811),ERROR" ID="0x8866195a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][handle] BD_ADDR is different @lm_task.c(820),ERROR" ID="0x886619a2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LM]hci_rem_name_req_cmd_handler: BD_ADDR is 0x%02x:0x%02x:*:*:0x%02x @lm_task.c(891),INFO" ID="0x88661bdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LM]hci_rem_name_req_cmd_handler ACL_LINK_NUM:CO_ERROR_CON_LIMIT_EXCEED @lm_task.c(954),ERROR" ID="0x88661dd2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LM]hci_rem_name_req_cmd_handler lm_env.con_info[%d].lt_addr=%d @lm_task.c(962),INFO" ID="0x88661e15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LM]hci_rem_name_req_cmd lm_env.con_info[%d].lt_addr==0 CO_ERROR_CON_LIMIT_EXCEED @lm_task.c(969),ERROR" ID="0x88661e4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]hci_rem_name_req_cmd_handler status = %d @lm_task.c(975),ERROR" ID="0x88661e7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LM]hci_rem_name_req_cancel_cmd_handler:cmd param is null @lm_task.c(1000),WARNING" ID="0x88661f43" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][handle] BD_ADDR is different @lm_task.c(1009),ERROR" ID="0x88661f8a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]hci_rem_name_req_cancel_cmd_handler: link id=%d, BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @lm_task.c(1068),INFO" ID="0x88662165" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LM]hci_rem_name_req_cancel_cmd_handler, lm_env.con_info[%d].state = %d @lm_task.c(1073),INFO" ID="0x8866218d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]hci_trunc_page_cmd_handler status = %d @lm_task.c(1193),ERROR" ID="0x8866254a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]hci_trunc_page_can_cmd_handler Param ERROR @lm_task.c(1233),ERROR" ID="0x8866268a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][handle] BD_ADDR is different @lm_task.c(1240),ERROR" ID="0x886626c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hci_reset_cmd_handler @lm_task.c(1356),INFO" ID="0x88662a65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hci_wr_scan_en_cmd scan_en=%d @lm_task.c(1733),INFO" ID="0x8866362d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]hci_set_afh_host_ch_class_cmd_handler:set nbchgood = %d @lm_task.c(2142),ERROR" ID="0x886642f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][SECCON][LM]hci_rd_sec_con_host_supp_cmd_handler:sec_con_host_supp=%d @lm_task.c(2457),INFO" ID="0x88664ccd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][SECCON][LM]hci_wr_sec_con_host_supp_cmd_handler:sec_con_host_supp=%d @lm_task.c(2476),INFO" ID="0x88664d65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][SECCON][LM]write sec_con_host_supp fail, scan_en=%d, lm_get_nb_acl=%d; @lm_task.c(2479),INFO" ID="0x88664d7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][SECCON][LM]hci_rd_loc_oob_ext_data_cmd_handler @lm_task.c(2496),INFO" ID="0x88664e05" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]lm_page_end_ind_handler: link id=%d, BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @lm_task.c(3397),INFO" ID="0x88666a2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LM]lm_page_scan_end_ind_handle_stop_page same bd_addr @lm_task.c(3454),INFO" ID="0x88666bf5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]lm_page_scan_end_ind_handler: link_id=%d, state=LM_CONNECTED, BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @lm_task.c(3512),INFO" ID="0x88666dc5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LM]lm_page_scan_end_ind_handler: link id=%d, peer BD_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @lm_task.c(3533),INFO" ID="0x88666e6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LM]lm_local_pca_req_handler, master send opcode:LMP_CLK_ADJ_EXTOPCODE @lm_task.c(3642),INFO" ID="0x886671d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LM][CHNLSCAN]lm_chnl_scan_start_ind_handler:nbacl=%d @lm_task.c(3847),INFO" ID="0x8866783d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LM][CHNLSCAN]lm_chnl_scan_end_ind_handler @lm_task.c(3861),INFO" ID="0x886678ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ECC]push ecc_env end keylen [%d] @lm_task.c(3949),INFO" ID="0x88667b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]hci_wr_loopback_mode_cmd_handler:lb_mode=%d @lm_task.c(4325),INFO" ID="0x8866872d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ECC]push ecc_env end keylen [%d] @lm_task.c(4365),INFO" ID="0x8866886d" />
+			</MSG_LOG>

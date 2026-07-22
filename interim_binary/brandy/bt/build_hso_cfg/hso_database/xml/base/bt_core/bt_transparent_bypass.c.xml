@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="BTS_TRANS_BYPASS data NULL @bt_transparent_bypass.c(20),ERROR" ID="0x8de400a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Controller|[%d]:0x%02x @bt_transparent_bypass.c(24),INFO" ID="0x8de400c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BypassMode = 0x%x @bt_transparent_bypass.c(35),INFO" ID="0x8de4011d" />
+			</MSG_LOG>

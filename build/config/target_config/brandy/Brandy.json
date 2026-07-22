@@ -1,0 +1,296 @@
+{
+
+	"chipName": "brandy",
+
+	"seriesName": "cfbb",
+
+	"board": "brandy",
+
+	"compile": {
+
+		"custom_build_command": "brandy-mcu-bt",
+
+		"tool_chain": [
+
+			"cc_riscv32_musl_fp_win"
+
+		],
+
+		"map_path": "./output/brandy/acore/brandy-mcu-bt/application.map"
+
+	},
+
+	"debug": {
+
+		"elf_path": "./output/brandy/acore/brandy-mcu-bt/application.elf",
+
+		"breakpoints_limitation": "3",
+
+		"stop_debug_state": "continue",
+
+		"client": [
+
+			"gdb"
+
+		],
+
+		"entry_point": "app_main",
+
+		"tool": [
+
+			"jlink"
+
+		],
+
+		"params": [
+
+			{
+
+				"name": "jlink",
+
+				"param": {
+
+					"interface": [
+
+						"swd",
+
+						"jtag"
+
+					],
+
+					"speed": "5000",
+
+					"port": "3333"
+
+				}
+
+			}
+
+		],
+
+		"timeout_list": [
+
+			"15000",
+
+			"30000",
+
+			"60000",
+
+			"120000",
+
+			"-1"
+
+		],
+
+		"timeout_default": "60000"
+
+	},
+
+	"upload": {
+
+		"bin_path": "./tools/pkg/fwpkg/brandy/upload_app.fwpkg",
+
+		"reset": 1,
+
+		"burn_verification": 0,
+
+		"protocol": [
+
+			"serial"
+
+		],
+
+		"baudList": ["2400", "4800", "9600", "19200", "38400", "57600", "115200", "230400", "460800",
+
+		"500000", "750000", "921600", "2000000"],
+
+		"params": [
+
+			{
+
+				"name": "serial",
+
+				"param": {
+
+					"port": "",
+
+					"baud": "921600",
+
+					"stop_bit": "0",
+
+					"parity": "N",
+
+					"inside_protocol": "3x"
+
+				}
+
+			}
+
+		]
+
+	},
+
+	"need_sdk": true,
+
+	"need_project_path": true,
+
+	"chip_config": false,
+
+	"variabletrace": false,
+
+	"platform": "cfbb",
+
+	"project_type": [
+
+		{
+
+			"name": "cfbb",
+
+			"base_on_sdk": true
+
+		}
+
+	],
+
+	"analysis": {
+
+		"elf_path": "./output/brandy/acore/brandy-mcu-bt/application.elf",
+
+		"map_path": "./output/brandy/acore/brandy-mcu-bt/application.map",
+
+		"tool_path": "./tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/riscv32"
+
+	},
+
+	"target_default": "brandy-mcu-bt",
+
+	"target": {
+
+		"Brandy": {
+
+			"brandy-ssb": {
+
+				"cmake": {
+
+					"build": {
+
+						"build_argv": "brandy-ssb"
+
+					},
+
+					"stack analysis": {
+
+						"analysis_compiler_path": "./tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/riscv32"
+
+					},
+
+					"image analysis": {
+
+						"analysis_elf_path": "./output/brandy/acore/brandy-ssb/ssb.elf",
+
+						"analysis_map_path": "./output/brandy/acore/brandy-ssb/ssb.map"
+
+					},
+
+					"upload": {
+
+						"upload_partitions": "./tools/pkg/fwpkg/brandy/upload_app.fwpkg"
+
+					},
+
+					"chip config": {
+
+						"board_build.mcu": "brandy"
+
+					}
+
+				}
+
+			},
+
+			"brandy-mcu-bt": {
+
+				"cmake": {
+
+					"build": {
+
+						"build_argv": "brandy-mcu-bt"
+
+					},
+
+					"stack analysis": {
+
+						"analysis_compiler_path": "./tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/riscv32"
+
+					},
+
+					"image analysis": {
+
+						"analysis_elf_path": "./output/brandy/acore/brandy-mcu-bt/application.elf",
+
+						"analysis_map_path": "./output/brandy/acore/brandy-mcu-bt/application.map"
+
+					},
+
+					"upload": {
+
+						"upload_partitions": "./tools/pkg/fwpkg/brandy/upload_app.fwpkg"
+
+					},
+
+					"chip config": {
+
+						"board_build.mcu": "brandy"
+
+					}
+
+				}
+
+			},
+
+			"brandy-mcu-bt-r": {
+
+				"cmake": {
+
+					"build": {
+
+						"build_argv": "brandy-mcu-bt-r"
+
+					},
+
+					"stack analysis": {
+
+						"analysis_compiler_path": "./tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/riscv32"
+
+					},
+
+					"image analysis": {
+
+						"analysis_elf_path": "./output/brandy/acore/brandy-mcu-bt-r/recovery.elf",
+
+						"analysis_map_path": "./output/brandy/acore/brandy-mcu-bt-r/recovery.map"
+
+					},
+
+					"upload": {
+
+						"upload_partitions": "./tools/pkg/fwpkg/brandy/upload_app.fwpkg"
+
+					},
+
+					"chip config": {
+
+						"board_build.mcu": "brandy"
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+

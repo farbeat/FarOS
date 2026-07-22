@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @xa_resample.c(49),ERROR" ID="0x9898018a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]cmd = 0x%08X @xa_resample.c(50),ERROR" ID="0x98980192" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]idx = 0x%08X @xa_resample.c(51),ERROR" ID="0x9898019a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @xa_resample.c(90),INFO" ID="0x989802d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @xa_resample.c(95),ERROR" ID="0x989802fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @xa_resample.c(107),ERROR" ID="0x9898035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @xa_resample.c(115),INFO" ID="0x9898039d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @xa_resample.c(185),INFO" ID="0x989805cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inst-&gt;mem_num = %u @xa_resample.c(221),INFO" ID="0x989806ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inst-&gt;mem_size = %u @xa_resample.c(222),INFO" ID="0x989806f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @xa_resample.c(224),INFO" ID="0x98980705" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @xa_resample.c(230),INFO" ID="0x98980735" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;pcm_samples = %u @xa_resample.c(259),ERROR" ID="0x9898081a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]MAX_INPUT_CHUNK_LEN = %u @xa_resample.c(260),ERROR" ID="0x98980822" />
+			</MSG_LOG>

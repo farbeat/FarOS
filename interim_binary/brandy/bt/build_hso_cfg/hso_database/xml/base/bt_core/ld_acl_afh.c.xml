@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LD]ld_acl_afh_update:link_id=%d, mode=%d, clock=0x%0x, nbchgood=%d @ld_acl_afh.c(72),INFO" ID="0x89fc0245" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LD]ld_acl_afh_update:ch_map=0x%8x,%8x,%4x @ld_acl_afh.c(80),INFO" ID="0x89fc0285" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LD]ld_acl_afh_chmap_remove:rm_cnt=%d, nbchgood=%d @ld_acl_afh.c(127),INFO" ID="0x89fc03fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_afh_chmap_add:add_cnt=%d @ld_acl_afh.c(189),WARNING" ID="0x89fc05eb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LD]ld_acl_afh_switch_on_cbk:in state=%d, mode=%d, clock=0x%0x, afh_recovery_mode=%d @ld_acl_afh.c(229),INFO" ID="0x89fc072d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO] AFH takes effect during RSW TDD @ld_acl_afh.c(283),INFO" ID="0x89fc08dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AFH]acl_par-&gt;acl_retransmit_pkt_count=%d, freq_id=%d, clock=0x%x @ld_acl_afh.c(397),INFO" ID="0x89fc0c6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD]hssi&gt;MAX_SLOT_CLOCK @ld_acl_afh.c(462),INFO" ID="0x89fc0e75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param] acl_par-&gt;role = %d @ld_acl_afh.c(488),ERROR" ID="0x89fc0f42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_acl_afh_prepare:Memory copy is error @ld_acl_afh.c(568),WARNING" ID="0x89fc11c3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]ld_acl_afh_prepare:acl_par-&gt;role = %d @ld_acl_afh.c(578),ERROR" ID="0x89fc1212" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LD]ld_acl_afh_prepare:afh_recovery_mode=%d, afh_instant=0x%0x, clock = 0x%0x @ld_acl_afh.c(588),INFO" ID="0x89fc1265" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ld_acl_afh_prepare:set afh alarm fail @ld_acl_afh.c(600),ERROR" ID="0x89fc12c2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][AFH]ld_acl_afh_confirm afh_state=%d, acl_mode=%d, afh_recovery_mode=%d, clock=0x%0x @ld_acl_afh.c(630),INFO" ID="0x89fc13b5" />
+			</MSG_LOG>

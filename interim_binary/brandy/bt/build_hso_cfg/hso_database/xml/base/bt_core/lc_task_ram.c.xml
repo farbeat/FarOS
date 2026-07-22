@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][high power] enable on linkid:%d, last_rx_err_pkt:%d, rssi_delta:%d, time:0x%x @lc_task_ram.c(1392),INFO" ID="0x8a482b85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][high power] disable on linkid:%d, last_rx_err_pkt:%d, rssi_delta:%d, time:0x%x @lc_task_ram.c(1402),INFO" ID="0x8a482bd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lmp_encaps_payl_handler:sp fail in LC_WAIT_PUB_KEY_PAYLOAD_RSP_PEER @lc_task_ram.c(1702),INFO" ID="0x8a483535" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lc_sp_update_key:btstate = %d @lc_task_ram.c(1825),INFO" ID="0x8a48390d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lc_sp_update_key:lm_ecc_gen_new_key return = %d @lc_task_ram.c(1836),INFO" ID="0x8a483965" />
+			</MSG_LOG>

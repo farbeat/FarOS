@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[diff_sched_prog illegal] diff_sched_prog=%d timestamp=%d, rx_win_size=%d, last_sync=%d @ld_acl_sniff_ram.c(101),WARNING" ID="0x8a0a032b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]ld_acl_sniff_evt_start_cbk:cs_idx = %d, att_nb = %d @ld_acl_sniff_ram.c(151),ERROR" ID="0x8a0a04ba" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_sniff_evt_start_cbk clock(0x%x)prog_clock(0x%x)last_sync_ts(0x%x)link_id(%d) @ld_acl_sniff_ram.c(183),INFO" ID="0x8a0a05bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_sniff_evt_start_cbk new_clk_off(0x%x)new_bit_off(%d)rx_win_size(%d)sched_att(%d) @ld_acl_sniff_ram.c(185),INFO" ID="0x8a0a05cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_sniff_evt_start_cbk last_anchr_rxstat(0x%x)last_anchor_rxch(%d)last_anchr_rxssi(%d)et_prio(%d) @ld_acl_sniff_ram.c(189),INFO" ID="0x8a0a05ed" />
+			</MSG_LOG>

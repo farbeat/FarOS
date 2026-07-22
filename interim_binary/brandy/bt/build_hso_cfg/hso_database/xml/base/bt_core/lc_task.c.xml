@@ -1,0 +1,73 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lm_get_auth_method:SP_OOB @lc_task.c(437),INFO" ID="0x887a0dad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lm_get_auth_method:SP_JUST_WORKS @lc_task.c(443),INFO" ID="0x887a0ddd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lm_get_auth_method:0x%x @lc_task.c(447),INFO" ID="0x887a0dfd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="LC_COMPUTE_DHKEY_START @lc_task.c(663),INFO" ID="0x887a14bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Nb of comp pkt is zero[conhdl = 0x%x, LR = 0x%x] @lc_task.c(743),ERROR" ID="0x887a173a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][ERROR]hci_qos_setup_cmd_handler, current state=%d @lc_task.c(1708),ERROR" ID="0x887a3562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][WARNING]hci_qos_setup_cmd_handler, unexpected status =%d @lc_task.c(1739),WARNING" ID="0x887a365b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[[INFO][LC]] hci_auth_req_status_handler, status = CO_ERROR_LMP_COLLISION @lc_task.c(1765),INFO" ID="0x887a372d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lc_auth_req_cmd_handler:default, state=%d @lc_task.c(1784),INFO" ID="0x887a37c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]wr_link_supv_to current state=%d @lc_task.c(1866),INFO" ID="0x887a3a55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hci_wr_link_pol_stg_cmd link_policy=%d @lc_task.c(2358),INFO" ID="0x887a49b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LC]hci_reject_sync_con_req_cmd_handler, idx[%d], CurPacketType[0x%x], max_slot[%d], min_sync_intv[%d] @lc_task.c(3068),INFO" ID="0x887a5fe5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sear_acl_data_tx_abort @lc_task.c(3884),WARNING" ID="0x887a7963" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]tr_ID of LMP_AURAND is not the same as role: %d. @lc_task.c(5669),INFO" ID="0x887ab12d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="the bd addr of peer is 0x%2x:*:*:*:0x%2x:0x%2x, link id %d @lc_task.c(5916),INFO" ID="0x887ab8e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="print link key @lc_task.c(5988),INFO" ID="0x887abb25" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LMP]lmp_stop_enc_req_handler:Role = %d, Initiator = %d, RxTrIdServer = %d @lc_task.c(6488),INFO" ID="0x887acac5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC_TASK]epr.on=%d, epr.rswerror=%d @lc_task.c(6569),INFO" ID="0x887acd4d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][SNIFF]LocSniffReq=%d tr_id=%d Role=%d RxTrIdServer=%d @lc_task.c(6641),WARNING" ID="0x887acf8b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][CQDDR]CurPacketType=0x%x, TxPreferredRate=0x%x, RxPreferredRate=0x%x @lc_task.c(6786),INFO" ID="0x887ad415" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lmp_qos_handler:retcode=0x%x @lc_task.c(6985),INFO" ID="0x887ada4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]lmp_host_con_req_handler:LMP not ACC :link_id=%d @lc_task.c(7312),WARNING" ID="0x887ae483" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LC]lmp_set_afh_handler:nbchgood %d less than 20 @lc_task.c(7666),WARNING" ID="0x887aef93" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LC]lmp_set_afh_handler:afh_en=%d, instant=0x%0x, clk=0x%0x, nbchgood=%d @lc_task.c(7695),INFO" ID="0x887af07d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lmp_encaps_payl_handler:lc_dhkey_computation_start fail @lc_task.c(7848),INFO" ID="0x887af545" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lmp_encaps_payl_handler:lc_dhkey_computation_start fail @lc_task.c(7936),INFO" ID="0x887af805" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lmp_dhkey_chk_handler:fail in %d state @lc_task.c(8436),INFO" ID="0x887b07a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LC]HCI_ROLE_CHG_EVT:reason=%d, role=%d @lc_task.c(8684),INFO" ID="0x887b0f65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BT]lmp_feats_req_ext_handler pg_nb %d @lc_task.c(8946),ERROR" ID="0x887b1792" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][BT]lmp_feats_req_ext_handler:lc_env_ptr-&gt;sp.sec_con=%d @lc_task.c(8967),INFO" ID="0x887b183d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BT]lmp_feats_ext_res_handler pg_nb=%d @lc_task.c(8991),ERROR" ID="0x887b18fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][BT]lmp_feats_res_ext_handler:lc_env_ptr-&gt;sp.sec_con=%d @lc_task.c(9045),INFO" ID="0x887b1aad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][recv_esco_req] Desco=0x%x, NegoState=0x%x, air_mode=0x%x @lc_task.c(9173),INFO" ID="0x887b1ead" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][eSCO] esco_lt_addr=0x%x, m2s_pkt_type=0x%x, s2m_pkt_type=0x%x, air_mode=0x%x @lc_task.c(9215),INFO" ID="0x887b1ffd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][eSCO] Tesco=0x%x, Desco=0x%x, Wesco=0x%x, LT_addr=0x%x @lc_task.c(9217),INFO" ID="0x887b200d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]lmp_ch_class_handler:param nbchgood = %d @lc_task.c(9311),INFO" ID="0x887b22fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lc_acl_rx_ind_handler:free acl rx buffer in disconnecting @lc_task.c(10389),INFO" ID="0x887b44ad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lc acl disc, link id %d, peer addr:0x%02x:0x%02x:*:*:*:0x%02x @lc_task.c(10658),INFO" ID="0x887b4d15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LC]HCI_ROLE_CHG_EVT:reason=%d, role=%d @lc_task.c(11400),INFO" ID="0x887b6445" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][SAVED][lc_op_loc_sync_con_req_handler] ACL data should be earlier than lmp sco req @lc_task.c(11414),INFO" ID="0x887b64b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC] lc_op_enc_ind_handler(Consume LC_OP_ENC_IND), enc_mode=0x%x, loc_enc_req=%d @lc_task.c(11547),INFO" ID="0x887b68dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_op_detach_ind_handler:linkid=%d, sup_timeout=0x%x @lc_task.c(11913),INFO" ID="0x887b744d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lc_lmp_rsp_to_chnl_cls_handler txdescptr=0x%x, next_ptr=%d, txhdr=0x%x, txphdr=0x%x @lc_task.c(12795),ERROR" ID="0x887b8fda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_TASK]invalid orig_opcode=%d @lc_task.c(13457),INFO" ID="0x887ba48d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_TASK]invalid orig_opcode=%d @lc_task.c(13652),INFO" ID="0x887baaa5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC_TASK]invalid orig_opcode=%d, reason=%d @lc_task.c(13678),INFO" ID="0x887bab75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LC]invalid orig_ext_opcode=%d @lc_task.c(13885),WARNING" ID="0x887bb1eb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LC]invalid orig_ext_opcode=%d @lc_task.c(13895),WARNING" ID="0x887bb23b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LC]unhandled orig_ext_opcode=%d in state=%d @lc_task.c(13940),WARNING" ID="0x887bb3a3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LC]invalid orig ext opcode=%d, reson=%d @lc_task.c(13965),WARNING" ID="0x887bb46b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LC]unhandled, state=%d, orig_esc_opcode=%d @lc_task.c(14069),WARNING" ID="0x887bb7ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][CQDDR]Don't increase the rate because UHD. @lc_task.c(14344),INFO" ID="0x887bc045" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][CQDDR]new_rate=%d, TxPreferredRate=%d @lc_task.c(14350),INFO" ID="0x887bc075" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][COEX]lc_qos_slv_chg_handler, param-&gt;min_poll[%d] @lc_task.c(14387),WARNING" ID="0x887bc19b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;rekey-&gt;MEMCPY FAIL @lc_task.c(14476),ERROR" ID="0x887bc462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;rekey-&gt;MEMCPY FAIL @lc_task.c(14481),ERROR" ID="0x887bc48a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;rekey-&gt;SLAVE SYNC ENC:%d @lc_task.c(14484),WARNING" ID="0x887bc4a3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;rekey-&gt;WAIT_SEQN_SYNC @lc_task.c(14487),WARNING" ID="0x887bc4bb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]lc_sco_peer_reject_disc_trans_coll:idx=0x%x, reason=0x%x @lc_task.c(14585),INFO" ID="0x887bc7cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]lmp_set_a2dp_rate_to_host:id=0x%x, prefer_length=%d @lc_task.c(14627),INFO" ID="0x887bc91d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]enter lmp_incr_pwr_req_handler @lc_task.c(14639),INFO" ID="0x887bc97d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]enter lmp_decr_pwr_req_handler @lc_task.c(14667),INFO" ID="0x887bca5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]enter lmp_pwr_ctrl_req_handler @lc_task.c(14711),INFO" ID="0x887bcbbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llc_ble_link_conflict_sniff_or_not ea intv is null:LINK ID = %d @lc_task.c(15418),ERROR" ID="0x887be1d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO]ea intv is 0 @lc_task.c(15427),ERROR" ID="0x887be21a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO]intv don't check offset @lc_task.c(15432),INFO" ID="0x887be245" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]lc_sniff_link_check:sniff_offset=%d,new_intv_offset=%d,linkid=%d @lc_task.c(15439),INFO" ID="0x887be27d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]lc_sniff_link_check:conflict=%d @lc_task.c(15457),INFO" ID="0x887be30d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lc_sp_encap_payl_req_handler invalid state:%d @lc_task.c(15524),WARNING" ID="0x887be523" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lc_sco_set_voice_codec, coding_format=%d, sample_rate=%d @lc_task.c(15568),INFO" ID="0x887be685" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lc_sco_set_voice_codec_enh, coding_format=%d, sample_rate=%d @lc_task.c(15600),INFO" ID="0x887be785" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lc_sco_set_voice_codec, coding_format=%d, sample_rate=%d @lc_task.c(15613),INFO" ID="0x887be7ed" />
+			</MSG_LOG>

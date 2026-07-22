@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="invalid input parameters @js_ability_impl.cpp(35),ERROR" ID="0xe0c4011a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already initialized, return @js_ability_impl.cpp(40),ERROR" ID="0xe0c40142" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="relocate js file failed @js_ability_impl.cpp(62),ERROR" ID="0xe0c401f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc router heap memory failed. @js_ability_impl.cpp(77),ERROR" ID="0xe0c4026a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no router instance to perform the show request @js_ability_impl.cpp(137),ERROR" ID="0xe0c4044a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no router instance to perform the hide request @js_ability_impl.cpp(146),ERROR" ID="0xe0c40492" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="view model is undefined when call user's init @js_ability_impl.cpp(166),ERROR" ID="0xe0c40532" />
+			</MSG_LOG>

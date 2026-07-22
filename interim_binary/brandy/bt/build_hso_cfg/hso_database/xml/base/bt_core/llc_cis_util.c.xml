@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][CIS]llc_env_ptr or cis_param is null @llc_cis_util.c(59),WARNING" ID="0x89ce01db" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sdu_interval_m2s1=%d, sdu_interval_m2s2=%d, sdu_interval_m2s3=%d @llc_cis_util.c(88),INFO" ID="0x89ce02c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sdu_interval_s2m1=%d, sdu_interval_s2m2=%d, sdu_interval_s2m3=%d @llc_cis_util.c(90),INFO" ID="0x89ce02d5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="packing=%d, framing=%d, max_tx_latency_m2s=%d, max_tx_latency_s2m=%d @llc_cis_util.c(93),INFO" ID="0x89ce02ed" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="slaves_clock_acc=%d, cis_count=%d, cis_id=%d @llc_cis_util.c(95),INFO" ID="0x89ce02fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="max_sdu_m2s=%d, max_sdu_s2m=%d, phy_m2s=%d, phy_s2m=%d @llc_cis_util.c(97),INFO" ID="0x89ce030d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ft_m2s=%d, ft_s2m=%d, cig_id=%d @llc_cis_util.c(99),INFO" ID="0x89ce031d" />
+			</MSG_LOG>

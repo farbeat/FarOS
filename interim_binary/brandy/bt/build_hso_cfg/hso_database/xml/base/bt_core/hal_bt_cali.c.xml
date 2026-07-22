@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[TX PWR DYN] V I Converted to mV Vdet is %d Idet is %d @hal_bt_cali.c(121),INFO" ID="0x88f403cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[TX PWR DYN] V I DC removeded, Vdet is %d Idet is %d @hal_bt_cali.c(125),INFO" ID="0x88f403ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DYN]TXPWR CALI ERR!  @hal_bt_cali.c(129),ERROR" ID="0x88f4040a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[TX PWR DYN] tx pwr dyn cali enable and config @hal_bt_cali.c(139),INFO" ID="0x88f4045d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DYN]Pref is %d Pdet is %d @hal_bt_cali.c(169),INFO" ID="0x88f4054d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[TX PWR DYN] BT_tx_pwr_dyn_cali_process No Adjust @hal_bt_cali.c(176),INFO" ID="0x88f40585" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[TX PWR DYN] Adjust TX_PWR_upccode_delta = %d,n @hal_bt_cali.c(179),INFO" ID="0x88f4059d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[TX PWR DYN]freq_rpt is %d pwr_rpt is %d mode_rpt is %d  @hal_bt_cali.c(199),INFO" ID="0x88f4063d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[TX PWR DYN] DYN tx power length is %d, accum times is %d @hal_bt_cali.c(210),INFO" ID="0x88f40695" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CALI]bt_rf_cali_get_accu_avg_mv: flag %d, I pointer is NULL @hal_bt_cali.c(356),ERROR" ID="0x88f40b22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CALI]bt_rf_cali_get_accu_avg_mv: flag %d, Q pointer is NULL @hal_bt_cali.c(371),ERROR" ID="0x88f40b9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CALI]bt_rf_cali_get_accu_avg_mv: flag %d, I pointer is NULL @hal_bt_cali.c(406),ERROR" ID="0x88f40cb2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CALI]bt_rf_cali_get_accu_avg_mv: flag %d, Q pointer is NULL @hal_bt_cali.c(420),ERROR" ID="0x88f40d22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="TXPWR CALI ERR!  @hal_bt_cali.c(493),ERROR" ID="0x88f40f6a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[TXPOWER_CALI]code = %x, ul_cur_abs = %d, p_det = %d, p_ref = %d @hal_bt_cali.c(503),INFO" ID="0x88f40fbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[2ND_HARMONIC_CALI]code = %x, s_cur_abs_val = %d, Vdcc_value = %d, s_pdet_ref = %d @hal_bt_cali.c(556),INFO" ID="0x88f41165" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][bt_adpll_start_tx]freq=%d mode=%d @hal_bt_cali.c(1240),ERROR" ID="0x88f426c2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LNASATDET_CALI][course]ul_vdet_cur = %d, l_vdet = %d, l_voffset = %d, reg61 = %x @hal_bt_cali.c(1441),INFO" ID="0x88f42d0d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LNASATDET_CALI][course_flag]ul_vdet_cur = %d, l_vdet = %d, l_voffset = %d, reg61 = %x @hal_bt_cali.c(1455),INFO" ID="0x88f42d7d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LNASATDET_CALI][course+1]ul_vdet_cur = %d, l_vdet = %d, l_voffset = %d, reg61 = %x @hal_bt_cali.c(1467),INFO" ID="0x88f42ddd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LNASATDET_CALI][check]ul_vdet_cur = %d, l_vdet = %d, l_voffset = %d, reg61 = %x @hal_bt_cali.c(1486),INFO" ID="0x88f42e75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LNASATDET_CALI][fine]ul_vdet_cur = %d, l_vdet = %d, l_voffset = %d, reg61 = %x @hal_bt_cali.c(1506),INFO" ID="0x88f42f15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ANTENNA] SWITCH TO BT @hal_bt_cali.c(1683),INFO" ID="0x88f4349d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ANTENNA] SWITCH TO WIFI @hal_bt_cali.c(1687),INFO" ID="0x88f434bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="WRONG SWITCH MODE %d INPUT @hal_bt_cali.c(1690),WARNING" ID="0x88f434d3" />
+			</MSG_LOG>

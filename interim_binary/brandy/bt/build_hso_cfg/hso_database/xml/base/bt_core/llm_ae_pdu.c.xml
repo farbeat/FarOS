@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLM]llm_ext_adv_syncinfo_get:extheader_flag[0x%x],syncinfo0[0x%x],syncinfo0[0x%x],syncinfo0[0x%x] @llm_ae_pdu.c(251),INFO" ID="0x884a07dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][AE]llm_ext_adv_heap_old_data_process:count=%, CNT = %d @llm_ae_pdu.c(572),ERROR" ID="0x884a11e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][AE]llm_ext_adv_delete_second_group_data:count=%, CNT = %d @llm_ae_pdu.c(621),ERROR" ID="0x884a136a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]llm_ext_adv_evt_end_data_process:adv_handle_id not exit @llm_ae_pdu.c(856),WARNING" ID="0x884a1ac3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][AE]llm_ext_adv_evt_end_elt_process:elt_node = 0x%x, elt_node-&gt;elt=0x%x @llm_ae_pdu.c(933),WARNING" ID="0x884a1d2b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]llm_ext_adv_evt_end_elt_process:elt_to_free is NULL @llm_ae_pdu.c(944),WARNING" ID="0x884a1d83" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]llm_ext_adv_evt_end_elt_process:nothing to release @llm_ae_pdu.c(952),WARNING" ID="0x884a1dc3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][AE]llm_ae_adv_elt_del:count=%, CNT = %d @llm_ae_pdu.c(1527),ERROR" ID="0x884a2fba" />
+			</MSG_LOG>

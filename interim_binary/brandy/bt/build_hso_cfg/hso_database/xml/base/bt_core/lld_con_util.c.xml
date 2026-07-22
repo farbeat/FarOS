@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][lld_util_ble_test_channel_calc] nbgood is 0 @lld_con_util.c(265),ERROR" ID="0x8982084a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD]lld_util_eff_tx_time_set:max_tx_time=%d, max_tx_size=%d @lld_con_util.c(382),INFO" ID="0x89820bf5" />
+			</MSG_LOG>

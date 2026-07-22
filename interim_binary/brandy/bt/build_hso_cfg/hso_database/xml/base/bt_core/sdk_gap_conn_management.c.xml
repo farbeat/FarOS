@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="btsdk_is_device_connected hdl:0x%x status:%d @sdk_gap_conn_management.c(613),INFO" ID="0x8b82132d" />
+			</MSG_LOG>

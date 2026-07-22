@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LD]ld_sco_env[sco_link_id].evt != NULL, nb_prog=%d @ld_sco_ram.c(99),ERROR" ID="0x8a08031a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD]ld_sco_env[sco_link_id].evt ALLOC FAIL @ld_sco_ram.c(109),ERROR" ID="0x8a08036a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][param]ld_sco_start:rxind=%d, txind=%d @ld_sco_ram.c(140),ERROR" ID="0x8a080462" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ESCO]esco start clock is 0x%x, initial daycounter=%d, sco_link_id=%d @ld_sco_ram.c(187),WARNING" ID="0x8a0805db" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][ACL]ld_sco_start:wbs_enabled=%d @ld_sco_ram.c(211),INFO" ID="0x8a08069d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ESCO]daycounter rolls over 0, daycounter is %d @ld_sco_ram.c(341),WARNING" ID="0x8a080aab" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SCO]ld_sco_evt_start_cbk ld_acl_env[%d].evt=NULL! @ld_sco_ram.c(381),WARNING" ID="0x8a080beb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LD][SCO][ERROR]start sco tog fail @ld_sco_ram.c(522),ERROR" ID="0x8a081052" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="sco start sco_linkid=%d, tog start slotcnt=0x%x, finecnt=%d, clock=0x%x @ld_sco_ram.c(533),INFO" ID="0x8a0810ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING]:tog clk info:num=%d,last_clk=%d,cur_clk=%d @ld_sco_ram.c(546),WARNING" ID="0x8a081113" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]ld_fill_packet_buffer_and_send:seq_num=%d,clock=%d @ld_sco_ram.c(551),INFO" ID="0x8a08113d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]btc2dsp put buffer fail, reason = 0x%08X @ld_sco_ram.c(572),ERROR" ID="0x8a0811e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]invalid sco point! @ld_sco_ram.c(597),ERROR" ID="0x8a0812aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]btc2dsp get buffer fail, reason = 0x%08X @ld_sco_ram.c(609),ERROR" ID="0x8a08130a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]error in memcpy_s for DSP transmit, ret = %d @ld_sco_ram.c(615),ERROR" ID="0x8a08133a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]btc2dsp put buffer fail, reason = 0x%08X @ld_sco_ram.c(628),ERROR" ID="0x8a0813a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid sco link id. @ld_sco_ram.c(659),WARNING" ID="0x8a08149b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] sco rx status:total=%d, bad=%d, dsp_send_uneven=%d, bitoff_drift=%d @ld_sco_ram.c(746),INFO" ID="0x8a081755" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO] sco rx status:per=%d @ld_sco_ram.c(749),INFO" ID="0x8a08176d" />
+			</MSG_LOG>

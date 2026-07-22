@@ -1,0 +1,50 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[ICO_ACL] ble insert ON, counter_forward=%d, ts=%d, fcn=%d, rxwin=%d @lld_iso_evt.c(125),INFO" ID="0x885003ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO_ACL] lld_evt_ico_master_related_acl_update, acl_elt-&gt;timestamp=%d, ico_timestamp=%d @lld_iso_evt.c(168),INFO" ID="0x88500545" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO_ACL] lld_evt_ico_master_related_acl_update, now=%d, acl_count=%d @lld_iso_evt.c(171),INFO" ID="0x8850055d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO_ACL] lld_evt_ico_slave_related_acl_update, acl_syncp_timestamp=%d, acl_syncp_point=%d @lld_iso_evt.c(216),INFO" ID="0x885006c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO_ACL] lld_evt_ico_slave_related_acl_update, last_sync_event_counter=%d, offset=%d @lld_iso_evt.c(219),INFO" ID="0x885006dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_evt_update_ico_duration_min:ELT IS NULL @lld_iso_evt.c(335),ERROR" ID="0x88500a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD][ICO]primary second switch elt success! @lld_iso_evt.c(394),INFO" ID="0x88500c55" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]lld_evt_ico_master_restart_next_interval, conhdl=%d, next_counter=%d, ts=%d, duration_min=%d @lld_iso_evt.c(432),INFO" ID="0x88500d85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]MST NO_RESTART @lld_iso_evt.c(444),INFO" ID="0x88500de5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO] lld_evt_ico_slave_restart, past_anchor_ts:%d, finetime=%d, rx_win:%d, next_event_counter=%d @lld_iso_evt.c(539),INFO" ID="0x885010dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ICO]primary_conhdl is enable again next_conhdl=%d @lld_iso_evt.c(620),INFO" ID="0x88501365" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]lld_ico_primary_channel_start Fail @lld_iso_evt.c(685),ERROR" ID="0x8850156a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]lld_ico_primary_channel_start ts=%d, dur_min=%d, ico_conhdl=%d @lld_iso_evt.c(705),INFO" ID="0x8850160d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]channel 0 last_conhdl=%d, curr_cs is 0x%x, current_conhdl is %d @lld_iso_evt.c(718),INFO" ID="0x88501675" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]lld_ico_second_channel_start ts=%d,dur_min=%d,ico_conhdl=%d @lld_iso_evt.c(760),INFO" ID="0x885017c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]link ico cs last_conhdl=%d, curr_cs is 0x%x, current_conhdl is %d @lld_iso_evt.c(776),INFO" ID="0x88501845" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]lld_ico_second_channel_start Fail @lld_iso_evt.c(791),ERROR" ID="0x885018ba" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO] lld_evt_ico_schedule: conhdl=%d, cs_processed_nepn =0x%04x, rem_subevtnum=%d, RXmax=%d @lld_iso_evt.c(967),INFO" ID="0x88501e3d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]lld_evt_ico_schedule:conhdl=%d, cs_processed_nepn_pn=0x%04x, rem_subevtnum=%d, conflict=%d @lld_iso_evt.c(972),INFO" ID="0x88501e65" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO] TXmin=%d, RXmin=%d, txccmpktcnt:%d, rxccmpktcnt=%d @lld_iso_evt.c(976),INFO" ID="0x88501e85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]ico cancel ble:cancel_nb=%d,prio=%d,empty_nb=%d,elt=0x%x @lld_iso_evt.c(1153),INFO" ID="0x8850240d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_ico_stop:mode=%d,cancel_nb=%d,next_prio=%d,ico_prio=%d @lld_iso_evt.c(1180),INFO" ID="0x885024e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lld_evt_ico_stop:ea_cb_start=%x @lld_iso_evt.c(1182),INFO" ID="0x885024f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]lld_ico_gfsk_demod_mode_set: ico conhdl=0x%x, gfsk mode=0x%x @lld_iso_evt.c(1243),INFO" ID="0x885026dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]ACL AES ENC is Active @lld_iso_evt.c(1304),INFO" ID="0x885028c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]ACL AES ENC is InActive @lld_iso_evt.c(1320),INFO" ID="0x88502945" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AUTORATE]lld_evt_ico_instant:instant=%d passed!, evt_counter=%d @lld_iso_evt.c(1346),INFO" ID="0x88502a15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AUTORATE] lld_evt_ico_instant: LLD_UTIL_ICO_PHY_UPDATE @lld_iso_evt.c(1348),INFO" ID="0x88502a25" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]DIV_ZERO. lld_evt_check_ico_reinsert_flush: bn_tx = %d, bn_rx = %d @lld_iso_evt.c(1447),ERROR" ID="0x88502d3a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]DIV_ZERO. lld_evt_check_ico_reinsert_flush: min_tries_tx = %d, min_tries_rx = %d @lld_iso_evt.c(1457),ERROR" ID="0x88502d8a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_ico_elt_reinsert, conhdl=%d, tx_min_pldnum=%d, max_packets_can_be_send=%d, subevent_left=%d @lld_iso_evt.c(1470),INFO" ID="0x88502df5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_ico_elt_reinsert, conhdl=%d, rx_min_pldnum=%d, max_packets_can_be_send=%d, subevent_left=%d @lld_iso_evt.c(1480),INFO" ID="0x88502e45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]lld_ico_set_ch_map: invalid ico:%d, acl:%d @lld_iso_evt.c(1601),WARNING" ID="0x8850320b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="error in iso buf alloc @lld_iso_evt.c(1626),ERROR" ID="0x885032d2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]lld_ico_wbs_channel_tx:start_evt_cnt=%d,pri_evt_cnt=%d,len=%d, clock=%d @lld_iso_evt.c(1657),INFO" ID="0x885033cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="WBS BUFFER IS FULL @lld_iso_evt.c(1674),INFO" ID="0x88503455" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]ICO PHONE UP CONHDL IS INVALID @lld_iso_evt.c(1725),WARNING" ID="0x885035eb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]lld_ico_voice_path_start timestamp 0x%x, current_time 0x%x @lld_iso_evt.c(1774),ERROR" ID="0x88503772" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error ico_conhdl=%d @lld_iso_evt.c(1791),ERROR" ID="0x885037fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD][CHANNEL][TX] invalid elt @lld_iso_evt.c(1797),WARNING" ID="0x8850382b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]lld_ico_sco_channel_tx:NO DSP DATA @lld_iso_evt.c(1814),WARNING" ID="0x885038b3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[lld][audio][tog]error in iso buf alloc @lld_iso_evt.c(1822),ERROR" ID="0x885038f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]phone loss packet nb print:loss_counter=%d @lld_iso_evt.c(1905),WARNING" ID="0x88503b8b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_ico_sco_data_rx: rxnode is NULL @lld_iso_evt.c(1936),ERROR" ID="0x88503c82" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]size&gt;1:rx[1]=0x%x, rx[2]=0x%x @lld_iso_evt.c(1945),INFO" ID="0x88503ccd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]rxnode_empty No rx buff! @lld_iso_evt.c(1952),WARNING" ID="0x88503d03" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]size(1)rx[1]=0x%x, rx[2]=0x%x @lld_iso_evt.c(1962),INFO" ID="0x88503d55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]lld_ico_sco_data_rx1:upk_size=0x%x, send_dsp=0x%x @lld_iso_evt.c(1974),INFO" ID="0x88503db5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ico_sco_rx3:size=0:send_dsp=0x%x @lld_iso_evt.c(1978),INFO" ID="0x88503dd5" />
+			</MSG_LOG>

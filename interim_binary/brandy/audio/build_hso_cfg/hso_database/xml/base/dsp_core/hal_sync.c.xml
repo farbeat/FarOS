@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enable sync mode @hal_sync.c(138),INFO" ID="0x98c80455" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]disable sync mode @hal_sync.c(150),INFO" ID="0x98c804b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enable binaural sync @hal_sync.c(163),INFO" ID="0x98c8051d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]disable binaural sync @hal_sync.c(174),INFO" ID="0x98c80575" />
+			</MSG_LOG>

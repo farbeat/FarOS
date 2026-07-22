@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_sscan.c(162),ERROR" ID="0x88a00512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_sscan_env.evt != evt @ld_sscan.c(178),ERROR" ID="0x88a00592" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][SSCAN][LD]ld_sscan_evt_canceled_cbk: status = %d @ld_sscan.c(226),INFO" ID="0x88a00715" />
+			</MSG_LOG>

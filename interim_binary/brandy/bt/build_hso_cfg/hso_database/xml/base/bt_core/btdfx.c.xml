@@ -1,0 +1,27 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[BT_OTA]dfx_bt_ota_send_ota_msg:invalid ota type=%0x @btdfx.c(107),ERROR" ID="0x88e0035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_OTA]dfx_bt_ota_send_ota_msg:invalid param} @btdfx.c(112),ERROR" ID="0x88e00382" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_OTA]dfx_bt_ota_send_ota_msg:invalid ota type=%0x @btdfx.c(134),ERROR" ID="0x88e00432" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_OTA]dfx_bt_ota_send_ota_msg:invalid param} @btdfx.c(139),ERROR" ID="0x88e0045a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]can not parse cmd @btdfx.c(182),INFO" ID="0x88e005b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dfx_bt_cmd_parse:len=%d @btdfx.c(197),INFO" ID="0x88e0062d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][DFX]Malloc Fail! @btdfx.c(203),ERROR" ID="0x88e0065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_parse_debug_cmd:too many Parameter, quit parsing @btdfx.c(290),INFO" ID="0x88e00915" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]invalid log level input @btdfx.c(327),INFO" ID="0x88e00a3d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]set module id=%d for leg level(%d) @btdfx.c(334),INFO" ID="0x88e00a75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]set message log level(%d) @btdfx.c(352),INFO" ID="0x88e00b05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]set get state log level(%d) @btdfx.c(355),INFO" ID="0x88e00b1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set set state log level(%d) @btdfx.c(359),INFO" ID="0x88e00b3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set save state log level(%d) @btdfx.c(363),INFO" ID="0x88e00b5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]invalid input value @btdfx.c(370),INFO" ID="0x88e00b95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]set global log for log level(%d) @btdfx.c(374),INFO" ID="0x88e00bb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]set lmp rx state log level(%d) @btdfx.c(378),INFO" ID="0x88e00bd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]set lmp tx state log level(%d) @btdfx.c(382),INFO" ID="0x88e00bf5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]can not parse cmd @btdfx.c(397),INFO" ID="0x88e00c6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]quit parsing @btdfx.c(421),INFO" ID="0x88e00d2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]quit parsing @btdfx.c(432),INFO" ID="0x88e00d85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]quit parsing @btdfx.c(472),INFO" ID="0x88e00ec5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][DFX]feature_id(0x%0x,0x%0x,0x%0x,0x%0x) @btdfx.c(490),INFO" ID="0x88e00f55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]log_level(0x%0x,0x%0x) @btdfx.c(491),INFO" ID="0x88e00f5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]invalid input @btdfx.c(495),INFO" ID="0x88e00f7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]end input,quit parsing @btdfx.c(504),INFO" ID="0x88e00fc5" />
+			</MSG_LOG>

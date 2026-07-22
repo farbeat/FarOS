@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][BIS]Invalid input param:nse=%d,bn=%d,itn=%d @lld_bis_evt.c(113),ERROR" ID="0x8960038a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]llid=%d,len=%d,ussn=%d,utx_flag=%d @lld_bis_evt.c(287),INFO" ID="0x896008fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_evt_bis_elt_check: bis_elt is null @lld_bis_evt.c(583),WARNING" ID="0x8960123b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_evt_bis_elt_check: bis_chnl is null @lld_bis_evt.c(589),WARNING" ID="0x8960126b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_evt_bis_elt_check: not find bis conhdl @lld_bis_evt.c(594),WARNING" ID="0x89601293" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIS]check ae adv: mode=%d,stop_adv_conhdl=%d @lld_bis_evt.c(681),INFO" ID="0x8960154d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]cancel:mode=%d,next_elt_ts=0x%x,next_intv=0x%x,bis_elt_ts=0x%x @lld_bis_evt.c(749),INFO" ID="0x8960176d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]stop:next_elt_ts=0x%x,next_intv=%d,next_prio=0x%x,utx_end_ts=0x%x @lld_bis_evt.c(1204),INFO" ID="0x896025a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]utx_elt_ts=0x%x,utx_evt_intv=%d,utx_evt_cnt=%d,utx_instant=%d @lld_bis_evt.c(1275),INFO" ID="0x896027dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]utx_check:mode=%d,conhdl=%d,adv_conhdl=%d,per_conhdl=%d @lld_bis_evt.c(1320),INFO" ID="0x89602945" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="iso test mode tx fail, status = %d @lld_bis_evt.c(1548),WARNING" ID="0x89603063" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BIS]Invalid parameters finetimecnt:%d, iso_intv:%d, iso_subevtnum:%d @lld_bis_evt.c(1579),WARNING" ID="0x8960315b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][BIS]lld_bis_evt_slave_restart:missed_cnt=%d, ts=0x%x @lld_bis_evt.c(1616),INFO" ID="0x89603285" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]current bis channel is NULL @lld_bis_evt.c(1695),WARNING" ID="0x896034fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]not find big conhdl @lld_bis_evt.c(1700),WARNING" ID="0x89603523" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]not bis master mode @lld_bis_evt.c(1746),WARNING" ID="0x89603693" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]current bis channel is NULL @lld_bis_evt.c(1750),WARNING" ID="0x896036b3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]not find big conhdl @lld_bis_evt.c(1755),WARNING" ID="0x896036db" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BIS]opcode=%d,evt_counter=%d,utx_instant=%d @lld_bis_evt.c(1900),INFO" ID="0x89603b65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BIS]invalid rx phy %d  @lld_bis_evt.c(2073),WARNING" ID="0x896040cb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_get_bis_cs_id, primary_desc=%d, second_desc=%d, primary_conflict=%d,second_conflict=%d @lld_bis_evt.c(2129),INFO" ID="0x8960428d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_get_bis_cs_id2, primary_rem=%d, second_rem=%d,lastcs=%d, primary|second_dbg=0x%x @lld_bis_evt.c(2134),INFO" ID="0x896042b5" />
+			</MSG_LOG>

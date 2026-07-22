@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="malloc performance data buffer failed @js_profiler.cpp(205),ERROR" ID="0xe0cc066a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc performance data buffer failed @js_profiler.cpp(211),ERROR" ID="0xe0cc069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sync js profiler msg error @js_profiler.cpp(224),ERROR" ID="0xe0cc0702" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler flushmsg sprintf error @js_profiler.cpp(231),ERROR" ID="0xe0cc073a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler create error @js_profiler.cpp(237),ERROR" ID="0xe0cc076a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler open error @js_profiler.cpp(243),ERROR" ID="0xe0cc079a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace dump js profiler msg error @js_profiler.cpp(251),ERROR" ID="0xe0cc07da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler close error @js_profiler.cpp(257),ERROR" ID="0xe0cc080a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler memset_s failed @js_profiler.cpp(280),ERROR" ID="0xe0cc08c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler memset_s failed @js_profiler.cpp(289),ERROR" ID="0xe0cc090a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ace js profiler tag(%d) mismatch! @js_profiler.cpp(358),ERROR" ID="0xe0cc0b32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler memset_s msg failed @js_profiler.cpp(394),ERROR" ID="0xe0cc0c52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ace js profiler write msg failed @js_profiler.cpp(398),ERROR" ID="0xe0cc0c72" />
+			</MSG_LOG>

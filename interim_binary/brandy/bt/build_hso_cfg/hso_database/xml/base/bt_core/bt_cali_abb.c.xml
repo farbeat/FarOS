@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT_ADC_CAL] bt_abb_cali_cap complete  @bt_cali_abb.c(41),INFO" ID="0x8940014d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][BT_ADC_CAL] CompCali SUCCESS, BT_ABB_BT_ADC_CTRLIN_STS value=0x%x @bt_cali_abb.c(66),INFO" ID="0x89400215" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BT_ADC_CAL] CompCali OVERTIME BT_ABB_OS_CAL_FINISH_STS expected to be 0x3, but value=0x%x @bt_cali_abb.c(123),WARNING" ID="0x894003db" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BT_ADC_CAL] CompCali FAIL BT_ABB_OS_CAL_STATE_STS expected to be 0x3, but value=0x%x @bt_cali_abb.c(130),WARNING" ID="0x89400413" />
+			</MSG_LOG>

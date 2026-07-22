@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]em_buf_ae_tx_desc_alloc, exthead alloc failed @em_buf.c(136),ERROR" ID="0x88260442" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]em_buf_ae_tx_desc_alloc, desc alloc failed @em_buf.c(140),ERROR" ID="0x88260462" />
+			</MSG_LOG>

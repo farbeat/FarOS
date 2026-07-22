@@ -1,0 +1,108 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[Acore] gatt_server_call_back server_handle:%d @bt_at_cmd_gatt.c(114),INFO" ID="0xd88a0395" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_create_service fail! @bt_at_cmd_gatt.c(134),ERROR" ID="0xd88a0432" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_create_service get uuid fail! @bt_at_cmd_gatt.c(142),ERROR" ID="0xd88a0472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_add_include_service fail! @bt_at_cmd_gatt.c(161),ERROR" ID="0xd88a050a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_add_include_service get uuid fail! @bt_at_cmd_gatt.c(169),ERROR" ID="0xd88a054a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt_add_characteristic count:%d @bt_at_cmd_gatt.c(187),INFO" ID="0xd88a05dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_add_characteristic fail! @bt_at_cmd_gatt.c(189),ERROR" ID="0xd88a05ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt_add_characteristic len:%d @bt_at_cmd_gatt.c(195),INFO" ID="0xd88a061d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_characteristic new fail @bt_at_cmd_gatt.c(198),ERROR" ID="0xd88a0632" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_add_characteristic get uuid fail! @bt_at_cmd_gatt.c(214),ERROR" ID="0xd88a06b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_add_characteristic, length:(0x%04x) @bt_at_cmd_gatt.c(222),ERROR" ID="0xd88a06f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_add_descriptor fail! @bt_at_cmd_gatt.c(256),ERROR" ID="0xd88a0802" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_descriptor new fail @bt_at_cmd_gatt.c(265),ERROR" ID="0xd88a084a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_descriptor memset_s fail @bt_at_cmd_gatt.c(270),ERROR" ID="0xd88a0872" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_add_descriptor get uuid fail! @bt_at_cmd_gatt.c(281),ERROR" ID="0xd88a08ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt_add_descriptor, data_size:(0x%04x) @bt_at_cmd_gatt.c(290),INFO" ID="0xd88a0915" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_add_descriptor, length:(0x%04x) @bt_at_cmd_gatt.c(295),ERROR" ID="0xd88a093a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_start_service fail! @bt_at_cmd_gatt.c(320),ERROR" ID="0xd88a0a02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts at gatt stop service param fail! @bt_at_cmd_gatt.c(338),ERROR" ID="0xd88a0a92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts at gatt stop service get uuid fail! @bt_at_cmd_gatt.c(345),ERROR" ID="0xd88a0aca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_send_response fail! @bt_at_cmd_gatt.c(372),ERROR" ID="0xd88a0ba2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_send_response new fail @bt_at_cmd_gatt.c(379),ERROR" ID="0xd88a0bda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_send_response memset_s fail @bt_at_cmd_gatt.c(384),ERROR" ID="0xd88a0c02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_send_response fail: Param loss @bt_at_cmd_gatt.c(389),ERROR" ID="0xd88a0c2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_send_response, length:(0x%04x) @bt_at_cmd_gatt.c(405),ERROR" ID="0xd88a0caa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_notify_characteristic_changed fail! @bt_at_cmd_gatt.c(436),ERROR" ID="0xd88a0da2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_notify_characteristic_changed new fail @bt_at_cmd_gatt.c(444),ERROR" ID="0xd88a0de2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_notify_characteristic_changed memset_s fail @bt_at_cmd_gatt.c(451),ERROR" ID="0xd88a0e1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_notify_characteristic_changed, length:(0x%04x) @bt_at_cmd_gatt.c(461),ERROR" ID="0xd88a0e6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_notify_characteristic_changed, length:(0x%04x) @bt_at_cmd_gatt.c(472),ERROR" ID="0xd88a0ec2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][bts_at_cmd_gatt]notify characteristic by uuid fail! @bt_at_cmd_gatt.c(485),ERROR" ID="0xd88a0f2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][bts_at_cmd_gatt] param new fail! @bt_at_cmd_gatt.c(492),ERROR" ID="0xd88a0f62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_update_descriptor_value_changed fail! @bt_at_cmd_gatt.c(517),ERROR" ID="0xd88a102a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_update_descriptor_value_changed new fail @bt_at_cmd_gatt.c(524),ERROR" ID="0xd88a1062" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_update_descriptor_value_changed memset_s fail @bt_at_cmd_gatt.c(530),ERROR" ID="0xd88a1092" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_update_descriptor_value_changed, length:(0x%04x) @bt_at_cmd_gatt.c(540),ERROR" ID="0xd88a10e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_update_descriptor_value_changed, length:(0x%04x) @bt_at_cmd_gatt.c(547),ERROR" ID="0xd88a111a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] read_service_value param invaild! @bt_at_cmd_gatt.c(569),ERROR" ID="0xd88a11ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] read_service_value param invaild! @bt_at_cmd_gatt.c(573),ERROR" ID="0xd88a11ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] read_service_value param invaild! @bt_at_cmd_gatt.c(578),ERROR" ID="0xd88a1212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] read_multiple_character param invaild! @bt_at_cmd_gatt.c(597),ERROR" ID="0xd88a12aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] read_multiple_character pos:%d @bt_at_cmd_gatt.c(603),ERROR" ID="0xd88a12da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] multiple_value_nfy param invaild! @bt_at_cmd_gatt.c(620),ERROR" ID="0xd88a1362" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] multiple_value_nfy pos:%d @bt_at_cmd_gatt.c(627),ERROR" ID="0xd88a139a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] multiple_value_nfy pos:%d @bt_at_cmd_gatt.c(635),ERROR" ID="0xd88a13da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] multiple_value_read_character param invaild! @bt_at_cmd_gatt.c(657),ERROR" ID="0xd88a148a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] multiple_value_read_character pos:%d @bt_at_cmd_gatt.c(664),ERROR" ID="0xd88a14c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_service fail! @bt_at_cmd_gatt.c(684),ERROR" ID="0xd88a1562" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_service write_bdaddr fail. @bt_at_cmd_gatt.c(689),ERROR" ID="0xd88a158a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_service write_bdaddr fail. @bt_at_cmd_gatt.c(695),ERROR" ID="0xd88a15ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_service get flag fail. @bt_at_cmd_gatt.c(700),ERROR" ID="0xd88a15e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_find_include_service argv fail! @bt_at_cmd_gatt.c(725),ERROR" ID="0xd88a16aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_find_include_service write_bdaddr fail. @bt_at_cmd_gatt.c(730),ERROR" ID="0xd88a16d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_find_include_service fail! @bt_at_cmd_gatt.c(737),ERROR" ID="0xd88a170a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_characteristics fail! @bt_at_cmd_gatt.c(758),ERROR" ID="0xd88a17b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_characteristics write_bdaddr fail. @bt_at_cmd_gatt.c(764),ERROR" ID="0xd88a17e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_characteristics get param fail! @bt_at_cmd_gatt.c(776),ERROR" ID="0xd88a1842" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_characteristics_by_uuid fail! @bt_at_cmd_gatt.c(796),ERROR" ID="0xd88a18e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_characteristics_by_uuid write_bdaddr fail. @bt_at_cmd_gatt.c(802),ERROR" ID="0xd88a1912" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_characteristics_by_uuid get param fail! @bt_at_cmd_gatt.c(812),ERROR" ID="0xd88a1962" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_read_characteristics_by_uuid fail! @bt_at_cmd_gatt.c(833),ERROR" ID="0xd88a1a0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_read_characteristics_by_uuid write_bdaddr fail. @bt_at_cmd_gatt.c(839),ERROR" ID="0xd88a1a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_read_characteristics_by_uuid fail! @bt_at_cmd_gatt.c(849),ERROR" ID="0xd88a1a8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_descriptor fail! @bt_at_cmd_gatt.c(869),ERROR" ID="0xd88a1b2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_descriptor write_bdaddr fail. @bt_at_cmd_gatt.c(874),ERROR" ID="0xd88a1b52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_descriptor fail! @bt_at_cmd_gatt.c(882),ERROR" ID="0xd88a1b92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_descriptor_by_handle fail! @bt_at_cmd_gatt.c(902),ERROR" ID="0xd88a1c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_descriptor_by_handle write_bdaddr fail. @bt_at_cmd_gatt.c(908),ERROR" ID="0xd88a1c62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_discovery_descriptor_by_handle fail! @bt_at_cmd_gatt.c(915),ERROR" ID="0xd88a1c9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value fail! @bt_at_cmd_gatt.c(936),ERROR" ID="0xd88a1d42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value fail! @bt_at_cmd_gatt.c(942),ERROR" ID="0xd88a1d72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value new fail! @bt_at_cmd_gatt.c(948),ERROR" ID="0xd88a1da2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_descriptor memset_s fail @bt_at_cmd_gatt.c(955),ERROR" ID="0xd88a1dda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value write_bdaddr fail. @bt_at_cmd_gatt.c(961),ERROR" ID="0xd88a1e0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatt_write_characteristic_value param fail!, length:(0x%04x) @bt_at_cmd_gatt.c(974),ERROR" ID="0xd88a1e72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value fail! @bt_at_cmd_gatt.c(985),ERROR" ID="0xd88a1eca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_reliable_write_characteristic_value fail! @bt_at_cmd_gatt.c(1008),ERROR" ID="0xd88a1f82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_reliable_write_characteristic_value fail! @bt_at_cmd_gatt.c(1014),ERROR" ID="0xd88a1fb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_reliable_write_characteristic_value new fail! @bt_at_cmd_gatt.c(1020),ERROR" ID="0xd88a1fe2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_descriptor memset_s fail @bt_at_cmd_gatt.c(1027),ERROR" ID="0xd88a201a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_reliable_write_characteristic_value write_bdaddr fail. @bt_at_cmd_gatt.c(1033),ERROR" ID="0xd88a204a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatt_write_characteristic_value param fail!, length:(0x%04x) @bt_at_cmd_gatt.c(1046),ERROR" ID="0xd88a20b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_reliable_write_characteristic_value fail! @bt_at_cmd_gatt.c(1057),ERROR" ID="0xd88a210a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value fail! @bt_at_cmd_gatt.c(1080),ERROR" ID="0xd88a21c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value fail! @bt_at_cmd_gatt.c(1086),ERROR" ID="0xd88a21f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value new fail! @bt_at_cmd_gatt.c(1092),ERROR" ID="0xd88a2222" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_descriptor memset_s fail @bt_at_cmd_gatt.c(1099),ERROR" ID="0xd88a225a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value write_bdaddr fail. @bt_at_cmd_gatt.c(1105),ERROR" ID="0xd88a228a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatt_write_characteristic_value param fail!, length:(0x%04x) @bt_at_cmd_gatt.c(1118),ERROR" ID="0xd88a22f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_characteristic_value fail! @bt_at_cmd_gatt.c(1129),ERROR" ID="0xd88a234a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_mtu_config fail! @bt_at_cmd_gatt.c(1150),ERROR" ID="0xd88a23f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_mtu_config write_bdaddr fail. @bt_at_cmd_gatt.c(1155),ERROR" ID="0xd88a241a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_mtu_config fail! @bt_at_cmd_gatt.c(1162),ERROR" ID="0xd88a2452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_descriptor_value fail! @bt_at_cmd_gatt.c(1182),ERROR" ID="0xd88a24f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_descriptor_value new fail! @bt_at_cmd_gatt.c(1192),ERROR" ID="0xd88a2542" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_descriptor_value write_bdaddr fail. @bt_at_cmd_gatt.c(1197),ERROR" ID="0xd88a256a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] gatt_write_descriptor_value, length:(0x%04x) @bt_at_cmd_gatt.c(1215),ERROR" ID="0xd88a25fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_write_descriptor_value fail! @bt_at_cmd_gatt.c(1223),ERROR" ID="0xd88a263a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] gatt_set_gap_ui_attributes fail! @bt_at_cmd_gatt.c(1245),ERROR" ID="0xd88a26ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] gatt_set_gap_ui_attributes strcpy fail @bt_at_cmd_gatt.c(1253),ERROR" ID="0xd88a272a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] gatt_set_gap_ui_attributes fail! @bt_at_cmd_gatt.c(1259),ERROR" ID="0xd88a275a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] gatt_get_gap_ui_attributes fail! @bt_at_cmd_gatt.c(1274),ERROR" ID="0xd88a27d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_set_att_key_size parameter fail! @bt_at_cmd_gatt.c(1285),ERROR" ID="0xd88a282a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_set_att_key_size fail! @bt_at_cmd_gatt.c(1289),ERROR" ID="0xd88a284a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] att_config_set parameter fail! @bt_at_cmd_gatt.c(1299),ERROR" ID="0xd88a289a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] att_config_set fail! @bt_at_cmd_gatt.c(1303),ERROR" ID="0xd88a28ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] att_config_set fail! @bt_at_cmd_gatt.c(1307),ERROR" ID="0xd88a28da" />
+			</MSG_LOG>

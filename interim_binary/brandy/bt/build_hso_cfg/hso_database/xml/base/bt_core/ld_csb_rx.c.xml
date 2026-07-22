@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][handle](EM_BT_RXDESC_OFFSET + ld_env.curr_rxdesc_index * REG_EM_BT_RXDESC_SIZE) = %d,bt_et_currentrxdescptr_currentrxdescptr_getf() = %d @ld_csb_rx.c(164),ERROR" ID="0x889e0522" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_csb_rx_env.evt != evt @ld_csb_rx.c(306),ERROR" ID="0x889e0992" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_csb_rx_env.evt != evt @ld_csb_rx.c(329),ERROR" ID="0x889e0a4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]((struct ld_csb_rx_evt_params*) &amp;evt-&gt;env)-&gt;state = %d @ld_csb_rx.c(336),ERROR" ID="0x889e0a82" />
+			</MSG_LOG>

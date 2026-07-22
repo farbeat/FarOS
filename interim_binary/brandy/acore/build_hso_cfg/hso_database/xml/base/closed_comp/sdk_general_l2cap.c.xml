@@ -1,0 +1,19 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: l2cap general interface conn_node find fail @sdk_general_l2cap.c(51),ERROR" ID="0xd876019a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Core] ble general: l2cap general interface reg psm. @sdk_general_l2cap.c(73),INFO" ID="0xd876024d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface reg psm fail. len = %u @sdk_general_l2cap.c(76),ERROR" ID="0xd8760262" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface reg psm fail: %d @sdk_general_l2cap.c(82),ERROR" ID="0xd8760292" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] ble general: l2cap reg psm. psm:0x%x cid:0x%x ch_type:0x%x @sdk_general_l2cap.c(87),INFO" ID="0xd87602bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Core] ble general: l2cap general interface credit conn req. @sdk_general_l2cap.c(98),INFO" ID="0xd8760315" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface credit conn req fail. len = %u @sdk_general_l2cap.c(101),ERROR" ID="0xd876032a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface fail: %d @sdk_general_l2cap.c(107),ERROR" ID="0xd876035a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ACore] ble general: l2cap credit conn req. psm:0x%x cid:0x%x add:0x%02x:**:**:**:**:%02x @sdk_general_l2cap.c(112),INFO" ID="0xd8760385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Core] ble general: l2cap general interface credit ch rx . @sdk_general_l2cap.c(126),INFO" ID="0xd87603f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface credit ch rx fail. len = %u @sdk_general_l2cap.c(129),ERROR" ID="0xd876040a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] ble general: l2cap credit conn rx cid 0x%x conn_hdl 0x%x pkt_len %d.  @sdk_general_l2cap.c(135),INFO" ID="0xd876043d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Core] ble general: l2cap general interface disconnect. @sdk_general_l2cap.c(154),INFO" ID="0xd87604d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface disconnect fail. len = %u @sdk_general_l2cap.c(157),ERROR" ID="0xd87604ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general interface fail: %d @sdk_general_l2cap.c(163),ERROR" ID="0xd876051a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ACore] ble general: l2cap disconnect .cid:0x%x reason:0x%x add:0x%02x:**:**:**:**:%02x @sdk_general_l2cap.c(168),INFO" ID="0xd8760545" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble conn general l2cap proc:cmdid:0x%02X pay_len:%d. @sdk_general_l2cap.c(182),INFO" ID="0xd87605b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble conn general l2cap proc no handle for command id:0x%02x. @sdk_general_l2cap.c(197),INFO" ID="0xd876062d" />
+			</MSG_LOG>

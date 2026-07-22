@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ao_port = 0x%08X @hal_ao.c(70),ERROR" ID="0x987c0232" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_destroy Failed, Error Code: [0x%08X] @hal_ao.c(114),ERROR" ID="0x987c0392" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rbuf_attr.size = %u @hal_ao.c(139),INFO" ID="0x987c045d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_create Failed, Error Code: [0x%08X] @hal_ao.c(143),ERROR" ID="0x987c047a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_sio_get_tx_board_cfg Failed, Error Code: [0x%08X] @hal_ao.c(173),ERROR" ID="0x987c056a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ao_create_rbuf Failed, Error Code: [0x%08X] @hal_ao.c(183),ERROR" ID="0x987c05ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_open_edma Failed, Error Code: [0x%08X] @hal_ao.c(189),ERROR" ID="0x987c05ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_open Failed, Error Code: [0x%08X] @hal_ao.c(195),ERROR" ID="0x987c061a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_close_edma Failed, Error Code: [0x%08X] @hal_ao.c(216),ERROR" ID="0x987c06c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]port_handle-&gt;ao_port = 0x%08X @hal_ao.c(222),ERROR" ID="0x987c06f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_close Failed, Error Code: [0x%08X] @hal_ao.c(223),ERROR" ID="0x987c06fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_start_edma Failed, Error Code: [0x%08X] @hal_ao.c(244),ERROR" ID="0x987c07a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_start Failed, Error Code: [0x%08X] @hal_ao.c(251),ERROR" ID="0x987c07da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_stop Failed, Error Code: [0x%08X] @hal_ao.c(265),ERROR" ID="0x987c084a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_stop_edma Failed, Error Code: [0x%08X] @hal_ao.c(271),ERROR" ID="0x987c087a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rbuf = 0x%08X @hal_ao.c(284),INFO" ID="0x987c08e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_get_edma_info Failed, Error Code: [0x%08X] @hal_ao.c(337),ERROR" ID="0x987c0a8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_info Failed, Error Code: [0x%08X] @hal_ao.c(353),ERROR" ID="0x987c0b0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_pos Failed, Error Code: [0x%08X] @hal_ao.c(360),ERROR" ID="0x987c0b42" />
+			</MSG_LOG>

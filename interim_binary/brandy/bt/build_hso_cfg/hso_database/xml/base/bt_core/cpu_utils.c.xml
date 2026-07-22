@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="RW_REG_L:%x, RW_REG_H:%x, RO_REG0_L:%x, RO_REG0_H:%x @cpu_utils.c(87),INFO" ID="0xa01602bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="RO_REG1_L:%x, RO_REG1_H:%x, ERROR_STS:%x, INT_CFG:%x @cpu_utils.c(95),INFO" ID="0xa01602fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="CMU_CLOCK_GATING_COM_CLKEN_1:%x @cpu_utils.c(97),INFO" ID="0xa016030d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="DSP_CODEC_CLKEN:%x, DSP_CODEC_CLKSTS:%x @cpu_utils.c(104),INFO" ID="0xa0160345" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Reboot by core:%d with reason of 0x%x @cpu_utils.c(157),INFO" ID="0xa01604ed" />
+			</MSG_LOG>

@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CAL] rf cali use default value @bt_cali_main.c(169),ERROR" ID="0x893c054a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CAL] update cali val @bt_cali_main.c(177),ERROR" ID="0x893c058a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CALI][CFG]bt_cfg_cali_overrange_protect, cali_result is NULL @bt_cali_main.c(234),ERROR" ID="0x893c0752" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CALI] TXPWR cali result = %d ,OVERRANGE, set to default! @bt_cali_main.c(243),ERROR" ID="0x893c079a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CALI] LPF cali result = %d ,OVERRANGE, set to default! @bt_cali_main.c(260),ERROR" ID="0x893c0822" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADPLL MOD_SEN]addr:0x%x, val:0x%x @bt_cali_main.c(288),INFO" ID="0x893c0905" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][ADPLL PULLING]band:%d, val_high:0x%x, band:%d, val_high:0x%x @bt_cali_main.c(294),INFO" ID="0x893c0935" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][TX PWR]freq[00-09], val:0x%x, freq[10-19],val:0x%x, freq[20-31], val:0x%x, freq[32-56], val:0x%x @bt_cali_main.c(307),INFO" ID="0x893c099d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][TX PWR]freq[57-65], val:0x%x, freq[66-69],val:0x%x, freq[70-73], val:0x%x, freq[74-78], val:0x%x @bt_cali_main.c(313),INFO" ID="0x893c09cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][TX 2ND HARMONICS]addr:0x%x, val:0x%x, [CAL][RX LNA SATDET]addr:0x%x, val:0x%x @bt_cali_main.c(319),INFO" ID="0x893c09fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][RX DC]addr:0x%x, val:0x%x, [CAL][RX LPF]addr:0x%x, val:0x%x @bt_cali_main.c(324),INFO" ID="0x893c0a25" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][RX IQ]addr:0x%x, val:0x%x, addr:0x%x, val:0x%x @bt_cali_main.c(331),INFO" ID="0x893c0a5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]bt cali start pmu state change fail @bt_cali_main.c(336),ERROR" ID="0x893c0a82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]bt cali end pmu state change fail @bt_cali_main.c(344),ERROR" ID="0x893c0ac2" />
+			</MSG_LOG>

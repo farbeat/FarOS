@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CFG]bt_cfg_protect_trigger timeout, ulcount=%d @bt_em_config.c(754),ERROR" ID="0x89441792" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]bt_cfg_ft_em MEMCPY FAIL @bt_em_config.c(1011),ERROR" ID="0x89441f9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CFG]g_aus_number_access MAX Error @bt_em_config.c(1080),ERROR" ID="0x894421c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CFG]BT_CFG_FAIL @bt_em_config.c(1131),ERROR" ID="0x8944235a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CFG] bt_write_cfg_by_em failed @bt_em_config.c(1186),ERROR" ID="0x89442512" />
+			</MSG_LOG>

@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLD]lld_per_scan_init:create_sync is NULL @lld_per.c(70),ERROR" ID="0x89760232" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD]lld_per_sync_ext_scan_no_restart_set @lld_per.c(178),INFO" ID="0x89760595" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLD]lld_per_sync_param_check:interval[%d],sync_timeout[%d],stop sync! @lld_per.c(192),WARNING" ID="0x89760603" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_per_sync_start:create_sync pick fail @lld_per.c(254),ERROR" ID="0x897607f2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][AE]lld_per_sync_start:basetime_cnt[0x%x], elt-&gt;timestmp[0x%x], fincnt_offset[%d], interval[%d] @lld_per.c(299),INFO" ID="0x8976095d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLD]lld_per_sync_stop:temp == NULL @lld_per.c(324),ERROR" ID="0x89760a22" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD]lld_per_sync_stop:sync_handle=%d, list_cnt=%d @lld_per.c(333),INFO" ID="0x89760a6d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_periodic_adv_start:sync_dur=%d, intv_min=%d, intv_max=%d @lld_per.c(491),INFO" ID="0x89760f5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][AE]lld_periodic_adv_stop new @lld_per.c(539),WARNING" ID="0x897610db" />
+			</MSG_LOG>

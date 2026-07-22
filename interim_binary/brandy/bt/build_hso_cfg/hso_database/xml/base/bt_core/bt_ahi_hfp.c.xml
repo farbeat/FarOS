@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="HFP:sco config flow limit line_high=%u line_low=%u @bt_ahi_hfp.c(278),ERROR" ID="0x8c9e08b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @bt_ahi_hfp.c(298),WARNING" ID="0x8c9e0953" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory set failed. @bt_ahi_hfp.c(303),WARNING" ID="0x8c9e097b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed. @bt_ahi_hfp.c(312),WARNING" ID="0x8c9e09c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @bt_ahi_hfp.c(537),WARNING" ID="0x8c9e10cb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory set failed. @bt_ahi_hfp.c(542),WARNING" ID="0x8c9e10f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed. @bt_ahi_hfp.c(551),WARNING" ID="0x8c9e113b" />
+			</MSG_LOG>

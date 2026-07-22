@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="codecs_capability_len ERR=%d @lm_task_ram.c(105),ERROR" ID="0x8a46034a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="codecs_capability ERR=%d @lm_task_ram.c(110),ERROR" ID="0x8a460372" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="min_controller_delay ERR=%d @lm_task_ram.c(136),ERROR" ID="0x8a460442" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="max_controller_delay ERR=%d @lm_task_ram.c(141),ERROR" ID="0x8a46046a" />
+			</MSG_LOG>

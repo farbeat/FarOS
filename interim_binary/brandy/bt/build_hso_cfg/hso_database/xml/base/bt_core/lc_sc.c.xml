@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[lc_sc_lmp_msg_conflict_check] policy=%d, state=%d, current_state=%d @lc_sc.c(763),INFO" ID="0x887c17dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lc_sc_hci_command_reject no found opcode in tab, opcode=%d @lc_sc.c(1226),ERROR" ID="0x887c2652" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:in role switch or enc state, to save message id=%d @lc_sc.c(1374),INFO" ID="0x887c2af5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:ext_opcode=%d @lc_sc.c(1385),INFO" ID="0x887c2b4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:to save lmp role switch req in state=%d @lc_sc.c(1392),INFO" ID="0x887c2b85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:to save peer lmp in rand in state=%d @lc_sc.c(1403),INFO" ID="0x887c2bdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:save peer enc mode req in state=%d @lc_sc.c(1410),INFO" ID="0x887c2c15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:save master the same lmp message in state=%d @lc_sc.c(1415),INFO" ID="0x887c2c3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC_SC]:to save peer lmp aurand in state=%d @lc_sc.c(1518),INFO" ID="0x887c2f75" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC_SC]:continue check peer aurand in state=%d, pre_state=%d @lc_sc.c(1526),INFO" ID="0x887c2fb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LC_SC]:to overwrite saved state=%d @lc_sc.c(1608),ERROR" ID="0x887c3242" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LC_SC]:no valid state to recover for msg id=%d @lc_sc.c(1668),ERROR" ID="0x887c3422" />
+			</MSG_LOG>

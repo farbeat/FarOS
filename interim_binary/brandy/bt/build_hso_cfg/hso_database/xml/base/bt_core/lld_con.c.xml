@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]hop=%d @lld_con.c(379),ERROR" ID="0x89700bda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lld_evt_update_create FAIL, elt == NULL @lld_con.c(588),ERROR" ID="0x89701262" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_con_update_req, win_size=%d, win_offset=%d, instant=%d @lld_con.c(593),WARNING" ID="0x8970128b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_con_update_after_param_req, win_size=%d, win_offset=%d, instant=%d @lld_con.c(741),WARNING" ID="0x8970172b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lld_con_param_req EA_PARAM_REQ_GET fail @lld_con.c(917),WARNING" ID="0x89701cab" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LLD]lld_ext_create_con_req:hop=%d @lld_con.c(1172),ERROR" ID="0x897024a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_ext_create_con_req_opt:2m fail @lld_con.c(1218),WARNING" ID="0x89702613" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_ext_create_con_req_opt:coded fail @lld_con.c(1232),WARNING" ID="0x89702683" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_ext_con_start_by_phy_opt:elt_scan=0x%x, elt_connect=0x%x, aux_init_elt=0x%x @lld_con.c(1323),INFO" ID="0x8970295d" />
+			</MSG_LOG>

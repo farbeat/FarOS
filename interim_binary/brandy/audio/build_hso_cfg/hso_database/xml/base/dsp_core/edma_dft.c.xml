@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @edma_dft.c(19),ERROR" ID="0x98d6009a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @edma_dft.c(24),ERROR" ID="0x98d600c2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi]edmac chan%d's irq cnt is %d @edma_dft.c(28),ERROR" ID="0x98d600e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @edma_dft.c(37),ERROR" ID="0x98d6012a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @edma_dft.c(42),ERROR" ID="0x98d60152" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edmac chan%d's irq cnt is cleared @edma_dft.c(46),ERROR" ID="0x98d60172" />
+			</MSG_LOG>

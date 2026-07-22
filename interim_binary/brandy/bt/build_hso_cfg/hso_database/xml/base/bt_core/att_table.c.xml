@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_table.c(770),ERROR" ID="0x8d661812" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_table.c(1011),ERROR" ID="0x8d661f9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_table.c(1184),ERROR" ID="0x8d662502" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_table.c(1273),ERROR" ID="0x8d6627ca" />
+			</MSG_LOG>

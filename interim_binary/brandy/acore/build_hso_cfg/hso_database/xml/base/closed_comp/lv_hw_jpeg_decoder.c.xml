@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ERROR: min &gt;= max. @lv_hw_jpeg_decoder.c(44),ERROR" ID="0xc9400162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi_jpeg_decomress_create failed @lv_hw_jpeg_decoder.c(106),ERROR" ID="0xc9400352" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid cf. @lv_hw_jpeg_decoder.c(150),ERROR" ID="0xc94004b2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[%s: %d] open failed ret = %u @lv_hw_jpeg_decoder.c(157),ERROR" ID="0xc94004ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[%s: %d] open failed ret = %u @lv_hw_jpeg_decoder.c(175),ERROR" ID="0xc940057a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid cf. @lv_hw_jpeg_decoder.c(200),ERROR" ID="0xc9400642" />
+			</MSG_LOG>

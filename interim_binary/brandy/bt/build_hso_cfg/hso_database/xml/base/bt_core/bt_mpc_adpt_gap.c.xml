@@ -1,0 +1,49 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ble add ble white list fail: %d @bt_mpc_adpt_gap.c(53),ERROR" ID="0x8dd401aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble add ble white list params err! len = %d @bt_mpc_adpt_gap.c(57),ERROR" ID="0x8dd401ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble remove all ble white list fail: %d @bt_mpc_adpt_gap.c(72),ERROR" ID="0x8dd40242" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble remove ble white list fail: %d @bt_mpc_adpt_gap.c(79),ERROR" ID="0x8dd4027a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble remove ble white list params err! len = %d @bt_mpc_adpt_gap.c(83),ERROR" ID="0x8dd4029a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set global value: %d @bt_mpc_adpt_gap.c(98),ERROR" ID="0x8dd40312" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set global value err! len = %d @bt_mpc_adpt_gap.c(101),ERROR" ID="0x8dd4032a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc connection params update: %d @bt_mpc_adpt_gap.c(117),ERROR" ID="0x8dd403aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc connection params update err! len = %d @bt_mpc_adpt_gap.c(121),ERROR" ID="0x8dd403ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc get local appearance: ret = %d @bt_mpc_adpt_gap.c(133),ERROR" ID="0x8dd4042a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set local appearance: %d @bt_mpc_adpt_gap.c(148),ERROR" ID="0x8dd404a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set local appearance err! len = %d @bt_mpc_adpt_gap.c(152),ERROR" ID="0x8dd404c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set period advertising: %d @bt_mpc_adpt_gap.c(168),ERROR" ID="0x8dd40542" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set period advertising err! len = %d @bt_mpc_adpt_gap.c(172),ERROR" ID="0x8dd40562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc dis period advertising: %d @bt_mpc_adpt_gap.c(189),ERROR" ID="0x8dd405ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc dis period advertising err! len = %d @bt_mpc_adpt_gap.c(193),ERROR" ID="0x8dd4060a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set period adv list: %d @bt_mpc_adpt_gap.c(211),ERROR" ID="0x8dd4069a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set period adv list err! len = %d @bt_mpc_adpt_gap.c(215),ERROR" ID="0x8dd406ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc period adv create sync: %d @bt_mpc_adpt_gap.c(232),ERROR" ID="0x8dd40742" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc period adv create sync err! len = %d @bt_mpc_adpt_gap.c(236),ERROR" ID="0x8dd40762" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc period adv terminate sync: %d @bt_mpc_adpt_gap.c(253),ERROR" ID="0x8dd407ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc period adv terminate sync err! len = %d @bt_mpc_adpt_gap.c(257),ERROR" ID="0x8dd4080a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc dis extern adv: %d @bt_mpc_adpt_gap.c(275),ERROR" ID="0x8dd4089a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc dis extern adv err! len = %d @bt_mpc_adpt_gap.c(279),ERROR" ID="0x8dd408ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set extern adv: %d @bt_mpc_adpt_gap.c(302),ERROR" ID="0x8dd40972" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set extern adv err! len = %d @bt_mpc_adpt_gap.c(306),ERROR" ID="0x8dd40992" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc remove extern adv: %d @bt_mpc_adpt_gap.c(325),ERROR" ID="0x8dd40a2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc remove extern adv err! len = %d @bt_mpc_adpt_gap.c(329),ERROR" ID="0x8dd40a4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc dis extern scan: %d @bt_mpc_adpt_gap.c(344),ERROR" ID="0x8dd40ac2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set len: %d @bt_mpc_adpt_gap.c(358),ERROR" ID="0x8dd40b32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set len len err! len = %d @bt_mpc_adpt_gap.c(361),ERROR" ID="0x8dd40b4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set phy: %d @bt_mpc_adpt_gap.c(374),ERROR" ID="0x8dd40bb2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set phy len err! len = %d @bt_mpc_adpt_gap.c(377),ERROR" ID="0x8dd40bca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set extern scan: %d @bt_mpc_adpt_gap.c(392),ERROR" ID="0x8dd40c42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc remove extern adv err! len = %d @bt_mpc_adpt_gap.c(396),ERROR" ID="0x8dd40c62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set resolve addr: %d @bt_mpc_adpt_gap.c(412),ERROR" ID="0x8dd40ce2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set resolve addr err! len = %d @bt_mpc_adpt_gap.c(416),ERROR" ID="0x8dd40d02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc get white list: %d @bt_mpc_adpt_gap.c(434),ERROR" ID="0x8dd40d92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CONN]ble core:AppConnectBleWhiteList @bt_mpc_adpt_gap.c(445),INFO" ID="0x8dd40ded" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc connect white list fail ret=%d @bt_mpc_adpt_gap.c(449),ERROR" ID="0x8dd40e0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc passkey response: %d @bt_mpc_adpt_gap.c(462),ERROR" ID="0x8dd40e72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc passkey response err! len = %d @bt_mpc_adpt_gap.c(465),ERROR" ID="0x8dd40e8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set connect param: %d @bt_mpc_adpt_gap.c(493),ERROR" ID="0x8dd40f6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set connect param err! len = %d @bt_mpc_adpt_gap.c(496),ERROR" ID="0x8dd40f82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc set hci le event mask: %d @bt_mpc_adpt_gap.c(507),ERROR" ID="0x8dd40fda" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt mpc set hci le event mask error! len = %d, stru_len: %d @bt_mpc_adpt_gap.c(511),ERROR" ID="0x8dd40ffa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc read remote rssi: %d @bt_mpc_adpt_gap.c(524),ERROR" ID="0x8dd41062" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc read remote rssi err! len = %d @bt_mpc_adpt_gap.c(527),ERROR" ID="0x8dd4107a" />
+			</MSG_LOG>

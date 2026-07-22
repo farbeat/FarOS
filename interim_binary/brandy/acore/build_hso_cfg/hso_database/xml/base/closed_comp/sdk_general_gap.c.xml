@@ -1,0 +1,42 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="list node create fail! @sdk_general_gap.c(128),ERROR" ID="0xd86c0402" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="list node create fail! @sdk_general_gap.c(139),ERROR" ID="0xd86c045a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="list node create fail! @sdk_general_gap.c(213),ERROR" ID="0xd86c06aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Core] ble general: mc ble conn state. @sdk_general_gap.c(239),INFO" ID="0xd86c077d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble conn state fail. len = %u @sdk_general_gap.c(242),ERROR" ID="0xd86c0792" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble conn state memcpy fail: %d @sdk_general_gap.c(248),ERROR" ID="0xd86c07c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap general interface fail. len = %u @sdk_general_gap.c(260),ERROR" ID="0xd86c0822" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap general interface fail. len = %u @sdk_general_gap.c(266),ERROR" ID="0xd86c0852" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap adv set terminated fail. len = %u @sdk_general_gap.c(279),ERROR" ID="0xd86c08ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap adv set terminated status: %u @sdk_general_gap.c(284),INFO" ID="0xd86c08e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp passkey req bta fail. len = %u @sdk_general_gap.c(295),ERROR" ID="0xd86c093a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp passkey req bta. rmt_dev_handle = 0x%x @sdk_general_gap.c(301),INFO" ID="0xd86c096d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp passkey notify bta fail. len = %u @sdk_general_gap.c(315),ERROR" ID="0xd86c09da" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble general: mc ble smp passkey notify bta. rmt_dev_handle = 0x%x, number = %u @sdk_general_gap.c(322),INFO" ID="0xd86c0a15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp pair keys bta fail. len = %u @sdk_general_gap.c(334),ERROR" ID="0xd86c0a72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: mc ble smp pair keys addr memcpy fail. @sdk_general_gap.c(341),ERROR" ID="0xd86c0aaa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: mc ble smp pair keys memcpy fail. @sdk_general_gap.c(347),ERROR" ID="0xd86c0ada" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] ble general: mc ble smp pair keys bta. addr:%02x:**:**:**:%02x:%02x @sdk_general_gap.c(351),INFO" ID="0xd86c0afd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp pair complete bta fail. len = %u @sdk_general_gap.c(362),ERROR" ID="0xd86c0b52" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble general: mc ble smp pair complete bta. rmt_dev_handle = 0x%x, result = 0x%x @sdk_general_gap.c(369),INFO" ID="0xd86c0b8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble gap get apperance fail. len = %u @sdk_general_gap.c(379),ERROR" ID="0xd86c0bda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble gap get apperance apperance = %u @sdk_general_gap.c(384),ERROR" ID="0xd86c0c02" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Core] ble general: mc ble gap get white list pkt_len = %d, sizeof(bth_gap_white_addr_list) = %d @sdk_general_gap.c(394),INFO" ID="0xd86c0c55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="mc ble gap get white list: count = %d. @sdk_general_gap.c(397),INFO" ID="0xd86c0c6d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="mc ble gap get white list addr:0x%x:**:**:**:0x%x:0x%x. @sdk_general_gap.c(401),INFO" ID="0xd86c0c8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble conn general gap proc:cmdid:0x%02X pay_len:%d. @sdk_general_gap.c(423),INFO" ID="0xd86c0d3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble conn general gap proc no handle for command id:0x%02x. @sdk_general_gap.c(438),INFO" ID="0xd86c0db5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble smp pair remote device atb. @sdk_general_gap.c(517),INFO" ID="0xd86c102d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble smp passkey number atb. @sdk_general_gap.c(525),INFO" ID="0xd86c106d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble smp send passkey number did not receive passkey req. @sdk_general_gap.c(537),INFO" ID="0xd86c10cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble smp remove pair info atb. @sdk_general_gap.c(550),INFO" ID="0xd86c1135" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble smp remove pair device atb. @sdk_general_gap.c(562),INFO" ID="0xd86c1195" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble disc all links atb. @sdk_general_gap.c(571),INFO" ID="0xd86c11dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble smp set key from btc atb. @sdk_general_gap.c(602),INFO" ID="0xd86c12d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble remove adv by handle atb. @sdk_general_gap.c(612),INFO" ID="0xd86c1325" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc ble disable adv by handle atb. @sdk_general_gap.c(619),INFO" ID="0xd86c135d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[warning] uapi disconnect ble link conn_node not found disc all. @sdk_general_gap.c(742),INFO" ID="0xd86c1735" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi disconnect ble link addr memcpy fail. @sdk_general_gap.c(748),INFO" ID="0xd86c1765" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO] uapi disconnect ble link ret:%u. @sdk_general_gap.c(753),INFO" ID="0xd86c178d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: set ble sec param comes. @sdk_general_gap.c(765),INFO" ID="0xd86c17ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt at cmd set ble sec param fail, value is null! @sdk_general_gap.c(768),ERROR" ID="0xd86c1802" />
+			</MSG_LOG>

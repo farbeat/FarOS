@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]hci_bt_voice_over_dsp_param_handler acl_par[0x%x] sco_par[0x%x] @lc_hci_vodsp.c(50),WARNING" ID="0x8a500193" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_adp_map dsp2bt_mem_hdl:0x%x success! @lc_hci_vodsp.c(63),INFO" ID="0x8a5001fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_adp_map bt2dsp_mem_hdl:0x%x success! @lc_hci_vodsp.c(70),INFO" ID="0x8a500235" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]uapi_adp_map ld_sco_start_tog success! @lc_hci_vodsp.c(77),INFO" ID="0x8a50026d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]uapi_adp_map failed! map_ret1:0x%x map_ret2:0x%x @lc_hci_vodsp.c(79),WARNING" ID="0x8a50027b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_adp_unmap dsp2bt_mem_hdl:0x%x success! @lc_hci_vodsp.c(95),INFO" ID="0x8a5002fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_adp_unmap bt2dsp_mem_hdl:0x%x success! @lc_hci_vodsp.c(99),INFO" ID="0x8a50031d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]uapi_adp_unmap sync_audio_tog_disable success! @lc_hci_vodsp.c(104),INFO" ID="0x8a500345" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]uapi_adp_unmap failed! map_ret1:0x%x map_ret2:0x%x @lc_hci_vodsp.c(106),WARNING" ID="0x8a500353" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][HCI]hci_bt_voice_over_dsp_cmd_handler sync_handle=0x%x, enable=%d, dsp2bt:0x%x, bt2dsp:0x%x @lc_hci_vodsp.c(121),INFO" ID="0x8a5003cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]hci_bt_voice_over_dsp_cmd_handler Invalid sync_link_id[0x%x] @lc_hci_vodsp.c(132),WARNING" ID="0x8a500423" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]hci_bt_voice_over_dsp_cmd_handler Invalid conhdl[0x%x] @lc_hci_vodsp.c(138),WARNING" ID="0x8a500453" />
+			</MSG_LOG>

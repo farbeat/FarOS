@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HOP]scst_hop_chk_en=%x @ld_acl_hop.c(138),INFO" ID="0x88c80455" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][HOP]scst_hop_chk_en=%x, nb_good_ch_thr=%d, bw=%d @ld_acl_hop.c(160),INFO" ID="0x88c80505" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][HOP]hop_check hop_info_buf[%d]=%d, hop_out=%d, diff=%d  @ld_acl_hop.c(329),INFO" ID="0x88c80a4d" />
+			</MSG_LOG>

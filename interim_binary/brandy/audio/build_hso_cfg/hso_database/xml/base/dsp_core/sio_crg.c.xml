@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]mmap aud_dsp_cfg_reg failed. @sio_crg.c(25),ERROR" ID="0x988400ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_aud_dsp_cfg_reg = %p @sio_crg.c(29),INFO" ID="0x988400ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sizeof(aud_dsp_cfg_reg) = 0x%08X @sio_crg.c(30),INFO" ID="0x988400f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_aud_dsp_cfg_reg-&gt;reg_clk_en0.u32 = 0x%08X @sio_crg.c(72),INFO" ID="0x98840245" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_crg_map_regs Failed, Error Code: [0x%08X] @sio_crg.c(119),ERROR" ID="0x988403ba" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[HCI][LK_REQUEST] REMOTE_BD_ADDR=%02x:%02x:*:*:*:%02x @hci_secu.c(877),INFO" ID="0x8ad81b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][LK_REQUEST] Remote Data Not Found, Remote Addr may be error = %x @hci_secu.c(911),INFO" ID="0x8ad81c7d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][CHANGE_ENCRYPTION_MODE] STATUS=0x%x, HANDLE=0x%x, RESULT=0x%x @hci_secu.c(978),INFO" ID="0x8ad81e95" />
+			</MSG_LOG>

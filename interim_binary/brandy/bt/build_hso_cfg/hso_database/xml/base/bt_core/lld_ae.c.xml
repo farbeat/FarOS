@@ -1,0 +1,36 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO][AE]lld_ext_adv_start:ts[0x%x], duration_min[%d], end_ts[0x%x] @lld_ae.c(246),INFO" ID="0x89e007b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD]lld_ext_adv_start:adv_hdl=%d, intv=%d @lld_ae.c(259),INFO" ID="0x89e0081d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][AE]lld_ext_adv_start:adv channel map ch_cnt[%d] is wrong!!! @lld_ae.c(275),ERROR" ID="0x89e0089a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_ext_adv_start:ext_adv_params = NULL @lld_ae.c(301),ERROR" ID="0x89e0096a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][AE]lld_ext_adv_start:adv_hdl[%d] @lld_ae.c(306),INFO" ID="0x89e00995" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_ext_adv_start:elt insert failed @lld_ae.c(338),ERROR" ID="0x89e00a92" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AE]lld_ext_scan_start:ts[0x%x], intv[%d], duration_min[%d], window[%d]slot @lld_ae.c(628),INFO" ID="0x89e013a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AE]lld_ext_scan_start:elt=0x%x, aux_scan_elt=0x%x @lld_ae.c(635),INFO" ID="0x89e013dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][LLD]lld_ae_aux_scan_start:scan_elt[0x%x] or aux_elt[0x%x] curr_elt[0x%x]is NULL @lld_ae.c(746),ERROR" ID="0x89e01752" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_ext_scan_stop:mode[%d],scan_elt[0x%x],scan_elt_ts[0x%x] @lld_ae.c(918),INFO" ID="0x89e01cb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_pdu_ext_data_tx_push, TX node is NULL @lld_ae.c(1242),ERROR" ID="0x89e026d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][AE]lld_pdu_type_log:channel =0x%x,mode=%d @lld_ae.c(1354),ERROR" ID="0x89e02a52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_ae_aux_scan_schedule:sync_tag is null @lld_ae.c(1395),WARNING" ID="0x89e02b9b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][AE]lld_pdu_ae_rx_handler:head_flag=0x%x, mode=%d @lld_ae.c(1428),INFO" ID="0x89e02ca5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_evt_terminate_ext_adv_evt_send:evt is null @lld_ae.c(1794),WARNING" ID="0x89e03813" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_evt_ext_adv_create:ext adv elt is null @lld_ae.c(2139),WARNING" ID="0x89e042db" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_evt_ext_aux_scan_time_set, auxptr_time &lt; T_MAFS @lld_ae.c(2274),ERROR" ID="0x89e04712" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_evt_ext_aux_scan_time_set, auxptr_time &lt; T_MAFS @lld_ae.c(2327),ERROR" ID="0x89e048ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]lld_ext_adv_primary_elt_reinsert:next_elt insert failed @lld_ae.c(2762),WARNING" ID="0x89e05653" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_ext_adv_sync_elt_reinsert:sync_elt or next_elt NULL @lld_ae.c(2774),ERROR" ID="0x89e056b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_ext_adv_sync_elt_reinsert:sync restart count&gt;=1000 @lld_ae.c(2793),ERROR" ID="0x89e0574a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]lld_ext_adv_sync_elt_reinsert:sync_evt insert failed @lld_ae.c(2803),WARNING" ID="0x89e0579b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]lld_ext_adv_primary_elt_check_reinsert:primary_elt NULL @lld_ae.c(2827),WARNING" ID="0x89e0585b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]lld_ext_adv_next_pdu_insert:next_elt insert failed @lld_ae.c(2857),WARNING" ID="0x89e0594b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_ext_adv_primary_restart: elt NULL @lld_ae.c(2923),ERROR" ID="0x89e05b5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_ext_adv_primary_restart: elt or llc_env = NULL @lld_ae.c(2929),ERROR" ID="0x89e05b8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_evt_ae_adv_chain_pdu_insert: Create next_elt_node malloc failed @lld_ae.c(3032),ERROR" ID="0x89e05ec2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]primary_schedule: Create next_elt_node malloc failed @lld_ae.c(3112),ERROR" ID="0x89e06142" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][AE]primary_schedule:conhdl 0x%x out of range @lld_ae.c(3139),WARNING" ID="0x89e0621b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLD]lld_evt_ext_adv_aux_schedule:elt=0x%x @lld_ae.c(3235),INFO" ID="0x89e0651d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AE]insert:mode=%d,ae_elt=0x%x,ae_elt_ts=0x%x,rejected_flag=%d @lld_ae.c(3342),INFO" ID="0x89e06875" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AE]ae params not exist @lld_ae.c(3354),INFO" ID="0x89e068d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AE]ext adv elt not exist @lld_ae.c(3359),INFO" ID="0x89e068fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AE]sync adv elt not exist @lld_ae.c(3372),INFO" ID="0x89e06965" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AE]sync adv elt already in prog list @lld_ae.c(3384),INFO" ID="0x89e069c5" />
+			</MSG_LOG>

@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][ld_page_em_init]truncated page mode :set cs_idx=%d , Txdescptr =0!!! @ld_page.c(142),INFO" ID="0x88c60475" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][handle]((struct ld_iscan_evt_params*) (EM_BT_RXDESC_OFFSET + ld_env.curr_rxdesc_index * REG_EM_BT_RXDESC_SIZE)=%d, &quot;bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_page.c(200),ERROR" ID="0x88c60642" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]ld set create conn. flag %d, clock %d @ld_page.c(287),INFO" ID="0x88c608fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR]ld_page_prog:evt-&gt;timestamp = 0x%x, page_par-&gt;new_con_end_ts = 0x%x, cs_idx = %d, att_nb = %d @ld_page.c(342),ERROR" ID="0x88c60ab2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ld_page_env.evt != evt @ld_page.c(365),ERROR" ID="0x88c60b6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ld_page_evt_start_cbk timestamp:0x%x @ld_page.c(377),INFO" ID="0x88c60bcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_page_env.evt != evt @ld_page.c(399),ERROR" ID="0x88c60c7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]page_par-&gt;state = %d @ld_page.c(407),ERROR" ID="0x88c60cba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][handle](EM_BT_RXDESC_OFFSET + ld_env.curr_rxdesc_index * REG_EM_BT_RXDESC_SIZE) = %d, bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_page.c(488),WARNING" ID="0x88c60f43" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="tx_desc_ptr == 0, em init @ld_page.c(498),INFO" ID="0x88c60f95" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][PAGE][LD]ld_page_frm_cbk:cs_idx=%d, page_par-&gt;state = %d @ld_page.c(586),INFO" ID="0x88c61255" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ld_page_start_init page delay 500slot, ts=%d @ld_page.c(622),INFO" ID="0x88c61375" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD]ld_page_frm_isr_step:init page cs again(clock=0x%x, current_prio=0x%x, asap_limit=0x%x, page_end_ts=0x%x) @ld_page.c(808),WARNING" ID="0x88c61943" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][PAGE]ld_page_start:page start element insert EA_wait queue failed @ld_page.c(894),ERROR" ID="0x88c61bf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][PAGE]ld_page_start:ld_page_env.evt malloc failed @ld_page.c(897),ERROR" ID="0x88c61c0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][PAGE]ld_page_start:ld_page_env is not NULL @ld_page.c(900),ERROR" ID="0x88c61c22" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_page_backoff page_end_ts=0x%x, inquiry_start_ts_test=0x%x, page_start_ts=0x%x, ble_scan_start_ts=0x%x @ld_page.c(918),INFO" ID="0x88c61cb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD] ld_page_backoff ts=0x%x, page_backoff_stage = %d @ld_page.c(919),INFO" ID="0x88c61cbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][PAGE][LD]ld_page_end: status=%d, start ts=%d, end ts=%d, duration=%d(slot) @ld_page.c(975),INFO" ID="0x88c61e7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][PAGE][LD]ld_page_end: ea_elt_insert failed @ld_page.c(1010),INFO" ID="0x88c61f95" />
+			</MSG_LOG>

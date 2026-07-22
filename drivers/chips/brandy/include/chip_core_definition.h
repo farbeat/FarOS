@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) @CompanyNameMagicTag 2018-2020. All rights reserved.
+ * Description:   Contains a define telling the rest of the code which core this is
+ * Author: @CompanyNameTag
+ * Create:  2018-10-15
+ */
+
+#ifndef CHIP_CORE_DEFINITION_H
+#define CHIP_CORE_DEFINITION_H
+
+#include "chip_definitions.h"
+#define CORE APPS
+#define ARCH RISCV70
+
+#endif

@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_default_attr Failed, Error Code: [0x%08X] @core_msg_ao.c(47),ERROR" ID="0x984c017a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_open Failed, Error Code: [0x%08X] @core_msg_ao.c(63),ERROR" ID="0x984c01fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ao_open-&gt;snd_id = 0x%08X @core_msg_ao.c(64),ERROR" ID="0x984c0202" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_close Failed, Error Code: [0x%08X] @core_msg_ao.c(78),ERROR" ID="0x984c0272" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_port_enable Failed, Error Code: [0x%08X] @core_msg_ao.c(96),ERROR" ID="0x984c0302" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_port_enable Failed, Error Code: [0x%08X] @core_msg_ao.c(113),ERROR" ID="0x984c038a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_mute Failed, Error Code: [0x%08X] @core_msg_ao.c(131),ERROR" ID="0x984c041a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_mute Failed, Error Code: [0x%08X] @core_msg_ao.c(148),ERROR" ID="0x984c04a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_track_mode Failed, Error Code: [0x%08X] @core_msg_ao.c(166),ERROR" ID="0x984c0532" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_track_mode Failed, Error Code: [0x%08X] @core_msg_ao.c(183),ERROR" ID="0x984c05ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_volume Failed, Error Code: [0x%08X] @core_msg_ao.c(201),ERROR" ID="0x984c064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_volume Failed, Error Code: [0x%08X] @core_msg_ao.c(218),ERROR" ID="0x984c06d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_attr Failed, Error Code: [0x%08X] @core_msg_ao.c(233),ERROR" ID="0x984c074a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_bypass Failed, Error Code: [0x%08X] @core_msg_ao.c(250),ERROR" ID="0x984c07d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_all_track_mute Failed, Error Code: [0x%08X] @core_msg_ao.c(265),ERROR" ID="0x984c084a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_all_track_mute Failed, Error Code: [0x%08X] @core_msg_ao.c(287),ERROR" ID="0x984c08fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_open Failed, Error Code: [0x%08X] @core_msg_ao.c(304),ERROR" ID="0x984c0982" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_proc_info Failed, Error Code: [0x%08X] @core_msg_ao.c(329),ERROR" ID="0x984c0a4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_aef_param Failed, Error Code: [0x%08X] @core_msg_ao.c(349),ERROR" ID="0x984c0aea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_aef_param Failed, Error Code: [0x%08X] @core_msg_ao.c(369),ERROR" ID="0x984c0b8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_get_aef_enable Failed, Error Code: [0x%08X] @core_msg_ao.c(388),ERROR" ID="0x984c0c22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_aef_enable Failed, Error Code: [0x%08X] @core_msg_ao.c(405),ERROR" ID="0x984c0caa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_aef_profile Failed, Error Code: [0x%08X] @core_msg_ao.c(422),ERROR" ID="0x984c0d32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ao_set_spk_cali Failed, Error Code: [0x%08X] @core_msg_ao.c(437),ERROR" ID="0x984c0daa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_data-&gt;cmd = %u @core_msg_ao.c(476),ERROR" ID="0x984c0ee2" />
+			</MSG_LOG>

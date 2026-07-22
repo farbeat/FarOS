@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="lld_evt_defered_elt_handler,  test end @patch_lld_evt.c(141),WARNING" ID="0x8a60046b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD]lld_evt_flush_common:elt is null @patch_lld_evt.c(212),INFO" ID="0x8a6006a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="c_evt-&gt;mode=%d, next_elt-&gt;mode=%d, cur-&gt;conhdl=%d, n_evt-&gt;conhdl=%d @patch_lld_evt.c(269),INFO" ID="0x8a60086d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="current_elt-&gt;current_prio=%d, next_elt-&gt;current_prio=%d, llm_le_env.sync_state =%d @patch_lld_evt.c(271),INFO" ID="0x8a60087d" />
+			</MSG_LOG>

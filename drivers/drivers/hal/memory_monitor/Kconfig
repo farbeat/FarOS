@@ -1,0 +1,15 @@
+#===============================================================================
+# @brief    Kconfig file.
+# Copyright (c) @CompanyNameMagicTag 2023-2023. All rights reserved.
+#===============================================================================
+config MEM_MONITOR_USING_V150
+    bool
+    prompt "Using MEM_Monitor V150"
+    default y
+    depends on DRIVER_SUPPORT_MEM_MONITOR
+
+config MEM_MONITOR_DEBUG
+    bool
+    prompt "Opening MEM_Monitor Debug"
+    default y
+    depends on DRIVER_SUPPORT_MEM_MONITOR

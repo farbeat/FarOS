@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]create big prepare fail @llc_bis_hci.c(265),WARNING" ID="0x8956084b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]create big prepare fail @llc_bis_hci.c(311),WARNING" ID="0x895609bb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]not find big conhdl @llc_bis_hci.c(484),WARNING" ID="0x89560f23" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big param is NULL @llc_bis_hci.c(491),WARNING" ID="0x89560f5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]current role is master @llc_bis_hci.c(497),WARNING" ID="0x89560f8b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big trigger is false @llc_bis_hci.c(503),WARNING" ID="0x89560fbb" />
+			</MSG_LOG>

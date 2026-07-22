@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="hci_le_subrate_ind_cmd_handler: subrate=%d, delay=%d, sup_to=%d, half_time_to=%d @llc_subrate.c(89),INFO" ID="0x89f802cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_llcp_subrate_ind_pdu_send, subrate=%d, latency=%d, reference_event_counter=%d @llc_subrate.c(234),INFO" ID="0x89f80755" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_llcp_subrate_req_pdu_send:subrate_max=%d, subrate_min=%d, latency=%d @llc_subrate.c(249),INFO" ID="0x89f807cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_llcp_superv_to_ind_pdu_send:conhdl=%d, superv_to=%d @llc_subrate.c(261),INFO" ID="0x89f8082d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]llc_subrate_cmp_evt_send:subrate=%d, latency=%d, conhdl=%d @llc_subrate.c(286),INFO" ID="0x89f808f5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]llcp_subrate_ind_priv_handler:subrate=%d, latency=%d, ref_event_counter=%d @llc_subrate.c(314),INFO" ID="0x89f809d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR] start process chr on @llc_subrate.c(370),INFO" ID="0x89f80b95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CHR] start process chr off @llc_subrate.c(374),INFO" ID="0x89f80bb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC]llcp_link_superv_to_ind_handler:sup_to=%d @llc_subrate.c(416),INFO" ID="0x89f80d05" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_subrate_calc_reference_event_counter: subrate=%d, i=%d, final_offset=%d @llc_subrate.c(471),INFO" ID="0x89f80ebd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]llc_check_subrate_ind_priv_acked:subrate=%d, latency=%d, conhdl=%d @llc_subrate.c(520),INFO" ID="0x89f81045" />
+			</MSG_LOG>

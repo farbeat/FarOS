@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]assert failed. @rt_smem.c(64),ERROR" ID="0x98720202" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]assert failed. @rt_smem.c(72),ERROR" ID="0x98720242" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]begin_addr = %p @rt_smem.c(130),ERROR" ID="0x98720412" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %u @rt_smem.c(131),ERROR" ID="0x9872041a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]small_mem-&gt;heap_ptr = %p @rt_smem.c(144),INFO" ID="0x98720485" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]small_mem-&gt;mem_size_aligned = %u @rt_smem.c(145),INFO" ID="0x9872048d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %u @rt_smem.c(176),INFO" ID="0x98720585" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]align_size = %u @rt_smem.c(181),INFO" ID="0x987205ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]new_size = %u @rt_smem.c(188),INFO" ID="0x987205e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %u @rt_smem.c(266),ERROR" ID="0x98720852" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]small_mem-&gt;mem_size_aligned = %u @rt_smem.c(267),ERROR" ID="0x9872085a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]user_ptr = %p @rt_smem.c(295),INFO" ID="0x9872093d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %p @rt_smem.c(296),INFO" ID="0x98720945" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]new_size = %u @rt_smem.c(334),ERROR" ID="0x98720a72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]small_mem-&gt;mem_size_aligned = %u @rt_smem.c(335),ERROR" ID="0x98720a7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rmem = %p @rt_smem.c(407),INFO" ID="0x98720cbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]mem = %p @rt_smem.c(434),INFO" ID="0x98720d95" />
+			</MSG_LOG>

@@ -1,0 +1,19 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][SCO]ld_sco_get_rx_embuffer double sco drop data @ld_sco.c(336),INFO" ID="0x8a020a85" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]ld_pcm_print(g_pcm_debug_cnt=0x%x * txlen=0x%x) &gt; EM_SINK_BUFFER_SIZE:  @ld_sco.c(440),ERROR" ID="0x8a020dc2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]ld_sco_reschedule:anchor_point(0x%x), current_prio(%d), dura_min(%d), acl_prio(%d) @ld_sco.c(685),WARNING" ID="0x8a02156b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]ld_sco_sched:anchor_point(0x%x), current_prio(%d), dura_min(%d), acl_prio(%d) @ld_sco.c(761),WARNING" ID="0x8a0217cb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]ld_sco_sched:acl_ts(0x%x), acl_last_sync_ts(%d), t_esco(%d), circle_num(%d) @ld_sco.c(773),WARNING" ID="0x8a02182b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING]ld_sco_sched:acl_ts(0x%x), acl_last_sync_ts(%d), t_esco(%d) @ld_sco.c(776),WARNING" ID="0x8a021843" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sniff is conflict with sco, so unsniff @ld_sco.c(884),INFO" ID="0x8a021ba5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][handle]currentrxdescptr=%d @ld_sco.c(1003),WARNING" ID="0x8a021f5b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LD][ACL]linear_format=%d, air_coding=%d @ld_sco.c(1561),INFO" ID="0x8a0230cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][SCO]config port wbs_enabled=%d, sco tx point=0x%x, rx point=0x%x @ld_sco.c(1663),INFO" ID="0x8a0233fd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LD_ACL]wbs_esco_enable, link_id=%d, sco_link_id=%d, t esco=%d @ld_sco.c(1676),INFO" ID="0x8a023465" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="Remote Loopback Mode wbs_enable=%d id=%d, int=0x%x @ld_sco.c(1788),INFO" ID="0x8a0237e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]sco_par-&gt;data_path = %d @ld_sco.c(2067),ERROR" ID="0x8a02409a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]sco_par-&gt;data_path = %d @ld_sco.c(2163),ERROR" ID="0x8a02439a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LD]acl data is earlier than sco req,l2cap_start_ts=0x%x,l2cap_start_ts_us=0x%x,hci_sync_ts=0x%x,hci_sync_ts_us=0x%x @ld_sco.c(2196),INFO" ID="0x8a0244a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sco first tog clock=0x%x @ld_sco.c(2609),INFO" ID="0x8a02518d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ld sco end, sco link id %d, acl link id %d @ld_sco.c(2649),INFO" ID="0x8a0252cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]ld_sco_end sco_evt=Null, sco_linkid=%d @ld_sco.c(2700),ERROR" ID="0x8a025462" />
+			</MSG_LOG>

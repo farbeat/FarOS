@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_get_default_attr Failed, Error Code: [0x%08X] @core_msg_ai.c(59),ERROR" ID="0x988c01da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_create Failed, Error Code: [0x%08X] @core_msg_ai.c(88),ERROR" ID="0x988c02c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_destroy Failed, Error Code: [0x%08X] @core_msg_ai.c(108),ERROR" ID="0x988c0362" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_start Failed, Error Code: [0x%08X] @core_msg_ai.c(128),ERROR" ID="0x988c0402" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_stop Failed, Error Code: [0x%08X] @core_msg_ai.c(142),ERROR" ID="0x988c0472" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_get_attr Failed, Error Code: [0x%08X] @core_msg_ai.c(157),ERROR" ID="0x988c04ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_set_attr Failed, Error Code: [0x%08X] @core_msg_ai.c(172),ERROR" ID="0x988c0562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_set_bypass Failed, Error Code: [0x%08X] @core_msg_ai.c(194),ERROR" ID="0x988c0612" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_reset_vad Failed, Error Code: [0x%08X] @core_msg_ai.c(208),ERROR" ID="0x988c0682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_get_volume Failed, Error Code: [0x%08X] @core_msg_ai.c(223),ERROR" ID="0x988c06fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_set_volume Failed, Error Code: [0x%08X] @core_msg_ai.c(238),ERROR" ID="0x988c0772" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_get_mute Failed, Error Code: [0x%08X] @core_msg_ai.c(253),ERROR" ID="0x988c07ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_set_mute Failed, Error Code: [0x%08X] @core_msg_ai.c(275),ERROR" ID="0x988c089a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_set_mic_cali_volume Failed, Error Code: [0x%08X] @core_msg_ai.c(292),ERROR" ID="0x988c0922" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_open Failed, Error Code: [0x%08X] @core_msg_ai.c(309),ERROR" ID="0x988c09aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ai_get_proc_info Failed, Error Code: [0x%08X] @core_msg_ai.c(334),ERROR" ID="0x988c0a72" />
+			</MSG_LOG>

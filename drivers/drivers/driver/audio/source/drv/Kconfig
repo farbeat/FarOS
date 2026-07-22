@@ -1,0 +1,113 @@
+menu "Audio Driver Config"
+
+config SAP_PROC_SUPPORT
+    bool "proc support"
+    default y
+
+###########################################################
+choice
+    prompt "Proc Type"
+    default SAP_PROC_TYPE_DUMMY
+
+config SAP_PROC_TYPE_DUMMY
+    bool "dummy"
+    help
+        set proc type to dummy
+
+config SAP_PROC_TYPE_REAL
+    bool "real"
+    help
+        set proc type to real
+endchoice
+
+###########################################################
+config SAP_PROC_OUTPUT_UART
+    bool "enable uart output"
+    default y
+    depends on SAP_PROC_TYPE_DUMMY
+    help
+        enable proc output to uart
+
+config SAP_PROC_OUTPUT_DIAG_SHELL
+    bool "enable diag shell output"
+    default n
+    depends on SAP_PROC_TYPE_DUMMY
+    help
+        enable proc output to diag shell
+
+config SAP_PROFILE_SUPPORT
+    bool "profile support"
+    default n
+
+config SAP_MEM_STATISTIC
+    bool "open malloc statistic"
+    default n
+
+config SAP_MCPS_STATISTIC
+    bool "open cpu mcps statistic"
+    default n
+
+config SAP_ANC_SUPPORT
+    bool "anc support"
+    default n
+
+config SAP_LPC_SUPPORT
+    bool "lpc support"
+    default n
+
+config SAP_DSP_I2C_SUPPORT
+    bool "dsp i2c support"
+    default n
+
+config SAP_FLASH_FIRMWARE_SUPPORT
+    bool "flash firmware support"
+    default n
+
+###########################################################
+choice
+    prompt "Overlay Location"
+    default SAP_DRV_OVERLAY_LOAD_FROM_FLASH
+
+config SAP_DRV_OVERLAY_LOAD_FROM_FLASH
+    bool "flash"
+    help
+        load overlay from flash
+
+config SAP_DRV_OVERLAY_LOAD_FROM_FILE
+    bool "file system"
+    help
+        load overlay from file system
+endchoice
+
+config SAP_DRV_OVERLAY_LOAD_FROM
+    string
+    default "flash"          if SAP_DRV_OVERLAY_LOAD_FROM_FLASH
+    default "file"           if SAP_DRV_OVERLAY_LOAD_FROM_FILE
+
+###########################################################
+config SAP_SHELL_SUPPORT
+	bool "dsp shell support"
+    default y
+
+config SAP_TEST_CORE_SUPPORT
+	bool "dsp test cases support"
+    default y
+
+config SAP_HAID_SUPPORT
+	bool "hearing aid support"
+    default n
+
+###########################################################
+config SAP_IPC_LOG_SUPPORT
+	bool "ipc log support"
+    default y          if SAP_BRANDY
+    default n          if SAP_SOCMN1
+
+###########################################################
+config SAP_SUPPORT_RT_SMALL_MEM
+    bool "rt-thread small mem support"
+    default n
+
+###########################################################
+
+endmenu

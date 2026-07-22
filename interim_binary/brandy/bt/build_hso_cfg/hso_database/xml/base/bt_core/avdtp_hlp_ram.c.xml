@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[AVDTP][signal_msg_process_cfm_reject] code=%d error_code=%d @avdtp_hlp_ram.c(79),WARNING" ID="0x8bd4027b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][signal_msg_process_cfm_accept] code=%d @avdtp_hlp_ram.c(121),INFO" ID="0x8bd403cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][signal_msg_process_ind] code=%d @avdtp_hlp_ram.c(169),INFO" ID="0x8bd4054d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][GET_SEP_FAIL] Can not get sep info @avdtp_hlp_ram.c(309),WARNING" ID="0x8bd409ab" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AVDTP][LC3][L2HC]select L-&gt;vendorId=0x%x, R-&gt;vendorId=0x%x @avdtp_hlp_ram.c(348),INFO" ID="0x8bd40ae5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AVDTP][LC3][L2HC]select L-&gt;sampleRate=0x%x, c:0x%x, R-&gt;sampleRate=0x%x, c:0x%x @avdtp_hlp_ram.c(361),INFO" ID="0x8bd40b4d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AVDTP][LC3][L2HC]select L-&gt;highBitRate=0x%x, misc:0x%x, R-&gt;highBitRate=0x%x, misc:0x%x @avdtp_hlp_ram.c(364),INFO" ID="0x8bd40b65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AVDTP][sep_selector]local mask_inuse_cmp=%d, media_type_bit3_cmp=%d,&quot; &quot;codec_type_cmp=%d @avdtp_hlp_ram.c(494),INFO" ID="0x8bd40f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][sep_selector]local_seid:%d set&quot; &quot;INUSE @avdtp_hlp_ram.c(521),INFO" ID="0x8bd4104d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][sep_selector] errcode=%d @avdtp_hlp_ram.c(561),INFO" ID="0x8bd4118d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AVDTP][avdtp_sep_group_available_se]Always reuse the group for this device, group_id = %d,&quot; &quot;REMOTE_ADDR = %02x:%02x:**:**:**:%02x @avdtp_hlp_ram.c(886),INFO" ID="0x8bd41bb5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AVDTP][avdtp_sep_group_available_se]Return the first idle group, group_id = %d,&quot; &quot;REMOTE_ADDR = %02x:%02x:**:**:**:%02x @avdtp_hlp_ram.c(910),INFO" ID="0x8bd41c75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AVDTP][avdtp_sep_group_available_se]Return the first not connect group, group_id = %d,&quot; &quot;REMOTE_ADDR = %02x:%02x:**:**:**:%02x @avdtp_hlp_ram.c(917),INFO" ID="0x8bd41cad" />
+			</MSG_LOG>

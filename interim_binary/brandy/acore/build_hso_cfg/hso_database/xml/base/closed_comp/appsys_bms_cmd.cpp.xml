@@ -1,0 +1,19 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="initAppSysCmd bm! @appsys_bms_cmd.cpp(53),INFO" ID="0xe04a01ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm ReceiveCallback resultCode = %d @appsys_bms_cmd.cpp(60),INFO" ID="0xe04a01e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="argc &gt; 4, ERR!!! @appsys_bms_cmd.cpp(68),ERROR" ID="0xe04a0222" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="input failed! @appsys_bms_cmd.cpp(77),ERROR" ID="0xe04a026a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="argc &gt; 4, ERR!!! @appsys_bms_cmd.cpp(85),ERROR" ID="0xe04a02aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="js app is active, first need terminate @appsys_bms_cmd.cpp(111),INFO" ID="0xe04a037d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bm dump argc 2 only support allBundles, ERR!!! @appsys_bms_cmd.cpp(123),ERROR" ID="0xe04a03da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm dump BundlesInfo len = %d @appsys_bms_cmd.cpp(132),DBG" ID="0xe04a0426" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm dump BundlesInfo bundleName = %s @appsys_bms_cmd.cpp(135),DBG" ID="0xe04a043e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm dump BundlesInfo versionName = %s @appsys_bms_cmd.cpp(136),DBG" ID="0xe04a0446" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm dump BundlesInfo deviceType = %s @appsys_bms_cmd.cpp(138),DBG" ID="0xe04a0456" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm dump BundlesInfo udid = %d @appsys_bms_cmd.cpp(140),DBG" ID="0xe04a0466" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm dump BundlesInfo isSystemApp = %d @appsys_bms_cmd.cpp(141),DBG" ID="0xe04a046e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_bm start @appsys_bms_cmd.cpp(160),INFO" ID="0xe04a0505" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="argc is not 2, ERR!!! @appsys_bms_cmd.cpp(162),ERROR" ID="0xe04a0512" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_bm command = %s @appsys_bms_cmd.cpp(167),INFO" ID="0xe04a053d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_bm no correct cmd!!! @appsys_bms_cmd.cpp(181),ERROR" ID="0xe04a05aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_bm end @appsys_bms_cmd.cpp(184),INFO" ID="0xe04a05c5" />
+			</MSG_LOG>

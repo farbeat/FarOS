@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_create_con:connect limit exceed @llm_con.c(112),WARNING" ID="0x89840383" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLM]llm_con_req_tx_cfm:peer_addr_type=%d @llm_con.c(200),INFO" ID="0x89840645" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLM]llm_con_req_tx_cfm_reg_set:rx_status=0x%x, rx_hdl=0x%x, ae_flag=0x%x, chsel_alg=0x%x @llm_con.c(222),INFO" ID="0x898406f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llm_con_req_tx_cfm:ble create con by ae elt 0x%x, timstmp =0x%x @llm_con.c(301),INFO" ID="0x8984096d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]llm_ext_create_con:result=0x%x @llm_con.c(432),WARNING" ID="0x89840d83" />
+			</MSG_LOG>

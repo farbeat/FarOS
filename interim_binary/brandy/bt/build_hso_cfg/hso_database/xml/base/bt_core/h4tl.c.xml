@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]h4tl_read_next_out_of_sync @h4tl.c(191),INFO" ID="0x88ec05fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]h4tl_out_of_sync:send HCI_HW_ERR_EVT to host @h4tl.c(227),INFO" ID="0x88ec071d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]h4tl_out_of_sync_check:sync_ok=%d @h4tl.c(287),INFO" ID="0x88ec08fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param] status = %d @h4tl.c(302),ERROR" ID="0x88ec0972" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][HCI]h4tl_rx_done_hdr:incorrect curr_payl_buff @h4tl.c(453),WARNING" ID="0x88ec0e2b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]h4tl_rx_done:env is null @h4tl.c(554),INFO" ID="0x88ec1155" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]h4tl_rx_done:h4tl_out_of_sync @h4tl.c(562),INFO" ID="0x88ec1195" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][HCI]h4tl_cmd_hdr_rx_evt_handler:incorrect header @h4tl.c(648),WARNING" ID="0x88ec1443" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][HCI]h4tl_cmd_hdr_rx_evt_handler:malloc rx buffer failed @h4tl.c(659),WARNING" ID="0x88ec149b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]h4tl_cmd_pld_rx_evt_handler:opcode=0x%x, parlen=%d @h4tl.c(674),INFO" ID="0x88ec1515" />
+			</MSG_LOG>

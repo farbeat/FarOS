@@ -1,0 +1,11 @@
+set(ECHO   ${CMAKE_COMMAND} -E echo)
+set(MKDIR  ${CMAKE_COMMAND} -E make_directory)
+set(RENAME  ${CMAKE_COMMAND} -E rename)
+set(CP_PY  ${Python3_EXECUTABLE} ${BUILD_UTILS} copy)
+set(CP_PY_FORCE  ${Python3_EXECUTABLE} ${BUILD_UTILS} copy_force)
+set(CP_DIR ${CMAKE_COMMAND} -E copy_directory)
+set(RM     ${CMAKE_COMMAND} -E rm -f)
+set(RM_DIR ${CMAKE_COMMAND} -E rm -rf)
+set(UNZIP ${CMAKE_COMMAND} -E tar x)
+
+set(CP     ${CMAKE_COMMAND} -E copy)

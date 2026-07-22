@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="InitAppSysCmd aa! @appsys_ams_cmd.cpp(53),INFO" ID="0xe02201ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="topAbility is null @appsys_ams_cmd.cpp(82),ERROR" ID="0xe0220292" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bundleName is not top active @appsys_ams_cmd.cpp(87),ERROR" ID="0xe02202ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="aa dump argc 2 only support topAbility, ERR!!! @appsys_ams_cmd.cpp(100),ERROR" ID="0xe0220322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="aa dump topAbility is native Launcher, ERR!!! @appsys_ams_cmd.cpp(106),ERROR" ID="0xe0220352" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_aa dump topAbilityInfo bundleName = %s @appsys_ams_cmd.cpp(127),DBG" ID="0xe02203fe" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_aa dump topAbilityInfo dataPath = %s @appsys_ams_cmd.cpp(128),DBG" ID="0xe0220406" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_aa dump topAbilityInfo srcPath = %s @appsys_ams_cmd.cpp(129),DBG" ID="0xe022040e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_aa start @appsys_ams_cmd.cpp(141),INFO" ID="0xe022046d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="argc is not 2, ERR!!! @appsys_ams_cmd.cpp(143),ERROR" ID="0xe022047a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_aa command = %s @appsys_ams_cmd.cpp(149),INFO" ID="0xe02204ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_aa no correct cmd!!! @appsys_ams_cmd.cpp(157),ERROR" ID="0xe02204ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_aa end @appsys_ams_cmd.cpp(160),INFO" ID="0xe0220505" />
+			</MSG_LOG>

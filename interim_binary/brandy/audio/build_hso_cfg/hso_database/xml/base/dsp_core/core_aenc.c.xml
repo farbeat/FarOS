@@ -1,0 +1,67 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]codec_id = 0x%08X @core_aenc.c(120),ERROR" ID="0x985a03c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]codec_id = 0x%08X @core_aenc.c(125),ERROR" ID="0x985a03ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]dev-&gt;codec_id = 0x%08X @core_aenc.c(126),ERROR" ID="0x985a03f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]private data oversize @core_aenc.c(150),INFO" ID="0x985a04b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inst-&gt;private_data = %u @core_aenc.c(151),INFO" ID="0x985a04bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]arg-&gt;private_data_size = %u @core_aenc.c(152),INFO" ID="0x985a04c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @core_aenc.c(158),ERROR" ID="0x985a04f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]attr-&gt;open_param.samples_per_frame = %d @core_aenc.c(187),INFO" ID="0x985a05dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aenc_get_lib_inst Failed, Error Code: [0x%08X] @core_aenc.c(235),ERROR" ID="0x985a075a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call asrc_process Failed, Error Code: [0x%08X] @core_aenc.c(300),ERROR" ID="0x985a0962" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aenc_resample_input_frame Failed, Error Code: [0x%08X] @core_aenc.c(332),ERROR" ID="0x985a0a62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_acquire_stream Failed, Error Code: [0x%08X] @core_aenc.c(344),ERROR" ID="0x985a0ac2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_send_stream Failed, Error Code: [0x%08X] @core_aenc.c(389),ERROR" ID="0x985a0c2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_send_stream Failed, Error Code: [0x%08X] @core_aenc.c(415),ERROR" ID="0x985a0cfa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_send_stream_info Failed, Error Code: [0x%08X] @core_aenc.c(441),ERROR" ID="0x985a0dca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_send_stream_data Failed, Error Code: [0x%08X] @core_aenc.c(464),ERROR" ID="0x985a0e82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_release_stream Failed, Error Code: [0x%08X] @core_aenc.c(516),ERROR" ID="0x985a1022" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call asrc_create Failed, Error Code: [0x%08X] @core_aenc.c(551),ERROR" ID="0x985a113a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_get_module Failed, Error Code: [0x%08X] @core_aenc.c(599),ERROR" ID="0x985a12ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aenc = 0x%08X @core_aenc.c(600),INFO" ID="0x985a12c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(707),INFO" ID="0x985a161d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(710),INFO" ID="0x985a1635" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_init Failed, Error Code: [0x%08X] @core_aenc.c(716),ERROR" ID="0x985a1662" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(721),INFO" ID="0x985a168d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(729),INFO" ID="0x985a16cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(731),INFO" ID="0x985a16dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(736),INFO" ID="0x985a1705" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_deinit Failed, Error Code: [0x%08X] @core_aenc.c(742),ERROR" ID="0x985a1732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(748),INFO" ID="0x985a1765" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(768),INFO" ID="0x985a1805" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_alloc Failed, Error Code: [0x%08X] @core_aenc.c(773),ERROR" ID="0x985a182a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]*aenc = 0x%08X @core_aenc.c(788),ERROR" ID="0x985a18a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(792),INFO" ID="0x985a18c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(802),INFO" ID="0x985a1915" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aenc = 0x%08X @core_aenc.c(804),ERROR" ID="0x985a1922" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_free Failed, Error Code: [0x%08X] @core_aenc.c(819),ERROR" ID="0x985a199a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(823),INFO" ID="0x985a19bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(832),INFO" ID="0x985a1a05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(838),INFO" ID="0x985a1a35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(847),INFO" ID="0x985a1a7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(854),INFO" ID="0x985a1ab5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(863),INFO" ID="0x985a1afd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(877),INFO" ID="0x985a1b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aenc_inst-&gt;mtu_size = 0x%08X @core_aenc.c(890),INFO" ID="0x985a1bd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(903),INFO" ID="0x985a1c3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aenc_inst-&gt;state = %d @core_aenc.c(907),ERROR" ID="0x985a1c5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aenc_open_codec Failed, Error Code: [0x%08X] @core_aenc.c(915),ERROR" ID="0x985a1c9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(921),INFO" ID="0x985a1ccd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(932),INFO" ID="0x985a1d25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aenc_inst Failed, Error Code: [0x%08X] @core_aenc.c(958),ERROR" ID="0x985a1df2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(960),INFO" ID="0x985a1e05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call 0x400 Failed, Error Code: [0x%08X] @core_aenc.c(974),ERROR" ID="0x985a1e72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(982),INFO" ID="0x985a1eb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(991),INFO" ID="0x985a1efd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(995),INFO" ID="0x985a1f1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @core_aenc.c(1025),ERROR" ID="0x985a200a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_get_buffer_info Failed, Error Code: [0x%08X] @core_aenc.c(1035),ERROR" ID="0x985a205a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_get_buffer_info Failed, Error Code: [0x%08X] @core_aenc.c(1043),ERROR" ID="0x985a209a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(1056),INFO" ID="0x985a2105" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aenc_get_proc_info Failed, Error Code: [0x%08X] @core_aenc.c(1062),ERROR" ID="0x985a2132" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(1066),INFO" ID="0x985a2155" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(1074),INFO" ID="0x985a2195" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aenc.c(1089),INFO" ID="0x985a220d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aenc.c(1100),INFO" ID="0x985a2265" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @core_aenc.c(1111),ERROR" ID="0x985a22ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aenc Failed, Error Code: [0x%08X] @core_aenc.c(1129),ERROR" ID="0x985a234a" />
+			</MSG_LOG>

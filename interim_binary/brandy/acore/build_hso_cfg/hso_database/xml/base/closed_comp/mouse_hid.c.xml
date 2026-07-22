@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_mouse_input len %d invaild! @mouse_hid.c(39),ERROR" ID="0xd89a013a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_mouse_input param null! @mouse_hid.c(44),ERROR" ID="0xd89a0162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_mouse_input param invaild! @mouse_hid.c(51),ERROR" ID="0xd89a019a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_mouse_input param invaild! @mouse_hid.c(56),ERROR" ID="0xd89a01c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_high_mouse_input len %d invaild! @mouse_hid.c(74),ERROR" ID="0xd89a0252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_high_mouse_input param null! @mouse_hid.c(79),ERROR" ID="0xd89a027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_high_mouse_input param invaild! @mouse_hid.c(89),ERROR" ID="0xd89a02ca" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Info] bt_at_cmd_high_mouse_input param len = %u, x = %d, y = %d! @mouse_hid.c(96),INFO" ID="0xd89a0305" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_high_mouse_input_one key_down failed! @mouse_hid.c(113),ERROR" ID="0xd89a038a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_high_mouse_input_one key_up failed! @mouse_hid.c(122),ERROR" ID="0xd89a03d2" />
+			</MSG_LOG>

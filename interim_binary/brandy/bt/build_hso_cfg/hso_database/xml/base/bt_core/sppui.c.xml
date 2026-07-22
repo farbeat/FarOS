@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SPP][AddEntry] vport=%d @sppui.c(158),INFO" ID="0x8b6604f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SPP][DelEntry] vport=%d @sppui.c(234),INFO" ID="0x8b660755" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SPP][WRITE_DATA] CONGEST=%d, CREDITIN=%d @sppui.c(543),INFO" ID="0x8b6610fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SPP][WRITE_DATA] CONGEST=%d, CREDITIN=%d @sppui.c(656),INFO" ID="0x8b661485" />
+			</MSG_LOG>

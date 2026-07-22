@@ -1,0 +1,37 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]mmap aud_dig_cfg_reg failed. @sio.c(63),ERROR" ID="0x988201fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_crg_init Failed, Error Code: [0x%08X] @sio.c(69),ERROR" ID="0x9882022a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_aud_dig_cfg_reg = %p @sio.c(75),INFO" ID="0x9882025d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sizeof(aud_dig_cfg_reg) = 0x%08X @sio.c(76),INFO" ID="0x98820265" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]enable = %d @sio.c(156),INFO" ID="0x988204e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dsp_if = %u @sio.c(183),INFO" ID="0x988205bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]enable = %d @sio.c(184),INFO" ID="0x988205c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]dsp_if = %u @sio.c(197),INFO" ID="0x9882062d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]enable = %d @sio.c(198),INFO" ID="0x98820635" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]dsp_if = %u @sio.c(256),INFO" ID="0x98820805" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]clk_src = %d @sio.c(257),INFO" ID="0x9882080d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dsp_if = %u @sio.c(343),INFO" ID="0x98820abd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dir = %u @sio.c(344),INFO" ID="0x98820ac5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]enable = %d @sio.c(345),INFO" ID="0x98820acd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dsp_if = %u @sio.c(416),INFO" ID="0x98820d05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dir = %u @sio.c(417),INFO" ID="0x98820d0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rise_edge = %d @sio.c(418),INFO" ID="0x98820d15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dsp_if = %u @sio.c(489),INFO" ID="0x98820f4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;dir = %u @sio.c(490),INFO" ID="0x98820f55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rise_edge = %d @sio.c(491),INFO" ID="0x98820f5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sample_rate = %u @sio.c(516),INFO" ID="0x98821025" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sample_rate = %u @sio.c(541),INFO" ID="0x988210ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sample_rate = %u @sio.c(573),INFO" ID="0x988211ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sample_rate = %u @sio.c(596),INFO" ID="0x988212a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sample_rate = %u @sio.c(622),INFO" ID="0x98821375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]fs = %u @sio.c(623),INFO" ID="0x9882137d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sample_rate = %u @sio.c(654),INFO" ID="0x98821475" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]fs = %u @sio.c(655),INFO" ID="0x9882147d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sio-&gt;i2s_attr.master = %d @sio.c(688),INFO" ID="0x98821585" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]bclk_div = %u @sio.c(903),INFO" ID="0x98821c3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]bclk_div = %u @sio.c(930),INFO" ID="0x98821d15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]bclk_div = %u @sio.c(1028),INFO" ID="0x98822025" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]bclk_div = %u @sio.c(1055),INFO" ID="0x988220fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]bclk_div = %u @sio.c(1101),INFO" ID="0x9882226d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]mclk = %u @sio.c(1159),INFO" ID="0x9882243d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]word_len = %u @sio.c(1174),INFO" ID="0x988224b5" />
+			</MSG_LOG>

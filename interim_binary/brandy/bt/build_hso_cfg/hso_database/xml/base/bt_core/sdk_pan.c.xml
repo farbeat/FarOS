@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="sdk pan get local addr error @sdk_pan.c(30),ERROR" ID="0x8e7e00f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan get local addr invalid. @sdk_pan.c(34),ERROR" ID="0x8e7e0112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan clean fail conn_hdl. @sdk_pan.c(61),INFO" ID="0x8e7e01ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan passive connect rpt. @sdk_pan.c(92),INFO" ID="0x8e7e02e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan connect is present. @sdk_pan.c(100),INFO" ID="0x8e7e0325" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan init connect,active handle. @sdk_pan.c(102),INFO" ID="0x8e7e0335" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sdk pan setup connect result=%d @sdk_pan.c(109),INFO" ID="0x8e7e036d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sdk pan filter_net_result=%d @sdk_pan.c(116),INFO" ID="0x8e7e03a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sdk pan filter_multiaddr_result=%d @sdk_pan.c(123),INFO" ID="0x8e7e03dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan acl disconnect cbk. @sdk_pan.c(138),INFO" ID="0x8e7e0455" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk pan acl connect complete cbk. @sdk_pan.c(146),INFO" ID="0x8e7e0495" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sdk pan sdp_record_hdl=0x%x @sdk_pan.c(170),INFO" ID="0x8e7e0555" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sdk_pan register callback error. @sdk_pan.c(325),ERROR" ID="0x8e7e0a2a" />
+			</MSG_LOG>

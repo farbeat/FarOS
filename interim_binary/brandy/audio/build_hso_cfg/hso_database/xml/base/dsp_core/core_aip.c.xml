@@ -1,0 +1,65 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_input_event_callback Failed, Error Code: [0x%08X] @core_aip.c(106),ERROR" ID="0x983e0352" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_input_event_callback Failed, Error Code: [0x%08X] @core_aip.c(116),ERROR" ID="0x983e03a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_pcm_unify Failed, Error Code: [0x%08X] @core_aip.c(237),ERROR" ID="0x983e076a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call asrc_process Failed, Error Code: [0x%08X] @core_aip.c(243),ERROR" ID="0x983e079a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call fade_pcm_data Failed, Error Code: [0x%08X] @core_aip.c(251),ERROR" ID="0x983e07da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_proc_frame Failed, Error Code: [0x%08X] @core_aip.c(275),ERROR" ID="0x983e089a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_write_output_frame Failed, Error Code: [0x%08X] @core_aip.c(282),ERROR" ID="0x983e08d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_read_output_frame Failed, Error Code: [0x%08X] @core_aip.c(296),INFO" ID="0x983e0945" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_write_output_frame Failed, Error Code: [0x%08X] @core_aip.c(308),ERROR" ID="0x983e09a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_write_output_frame Failed, Error Code: [0x%08X] @core_aip.c(316),ERROR" ID="0x983e09e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_create Failed, Error Code: [0x%08X] @core_aip.c(382),ERROR" ID="0x983e0bf2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_destroy Failed, Error Code: [0x%08X] @core_aip.c(399),ERROR" ID="0x983e0c7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(444),INFO" ID="0x983e0de5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_create_fifo Failed, Error Code: [0x%08X] @core_aip.c(460),ERROR" ID="0x983e0e62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(468),INFO" ID="0x983e0ea5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(476),INFO" ID="0x983e0ee5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call aip_destroy_fifo Failed, Error Code: [0x%08X] @core_aip.c(481),ERROR" ID="0x983e0f0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(493),INFO" ID="0x983e0f6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(500),INFO" ID="0x983e0fa5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(509),INFO" ID="0x983e0fed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_input_event_callback Failed, Error Code: [0x%08X] @core_aip.c(515),ERROR" ID="0x983e101a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(522),INFO" ID="0x983e1055" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(528),INFO" ID="0x983e1085" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(539),INFO" ID="0x983e10dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(549),INFO" ID="0x983e112d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call fade_create Failed, Error Code: [0x%08X] @core_aip.c(560),ERROR" ID="0x983e1182" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(585),INFO" ID="0x983e124d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_set_bypass_disable Failed, Error Code: [0x%08X] @core_aip.c(595),ERROR" ID="0x983e129a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(602),INFO" ID="0x983e12d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(608),INFO" ID="0x983e1305" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(615),INFO" ID="0x983e133d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(624),INFO" ID="0x983e1385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(630),INFO" ID="0x983e13b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(638),INFO" ID="0x983e13f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(651),INFO" ID="0x983e145d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call util_check_preci_volume Failed, Error Code: [0x%08X] @core_aip.c(655),ERROR" ID="0x983e147a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]gain-&gt;integer = %d @core_aip.c(656),ERROR" ID="0x983e1482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]gain-&gt;decimal = %d @core_aip.c(657),ERROR" ID="0x983e148a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]gain-&gt;integer = %d @core_aip.c(673),INFO" ID="0x983e150d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]gain-&gt;decimal = %d @core_aip.c(674),INFO" ID="0x983e1515" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(676),INFO" ID="0x983e1525" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(682),INFO" ID="0x983e1555" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(688),INFO" ID="0x983e1585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(694),INFO" ID="0x983e15b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_aip.c(699),INFO" ID="0x983e15dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_get_delay Failed, Error Code: [0x%08X] @core_aip.c(747),ERROR" ID="0x983e175a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_set_input_pcm_attr Failed, Error Code: [0x%08X] @core_aip.c(793),ERROR" ID="0x983e18ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call asrc_create Failed, Error Code: [0x%08X] @core_aip.c(821),ERROR" ID="0x983e19aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;in_pcm_attr.channels = %u @core_aip.c(836),INFO" ID="0x983e1a25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;in_pcm_attr.bit_depth = %u @core_aip.c(837),INFO" ID="0x983e1a2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;in_pcm_attr.sample_rate = %u @core_aip.c(838),INFO" ID="0x983e1a35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;in_pcm_attr.samples_per_frame = %u @core_aip.c(839),INFO" ID="0x983e1a3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;out_pcm_attr.channels = %u @core_aip.c(841),INFO" ID="0x983e1a4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;out_pcm_attr.bit_depth = %u @core_aip.c(842),INFO" ID="0x983e1a55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;out_pcm_attr.sample_rate = %u @core_aip.c(843),INFO" ID="0x983e1a5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]aip-&gt;out_pcm_attr.samples_per_frame = %u @core_aip.c(844),INFO" ID="0x983e1a65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_attr-&gt;channels = %u @core_aip.c(876),INFO" ID="0x983e1b65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_attr-&gt;bit_depth = %u @core_aip.c(877),INFO" ID="0x983e1b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_attr-&gt;sample_rate = %u @core_aip.c(878),INFO" ID="0x983e1b75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_attr-&gt;samples_per_frame = %u @core_aip.c(879),INFO" ID="0x983e1b7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_info Failed, Error Code: [0x%08X] @core_aip.c(974),ERROR" ID="0x983e1e72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_pos Failed, Error Code: [0x%08X] @core_aip.c(980),ERROR" ID="0x983e1ea2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_aip.c(991),INFO" ID="0x983e1efd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_get_buffer_info Failed, Error Code: [0x%08X] @core_aip.c(1028),ERROR" ID="0x983e2022" />
+			</MSG_LOG>

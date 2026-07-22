@@ -1,0 +1,53 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg = 0x%08X @core_msg.c(91),INFO" ID="0x981802dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @core_msg.c(214),ERROR" ID="0x981806b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @core_msg.c(237),ERROR" ID="0x9818076a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_size = %u @core_msg.c(284),ERROR" ID="0x981808e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]read_pos = %u @core_msg.c(289),ERROR" ID="0x9818090a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]write_pos = %u @core_msg.c(290),ERROR" ID="0x98180912" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_size = %u @core_msg.c(291),ERROR" ID="0x9818091a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_size = %u @core_msg.c(327),ERROR" ID="0x98180a3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_crc = %u @core_msg.c(334),ERROR" ID="0x98180a72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(377),INFO" ID="0x98180bcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_alloc Failed, Error Code: [0x%08X] @core_msg.c(383),ERROR" ID="0x98180bfa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_attach Failed, Error Code: [0x%08X] @core_msg.c(389),ERROR" ID="0x98180c2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(397),INFO" ID="0x98180c6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(406),INFO" ID="0x98180cb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_get_id Failed, Error Code: [0x%08X] @core_msg.c(414),ERROR" ID="0x98180cf2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_detach Failed, Error Code: [0x%08X] @core_msg.c(420),ERROR" ID="0x98180d22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_free Failed, Error Code: [0x%08X] @core_msg.c(426),ERROR" ID="0x98180d52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(434),INFO" ID="0x98180d95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(443),INFO" ID="0x98180ddd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_get_id Failed, Error Code: [0x%08X] @core_msg.c(447),ERROR" ID="0x98180dfa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_attach Failed, Error Code: [0x%08X] @core_msg.c(453),ERROR" ID="0x98180e2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(459),INFO" ID="0x98180e5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(468),INFO" ID="0x98180ea5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_get_id Failed, Error Code: [0x%08X] @core_msg.c(472),ERROR" ID="0x98180ec2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_detach Failed, Error Code: [0x%08X] @core_msg.c(478),ERROR" ID="0x98180ef2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(485),INFO" ID="0x98180f2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(493),INFO" ID="0x98180f6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(496),INFO" ID="0x98180f85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_init Failed, Error Code: [0x%08X] @core_msg.c(502),ERROR" ID="0x98180fb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(509),INFO" ID="0x98180fed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(517),INFO" ID="0x9818102d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(519),INFO" ID="0x9818103d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(524),INFO" ID="0x98181065" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_deinit Failed, Error Code: [0x%08X] @core_msg.c(530),ERROR" ID="0x98181092" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(536),INFO" ID="0x981810c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(546),INFO" ID="0x98181115" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_alloc Failed, Error Code: [0x%08X] @core_msg.c(557),ERROR" ID="0x9818116a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_inst-&gt;qid.u32 = 0x%08X @core_msg.c(564),INFO" ID="0x981811a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_alloc_shrb Failed, Error Code: [0x%08X] @core_msg.c(569),ERROR" ID="0x981811ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_inst-&gt;shrb_buf.data_buf = 0x%08X @core_msg.c(573),INFO" ID="0x981811ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_attach_shrb Failed, Error Code: [0x%08X] @core_msg.c(577),ERROR" ID="0x9818120a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_inst-&gt;shrb_buf.data_buf = 0x%08X @core_msg.c(581),INFO" ID="0x9818122d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(586),INFO" ID="0x98181255" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_msg.c(594),INFO" ID="0x98181295" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_free_shrb Failed, Error Code: [0x%08X] @core_msg.c(599),ERROR" ID="0x981812ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_detach_shrb Failed, Error Code: [0x%08X] @core_msg.c(606),ERROR" ID="0x981812f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_mod_free Failed, Error Code: [0x%08X] @core_msg.c(616),ERROR" ID="0x98181342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_msg.c(620),INFO" ID="0x98181365" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_init Failed, Error Code: [0x%08X] @core_msg.c(669),ERROR" ID="0x981814ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_create Failed, Error Code: [0x%08X] @core_msg.c(680),ERROR" ID="0x98181542" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call msg_fifo_destroy Failed, Error Code: [0x%08X] @core_msg.c(701),ERROR" ID="0x981815ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ret = 0x%08X @core_msg.c(790),ERROR" ID="0x981818b2" />
+			</MSG_LOG>

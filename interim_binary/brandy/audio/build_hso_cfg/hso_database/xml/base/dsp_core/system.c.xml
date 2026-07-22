@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]/***Trace Beg***/ @system.c(52),ERROR" ID="0x981401a2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[hifi]trace%u ra:0x%x sp:0x%x, 0x%x @system.c(55),ERROR" ID="0x981401ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]/***Trace End***/ @system.c(66),ERROR" ID="0x98140212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]/***Exception Dump Beg***/ @system.c(74),ERROR" ID="0x98140252" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi]sizeof(*uf) %u; cause %d @system.c(75),ERROR" ID="0x9814025a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[hifi]pc=0x%x; ps=0x%x; sar=0x%x vpri=0x%x @system.c(76),ERROR" ID="0x98140262" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[hifi]a2=0x%x; a3=0x%x; a4=0x%x; a5=0x%x @system.c(77),ERROR" ID="0x9814026a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[hifi]lcount=0x%x; lbeg=0x%x lend=0x%x @system.c(78),ERROR" ID="0x98140272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]/***Exception Dump End***/ @system.c(79),ERROR" ID="0x9814027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]***Core Panic*** @system.c(97),ERROR" ID="0x9814030a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi]epc=0x%x; depc=0x%x @system.c(98),ERROR" ID="0x98140312" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi]exccause: %d; excvaddr=0x%x @system.c(99),ERROR" ID="0x9814031a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @system.c(208),INFO" ID="0x98140685" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @system.c(214),INFO" ID="0x981406b5" />
+			</MSG_LOG>

@@ -1,0 +1,22 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_engine.c(87),INFO" ID="0x984602bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]engine-&gt;pcm_attr.channels = %u @core_engine.c(98),INFO" ID="0x98460315" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]engine-&gt;pcm_attr.bit_depth = %u @core_engine.c(99),INFO" ID="0x9846031d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]engine-&gt;pcm_attr.sample_rate = %u @core_engine.c(100),INFO" ID="0x98460325" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]engine-&gt;pcm_attr.samples_per_frame = %u @core_engine.c(101),INFO" ID="0x9846032d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call engine_alloc_frame Failed, Error Code: [0x%08X] @core_engine.c(107),ERROR" ID="0x9846035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_engine.c(113),INFO" ID="0x9846038d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_engine.c(119),INFO" ID="0x984603bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_engine.c(126),INFO" ID="0x984603f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_engine.c(140),INFO" ID="0x98460465" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]engine-&gt;aip_num = %u @core_engine.c(145),ERROR" ID="0x9846048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_engine.c(150),INFO" ID="0x984604b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_engine.c(158),INFO" ID="0x984604f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_engine.c(176),INFO" ID="0x98460585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_engine.c(182),INFO" ID="0x984605b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]engine-&gt;aop_num = %u @core_engine.c(187),ERROR" ID="0x984605da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_engine.c(192),INFO" ID="0x98460605" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_engine.c(200),INFO" ID="0x98460645" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_engine.c(218),INFO" ID="0x984606d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aip_get_proc_info Failed, Error Code: [0x%08X] @core_engine.c(307),ERROR" ID="0x9846099a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_aop_get_proc_info Failed, Error Code: [0x%08X] @core_engine.c(316),ERROR" ID="0x984609e2" />
+			</MSG_LOG>

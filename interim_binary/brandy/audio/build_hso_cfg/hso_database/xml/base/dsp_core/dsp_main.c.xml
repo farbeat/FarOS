@@ -1,0 +1,30 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]heartbeat count : %d @dsp_main.c(54),INFO" ID="0x980001b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]dsp_retrigger_msg_int success @dsp_main.c(92),ERROR" ID="0x980002e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dsp_main.c(103),INFO" ID="0x9800033d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_init Failed, Error Code: [0x%08X] @dsp_main.c(109),ERROR" ID="0x9800036a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_msg_init Failed, Error Code: [0x%08X] @dsp_main.c(115),ERROR" ID="0x9800039a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_msg_init Failed, Error Code: [0x%08X] @dsp_main.c(122),ERROR" ID="0x980003d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(129),INFO" ID="0x9800040d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dsp_main.c(136),INFO" ID="0x98000445" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_msg_deinit Failed, Error Code: [0x%08X] @dsp_main.c(140),ERROR" ID="0x98000462" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_msg_deinit Failed, Error Code: [0x%08X] @dsp_main.c(145),ERROR" ID="0x9800048a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_deinit Failed, Error Code: [0x%08X] @dsp_main.c(150),ERROR" ID="0x980004b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(153),INFO" ID="0x980004cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dsp_main.c(158),INFO" ID="0x980004f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(161),INFO" ID="0x9800050d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]state = %d @dsp_main.c(170),ERROR" ID="0x98000552" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(180),INFO" ID="0x980005a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dsp_main.c(186),INFO" ID="0x980005d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(189),INFO" ID="0x980005ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]state = %d @dsp_main.c(194),ERROR" ID="0x98000612" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]active standby @dsp_main.c(199),ERROR" ID="0x9800063a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(202),INFO" ID="0x98000655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dsp_main.c(208),INFO" ID="0x98000685" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]state = %d @dsp_main.c(211),ERROR" ID="0x9800069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(216),INFO" ID="0x980006c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]state = %d @dsp_main.c(228),ERROR" ID="0x98000722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]deep standby @dsp_main.c(233),ERROR" ID="0x9800074a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dsp_main.c(239),INFO" ID="0x9800077d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call probe_status_init Failed, Error Code: [0x%08X] @dsp_main.c(351),ERROR" ID="0x98000afa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sys_cmd_init Failed, Error Code: [0x%08X] @dsp_main.c(360),ERROR" ID="0x98000b42" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[aoa](tx_freq=%d, test_data_len=%d, pk_payload_type=%d, tx_phy=%d) @llc_hci_ram.c(727),WARNING" ID="0x8a1c16bb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[aoa](cte_len=%d, cte_type=%d, switch_pattern_len=%d, ant_ids[0]=%d) @llc_hci_ram.c(729),WARNING" ID="0x8a1c16cb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[lhz_aoa](ant_ids[1]=%d, ant_ids[2]=%d, ant_ids[3]=%d, state=0x%02x) @llc_hci_ram.c(731),WARNING" ID="0x8a1c16db" />
+			</MSG_LOG>

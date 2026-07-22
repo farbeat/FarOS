@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lc_util_check_nbchgood:nbchgood=%d @lc_util.c(311),INFO" ID="0x886e09bd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LC]lc_util_get_offset_clkn:offset = %d, interval = %d, Offset_N = %d @lc_util.c(416),INFO" ID="0x886e0d05" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LC]lc_util_get_offset_clkn:ClkOff = 0x%x, clockn = 0x%x, flags = %d @lc_util.c(418),INFO" ID="0x886e0d15" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LC]lc_util_get_offset_clke:offset = %d, interval = %d, Offset_E = %d @lc_util.c(451),INFO" ID="0x886e0e1d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LC]lc_util_get_offset_clke:ClkOff = 0x%x, clockn = 0x%x, flags = %d @lc_util.c(453),INFO" ID="0x886e0e2d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_local_switch, switch_instant=%d, afh_instant=%d @lc_util.c(838),INFO" ID="0x886e1a35" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]LM_GetAFHSwitchInstant:link_id=0x%x, afh_instant=0x%x @lc_util.c(866),INFO" ID="0x886e1b15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="print link key @lc_util.c(1225),INFO" ID="0x886e264d" />
+			</MSG_LOG>

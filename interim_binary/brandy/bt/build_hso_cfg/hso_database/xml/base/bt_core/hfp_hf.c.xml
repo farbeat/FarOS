@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[HFP][ANSWER_CALL] STATUS=%d, HFP_ROLE=%d @hfp_hf.c(347),INFO" ID="0x8c480add" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HFP][CANCEL_INCOMING_CALL] STATUS=%d, HFP_ROLE=%d @hfp_hf.c(382),INFO" ID="0x8c480bf5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HFP][HANGUP_CALL] STATUS=0x%x, HFP_ROLE=%d @hfp_hf.c(417),INFO" ID="0x8c480d0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][HFP_CODEC]HF send AT+BAC: LC3 @hfp_hf.c(675),WARNING" ID="0x8c48151b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][HFP_CODEC]HF send AT+BAC: CVSD,M_SBC @hfp_hf.c(682),WARNING" ID="0x8c481553" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[STACK][HFP]CIND setUpState=%d, activeState=%d, heldState=%d @hfp_hf.c(824),WARNING" ID="0x8c4819c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][RECV_BCS] receive +BCS from mobile @hfp_hf.c(1160),INFO" ID="0x8c482445" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][RECV_BCS]HFP_BCS_MSBC @hfp_hf.c(1168),INFO" ID="0x8c482485" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][RECV_BCS]HFP_BCS_LC3 @hfp_hf.c(1177),INFO" ID="0x8c4824cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][RECV_BCS]HFP_BCS_CVSD @hfp_hf.c(1181),INFO" ID="0x8c4824ed" />
+			</MSG_LOG>

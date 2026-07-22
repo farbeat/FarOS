@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]wait_cnt = %u @sys_cmd.c(155),INFO" ID="0x982204dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]wait_time_us = %u @sys_cmd.c(164),ERROR" ID="0x98220522" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]product_form = %u @sys_cmd.c(255),ERROR" ID="0x982207fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]tws_mode = %u @sys_cmd.c(316),ERROR" ID="0x982209e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]tws_role = %u @sys_cmd.c(347),ERROR" ID="0x98220ada" />
+			</MSG_LOG>

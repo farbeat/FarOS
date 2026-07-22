@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="hfp_handle_ev_disconnect_complete hdl=0x%x @sdk_hfp.c(202),INFO" ID="0x8b7e0655" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hfp set active mem id: sco_hdl=0x%x in_mem=0x%x out_mem=0x%x @sdk_hfp.c(229),ERROR" ID="0x8b7e072a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hfp map mem id: sco_hdl=0x%x in_mem=0x%x out_mem=0x%x @sdk_hfp.c(236),ERROR" ID="0x8b7e0762" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="memory copy failed ret=0x%x @sdk_hfp.c(250),WARNING" ID="0x8b7e07d3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hfp map mem id: sco_hdl=0x%x in_mem=0x%x out_mem=0x%x @sdk_hfp.c(291),ERROR" ID="0x8b7e091a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SDK_HFP: send msg to mcu ev= 0x%x, role=0x%x @sdk_hfp.c(296),ERROR" ID="0x8b7e0942" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SDK_HFP: ev disconnect, conn_cfm-&gt;role = %x, conn_cfm-&gt;result=%d @sdk_hfp.c(360),INFO" ID="0x8b7e0b45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SDK_HFP: slc event = %d, slc_info-&gt;role = %x @sdk_hfp.c(388),INFO" ID="0x8b7e0c25" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HFP][SDK]SLC RELEASED role=%d handle=0x%x @sdk_hfp.c(452),INFO" ID="0x8b7e0e25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SDK_HFP: establish sco, bk_inst-&gt;role = %d. @sdk_hfp.c(470),INFO" ID="0x8b7e0eb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SDK_HFP: client start, role = %d. @sdk_hfp.c(640),INFO" ID="0x8b7e1405" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="hfp_sdk_client_start connhdl = 0x%x svchdl = 0x%x g_hfpHFRecordHdl = 0x%x g_hfpAGRecordHdl = 0x%x @sdk_hfp.c(646),DBG" ID="0x8b7e1436" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SDK_HFP: server start, role = %d. @sdk_hfp.c(834),INFO" ID="0x8b7e1a15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="hfp_start_service sdp_record_hdl 0x%x hf_svc-&gt;realHdl 0x%x @sdk_hfp.c(857),DBG" ID="0x8b7e1ace" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="memory copy failed ret=0x%x @sdk_hfp.c(1074),WARNING" ID="0x8b7e2193" />
+			</MSG_LOG>

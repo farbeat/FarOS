@@ -1,0 +1,494 @@
+/******************************************************************************
+ * @brief    LDS file setting the memory and code locations
+ * Copyright (c) 2018 @CompanyNameMagicTag
+******************************************************************************/
+
+#include "memory_config.h"
+
+OUTPUT_ARCH(riscv)
+ENTRY(reset_vector)
+
+/* FLASH sector size is 2K */
+/* make this table consistent with the configuration given by the security core */
+MEMORY
+{
+    BOOTUP_RAM                    : ORIGIN = APP_VECTORS_ORIGIN,        LENGTH = APP_VECTORS_LENGTH
+    BOOTUP_LOAD                   : ORIGIN = RECOVERY_VECTORS_LOAD_ORIGIN,   LENGTH = APP_VECTORS_LENGTH
+
+    /* FLASH Version Information */
+    FLASH_VERSION                 : ORIGIN = RECOVERY_VERSION_LOAD_ORIGIN,   LENGTH = VERSION_LENGTH
+
+    FLASH_PROGRAM                 : ORIGIN = RECOVERY_PROGRAM_ORIGIN,        LENGTH = RECOVERY_PROGRAM_LENGTH
+    PSRAM_PROGRAM                 : ORIGIN = PSRAM_BASE_ADDR,           LENGTH = PSRAM_LENTH
+    PSRAM_HEAP                    : ORIGIN = PSRAM_HEAP_ADDR,           LENGTH = PSRAM_HEAP_LENGTH
+
+    L2M_GPU_PROGRAM               : ORIGIN = L2M_GPU_RAM_SHARE_MCU_ORIGIN, LENGTH = L2M_GPU_RAM_MCU_SHARE_LENGTH
+#ifndef CONFIG_PSRAM_SUPPORT
+    L2M_DSP_PROGRAM               : ORIGIN = L2M_DSP_RAM_RESERVED_ORIGIN, LENGTH = L2M_DSP_RAM_RESERVED_LENGTH + L2M_DSP_RAM_MCU_SHARE_LENGTH + L2M_DSP_RAM_DSP_SHARE_LENGTH
+#endif
+    ITCM                          : ORIGIN = APP_ITCM_ORIGIN + APP_VECTORS_LENGTH,        LENGTH = APP_ITCM_LENGTH - APP_VECTORS_LENGTH
+    DTCM                          : ORIGIN = APP_RAM_ORIGIN,            LENGTH = APP_RAM_LENGTH
+
+    IPC_SHARE_MEM                 : ORIGIN = IPC_MAILBOX_REGION_START,  LENGTH = IPC_MAILBOX_REGION_LENGTH
+    PRESERVE_SHARE_MEM            : ORIGIN = PRESERVED_REGION_ORIGIN,      LENGTH = PRESERVED_REGION_LENGTH
+    CPUTRACE_RAM                  : ORIGIN = MCPU_TRACE_MEM_REGION_START,LENGTH = CPU_TRACE_MEM_REGION_LENGTH
+}
+
+SECTIONS
+{
+    /* Vectors */
+    . = 0;
+    startup :
+    {
+        KEEP (*(.text.entry))
+    } >  BOOTUP_RAM AT > BOOTUP_LOAD
+
+    .version_str :
+    {
+        . = ALIGN(8);
+    } > FLASH_VERSION
+
+    /* Stack in DTCM at lowest addresses */
+    .stacks (APP_USER_STACK_BASEADDR): ALIGN(16)
+    {
+        __int_stack_start = .;
+        g_system_stack_begin = .;
+        . += APP_USER_STACK_LEN;
+        . = ALIGN(16);
+        __stack_top__ = .;
+        . += APP_IRQ_STACK_LEN;
+        . = ALIGN(16);
+        __irq_stack_top__ = .;
+        . += APP_EXCP_STACK_LEN;
+        . = ALIGN(16);
+        __excp_stack_top__ = .;
+        . += APP_NMI_STACK_LEN;
+        . = ALIGN(16);
+        __nmi_stack_top__ = .;
+        g_system_stack_end = .;
+        __int_stack_end = .;
+    } > DTCM
+    g_system_stack_size = g_system_stack_end - g_system_stack_begin;
+    g_stack_system = g_system_stack_size;
+    __exc_stack_top = __excp_stack_top__;
+    __nmi_stack_top = __nmi_stack_top__;
+}
+
+SECTIONS
+{
+    .psram_text :
+    {
+        . = ALIGN(8);
+        __psram_text_start = .;
+        __psram_text_load = LOADADDR(.psram_text);
+
+        . = ALIGN(8);
+        __psram_text_end = .;
+    } > PSRAM_PROGRAM AT > FLASH_PROGRAM
+    __psram_text_size = __psram_text_end - __psram_text_start;
+
+    .l2m_gpu_text :
+    {
+        __l2m_gpu_text_start = .;
+        __l2m_gpu_text_load = LOADADDR(.l2m_gpu_text);
+        . = ALIGN(8);
+
+        . = ALIGN(8);
+        __l2m_gpu_text_end = .;
+    } > L2M_GPU_PROGRAM AT > FLASH_PROGRAM
+    __l2m_gpu_text_size = __l2m_gpu_text_end - __l2m_gpu_text_start;
+
+    .l2m_gpu_bss :
+    {
+        __l2m_gpu_bss_start = .;
+        . = ALIGN(8);
+
+        . = ALIGN(8);
+        __l2m_gpu_bss_end = .;
+    } > L2M_GPU_PROGRAM
+     __l2m_gpu_bss_size = __l2m_gpu_bss_end - __l2m_gpu_bss_start;
+
+    .l2m_gpu_data :
+    {
+        __l2m_gpu_data_start = .;
+        __l2m_gpu_data_load = LOADADDR(.l2m_gpu_data);
+        . = ALIGN(8);
+
+        . = ALIGN(8);
+        __l2m_gpu_data_end = .;
+    } > L2M_GPU_PROGRAM AT > FLASH_PROGRAM
+    __l2m_gpu_data_size = __l2m_gpu_data_end - __l2m_gpu_data_start;
+#ifndef CONFIG_PSRAM_SUPPORT
+#if DSP_L2RAM_AREA_SIZE > 0
+    .l2m_dsp_text :
+    {
+        __l2m_dsp_text_start = .;
+        __l2m_dsp_text_load = LOADADDR(.l2m_dsp_text);
+        . = ALIGN(8);
+
+        . = ALIGN(8);
+        __l2m_dsp_text_end = .;
+    } > L2M_DSP_PROGRAM AT > FLASH_PROGRAM
+    __l2m_dsp_text_size = __l2m_dsp_text_end - __l2m_dsp_text_start;
+
+    .l2m_dsp_bss :
+    {
+        __l2m_dsp_bss_start = .;
+        . = ALIGN(8);
+
+        . = ALIGN(8);
+        __l2m_dsp_bss_end = .;
+    } > L2M_DSP_PROGRAM
+    __l2m_dsp_bss_size = __l2m_dsp_bss_end - __l2m_dsp_bss_start;
+
+    .l2m_dsp_data :
+    {
+        __l2m_dsp_data_start = .;
+        __l2m_dsp_data_load = LOADADDR(.l2m_dsp_data);
+        . = ALIGN(8);
+
+        . = ALIGN(8);
+        __l2m_dsp_data_end = .;
+    } > L2M_DSP_PROGRAM AT > FLASH_PROGRAM
+    __l2m_dsp_data_size = __l2m_dsp_data_end - __l2m_dsp_data_start;
+#endif
+#endif
+}
+
+SECTIONS
+{
+    .recovery_ramtext :
+    {
+        /* Main code */
+        . = ALIGN(8);
+        __ramtext_load__ = LOADADDR(.recovery_ramtext);
+        __ramtext_begin__ = .;
+        KEEP (*(.flash_version))
+
+        /* middleware/utils */
+        *utils/connectivity*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/lib_utils*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/app_version*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/cpu_utils*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/cpu_load*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/preserve*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/sec_boot*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/dfx*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/algorithm*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/partition/libpartition*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *utils/update*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        /* middleware/chips */
+        *middleware/chips/brandy*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        /* Kernel */
+        *kernel/osal*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *kernel/dpal*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *kernel/non_os*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        /* Drivers */
+        *libhal*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *driver/uart*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *driver/eflash*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *driver/xip*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *driver*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *drivers/boards*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *drivers/chips*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        /* platfrom */
+        *application/brandy*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+
+#ifdef __FREERTOS__
+        /* FreeRTOS code */
+        *freertos/cmsis_rtos*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *freertos/FreeRTOS*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *freertos/utils/libc*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+#else
+        SORT(*libbase.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libriscv.a:*.o*) (*.text *.text* .rodata .rodata* .srodata .srodata*)
+#endif
+
+        /* open_source */
+        *open_source/sdio*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+        *liblzma*.a:*.o* (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        SORT(*libc.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libcmsis.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libcsysdeps.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libdriverbase.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libinit.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libinterrupt.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*liblinux.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libm.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libposix.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libsec.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libtargets.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        SORT(*libsegger*.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libgfx_rm.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+        SORT(*libclang_rt.builtins-riscv32.a:*.o*) (.text .text* .rodata .rodata* .srodata .srodata*)
+
+        KEEP (*(.gdb_debug))
+
+        . = ALIGN(8) ;
+        . = ALIGN(4);
+        __init_array_start = .;
+        KEEP(*(.ctors .init_array*))
+        __init_array_end = .;
+        __fini_array_start = .;
+        KEEP(*(.dtors .fini_array*))
+        __fini_array_end = .;
+        . = ALIGN(4);
+    }  > ITCM AT > FLASH_PROGRAM
+}
+
+SECTIONS
+{
+    .initcall.init : {
+        . = ALIGN(8);
+        __initcall0_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall0.init)))
+        __initcall0_end = ABSOLUTE(.);
+
+        __initcall1_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall1.init)))
+        __initcall1_end = ABSOLUTE(.);
+
+        __initcall2_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall2.init)))
+        __initcall2_end = ABSOLUTE(.);
+
+        __initcall3_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall3.init)))
+        __initcall3_end = ABSOLUTE(.);
+
+        __initcall4_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall4.init)))
+        __initcall4_end = ABSOLUTE(.);
+
+        __initcall5_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall5.init)))
+        __initcall5_end = ABSOLUTE(.);
+
+        __initcall6_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall6.init)))
+        __initcall6_end = ABSOLUTE(.);
+
+        __initcall7_start = ABSOLUTE(.);
+        KEEP(*(SORT (.initcall7.init)))
+        __initcall7_end = ABSOLUTE(.);
+
+       . = ALIGN(8);
+    } > ITCM AT > FLASH_PROGRAM
+
+#ifdef __LITEOS__
+    .sysintcall.init : {
+        . = ALIGN(4);
+        __sysinitcall_start =  ABSOLUTE(.);
+        __sysinitcall0_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level0_*)))
+
+        __sysinitcall1_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level1_*)))
+
+        __sysinitcall2_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level2_*)))
+
+        __sysinitcall3_start =  ABSOLUTE(.);
+        KEEP(SORT(*libinit.a:los_init.c.o*)(.sysinitcall_level3_s0.init))
+        KEEP(SORT(*libbase.a:los_task.c.o*)(.sysinitcall_level3_s0.init))
+        KEEP(SORT(*libtargets.a:os_adapt.c.o*)(.sysinitcall_level3_s1.init))
+        KEEP(SORT(*libinit.a:los_init.c.o*)(.sysinitcall_level3_s1.init))
+        KEEP(SORT(*libbase.a:los_hwi.c.o*)(.sysinitcall_level3_s1.init))
+        KEEP(*(SORT(.sysinitcall_level3_s2.init)))
+        KEEP(*(SORT(.sysinitcall_level3_s3.init)))
+        KEEP(*(SORT(.sysinitcall_level3_s4.init)))
+
+        __sysinitcall4_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level4_*)))
+
+        __sysinitcall5_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level5_*)))
+
+        __sysinitcall6_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level6_*)))
+
+        __sysinitcall7_start =  ABSOLUTE(.);
+        KEEP(*(SORT(.sysinitcall_level7_*)))
+        __sysinitcall_end =  ABSOLUTE(.);
+        . = ALIGN(4);
+    } > ITCM AT > FLASH_PROGRAM
+#endif
+}
+
+/* INCLUDE apps.lds */
+
+__ramtext_end__ = .;
+__ramtext_size__ = __ramtext_end__ - __ramtext_begin__;
+
+SECTIONS
+{
+    .text :
+    {
+        FILL(0xFF)
+        . = ALIGN(8);
+        /* TODO: add close component code here begin */
+        /* new liteos libs config */
+        *(.ramtext)
+        *(.text)
+        *(.text*)
+        *(.flashtext)
+        *(.flashtext*)
+        *(.rodata)
+        *(.rodata*)
+        KEEP (*(.gdb_debug))
+        . = ALIGN(8);
+    } > FLASH_PROGRAM
+
+    /* Code and const data */
+
+    g_ram_begin = ORIGIN(DTCM);
+    g_ram_size = LENGTH(DTCM);
+
+    /* Initialised data */
+    .data :
+    {
+        __data_begin__ = .;
+        __data_load__ = LOADADDR(.data);
+        . = ALIGN(8);
+
+        SORT(*libbase.a:*.o*) (.data .data*)
+        SORT(*libc.a:*.o*) (.data .data*)
+        SORT(*libcmsis.a:*.o*) (.data .data*)
+        SORT(*libcsysdeps.a:*.o*) (.data .data*)
+        SORT(*libdriverbase.a:*.o*) (.data .data*)
+        SORT(*libinit.a:*.o*) (.data .data*)
+        SORT(*libinterrupt.a:*.o*) (.data .data*)
+        SORT(*liblinux.a:*.o*) (.data .data*)
+        SORT(*libm.a:*.o*) (.data .data*)
+        SORT(*libposix.a:*.o*) (.data .data*)
+        SORT(*libsec:*.o*) (.data .data*)
+        SORT(*libtargets.a:*.o*) (.data .data*)
+
+        SORT(*libsegger*.a:*.o*) (.data .data*)
+        SORT(*libgfx_rm.a:*.o*) (.data .data*)
+        *(.data)
+        *(.data*)
+        *(.got)
+        *(.got*)
+        *(.igot)
+        *(.igot*)
+        _gp_ = . + 0x800;
+
+        SORT(*libbase.a:*.o*) (.sdata .sdata*)
+        SORT(*libc.a:*.o*) (.sdata .sdata*)
+        SORT(*libcmsis.a:*.o*) (.sdata .sdata*)
+        SORT(*libcsysdeps.a:*.o*) (.sdata .sdata*)
+        SORT(*libdriverbase.a:*.o*) (.sdata .sdata*)
+        SORT(*libinit.a:*.o*) (.sdata .sdata*)
+        SORT(*libinterrupt.a:*.o*) (.sdata .sdata*)
+        SORT(*liblinux.a:*.o*) (.sdata .sdata*)
+        SORT(*libm.a:*.o*) (.sdata .sdata*)
+        SORT(*libposix.a:*.o*) (.sdata .sdata*)
+        SORT(*libsec:*.o*) (.sdata .sdata*)
+        SORT(*libtargets.a:*.o*) (.sdata .sdata*)
+
+        SORT(*libsegger*.a:*.o*) (.sdata .sdata*)
+        SORT(*libgfx_rm.a:*.o*) (.sdata .sdata*)
+        *(.sdata)
+        *(.sdata*)
+        __data_end__ = .;
+        . = ALIGN(8);
+    } > DTCM AT > FLASH_PROGRAM
+    __data_size__ = __data_end__ - __data_begin__;
+    __global_pointer$ = _gp_;
+
+    /* Uninitialised data */
+    .bss (NOLOAD):
+    {
+        . = ALIGN(8);
+        __bss_start = .;
+        __bss_begin__ = .;
+        /* TODO: add close component code here begin */
+
+        SORT(*libbase.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libc.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libcmsis.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libcsysdeps.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libdriverbase.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libinit.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libinterrupt.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*liblinux.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libm.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libposix.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libsec:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libtargets.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+
+        SORT(*libsegger*.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        SORT(*libgfx_rm.a:*.o*) (.bss .bss* .sbss .sbss* COMMON)
+        *(.bss)
+        *(.bss*)
+        *(.sbss)
+        *(.sbss*)
+        *(COMMON)
+        . = ALIGN(8);
+        __bss_end__ = . ;
+    } > DTCM
+    __bss_size__ = __bss_end__ - __bss_begin__;
+
+    .dtcm_stack (NOLOAD):
+    {
+        . = ALIGN(8);
+        __heap_start = .;
+        g_intheap_begin = ABSOLUTE(.);
+        g_intheap_size = (ORIGIN(DTCM) + LENGTH(DTCM)) - g_intheap_begin;
+    } > DTCM
+
+    /* Like Uninitialised data, but we don't want to 0 it. Stores backtrace among other things. */
+    .preserve (NOLOAD):
+    {
+        . = ALIGN(8);
+        KEEP(*(preserve))
+    } > PRESERVE_SHARE_MEM
+
+#ifdef CONFIG_PSRAM_SUPPORT
+    /* psram heap*/
+    .extend_heap (NOLOAD):
+    {
+        . = ALIGN(8);
+        __extend_heap_start = .;
+        g_extend_heap_begin = ABSOLUTE(.);
+        g_extend_heap_size = (ORIGIN(PSRAM_HEAP) + LENGTH(PSRAM_HEAP)) - g_extend_heap_begin;
+    } > PSRAM_HEAP
+#else
+    /* l2ram heap */
+    .extend_heap (NOLOAD):
+    {
+        . = ALIGN(8);
+        __extend_heap_start = .;
+        g_extend_heap_begin = ABSOLUTE(.);
+        g_extend_heap_size = (ORIGIN(L2M_DSP_PROGRAM) + LENGTH(L2M_DSP_PROGRAM)) - g_extend_heap_begin;
+    } > L2M_DSP_PROGRAM
+#endif
+
+    .ipc_share_mem (NOLOAD) :
+    {
+        . = ALIGN(8);
+        __ipc_share_mem_start__ = .;
+        KEEP(*(.ipc_share_mem))
+        KEEP(*(.ipc_share_mem0_1))
+        KEEP(*(.ipc_share_mem0_2))
+        KEEP(*(.ipc_share_mem1_0))
+        KEEP(*(.ipc_share_mem1_2))
+        KEEP(*(.ipc_share_mem2_0))
+        KEEP(*(.ipc_share_mem2_1))
+        __ipc_share_mem_end__ = .;
+    } > IPC_SHARE_MEM
+
+    .cputrace_mem (NOLOAD):
+    {
+        . = ALIGN(8);
+        KEEP(*(cputrace_mem))
+    } > CPUTRACE_RAM
+}
+

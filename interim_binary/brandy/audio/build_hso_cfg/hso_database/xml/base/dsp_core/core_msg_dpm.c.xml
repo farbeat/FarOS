@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_open Failed, Error Code: [0x%08X] @core_msg_dpm.c(42),ERROR" ID="0x98ce0152" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_close Failed, Error Code: [0x%08X] @core_msg_dpm.c(56),ERROR" ID="0x98ce01c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_start Failed, Error Code: [0x%08X] @core_msg_dpm.c(70),ERROR" ID="0x98ce0232" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_stop Failed, Error Code: [0x%08X] @core_msg_dpm.c(84),ERROR" ID="0x98ce02a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_get_attr Failed, Error Code: [0x%08X] @core_msg_dpm.c(105),ERROR" ID="0x98ce034a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_set_attr Failed, Error Code: [0x%08X] @core_msg_dpm.c(126),ERROR" ID="0x98ce03f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_set_bypass Failed, Error Code: [0x%08X] @core_msg_dpm.c(148),ERROR" ID="0x98ce04a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_open Failed, Error Code: [0x%08X] @core_msg_dpm.c(165),ERROR" ID="0x98ce052a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_get_proc_info Failed, Error Code: [0x%08X] @core_msg_dpm.c(190),ERROR" ID="0x98ce05f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_dpm_get_lib_type Failed, Error Code: [0x%08X] @core_msg_dpm.c(207),ERROR" ID="0x98ce067a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_data-&gt;cmd = %u @core_msg_dpm.c(233),ERROR" ID="0x98ce074a" />
+			</MSG_LOG>

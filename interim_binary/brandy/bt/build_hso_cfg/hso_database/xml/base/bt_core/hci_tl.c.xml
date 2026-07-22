@@ -1,0 +1,25 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]h4tl_rx_iso_hdr_extract type error:rx_type=%d @hci_tl.c(93),INFO" ID="0x88ce02ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][HCI]hci_iso_tx_buf_alloc: temporary buf alloc fail! @hci_tl.c(108),WARNING" ID="0x88ce0363" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_iso_hifi_tx_data_alloc:conhdl_flags=0x%02x,len=%d @hci_tl.c(146),INFO" ID="0x88ce0495" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_iso_tx_data_alloc:conhdl_flags=0x%02x,len=%d @hci_tl.c(166),INFO" ID="0x88ce0535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][HCI]em_buf_iso_buf_alloc fail! @hci_tl.c(178),WARNING" ID="0x88ce0593" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][HCI]hci_iso_hifi_tx_data_alloc fail!:data_flags=%d, conhdl=0x%x, len=%d, max_len=%d @hci_tl.c(190),WARNING" ID="0x88ce05f3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_iso_hifi_tx_data_received:conhdl_flags=0x%02x, len=%d @hci_tl.c(209),INFO" ID="0x88ce068d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]hci_build_bis_rx_data:conhdl=%d,len=%d,buf_idx=%d,packet_status_flag=%d @hci_tl.c(454),INFO" ID="0x88ce0e35" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_build_iso_rx_data:conhdl=%d, len=%d @hci_tl.c(524),INFO" ID="0x88ce1065" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_build_hifi_rx_data:conhdl=%d, len=%d @hci_tl.c(552),INFO" ID="0x88ce1145" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_cmd_reject:opcode=0x%x, reason=0x%x @hci_tl.c(721),INFO" ID="0x88ce168d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][HCI]hci_build_le_evt:not find le event descriptor(subcode=0x%0x) @hci_tl.c(1042),ERROR" ID="0x88ce2092" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]HCI_CMD_CMP_EVT status=%d @hci_tl.c(1198),INFO" ID="0x88ce2575" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]HCI_CMD_STAT_EVT status=%d @hci_tl.c(1218),INFO" ID="0x88ce2615" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Could not be here msg id is %d @hci_tl.c(1473),WARNING" ID="0x88ce2e0b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BTTL]hci_tl_chk_and_send_msg @hci_tl.c(1512),INFO" ID="0x88ce2f45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][HCI]hci_cmd_received:status = 0x%x , opcode = 0x%x @hci_tl.c(1701),WARNING" ID="0x88ce352b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_acl_tx_data_alloc:ble em_buf_tx_alloc fail @hci_tl.c(1920),INFO" ID="0x88ce3c05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]hci_acl_tx_data_alloc:BLE used tx buffer = %d @hci_tl.c(1924),INFO" ID="0x88ce3c25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_acl_tx_data_alloc:bt_util_buf_acl_tx_alloc fail @hci_tl.c(1942),INFO" ID="0x88ce3cb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][HCI]hci_acl_tx_data_alloc:default @hci_tl.c(1955),ERROR" ID="0x88ce3d1a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][HCI]hci_acl_tx_data_alloc:data_flags=%d, conhdl=0x%x, len=%d, max_len=%d @hci_tl.c(1973),WARNING" ID="0x88ce3dab" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param] conhdl = %d @hci_tl.c(1991),ERROR" ID="0x88ce3e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_sync_tx_data_alloc:hci_tl_env.sync_buf_elt is null @hci_tl.c(2097),INFO" ID="0x88ce418d" />
+			</MSG_LOG>

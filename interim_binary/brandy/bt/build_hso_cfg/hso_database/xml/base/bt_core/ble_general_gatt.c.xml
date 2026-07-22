@@ -1,0 +1,91 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ble_general_gatt] find upper cbk fail @ble_general_gatt.c(91),ERROR" ID="0x8de002da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ble_general_gatt] write ind mpc tx fail tx_cnt:%d @ble_general_gatt.c(101),ERROR" ID="0x8de0032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ble_general_gatt] find upper cbk fail @ble_general_gatt.c(116),ERROR" ID="0x8de003a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ble_general_gatt] read ind mpc tx fail tx_cnt:%d @ble_general_gatt.c(126),ERROR" ID="0x8de003f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gatt server call back func unknown request_id:%d, event_type:0x%x. @ble_general_gatt.c(147),INFO" ID="0x8de0049d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt start service error:0x%x. @ble_general_gatt.c(186),ERROR" ID="0x8de005d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add server add service error:0x%x. @ble_general_gatt.c(198),ERROR" ID="0x8de00632" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add server add service error:0x%x. @ble_general_gatt.c(211),ERROR" ID="0x8de0069a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add include service add include error:0x%x. @ble_general_gatt.c(224),ERROR" ID="0x8de00702" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt add characteristic new fail @ble_general_gatt.c(255),ERROR" ID="0x8de007fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add characteristic len:0x%x. @ble_general_gatt.c(262),ERROR" ID="0x8de00832" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add characteristic error:0x%x. @ble_general_gatt.c(273),ERROR" ID="0x8de0088a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt add descriptor new fail @ble_general_gatt.c(290),ERROR" ID="0x8de00912" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add descriptor memcpy fail: %d @ble_general_gatt.c(299),ERROR" ID="0x8de0095a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add descriptor error:0x%x. @ble_general_gatt.c(305),ERROR" ID="0x8de0098a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt send response new fail @ble_general_gatt.c(321),ERROR" ID="0x8de00a0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt send response memcpy fail: %d @ble_general_gatt.c(328),ERROR" ID="0x8de00a42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt send response addr error:0x%x. @ble_general_gatt.c(334),ERROR" ID="0x8de00a72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt send response error:0x%x. @ble_general_gatt.c(343),ERROR" ID="0x8de00aba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt update descriptor value new fail @ble_general_gatt.c(359),ERROR" ID="0x8de00b3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt update descriptor value memcpy fail: %d @ble_general_gatt.c(366),ERROR" ID="0x8de00b72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt update descriptor value error:0x%x. @ble_general_gatt.c(373),ERROR" ID="0x8de00baa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic changed new NULL @ble_general_gatt.c(390),ERROR" ID="0x8de00c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic changed fail when notify @ble_general_gatt.c(398),ERROR" ID="0x8de00c72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic changed when notify @ble_general_gatt.c(409),ERROR" ID="0x8de00cca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid data is NULL @ble_general_gatt.c(424),ERROR" ID="0x8de00d42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="character changed by uuid can not find hdl, ret = %d @ble_general_gatt.c(431),ERROR" ID="0x8de00d7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid in is NULL @ble_general_gatt.c(436),ERROR" ID="0x8de00da2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid memcpy data fail @ble_general_gatt.c(441),ERROR" ID="0x8de00dca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid memset addr error @ble_general_gatt.c(449),ERROR" ID="0x8de00e0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt client discovery include service callback memcpy fail: %d @ble_general_gatt.c(517),ERROR" ID="0x8de0102a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt client discovery descriptor callback memcpy fail: %d @ble_general_gatt.c(602),ERROR" ID="0x8de012d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt client characteristic value callback new fail @ble_general_gatt.c(658),ERROR" ID="0x8de01492" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble gatt client characteristic value callback memcpy fail: %d @ble_general_gatt.c(665),ERROR" ID="0x8de014ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble gatt client characteristic value callback memcpy fail: %d @ble_general_gatt.c(673),ERROR" ID="0x8de0150a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BCore] gatt client write result can't find upper cbk. @ble_general_gatt.c(708),ERROR" ID="0x8de01622" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble gatt client call back func type=%d @ble_general_gatt.c(771),INFO" ID="0x8de0181d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery service not found:0x%x. @ble_general_gatt.c(802),WARNING" ID="0x8de01913" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery include service not found:0x%x. @ble_general_gatt.c(825),WARNING" ID="0x8de019cb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic new fail. @ble_general_gatt.c(841),ERROR" ID="0x8de01a4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic memset fail. @ble_general_gatt.c(846),ERROR" ID="0x8de01a72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery characteristic not found:0x%x. @ble_general_gatt.c(863),WARNING" ID="0x8de01afb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic by uuid new fail. @ble_general_gatt.c(881),ERROR" ID="0x8de01b8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic by uuid memset fail. @ble_general_gatt.c(887),ERROR" ID="0x8de01bba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic by uuid memcpy fail. @ble_general_gatt.c(901),ERROR" ID="0x8de01c2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery characteristic by uuid not found:0x%x. @ble_general_gatt.c(912),WARNING" ID="0x8de01c83" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor by handle new fail. @ble_general_gatt.c(928),ERROR" ID="0x8de01d02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery descriptor by handle not found:0x%x. @ble_general_gatt.c(942),WARNING" ID="0x8de01d73" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor new fail. @ble_general_gatt.c(962),ERROR" ID="0x8de01e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor memset fail. @ble_general_gatt.c(967),ERROR" ID="0x8de01e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor memcpy fail. @ble_general_gatt.c(973),ERROR" ID="0x8de01e6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery descriptor not found:0x%x. @ble_general_gatt.c(984),WARNING" ID="0x8de01ec3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt read characteristic value respon new fail. @ble_general_gatt.c(1005),ERROR" ID="0x8de01f6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read characteristic value respon memcpy fail: %d @ble_general_gatt.c(1012),ERROR" ID="0x8de01fa2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read characteristic value respon memcpy fail: %d @ble_general_gatt.c(1022),ERROR" ID="0x8de01ff2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic value new fail. @ble_general_gatt.c(1045),ERROR" ID="0x8de020aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read descriptor value error:0x%x. @ble_general_gatt.c(1059),ERROR" ID="0x8de0211a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read value in. @ble_general_gatt.c(1074),INFO" ID="0x8de02195" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read value param new fail. @ble_general_gatt.c(1077),ERROR" ID="0x8de021aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read value param memset fail. @ble_general_gatt.c(1082),ERROR" ID="0x8de021d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read value handle:%d. @ble_general_gatt.c(1087),INFO" ID="0x8de021fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read value error:0x%x. @ble_general_gatt.c(1090),ERROR" ID="0x8de02212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic by uuid new fail. @ble_general_gatt.c(1107),ERROR" ID="0x8de0229a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic by uuid memcpy fail. @ble_general_gatt.c(1120),ERROR" ID="0x8de02302" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic by uuid memcpy fail. @ble_general_gatt.c(1127),ERROR" ID="0x8de0233a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read characteristic by uuid error:0x%x. @ble_general_gatt.c(1134),WARNING" ID="0x8de02373" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read multiple characteristic new fail. @ble_general_gatt.c(1152),ERROR" ID="0x8de02402" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read multiple characteristic memset fail. @ble_general_gatt.c(1159),ERROR" ID="0x8de0243a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read multiple characteristic error:0x%x. @ble_general_gatt.c(1175),WARNING" ID="0x8de024bb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read multiple characteristic error:0x%x. @ble_general_gatt.c(1205),WARNING" ID="0x8de025ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic value memcpy failed @ble_general_gatt.c(1257),ERROR" ID="0x8de0274a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic value param is NULL @ble_general_gatt.c(1280),ERROR" ID="0x8de02802" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt write characteristic value malloc fail, size:0x%x. @ble_general_gatt.c(1293),ERROR" ID="0x8de0286a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general gatt write characteristic value memcpy fail: %d @ble_general_gatt.c(1303),ERROR" ID="0x8de028ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt write characteristic value fail:0x%x. @ble_general_gatt.c(1317),WARNING" ID="0x8de0292b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt reliable write characteristic value param is NULL @ble_general_gatt.c(1336),ERROR" ID="0x8de029c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt reliable write characteristic value malloc fail @ble_general_gatt.c(1343),ERROR" ID="0x8de029fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BCore] ble general gatt reliable write characteristic value memcpy fail @ble_general_gatt.c(1352),ERROR" ID="0x8de02a42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt reliable write characteristic value fail:0x%x. @ble_general_gatt.c(1371),WARNING" ID="0x8de02adb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt write descriptor value malloc faile, size:0x%x. @ble_general_gatt.c(1388),ERROR" ID="0x8de02b62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general gatt write descriptor value memcpy fail: %d @ble_general_gatt.c(1397),ERROR" ID="0x8de02baa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery descriptor error:0x%x. @ble_general_gatt.c(1407),ERROR" ID="0x8de02bfa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read descriptor value response memcpy fail: %d @ble_general_gatt.c(1429),ERROR" ID="0x8de02caa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read descriptor value response memcpy fail: %d @ble_general_gatt.c(1437),ERROR" ID="0x8de02cea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read descriptor value error:0x%x. @ble_general_gatt.c(1466),ERROR" ID="0x8de02dd2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt mtu config error:0x%x. @ble_general_gatt.c(1481),ERROR" ID="0x8de02e4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt set gap ui attributes error:0x%x. @ble_general_gatt.c(1494),ERROR" ID="0x8de02eb2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt get gap ui attributes error:0x%x. @ble_general_gatt.c(1513),ERROR" ID="0x8de02f4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc adapter gatt get hid report callback new fail @ble_general_gatt.c(1543),ERROR" ID="0x8de0303a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc adapter gatt get hid report callback error_code = %x @ble_general_gatt.c(1554),INFO" ID="0x8de03095" />
+			</MSG_LOG>

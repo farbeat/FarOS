@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_period_adv.c(82),ERROR" ID="0x8b900292" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_period_adv.c(206),ERROR" ID="0x8b900672" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_period_adv.c(265),ERROR" ID="0x8b90084a" />
+			</MSG_LOG>

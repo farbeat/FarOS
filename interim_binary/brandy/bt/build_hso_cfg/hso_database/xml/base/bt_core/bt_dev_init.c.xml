@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="MPC:device manager cmd = %x @bt_dev_init.c(54),INFO" ID="0x8c9601b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DEV: startBluetooth fail 0x%x @bt_dev_init.c(88),WARNING" ID="0x8c9602c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config recover smp keys proc param err @bt_dev_init.c(98),ERROR" ID="0x8c960312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config set local name proc param err @bt_dev_init.c(115),ERROR" ID="0x8c96039a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config set local name proc err @bt_dev_init.c(119),ERROR" ID="0x8c9603ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config recover calibration data proc param err @bt_dev_init.c(126),ERROR" ID="0x8c9603f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config recover smp keys proc param err @bt_dev_init.c(136),ERROR" ID="0x8c960442" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config recover product type proc param err @bt_dev_init.c(144),ERROR" ID="0x8c960482" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_CONFIG: bt config recover sys config proc param err @bt_dev_init.c(154),ERROR" ID="0x8c9604d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble core: get key from btc fail: %d @bt_dev_init.c(163),ERROR" ID="0x8c96051a" />
+			</MSG_LOG>

@@ -1,0 +1,33 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy adv_manu_spec_data fail when get adv data @ble_general_adv.c(209),ERROR" ID="0x8cb8068a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy adv_data fail when get adv data @ble_general_adv.c(231),ERROR" ID="0x8cb8073a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy mac fail when get adv data @ble_general_adv.c(255),ERROR" ID="0x8cb807fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy adv_alipay_data fail when get adv data @ble_general_adv.c(261),ERROR" ID="0x8cb8082a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy AppearanceData fail when get adv data @ble_general_adv.c(280),ERROR" ID="0x8cb808c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy AppearanceData fail when get adv data @ble_general_adv.c(299),ERROR" ID="0x8cb8095a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy ServiceUuid16Data fail when get adv data @ble_general_adv.c(317),ERROR" ID="0x8cb809ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy public target addr fail when get adv data @ble_general_adv.c(335),ERROR" ID="0x8cb80a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy random addr fail when get adv data @ble_general_adv.c(356),ERROR" ID="0x8cb80b22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy interval data fail when get adv data @ble_general_adv.c(374),ERROR" ID="0x8cb80bb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy interval data fail when get adv data @ble_general_adv.c(393),ERROR" ID="0x8cb80c4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy LocalName fail when get adv data @ble_general_adv.c(413),ERROR" ID="0x8cb80cea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy LocalName fail when get adv data @ble_general_adv.c(421),ERROR" ID="0x8cb80d2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy adv data fail @ble_general_adv.c(460),ERROR" ID="0x8cb80e62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: ble general set adv data Params is invaild! DataMaxLen is %d @ble_general_adv.c(479),ERROR" ID="0x8cb80efa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy adv_flags fail when get adv data @ble_general_adv.c(494),ERROR" ID="0x8cb80f72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: BleGeneralSetScanRsponseData: adv_params is NULL! @ble_general_adv.c(545),ERROR" ID="0x8cb8110a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: BleGeneralSetScanRsponseData: scan_rsp_data is NULL! @ble_general_adv.c(551),ERROR" ID="0x8cb8113a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: scan_rsp_data_max_len is error: %d @ble_general_adv.c(557),ERROR" ID="0x8cb8116a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy tx_power_level fail when get scanRspdata @ble_general_adv.c(569),ERROR" ID="0x8cb811ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: local name len too long: %d @ble_general_adv.c(579),ERROR" ID="0x8cb8121a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble log: memcpy localname fail when get scanRspdata @ble_general_adv.c(586),ERROR" ID="0x8cb81252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble core: App Start Ble Adv get localname or mac err @ble_general_adv.c(659),ERROR" ID="0x8cb8149a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble log: ble general set extended adv param g_adv_addr_type = %d adv_event_flag = %x,&quot; &quot;g_config_le_slave_use_privacy = %d @ble_general_adv.c(678),INFO" ID="0x8cb81535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble core: App Start Ble Adv get localname or mac err @ble_general_adv.c(714),ERROR" ID="0x8cb81652" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: Start Ble Adv get localname err @ble_general_adv.c(720),ERROR" ID="0x8cb81682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: ble general adv data len error: %d @ble_general_adv.c(730),ERROR" ID="0x8cb816d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: ble general adv data len: %d @ble_general_adv.c(734),INFO" ID="0x8cb816f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: ble general scan rsp data len error: %d @ble_general_adv.c(741),ERROR" ID="0x8cb8172a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: ble general scan rsp data len: %d @ble_general_adv.c(745),INFO" ID="0x8cb8174d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: adv data memcpy fail, data_len: %d @ble_general_adv.c(766),ERROR" ID="0x8cb817f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble log: scan rsp data memcpy fail, data_len: %d @ble_general_adv.c(775),ERROR" ID="0x8cb8183a" />
+			</MSG_LOG>

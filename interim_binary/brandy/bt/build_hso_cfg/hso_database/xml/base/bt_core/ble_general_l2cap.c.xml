@@ -1,0 +1,31 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ble general EV_DYNAMIC_PSM psm 0x%x. @ble_general_l2cap.c(34),INFO" ID="0x8ddc0115" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general L2CAP_EV_CONNECT_CFM cid:0x%x. @ble_general_l2cap.c(54),INFO" ID="0x8ddc01b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general L2CAP_CONN_COMPLETE cid:0x%x. @ble_general_l2cap.c(84),INFO" ID="0x8ddc02a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general L2CAP_EV_DATA_IND cid:0x%x hdl 0x%x sdu_len 0x%x. @ble_general_l2cap.c(129),INFO" ID="0x8ddc040d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general L2CAP_EV_DATA_IND memcpy fail. @ble_general_l2cap.c(134),ERROR" ID="0x8ddc0432" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general l2cap cbk event %d. @ble_general_l2cap.c(200),INFO" ID="0x8ddc0645" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap callback 0x%x not found! @ble_general_l2cap.c(228),INFO" ID="0x8ddc0725" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general reg psm param is NULL. @ble_general_l2cap.c(240),ERROR" ID="0x8ddc0782" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general: l2cap general reg psm:0x%x cid:0x%x ch_type:0x%x. @ble_general_l2cap.c(245),INFO" ID="0x8ddc07ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general unreg psm param is NULL. @ble_general_l2cap.c(255),ERROR" ID="0x8ddc07fa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general unreg psm:0x%x ch_type:0x%x. @ble_general_l2cap.c(260),INFO" ID="0x8ddc0825" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general credit conn param is NULL. @ble_general_l2cap.c(272),ERROR" ID="0x8ddc0882" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble general: l2cap general credit conn, psm:0x%x cid:0x%x mtu:0x%x mps:0x%x. @ble_general_l2cap.c(278),INFO" ID="0x8ddc08b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general credit conn malloc fail. @ble_general_l2cap.c(283),ERROR" ID="0x8ddc08da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general credit conn param is NULL. @ble_general_l2cap.c(312),ERROR" ID="0x8ddc09c2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble general: l2cap general credit conn, psm:0x%x cid:0x%x mtu:0x%x mps:0x%x. @ble_general_l2cap.c(318),INFO" ID="0x8ddc09f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general credit conn malloc fail. @ble_general_l2cap.c(323),ERROR" ID="0x8ddc0a1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general credit conn rsp param is NULL. @ble_general_l2cap.c(348),ERROR" ID="0x8ddc0ae2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general: l2cap general credit conn rsp, psm:0x%x mtu:0x%x mps:0x%x. @ble_general_l2cap.c(353),INFO" ID="0x8ddc0b0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general credit conn rsp, psm:0x%x malloc fail. @ble_general_l2cap.c(358),ERROR" ID="0x8ddc0b32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general channel tx param is NULL. @ble_general_l2cap.c(379),ERROR" ID="0x8ddc0bda" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general channel tx: cid:0x%x psm:0x%x malloc fail. @ble_general_l2cap.c(387),ERROR" ID="0x8ddc0c1a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general channel tx: cid:0x%x psm:0x%x memcpy fail. @ble_general_l2cap.c(400),ERROR" ID="0x8ddc0c82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general credit flow control param is NULL. @ble_general_l2cap.c(414),ERROR" ID="0x8ddc0cf2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general credit flow control, psm:0x%x cid 0x%x. @ble_general_l2cap.c(419),INFO" ID="0x8ddc0d1d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general credit flow control malloc fail, psm:0x%x cid 0x%x. @ble_general_l2cap.c(425),ERROR" ID="0x8ddc0d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general disconnect param is NULL. @ble_general_l2cap.c(447),ERROR" ID="0x8ddc0dfa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general disconnect, psm:0x%x cid 0x%x. @ble_general_l2cap.c(452),INFO" ID="0x8ddc0e25" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general: l2cap general disconnect malloc fail, psm:0x%x cid 0x%x. @ble_general_l2cap.c(458),ERROR" ID="0x8ddc0e52" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general l2cap set l2cap key size value:%d need_auth_check %d  @ble_general_l2cap.c(470),INFO" ID="0x8ddc0eb5" />
+			</MSG_LOG>

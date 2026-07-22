@@ -1,0 +1,63 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="llm_cis_conhdl_inuse_chk:cis_cs_idx%d @llm_cis.c(105),INFO" ID="0x89d4034d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM]default iso_interval(us):%d @llm_cis.c(345),INFO" ID="0x89d40acd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llm_cis_msm_setup_channel:%d, %d @llm_cis.c(362),INFO" ID="0x89d40b55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]unsupported event:%d, state:%d @llm_cis.c(382),INFO" ID="0x89d40bf5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]cis_idx%d @llm_cis.c(417),INFO" ID="0x89d40d0d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]unsupported event:%d, state:%d @llm_cis.c(470),INFO" ID="0x89d40eb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]unsupported event:%d, state:%d @llm_cis.c(554),INFO" ID="0x89d41155" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]unsupported event:%d, state:%d @llm_cis.c(608),INFO" ID="0x89d41305" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLM][CIS]llm_cis_msm_execute:state=%d,event=%d,cig_id=%d,cis_id=%d @llm_cis.c(631),INFO" ID="0x89d413bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]unsupported event:%d, state:%d @llm_cis.c(694),INFO" ID="0x89d415b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]slv accept cis conn:0x%x @llm_cis.c(746),INFO" ID="0x89d41755" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] unsupported event:%d, state:%d @llm_cis.c(768),INFO" ID="0x89d41805" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] unsupported event:%d, state:%d @llm_cis.c(791),INFO" ID="0x89d418bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]llm_cis[%d][%d] is null @llm_cis.c(807),INFO" ID="0x89d4193d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]slave execute: state:%d,event %d @llm_cis.c(810),INFO" ID="0x89d41955" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LLM][CIS]llm_cis_state_chg_execute:cig_id=%d, cis_id=%d, event=%d @llm_cis.c(847),INFO" ID="0x89d41a7d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]llm_cis_state_chg_execute:cig_id=%d,unkown_role=%d @llm_cis.c(862),INFO" ID="0x89d41af5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]llm_cis_assign_conhdl:%d @llm_cis.c(875),INFO" ID="0x89d41b5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLM][CIS]llm_cis_assign_conhdl_err @llm_cis.c(891),INFO" ID="0x89d41bdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM]have two conhdl are equal:%d @llm_cis.c(922),INFO" ID="0x89d41cd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLM][CIS]llm_cis_slv_setup_channel llc_cis is NULL @llm_cis.c(989),INFO" ID="0x89d41eed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLM][CIS]llm_cis_slv_setup_channel llc_ico is NULL @llm_cis.c(995),INFO" ID="0x89d41f1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]slave cis llc state:%d @llm_cis.c(1077),INFO" ID="0x89d421ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]slave accept conn cig_id:%d @llm_cis.c(1081),INFO" ID="0x89d421cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]llm_cis_setup_stream_patch total_cis_count %d @llm_cis.c(1279),INFO" ID="0x89d427fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLM][CIS]compute_param[cis_idx:%d]:cig_dly:%d;cis_dly:%d;packing:%d @llm_cis.c(1352),INFO" ID="0x89d42a45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]compute_param:cs_ch_offset:%d @llm_cis.c(1359),INFO" ID="0x89d42a7d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLM][CIS]compute_param[cis_idx:%d]:cig_dly:%d;cis_dly:%d;packing:%d @llm_cis.c(1380),INFO" ID="0x89d42b25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]compute_param:cs_ch_offset:%d @llm_cis.c(1397),INFO" ID="0x89d42bad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]llm_cis_get_sub_interval:arrangement:%d @llm_cis.c(1411),ERROR" ID="0x89d42c1a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llm_cis_get_sequential_sub_interval:align:%d;sub_interval:%d @llm_cis.c(1430),INFO" ID="0x89d42cb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llm_cis_get_sequential_sub_interval:cig_id:%d;cis_idx:%d @llm_cis.c(1434),WARNING" ID="0x89d42cd3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llm_cis_get_interleaved_sub_interval:align=%d,sub_interval=%d @llm_cis.c(1455),INFO" ID="0x89d42d7d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][CIS]llm_cis_get_channel_delay:cis_idx:%d;channel_num:%d @llm_cis.c(1474),ERROR" ID="0x89d42e12" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]Get sequential cis_delay cis_idx:%d;cis_delay:%d;nse:%d;sub_intv:%d @llm_cis.c(1488),INFO" ID="0x89d42e85" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CIS]Get interleved ch_delay cig_id:%dcis_idx:%d;cis_delay:%d; @llm_cis.c(1510),INFO" ID="0x89d42f35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]llm_cis_get_channel_delay:arrangement:%d @llm_cis.c(1512),ERROR" ID="0x89d42f42" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]cis_param==NULL,cig_id:%d;cis_idx:%d @llm_cis.c(1532),ERROR" ID="0x89d42fe2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_cis_get_channel_offset arrangement= %d @llm_cis.c(1550),INFO" ID="0x89d43075" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][CIS]ch_offset:%d;interval:%d;cis_idx:%d @llm_cis.c(1556),ERROR" ID="0x89d430a2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]ch_offset=%d;cig_id:%d;cis_idx:%d;arrangement=%d @llm_cis.c(1560),INFO" ID="0x89d430c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]cis_param==NULL,cig_id:%d;cis_idx:%d @llm_cis.c(1577),ERROR" ID="0x89d4314a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_cis_get_channel_offset arrangement= %d @llm_cis.c(1598),INFO" ID="0x89d431f5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][CIS]ch_offset:%d;cis_interval:%d;cis_idx:%d @llm_cis.c(1604),ERROR" ID="0x89d43222" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]ch_offset=%d;cig_id:%d;cis_idx:%d;arrangement=%d @llm_cis.c(1610),INFO" ID="0x89d43255" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_util_get_current_cis_state:llm_cis-&gt;isvalid = %d @llm_cis.c(1618),INFO" ID="0x89d43295" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM]cis start connect:param-&gt;cis_idx=%d @llm_cis.c(1631),INFO" ID="0x89d432fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_env_ext_ptr malloc failed @llm_cis.c(1664),ERROR" ID="0x89d43402" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]llm_cis_add_count_calc actual_count:%d @llm_cis.c(1688),INFO" ID="0x89d434c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]assign_conhdl:storedCount %d, addCount %d @llm_cis.c(1700),INFO" ID="0x89d43525" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]CISes add: %d %d @llm_cis.c(1719),INFO" ID="0x89d435bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLM][CIS]llm_get_conhdl_and_check_result:error @llm_cis.c(1741),INFO" ID="0x89d4366d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM][CIS]id match:idx %d @llm_cis.c(1755),INFO" ID="0x89d436dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]cis_idx_param %d real_cis_idx %d @llm_cis.c(1766),INFO" ID="0x89d43735" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LLM][CIS]llm_cis_state_chg_execute_new:cig_id=%d, cis_id=%d, event=%d @llm_cis.c(1782),INFO" ID="0x89d437b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]llm_cis_state_chg_execute_new:cig_id=%d,unkown_role=%d @llm_cis.c(1797),INFO" ID="0x89d4382d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLM][CIS]llm_cis_msm_execute_new:state=%d,event=%d,cig_id=%d,cis_id=%d @llm_cis.c(1820),INFO" ID="0x89d438e5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLM][CIS]unsupported event:%d, state:%d @llm_cis.c(1876),INFO" ID="0x89d43aa5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llm_cig_can_configure:null ptr @llm_cis.c(1887),INFO" ID="0x89d43afd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llm_set_cig_state:null ptr @llm_cis.c(1901),INFO" ID="0x89d43b6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llm_set_cig_state:old_state %d new_state %d @llm_cis.c(1906),INFO" ID="0x89d43b95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llm_cig_is_set_inactive:null ptr @llm_cis.c(1916),INFO" ID="0x89d43be5" />
+			</MSG_LOG>

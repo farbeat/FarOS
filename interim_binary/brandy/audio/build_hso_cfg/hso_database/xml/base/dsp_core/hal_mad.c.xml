@@ -1,0 +1,27 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(398),INFO" ID="0x989e0c75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_afe_sys_init Failed, Error Code: [0x%08X] @hal_mad.c(401),ERROR" ID="0x989e0c8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(418),INFO" ID="0x989e0d15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(428),INFO" ID="0x989e0d65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @hal_mad.c(431),ERROR" ID="0x989e0d7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(436),INFO" ID="0x989e0da5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(447),INFO" ID="0x989e0dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @hal_mad.c(450),ERROR" ID="0x989e0e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(470),INFO" ID="0x989e0eb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(478),INFO" ID="0x989e0ef5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(484),INFO" ID="0x989e0f25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(492),INFO" ID="0x989e0f65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(497),INFO" ID="0x989e0f8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(502),INFO" ID="0x989e0fb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(505),INFO" ID="0x989e0fcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(513),INFO" ID="0x989e100d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]enable = %d @hal_mad.c(514),INFO" ID="0x989e1015" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(518),INFO" ID="0x989e1035" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(526),INFO" ID="0x989e1075" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(531),INFO" ID="0x989e109d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(539),INFO" ID="0x989e10dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(548),INFO" ID="0x989e1125" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(556),INFO" ID="0x989e1165" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(561),INFO" ID="0x989e118d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_mad.c(569),INFO" ID="0x989e11cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_mad.c(575),INFO" ID="0x989e11fd" />
+			</MSG_LOG>

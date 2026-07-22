@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @avrcp_service_mgr.c(50),ERROR" ID="0xd8120192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memset_s fail @avrcp_service_mgr.c(54),ERROR" ID="0xd81201b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s error @avrcp_service_mgr.c(58),ERROR" ID="0xd81201d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="peer_srv_calss: 0x%x, stat:%u @avrcp_service_mgr.c(172),INFO" ID="0xd8120565" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="peer_srv_calss: 0x%x @avrcp_service_mgr.c(185),INFO" ID="0xd81205cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="peer_srv_calss: 0x%x, ct conn stat:%u, tg conn_stat:%u @avrcp_service_mgr.c(189),INFO" ID="0xd81205ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is not exist. @avrcp_service_mgr.c(201),ERROR" ID="0xd812064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get device conn stat:peer srv class:0x%x @avrcp_service_mgr.c(204),INFO" ID="0xd8120665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param is null @avrcp_service_mgr.c(211),ERROR" ID="0xd812069a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="peer_srv_calss is error:0x%x @avrcp_service_mgr.c(228),ERROR" ID="0xd8120722" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="event: 0x%x, peer_srv_calss:0x%x, conn_type:%u @avrcp_service_mgr.c(231),INFO" ID="0xd812073d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="osal_mutex_init in g_btsrv_avrcp_ctx_list_lock failed @avrcp_service_mgr.c(254),ERROR" ID="0xd81207f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="last_state:%u conn_stat:%u @avrcp_service_mgr.c(271),INFO" ID="0xd812087d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add service node fail @avrcp_service_mgr.c(288),ERROR" ID="0xd8120902" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="active addr: ****%02x%02x%02x%02x  @avrcp_service_mgr.c(299),INFO" ID="0xd812095d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect is existed @avrcp_service_mgr.c(334),INFO" ID="0xd8120a75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AvrcpConnect fail btsdk_connect_ex error ret: %x @avrcp_service_mgr.c(350),ERROR" ID="0xd8120af2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is not exist. @avrcp_service_mgr.c(365),ERROR" ID="0xd8120b6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already disconnected! @avrcp_service_mgr.c(370),ERROR" ID="0xd8120b92" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="avrcp_srv_disconnect fail btsdk_disconnect error ret: %x @avrcp_service_mgr.c(376),ERROR" ID="0xd8120bc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="servicd node is delete. @avrcp_service_mgr.c(388),INFO" ID="0xd8120c25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="servicd node is not exist. @avrcp_service_mgr.c(390),ERROR" ID="0xd8120c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param @avrcp_service_mgr.c(398),ERROR" ID="0xd8120c72" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="avrcp_handle_msg envtid: %u, param:%u @avrcp_service_mgr.c(401),INFO" ID="0xd8120c8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="avrcp_handle_msg unhandled msg id %x @avrcp_service_mgr.c(419),INFO" ID="0xd8120d1d" />
+			</MSG_LOG>

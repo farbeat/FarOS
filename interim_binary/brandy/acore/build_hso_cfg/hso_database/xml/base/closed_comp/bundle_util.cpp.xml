@@ -1,0 +1,35 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BMS] CheckRealPath path null @bundle_util.cpp(55),ERROR" ID="0xe03e01ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] CheckRealPath path too long:%d @bundle_util.cpp(61),ERROR" ID="0xe03e01ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] CheckRealPath path fail:%d @bundle_util.cpp(73),ERROR" ID="0xe03e024a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] GetFolderSize failed, list is null @bundle_util.cpp(193),ERROR" ID="0xe03e060a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] After get folder size, list is still not empty @bundle_util.cpp(212),ERROR" ID="0xe03e06a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] GetJsonStream IsFile fail @bundle_util.cpp(339),ERROR" ID="0xe03e0a9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] GetJsonStream path fail @bundle_util.cpp(346),ERROR" ID="0xe03e0ad2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] GetJsonStream size fail:%d @bundle_util.cpp(353),ERROR" ID="0xe03e0b0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] GetJsonStream open fail:%d @bundle_util.cpp(361),ERROR" ID="0xe03e0b4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] GetJsonStream AdapterMalloc fail @bundle_util.cpp(370),ERROR" ID="0xe03e0b92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] GetJsonStream read fail @bundle_util.cpp(379),ERROR" ID="0xe03e0bda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] cJSON_Parse fail @bundle_util.cpp(390),ERROR" ID="0xe03e0c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] CheckBundleJsonIsValid parameters are not valid @bundle_util.cpp(400),ERROR" ID="0xe03e0c82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] failed to organize bundleJson data file path @bundle_util.cpp(408),ERROR" ID="0xe03e0cc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] failed to open json file @bundle_util.cpp(416),ERROR" ID="0xe03e0d02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] result of parsing codePath is not a string @bundle_util.cpp(425),ERROR" ID="0xe03e0d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] parsed codePath is nullptr @bundle_util.cpp(433),ERROR" ID="0xe03e0d8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] parsed codePath is not dir @bundle_util.cpp(440),ERROR" ID="0xe03e0dc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] parsed codePath is not valid @bundle_util.cpp(447),ERROR" ID="0xe03e0dfa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] result of parsinng appId is not a string @bundle_util.cpp(456),ERROR" ID="0xe03e0e42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] parsed appId is null @bundle_util.cpp(464),ERROR" ID="0xe03e0e82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] result of parsinng versionCode is not a string @bundle_util.cpp(473),ERROR" ID="0xe03e0eca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] parsed versionCode is not valid @bundle_util.cpp(481),ERROR" ID="0xe03e0f0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] MkDirs failed, path is too long @bundle_util.cpp(763),ERROR" ID="0xe03e17da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] MkDirs failed, rootDir is null @bundle_util.cpp(777),ERROR" ID="0xe03e184a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] make rootDir failed @bundle_util.cpp(792),ERROR" ID="0xe03e18c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] RemoveDir failed, list is null @bundle_util.cpp(812),ERROR" ID="0xe03e1962" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] After delete, file is still not empty @bundle_util.cpp(839),ERROR" ID="0xe03e1a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Json data object is null @bundle_util.cpp(941),ERROR" ID="0xe03e1d6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] turn Json data to char sequence failed @bundle_util.cpp(949),ERROR" ID="0xe03e1daa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Json file path doest not exist @bundle_util.cpp(957),ERROR" ID="0xe03e1dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Json file path is invalid @bundle_util.cpp(965),ERROR" ID="0xe03e1e2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] open Json file failed @bundle_util.cpp(974),ERROR" ID="0xe03e1e72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] write to Json file failed @bundle_util.cpp(983),ERROR" ID="0xe03e1eba" />
+			</MSG_LOG>

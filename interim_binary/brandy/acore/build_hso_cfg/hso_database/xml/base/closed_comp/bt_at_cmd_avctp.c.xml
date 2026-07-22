@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="pts avctp conn parameter fail! @bt_at_cmd_avctp.c(31),ERROR" ID="0xd8c000fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp conn addr fail! @bt_at_cmd_avctp.c(35),ERROR" ID="0xd8c0011a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp conn role_type invaild! @bt_at_cmd_avctp.c(39),ERROR" ID="0xd8c0013a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp disconn parameter fail! @bt_at_cmd_avctp.c(53),ERROR" ID="0xd8c001aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp disconn addr fail! @bt_at_cmd_avctp.c(57),ERROR" ID="0xd8c001ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct send nfr parameter fail! @bt_at_cmd_avctp.c(67),ERROR" ID="0xd8c0021a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct send nfr addr fail! @bt_at_cmd_avctp.c(71),ERROR" ID="0xd8c0023a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct send fra parameter fail! @bt_at_cmd_avctp.c(81),ERROR" ID="0xd8c0028a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct send fra addr fail! @bt_at_cmd_avctp.c(85),ERROR" ID="0xd8c002aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp tg reg cbk parameter fail! @bt_at_cmd_avctp.c(95),ERROR" ID="0xd8c002fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp tg reg cbk parameter invaild! @bt_at_cmd_avctp.c(99),ERROR" ID="0xd8c0031a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avrcp tg register callback end.  @bt_at_cmd_avctp.c(103),INFO" ID="0xd8c0033d" />
+			</MSG_LOG>
