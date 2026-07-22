@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][MIPS]:g_ave_mips_thread = %d, g_max_mips_thread = %d @bt_mips.c(97),INFO" ID="0x89da030d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][MIPS]:g_ave_mips_isr = %d, g_max_mips_isr = %d @bt_mips.c(98),INFO" ID="0x89da0315" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[MIPS]current sence is %d,thread mips(%d) is higher than limited range! @bt_mips.c(211),WARNING" ID="0x89da069b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[MIPS]current sence is %d, interrupt mips(%d) is higher than limited range! @bt_mips.c(215),WARNING" ID="0x89da06bb" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP]SDU Reassemble BuffNew Error, sdu_len=%u @l2cap_ert.c(184),ERROR" ID="0x8adc05c2" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[L2CAP]SDU Reassemble memcpy_s Error, ret=%u, dest=%p, destSize=%u, src=%p, srcSize=%u @l2cap_ert.c(193),ERROR" ID="0x8adc060a" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[L2CAP]SDU Reassemble memcpy_s Error, ret=%u, dest=%p, destSize=%u, src=%p, srcSize=%u @l2cap_ert.c(209),ERROR" ID="0x8adc068a" />
+			</MSG_LOG>

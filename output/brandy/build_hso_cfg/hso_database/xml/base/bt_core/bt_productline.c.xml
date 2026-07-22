@@ -1,0 +1,27 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]productline_cali_start_tx, freq=%d, @bt_productline.c(41),INFO" ID="0x88fc014d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[productline cali]productline_cali_stop_tx @bt_productline.c(61),INFO" ID="0x88fc01ed" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[productline cali]cali init complete, freq_band = %d, gain code = 0x%x, valid = %d, cali_times = %d @bt_productline.c(102),INFO" ID="0x88fc0335" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[productline cali]cali complete freq band = %d, valid = %d @bt_productline.c(119),INFO" ID="0x88fc03bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[productline_cali]idet = %d, vdet = %d, idc = %d, qdc = %d @bt_productline.c(191),INFO" ID="0x88fc05fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[productline_cali]afer calcuidet = %d, vdet = %d @bt_productline.c(194),INFO" ID="0x88fc0615" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[productline cali]cali complete, freq_band = %d, pref = %d @bt_productline.c(214),INFO" ID="0x88fc06b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="please initialize this band first, band = %d @bt_productline.c(234),ERROR" ID="0x88fc0752" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[productline cali]first power up, freq_band_num = %d, current_power = %d, gain_index = %d @bt_productline.c(244),INFO" ID="0x88fc07a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[productline cali]small power up, freq_band_num = %d, gain_index = %d @bt_productline.c(249),INFO" ID="0x88fc07cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]gain_code reach lowest, gain = %d @bt_productline.c(258),ERROR" ID="0x88fc0812" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]gain_code updated, gain = %d @bt_productline.c(266),INFO" ID="0x88fc0855" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]cali time updated, times = %d @bt_productline.c(271),INFO" ID="0x88fc087d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]reach the max cali times, times = %d @bt_productline.c(280),ERROR" ID="0x88fc08c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="please initialize this band first, band = %d @bt_productline.c(299),ERROR" ID="0x88fc095a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[productline cali]first power down, freq_band_num = %d, current_power = %d, gain_index = %d @bt_productline.c(309),INFO" ID="0x88fc09ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[productline cali]small power down, freq_band_num = %d, gain_index = %d @bt_productline.c(314),INFO" ID="0x88fc09d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]gain_code reach upper limit, gain = %d @bt_productline.c(324),ERROR" ID="0x88fc0a22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]gain_code updated, gain = %d @bt_productline.c(328),INFO" ID="0x88fc0a45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]cali time updated, times = %d @bt_productline.c(335),INFO" ID="0x88fc0a7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]reach the max cali times, times = %d @bt_productline.c(344),ERROR" ID="0x88fc0ac2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]freq exceeded freq = %d @bt_productline.c(399),ERROR" ID="0x88fc0c7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]power err = %d @bt_productline.c(408),ERROR" ID="0x88fc0cc2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[productline cali]power get close = %d @bt_productline.c(416),INFO" ID="0x88fc0d05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][FACLINE]Cali FREQ %d set FAIL, error code %d, this band may initialized, plz change a band @bt_productline.c(427),ERROR" ID="0x88fc0d5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][PRODUCTLINE]start_tx failed @bt_productline.c(434),ERROR" ID="0x88fc0d92" />
+			</MSG_LOG>

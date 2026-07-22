@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[App] Time statistics: runtime(%d ms), work(%d ms), deep_sleep(%d ms), light_sleep(%d ms) @los_status.c(77),INFO" ID="0xa052026d" />
+			</MSG_LOG>

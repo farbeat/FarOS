@@ -1,0 +1,24 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="++++++++++++++++++++%s start++++++++++++++++++++ @transmit_debug.c(12),DBG" ID="0xa0ae0066" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="transmit_id=0x%x @transmit_debug.c(13),DBG" ID="0xa0ae006e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="used=0x%x @transmit_debug.c(14),DBG" ID="0xa0ae0076" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="init_fail=0x%x @transmit_debug.c(15),DBG" ID="0xa0ae007e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="permanent=0x%x @transmit_debug.c(16),DBG" ID="0xa0ae0086" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local_src=0x%x @transmit_debug.c(17),DBG" ID="0xa0ae008e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="remote_type=0x%x @transmit_debug.c(18),DBG" ID="0xa0ae0096" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local_type=0x%x @transmit_debug.c(19),DBG" ID="0xa0ae009e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="down_machine=0x%x @transmit_debug.c(20),DBG" ID="0xa0ae00a6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="received_size=0x%x @transmit_debug.c(21),DBG" ID="0xa0ae00ae" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="total_size=0x%x @transmit_debug.c(22),DBG" ID="0xa0ae00b6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="write_read=0x%x @transmit_debug.c(23),DBG" ID="0xa0ae00be" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="usr_wr_data=0x%x @transmit_debug.c(24),DBG" ID="0xa0ae00c6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bus_addr=0x%x @transmit_debug.c(25),DBG" ID="0xa0ae00ce" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="expiration=0x%x @transmit_debug.c(26),DBG" ID="0xa0ae00d6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="last_rcv_pkt_time=0x%x @transmit_debug.c(27),DBG" ID="0xa0ae00de" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="last_send_pkt_time=0x%x @transmit_debug.c(28),DBG" ID="0xa0ae00e6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="option=0x%x @transmit_debug.c(29),DBG" ID="0xa0ae00ee" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="file_name=%s @transmit_debug.c(31),DBG" ID="0xa0ae00fe" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="--------------------%s start-------------------- @transmit_debug.c(33),DBG" ID="0xa0ae010e" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[RECEIVER_REQUEST][id=%d][cnt=%d][0ffset=0x%x][size=0x%x] @transmit_debug.c(41),DBG" ID="0xa0ae014e" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[RECEIVER_REPLY][id=%d][ret=%d][0ffset=0x%x][size=0x%x][crc=0x%x] @transmit_debug.c(49),DBG" ID="0xa0ae018e" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[RECEIVER_REPLY][id=%d][code=%d][len=0x%x] @transmit_debug.c(57),DBG" ID="0xa0ae01ce" />
+			</MSG_LOG>

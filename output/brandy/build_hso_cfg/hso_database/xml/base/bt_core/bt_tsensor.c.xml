@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Tsensor]First Time Fail to Get Temperature Code @bt_tsensor.c(138),ERROR" ID="0x89340452" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="temp is too high, g_temp = %d @bt_tsensor.c(200),WARNING" ID="0x89340643" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="temp is too low, g_temp = %d @bt_tsensor.c(203),WARNING" ID="0x8934065b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][TEMP]g_tsensor_temp = %d, temp_reg_val = %d, temp_code = %d, tsensor_ready_flag_cnt = %d  @bt_tsensor.c(261),INFO" ID="0x8934082d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DYN]Power On temperature %d @bt_tsensor.c(271),INFO" ID="0x8934087d" />
+			</MSG_LOG>

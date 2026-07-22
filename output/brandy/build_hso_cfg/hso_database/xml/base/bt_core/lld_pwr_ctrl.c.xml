@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[LLD][INFO]lld_a2dp_sco_20dbm_check:conhdl=0x%x, txpwrlev=0x%x, ackrate=%d, last_rssi_delta=%d @lld_pwr_ctrl.c(285),INFO" ID="0x89ee08ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLD][INFO]lld_a2dp_sco_20dbm_check:reason_20dbm=0x%x, locper=%d @lld_pwr_ctrl.c(288),INFO" ID="0x89ee0905" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLD]pwr_ctrl_process: conhdl:%d, rssi_avg=%d, pwrlev=%d, delta=%d @lld_pwr_ctrl.c(441),INFO" ID="0x89ee0dcd" />
+			</MSG_LOG>

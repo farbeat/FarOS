@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_spp.c(33),ERROR" ID="0x8c9e010a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp srv register ret=0x%x @bt_ahi_spp.c(38),INFO" ID="0x8c9e0135" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_spp.c(58),ERROR" ID="0x8c9e01d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp srv unregister ret=0x%x @bt_ahi_spp.c(63),INFO" ID="0x8c9e01fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="spp read stream ret=0x%x len=%d @bt_ahi_spp.c(112),INFO" ID="0x8c9e0385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_spp.c(140),ERROR" ID="0x8c9e0462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @bt_ahi_spp.c(148),ERROR" ID="0x8c9e04a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="spp write stream ret=0x%x bytes_written=%d @bt_ahi_spp.c(151),INFO" ID="0x8c9e04bd" />
+			</MSG_LOG>

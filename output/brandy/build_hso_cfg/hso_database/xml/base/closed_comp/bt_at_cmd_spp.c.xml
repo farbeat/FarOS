@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] spp_server_create parameter fail! @bt_at_cmd_spp.c(35),ERROR" ID="0xd890011a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] spp_server_create get ch fail! @bt_at_cmd_spp.c(39),ERROR" ID="0xd890013a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] spp_conn parameter fail! @bt_at_cmd_spp.c(53),ERROR" ID="0xd89001aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] spp_conn addr fail! @bt_at_cmd_spp.c(57),ERROR" ID="0xd89001ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] spp_disconn parameter fail! @bt_at_cmd_spp.c(79),ERROR" ID="0xd890027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] spp_disconn get handle fail! @bt_at_cmd_spp.c(83),ERROR" ID="0xd890029a" />
+			</MSG_LOG>

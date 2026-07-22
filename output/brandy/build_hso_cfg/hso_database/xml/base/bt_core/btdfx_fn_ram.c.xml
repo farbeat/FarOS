@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]write modem addr_v[0x%x], value_v[0x%x] @btdfx_fn_ram.c(104),INFO" ID="0x88e80345" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] read modem addr_v:0x%x, value:0x%x @btdfx_fn_ram.c(115),INFO" ID="0x88e8039d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start_tx, freq=%d, mode=%d @btdfx_fn_ram.c(123),INFO" ID="0x88e803dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:gain_code  = 0x%x @btdfx_fn_ram.c(140),INFO" ID="0x88e80465" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CANT SET POWER HIGHER THAN 2 @btdfx_fn_ram.c(150),INFO" ID="0x88e804b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CANT SET POWER HIGHER THAN 14 @btdfx_fn_ram.c(155),INFO" ID="0x88e804dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ALL POWER SET TO %d dBm @btdfx_fn_ram.c(167),INFO" ID="0x88e8053d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[acl_long_tx]2-DH5 TX start! pkt_len=0x%x, modu_type=0x%x @btdfx_fn_ram.c(203),INFO" ID="0x88e8065d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble_tx: tx_freq=0x%x, test_data_len=0x%x, pk_payload_type=0x%x, tx_phy=0x%x, @btdfx_fn_ram.c(238),INFO" ID="0x88e80775" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_tx: power_level = 0x%x @btdfx_fn_ram.c(239),INFO" ID="0x88e8077d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start_rx @btdfx_fn_ram.c(244),INFO" ID="0x88e807a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:stop_rx @btdfx_fn_ram.c(252),INFO" ID="0x88e807e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bypass txpower cali @btdfx_fn_ram.c(263),INFO" ID="0x88e8083d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="recover txpower cali @btdfx_fn_ram.c(274),INFO" ID="0x88e80895" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:mips_statistic_on @btdfx_fn_ram.c(332),INFO" ID="0x88e80a65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:mips_statistic_off @btdfx_fn_ram.c(339),INFO" ID="0x88e80a9d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="regvalue0x%x=0x%x @btdfx_fn_ram.c(352),INFO" ID="0x88e80b05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]base address is 0x%x , size is %d @btdfx_fn_ram.c(374),INFO" ID="0x88e80bb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]size exceeded, max size is %d @btdfx_fn_ram.c(384),INFO" ID="0x88e80c05" />
+			</MSG_LOG>

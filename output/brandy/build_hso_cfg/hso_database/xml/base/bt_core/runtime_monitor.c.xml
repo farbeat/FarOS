@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[osMonitor]No.%d task was blocked tick %ld, count %ld @runtime_monitor.c(128),ERROR" ID="0xa00e0402" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[osMonitor]No.%d task was blocked up to limited times! @runtime_monitor.c(137),ERROR" ID="0xa00e044a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[osMonitor]No.%d task work overtime! threshold tick %d, work time %d @runtime_monitor.c(184),WARNING" ID="0xa00e05c3" />
+			</MSG_LOG>

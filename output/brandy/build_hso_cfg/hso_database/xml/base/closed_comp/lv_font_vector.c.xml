@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] FT_New_Face failed. @lv_font_vector.c(90),ERROR" ID="0xc94c02d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] LoadGlyphPathToCache failed  @lv_font_vector.c(206),ERROR" ID="0xc94c0672" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Already register a font file. @lv_font_vector.c(292),ERROR" ID="0xc94c0922" />
+			</MSG_LOG>

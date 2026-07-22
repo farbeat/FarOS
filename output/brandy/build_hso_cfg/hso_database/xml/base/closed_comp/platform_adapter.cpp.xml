@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ACELite version: %s @platform_adapter.cpp(34),DBG" ID="0xe1220116" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ACELite commit: %s @platform_adapter.cpp(35),DBG" ID="0xe122011e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ACELite build stamp: %s @platform_adapter.cpp(36),DBG" ID="0xe1220126" />
+			</MSG_LOG>

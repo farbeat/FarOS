@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="System Boot Normal @preserve.c(449),INFO" ID="0xa0460e0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="System Boot Abnoraml, watchdog timeout @preserve.c(453),INFO" ID="0xa0460e2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="System Boot Panic @preserve.c(457),INFO" ID="0xa0460e4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="System Boot Abnoraml, xip crash @preserve.c(462),INFO" ID="0xa0460e75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="System Boot Abnoraml, hard fault crash @preserve.c(466),INFO" ID="0xa0460e95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="System Power On @preserve.c(470),INFO" ID="0xa0460eb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="System Boot Abnoraml, other core crash @preserve.c(474),INFO" ID="0xa0460ed5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Unkown Sytem Boot Type:0x%x @preserve.c(478),INFO" ID="0xa0460ef5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="System Reboot cause:0x%x , total reboot count:%u, exception reboot count:%u @preserve.c(490),INFO" ID="0xa0460f55" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="panic id:0x%x, panic code: 0x%x, panic caller: 0x%x @preserve.c(495),INFO" ID="0xa0460f7d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="panic id:0x%x, panic code: 0x%x, panic caller: 0x%x @preserve.c(500),INFO" ID="0xa0460fa5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt exception reboot with pc:0x%x, lr: 0x%x @preserve.c(510),INFO" ID="0xa0460ff5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="app exception reboot pc:0x%x, lr: 0x%x @preserve.c(521),INFO" ID="0xa046104d" />
+			</MSG_LOG>

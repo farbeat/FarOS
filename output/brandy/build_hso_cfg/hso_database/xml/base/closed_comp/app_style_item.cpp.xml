@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="create style item string failed. @app_style_item.cpp(58),ERROR" ID="0xe11a01d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="app_style set string value error @app_style_item.cpp(62),ERROR" ID="0xe11a01f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="style item transform num to string fail @app_style_item.cpp(77),ERROR" ID="0xe11a026a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="convert style prop name to char failed, will be dropped @app_style_item.cpp(90),ERROR" ID="0xe11a02d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="style prop name length is 0, will be dropped @app_style_item.cpp(95),ERROR" ID="0xe11a02fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="new styleItem error @app_style_item.cpp(114),ERROR" ID="0xe11a0392" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="convert style value to char failed, will be dropped @app_style_item.cpp(135),ERROR" ID="0xe11a043a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="new styleItem error @app_style_item.cpp(161),ERROR" ID="0xe11a050a" />
+			</MSG_LOG>

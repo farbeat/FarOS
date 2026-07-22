@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="parse percent value failed, invalid input parameters @number_parser.cpp(35),ERROR" ID="0xe072011a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="parse percent value failed, input string too long [%d] @number_parser.cpp(44),ERROR" ID="0xe0720162" />
+			</MSG_LOG>

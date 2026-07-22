@@ -1,0 +1,33 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BIS]not normal phy_opt %d @llc_bis.c(212),WARNING" ID="0x895806a3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BIS]not normal phy_type %d @llc_bis.c(222),WARNING" ID="0x895806f3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]bn=%d,iso_intv=%d,sdu_intv=%d,coefficient=%d @llc_bis.c(432),WARNING" ID="0x89580d83" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]bn=%d,iso_intv=%d,sdu_intv=%d,coefficient=%d @llc_bis.c(437),WARNING" ID="0x89580dab" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BIS]subevt_intv=%d,big_sync_delay=%d,big_trans_latency=%d @llc_bis.c(544),INFO" ID="0x89581105" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]not find the big conhdl @llc_bis.c(615),WARNING" ID="0x8958133b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big_param is null @llc_bis.c(620),WARNING" ID="0x89581363" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big_param is null @llc_bis.c(707),WARNING" ID="0x8958161b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_big_stop:llc_env[conhdl]=NULL @llc_bis.c(751),INFO" ID="0x8958177d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_bis_stop:llc_env[bis_conhdl]=NULL @llc_bis.c(773),INFO" ID="0x8958182d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big param is NULL @llc_bis.c(805),WARNING" ID="0x8958192b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]not find big conhdl @llc_bis.c(814),WARNING" ID="0x89581973" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]llc_env_ptr is null @llc_bis.c(904),WARNING" ID="0x89581c43" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]llc_big_create_sync_accept, big_param is NULL @llc_bis.c(912),WARNING" ID="0x89581c83" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big_param is null @llc_bis.c(934),WARNING" ID="0x89581d33" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIG] unsupported event:%d, state:%d @llc_bis.c(959),INFO" ID="0x89581dfd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIG] unsupported event:%d, state:%d @llc_bis.c(982),INFO" ID="0x89581eb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIG] unsupported event:%d, state:%d @llc_bis.c(1005),INFO" ID="0x89581f6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIG] unsupported event:%d, state:%d @llc_bis.c(1025),INFO" ID="0x8958200d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIG] unsupported event:%d, state:%d @llc_bis.c(1045),INFO" ID="0x895820ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]slave biginfo unpack fail @llc_bis.c(1109),WARNING" ID="0x895822ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]slave create big prepare fail @llc_bis.c(1119),WARNING" ID="0x895822fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]bis elt insert fail @llc_bis.c(1126),WARNING" ID="0x89582333" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]slave create big prepare fail @llc_bis.c(1155),WARNING" ID="0x8958241b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]bis elt insert fail @llc_bis.c(1162),WARNING" ID="0x89582453" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="Invalid parameters %d,%d,%d,%d @llc_bis.c(1205),INFO" ID="0x895825ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big param is NULL @llc_bis.c(1245),WARNING" ID="0x895826eb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]bis sync link sup timeout! @llc_bis.c(1250),WARNING" ID="0x89582713" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big param is NULL @llc_bis.c(1277),WARNING" ID="0x895827eb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][BIS]llc_bis_mic_err_ind_handler:mic err occurred @llc_bis.c(1282),ERROR" ID="0x89582812" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big param is NULL @llc_bis.c(1309),WARNING" ID="0x895828eb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][BIS]bis remote terminate cmd:reason=%d @llc_bis.c(1313),INFO" ID="0x8958290d" />
+			</MSG_LOG>

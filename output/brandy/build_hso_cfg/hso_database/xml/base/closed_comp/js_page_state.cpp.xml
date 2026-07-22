@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="undefined state -&gt; init state @js_page_state.cpp(29),INFO" ID="0xe11200ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) is invalid when changing undefined state to init state. @js_page_state.cpp(41),ERROR" ID="0xe112014a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="init state -&gt; ready state @js_page_state.cpp(49),INFO" ID="0xe112018d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) is invalid when changing init state to ready state. @js_page_state.cpp(60),ERROR" ID="0xe11201e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) -&gt; show state @js_page_state.cpp(68),INFO" ID="0xe1120225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) is invalid when changing ready state to show state. @js_page_state.cpp(77),ERROR" ID="0xe112026a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) -&gt; background state @js_page_state.cpp(85),INFO" ID="0xe11202ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) is invalid when changing show state to background state. @js_page_state.cpp(93),ERROR" ID="0xe11202ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) -&gt; destroy state @js_page_state.cpp(102),INFO" ID="0xe1120335" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="current state(%d) is invalid when changing show state to destroy state. @js_page_state.cpp(111),ERROR" ID="0xe112037a" />
+			</MSG_LOG>

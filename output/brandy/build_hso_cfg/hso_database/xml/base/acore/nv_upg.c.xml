@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[NV] kv upgrade kv_upg_copy_pkg_image_data error @nv_upg.c(94),ERROR" ID="0xa07c02f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] kv upgrade uapi_drv_cipher_sha256_update error @nv_upg.c(100),ERROR" ID="0xa07c0322" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] kv upgrade error keyid:0x%x @nv_upg.c(180),ERROR" ID="0xa07c05a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] kv upgrade data length error! @nv_upg.c(202),ERROR" ID="0xa07c0652" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[NV] kv upgrade data error read_len_:%d offset:%d @nv_upg.c(228),ERROR" ID="0xa07c0722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] upg verify fail! @nv_upg.c(258),ERROR" ID="0xa07c0812" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] get upgrade flag error! @nv_upg.c(288),ERROR" ID="0xa07c0902" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] Not need to upgrade NV ... @nv_upg.c(293),INFO" ID="0xa07c092d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] upg set update status error @nv_upg.c(300),ERROR" ID="0xa07c0962" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] kv upgrade success! @nv_upg.c(305),ERROR" ID="0xa07c098a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] kv upgrade fail! error code:0x%x @nv_upg.c(308),ERROR" ID="0xa07c09a2" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="invalid cmd group id @bt_srv_shell.c(114),INFO" ID="0xd85e0395" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt_service_sample_cmd:  @bt_srv_shell.c(122),INFO" ID="0xd85e03d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%s  @bt_srv_shell.c(127),INFO" ID="0xd85e03fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @bt_srv_shell.c(129),INFO" ID="0xd85e040d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd format: btsrv group_id cmd_id (params...)  @bt_srv_shell.c(182),INFO" ID="0xd85e05b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="group id: 1--gap cmd; 2--a2dp cmd; 4--hfp-hf cmd; 5--pbap cmd; 7--avrcp  @bt_srv_shell.c(183),INFO" ID="0xd85e05bd" />
+			</MSG_LOG>

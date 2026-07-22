@@ -1,0 +1,98 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetGlobalObject has not been implemented in this js engine! @jsi.cpp(33),ERROR" ID="0xe0d4010a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateObject has not been implemented in this js engine! @jsi.cpp(43),ERROR" ID="0xe0d4015a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetProperty failed! @jsi.cpp(51),ERROR" ID="0xe0d4019a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetProperty has not been implemented in this js engine! @jsi.cpp(61),ERROR" ID="0xe0d401ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetNamedProperty failed! @jsi.cpp(68),ERROR" ID="0xe0d40222" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetNamedProperty has not been implemented in this js engine! @jsi.cpp(76),ERROR" ID="0xe0d40262" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetNumberProperty failed! @jsi.cpp(83),ERROR" ID="0xe0d4029a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetBooleanProperty failed! @jsi.cpp(94),ERROR" ID="0xe0d402f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetStringProperty failed! @jsi.cpp(105),ERROR" ID="0xe0d4034a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetStringPropertyWithBufferSize failed! @jsi.cpp(116),ERROR" ID="0xe0d403a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateJerryFuncHelper get function pointer failed! @jsi.cpp(137),ERROR" ID="0xe0d4044a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateJerryFuncHelper allocate memory failed! @jsi.cpp(149),ERROR" ID="0xe0d404aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateFunction failed! @jsi.cpp(166),ERROR" ID="0xe0d40532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateFunction has not been implemented in this js engine! @jsi.cpp(175),ERROR" ID="0xe0d4057a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateString has not been implemented in this js engine! @jsi.cpp(188),ERROR" ID="0xe0d405e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateStringWithBufferSize has not been implemented in this js engine! @jsi.cpp(201),ERROR" ID="0xe0d4064a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateUndefined has not been implemented in this js engine! @jsi.cpp(210),ERROR" ID="0xe0d40692" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsFunction has not been implemented in this js engine! @jsi.cpp(220),ERROR" ID="0xe0d406e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsUndefined has not been implemented in this js engine! @jsi.cpp(230),ERROR" ID="0xe0d40732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsNumber has not been implemented in this js engine! @jsi.cpp(240),ERROR" ID="0xe0d40782" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsString has not been implemented in this js engine! @jsi.cpp(250),ERROR" ID="0xe0d407d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsBoolean has not been implemented in this js engine! @jsi.cpp(260),ERROR" ID="0xe0d40822" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsNull has not been implemented in this js engine! @jsi.cpp(270),ERROR" ID="0xe0d40872" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsObject has not been implemented in this js engine! @jsi.cpp(280),ERROR" ID="0xe0d408c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsError has not been implemented in this js engine! @jsi.cpp(290),ERROR" ID="0xe0d40912" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:JsonStringify failed! @jsi.cpp(298),ERROR" ID="0xe0d40952" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:JsonStringify has not been implemented in this js engine! @jsi.cpp(307),ERROR" ID="0xe0d4099a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:JsonParse failed! @jsi.cpp(315),ERROR" ID="0xe0d409da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:JsonParse has not been implemented in this js engine! @jsi.cpp(322),ERROR" ID="0xe0d40a12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetProperty failed! @jsi.cpp(330),ERROR" ID="0xe0d40a52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetProperty has not been implemented in this js engine! @jsi.cpp(338),ERROR" ID="0xe0d40a92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetNamedProperty failed! @jsi.cpp(346),ERROR" ID="0xe0d40ad2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetNamedProperty has not been implemented in this js engine! @jsi.cpp(355),ERROR" ID="0xe0d40b1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetNumberProperty failed! @jsi.cpp(363),ERROR" ID="0xe0d40b5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetBooleanProperty failed! @jsi.cpp(375),ERROR" ID="0xe0d40bba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetStringProperty failed! @jsi.cpp(387),ERROR" ID="0xe0d40c1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ReleaseValue has not been implemented in this js engine! @jsi.cpp(403),ERROR" ID="0xe0d40c9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetStringPropertyWithBufferSize failed! @jsi.cpp(410),ERROR" ID="0xe0d40cd2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CallFunction failed! @jsi.cpp(430),ERROR" ID="0xe0d40d72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CallFunction error returned! @jsi.cpp(439),ERROR" ID="0xe0d40dba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CallFunction allocate memory failed! @jsi.cpp(446),ERROR" ID="0xe0d40df2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CallFunction error returned! @jsi.cpp(455),ERROR" ID="0xe0d40e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CallFunction has not been implemented in this js engine! @jsi.cpp(461),ERROR" ID="0xe0d40e6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateNumber has not been implemented in this js engine! @jsi.cpp(470),ERROR" ID="0xe0d40eb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateNumberNan has not been implemented in this js engine! @jsi.cpp(480),ERROR" ID="0xe0d40f02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateError parameters invalid! @jsi.cpp(555),ERROR" ID="0xe0d4115a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateError has not been implemented in this js engine! @jsi.cpp(563),ERROR" ID="0xe0d4119a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetErrorType has not been implemented in this js engine! @jsi.cpp(578),ERROR" ID="0xe0d41212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateBoolean has not been implemented in this js engine! @jsi.cpp(588),ERROR" ID="0xe0d41262" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateNull has not been implemented in this js engine! @jsi.cpp(598),ERROR" ID="0xe0d412b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateSymbol has not been implemented in this js engine! @jsi.cpp(610),ERROR" ID="0xe0d41312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsSymbol has not been implemented in this js engine! @jsi.cpp(620),ERROR" ID="0xe0d41362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateArray has not been implemented in this js engine! @jsi.cpp(631),ERROR" ID="0xe0d413ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetPropertyByIndex has not been implemented in this js engine! @jsi.cpp(650),ERROR" ID="0xe0d41452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToString params invalid! @jsi.cpp(661),ERROR" ID="0xe0d414aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToString malloc memory for empty char failed! @jsi.cpp(670),ERROR" ID="0xe0d414f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToString malloc memory failed! @jsi.cpp(678),ERROR" ID="0xe0d41532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToString jerry string to char buffer failed @jsi.cpp(683),ERROR" ID="0xe0d4155a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToString has not been implemented in this js engine! @jsi.cpp(693),ERROR" ID="0xe0d415aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToStringWithBufferSize params invalid! @jsi.cpp(703),ERROR" ID="0xe0d415fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToStringWithBufferSize malloc memory failed! @jsi.cpp(716),ERROR" ID="0xe0d41662" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToStringWithBufferSize jerry string to char buffer failed @jsi.cpp(722),ERROR" ID="0xe0d41692" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToStringWithBufferSize has not been implemented in this js engine! @jsi.cpp(731),ERROR" ID="0xe0d416da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToNumber params invalid! @jsi.cpp(742),ERROR" ID="0xe0d41732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToNumber has not been implemented in this js engine! @jsi.cpp(747),ERROR" ID="0xe0d4175a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToBoolean params invalid! @jsi.cpp(757),ERROR" ID="0xe0d417aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueToBoolean has not been implemented in this js engine! @jsi.cpp(762),ERROR" ID="0xe0d417d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:JSIValueToString has not been implemented in this js engine! @jsi.cpp(775),ERROR" ID="0xe0d4183a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetArrayLength params invalid! @jsi.cpp(785),ERROR" ID="0xe0d4188a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetArrayLength has not been implemented in this js engine! @jsi.cpp(790),ERROR" ID="0xe0d418b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetPropertyByIndex has not been implemented in this js engine! @jsi.cpp(801),ERROR" ID="0xe0d4190a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetObjectKeys failed! @jsi.cpp(809),ERROR" ID="0xe0d4194a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetObjectKeys has not been implemented in this js engine! @jsi.cpp(816),ERROR" ID="0xe0d41982" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetJSHeapStatus has not been implemented in this js engine! @jsi.cpp(833),ERROR" ID="0xe0d41a0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsArray has not been implemented in this js engine! @jsi.cpp(843),ERROR" ID="0xe0d41a5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:AcquireValue has not been implemented in this js engine! @jsi.cpp(854),ERROR" ID="0xe0d41ab2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetModuleAPI failed! @jsi.cpp(862),ERROR" ID="0xe0d41af2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetOnDestroy failed! @jsi.cpp(873),ERROR" ID="0xe0d41b4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetOnDestroy has not been implemented in this js engine! @jsi.cpp(880),ERROR" ID="0xe0d41b82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetOnTerminate failed! @jsi.cpp(892),ERROR" ID="0xe0d41be2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetNamedPointer failed! @jsi.cpp(909),ERROR" ID="0xe0d41c6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:SetNamedPointer has not been implemented in this js engine! @jsi.cpp(919),ERROR" ID="0xe0d41cba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetTypedArrayInfo failed! @jsi.cpp(972),ERROR" ID="0xe0d41e62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetTypedArrayInfo has not been implemented in this js engine! @jsi.cpp(990),ERROR" ID="0xe0d41ef2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateTypedArray has not been implemented in this js engine! @jsi.cpp(1045),ERROR" ID="0xe0d420aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetArrayBufferInfo failed! @jsi.cpp(1053),ERROR" ID="0xe0d420ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:GetArrayBufferInfo has not been implemented in this js engine! @jsi.cpp(1063),ERROR" ID="0xe0d4213a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateArrayBuffer has not been implemented in this js engine! @jsi.cpp(1078),ERROR" ID="0xe0d421b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsArrayBuffer has not been implemented in this js engine! @jsi.cpp(1088),ERROR" ID="0xe0d42202" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:ValueIsTypedArray has not been implemented in this js engine! @jsi.cpp(1098),ERROR" ID="0xe0d42252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:DefineProperty failed! @jsi.cpp(1107),ERROR" ID="0xe0d4229a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:DefineProperty has not been implemented in this js engine! @jsi.cpp(1134),ERROR" ID="0xe0d42372" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:DefineNamedProperty failed! @jsi.cpp(1142),ERROR" ID="0xe0d423b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:DefineNamedProperty has not been implemented in this js engine! @jsi.cpp(1151),ERROR" ID="0xe0d423fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateErrorWithCode parameters invalid! @jsi.cpp(1201),ERROR" ID="0xe0d4258a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateErrorWithCode error message too long! @jsi.cpp(1206),ERROR" ID="0xe0d425b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JSI:CreateErrorWithCode has not been implemented in this js engine! @jsi.cpp(1219),ERROR" ID="0xe0d4261a" />
+			</MSG_LOG>

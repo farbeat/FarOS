@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][PAST]llc_llcp_per_sync_pdu_tree_device_pack can't get sync info @llc_past_llcp.c(130),WARNING" ID="0x89b60413" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][PAST]llc_llcp_per_sync_pdu_two_device_check ACL disconnect or adv not enable @llc_past_llcp.c(183),WARNING" ID="0x89b605bb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][PAST]llc_llcp_per_sync_pdu_two_device_check periodic not enable or aux has released auxcs = 0x%x @llc_past_llcp.c(191),WARNING" ID="0x89b605fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][PAST]llc_llcp_push_past_ind_to_rdy_list malloc fail @llc_past_llcp.c(293),WARNING" ID="0x89b6092b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][PAST]llc_llcp_per_sync_pdu_send can't get trancs info or the acl has disconnect @llc_past_llcp.c(302),WARNING" ID="0x89b60973" />
+			</MSG_LOG>

@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ACore] mc_bt_factory_test_svr:cmdid:0x%02X pay_len:%d. @bt_factory_test.c(204),INFO" ID="0xd8940665" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] mc_bt_factory_test_svr command id:0X%02X invaild. @bt_factory_test.c(215),ERROR" ID="0xd89406ba" />
+			</MSG_LOG>

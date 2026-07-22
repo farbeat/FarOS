@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]bt_ssi_read_reg BT_CFG_FAIL[0x%x]=0x%x ... @reg_access_ram.c(146),ERROR" ID="0x8a4c0492" />
+			</MSG_LOG>

@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="llc_test_set_cis_param : alloc fail! @llc_cis_ram.c(30),INFO" ID="0x8a2a00f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :cig_id=%d, cis_id=%d, cis_conhdl=%d, struct_size=%d @llc_cis_ram.c(60),INFO" ID="0x8a2a01e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :cig_id=%d, cis_id=%d, sdu_intv_m2s=%d, sdu_intv_s2m=%d @llc_cis_ram.c(62),INFO" ID="0x8a2a01f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :ftm2s=%d, fts2m=%d, chnl_intv=%d, packing=%d @llc_cis_ram.c(64),INFO" ID="0x8a2a0205" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :pdum2s=%d, pdus2m=%d, sdum2s=%d, sdus2m=%d @llc_cis_ram.c(66),INFO" ID="0x8a2a0215" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :bnm2s=%d, bns2m=%d, phym2s=%d, phys2m=%d @llc_cis_ram.c(68),INFO" ID="0x8a2a0225" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llc_test_set_cis_param :nse=%d, arrangement=%d @llc_cis_ram.c(70),INFO" ID="0x8a2a0235" />
+			</MSG_LOG>

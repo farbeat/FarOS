@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]lld_evt_elt_wait_insert:new_wait_elt = NULL @lld_con_evt.c(87),ERROR" ID="0x897202ba" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_slave_update, update_offset=%d,  update_size=%d, instant=%d, new_interval=%d @lld_con_evt.c(424),WARNING" ID="0x89720d43" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_update_param_compute time_old %d, win_offset %d, interval %d, timestamp %d @lld_con_evt.c(505),INFO" ID="0x89720fcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLD]lld_evt_delete_elt_push: elt is null @lld_con_evt.c(617),ERROR" ID="0x8972134a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]lld_evt_elt_common_stop:elt NULL LR(0x%x)  @lld_con_evt.c(654),WARNING" ID="0x89721473" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_evt_elt_common_stop:to delete elt[0x%x], elt_ts[%d], nowtime=%d @lld_con_evt.c(665),INFO" ID="0x897214cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLD]lld_evt_elt_common_stop:delete elt[0x%x] ok @lld_con_evt.c(667),INFO" ID="0x897214dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BLE]lld_evt_elt_free:elt NULL LR(0x%x)  @lld_con_evt.c(749),ERROR" ID="0x8972176a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LLD]lld_prog_check: timestamp=0x%x,ea_cb_cancel=0x%x,ble conhdl=0x%x,evt mode=%d @lld_con_evt.c(1066),WARNING" ID="0x89722153" />
+			</MSG_LOG>

@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[T%x][TIMEOUT] SIGNAL EXPIRED, CID_LOCAL=%u, CODE=%u, TIMER=0x%x @l2cap_signal.c(49),WARNING" ID="0x8bc8018b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP][NEW_SIGNAL_TRANS] LINK_HANDLE=0x%x, can't find an available id then disconnect the link @l2cap_signal.c(128),WARNING" ID="0x8bc80403" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP][NEW_ECHO_TRANS] LINK_HANDLE=0x%x, can't find an available id then disconnect the link @l2cap_signal.c(177),WARNING" ID="0x8bc8058b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[L2CAP][SIGNAL_TX_EXPIRED] LINK_HANDLE=0x%x, skip force to disconnect acllink-&gt;hdl=0x%x @l2cap_signal.c(289),WARNING" ID="0x8bc8090b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[L2CAP][SIGNAL_RECV]HANDLE=0x%x, CODE=0x%x, IDENTIFIER=%d, LENGTH=%d @l2cap_signal.c(443),INFO" ID="0x8bc80ddd" />
+			</MSG_LOG>

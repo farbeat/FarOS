@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO][AE]lld_ae_acad_execute:basetime_cnt=0x%x, finetime_cnt=%d, sca=0x%x @lld_bis_pdu.c(95),INFO" ID="0x895e02fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][BIS]bis rx conhdl=%d, status=0x%x @lld_bis_pdu.c(120),WARNING" ID="0x895e03c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big_param is NULL! @lld_bis_pdu.c(245),WARNING" ID="0x895e07ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_pdu_data_pdu_rx_handler:No rx buff! @lld_bis_pdu.c(331),WARNING" ID="0x895e0a5b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]lld_bis_pdu_data_pdu_rx_handler:framing=%d,len=%d,llid=%d,pldcntr=%d @lld_bis_pdu.c(342),INFO" ID="0x895e0ab5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="data_length illegal, data_length = 0x%x @lld_bis_pdu.c(407),INFO" ID="0x895e0cbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_report_rxnode:No rx_report buff! @lld_bis_pdu.c(502),WARNING" ID="0x895e0fb3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]bis recombine:length=%d, recomb_flag=%d, pldcntr=%d, llid=%d @lld_bis_pdu.c(530),WARNING" ID="0x895e1093" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BIS]long:node_idx=%d,buf_ptr=0x%x,buf_size=%d @lld_bis_pdu.c(742),INFO" ID="0x895e1735" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIS]normal:node_idx=%d,buf_ptr=0x%x @lld_bis_pdu.c(746),WARNING" ID="0x895e1753" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]bis reassem:sc=0x%x,cmplt=%d,seg_length=%d, sync_err_flag=%d @lld_bis_pdu.c(786),INFO" ID="0x895e1895" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BIS]lld_bis_pdu_framed_rx_check:invalid middle pkt @lld_bis_pdu.c(832),INFO" ID="0x895e1a05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BIS]lld_bis_pdu_framed_rx_check:invalid last pkt @lld_bis_pdu.c(840),INFO" ID="0x895e1a45" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]bis report:length=%d,buf_idx=%d,packet_seq_num=%d,bis_data_flag=%d @lld_bis_pdu.c(910),INFO" ID="0x895e1c75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_report_rxnode:No rx_report buff! @lld_bis_pdu.c(929),WARNING" ID="0x895e1d0b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]bis report er:length=%d,buf_idx=%d,packet_seq_num=%d,bis_data_flag=%d @lld_bis_pdu.c(949),INFO" ID="0x895e1dad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BIS]reschedule the ext adv:conhdl=%d @lld_bis_pdu.c(1019),INFO" ID="0x895e1fdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_pdu_data_flush: bis_chnl is NULL @lld_bis_pdu.c(1188),WARNING" ID="0x895e2523" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_pdu_data_flush: not find bis conhdl @lld_bis_pdu.c(1193),WARNING" ID="0x895e254b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_pdu_data_flush: big_param is NULL @lld_bis_pdu.c(1198),WARNING" ID="0x895e2573" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLD]bit_elt_ts=0x%x, clkn=0x%x @lld_bis_pdu.c(1295),WARNING" ID="0x895e287b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BIS]fill:txdesc_idx=%d,txdesc_len=%d,buffer_ptr=0x%x,pkt_seq_num=%d @lld_bis_pdu.c(1688),INFO" ID="0x895e34c5" />
+			</MSG_LOG>

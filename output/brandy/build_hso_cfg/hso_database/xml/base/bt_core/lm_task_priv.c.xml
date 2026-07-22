@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]lm_util_set_priv_feature OVERFLOW, bit number %d @lm_task_priv.c(73),ERROR" ID="0x89a8024a" />
+			</MSG_LOG>

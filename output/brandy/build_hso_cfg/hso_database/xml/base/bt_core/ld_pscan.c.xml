@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][handle](EM_BT_RXDESC_OFFSET + ld_env.curr_rxdesc_index * REG_EM_BT_RXDESC_SIZE) = %d, bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_pscan.c(188),ERROR" ID="0x88ba05e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][handle](EM_BT_RXDESC_OFFSET + ld_env.curr_rxdesc_index * REG_EM_BT_RXDESC_SIZE) = %d, bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_pscan.c(246),ERROR" ID="0x88ba07b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ld_pscan_evt_handler ld_pscan_env.evt null @ld_pscan.c(315),WARNING" ID="0x88ba09db" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]ld_pscan_prog:cs_idx = %d, att_nb = %d @ld_pscan.c(441),ERROR" ID="0x88ba0dca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_pscan_env.evt != evt @ld_pscan.c(470),ERROR" ID="0x88ba0eb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_pscan_env.evt != evt @ld_pscan.c(499),ERROR" ID="0x88ba0f9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]pscan_par-&gt;state = %d @ld_pscan.c(507),ERROR" ID="0x88ba0fda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_pscan.c(595),WARNING" ID="0x88ba129b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][PSCAN][LD]ld_pscan_frm_cbk:cs_idx=%d, pscan_par-&gt;state = %d @ld_pscan.c(759),INFO" ID="0x88ba17bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ld_pagescan_start_init pagescan delay 500slot, ts=%d @ld_pscan.c(840),INFO" ID="0x88ba1a45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[pscan stop]tx_time_total:%d, rx_time_total:%d, bt_statis_clock:%d @ld_pscan.c(923),WARNING" ID="0x88ba1cdb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]ts = 0x%x, asap_setting = %d, asap_limit = 0x%x, prio = %d @ld_pscan.c(1047),WARNING" ID="0x88ba20bb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]link_id = %d, step = %d, new_end_ts = 0x%x, rem_slots = %d @ld_pscan.c(1049),WARNING" ID="0x88ba20cb" />
+			</MSG_LOG>

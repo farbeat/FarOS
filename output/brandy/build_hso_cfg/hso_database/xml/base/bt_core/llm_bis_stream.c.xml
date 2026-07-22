@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]biginfo_print, acad_type=%d, big_offset=%d, unit=%d, iso_intv=%d @llm_bis_stream.c(25),INFO" ID="0x895400cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]biginfo_print, num_bis=%d, nse=%d, bn=%d, sub_interval=%d @llm_bis_stream.c(28),INFO" ID="0x895400e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]biginfo_print, pto=%d, bis_spacing=%d, irc=%d, max_pdu=%d @llm_bis_stream.c(31),INFO" ID="0x895400fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]biginfo_print, sdu_intv=%d, max_sdu=%d, base_crc_init=0x%x, phy=%d @llm_bis_stream.c(34),INFO" ID="0x89540115" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]bis_payload_cnt=0x%x, framing=%d, map[0]=0x%x, map[1]=0x%x @llm_bis_stream.c(37),INFO" ID="0x8954012d" />
+			</MSG_LOG>

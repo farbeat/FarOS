@@ -1,0 +1,75 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="addr: ****%02x%02x%02x%02x  @sample_pbap_service.c(38),INFO" ID="0xd84e0135" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%d @sample_pbap_service.c(45),INFO" ID="0xd84e016d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="receive %d bytes(%s) @sample_pbap_service.c(52),INFO" ID="0xd84e01a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_pbap_service.c(59),INFO" ID="0xd84e01dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%u @sample_pbap_service.c(66),INFO" ID="0xd84e0215" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(100),INFO" ID="0xd84e0325" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ret=0x%x @sample_pbap_service.c(120),INFO" ID="0xd84e03c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(126),INFO" ID="0xd84e03f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(132),INFO" ID="0xd84e0425" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ret: 0x%x @sample_pbap_service.c(154),INFO" ID="0xd84e04d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode addr error! @sample_pbap_service.c(160),INFO" ID="0xd84e0505" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Connect to PBAP service failed @sample_pbap_service.c(170),INFO" ID="0xd84e0555" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Line: %d] finish, result: 0x%x! @sample_pbap_service.c(172),INFO" ID="0xd84e0565" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_pbap_service.c(181),INFO" ID="0xd84e05ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(190),INFO" ID="0xd84e05f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(196),INFO" ID="0xd84e0625" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(210),INFO" ID="0xd84e0695" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(216),INFO" ID="0xd84e06c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Line: %d] finish, ret: %u @sample_pbap_service.c(225),INFO" ID="0xd84e070d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no vcf file be seleted. @sample_pbap_service.c(256),INFO" ID="0xd84e0805" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="empty name. @sample_pbap_service.c(295),INFO" ID="0xd84e093d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no folder be seleted. @sample_pbap_service.c(303),INFO" ID="0xd84e097d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param invalid @sample_pbap_service.c(343),INFO" ID="0xd84e0abd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param malloc failed @sample_pbap_service.c(350),INFO" ID="0xd84e0af5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap name malloc failed @sample_pbap_service.c(356),INFO" ID="0xd84e0b25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap_pce_pull_phone_book name=%s @sample_pbap_service.c(373),INFO" ID="0xd84e0bad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(384),INFO" ID="0xd84e0c05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(390),INFO" ID="0xd84e0c35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @sample_pbap_service.c(399),INFO" ID="0xd84e0c7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param malloc failed @sample_pbap_service.c(405),INFO" ID="0xd84e0cad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap name malloc failed @sample_pbap_service.c(411),INFO" ID="0xd84e0cdd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="folder=%u vcf=%u @sample_pbap_service.c(437),INFO" ID="0xd84e0dad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="empty name. @sample_pbap_service.c(441),INFO" ID="0xd84e0dcd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(446),INFO" ID="0xd84e0df5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(452),INFO" ID="0xd84e0e25" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(458),INFO" ID="0xd84e0e55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(463),INFO" ID="0xd84e0e7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no folder be seleted. @sample_pbap_service.c(467),INFO" ID="0xd84e0e9d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(480),INFO" ID="0xd84e0f05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param invalid @sample_pbap_service.c(488),INFO" ID="0xd84e0f45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param malloc failed @sample_pbap_service.c(497),INFO" ID="0xd84e0f8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param name malloc failed @sample_pbap_service.c(505),INFO" ID="0xd84e0fcd" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="folder=%d vcf=%d max_list_count=%d list_offset=%d order=%d search_value=%s property=%d @sample_pbap_service.c(519),INFO" ID="0xd84e103d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap_pce_pull_vcard_listing name=%s @sample_pbap_service.c(521),INFO" ID="0xd84e104d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(532),INFO" ID="0xd84e10a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(538),INFO" ID="0xd84e10d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @sample_pbap_service.c(547),INFO" ID="0xd84e111d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param malloc failed @sample_pbap_service.c(554),INFO" ID="0xd84e1155" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param name malloc failed @sample_pbap_service.c(562),INFO" ID="0xd84e1195" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="empty name. @sample_pbap_service.c(584),INFO" ID="0xd84e1245" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(591),INFO" ID="0xd84e127d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(597),INFO" ID="0xd84e12ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(603),INFO" ID="0xd84e12dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(608),INFO" ID="0xd84e1305" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no folder be seleted. @sample_pbap_service.c(612),INFO" ID="0xd84e1325" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="0x%x %s @sample_pbap_service.c(620),INFO" ID="0xd84e1365" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="strcpy_s vcf_name fail @sample_pbap_service.c(626),INFO" ID="0xd84e1395" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param invalid @sample_pbap_service.c(638),INFO" ID="0xd84e13f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param malloc failed @sample_pbap_service.c(645),INFO" ID="0xd84e142d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param name malloc failed @sample_pbap_service.c(651),INFO" ID="0xd84e145d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(675),INFO" ID="0xd84e151d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(681),INFO" ID="0xd84e154d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @sample_pbap_service.c(690),INFO" ID="0xd84e1595" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param malloc failed @sample_pbap_service.c(697),INFO" ID="0xd84e15cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap param name malloc failed @sample_pbap_service.c(703),INFO" ID="0xd84e15fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(730),INFO" ID="0xd84e16d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(736),INFO" ID="0xd84e1705" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @sample_pbap_service.c(745),INFO" ID="0xd84e174d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Line: %d] finish, ret: 0x%x @sample_pbap_service.c(749),INFO" ID="0xd84e176d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="params cnt err: %d! @sample_pbap_service.c(756),INFO" ID="0xd84e17a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_pbap_service.c(762),INFO" ID="0xd84e17d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Line: %d] finish, conn state: 0x%x @sample_pbap_service.c(771),INFO" ID="0xd84e181d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="id: %u @sample_pbap_service.c(806),INFO" ID="0xd84e1935" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid cmd_id = %d  @sample_pbap_service.c(814),INFO" ID="0xd84e1975" />
+			</MSG_LOG>

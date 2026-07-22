@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]Pmu state out of range @bt_pmu.c(149),INFO" ID="0x892804ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][PMU]bt init poweron end! @bt_pmu.c(221),INFO" ID="0x892806ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_CBB POWERON ERROR, status:0x%x @bt_pmu.c(231),WARNING" ID="0x8928073b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_EM POWERON ERROR, status:0x%x @bt_pmu.c(237),WARNING" ID="0x8928076b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTRACE_RAM POWERON ERROR, status:0x%x @bt_pmu.c(243),WARNING" ID="0x8928079b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="RF POWERON ERROR, status:0x%x @bt_pmu.c(249),WARNING" ID="0x892807cb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_SUB RESET ERROR, status:0x%x @bt_pmu.c(259),WARNING" ID="0x8928081b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="TGLP RESET ERROR, status:0x%x @bt_pmu.c(266),WARNING" ID="0x89280853" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="RF_PLL REG RESET ERROR, status:0x%x @bt_pmu.c(272),WARNING" ID="0x89280883" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][PMU]pmu_close_rf_abb_ldo @bt_pmu.c(447),INFO" ID="0x89280dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][SLEEP]bt_sleepsave glbcnt(0x%x) @bt_pmu.c(531),INFO" ID="0x8928109d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][SLEEP]bt_sleeprestore glbcnt(0x%x) @bt_pmu.c(550),INFO" ID="0x89281135" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="clk_source = 0x%x @bt_pmu.c(688),INFO" ID="0x89281585" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BT][CLOCk]32k cal result is: %d, current temp: %d @bt_pmu.c(699),INFO" ID="0x892815dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][SLEEP]32k clock calibration exception @bt_pmu.c(717),WARNING" ID="0x8928166b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][SLEEP]32k clock calibration exception @bt_pmu.c(727),ERROR" ID="0x892816ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]BT CBB POWERON TIMEOUT! @bt_pmu.c(790),INFO" ID="0x892818b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]BT EM POWERON TIMEOUT! @bt_pmu.c(823),INFO" ID="0x892819bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]BTRACE_RAM POWERON TIMEOUT! @bt_pmu.c(838),INFO" ID="0x89281a35" />
+			</MSG_LOG>

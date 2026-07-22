@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="bt_util_gen_pattern: UNKNOWN modu_type=%d @dbg_bt_test_tx_rx.c(88),WARNING" ID="0x899c02c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]lc_bt_test_mode_tx:elt is null @dbg_bt_test_tx_rx.c(210),WARNING" ID="0x899c0693" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]lc_bt_test_mode_tx:Memory process is error @dbg_bt_test_tx_rx.c(218),WARNING" ID="0x899c06d3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="TX--addr[5]=%0x phy=%d pack_len=%d pack_type=%d @dbg_bt_test_tx_rx.c(231),INFO" ID="0x899c073d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]bt_test_config:Memory process is error @dbg_bt_test_tx_rx.c(258),WARNING" ID="0x899c0813" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_bt_test_mode_tx_start:evt is null @dbg_bt_test_tx_rx.c(363),WARNING" ID="0x899c0b5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_bt_test_mode_tx_start ea insert fail! @dbg_bt_test_tx_rx.c(384),WARNING" ID="0x899c0c03" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_evt_start_tx_cbk:evt is null @dbg_bt_test_tx_rx.c(393),WARNING" ID="0x899c0c4b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_set_tx_test_data: UNKNOWN modu_type=%d @dbg_bt_test_tx_rx.c(459),WARNING" ID="0x899c0e5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]lc_bt_test_mode_rx:elt is null @dbg_bt_test_tx_rx.c(469),WARNING" ID="0x899c0eab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]lc_bt_test_mode_rx:Memory process is error @dbg_bt_test_tx_rx.c(477),WARNING" ID="0x899c0eeb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="RX--addr[5]=%0x phy=%d pack_len=%d pack_type=%d @dbg_bt_test_tx_rx.c(490),INFO" ID="0x899c0f55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_bt_test_mode_rx_start:evt is null @dbg_bt_test_tx_rx.c(570),WARNING" ID="0x899c11d3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_bt_test_mode_rx_start ea insert fail! @dbg_bt_test_tx_rx.c(592),WARNING" ID="0x899c1283" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_evt_start_rx_cbk:evt is null @dbg_bt_test_tx_rx.c(601),WARNING" ID="0x899c12cb" />
+			</MSG_LOG>

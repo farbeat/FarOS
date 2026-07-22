@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[HDAP]stream_id=%d not HDAP @packet_ul.c(54),INFO" ID="0x8c2a01b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HDAP]recv_packet_data_ind flow ctrl @packet_ul.c(58),INFO" ID="0x8c2a01d5" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[HCI][HDAP]data_len=%d, data[5]=0x%x, data[84]=0x%x, data[164]=0x%x, TIME=%ld @packet_ul.c(76),DBG" ID="0x8c2a0266" />
+			</MSG_LOG>

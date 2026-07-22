@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[WR][bus_read_data][bus_addr=0x%x][offset=0x%x][len=0x%x] @transmit_write_read.c(19),DBG" ID="0xa0b8009e" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WR][buf_write_data][bus_addr=0x%x][offset=0x%x][len=0x%x] @transmit_write_read.c(28),DBG" ID="0xa0b800e6" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WR][file_read_data][file_name=%s][offset=0x%x][len=0x%x] @transmit_write_read.c(38),DBG" ID="0xa0b80136" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WR][file_write_data][file_name=%s][offset=0x%x][len=0x%x] @transmit_write_read.c(63),DBG" ID="0xa0b801fe" />
+			</MSG_LOG>

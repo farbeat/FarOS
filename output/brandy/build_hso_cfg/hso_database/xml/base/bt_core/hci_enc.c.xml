@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="hci_set_min_enc_key_size, key_min_size:%d @hci_enc.c(24),INFO" ID="0x880200c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="hci_send_enc_change_evt, link_id:%d, status:%d, conhdl:%d, enc_stat:%d @hci_enc.c(74),INFO" ID="0x88020255" />
+			</MSG_LOG>

@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[AMSClientSetupCBK]conn_id:%u status:0x%x @sample_ble_ams.c(43),INFO" ID="0xd8f0015d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AMSClientSubscribeResultCBK]conn_id:%u type:%d status:0x%x @sample_ble_ams.c(52),INFO" ID="0xd8f001a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AMSClientRemoteCMDCBK]conn_id:%u status:0x%x cmd_num=%u  @sample_ble_ams.c(62),INFO" ID="0xd8f001f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="supported_cmd= @sample_ble_ams.c(75),INFO" ID="0xd8f0025d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="0x%02x @sample_ble_ams.c(77),INFO" ID="0xd8f0026d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_ble_ams.c(79),INFO" ID="0xd8f0027d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AMSClientRemoteCMDCBK]conn_id:%u status:0x%x @sample_ble_ams.c(81),INFO" ID="0xd8f0028d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[AMSClientEntityUpdateCBK]conn_id:%u status:0x%x entityId=%u att_id=%u update_flags=0x%x value=%s @sample_ble_ams.c(97),INFO" ID="0xd8f0030d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AMSClientEntityUpdateCBK]conn_id:%u status:0x%x @sample_ble_ams.c(99),INFO" ID="0xd8f0031d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AMSClientWriteRSPCBK]conn_id:%u type:%d status:0x%x @sample_ble_ams.c(109),INFO" ID="0xd8f0036d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AMSClientReadFullAttrCBK]conn_id:%u status:0x%x value_len=%d value=%s @sample_ble_ams.c(122),INFO" ID="0xd8f003d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AMSClientReadFullAttrCBK]conn_id:%u status:0x%x @sample_ble_ams.c(124),INFO" ID="0xd8f003e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client register cbk ret:0x%x @sample_ble_ams.c(141),INFO" ID="0xd8f0046d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client setup ret:0x%x @sample_ble_ams.c(157),INFO" ID="0xd8f004ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client sub remote cmd ret:0x%x @sample_ble_ams.c(179),INFO" ID="0xd8f0059d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client sub entity update ret:0x%x @sample_ble_ams.c(201),INFO" ID="0xd8f0064d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client send remote cmd ret:0x%x @sample_ble_ams.c(223),INFO" ID="0xd8f006fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client register interested attr ret:0x%x @sample_ble_ams.c(258),INFO" ID="0xd8f00815" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client retrieve full attr ret:0x%x @sample_ble_ams.c(283),INFO" ID="0xd8f008dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ams client read full attr ret:0x%x @sample_ble_ams.c(301),INFO" ID="0xd8f0096d" />
+			</MSG_LOG>

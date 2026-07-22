@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ld_acl_get_cs_chmap len=%d @ld_tws_monitor.c(39),WARNING" ID="0x89e4013b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;map_fresh:send at once @ld_tws_monitor.c(72),INFO" ID="0x89e40245" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;tws_exit-&gt;sync_link_both_end @ld_tws_monitor.c(126),INFO" ID="0x89e403f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] ld_acl_rx_print:link:%d, rx_id_no_ok=%d, rx_diff_subregion=0x%x, ant = %d @ld_tws_monitor.c(670),INFO" ID="0x89e414f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] ld_acl_rx_print:link:%d, peer_no_ok %d rx_diff_subregion=0x%x, ant = %d @ld_tws_monitor.c(674),INFO" ID="0x89e41515" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="AUDIO_DIFF_OVERTIME:SN:%d, rx_diff:%d, sav:%d @ld_tws_monitor.c(721),INFO" ID="0x89e4168d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="AUDIO_DIFF_OVERTIME:SN:%d, rx_diff:%d @ld_tws_monitor.c(723),INFO" ID="0x89e4169d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="AUDIO_DIFF_OVERTIME:SN:%d, rx_diff:%d, seq:%d @ld_tws_monitor.c(733),INFO" ID="0x89e416ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="AUDIO_DIFF_OVERTIME:SN:%d, rx_diff:%d @ld_tws_monitor.c(735),INFO" ID="0x89e416fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;role conv, sear sync rx seqn %d @ld_tws_monitor.c(778),INFO" ID="0x89e41855" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;MEAR_TWS_DELAY_OPEN @ld_tws_monitor.c(883),WARNING" ID="0x89e41b9b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;MEAR_TWS_FORCE_LOAD_FINISH @ld_tws_monitor.c(904),WARNING" ID="0x89e41c43" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;MEAR_TWS_DELAY_CLOSE, ABORT_FLAG:0x%x @ld_tws_monitor.c(931),WARNING" ID="0x89e41d1b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;MEAR_TWS_CLOSE @ld_tws_monitor.c(933),WARNING" ID="0x89e41d2b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;role conv-&gt;mear_sync_tail_pkt:%d, sear rx seqn %d, mear rx seqn %d @ld_tws_monitor.c(1008),INFO" ID="0x89e41f85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;role conv-&gt;mear_sync_tail_pkt:%d @ld_tws_monitor.c(1030),INFO" ID="0x89e42035" />
+			</MSG_LOG>

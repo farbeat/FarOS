@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Video clk en fail when Display power On. @pm_control.c(90),INFO" ID="0xa05802d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Display power OFF. @pm_control.c(113),INFO" ID="0xa058038d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="DSP0 power off @pm_control.c(205),INFO" ID="0xa058066d" />
+			</MSG_LOG>

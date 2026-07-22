@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[L2CAP][CREDIT FLOW CONTROL] ACTION=INVALID_ACL, PSM=%d, IS_LE=%d @l2cap_core_ble.c(305),WARNING" ID="0x8bb6098b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[L2CAP][CREDIT FLOW CONTROL] ACTION=INVALID_ACL, CID=%d, IS_LE=%d @l2cap_core_ble.c(310),WARNING" ID="0x8bb609b3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[L2CAP]memcpy_s&#160;error @l2cap_core_ble.c(479),ERROR" ID="0x8bb60efa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[L2CAP]memcpy_s&#160;error @l2cap_core_ble.c(483),ERROR" ID="0x8bb60f1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[L2CAP]memcpy_s&#160;error @l2cap_core_ble.c(563),ERROR" ID="0x8bb6119a" />
+			</MSG_LOG>

@@ -1,0 +1,61 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="bt dft response malloc err @bt_dft_bdi.c(37),INFO" ID="0x8d0c012d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response len = 0x%x @bt_dft_bdi.c(41),INFO" ID="0x8d0c014d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response memcpy ok, res_len: %d @bt_dft_bdi.c(46),INFO" ID="0x8d0c0175" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft response memcpy err @bt_dft_bdi.c(48),INFO" ID="0x8d0c0185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft response param err @bt_dft_bdi.c(52),INFO" ID="0x8d0c01a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response only ack: 0x%x @bt_dft_bdi.c(55),INFO" ID="0x8d0c01bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response tid = 0x%x @bt_dft_bdi.c(58),INFO" ID="0x8d0c01d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response opcode = 0x%x @bt_dft_bdi.c(59),INFO" ID="0x8d0c01dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi enable dut satus: 0x%x @bt_dft_bdi.c(291),INFO" ID="0x8d0c091d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi disable dut status: 0x%x @bt_dft_bdi.c(300),INFO" ID="0x8d0c0965" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bdi bredr tx status:0x%x @bt_dft_bdi.c(373),INFO" ID="0x8d0c0bad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode power err @bt_dft_bdi.c(388),INFO" ID="0x8d0c0c25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode channel err @bt_dft_bdi.c(393),INFO" ID="0x8d0c0c4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode payload err @bt_dft_bdi.c(400),INFO" ID="0x8d0c0c85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode pktlen err @bt_dft_bdi.c(405),INFO" ID="0x8d0c0cad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode bdimac memcpy err @bt_dft_bdi.c(411),ERROR" ID="0x8d0c0cda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="DFT_BDI: bredr tx power err @bt_dft_bdi.c(430),INFO" ID="0x8d0c0d75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode len err @bt_dft_bdi.c(441),INFO" ID="0x8d0c0dcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode on_off err @bt_dft_bdi.c(448),INFO" ID="0x8d0c0e05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode param err @bt_dft_bdi.c(460),INFO" ID="0x8d0c0e65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi bredr rx g_rx_packet_num[%d] @bt_dft_bdi.c(492),INFO" ID="0x8d0c0f65" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="dft bdi bredr rx pkt_type 0x%x pkt_len 0x%x br_edr 0x%x payload 0x%x @bt_dft_bdi.c(508),INFO" ID="0x8d0c0fe5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr rx mode channel err @bt_dft_bdi.c(511),INFO" ID="0x8d0c0ffd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr rx mode payload err @bt_dft_bdi.c(518),INFO" ID="0x8d0c1035" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr rx mode pktlen err @bt_dft_bdi.c(523),INFO" ID="0x8d0c105d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr rx mode bdimac memcpy err @bt_dft_bdi.c(531),ERROR" ID="0x8d0c109a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr rx mode pkt_len err @bt_dft_bdi.c(553),INFO" ID="0x8d0c114d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr rx mode on_off err @bt_dft_bdi.c(560),INFO" ID="0x8d0c1185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi bredr tx mode param err @bt_dft_bdi.c(571),INFO" ID="0x8d0c11dd" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="dft bdi ble tx on_off 0x%x tx_channel 0x%x pkt_type 0x%x pkt_len 0x%x tx_phy 0x%x @bt_dft_bdi.c(593),INFO" ID="0x8d0c128d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi le tx [%d] @bt_dft_bdi.c(618),INFO" ID="0x8d0c1355" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi le tx status: 0x%x @bt_dft_bdi.c(619),INFO" ID="0x8d0c135d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="dft bdi ble rx on_off 0x%x rx_channel 0x%x rx_phy 0x%x is_dongle_mode 0x%x @bt_dft_bdi.c(630),INFO" ID="0x8d0c13b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi le rx g_rx_packet_num[%d] @bt_dft_bdi.c(655),INFO" ID="0x8d0c147d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi le rx [%d] @bt_dft_bdi.c(661),INFO" ID="0x8d0c14ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi le rx status: 0x%x @bt_dft_bdi.c(662),INFO" ID="0x8d0c14b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi get packet pktnum: %d @bt_dft_bdi.c(673),INFO" ID="0x8d0c150d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi reset packet @bt_dft_bdi.c(682),INFO" ID="0x8d0c1555" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT_BDI: bdi send cali power cmd cmd or event is NULL @bt_dft_bdi.c(692),INFO" ID="0x8d0c15a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT_BDI: bdi send cali power cmd power err %d @bt_dft_bdi.c(699),INFO" ID="0x8d0c15dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT_BDI: bdi send cali power cmd ret = 0x%x @bt_dft_bdi.c(713),INFO" ID="0x8d0c164d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT_BDI: dft bdi cali power channel init doing  @bt_dft_bdi.c(725),INFO" ID="0x8d0c16ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT_BDI: dft bdi cali power channel init reset err @bt_dft_bdi.c(730),INFO" ID="0x8d0c16d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT_BDI: dft bdi cali power channel init ret = 0x%x @bt_dft_bdi.c(741),INFO" ID="0x8d0c172d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT_BDI: DftBdiDoCaliPower param or resp is NULL @bt_dft_bdi.c(753),INFO" ID="0x8d0c178d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT_BDI: DftBdiDoCaliPower do err @bt_dft_bdi.c(764),INFO" ID="0x8d0c17e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi transparent trans send_param malloc err @bt_dft_bdi.c(817),ERROR" ID="0x8d0c198a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi transparent trans pkt err @bt_dft_bdi.c(839),ERROR" ID="0x8d0c1a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi transparent trans memset err @bt_dft_bdi.c(849),ERROR" ID="0x8d0c1a8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft bdi transparent trans memcpy err @bt_dft_bdi.c(854),ERROR" ID="0x8d0c1ab2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dft bdi transparent trans status:0x%x @bt_dft_bdi.c(880),INFO" ID="0x8d0c1b85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bdi trans parent trans handler spp_mac is NULL @bt_dft_bdi.c(903),ERROR" ID="0x8d0c1c3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bdi trans parent trans handler is ble only @bt_dft_bdi.c(906),ERROR" ID="0x8d0c1c52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bdi trans parent trans handler branch err @bt_dft_bdi.c(930),ERROR" ID="0x8d0c1d12" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dft bdi set sig cmd length=%d subcode=0x%x @bt_dft_bdi.c(943),INFO" ID="0x8d0c1d7d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="freq=%d mode=%d switchtrx=%d @bt_dft_bdi.c(944),INFO" ID="0x8d0c1d85" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dft bdi set vednor cmd ocf=0x%02x param_len=%d @bt_dft_bdi.c(955),WARNING" ID="0x8d0c1ddb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @bt_dft_bdi.c(957),WARNING" ID="0x8d0c1deb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft get bdi @bt_dft_bdi.c(964),INFO" ID="0x8d0c1e25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft get bdi err @bt_dft_bdi.c(966),INFO" ID="0x8d0c1e35" />
+			</MSG_LOG>

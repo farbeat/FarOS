@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="smp_pair_new_patch @patch_bth.c(52),INFO" ID="0x8d5401a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][GET_SEP_FAIL] Can not get sep info @patch_bth.c(156),WARNING" ID="0x8d5404e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][RECV_RING_STOP] @patch_bth.c(244),INFO" ID="0x8d5407a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ATT_GATT] att error rsp opcode:0x%x handle:%d error:0x%x @patch_bth.c(277),ERROR" ID="0x8d5408aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP]PAIRING_REQ_RECV @patch_bth.c(506),ERROR" ID="0x8d540fd2" />
+			</MSG_LOG>

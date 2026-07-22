@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="HCI_CMD-&gt;fe53_audio_on:flag=%d, conhdl=%d, phone_clock=0x%x, min_interval=%d @lc_tog.c(35),INFO" ID="0x89f0011d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="HCI_CMD-&gt;fe53_audio_on:delay=%d @lc_tog.c(36),INFO" ID="0x89f00125" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="HCI_CMD-&gt;fe58_audio_off @lc_tog.c(68),INFO" ID="0x89f00225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="HCI_CMD-&gt;fe59_get_tog_count:phone_clock=0x%x @lc_tog.c(106),INFO" ID="0x89f00355" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="HCI_CMD-&gt;fe61_get_vol_tog_count:master_clock=0x%x @lc_tog.c(139),INFO" ID="0x89f0045d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="HCI_CMD-&gt;fe54_get_phone_clk:tog_counter=%d @lc_tog.c(170),INFO" ID="0x89f00555" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="HCI_CMD-&gt;fe60_get_clk_tog:audio_delay=%d, tog_align=%d @lc_tog.c(201),INFO" ID="0x89f0064d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[FE5F]:flag=%d, conhdl=%d, master_clock=%d, min_interval=%d @lc_tog.c(222),INFO" ID="0x89f006f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FE5F]:delay=%d, tog_period=%d @lc_tog.c(223),INFO" ID="0x89f006fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get phone tog count error @lc_tog.c(314),ERROR" ID="0x89f009d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="opcode=0x%x @lc_tog.c(327),INFO" ID="0x89f00a3d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="get tog current_time=0x%x, clk_off=%d, master_clock=%d, current_tog_count=%d @lc_tog.c(329),INFO" ID="0x89f00a4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get phone clock and tog count error @lc_tog.c(401),ERROR" ID="0x89f00c8a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[FE5F]: old slotcnt_start=%d, slotcnt_start=%d, CLK_DIFF=%d @lc_tog.c(439),INFO" ID="0x89f00dbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[FE5F]: tone_sync_start, tog_cnt=%d, tog_cnt_diff=%d, bt_clock=%d, slotcnt_start=%d @lc_tog.c(458),INFO" ID="0x89f00e55" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[FE5F]: clk_off=%d, tog_period=%d, cur_clk=%d, CLK_SUB(master_clock, clk_off)=%d @lc_tog.c(485),INFO" ID="0x89f00f2d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[FE5F] cur_scene_check, sync_env=%d, tog_sn=%d, tog_time=%d @lc_tog.c(673),INFO" ID="0x89f0150d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACL][END]sync_env=%d, linkid=%d @lc_tog.c(697),INFO" ID="0x89f015cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]lc_audio_sync_start invalid tog mode:%d @lc_tog.c(767),WARNING" ID="0x89f017fb" />
+			</MSG_LOG>

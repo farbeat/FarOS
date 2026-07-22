@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_report_rxnode:No rx_report buff! @patch_lld_bis_pdu.c(27),WARNING" ID="0x8a6a00db" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]bis recombine:length=%d, recomb_flag=%d, pldcntr=%d, llid=%d @patch_lld_bis_pdu.c(58),WARNING" ID="0x8a6a01d3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BIS]lld_bis_pdu_framed_rx_check:invalid middle pkt @patch_lld_bis_pdu.c(120),INFO" ID="0x8a6a03c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BIS]lld_bis_pdu_framed_rx_check:invalid last pkt @patch_lld_bis_pdu.c(134),INFO" ID="0x8a6a0435" />
+			</MSG_LOG>

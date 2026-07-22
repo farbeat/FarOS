@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="alloc mem for value failed. @ui_shaping_cache.cpp(124),ERROR" ID="0xcb1803e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy value error @ui_shaping_cache.cpp(130),ERROR" ID="0xcb180412" />
+			</MSG_LOG>

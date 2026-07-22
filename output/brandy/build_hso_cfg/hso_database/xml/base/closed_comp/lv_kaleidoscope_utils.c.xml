@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for sectorPath cmd failed. @lv_kaleidoscope_utils.c(34),ERROR" ID="0xc9860112" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for sectorPath data failed. @lv_kaleidoscope_utils.c(39),ERROR" ID="0xc986013a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for imgPath cmd failed. @lv_kaleidoscope_utils.c(47),ERROR" ID="0xc986017a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for imgPath data failed. @lv_kaleidoscope_utils.c(62),ERROR" ID="0xc98601f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for partialDsc failed. @lv_kaleidoscope_utils.c(97),ERROR" ID="0xc986030a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for partialDsc data failed. @lv_kaleidoscope_utils.c(108),ERROR" ID="0xc9860362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="LvGetImgCacheInfoById failed. @lv_kaleidoscope_utils.c(132),ERROR" ID="0xc9860422" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for kaleidoscopeDsc failed. @lv_kaleidoscope_utils.c(138),ERROR" ID="0xc9860452" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for kaleidoscopeDsc data failed. @lv_kaleidoscope_utils.c(148),ERROR" ID="0xc98604a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] size does not match. @lv_kaleidoscope_utils.c(163),ERROR" ID="0xc986051a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] info is NULL @lv_kaleidoscope_utils.c(190),ERROR" ID="0xc98605f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] already inited. @lv_kaleidoscope_utils.c(194),ERROR" ID="0xc9860612" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] GetCacheEntry failed! @lv_kaleidoscope_utils.c(419),ERROR" ID="0xc9860d1a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] cannot update dsc addr, because it is internally managed. @lv_kaleidoscope_utils.c(467),ERROR" ID="0xc9860e9a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] addr is NULL. @lv_kaleidoscope_utils.c(471),ERROR" ID="0xc9860eba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] kaleidoscopeDsc is not inited. @lv_kaleidoscope_utils.c(475),ERROR" ID="0xc9860eda" />
+			</MSG_LOG>

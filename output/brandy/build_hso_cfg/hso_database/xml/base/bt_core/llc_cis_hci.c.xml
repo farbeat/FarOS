@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="sdu_interval_m2s1=%d, sdu_interval_m2s2=%d, sdu_interval_m2s3=%d @llc_cis_hci.c(93),INFO" ID="0x89d602ed" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sdu_interval_s2m1=%d, sdu_interval_s2m2=%d, sdu_interval_s2m3=%d @llc_cis_hci.c(95),INFO" ID="0x89d602fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ft_m2s=%d, ft_s2m=%d, slaves_clock_acc=%d, packing=%d @llc_cis_hci.c(98),INFO" ID="0x89d60315" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="framing=%d, cis_count=%d, cis_id=%d, nse=%d @llc_cis_hci.c(100),INFO" ID="0x89d60325" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="max_sdu_m2s=%d, max_sdu_s2m=%d, max_pdu_m2s=%d, max_pdu_s2m=%d @llc_cis_hci.c(102),INFO" ID="0x89d60335" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ft_m2s=%d, ft_s2m=%d, bn_m2s=%d, bn_s2m=%d @llc_cis_hci.c(104),INFO" ID="0x89d60345" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BLE_CIS_CONNECT_HANDLE_IS_VALID' @llc_cis_hci.c(408),INFO" ID="0x89d60cc5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]accept cis request cannot send to master, estab_state=%d @llc_cis_hci.c(413),INFO" ID="0x89d60ced" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]accept status = 0x%x, conhdl = 0x%x @llc_cis_hci.c(419),INFO" ID="0x89d60d1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CIS]reject cis request cannot send to master @llc_cis_hci.c(438),INFO" ID="0x89d60db5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]hci_le_reject_cis_request_cmd_handler channel %d @llc_cis_hci.c(445),INFO" ID="0x89d60ded" />
+			</MSG_LOG>

@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="sys_slp: 0x%d @thread_init.c(309),INFO" ID="0xa00409ad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="App run time:%d, app deepsleep time:%d, lightsleep time:%d, m sleep flag:%d @thread_init.c(312),INFO" ID="0xa00409c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="32M_count = %llu, after calculation 32K freq = %llu. @thread_init.c(334),INFO" ID="0xa0040a75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="App main @thread_init.c(358),INFO" ID="0xa0040b35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="App run ok. @thread_init.c(376),INFO" ID="0xa0040bc5" />
+			</MSG_LOG>

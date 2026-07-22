@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLM]llm_ae_report_scan_duplicate_filter: adv address in white list @llm_ae_common.c(258),INFO" ID="0x88480815" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLM]llm_util_check_adv_report_list: white list size up to max @llm_ae_common.c(273),INFO" ID="0x8848088d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][AE]llm_ae_rep_legacy_adv_rpa_addr_set:ral_idx=%d, ral_ptr=0x%x, em_ral_addr=0x%x @llm_ae_common.c(1087),INFO" ID="0x884821fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][AE]llm_ae_report_legacy_adv_ind:mask report @llm_ae_common.c(1125),INFO" ID="0x8848232d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLM]llm_ext_adv_state_check:conhdl=%d, adv_en = %d, state=%d @llm_ae_common.c(1288),INFO" ID="0x88482845" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLM]llm_set_ext_adv_en:adv_handle=%d, duration=%d, max_ext_adv_evt=%d @llm_ae_common.c(1516),INFO" ID="0x88482f65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLM]llm_set_ext_scan_en:scan_en=%d @llm_ae_common.c(1673),INFO" ID="0x8848344d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_util_check_ext_adv_data_param:adv_handle not exist! @llm_ae_common.c(2313),WARNING" ID="0x8848484b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]adv_evt_properties = 0x%x @llm_ae_common.c(2680),WARNING" ID="0x884853c3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]llm_util_check_ext_adv_cnt_in_tx_queue:cnt=%d @llm_ae_common.c(2691),WARNING" ID="0x8848541b" />
+			</MSG_LOG>

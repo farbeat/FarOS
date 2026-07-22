@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="error in malloc LOS MEMORY for DSP transmit @sync.c(161),ERROR" ID="0x892e050a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARN] get invalid coding format=%d @sync.c(227),WARNING" ID="0x892e071b" />
+			</MSG_LOG>

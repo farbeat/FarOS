@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="uapi_diag_report_packet in. cmd_id = 0x%x packet_size = %d. @diag_ind_src.c(167),DBG" ID="0xa09c053e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="diag_unconnect @diag_ind_src.c(169),INFO" ID="0xa09c054d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="zdiag_report_packets in. cmd_id = 0x%x @diag_ind_src.c(252),DBG" ID="0xa09c07e6" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="diag_unconnect @diag_ind_src.c(254),INFO" ID="0xa09c07f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR] zdiag_report_packets pkt_cnt invalid. @diag_ind_src.c(259),ERROR" ID="0xa09c081a" />
+			</MSG_LOG>

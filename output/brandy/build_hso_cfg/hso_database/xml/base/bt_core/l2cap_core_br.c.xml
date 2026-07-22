@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[L2CAP][CONFIG_IND]ACTION=INVALID_CID STATUS, PSM=%d, STATUS=%d @l2cap_core_br.c(705),WARNING" ID="0x8bba160b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP][ECHO_REQ] mem exhaust, data_len=%u @l2cap_core_br.c(775),WARNING" ID="0x8bba183b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[L2CAP][ECHO_REQ] ACTION=NOT_FOUND_ACL_LINK, REMOTE_ADDR=%02x:%02x:**:**:**:%02x @l2cap_core_br.c(807),WARNING" ID="0x8bba193b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP][ECHO_RSP] mem exhaust, data_len=%u @l2cap_core_br.c(841),WARNING" ID="0x8bba1a4b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[L2CAP][ECHO_RSP] ACTION=NOT_FOUND_ACL_LINK, REMOTE_ADDR=%02x:%02x:**:**:**:%02x @l2cap_core_br.c(851),WARNING" ID="0x8bba1a9b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP][ECHO_IND] mem exhaust, data_len=%u @l2cap_core_br.c(924),WARNING" ID="0x8bba1ce3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[L2CAP]memcpy_s&#160;error @l2cap_core_br.c(930),ERROR" ID="0x8bba1d12" />
+			</MSG_LOG>

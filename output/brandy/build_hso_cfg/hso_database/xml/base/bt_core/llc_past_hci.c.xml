@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]hci_llc_le_per_adv_sync_trans_cmd_handler:acl_tx_state = 0x%x @llc_past_hci.c(104),WARNING" ID="0x89b40343" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hci_llc_le_per_adv_sync_trans_cmd_handler:status=%d, conhdl=%d, synchdl=%d @llc_past_hci.c(123),INFO" ID="0x89b403dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]hci_llc_le_per_adv_set_info_trans_cmd_handler:LLC_LOC_PROC_BUSY @llc_past_hci.c(147),WARNING" ID="0x89b4049b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]hci_llc_le_per_adv_set_info_trans_cmd_handler:acl_tx_state = 0x%x @llc_past_hci.c(165),WARNING" ID="0x89b4052b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hci_llc_le_per_adv_set_info_trans_cmd_handler:status=0x%x, conhdl=%d, advchdl=%d @llc_past_hci.c(181),INFO" ID="0x89b405ad" />
+			</MSG_LOG>

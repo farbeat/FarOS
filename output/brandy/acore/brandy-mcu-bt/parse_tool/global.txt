@@ -1,0 +1,824 @@
+g_app_at_queue|0x20004b70|4|td_u32
+g_bt_manager_cmd|0x70342370|1776|at_cmd_table_t| [148]
+g_dongle_client_id|0x20015dc0|1|uint8_t
+g_bt_dft_rx_count|0x20015dc2|2|uint16_t
+g_bt_diag_flag|0x2000b494|1|td_bool
+g_bt_diag_header|0x2000b496|8|diag_ser_header_t
+g_btsrv_at_cmd_2_dft|0x703453a8|56|btsrv_at_cmd_2_dft_t| [7]
+g_wstp_at_cmd_hdls|0x703453e0|1136|btsrv_at_cmd_hdl_info| [142]
+g_bt_manager_msg_queue|0x20004b74|4|td_u32
+ssb_to_app_table|0x2000b4a4|40|startup_table
+g_psram_density|0x2000b4a0|4|uint32_t
+g_os_init_select|0x20015dc4|1|os_class
+g_display_init_select|0x20004b80|1|display_class
+g_board_init_select|0x20015dc5|1|board_class
+g_semaphore_save|0x20015dc8|4|osSemaphoreId_t
+g_app_delay_ms|0x20004b84|4|uint32_t
+g_app_tasks|0x20003eb4|468|app_task_definition_t| [9]
+g_thread_pri|0x20004088|52|app_task_definition_t
+g_store_init_select|0x20004b88|1|store_class
+g_cs_stat_handler|0x2000b4d0|4|critical_statistic_handler
+g_cs_record_handler|0x2000b4d4|4|critical_record_handler
+g_non_os_critical_nesting|0x2000b4cc|2|uint16_t
+g_lock_stat|0x2000b4d8|4|uint32_t
+g_driver_init_bits|0x20015dd0|8|uint64_t
+g_nmi_raw_en_status|0x20015dd8|2|uint16_t
+g_nmi_raw_interrupt_status|0x20015dda|2|uint16_t
+__stack_chk_guard|0x20004b8c|4|UINTPTR
+initFn_ArchExcInit|0x2d3a4|4|SysInitcallFunc
+g_osNmiHook|0x20004b94|4|NMI_PROC_FUNC
+g_excInfo|0x2000b4dc|20|ExcInfo
+g_excHook|0x20004b90|4|EXC_PROC_FUNC
+g_xRegsMap|0x23272|28|UINT8| [28]
+g_newTask|0x20015ddc|4|td_u32
+initFn_OsAdaptInit|0x2d3e0|4|SysInitcallFunc
+initFn_OsMemAdaptInit|0x2d3b4|4|SysInitcallFunc
+g_low_power_hook|0x2000aa50|4|LOWPOWERIDLEHOOK
+g_wSysStatus|0x2000aa58|4|int32_t
+g_statusCheckTimerId|0x2000aa54|4|osTimerId_t
+g_statusCB|0x20003220|480|runtime_status_cb_s| [20]
+g_workCount|0x2000aa5c|4|uint32_t
+initFn_OsRegister|0x2d3a0|4|SysInitcallFunc
+initFn_OsIpcInit|0x2d3b8|4|SysInitcallFunc
+initFn_OsAppTaskCreate|0x2d3dc|4|SysInitcallFunc
+initFn_DoOsMemSystemInit|0x2d3a8|4|SysInitcallFunc
+g_mainTask|0x200059bc|104|LosTaskCB| [1]
+g_taskCBArray|0x20005a24|4264|LosTaskCB| [41]
+g_allQueue|0x20006acc|1440|LosQueueCB| [30]
+g_allMux|0x2000706c|2560|LosMuxCB| [128]
+g_allSem|0x20007a6c|480|LosSemCB| [30]
+g_swtmrCBArray|0x20007c4c|1800|LosSwtmrCB| [50]
+g_expirybuf|0x20008354|200|UINTPTR| [1, 50]
+g_swtmrTaskStack|0x20008420|3072|UINT8| [1, 3072]
+g_idleTaskStack|0x20009020|3072|UINT8| [1, 3072]
+g_defaultTaskStack|0x20009c20|2048|UINT8| [2048]
+g_intCount|0x20004cc0|4|size_t| [1]
+g_hwiOps|0x20004cc4|4|td_u32
+initFn_OsHwiInit|0x2d3bc|4|SysInitcallFunc
+g_osAllMux|0x20004cd8|4|td_u32
+g_unusedMuxList|0x20004cdc|8|LOS_DL_LIST
+g_percpu|0x20004ce4|48|Percpu| [1]
+g_osAllQueue|0x20004e18|4|td_u32
+g_freeQueueList|0x20004e1c|8|LOS_DL_LIST
+g_osAllSem|0x20004e24|4|td_u32
+g_unusedSemList|0x20004e28|8|LOS_DL_LIST
+g_stackInfo|0x20004e30|4|td_u32
+g_stackNum|0x20004e34|4|UINT32
+g_osSwtmrCBArray|0x20004e38|4|td_u32
+initFn_OsSwtmrInit|0x2d3c4|4|SysInitcallFunc
+g_osSwtmrTaskStack|0x20004e3c|4|td_u32| [1]
+g_swtmrFreeList|0x20004e40|8|LOS_DL_LIST
+g_swtmrSortlink|0x20004e48|8|LOS_DL_LIST| [1, 1]
+g_taskRecycleHook|0x20004e5c|4|TASK_RECYCLE_HOOK
+g_taskDeleteHook|0x20004e60|4|TASK_DELETE_HOOK
+g_taskSpin|0x20004e50|4|SPIN_LOCK_S
+g_pfnUsrTskSwitchHook|0x20004e54|4|TSKSWITCHHOOK
+g_idleHandlerHook|0x20004e58|4|IDLEHANDLERHOOK
+initFn_OsTaskInit|0x2d3ac|4|SysInitcallFunc
+initFn_OsIdleTaskCreate|0x2d3c8|4|SysInitcallFunc
+initFn_OsTaskMonInit|0x2d3b0|4|SysInitcallFunc
+g_losFreeTask|0x20004e7c|8|LOS_DL_LIST
+g_taskRecycleList|0x20004e74|8|LOS_DL_LIST
+g_taskMaxNum|0x20004e68|4|UINT32
+g_taskScheduled|0x20004e70|4|UINT32
+g_osTaskCBArray|0x20004e64|4|td_u32
+g_osIdleTaskStack|0x20004e6c|4|td_u32| [1]
+g_taskSortlink|0x20004e84|8|LOS_DL_LIST| [1, 1]
+g_tickCount|0x20004e90|8|UINT64| [1]
+g_tickSpin|0x20004e98|4|SPIN_LOCK_S
+initFn_OsTickInit|0x2d3c0|4|SysInitcallFunc
+g_sysClock|0x20004e9c|4|UINT32
+g_tickPerSecond|0x20004ea0|4|UINT32
+g_cycle2NsScale|0x20004ea8|8|DOUBLE
+g_memSpin|0x20004cc8|4|SPIN_LOCK_S
+m_aucSysMem0|0x20004cd0|4|td_u32
+m_aucSysMem1|0x20004cd4|4|td_u32
+g_MALLOC_HOOK|0x20004ccc|4|MALLOC_HOOK
+g_slabAllocatorSizeCfg|0x20003000|16|UINT32| [4]
+g_priQueueList|0x20004d14|256|LOS_DL_LIST| [32]
+g_priQueueBitmap|0x20004e14|4|UINT32
+g_dynloadHeap|0x2000b4f0|4|td_u32
+initFn_OsDynloadInit|0x2d3cc|4|SysInitcallFunc
+g_dlLoadQueue|0x2000b508|8|LOS_DL_LIST
+g_dlRelocQueue|0x2000b510|8|LOS_DL_LIST
+g_dlLoadQueueLocker|0x2000b4f4|4|UINT32
+g_dlRelocQueueLocker|0x2000b4f8|4|UINT32
+g_loadLocker|0x2000b500|4|UINT32
+g_osSymtblModuleHandler|0x2000b4fc|4|td_u32
+g_osDynloadHeap|0x2000b504|4|td_u32
+g_itoaUpperDigits|0x26870|20|td_char| [20]
+g_itoaLowerDigits|0x269d5|20|td_char| [20]
+errmsgstr|0x702d0898|1914|errmsgstr_t
+errmsgidx|0x702d1012|264|td_u16| [132]
+table|0x702cffb6|257|td_uchar| [257]
+__fsmu8|0x702cfa00|204|uint32_t| [51]
+__sglue|0x20003014|12|glue
+__sF|0x20004eb0|444|FILE| [3]
+init_first|0x2000506c|1|td_bool
+lock_glue|0x20003020|20|pthread_mutex_t
+lastglue|0x20003010|4|td_u32
+dummy|0x702cdf0e|2|
+ofl_head|0x20005118|4|td_u32
+ofl_lock|0x2000304c|20|pthread_mutex_t
+__stderr_FILE|0x20003060|148|FILE
+__stderr_used|0x20004b64|4|td_u32
+buf|0x2000552c|1032|td_uchar| [8]
+__stdin_FILE|0x200030f4|148|FILE
+buf|0x2000552c|1032|td_uchar| [1032]
+__stdout_FILE|0x20003188|148|FILE
+__stdout_used|0x20004b68|4|td_u32
+buf|0x2000552c|1032|td_uchar| [1032]
+states|0x702d39fc|464|td_uchar| [8, 58]
+xdigits|0x702d3bcc|16|td_char| [16]
+g_errnoArray|0x20005070|164|td_s32| [41]
+g_errnoIsr|0x20005114|4|td_s32
+g_locale|0x20004b58|4|locale_t
+__progname|0x20004b5c|4|td_u32
+g_localeEntity|0x20003034|24|__locale_struct
+g_localeMap|0x702d00e8|36|__locale_map
+g_tzdstLock|0x20004b60|4|td_u32
+__utc|0x702d1b84|4|td_char| [4]
+g_adjTimeLeft|0x20005940|8|None
+g_adjDirection|0x20005938|1|INT32
+g_dstForwardSeconds|0x20005970|4|INT32
+timezone|0x2000596c|4|None
+g_isDstWork|0x20005968|1|BOOL
+g_strMonth|0x702d21a0|48|td_u32| [12]
+g_monLengths|0x702d21d0|96|INT32| [2, 12]
+g_strMonthWeek|0x702d2230|20|td_u32| [5]
+g_strWeekDay|0x702d2244|28|td_u32| [7]
+g_strDstStart|0x20005974|21|CHAR| [21]
+g_strDstEnd|0x20005989|21|CHAR| [21]
+seed|0x2000aa48|8|uint64_t
+g_clicCfgLevelBitsNum|0x20004b6c|4|UINT32
+g_vectorIntTable|0x2000a440|384|HWI_PROC_FUNC| [96]
+g_hwiForm|0x2000a5c0|1152|HwiHandleInfo| [96]
+g_clicOps|0x702d4808|36|HwiControllerOps
+initFn_OsDriverBaseInit|0x2d3d0|4|SysInitcallFunc
+g_deviceList|0x200059ac|8|LOS_DL_LIST
+g_driverList|0x200059b4|8|LOS_DL_LIST
+g_driverBaseMutex|0x200059a4|4|UINT32
+g_pmListMutex|0x200059a8|4|UINT32
+g_kernelState|0x200059a0|4|osKernelState_t
+initFn_DoInitcalls|0x2d3d8|4|SysInitcallFunc
+g_pstSystemWq|0x2000aa40|4|td_u32
+g_workqueueSpin|0x2000aa44|4|SPIN_LOCK_S
+initFn_OsWorkqueueInit|0x2d3d4|4|SysInitcallFunc
+g_device_list|0x20004b98|8|dpal_dl_list_t
+g_driver_list|0x20004ba0|8|dpal_dl_list_t
+g_driver_base_mutex|0x20015de0|4|uint32_t
+g_pm_list_mutex|0x20015de4|4|uint32_t
+g_cpu_trace_start_addr|0x2000b51c|4|uint32_t
+g_cpu_trace_end_addr|0x2000b520|4|uint32_t
+g_cpu_trace_result|0x2000b518|2|uint16_t
+cpu_trace_arry|0x52006000|8184|cpu_trace_item_t| [682]
+g_cpu_trace_pc|0x2000b524|4|uint32_t
+g_cpu_trace_lr|0x2000b528|4|uint32_t
+g_cpu_trace_sp|0x2000b52c|4|uint32_t
+g_dma_is_initialised|0x20015de8|1|td_bool
+g_hal_funcs|0x20015e34|4|td_u32
+g_flash_config|0x2000b530|84|flash_cfg_t| [1]
+g_flash_device_parameter|0x161d8|812|flash_device_parameter_t| [29]
+g_mxic_mx25rxx_enter_qspi_mode_cmd|0x200040ec|28|flash_cmd_exe_t| [4]
+g_mxic_mx25rxx_config|0x20004108|36|flash_qspi_xip_config_t
+g_mxic_mx25uxx_enter_qspi_mode_cmd|0x2000412c|14|flash_cmd_exe_t| [2]
+g_mxic_mx25uxx_config|0x2000413c|36|flash_qspi_xip_config_t
+g_winbond_w25qxx_enter_qspi_mode_cmd|0x20004160|42|flash_cmd_exe_t| [6]
+g_winbond_w25qxx_config|0x2000418c|36|flash_qspi_xip_config_t
+g_winbond_w25q256_enter_qspi_mode_cmd|0x200041b0|63|flash_cmd_exe_t| [9]
+g_winbond_w25q256_config|0x200041f0|36|flash_qspi_xip_config_t
+g_micro_mt25qu128_enter_qspi_mode_cmd|0x20004214|49|flash_cmd_exe_t| [7]
+g_micro_mt25qu128_enter_xip_mode_cmd|0x20004245|28|flash_cmd_exe_t| [4]
+g_micro_mt25qu128_config|0x20004264|36|flash_qspi_xip_config_t
+g_micro_mt25qu256_enter_qspi_mode_cmd|0x20004288|63|flash_cmd_exe_t| [9]
+g_micro_mt25qu256_enter_xip_mode_cmd|0x200042c7|35|flash_cmd_exe_t| [5]
+g_micro_mt25qu256_config|0x200042ec|36|flash_qspi_xip_config_t
+g_gigadevice_gd25wq64_enter_qspi_mode_cmd|0x20004310|28|flash_cmd_exe_t| [4]
+g_gigadevice_gd25wq64_config|0x2000432c|36|flash_qspi_xip_config_t
+g_gigadevice_gd25le64_config|0x20004350|36|flash_qspi_xip_config_t
+g_gigadevice_gd25lq128_enter_qspi_mode_cmd|0x20004374|35|flash_cmd_exe_t| [5]
+g_gigadevice_gd25lx_config|0x20004398|36|flash_qspi_xip_config_t
+g_gigadevice_gd25lq256_enter_qspi_mode_cmd|0x200043bc|56|flash_cmd_exe_t| [8]
+g_gigadevice_gd25lq256_config|0x200043f4|36|flash_qspi_xip_config_t
+g_dosilicon_fm25m64_enter_qspi_mode_cmd|0x20004418|35|flash_cmd_exe_t| [5]
+g_dosilicon_fm25m64_config|0x2000443c|36|flash_qspi_xip_config_t
+g_gigadevice_gd25lq32d_enter_qspi_mode_cmd|0x20004460|35|flash_cmd_exe_t| [5]
+g_dosilicon_fm25m4aa_config|0x20004484|36|flash_qspi_xip_config_t
+g_puya_p25q32lc_enter_qspi_mode_cmd|0x200044a8|42|flash_cmd_exe_t| [6]
+g_puya_p25q32lc_config|0x200044d4|36|flash_qspi_xip_config_t
+g_adesto_at25sl128a_enter_qspi_mode_cmd|0x200044f8|35|flash_cmd_exe_t| [5]
+g_adesto_at25sl128a_config|0x2000451c|36|flash_qspi_xip_config_t
+g_mxic_mx25u32_enter_qspi_mode_cmd|0x20004540|28|flash_cmd_exe_t| [4]
+g_mxic_mx25u32_config|0x2000455c|36|flash_qspi_xip_config_t
+g_mxic_en25sxxa_enter_qspi_mode_cmd|0x20004580|28|flash_cmd_exe_t| [4]
+g_mxic_en25sxxa_config|0x2000459c|36|flash_qspi_xip_config_t
+g_dosilicon_ds25m4ab_enter_qspi_mode_cmd|0x200045c0|35|flash_cmd_exe_t| [5]
+g_dosilicon_ds25m4ab_config|0x200045e4|36|flash_qspi_xip_config_t
+g_xtx_xt25qxxd_enter_qspi_mode_cmd|0x20004608|35|flash_cmd_exe_t| [5]
+g_xtx_xt25qxxd_config|0x2000462c|36|flash_qspi_xip_config_t
+g_winbond_flash_manufact_id|0x16504|12|uint32_t| [3]
+g_flash_need_cmd_unique_id|0x16510|12|uint32_t| [3]
+g_xip_use_cmd_mode|0x1651c|56|uint32_t| [14]
+g_gpio_inited|0x20015df0|1|td_bool
+g_hal_funcs|0x20015e34|4|td_u32
+g_ipc_sinfo|0x2000b584|180|ipc_send_info| [5]
+g_ipc_mailboxes|0x2000b75c|100|td_u32| [5, 5]
+ipc_share_mem0_to_1|0x87000000|3088|ipc_mailbox_entry
+ipc_share_mem0_to_2|0x87000c10|3088|ipc_mailbox_entry
+ipc_share_mem1_to_0|0x87001820|3088|ipc_mailbox_entry
+ipc_share_mem1_to_2|0x87002430|3088|ipc_mailbox_entry
+ipc_share_mem2_to_0|0x87003040|3088|ipc_mailbox_entry
+ipc_share_mem2_to_1|0x87003c50|3088|ipc_mailbox_entry
+g_ipc_handlers|0x2000b638|292|ipc_action_handler| [73]
+g_ipc_idle_callback_handlers|0x2000b7c0|4|ipc_idle_callback_handler
+g_ipc_timer|0x20015df8|4|rtc_handle_t
+g_bt_sp_to_record|0x2000b7d0|4|uint32_t
+g_app_record_bt_lr|0x2000b7dc|40|uint32_t| [10]
+g_app_record_bt_pc|0x2000b804|40|uint32_t| [10]
+g_ipc_timer_index|0x2000b7cc|4|uint32_t
+g_ipc_ssend_default_timeout|0x2000b7d4|4|uint32_t
+g_ipc_to_bcore_continuous_fail_nums|0x2000b7d8|4|uint32_t
+g_lpc_fsm_callback_handlers|0x2000b82c|80|lpc_fsm_callback_handler| [4, 5]
+g_lpc_sys_sleep_vetos|0x2000b880|32|lpc_veto_type| [4]
+g_lpc_sys_deepsleep_vetos|0x2000b87c|4|uint32_t
+g_lpc_sleep_vetos|0x20015e00|2|uint16_t
+g_lpc_deep_sleep_vetos|0x20015e02|2|uint16_t
+g_lpc_wakeup_timer_handle|0x20015dfc|4|rtc_handle_t
+g_ds35x1g_driver|0x20004650|68|nand_driver_struct
+g_qspi_data|0x2000b8a0|16|qspi_data_type_def
+has_nandflash_init|0x2000c130|4|td_s32
+yf_volume_percent|0x20004694|16|uint32_t| [4]
+buffer_verify|0x2000b8b0|2176|uint8_t| [2176]
+nandflash_freertos_info|0x2000c138|64|mtd_info
+g_volume_names|0x70345af4|16|td_u32| [4]
+dma_send_sem|0x2000d280|4|osal_semaphore
+dma_recv_sem|0x2000d27c|4|osal_semaphore
+nand_write_buf|0x2000c178|2176|uint8_t| [2176]
+nand_read_buf|0x2000c9f8|2176|uint8_t| [2176]
+is_nandflash_working|0x20015e04|1|td_bool
+g_dma_send_done|0x2000d278|1|td_bool
+g_dma_send_succ|0x2000d279|1|td_bool
+g_dma_recv_done|0x2000d27a|1|td_bool
+g_dma_recv_succ|0x2000d27b|1|td_bool
+test_overturn|0x20015e08|1|td_bool
+nand_driver|0x20015e10|4|td_u32
+file_system_mux|0x20015e0c|4|osal_mutex
+g_trans_type|0x20015e14|1|nandflash_trans_type_t
+g_align_handle|0x20015e18|4|td_u32
+g_handles|0x20015e1c|4|td_u32| [1]
+g_sha256_def_iv_data|0x703462f5|32|uint8_t| [32]
+g_bits|0x7034632c|16|uint8_t| [16]
+g_pke_hash_properties|0x7034633c|24|pke_hash_properties_type_t| [2]
+g_asn1_rsa256|0x70346354|19|uint8_t| [19]
+g_empty_l_rsa256|0x70346367|32|uint8_t| [32]
+g_asn1_rsa512|0x70346387|19|uint8_t| [19]
+g_empty_l_rsa512|0x7034639a|64|uint8_t| [64]
+g_hal_funcs|0x20015e34|4|td_u32
+g_spi_is_initialised|0x2000d940|7|td_bool| [7]
+g_dma_trans_tx|0x2000d964|56|spi_dma_trans_inf_t| [7]
+g_dma_trans_rx|0x2000d904|56|spi_dma_trans_inf_t| [7]
+g_dma_cfg|0x2000d947|28|spi_dma_config_t| [7]
+g_systick_hw_inited|0x20015e20|1|td_bool
+g_hal_funcs|0x20015e34|4|td_u32
+g_tcxo_inited|0x20015e28|1|td_bool
+g_hal_funcs|0x20015e34|4|td_u32
+g_timer_adapted|0x2000dca4|4|td_bool| [4]
+g_timer_useing_flag|0x2000dca1|3|uint8_t| [3]
+g_timers_manager|0x2000dca8|96|timers_manager_t| [4]
+g_timer_inited|0x2000dca0|1|td_bool
+g_timerlist_0|0x2000d9a0|192|timer_info_t| [8]
+g_timerlist_1|0x2000da60|192|timer_info_t| [8]
+g_timerlist_2|0x2000db20|192|timer_info_t| [8]
+g_timerlist_3|0x2000dbe0|192|timer_info_t| [8]
+g_uart_tx_state|0x2000ddb4|8|td_u32| [2]
+g_uart_rx_state|0x2000dda4|8|td_u32| [2]
+g_uart_pin_configed|0x2000dda0|2|td_bool| [2]
+g_uart_pin_config_array|0x2000ddac|8|uart_pin_config_t| [2]
+g_uart_rx_state_array|0x2000ddbc|56|uart_rx_state_t| [2]
+g_uart_tx_state_array|0x2000dd08|152|uart_tx_state_t| [2]
+g_hal_funcs|0x20015e34|4|td_u32
+g_watchdog_inited|0x20015e30|1|td_bool
+g_watchdog_enabled|0x20015e31|1|td_bool
+head|0x20015e38|4|linklist
+g_dev_nand_ops|0x70346400|32|block_operations
+g_dev_spinor_ops|0x70346420|32|block_operations
+g_rtcs_manager|0x2000ddf8|120|rtcs_manager_t| [5]
+g_rtc_adapted|0x20015e3d|5|td_bool| [5]
+g_rtc_inited|0x20015e3c|1|td_bool
+g_rtclist_0|0x2000de70|384|rtc_info_t| [16]
+g_rtclist_1|0x2000dff0|384|rtc_info_t| [16]
+g_rtclist_2|0x2000e170|384|rtc_info_t| [16]
+g_rtclist_3|0x2000e2f0|384|rtc_info_t| [16]
+g_rtclist_extra|0x2000e470|384|rtc_info_t| [1, 16]
+g_trace_value|0x104f0|56|hal_cpu_info_t| [2]
+g_dma_regs|0x20015e48|4|uintptr_t
+g_sdma_regs|0x20015e4c|4|uintptr_t
+g_hal_dma_funcs|0x20015e44|4|td_u32
+g_hal_dma_channel|0x2000e5f0|144|hal_dma_ch_info_t| [12]
+g_hal_dmac_v100_funcs|0x200046a4|48|hal_dma_funcs_t
+g_dma_node_cfg|0x2000e680|48|td_u32| [12]
+g_sdma_burst_len_limit_ch|0x1106a|4|uint8_t| [4]
+g_dma_lli_add|0x2000e6b0|48|td_u32| [12]
+g_gpios_regs|0x2000e6e0|20|uintptr_t| [5]
+g_hal_gpios_funcs|0x20015e50|4|td_u32
+g_hal_gpio_context|0x2000e738|1064|hal_gpio_context_t
+g_gpio_context|0x2000e6f4|68|gpio_context_t
+g_hal_gpio_v100_funcs|0x200046d4|40|hal_gpio_funcs_t
+g_hal_gpio_ctrl_func_array|0x11a3c|24|hal_gpio_ctrl_t| [6]
+g_hal_pins_funcs|0x20015e54|4|td_u32
+g_hal_pin_brandy_funcs|0x200046fc|32|hal_pin_funcs_t
+g_pin_mode_map|0x11e44|72|hal_pin_mode_map_t| [6]
+g_pin_ds_map|0x11e8c|96|hal_pin_ds_map_t| [6]
+g_pin_pull_map|0x11eec|96|hal_pin_pull_map_t| [6]
+g_hal_pmp_funcs|0x20015e58|4|td_u32
+g_hal_pmp_riscv70_funcs|0x20004ba8|4|hal_pmp_funcs_t
+g_reset_cause|0x20015e5c|2|uint16_t
+g_pmu_check_reg|0x2000eb60|4|uint32_t
+g_pmu_check_reg_value|0x2000eb64|4|uint32_t
+g_pmu_check_reg_bit|0x2000eb68|4|uint32_t
+g_hal_sha_funcs|0x20015e60|4|td_u32
+g_hal_sha_callback|0x20015e64|4|hal_sha_callback_t
+g_hal_sha_v2_funcs|0x2000471c|16|hal_sha_funcs_t
+g_sha_v2_regs|0x20015e68|4|td_u32
+g_hal_rsa_funcs|0x20015e6c|4|td_u32
+g_hal_rsa_callback|0x20015e70|4|hal_rsa_callback_t
+g_hal_rsa_v2_funcs|0x2000472c|16|hal_rsa_funcs_t
+g_rsa_v2_regs|0x20015e74|4|td_u32
+g_hal_efuses_funcs|0x20015e78|4|td_u32
+g_hal_efuse_v100_funcs|0x2000473c|44|hal_efuse_funcs_t
+g_store_efuse_value|0x2000eb6c|384|uint8_t| [3, 128]
+g_efuse_v100_regs|0x2000ecec|12|td_u32| [3]
+g_hal_spis_regs|0x2000ecf8|28|uintptr_t| [7]
+g_hal_spis_funcs|0x2000ed14|28|td_u32| [7]
+g_hal_spi_v100_funcs|0x20004768|24|hal_spi_funcs_t
+g_hal_spi_callback|0x2000ee80|4|hal_spi_callback_t
+g_hal_spi_attrs|0x2000ed30|336|hal_spi_attr_t| [7]
+g_hal_spi_extra_attrs|0x2000ee84|112|hal_spi_extra_attr_t| [7]
+g_hal_spi_ctrl_func_array|0x134d4|32|hal_spi_ctrl_t| [8]
+g_hal_systicks_funcs|0x20015e7c|4|td_u32
+g_hal_systick_v150_funcs|0x20004780|12|hal_systick_funcs_t
+g_hal_systick_ctrl_func_array|0x135a8|12|hal_systick_ctrl_t| [3]
+g_systick_regs|0x20015e80|4|td_u32
+g_hal_tcxo_funcs|0x20015e84|4|td_u32
+g_hal_tcxo_v150_funcs|0x2000478c|12|hal_tcxo_funcs_t
+g_tcxo_regs|0x20015e88|4|td_u32
+g_timer_comm_regs|0x2000eef4|4|uintptr_t
+g_timer_regs|0x2000eef8|16|uintptr_t| [4]
+g_hal_timer_callback|0x2000ef08|12|hal_timer_callback_t| [3]
+g_hal_uarts_regs|0x20015e8c|8|uintptr_t| [2]
+g_hal_uarts_funcs|0x20015e94|8|td_u32| [2]
+g_hal_uart_callback|0x2000ef18|8|hal_uart_callback_t| [2]
+g_hal_uart_v120_funcs|0x20004798|24|hal_uart_funcs_t
+g_hal_uart_v120_inited_array|0x2000ef14|2|td_bool| [2]
+g_hal_uart_rx_fifo_level|0x2000ef20|8|uint32_t| [2]
+g_hal_uart_attr_array|0x2000ef28|16|hal_uart_attr_t| [2]
+g_hal_uart_ctrl_func_array|0x1406c|84|hal_uart_ctrl_t| [21]
+g_hal_watchdogs_funcs|0x20015e9c|4|td_u32
+g_watchdog_regs|0x20015ea0|4|uintptr_t
+g_hal_watchdog_callback|0x20015ea4|4|hal_watchdog_callback_t
+g_hal_watchdog_v100_funcs|0x200047b0|36|hal_watchdog_funcs_t
+g_timeout|0x20015ea8|4|uint32_t
+g_xip_mode|0x20015eac|2|xip_mode_t| [2]
+g_xip_regs|0x20015eb0|4|td_u32
+g_rtc_comm_regs|0x2000ef38|4|uintptr_t
+g_rtc_regs|0x2000ef3c|20|uintptr_t| [5]
+g_hal_rtc_callback|0x2000ef54|16|hal_rtc_callback_t| [4]
+g_rtc_int_cnt_record|0x2000ef50|4|uint32_t
+g_gpio_base_addrs|0x200047d4|20|uintptr_t| [5]
+irq_num|0x200047e8|20|uint32_t| [5]
+g_uart_is_need_awake_callback|0x20015eb4|4|cb_uart_is_need_awake_fn
+g_pre_count|0x2000ef68|8|uint64_t
+g_pre_msec|0x2000ef70|8|td_double
+g_sha_base_addr|0x20004bac|4|uintptr_t
+g_rsa_key_mem|0x2000ef80|1024|uint8_t| [1024]
+g_rsa_input_mem|0x2000f380|1024|uint8_t| [1024]
+g_rsa_output_mem|0x2000f780|1024|uint8_t| [1024]
+g_rsa_v2_reg|0x20004bb0|4|uintptr_t
+g_efuse_base_addr|0x70346440|12|uintptr_t| [3]
+g_efuse_region_read_address|0x7034644c|12|uintptr_t| [3]
+g_efuse_region_write_address|0x70346458|12|uintptr_t| [3]
+g_efuse_region_size|0x70346464|12|uintptr_t| [3]
+g_uart_base_addrs|0x1b388|8|uintptr_t| [2]
+g_uart0_rx_buffer|0x2000ffc0|56|uint8_t| [56]
+g_uart1_rx_buffer|0x2000fff8|56|uint8_t| [56]
+g_uart_config|0x200047fc|88|uart_config_t| [2]
+g_uart_recovery_reg|0x2000ff80|64|uart_recovery_regs_t| [2]
+g_timer_base_addr|0x70346470|12|uintptr_t| [3]
+timer_irq_handler|0x7034647c|12|osal_irq_handler| [3]
+g_pre_systick_count|0x20010030|8|uint64_t
+g_pre_systick_us|0x20010038|8|uint64_t
+g_tcxo_ticks_per_usec|0x20004bb4|4|uint32_t
+g_watchdog_base_addr|0x20004bb8|4|uintptr_t
+g_hal_dsp_chip_watchdog_callback|0x20015eb8|4|hal_chip_watchdog_dump_callback_t
+g_watchdog_config|0x20004bbc|4|uint32_t
+g_pio_function_config|0x1b790|528|hal_pio_config_t| [132]
+g_gpio_function_config|0x1b9a0|12|hal_gpio_config_t| [1]
+g_pio_pins_avaliable_mode|0x1b9ac|132|uint8_t| [132]
+g_xip_base_addr|0x20004bc0|4|uintptr_t
+g_dma_base_addr|0x20004bc4|4|uintptr_t
+g_sdma_base_addr|0x20004bc8|4|uintptr_t
+g_dma_handshaking_channel_status|0x20015ebc|4|uint32_t
+g_spi_base_addrs|0x20004854|28|td_u32| [7]
+g_spi_max_slave_select|0x1b0c4|28|uint32_t| [7]
+g_spi_recovery_reg|0x20010040|392|spi_recovery_cfg_t| [7]
+g_flash_porting_config|0x1adf0|84|flash_cfg_t| [1]
+g_flash_bus_clk|0x20004870|4|uint32_t
+g_flash_enter_qspi_freq_mhz|0x20004874|4|uint32_t| [1]
+g_flash_exit_xip_freq_mhz|0x20004878|4|uint32_t| [1]
+g_flash_enter_xip_freq_mhz|0x2000487c|4|uint32_t| [1]
+g_flash1_power_on|0x20004bcd|1|td_bool
+g_bt_power_on|0x20004bcc|1|td_bool
+g_rtc_base_addr|0x703464b0|16|uintptr_t| [4]
+rtc_irq_handler|0x703464c0|16|osal_irq_handler| [4]
+g_rtc_clock_value|0x20004be8|4|uint32_t
+g_startup_finish_flag|0x20015ec0|1|td_bool
+g_ulp_wkup_flag|0x20015ec2|2|uint16_t
+g_clock_ulp|0x20004bec|4|uint32_t
+g_aucIntPri|0x20004880|97|uint8_t| [97]
+m_aucIntPri|0x200048e1|97|uint8_t| [97]
+g_region_attr|0x200101c8|256|pmp_conf_t| [16]
+g_system_all_core_clocks|0x1788c|150|clocks_clk_cfg_t| [5, 15]
+g_system_mcu_freq_config|0x17922|84|system_mcu_core_clk_cfg_t| [6]
+g_system_mcu_perp_clk_set_config|0x17976|44|system_mcu_perip_clk_t| [22]
+g_system_clkcg_config|0x179a2|78|system_clk_cg_t| [39]
+g_ccrg_modules_reg_map|0x181c8|60|uint32_t| [15]
+g_clocks_check_reg|0x200102c8|4|uint32_t
+g_clocks_check_reg_value|0x200102cc|4|uint32_t
+g_clocks_check_reg_bit|0x200102d0|4|uint32_t
+g_system_resume_clocks|0x200102d4|30|clocks_clk_cfg_t| [15]
+g_current_0p8_voltage|0x20004bf0|1|clocks_control_voltage_t
+g_dsp_power_up|0x200102f4|1|td_bool
+g_system_freq|0x200102f8|5|system_freq_t
+g_dsp_clock_freq|0x200102f5|3|dsp_clock_freq_t
+g_pll_used_vote|0x20010303|30|td_bool| [2, 15]
+g_pll_used_vote_count|0x20010301|2|uint8_t| [2]
+g_current_clocks|0x20010321|30|clocks_clk_cfg_t| [15]
+g_clock_sw_pre_handler|0x20010340|60|clock_switch_proc_func| [15]
+g_perpls_clock_reload|0x20010300|1|td_bool
+g_clock_32k|0x20004bf4|4|uint32_t
+g_pll_used|0x20015ec4|1|td_bool
+g_pmu_0p8_vget|0x20015ec6|1|uint8_t
+g_pmu_vdd1p0_st|0x87004ae0|20|pmu_vdd1p0_lock_t
+g_pmu1_dig_pg_regs|0x1a738|68|uint32_t| [17]
+g_is_repeat_exc|0x2001037c|1|td_bool
+g_xregs_map|0x1f0ab|28|uint8_t| [28]
+g_exception_dump_callback|0x20010384|4|hal_exception_dump_callback
+g_diag_channel_id|0x20004bf8|1|diag_channel_id_t
+g_spp_client_id|0x20015ecc|1|uint8_t
+g_diag_gatt_server_id|0x20015ece|1|uint8_t
+g_diag_gatt_conn_id|0x20015ed0|2|uint16_t
+g_diag_gatt_hdl|0x20015ed2|2|uint16_t
+g_diag_uart_out_mutex|0x20015ec8|4|osal_mutex
+g_diag_default_cmd_tbl|0x703465d8|96|diag_cmd_reg_obj_t| [12]
+g_dfx_osal_queue_id|0x20004bfc|4|td_u32
+g_dfx_transmit_queue_id|0x20004c00|4|td_u32
+g_mem_config|0x7034665c|256|diag_mem_config_t| [32]
+g_mem_dump_info|0x7034675c|60|diag_mem_dump_t| [5]
+g_reg_dump_info|0x70346808|36|diag_reg_dump_t| [3]
+g_diag_debug_proc|0x20015ed4|4|oam_cmd_handle_callback
+g_recv_msg_step|0x20010388|1|uint8_t
+g_recv_buf|0x2001038c|4|td_u32
+g_frame_len|0x20010390|4|uint32_t
+g_recv_len|0x20010394|4|uint32_t
+log_adapt_module|0x20015ed8|1|td_u8
+g_pm_dev_list|0x20015edc|4|td_u32
+g_pm_fsm_list|0x20015ee0|4|td_u32
+g_pm_veto_info|0x20010398|40|pm_veto_t
+g_pm_mode_bitmap|0x20004c04|4|uint32_t
+g_pm_mode_vote|0x200103c0|20|uint32_t| [5]
+g_hifi_freq|0x23980|128|pm_hifi_freq_t| [4]
+g_hifi_mode|0x20004c08|1|pm_hifi_mode_t
+g_core_reset_pc|0x20015ee4|4|uint32_t
+g_clic_regs|0x200103d4|388|clic_regs_group
+g_ldo_power_level|0x20010558|16|pm_pwr_cfg_t| [16]
+g_image_path|0x20010568|None|partition_path_map_t| [0]
+g_img_partition_map|0x20004944|96|upg_image_partition_ids_map_t| [12]
+g_brandy_upg_collect|0x20004c0c|8|upg_image_collections_t
+g_brandy_support_upg_id|0x200049a4|16|uint32_t| [4]
+g_image_refs|0x29940|24|upg_partition_id_ref_t| [3]
+g_unf_crc16_tab|0x70346944|512|uint16_t| [256]
+g_unf_crc32_tab|0x70346b44|1024|uint32_t| [256]
+g_at_cmd_module_list|0x20010870|40|at_cmd_set_t| [5]
+g_at_cmd_msg_queue|0x20004c14|4|td_u32
+g_at_cmd_module_index|0x2001086c|1|uint8_t
+g_build_version_information|0x702b01b8|84|build_version_info
+g_log_level_inited|0x20015eea|1|td_bool
+g_log_level_config|0x200049b4|12|log_level_config_t
+g_reboot_mcu_cb|0x20015eec|4|cpu_utils_reboot_cb
+g_diag_nv_cmd_tbl|0x200049c0|72|diag_cmd_reg_obj_t| [9]
+g_diag_update_cmd_tbl|0x20004a08|40|diag_cmd_reg_obj_t| [5]
+g_diag_beat_heart_timer|0x20010898|16|dfx_timer
+g_cmd_shell_data_proc|0x20015ef0|4|diag_cmd_shell_data_proc
+g_zdiag_mocked_shell_cmd_tbl|0x20004a30|16|diag_cmd_reg_obj_t| [2]
+g_zdiag_mocked_shell_enable|0x20015ef4|1|td_bool
+g_sample_data_transmit_ctrl|0x200108a8|24|diag_sample_data_transmit_info_t| [3]
+g_diag_rom_api|0x20015ef8|4|diag_rom_api_t
+g_dfx_debug_level|0x20004c18|4|uint32_t
+g_offline_log_enable|0x20015f06|1|td_bool
+g_diag_channel_ctrl|0x200108c0|120|diag_channel_ctrl_t
+g_diag_merge_flag|0x20015f07|6|diag_merge_flag_t| [3]
+g_zdiag_dfx_stat|0x20010938|108|zdiag_dfx_stat_t
+g_diag_stat_ctrl|0x200109a4|60|zdiag_stat_ctrl_t
+g_zdiag_filter_ctrl|0x200109ec|28|zdiag_filter_ctrl_t
+g_zdiag_notify_process|0x200109e0|12|zdiag_filter_notify_hook| [3]
+g_merge_data|0x20010a08|36|diag_merge_data_t| [3]
+g_diag_ser_func|0x20010a2c|56|diag_notify_f| [14]
+g_diag_cmd_ctrl|0x20010a64|60|diag_cmd_ctrl_t
+g_diag_ind_ctrl|0x20010aa0|20|diag_ind_ctrl_t
+g_flow_control_hook|0x20015f10|4|diag_msg_flow_control_hook
+g_transmit_cmd_id_tbl|0x70347d20|64|transmit_cmd_ind_item_t| [8]
+g_transmit_ctrl|0x20010ab4|232|transmit_ctrl_t
+g_transmit_msg_proc|0x20010b9c|160|transmit_msg_proc_t| [10]
+g_dfx_soc_log_output_handler|0x20015f1c|4|dfx_soc_log_output_handler
+g_logfile_manage|0x20010c3c|280|store_file_manage_t
+g_instance_mutex|0x20015f20|4|osal_mutex
+g_not_space_nums|0x20015f24|1|uint8_t
+g_full_path|0x20010d54|128|uint8_t| [128]
+g_panic_dump_callback|0x20010dd8|4|lib_panic_dump_callback
+g_already_panicking|0x20010dd4|1|td_bool
+g_panic_cpu_trace_pc|0x20010ddc|4|uint32_t
+g_panic_cpu_trace_lr|0x20010de0|4|uint32_t
+g_panic_cpu_trace_sp|0x20010de4|4|uint32_t
+g_panic_deal|0x20004c1c|4|panic_deal_handler
+g_preserve_data_lib|0x87004860|252|preserve_data_t
+g_preserve_data_lib_ram|0x20010de8|252|preserve_data_t
+g_log_sn_number|0x20015f26|2|uint16_t
+g_missed_messages|0x20010ee8|4|uint32_t
+g_trigger_tx|0x20010ee4|1|td_bool
+g_cnt_messages|0x20010eec|4|uint32_t
+g_log_current_level|0x20004c20|1|log_level_e
+g_log_basetime_ms|0x20010ef8|8|uint64_t
+g_chr_basegmt_s|0x20010ef0|4|uint32_t
+g_dump_addr|0x70348780|24|log_reg_dump_t| [3]
+g_dump_table_check_success|0x20015f28|1|td_bool
+g_log_trigger_callback|0x20015f2c|4|log_trigger_callback_t
+g_log_oml_btc_oam_callback|0x20010f00|4|oam_cmd_handle_callback
+g_log_oml_mem_command_callback|0x20010f04|4|oam_cmd_handle_callback
+g_log_oml_reg_command_callback|0x20010f08|4|oam_cmd_handle_callback
+g_log_oml_ssi_reg_command_callback|0x20010f0c|4|oam_cmd_handle_callback
+g_log_oml_msg_cs_stat_callback|0x20010f10|4|oam_cmd_handle_callback
+g_log_oml_bth_oam_callback|0x20010f14|4|oam_cmd_handle_callback
+g_log_oml_app_oam_callback|0x20010f18|4|oam_cmd_handle_callback
+g_log_oml_hifi_oam_callback|0x20010f1c|4|oam_cmd_handle_callback
+g_log_oml_reg32_command_callback|0x20010f20|4|oam_cmd_handle_callback
+g_log_oml_ssi_block_callback|0x20010f24|4|oam_cmd_handle_callback
+g_log_buffer_start|0x20010f2c|4|td_u32
+g_log_buffer_size|0x20010f30|4|uint32_t
+g_log_section_control|0x20010f28|4|td_u32
+g_section_control|0x20010f34|12|td_u32| [3]
+g_buffer_reader_control|0x20010f40|36|log_buffer_reader_control_t| [3]
+g_log_uart_early_stop_timer|0x20010f64|4|osTimerId_t
+g_semaphore_logs|0x20010f68|4|osSemaphoreId_t
+g_semaphore_uart|0x20010f6c|4|osSemaphoreId_t
+g_workingdirectory|0x20004a40|260|td_char| [260]
+g_workdir_lock|0x20015f34|4|dpal_spinlock
+g_inode_sem|0x20010f70|12|inode_sem_s
+tg_filelist|0x20010f80|4104|filelist
+bitmap|0x20011f88|20|td_u32| [5]
+g_root_inode|0x20015f38|4|td_u32
+yaffs_operations|0x70348a84|124|mountpt_operations
+g_yaffs_operations|0x70348b00|16|fsmap_t
+g_vfs_map|0x20004c24|4|td_u32| [1]
+g_usbMode|0x20015f3c|4|uint32_t
+g_sysDisk|0x20011fb8|1520|los_disk| [5]
+g_diskSpinlock|0x20015f40|4|dpal_spinlock
+g_diskFatBlockSpinlock|0x20015f44|4|dpal_spinlock
+g_nv_init_is_done|0x20015bd8|1|td_bool
+nv_sem|0x20015bdc|4|osal_semaphore
+g_nv_direct_ctrl|0x20015be0|12|nv_direct_ctrl_t
+g_nv_header_magic|0x20004c34|1|uint8_t
+g_kv_nvregion_map|0x20015bec|12|kv_nvregion_map_t
+g_kv_nvregion_area|0x20004b44|16|kv_nvregion_area_t
+g_search_filter|0x20015c08|12|kv_key_filter_t
+g_new_key_details|0x20015c14|16|kv_key_details_t
+g_current_store|0x20015bf8|1|kv_store_t
+g_current_state_machine|0x20015bfc|4|td_u32
+g_erase_keys_machine|0x2bf0c|16|kv_state_machine_t
+g_erase_keys_transitions|0x2bf2c|39|kv_update_transition_t| [13]
+g_erase_keys_actions|0x2bf54|64|kv_update_action_t| [8]
+g_current_page|0x20015c24|20|kv_page_handle_t
+g_current_key|0x20015c38|20|kv_key_handle_t
+g_write_key_machine|0x2bf1c|16|kv_state_machine_t
+g_write_key_transitions|0x2bf94|33|kv_update_transition_t| [11]
+g_write_key_actions|0x2bfb8|64|kv_update_action_t| [8]
+g_prepare_store_machine|0x2bff8|16|kv_state_machine_t
+g_prepare_store_transitions|0x2c008|12|kv_update_transition_t| [4]
+g_prepare_store_actions|0x2c014|24|kv_update_action_t| [3]
+g_current_store_write_location|0x20015c00|4|kv_key_location
+g_defrag_page_machine|0x2c02c|16|kv_state_machine_t
+g_defrag_page_transitions|0x2c03c|21|kv_update_transition_t| [7]
+g_defrag_page_actions|0x2c054|48|kv_update_action_t| [6]
+g_prep_defrag_page_machine|0x2c084|16|kv_state_machine_t
+g_prep_defrag_page_transitions|0x2c094|12|kv_update_transition_t| [4]
+g_prep_defrag_page_actions|0x2c0a0|24|kv_update_action_t| [3]
+g_defrag_page_location|0x20015c04|4|kv_page_location
+g_copy_all_keys_machine|0x2c0b8|16|kv_state_machine_t
+g_copy_all_keys_transitions|0x2c0c8|30|kv_update_transition_t| [10]
+g_copy_all_keys_actions|0x2c0e8|48|kv_update_action_t| [6]
+g_nv_debug_level|0x20004c38|4|uint32_t
+g_hash_table|0x20015f60|4|td_u32
+nv_async_sem|0x20015f64|4|osal_semaphore
+g_nv_async_flash_space|0x20004c3c|4|uint32_t
+g_nv_msg_queue_id|0x20004c40|4|td_u32
+g_partition_info|0x20015c4c|336|partition_t
+g_upg_ctx|0x20015d9c|36|upg_storage_ctx_t
+g_user_defined_check_func|0x20015f68|4|uapi_upg_user_defined_check
+g_user_defined_param|0x20015f6c|4|uintptr_t
+g_ble_at_dis_srv_cmd_hdls|0x7030dee8|160|ble_at_dis_srv_cmd_hdl_info| [20]
+g_ble_at_dis_cln_cmd_hdls|0x7030df88|80|ble_at_dis_cln_cmd_hdl_info| [10]
+g_ble_at_bas_srv_cmd_hdls|0x7030c024|24|ble_at_bas_srv_cmd_hdl_info_t| [3]
+g_ble_at_bas_cln_cmd_hdls|0x7030c03c|32|ble_at_bas_cln_cmd_hdl_info_t| [4]
+g_ble_hid_srv_at_cmd_hdls|0x7030fc1c|24|ble_hid_at_cmd_hdl_info_t| [3]
+g_ble_at_fmp_cmd_hdls|0x7030f958|24|ble_at_fmp_cmd_info_t| [3]
+g_ble_ancs_client_at_hdl|0x7030b3d4|56|ble_ancs_client_at_hdl_info_t| [7]
+g_remote_cmd_supported|0x2000b27c|4|td_u32
+g_ble_ams_client_at_hdl|0x7030a348|64|ble_ams_client_at_hdl_info_t| [8]
+g_ble_pro_dis_data|0x2000b254|40|ble_pro_dis_data
+g_dis_client_rmt_dev_list|0x20004c44|8|osal_list_head
+g_dis_character_uuid|0x70308fca|18|uint16_t| [9]
+g_ble_bas_client_remote_list|0x20004c4c|8|osal_list_head
+g_discovery_result_t|0x2000b21c|4|ble_bas_func_result_cbk_t
+g_ble_bas_data|0x2000b224|8|ble_bas_data_t
+g_bas_character_value_handle|0x2000b220|2|uint16_t
+g_hid_input_report_att_hdl|0x2000b244|4|uint32_t
+g_hid_service_handle|0x2000b248|4|uint32_t
+g_srv_hid_report_map|0x20003a78|27|uint8_t| [27]
+g_server_id|0x2000b238|1|uint8_t
+g_fmp_locator_client_list|0x20004c54|8|osal_list_head
+g_ble_gatt_mtu_size|0x20004c5c|4|uint32_t
+ancs_uuid|0x20003a30|16|uint8_t| [16]
+notify_src_uuid|0x20003a40|16|uint8_t| [16]
+ctl_point_uuid|0x20003a50|16|uint8_t| [16]
+data_src_uuid|0x20003a60|16|uint8_t| [16]
+g_ancs_callbacks_t|0x2000b204|24|ble_ancs_client_callbacks_t
+g_ble_ancs_service_list|0x20004c60|8|osal_list_head
+ams_uuid|0x200039f0|16|uint8_t| [16]
+rmt_cmd_uuid|0x20003a00|16|uint8_t| [16]
+entity_update_uuid|0x20003a10|16|uint8_t| [16]
+entity_att_uuid|0x20003a20|16|uint8_t| [16]
+g_ams_callbacks_t|0x2000b1ec|24|ble_ams_client_callbacks_t
+g_ble_ams_service_list|0x20004c68|8|osal_list_head
+g_spp_server_wait_accept|0x2000b28c|1|td_bool
+g_spp_server_accept_task|0x2000b290|4|td_u32
+g_pan_sample_hdls|0x20003dac|48|btsrv_sample_cmd_hdl_info| [6]
+g_sample_pan_callbacks_t|0x20004c70|8|pan_callbacks_t
+g_pbap_error_pair|0x20003ddc|216|sample_pbap_code_print| [9]
+g_sample_found_list_init|0x2000b280|1|td_bool
+g_sample_found_dev_list_head|0x20004c78|8|osal_list_head
+g_remote_connect_addr|0x2000b281|7|bd_addr_t
+g_acl_conn_ext_mode|0x20004c80|1|acl_conn_ext_mode
+g_btsrv_gap_sample_hdls|0x20003a94|312|btsrv_sample_cmd_hdl_info| [39]
+g_sample_gap_accept_conn|0x20004c81|1|td_bool
+g_btsrv_gatt_sample_hdls|0x20003bcc|480|ble_at_gatt_cmd_hdl_info| [60]
+g_test_service_handle|0x2000b288|2|uint16_t
+g_auto_client_discovery|0x2000b28a|1|td_bool
+g_btsrv_msg_hdls|0x2000ad88|68|btsrv_task_msg_handle_func_type| [17]
+g_btsrv_msg_id|0x2000ad84|4|uint32_t
+g_btsrv_task_priority|0x20004c82|2|uint16_t
+g_gap_ble_conn_list|0x2000ae18|8|list_stru
+g_bt_gap_callbacks|0x2000adcc|68|gap_call_backs_t
+g_btsrv_conn_mgr|0x2000ae20|60|btsrv_connection_manager
+g_ble_conn_list_lock|0x2000ae10|4|osal_mutex
+g_connect_list_lock|0x2000ae14|4|osal_mutex
+g_gap_bt_inquiry_dev_class|0x20004c88|4|uint32_t
+g_gap_bt_inquiry_max_num|0x20004c84|1|uint8_t
+g_bth_log_type_level|0x200039e8|4|uint32_t
+g_bts_feature_bitmap|0x200039ec|4|bts_feature_t
+g_ble_adv_scan_manager|0x2000afb0|24|btsrv_ble_adv_scan_manager
+g_local_dev_info|0x2000afc8|72|btsrv_local_device_info
+g_btsrv_ble_gap_cbks|0x2000b014|56|gap_ble_callbacks_t
+g_btsrv_gap_bt_state|0x200039e4|1|uint8_t
+g_btsrv_gap_ble_state|0x200039e5|1|uint8_t
+g_bt_core_power_on_state|0x2000b010|1|uint8_t
+g_ble_sc_flag|0x2000b098|1|td_bool
+g_ble_ctkd_flag|0x2000b099|1|td_bool
+g_btsrv_remote_dev_num|0x2000b09c|4|uint32_t
+g_btsrv_remote_dev_list|0x2000b0a8|8|osal_list_head
+g_btsrv_rmt_dev_list_lock|0x2000b0a0|4|osal_mutex
+g_btsrv_paired_dev_num|0x2000b0a4|4|uint32_t
+g_dft_hso_proc_tbl|0x2000385c|56|dft_table| [7]
+g_diag_dft_cmd_tbl|0x20004c8c|8|diag_cmd_reg_obj_t| [1]
+g_gattc_callbacks|0x2000ace0|48|gattc_callbacks_t
+g_gattc_init|0x2000acdc|1|td_bool
+g_gatt_client_list|0x2000ad18|8|list_stru
+g_gatt_client_num|0x2000ad14|4|uint32_t
+g_gattc_client_map|0x2000ad10|1|td_bool| [1]
+g_gatts_start_svc_que|0x2000ad58|8|list_stru
+g_gatts_callbacks|0x2000ad20|36|gatts_callbacks_t
+g_gatts_svc_list|0x2000ad60|8|list_stru
+g_gatt_server_list|0x2000ad68|8|list_stru
+g_gatts_init|0x2000ad44|1|td_bool
+g_gatt_server_num|0x2000ad48|4|int32_t
+g_gatts_server_map|0x2000ad45|1|td_bool| [1]
+g_gatt_hdl_list|0x2000ad70|8|list_stru
+g_gatts_handle_num|0x2000ad46|2|uint16_t
+g_gatts_srvc_node|0x2000ad4c|4|td_u32
+g_gatts_chara_node|0x2000ad50|4|td_u32
+g_gatts_svc_num|0x2000ad54|4|int32_t
+g_eatt_support|0x2000ad78|1|td_bool
+g_device_name_value|0x2000383c|32|uint8_t| [32]
+g_device_name_len|0x2000382c|1|uint8_t
+g_appearance_value|0x20003830|2|uint8_t| [2]
+g_periph_prefer_conn_para_value|0x20003834|8|uint8_t| [8]
+g_center_addr_resolu_value|0x2000382d|1|uint8_t| [1]
+g_service_change_value|0x2000ad79|4|uint8_t| [4]
+g_ccc_value_indicate|0x20003832|2|uint8_t| [2]
+g_server_support_feature_value|0x2000382e|1|uint8_t| [1]
+g_client_support_feature_value|0x2000382f|1|uint8_t| [1]
+g_btsrv_a2dp_ctx|0x2000ac30|44|a2dp_src_service_ctx
+g_a2dp_src_callbacks|0x2000ac20|16|td_u32| [4]
+g_a2dp_snk_service_ctx|0x2000ac70|44|a2dp_snk_service_ctx
+g_a2dp_snk_callbacks|0x2000ac60|16|td_u32| [4]
+g_a2dp_snk_service_register|0x2000ac5c|1|td_bool
+g_avrcp_ct_bts_callbacks|0x2000aca4|4|td_u32
+g_attr_num|0x2000aca0|1|uint8_t
+g_attr_cb_para|0x2000aca8|4|td_u32
+g_avrcp_ct_start_cap_req|0x2000ac9c|1|td_bool
+g_btsrv_avrcp_ctx_list|0x2000acb0|8|osal_list_head
+g_btsrv_avrcp_ctx_list_lock|0x2000acac|4|osal_mutex
+g_avrcp_tg_bts_callbacks|0x2000acb8|4|td_u32
+g_avrcp_tg_loc_sup_evt|0x2000acbc|4|td_u32
+g_hfp_hf_event_list|0x20003924|192|hfp_hf_event_struct| [24]
+g_hfp_hf_ctx_t|0x2000af64|20|hfp_hf_ctx_t
+g_hfp_hf_callbacks|0x2000af78|56|hfp_hf_callbacks_t
+g_hfp_hf_call_info|0x2000aeb4|144|hfp_hf_calls_info_t| [3]
+g_hfp_hf_call_check|0x2000af4c|12|int32_t| [3]
+g_hfp_hf_call_status|0x2000af58|12|int32_t| [3]
+g_hfp_hf_code_pairs|0x702f6740|48|hfp_hf_code_pair| [6]
+g_cancel_held_call|0x2000af44|1|td_bool
+g_hfp_rmt_dev|0x2000af48|4|uint32_t
+g_hfp_cind_info|0x2000ae5c|7|hfp_cind_info_t
+g_hfp_ag_event_list|0x20003894|144|hfp_ag_event_struct| [18]
+g_hfp_ag_ctx_t|0x2000ae64|20|hfp_ag_ctx_t
+g_hfp_ag_callbacks|0x2000ae78|60|hfp_ag_callbacks_t
+g_pbap_callbacks|0x2000b084|20|pbap_pce_callbacks_t
+g_rmt_dev|0x2000b06c|4|uint32_t
+g_pbap_active_dev_addr|0x2000b07c|7|bd_addr_t
+g_pbap_conn|0x2000b070|4|uint32_t
+g_pbap_code_pairs|0x702fcec0|112|pbap_code_pair| [14]
+g_sdk_param|0x2000b074|4|td_u32
+g_pbap_get_size|0x2000b068|1|td_bool
+g_spp_callbacks|0x2000b1a0|8|spp_callbacks_t
+g_spp_servers|0x2000b1ac|64|td_u32| [16]
+g_spp_clients|0x2000b0b0|240|td_u32| [60]
+g_spp_ctx_sem|0x2000b1a8|4|osal_semaphore
+g_spp_write_retry_max|0x20004c94|4|uint32_t
+g_pan_ctx|0x2000b054|20|pan_service_ctx_t
+g_bt_audio_listener|0x2000acc8|4|bt_audio_listener_cb
+g_bt_audio_listener_context|0x2000accc|4|td_u32
+g_bt_avrcp_tg_listener|0x2000acc4|4|td_u32
+a2dp_stream_suspend_stream_hdl|0x2000acc0|4|td_u32
+g_sco_stream_hdl|0x2000acd0|4|td_pvoid
+g_sco_in_share_mem_id|0x2000acd4|4|uint32_t
+g_sco_out_share_mem_id|0x2000acd8|4|uint32_t
+g_crc_16_table|0x702da652|512|uint16_t| [256]
+g_mpc_function_table|0x702d9edc|104|table_function| [13]
+g_bt_property|0x2000aa80|12|bt_property
+g_bcore_ready_sem|0x2000aa74|4|osal_semaphore
+g_bt_acore_task_queue_handle|0x2000aa7c|4|osMessageQueueId_t
+g_write_property_err_times|0x2000aa78|1|uint8_t
+g_ble_conn_function_table|0x702d68c8|64|table_function| [8]
+g_mc_bt_data_bypass_cbk|0x2000aa6c|4|sdk_ble_cbk
+g_bt_mgr_function_table|0x702d9a64|112|table_function| [14]
+g_dev_charging_state|0x2000aa70|1|uint8_t
+g_dev_charging_value|0x2000aa71|1|uint8_t
+g_dev_ota_state|0x2000aa72|1|uint8_t
+g_dev_mgr_function_table|0x702d9d7c|40|table_function| [5]
+bt_data_config_table|0x702d8d50|36|bt_config_data_t| [6]
+g_product_data_config_116x|0x20003400|585|product_data_config
+g_mc_bt_at_cmd_print|0x2000aa60|4|sdk_ble_cbk
+g_bt_dft_rx_count_cbk|0x2000aa68|4|td_u32
+g_bt_factory_test_function_table|0x702d9714|256|table_function| [32]
+g_hfp_hf_pts_mode_setting|0x2000aa64|4|uint32_t
+g_handle_list|0x2000abfc|8|list_stru
+g_handle_list_lock|0x2000abf8|4|osal_mutex
+g_sdk_gap_cbks|0x2000ab04|224|bt_sdk_callback_stru| [28]
+g_gap_sync_call_cfmcb_tbl|0x2000365c|184|table_function| [23]
+g_sdk_gap_event_callbacl_tbl|0x20003714|224|table_function| [28]
+g_gap_create_acl_cfm_cbk|0x2000abec|4|td_u32
+g_gap_execute_command_cfm_cbk|0x2000abe8|4|td_u32
+g_gap_ipc_seq|0x2000abe4|4|uint32_t
+g_sco_in_share_mem_id|0x2000acd4|4|uint32_t
+g_sco_out_share_mem_id|0x2000acd8|4|uint32_t
+g_sdk_a2dp_cbk|0x2000aadc|16|btsdka2dp_cbk
+g_sdk_a2dp_snk_cbk|0x2000aaec|16|btsdka2dp_cbk
+g_av_acore_proc_tbl|0x702ddb24|40|table_function| [5]
+g_avrcp_acore_proc_tbl|0x2000364c|16|table_function| [2]
+g_hfp_acore_proc_tbl|0x200037f4|16|table_function| [2]
+g_hfp_cbk|0x2000abf0|4|td_u32
+g_hfp_ag_cbk|0x2000abf4|4|td_u32
+g_sdk_pbap_cbk|0x2000ac10|8|sdk_pce_inst_stru
+g_pbap_acore_proc_tbl|0x702e0d7c|16|table_function| [2]
+g_spp_acore_proc_tbl|0x20003804|40|table_function| [5]
+g_spp_read_field_key|0x2000ac18|4|uint32_t
+g_spp_app_event_cbk|0x2000ac1c|4|td_u32
+g_sdk_pan_cbk|0x2000ac04|12|btsdkpan_cbk
+g_pan_acore_proc_tbl|0x702e05ac|24|table_function| [3]
+g_ble_general_l2cap_dispatch_table|0x702dce58|56|table_function| [7]
+g_sdk_gatt_local_data|0x2000aaa8|24|ble_gatt_local_data
+g_ble_general_gatt_dispatch_table|0x702dc8fc|168|table_function| [21]
+g_has_smp_passkey_req|0x2000aaa0|1|td_bool
+g_sdk_gap_local_data|0x2000aa8c|20|ble_gap_local_data
+g_rmt_dev_handle|0x2000aaa4|4|uint32_t
+g_ble_general_gap_dispatch_table|0x702db3f8|96|table_function| [12]
+g_sdk_l2cap_local_data|0x2000aac0|28|ble_l2cap_local_data

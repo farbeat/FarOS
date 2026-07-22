@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="hitted by fatal error[%d] @fatal_handler.cpp(56),ERROR" ID="0xe0c001c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the JS task is not killed after sleep very long time @fatal_handler.cpp(77),ERROR" ID="0xe0c0026a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hitted again when handling fatal error @fatal_handler.cpp(157),WARNING" ID="0xe0c004eb" />
+			</MSG_LOG>

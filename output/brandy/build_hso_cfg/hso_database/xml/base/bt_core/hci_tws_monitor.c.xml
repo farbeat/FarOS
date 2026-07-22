@@ -1,0 +1,48 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="hci_acl_tx_data_alloc:BT used tx buffer = %d, link id=%d, len %d @hci_tws_monitor.c(31),INFO" ID="0x89e800fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;HCI_CMD-&gt;init-&gt;set_role-&gt;%d:sync_link:0x%x @hci_tws_monitor.c(76),WARNING" ID="0x89e80263" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;init succ @hci_tws_monitor.c(88),WARNING" ID="0x89e802c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;init fail @hci_tws_monitor.c(92),WARNING" ID="0x89e802e3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;HCI_CMD-&gt;init-&gt;set_role-&gt;%d @hci_tws_monitor.c(114),INFO" ID="0x89e80395" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sync_up_cmd-&gt;tws_no_inited @hci_tws_monitor.c(148),ERROR" ID="0x89e804a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;sync_up_cmd-&gt;invalid_mobile_hdl:0x%x @hci_tws_monitor.c(156),ERROR" ID="0x89e804e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;sync_up_cmd-&gt;sync_type:%d, cur_cmd_idx:%d @hci_tws_monitor.c(170),WARNING" ID="0x89e80553" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;sync_up_cmd-&gt;cmd_wrong:role:%d, sync_link:%d, lm_state:%d @hci_tws_monitor.c(188),ERROR" ID="0x89e805e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;sync_up_cmd-&gt;mobile_link_state_mismatch:id:%d, mobile_lm_state:%d @hci_tws_monitor.c(204),ERROR" ID="0x89e80662" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;sync_up_cmd-&gt;order_mismatch:role:%d, cmd_idx:%d, tws_ms:%d @hci_tws_monitor.c(215),ERROR" ID="0x89e806ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;HCI_CMD-&gt;mode_set-&gt;tws_no_inited @hci_tws_monitor.c(237),ERROR" ID="0x89e8076a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;mode_set_cmd-&gt;cur_cmd_idx:%d @hci_tws_monitor.c(263),WARNING" ID="0x89e8083b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;mode_set_cmd-&gt;cmd_mismatch:role:%d, mear_cmd_idx:%d, tws_ms:%d @hci_tws_monitor.c(286),ERROR" ID="0x89e808f2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;mode_set_cmd-&gt;role:%d, sear_cmd_idx:%d, tws_link:0x%x @hci_tws_monitor.c(305),ERROR" ID="0x89e8098a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;role_conv:host_tx_clear @hci_tws_monitor.c(326),INFO" ID="0x89e80a35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;HCI_CMD-&gt;sco_open-&gt;recv @hci_tws_monitor.c(358),WARNING" ID="0x89e80b33" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;sco_open_cmd-&gt;ld_acl_env is NULL, sco_par-&gt;link_id:%d @hci_tws_monitor.c(368),ERROR" ID="0x89e80b82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;HCI_CMD-&gt;role_conv-&gt;prepare:clock 0x%x @hci_tws_monitor.c(396),INFO" ID="0x89e80c65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;HCI_CMD-&gt;role_conv-&gt;prepare_end:flag:%d, tws_ms:%d, clock:0x%x @hci_tws_monitor.c(447),INFO" ID="0x89e80dfd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;HCI_CMD-&gt;role_conv-&gt;start:mode:%d, clock:0x%x @hci_tws_monitor.c(494),INFO" ID="0x89e80f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;role_conv-&gt;error:5, mode:%d @hci_tws_monitor.c(505),ERROR" ID="0x89e80fca" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;HCI_CMD-&gt;role_conv-&gt;finish:Role:%d, STAGE:%d, clock:0x%x @hci_tws_monitor.c(526),INFO" ID="0x89e81075" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;role_conv-&gt;finish:err:ms%d @hci_tws_monitor.c(530),ERROR" ID="0x89e81092" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;HCI_CMD-&gt;role_conv-&gt;finish:TWSR Reject @hci_tws_monitor.c(538),INFO" ID="0x89e810d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;role_conv-&gt;finish:force_stop @hci_tws_monitor.c(559),INFO" ID="0x89e8117d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;role_conv-&gt;finish:peer_bd_addr:0x%2x:0x%2x:*:*:*:0x%2x @hci_tws_monitor.c(579),INFO" ID="0x89e8121d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;role_conv-&gt;finish:error:role:%d @hci_tws_monitor.c(603),ERROR" ID="0x89e812da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;role_conv-&gt;finish:error:role:%d @hci_tws_monitor.c(627),ERROR" ID="0x89e8139a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;role_conv-&gt;finish:cancel_nosched:link id %d, stop flag %d @hci_tws_monitor.c(631),INFO" ID="0x89e813bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;HCI_CMD-&gt;mode_set-&gt;recv:mode:%d, mobile_hdl:0x%x @hci_tws_monitor.c(683),WARNING" ID="0x89e8155b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;HCI_CMD-&gt;mode_set-&gt;PAUSE:Multi_Thread_Scene @hci_tws_monitor.c(725),WARNING" ID="0x89e816ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sco_open_cmd-&gt;tws_no_inited @hci_tws_monitor.c(742),ERROR" ID="0x89e81732" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;sco_open_cmd-&gt;tws_ms:%x, sco_params_saved:%x @hci_tws_monitor.c(750),WARNING" ID="0x89e81773" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sco_open_cmd-&gt;sco params no save @hci_tws_monitor.c(755),WARNING" ID="0x89e8179b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sco_open_cmd-&gt;sco params collect @hci_tws_monitor.c(781),WARNING" ID="0x89e8186b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sco_open_cmd-&gt;invalid_sco_handle:0xFF @hci_tws_monitor.c(784),ERROR" ID="0x89e81882" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;HCI_CMD-&gt;role_conv-&gt;prepare:TWSR Reject @hci_tws_monitor.c(807),INFO" ID="0x89e8193d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;tws_no_inited @hci_tws_monitor.c(834),ERROR" ID="0x89e81a12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;invalid_recv_data @hci_tws_monitor.c(843),WARNING" ID="0x89e81a5b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;cur_cmd_idx:%d @hci_tws_monitor.c(858),WARNING" ID="0x89e81ad3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;sync_data:0x%02x:0x%02x:0x%02x @hci_tws_monitor.c(862),WARNING" ID="0x89e81af3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;invalid_sync_data:0x%02x:0x%02x @hci_tws_monitor.c(870),ERROR" ID="0x89e81b32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;invalid_sync_data:frag:%d @hci_tws_monitor.c(878),ERROR" ID="0x89e81b72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sync_down-&gt;SCO link rmv before conn @hci_tws_monitor.c(919),INFO" ID="0x89e81cbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sync_down_cmd-&gt;TWS SCO connected, cannot alloc again @hci_tws_monitor.c(929),ERROR" ID="0x89e81d0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;sync_down-&gt;SCO link alloc over MAX, cannot alloc link @hci_tws_monitor.c(938),ERROR" ID="0x89e81d52" />
+			</MSG_LOG>

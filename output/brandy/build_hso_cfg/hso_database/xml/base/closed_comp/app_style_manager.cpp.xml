@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="malloc flags data buffer failed @app_style_manager.cpp(62),ERROR" ID="0xe11e01f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="convert id value to char failed, will be dropped @app_style_manager.cpp(227),ERROR" ID="0xe11e071a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not supported yet @app_style_manager.cpp(243),WARNING" ID="0xe11e079b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid prop count @app_style_manager.cpp(283),ERROR" ID="0xe11e08da" />
+			</MSG_LOG>

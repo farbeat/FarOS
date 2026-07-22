@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][ACL][LD]ld_acl_rsw_tx_restore: txdesc_idx = %x, opcode = 0x%x, txdone = %x @ld_acl_rsw.c(58),WARNING" ID="0x8a0001d3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL @ld_acl_rsw.c(86),ERROR" ID="0x8a0002b2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][ACL][LD]ld_acl_rsw_tx_restore exchange the TX descriptor content, lid=%d sw=%d hw=%d @ld_acl_rsw.c(121),WARNING" ID="0x8a0003cb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][ACL][LD]ld_acl_rsw_tx_restore: rsw_par txdescptr = %X,cs txdescptr = %x txdone = %x,%x @ld_acl_rsw.c(125),WARNING" ID="0x8a0003eb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][ACL][LD]ld_acl_rsw_tx_restore: rsw_par txdescptr = %X,cs txdescptr = %x txdone = %x,%x @ld_acl_rsw.c(132),WARNING" ID="0x8a000423" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR][ACL][LD]ld_acl_rsw_tx_restore: rsw_par txdescptr = %X, cs txdescptr = %x txdone = %x,%x @ld_acl_rsw.c(139),ERROR" ID="0x8a00045a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][RSW][LD]ld_acl_rsw_end:reason=%d,role=%d,sp.SpTId=%d,link.Role=%d @ld_acl_rsw.c(246),INFO" ID="0x8a0007b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]RSW TDD failed, apply AFH that took effect during TDD @ld_acl_rsw.c(265),INFO" ID="0x8a00084d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LD]ld_acl_rsw_start:timestamp=0x%x, asap_limit=0x%x, afhena=%d, role=%d @ld_acl_rsw.c(362),WARNING" ID="0x8a000b53" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_rsw_start fail link_id=%d @ld_acl_rsw.c(383),WARNING" ID="0x8a000bfb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]ld_acl_rsw_evt_start_cbk: timestamp=0x%x, new_con_end_ts=0x%x cs_idx=%d, calc att_nb=%d @ld_acl_rsw.c(433),INFO" ID="0x8a000d8d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]ld_acl_rsw_evt_canceled_cbk:timestamp(0x%x)clk(0x%x)prio(%d) @ld_acl_rsw.c(467),WARNING" ID="0x8a000e9b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_acl_rsw.c(508),WARNING" ID="0x8a000fe3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]acl_par-&gt;nb_prog = %d @ld_acl_rsw.c(693),ERROR" ID="0x8a0015aa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][LD]ld_acl_rsw_clk_sket_isr:clock=%d , evt ts=%d, lastrxseqn=%d @ld_acl_rsw.c(708),WARNING" ID="0x8a001623" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]acl_par-&gt;nb_prog = %d @ld_acl_rsw.c(722),ERROR" ID="0x8a001692" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][LD]ld_acl_rsw_clk_frm_isr rsw to acl, lid=%d clk=%d, nb_prog=%d @ld_acl_rsw.c(759),WARNING" ID="0x8a0017bb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_rsw_clk_frm_isr:lastrxseqn=%d @ld_acl_rsw.c(770),WARNING" ID="0x8a001813" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][LD]ld_acl_rsw_clk_frm_isr rsw fail,lid=%d,clk=%d,nbprog=%d @ld_acl_rsw.c(773),WARNING" ID="0x8a00182b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LD]ld_acl_rsw_clk_frm_isr:timestamp=%d , step=%d @ld_acl_rsw.c(790),WARNING" ID="0x8a0018b3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LD]ld_acl_rsw_clk_frm_isr:timestamp=%d , mode=%d @ld_acl_rsw.c(800),WARNING" ID="0x8a001903" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_rsw_frm_isr:lastrxseqn=%d @ld_acl_rsw.c(864),WARNING" ID="0x8a001b03" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ld_acl_rsw_rx nb_rx = %d @ld_acl_rsw.c(948),WARNING" ID="0x8a001da3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_acl_rsw.c(997),WARNING" ID="0x8a001f2b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LD_ACL]lc_switch_cmp after RSW FAIL, link_id=%d, rsw_fail_clk=%d, curr_clock=%d @ld_acl_rsw.c(1075),WARNING" ID="0x8a00219b" />
+			</MSG_LOG>

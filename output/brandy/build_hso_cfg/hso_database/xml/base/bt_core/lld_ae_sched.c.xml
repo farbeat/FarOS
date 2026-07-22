@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD]lld_evt_ext_adv_schedule:llc_env[%d]=0x%x @lld_ae_sched.c(71),INFO" ID="0x8818023d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD]lld_evt_ext_adv_schedule:adv expire stop @lld_ae_sched.c(77),INFO" ID="0x8818026d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pri_embuff failed @lld_ae_sched.c(166),ERROR" ID="0x88180532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ae_em_buf_tx_alloc failed @lld_ae_sched.c(174),ERROR" ID="0x88180572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLM]lld_ae_pdu_pack:tx desc alloc failed @lld_ae_sched.c(202),ERROR" ID="0x88180652" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][AE]lld_ae_pdu_pack:AE pdu pack fail @lld_ae_sched.c(248),ERROR" ID="0x881807c2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AE]lld_evt_ext_adv_aux_hw_schedule:duration_min=%d,end_pdu_offset=%d,end_pdu_dur=%d,non_conn.anchor=%d @lld_ae_sched.c(526),INFO" ID="0x88181075" />
+			</MSG_LOG>

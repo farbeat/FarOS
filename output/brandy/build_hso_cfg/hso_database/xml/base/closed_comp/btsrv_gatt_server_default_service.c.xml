@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][INFO] eatt support: %d @btsrv_gatt_server_default_service.c(43),INFO" ID="0xd818015d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] memcpy name fail @btsrv_gatt_server_default_service.c(52),ERROR" ID="0xd81801a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] memcpy appearance fail @btsrv_gatt_server_default_service.c(74),ERROR" ID="0xd8180252" />
+			</MSG_LOG>

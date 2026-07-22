@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_direct_write_with_attr: encryption not support! @soc_nv_storage.c(37),ERROR" ID="0xa06a012a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[NV] write key (key_id = 0x%x len = %d) ret = %d. takes %lld ms @soc_nv_storage.c(51),DBG" ID="0xa06a019e" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[NV] read key (key_id = 0x%x len = %d) ret = 0x%x. takes %lld ms @soc_nv_storage.c(115),DBG" ID="0xa06a039e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] get store status take %lld ms @soc_nv_storage.c(159),DBG" ID="0xa06a04fe" />
+			</MSG_LOG>

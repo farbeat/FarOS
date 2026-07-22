@@ -1,0 +1,70 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] connect_para_update parameter fail! @bt_at_cmd_gap.c(43),ERROR" ID="0xd888015a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] connect_para_update fail! @bt_at_cmd_gap.c(56),ERROR" ID="0xd88801c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_local_appearance parameter fail! @bt_at_cmd_gap.c(83),ERROR" ID="0xd888029a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_local_appearance fail! @bt_at_cmd_gap.c(88),ERROR" ID="0xd88802c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising parameter fail! @bt_at_cmd_gap.c(109),ERROR" ID="0xd888036a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising fail! @bt_at_cmd_gap.c(116),ERROR" ID="0xd88803a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising new data fail! @bt_at_cmd_gap.c(124),ERROR" ID="0xd88803e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising parameter fail! @bt_at_cmd_gap.c(133),ERROR" ID="0xd888042a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising_list parameter fail! @bt_at_cmd_gap.c(181),ERROR" ID="0xd88805aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising_list fail! @bt_at_cmd_gap.c(189),ERROR" ID="0xd88805ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising_list new data fail! @bt_at_cmd_gap.c(197),ERROR" ID="0xd888062a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_period_advertising_list parameter fail! @bt_at_cmd_gap.c(216),ERROR" ID="0xd88806c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] period_adv_create_sync parameter fail! @bt_at_cmd_gap.c(237),ERROR" ID="0xd888076a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] period_adv_create_sync fail! @bt_at_cmd_gap.c(249),ERROR" ID="0xd88807ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] period_termiate_sync parameter fail! @bt_at_cmd_gap.c(267),ERROR" ID="0xd888085a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] period_termiate_sync fail! @bt_at_cmd_gap.c(273),ERROR" ID="0xd888088a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] disable_extern_adv parameter fail! @bt_at_cmd_gap.c(301),ERROR" ID="0xd888096a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] disable_extern_adv fail! @bt_at_cmd_gap.c(307),ERROR" ID="0xd888099a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_extern_adv parameter fail! @bt_at_cmd_gap.c(359),ERROR" ID="0xd8880b3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_extern_adv fail! @bt_at_cmd_gap.c(364),ERROR" ID="0xd8880b62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_extern_adv new data fail! @bt_at_cmd_gap.c(371),ERROR" ID="0xd8880b9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_extern_adv fail! @bt_at_cmd_gap.c(396),ERROR" ID="0xd8880c62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] remove_extern_adv_by_adv_handle parameter fail! @bt_at_cmd_gap.c(422),ERROR" ID="0xd8880d32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] remove_extern_adv_by_adv_handle fail! @bt_at_cmd_gap.c(428),ERROR" ID="0xd8880d62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_handle fail! @bt_at_cmd_gap.c(462),ERROR" ID="0xd8880e72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_handle fail! @bt_at_cmd_gap.c(473),ERROR" ID="0xd8880eca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_handle need more param! @bt_at_cmd_gap.c(479),ERROR" ID="0xd8880efa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_type fail! @bt_at_cmd_gap.c(524),ERROR" ID="0xd8881062" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_type fail! @bt_at_cmd_gap.c(535),ERROR" ID="0xd88810ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_type need more param! @bt_at_cmd_gap.c(541),ERROR" ID="0xd88810ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] new data fail! @bt_at_cmd_gap.c(581),ERROR" ID="0xd888122a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] memcpy data fail! @bt_at_cmd_gap.c(601),ERROR" ID="0xd88812ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] memcpy data fail! @bt_at_cmd_gap.c(610),ERROR" ID="0xd8881312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] new data fail! @bt_at_cmd_gap.c(634),ERROR" ID="0xd88813d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] memcpy data fail! @bt_at_cmd_gap.c(656),ERROR" ID="0xd8881482" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] memcpy data fail! @bt_at_cmd_gap.c(665),ERROR" ID="0xd88814ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data_and_set_addr fail! @bt_at_cmd_gap.c(700),ERROR" ID="0xd88815e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data_and_set_addr param num err! @bt_at_cmd_gap.c(714),ERROR" ID="0xd8881652" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data_and_set_addr param num err! @bt_at_cmd_gap.c(725),ERROR" ID="0xd88816aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data_and_set_addr fail! @bt_at_cmd_gap.c(731),ERROR" ID="0xd88816da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data fail! @bt_at_cmd_gap.c(757),ERROR" ID="0xd88817aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data param num err! @bt_at_cmd_gap.c(769),ERROR" ID="0xd888180a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data param num err! @bt_at_cmd_gap.c(780),ERROR" ID="0xd8881862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_start_adv_by_adv_data fail! @bt_at_cmd_gap.c(786),ERROR" ID="0xd8881892" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_adv_enable param invaild! @bt_at_cmd_gap.c(805),ERROR" ID="0xd888192a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_extern_scan parameter fail! @bt_at_cmd_gap.c(836),ERROR" ID="0xd8881a22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_extern_scan fail! @bt_at_cmd_gap.c(853),ERROR" ID="0xd8881aaa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AT]ble_enter_scan comes!!! @bt_at_cmd_gap.c(884),INFO" ID="0xd8881ba5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_enter_scan parameter fail! @bt_at_cmd_gap.c(895),ERROR" ID="0xd8881bfa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_enter_scan parameter fail! @bt_at_cmd_gap.c(910),ERROR" ID="0xd8881c72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_resolve_addr_enable parameter fail! @bt_at_cmd_gap.c(932),ERROR" ID="0xd8881d22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_resolve_addr_enable parameter fail! @bt_at_cmd_gap.c(937),ERROR" ID="0xd8881d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_passkey_number parameter fail! @bt_at_cmd_gap.c(968),ERROR" ID="0xd8881e42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_passkey_number fail! @bt_at_cmd_gap.c(973),ERROR" ID="0xd8881e6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_pts_mode parameter fail! @bt_at_cmd_gap.c(990),ERROR" ID="0xd8881ef2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_pts_mode fail! @bt_at_cmd_gap.c(995),ERROR" ID="0xd8881f1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_global_value parameter fail! @bt_at_cmd_gap.c(1013),ERROR" ID="0xd8881faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_global_value fail! @bt_at_cmd_gap.c(1019),ERROR" ID="0xd8881fda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_le_conn_param parameter fail! @bt_at_cmd_gap.c(1037),ERROR" ID="0xd888206a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_le_conn_param fail! @bt_at_cmd_gap.c(1045),ERROR" ID="0xd88820aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AT]set_hci_le_event_mask comes!!! @bt_at_cmd_gap.c(1061),INFO" ID="0xd888212d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_hci_le_event_mask parameter fail! @bt_at_cmd_gap.c(1065),ERROR" ID="0xd888214a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_hci_le_event_mask fail! Wrong flag. 1: set mask, 0: reset mask. @bt_at_cmd_gap.c(1071),ERROR" ID="0xd888217a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_hci_le_event_mask fail! @bt_at_cmd_gap.c(1079),ERROR" ID="0xd88821ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_le_att_mtu_param parameter fail! @bt_at_cmd_gap.c(1097),ERROR" ID="0xd888224a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_le_att_mtu_param fail! @bt_at_cmd_gap.c(1103),ERROR" ID="0xd888227a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] smp_set_key_from_btc parameter fail! @bt_at_cmd_gap.c(1129),ERROR" ID="0xd888234a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] smp_set_key_from_btc fail! @bt_at_cmd_gap.c(1134),ERROR" ID="0xd8882372" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] smp_set_key_from_btc is_key_from_btc(%u) error! @bt_at_cmd_gap.c(1139),ERROR" ID="0xd888239a" />
+			</MSG_LOG>

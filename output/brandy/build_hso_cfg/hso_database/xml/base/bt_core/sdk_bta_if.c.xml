@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="SDK_BTA: passkey notif ind:%02x:**:**:**:%02x @sdk_bta_if.c(37),INFO" ID="0x8d08012d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SDK_BTA: simple pair complete ind:%02x:**:**:**:%02x @sdk_bta_if.c(50),INFO" ID="0x8d080195" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SDK_BTA: SimplePairComplete result:%#x @sdk_bta_if.c(51),INFO" ID="0x8d08019d" />
+			</MSG_LOG>

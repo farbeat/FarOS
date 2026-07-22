@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[CIS]zip phy err @lld_cis.c(79),ERROR" ID="0x89d2027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CIS]unzip phy err @lld_cis.c(89),ERROR" ID="0x89d202ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[IST]zero type:abnormality rxlen:%d @lld_cis.c(261),INFO" ID="0x89d2082d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[IST]zero type,rx_pkt_cnt: 0x%x @lld_cis.c(267),INFO" ID="0x89d2085d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[IST]data_length illegal, data_length = 0x%x @lld_cis.c(273),ERROR" ID="0x89d2088a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CIS_TEST]rx_data_alloc_buff_fail @lld_cis.c(278),INFO" ID="0x89d208b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[IST]pkt_cnt 0x%x, rx_pkt_cnt 0x%x, miss_pkt_cnt 0x%x, fail_pkt_cnt 0x%x @lld_cis.c(343),INFO" ID="0x89d20abd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]lld_util_get_cis_elt:llc_env_ext_ptr-&gt;cis_conhdl[cis_idx]%d @lld_cis.c(361),INFO" ID="0x89d20b4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]evt-&gt;icochnl.cis_id%d,cis_conhdl%d @lld_cis.c(365),INFO" ID="0x89d20b6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]lld_util_get_cis_elt:cis_conhd=%d, cis_idx = %d @lld_cis.c(382),INFO" ID="0x89d20bf5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS_PRI]lld_cis_primary_instant_launch conhdl=%d, counter=%d, time=0x%x, offset=%d  @lld_cis.c(413),INFO" ID="0x89d20ced" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS_SEC]lld_cis_second_instant_launch last_conhdl=%d, counter=%d, time=0x%x, offset=%d  @lld_cis.c(425),INFO" ID="0x89d20d4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CIS]lld_cis_primary_channel_start Fail @lld_cis.c(449),ERROR" ID="0x89d20e0a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CIS]lld_cis_primary_channel_start ts=%d, dur_min=%d, cis_conhdl=%d @lld_cis.c(481),INFO" ID="0x89d20f0d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CIS]channel 0 next_conhdl=%d, curr_cs is 0x%x, ch_num is %d @lld_cis.c(491),INFO" ID="0x89d20f5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CIS]lld_cis_primary_channel_start Fail @lld_cis.c(497),ERROR" ID="0x89d20f8a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MULTI_CIS]lld_util_idx_get_cis_conhdl:cis_conhdl:%d,acl_conhdl:%d,idx:%d @lld_cis.c(509),INFO" ID="0x89d20fed" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt desktop:led_status:%d. @bt_desktop.c(58),INFO" ID="0xd87a01d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] bt desktop svr proc cmdid:0x%02X pay_len:%d. @bt_desktop.c(69),INFO" ID="0xd87a022d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt desktop svr proc command id:0x%02X invaild. @bt_desktop.c(85),ERROR" ID="0xd87a02aa" />
+			</MSG_LOG>

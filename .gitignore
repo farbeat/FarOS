@@ -12,6 +12,6 @@ tools/**
 # kernel/**
 # middleware/**
 # open_source/**
-output/**
-protocol/**
-vendor/**
+# output/**
+# protocol/**
+# vendor/**

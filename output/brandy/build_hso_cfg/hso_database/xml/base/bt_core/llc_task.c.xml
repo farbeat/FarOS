@@ -1,0 +1,28 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LLC]lld_adv_stop_ind_llc_handler:conhdl=0x%x @llc_task.c(415),ERROR" ID="0x883a0cfa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][PHY]llc_priv_uhd_ud_ind_handler:discard the message @llc_task.c(650),WARNING" ID="0x883a1453" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLC][IND]llc_priv_uhd_ud_ind_handler:current_txphy=%d, current_rxphy=%d, real_txphy=%d, real_rxphy=%d @llc_task.c(681),INFO" ID="0x883a154d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLC][PHY]llc_priv_uhd_ud_ind_handler:flag=%d, phy_up_req_flag=%d @llc_task.c(684),INFO" ID="0x883a1565" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLC]llc_env_ptr-&gt;rem_proc_state%d @llc_task.c(685),INFO" ID="0x883a156d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLC]llc_priv_uhd_ud_ind_handler_v1,real_uhd_phy%d,new_uhd_phy%d @llc_task.c(695),INFO" ID="0x883a15bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLC]llc_priv_uhd_ud_ind_handler_v1,tx_uhd_capability%d,tx_polar%d @llc_task.c(702),INFO" ID="0x883a15f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[VoiceID]llc_con_voiceid_req_ind_handler:state=%x @llc_task.c(802),INFO" ID="0x883a1915" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[VoiceID]llc_con_voiceid_req_ind_handler:conhdl=0x%x, action=%d, state=%x, voiceid_state=%d @llc_task.c(808),INFO" ID="0x883a1945" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[VoiceID]save voiceid_req_ind msg:state=%x, voiceid state=%d @llc_task.c(814),INFO" ID="0x883a1975" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[VoiceID]start on process @llc_task.c(822),INFO" ID="0x883a19b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[VoiceID]start off process:subrate_bak=%d @llc_task.c(832),INFO" ID="0x883a1a05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[VoiceID]llc_con_voiceid_to_handler:conhdl=0x%x, state=%x @llc_task.c(854),INFO" ID="0x883a1ab5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[VoiceID]llc_con_voiceid_to_handler conhdl %d state  %d loc_proc_state %d @llc_task.c(864),INFO" ID="0x883a1b05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[VoiceID]Timeout turn off @llc_task.c(868),INFO" ID="0x883a1b25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[VoiceID]subrate timeout:process voiceid on @llc_task.c(884),INFO" ID="0x883a1ba5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CHR]llc_con_chr_req_ind_handler:conhdl=0x%x,operation=%d proc_state %d @llc_task.c(944),INFO" ID="0x883a1d85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CHR]state=%x @llc_task.c(949),INFO" ID="0x883a1dad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR]state=%x save msg chr state %d @llc_task.c(954),INFO" ID="0x883a1dd5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR]llc_con_chr_loc_req:conhdl=0x%x, action=%d @llc_task.c(971),INFO" ID="0x883a1e5d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR] start on max_subrate %d min_subrate %d @llc_task.c(983),INFO" ID="0x883a1ebd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CHR] start off process subrate_bak %d @llc_task.c(989),INFO" ID="0x883a1eed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR] recovery subrate off max_subrate %d min_subrate %d @llc_task.c(994),INFO" ID="0x883a1f15" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]llc_cis_update_handler:instant:%d,counter:%d,interval:%d,ch_offset_max:%d @llc_task.c(1139),INFO" ID="0x883a239d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CIS]llc_cis_update_handler:timestamp:%d,ft_m2s:%d, ft_s2m:%d @llc_task.c(1141),INFO" ID="0x883a23ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CIS]llc_cis_rx_mic_err_handler:termination due to mic err @llc_task.c(1255),ERROR" ID="0x883a273a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][CIS]llc_env or cis param is NULL @llc_task.c(1257),WARNING" ID="0x883a274b" />
+			</MSG_LOG>

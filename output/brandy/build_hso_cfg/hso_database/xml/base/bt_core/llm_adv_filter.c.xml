@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO]llm_le_filter_judge_deli_del:filter_index=0X%x,elt=0x%x,onfd_filter_nb=0x%x @llm_adv_filter.c(164),INFO" ID="0x899a0525" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][Osca] start HEARTBEAT @llm_adv_filter.c(966),INFO" ID="0x899a1e35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llm_le_scan_filter_report tx_evt = false @llm_adv_filter.c(1005),WARNING" ID="0x899a1f6b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]llm_le_adv_sol_uuid_insert:count=%d, len_cpy = %d, bit_type = 0x%x, len_tmp=%d @llm_adv_filter.c(1156),INFO" ID="0x899a2425" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][LLM]llm_le_adv_pkt_record:len_tmp=0x%x,adv_total_len=0x%x,position=%d @llm_adv_filter.c(1320),WARNING" ID="0x899a2943" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_adv_report_send:no adv report evt send to host @llm_adv_filter.c(1720),WARNING" ID="0x899a35c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]llm_le_onfound_list_delete found next = NULL @llm_adv_filter.c(1871),ERROR" ID="0x899a3a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLM][ERROR]llm_le_adv_save_onfound_list @llm_adv_filter.c(1979),ERROR" ID="0x899a3dda" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]llm_find_onfd_list_to:count = 0x%d, idx = 0x%d @llm_adv_filter.c(2086),ERROR" ID="0x899a4132" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]llm_le_batch_scan_full_data_results:cur_time=0x%x, full_data_time=0x%x @llm_adv_filter.c(2248),ERROR" ID="0x899a4642" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]llm_le_read_batch_scan_results:cur_time=0x%x, trunc_data_time=0x%x @llm_adv_filter.c(2305),ERROR" ID="0x899a480a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]lld_stop_batch_scan_elt:batch_scan_state=%d, batch_scan_elt=0x%x @llm_adv_filter.c(2821),WARNING" ID="0x899a582b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLM]llm_set_batch_scan_en:scan_en=%d @llm_adv_filter.c(2873),INFO" ID="0x899a59cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][AE]llm_ae_report_legacy_adv_ind llm_util_check_evt_mask FAILE  @llm_adv_filter.c(2961),INFO" ID="0x899a5c8d" />
+			</MSG_LOG>

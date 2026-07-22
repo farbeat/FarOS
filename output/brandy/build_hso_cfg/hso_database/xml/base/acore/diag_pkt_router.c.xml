@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="diag pkt send ack @diag_pkt_router.c(101),DBG" ID="0xa094032e" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="diag pkt check crc error! frame_crc = 0x%x crc_val = 0x%x @diag_pkt_router.c(182),ERROR" ID="0xa09405b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the SN of package is incorrect. @diag_pkt_router.c(229),ERROR" ID="0xa094072a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][diag_pkt_router_enqueue][%d][errcode=%u] @diag_pkt_router.c(277),ERROR" ID="0xa09408aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="diag pkt mfs error! valid_mfs = 0x%x @diag_pkt_router.c(366),ERROR" ID="0xa0940b72" />
+			</MSG_LOG>

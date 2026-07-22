@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO]hci_cmd_local_loopback_received:opcode = 0x%x @hci_tl_ram.c(109),INFO" ID="0x88ca036d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]hci_cmd_local_loopback_received:opcode_lpck = 0x%x @hci_tl_ram.c(113),INFO" ID="0x88ca038d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]hci_cmd_local_loopback_received:opcode = 0x%x, loopback = %d @hci_tl_ram.c(141),INFO" ID="0x88ca046d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hci_tl_tx_start_poll_timer @hci_tl_ram.c(260),INFO" ID="0x88ca0825" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTTL]Send To Host Message Error msg id: %x @hci_tl_ram.c(299),WARNING" ID="0x88ca095b" />
+			</MSG_LOG>

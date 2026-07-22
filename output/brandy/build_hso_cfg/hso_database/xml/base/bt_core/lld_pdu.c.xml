@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Get txnode = NULL @lld_pdu.c(157),ERROR" ID="0x885204ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BLE]lld_pdu_tx_prog:tx_add=0 @lld_pdu.c(431),WARNING" ID="0x88520d7b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]AGC_RSSI_GFSK=%d, AGC_RSSI_DPSK=%d ,AGC_CTR=0x%x @lld_pdu.c(544),INFO" ID="0x88521105" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]ANTENNA_DBM_LOCK_MAX=%d, ANTENNA_DBM_PAYLOAD=%d, GFSK_CFO_MAX=%d, GFSK_CFO_Min=%d @lld_pdu.c(550),INFO" ID="0x88521135" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]CFO_AVG=%d, CFO_DEL_MAX=%d @lld_pdu.c(553),INFO" ID="0x8852114d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE ACL] conhdl=%d, status:0x%04x, length:%d, rxflush|rxdone|cie:%08x @lld_pdu.c(582),INFO" ID="0x88521235" />
+			</MSG_LOG>

@@ -1,0 +1,25 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="bnep addr is null. @bnep_ui.c(54),ERROR" ID="0x8e7801b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(59),ERROR" ID="0x8e7801da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep addr is null. @bnep_ui.c(70),ERROR" ID="0x8e780232" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(75),ERROR" ID="0x8e78025a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep addr is null. @bnep_ui.c(90),ERROR" ID="0x8e7802d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(95),ERROR" ID="0x8e7802fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep remote is null @bnep_ui.c(113),ERROR" ID="0x8e78038a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep protocol type is not matched @bnep_ui.c(117),ERROR" ID="0x8e7803aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(122),ERROR" ID="0x8e7803d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy payload fail. @bnep_ui.c(136),ERROR" ID="0x8e780442" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep remote is null @bnep_ui.c(149),ERROR" ID="0x8e7804aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep protocol type is not matched @bnep_ui.c(153),ERROR" ID="0x8e7804ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(158),ERROR" ID="0x8e7804f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy payload fail. @bnep_ui.c(174),ERROR" ID="0x8e780572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep remote is null @bnep_ui.c(187),ERROR" ID="0x8e7805da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep protocol type is not matched @bnep_ui.c(191),ERROR" ID="0x8e7805fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(196),ERROR" ID="0x8e780622" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy payload fail. @bnep_ui.c(208),ERROR" ID="0x8e780682" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep remote is null @bnep_ui.c(221),ERROR" ID="0x8e7806ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep protocol type is not matched @bnep_ui.c(225),ERROR" ID="0x8e78070a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy addr fail. @bnep_ui.c(230),ERROR" ID="0x8e780732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy payload fail. @bnep_ui.c(250),ERROR" ID="0x8e7807d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep remote is null @bnep_ui.c(262),ERROR" ID="0x8e780832" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bnep memcpy local address fail @bnep_ui.c(266),ERROR" ID="0x8e780852" />
+			</MSG_LOG>

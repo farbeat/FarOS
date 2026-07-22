@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="pts pan conn parameter fail! @bt_at_cmd_pan.c(30),ERROR" ID="0xd8c800f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan conn addr fail! @bt_at_cmd_pan.c(34),ERROR" ID="0xd8c80112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan disconn parameter fail! @bt_at_cmd_pan.c(45),ERROR" ID="0xd8c8016a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan disconn addr fail! @bt_at_cmd_pan.c(49),ERROR" ID="0xd8c8018a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan filter protocol parameter fail! @bt_at_cmd_pan.c(60),ERROR" ID="0xd8c801e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan filter protocol addr fail! @bt_at_cmd_pan.c(64),ERROR" ID="0xd8c80202" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan filter multiaddr parameter fail! @bt_at_cmd_pan.c(75),ERROR" ID="0xd8c8025a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan filter multiaddr addr fail! @bt_at_cmd_pan.c(79),ERROR" ID="0xd8c8027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan ethernet parameter fail! @bt_at_cmd_pan.c(91),ERROR" ID="0xd8c802da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts pan ethernet addr fail! @bt_at_cmd_pan.c(95),ERROR" ID="0xd8c802fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp conn version_type invaild! @bt_at_cmd_pan.c(99),ERROR" ID="0xd8c8031a" />
+			</MSG_LOG>

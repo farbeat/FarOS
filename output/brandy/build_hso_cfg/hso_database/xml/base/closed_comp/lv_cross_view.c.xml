@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(140),ERROR" ID="0xc98c0462" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(165),ERROR" ID="0xc98c052a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(211),ERROR" ID="0xc98c069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="There are no horizontal pages currently @lv_cross_view.c(240),WARNING" ID="0xc98c0783" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(258),ERROR" ID="0xc98c0812" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="The current location page already exists. @lv_cross_view.c(265),ERROR" ID="0xc98c084a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(300),ERROR" ID="0xc98c0962" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] The current page does not exist. @lv_cross_view.c(305),ERROR" ID="0xc98c098a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(326),ERROR" ID="0xc98c0a32" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(363),ERROR" ID="0xc98c0b5a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(372),ERROR" ID="0xc98c0ba2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(386),ERROR" ID="0xc98c0c12" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(425),ERROR" ID="0xc98c0d4a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] param error!!! @lv_cross_view.c(478),ERROR" ID="0xc98c0ef2" />
+			</MSG_LOG>

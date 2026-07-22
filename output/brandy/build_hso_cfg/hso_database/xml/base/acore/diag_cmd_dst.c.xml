@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="diag_pkt_router_run_cmd: cmd_id = 0x%x param_size = %u @diag_cmd_dst.c(117),DBG" ID="0xa08a03ae" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="diag_pkt_router_run_cmd: call cmd func! cmd_id=0x%x param_size=%u @diag_cmd_dst.c(121),DBG" ID="0xa08a03ce" />
+			</MSG_LOG>

@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEM_DBG][MEM_STATS_INFO]osHeapStatisticsGet return fail @debug.c(1156),INFO" ID="0x8c442425" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[MEM_DBG][MEM_STATS_INFO]HEAP TOTAL_SIZE = %u, USED_SIZE = %u, UNUSED_SIZE = %u, MAX_FREE_NODE_SIZE = %u,&quot; &quot;ALLOC_TOTAL_COUNT = %u, FREE_TOTAL_COUNT = %u @debug.c(1167),INFO" ID="0x8c44247d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEM_DBG][MEM_STATS_INFO]osSlabStatisticsGet return fail @debug.c(1176),INFO" ID="0x8c4424c5" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[MEM_DBG][MEM_STATS_INFO]SLAB TOTAL_SIZE = %u, USED_SIZE = %u, UNUSED_SIZE = %u, MAX_FREE_NODE_SIZE = %u,&quot; &quot;ALLOC_TOTAL_COUNT = %u, FREE_TOTAL_COUNT = %u @debug.c(1187),INFO" ID="0x8c44251d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_NEW_EXT]NEW_FILE_ID=%u, NEW_LINE=%u, SIZE=%u, no memory @debug.c(1238),INFO" ID="0x8c4426b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[MEM_DBG][MEM_LEAK_FREE]0x%p free fail and not inited @debug.c(1272),WARNING" ID="0x8c4427c3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_FREE]NEW_FILE_ID=%u, NEW_LINE=%u, 0x%p is invalid @debug.c(1281),WARNING" ID="0x8c44280b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_FREE]NEW_FILE_ID=%u, NEW_LINE=%u, 0x%p free fail @debug.c(1287),WARNING" ID="0x8c44283b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEM_DBG][MEM_LEAK_CLEAR]clear memory dump data @debug.c(1296),INFO" ID="0x8c442885" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEM_DBG][MEM_LEAK_DUMP]dump start @debug.c(1307),INFO" ID="0x8c4428dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[MEM_DBG][MEM_LEAK_DUMP]MEMORY_ADDRESS=0x%p, NEW_FILE_ID=%u, NEW_LINE=%u, SIZE=%u @debug.c(1316),INFO" ID="0x8c442925" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[MEM_DBG][MEM_LEAK_DUMP]MEMORY_LEAK_TOTAL_BLOCK=%u, MEMORY_LEAK_TOTAL_SIZE=%u, dump end @debug.c(1327),INFO" ID="0x8c44297d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEM_DBG][MEM_LEAK_DUMP]Does not init @debug.c(1337),INFO" ID="0x8c4429cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_NEW_EXT]NEW_FILE_ID=%u, NEW_LINE=%u, SIZE=%u, no memory @debug.c(1383),INFO" ID="0x8c442b3d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_NEW]NEW_FILE_ID=%u, NEW_LINE=%u, SIZE=%u, no memory @debug.c(1417),INFO" ID="0x8c442c4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[MEM_DBG][MEM_LEAK_FREE]0x%p free fail and not inited @debug.c(1436),WARNING" ID="0x8c442ce3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_FREE]NEW_FILE_ID=%u, NEW_LINE=%u, 0x%p is invalid @debug.c(1454),WARNING" ID="0x8c442d73" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_FREE]NEW_FILE_ID=%u, NEW_LINE=%u, 0x%p free fail @debug.c(1458),WARNING" ID="0x8c442d93" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_LEAK_NEW_EXT]FILE_ID=%u, LINE=%u, SIZE=%u, no memory @debug.c(1471),INFO" ID="0x8c442dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[MEM_DBG][MEM_LEAK_FREE]0x%p free fail @debug.c(1492),WARNING" ID="0x8c442ea3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_DBG][MEM_INTEGRITY_CHECK]FILE_ID=%u, LINE=%u, ERROR_CODE=%u, check fail @debug.c(1506),INFO" ID="0x8c442f15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[MEM_DBG][MEM_CPY_CHECK]HEAP_ADDRESS=0x%p, DEST_ADDRESS=0x%p, dest is invalid @debug.c(1589),INFO" ID="0x8c4431ad" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[MEM_DBG][MEM_CPY_CHECK]HEAP_ADDRESS=0x%p, DEST_ADDRESS=0x%p, HEAP_SIZE=%u, DEST_SIZE=%u, OFFSET=%u @debug.c(1598),INFO" ID="0x8c4431f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[MEM_DBG][MEM_SET_CHECK]HEAP_ADDRESS=0x%p, DEST_ADDRESS=0x%p, dest is invalid @debug.c(1618),INFO" ID="0x8c443295" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[MEM_DBG][MEM_CPY_CHECK]HEAP_ADDRESS=0x%p, DEST_ADDRESS=0x%p, HEAP_SIZE=%u, DEST_SIZE=%u, OFFSET=%u @debug.c(1627),INFO" ID="0x8c4432dd" />
+			</MSG_LOG>

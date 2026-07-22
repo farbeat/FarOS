@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lc_uhd_phy_set Exit(0x%x) @lc_lmp_uhd.c(83),INFO" ID="0x89a0029d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lc_send_pdu_bt_uhd_req @lc_lmp_uhd.c(88),INFO" ID="0x89a002c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lmp_bt_uhd_req_handler Enter! State=%d @lc_lmp_uhd.c(139),INFO" ID="0x89a0045d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LMP]lmp_bt_uhd_req_handler feats not support! @lc_lmp_uhd.c(151),INFO" ID="0x89a004bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lmp_bt_uhd_res_handler Enter! State=%d @lc_lmp_uhd.c(243),INFO" ID="0x89a0079d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lmp_bt_uhd_upd_handler Enter! State=%d @lc_lmp_uhd.c(279),INFO" ID="0x89a008bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_get_phy_switch_instatnt:LinkId=0x%x, phy_instant=0x%x @lc_lmp_uhd.c(306),INFO" ID="0x89a00995" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]lc_lmp_rsp_to_bt_uhd_handler @lc_lmp_uhd.c(317),INFO" ID="0x89a009ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LC]lc_bt_uhd_set_phy_evt_report Exit @lc_lmp_uhd.c(396),INFO" ID="0x89a00c65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lmp_uhd_send_pref_phy_req expt_rxhphy=%d @lc_lmp_uhd.c(401),INFO" ID="0x89a00c8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lmp_bt_uhd_pref_phy_req_handler Enter! State=%d @lc_lmp_uhd.c(415),INFO" ID="0x89a00cfd" />
+			</MSG_LOG>

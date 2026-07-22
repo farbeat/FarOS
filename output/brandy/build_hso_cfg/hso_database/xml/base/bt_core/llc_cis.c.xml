@@ -1,0 +1,41 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][CIS]cig_param is null @llc_cis.c(115),WARNING" ID="0x89d0039b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]calc tx_latency result, tx_latency_m2s:%d, tx_latency_s2m:%d @llc_cis.c(179),INFO" ID="0x89d0059d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]m2s_phy:%d, s2m_phy:%d @llc_cis.c(190),INFO" ID="0x89d005f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]llm_cis_get_se_length:align:%d;se_length:%d,cis_param-&gt;m2s_phy:%d,cis_param-&gt;s2m_phy:%d @llc_cis.c(225),INFO" ID="0x89d0070d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llm_cis_get_se_length:cis_param:%d;align:%d @llc_cis.c(227),WARNING" ID="0x89d0071b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLC]llc_util_store_rem_cis_param: cis_parm alloc fail! @llc_cis.c(249),WARNING" ID="0x89d007cb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="input_param :cig_id:%d, sdu_intv_m2s:%d, sdu_intv_s2m:%d, iso_intv:%d @llc_cis.c(307),INFO" ID="0x89d0099d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_util_store_rem_cis_param :arrangement=%d, cis_id=%d, sdu_intv_m2s=%d, sdu_intv_s2m=%d @llc_cis.c(309),INFO" ID="0x89d009ad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_util_store_rem_cis_param :ftm2s=%d, fts2m=%d, chnl_intv=%d, framing=%d @llc_cis.c(311),INFO" ID="0x89d009bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_util_store_rem_cis_param :pdum2s=%d, pdus2m=%d, sdum2s=%d, sdus2m=%d @llc_cis.c(313),INFO" ID="0x89d009cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_util_store_rem_cis_param :bnm2s=%d, bns2m=%d, phym2s=%d, phys2m=%d @llc_cis.c(315),INFO" ID="0x89d009dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_util_store_rem_cis_param :nse=%d, cis_param-&gt;sub_evt_interval=%d, cs_ch_offset:%d @llc_cis.c(317),INFO" ID="0x89d009ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_set_cis_param : alloc fail! @llc_cis.c(370),INFO" ID="0x89d00b95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cis_param address exist @llc_cis.c(374),INFO" ID="0x89d00bb5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :cig_id=%d, cis_id=%d, sdu_intv_m2s=%d, sdu_intv_s2m=%d @llc_cis.c(485),INFO" ID="0x89d00f2d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :ftm2s=%d, fts2m=%d, chnl_intv=%d, packing=%d @llc_cis.c(487),INFO" ID="0x89d00f3d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :pdum2s=%d, pdus2m=%d, sdum2s=%d, sdus2m=%d @llc_cis.c(490),INFO" ID="0x89d00f55" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_test_set_cis_param :bnm2s=%d, bns2m=%d, phym2s=%d, phys2m=%d @llc_cis.c(492),INFO" ID="0x89d00f65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llc_test_set_cis_param :nse=%d, arrangement=%d @llc_cis.c(494),INFO" ID="0x89d00f75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_test_set_cis_param : alloc fail! @llc_cis.c(496),INFO" ID="0x89d00f85" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CIS]channel interval=%dus, ACL interval=%d, sup to=%d * 10ms @llc_cis.c(529),INFO" ID="0x89d0108d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]Enter Slave Update handler ts=%d, instant=%d, counter=%d, interval=%d @llc_cis.c(533),WARNING" ID="0x89d010ab" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO] Instant passed. First_ico_anchor_ts=%d, acl_instant=%d, current_acl_counter=%d, acl_interval=%d @llc_cis.c(554),WARNING" ID="0x89d01153" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]llc_cis_recv_connect aa=0x%x%x%x%x @llc_cis.c(617),INFO" ID="0x89d0134d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]llc_cis_recv_connect:ch_offset:%d, cig_delay:%d, cis_delay:%d, instant:%d @llc_cis.c(619),INFO" ID="0x89d0135d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="last_ch_offset:%d, ch_offset_max:%d, cis_handle:%d @llc_cis.c(724),INFO" ID="0x89d016a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llc_util_get_cis_conhdl:cis_conhdl%d,cis_id%d @llc_cis.c(750),INFO" ID="0x89d01775" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_util_get_acl_conhdl:acl_conhdl %d @llc_cis.c(759),INFO" ID="0x89d017bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="cis_param_ext malloc failed, 0x%x, 0x%x @llc_cis.c(774),ERROR" ID="0x89d01832" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]master:,cis_idx:%d,cis_id:%d,cis_conhdl:%d,acl_conhdl:%d @llc_cis.c(803),INFO" ID="0x89d0191d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CIS]master:idx:%d, cis_ptr-&gt;curr_idx:%d, cig_id:%d @llc_cis.c(805),INFO" ID="0x89d0192d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]slave:cis_id_tag[%d]:%d,cis_conhdl%d,acl_conhdl%d @llc_cis.c(836),INFO" ID="0x89d01a25" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLM]conn-&gt;cig_id=%d,conn-&gt;cis_idx=%d,conn-&gt;cis_cs_idx=%d,conn-&gt;acl_conhdl=%d @llc_cis.c(859),INFO" ID="0x89d01add" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLM]conn-&gt;cis_id=%d @llc_cis.c(860),INFO" ID="0x89d01ae5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llc_del_cis_link: free cis_param_ext. addr=0x%x, conhdl=%d @llc_cis.c(905),INFO" ID="0x89d01c4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]current idx=0x%x, current_cis_conhdl=0x%x @llc_cis.c(914),INFO" ID="0x89d01c95" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]llc_del_cis_link: free llc_env_ext. addr=0x%x, conhdl=%d @llc_cis.c(921),INFO" ID="0x89d01ccd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]disconnect command, create cis not deliver conhdl=%d @llc_cis.c(933),INFO" ID="0x89d01d2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]disconnect command, cis not active conhdl=%d @llc_cis.c(946),INFO" ID="0x89d01d95" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]disconnect cis conhdl:0x%x, reason:0x%x @llc_cis.c(955),INFO" ID="0x89d01ddd" />
+			</MSG_LOG>

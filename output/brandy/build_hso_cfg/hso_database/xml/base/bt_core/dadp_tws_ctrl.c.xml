@@ -1,0 +1,65 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[DADP][PRINT_DISCONTINUOUS_SN]LAST_SN=%u, CUR_SN=%u @dadp_tws_ctrl.c(103),INFO" ID="0x8c3e033d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DADP][MEDIA_DATA]DATA_LENGTH=%d, SN=%d, TIMESTAMP=%d @dadp_tws_ctrl.c(109),INFO" ID="0x8c3e036d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][SYNC_RENDER_REQ]toggle_diff=%d @dadp_tws_ctrl.c(136),INFO" ID="0x8c3e0445" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO]ipc send data fail ret=% @dadp_tws_ctrl.c(157),ERROR" ID="0x8c3e04ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DADP][BT-&gt;BT][SEND_PEER_PRIV_MSG]msg_type=%d, data_len=%d @dadp_tws_ctrl.c(200),INFO" ID="0x8c3e0645" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][STOP_TOGGLE_FAIL]par is null @dadp_tws_ctrl.c(221),WARNING" ID="0x8c3e06eb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][STOP_TOGGLE_FAIL] @dadp_tws_ctrl.c(228),ERROR" ID="0x8c3e0722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][STOP_TOGGLE] @dadp_tws_ctrl.c(239),INFO" ID="0x8c3e077d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][GET_TOGGLE_FAIL]par is null @dadp_tws_ctrl.c(266),WARNING" ID="0x8c3e0853" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][GET_TOGGLE_FAIL]toggleCnt is invalid @dadp_tws_ctrl.c(275),WARNING" ID="0x8c3e089b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][GET_TOGGLE_RESULT]toggleCnt=%u @dadp_tws_ctrl.c(280),INFO" ID="0x8c3e08c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][GET_BTCLK_FAIL]par is null @dadp_tws_ctrl.c(313),WARNING" ID="0x8c3e09cb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DADP][GET_BTCLK_RESULT]btClk=0x%x, toggleCnt=%u @dadp_tws_ctrl.c(320),INFO" ID="0x8c3e0a05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][GET_BTCLK] @dadp_tws_ctrl.c(336),INFO" ID="0x8c3e0a85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][SEND_AUDIO_RSP_FAIL]ret=%d @dadp_tws_ctrl.c(364),ERROR" ID="0x8c3e0b62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][AUDIO-&gt;BT][AUDIO_CRAZY_MSG] @dadp_tws_ctrl.c(388),WARNING" ID="0x8c3e0c23" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][AUDIO-&gt;BT][PUT_AUDIO_RENDER_REQ]toggleCnt=%d @dadp_tws_ctrl.c(392),INFO" ID="0x8c3e0c45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DADP][SET_AUDIO_SCENE]MOBILE_SCENE=%d, DADP_SCENE=%d @dadp_tws_ctrl.c(478),INFO" ID="0x8c3e0ef5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][START_TOGGLE_FAIL]par is null @dadp_tws_ctrl.c(494),WARNING" ID="0x8c3e0f73" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][START_TOGGLE_RESULT]status=%d @dadp_tws_ctrl.c(502),INFO" ID="0x8c3e0fb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][START_TOGGLE_ACCORD_BTCLK]toggle is start @dadp_tws_ctrl.c(519),WARNING" ID="0x8c3e103b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][START_TOGGLE_ACCORD_BTCLK] @dadp_tws_ctrl.c(525),INFO" ID="0x8c3e106d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][RECV_PRIV_REQ_MSG]buf is null len=%d @dadp_tws_ctrl.c(558),WARNING" ID="0x8c3e1173" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;BT][RECV_PRIV_REQ_MSG]audio is not streaming @dadp_tws_ctrl.c(563),WARNING" ID="0x8c3e119b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DADP][BT-&gt;BT][RECV_PRIV_REQ_MSG]timeStamp=%d, btClk=0x%x, toggleFlag=%d @dadp_tws_ctrl.c(570),INFO" ID="0x8c3e11d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;BT][RECV_PRIV_REQ_MSG]Slave RecvPrivAudioSyncInfoReq @dadp_tws_ctrl.c(574),INFO" ID="0x8c3e11f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][START_TOGGLE_ACCORD_DELAY]par is null @dadp_tws_ctrl.c(596),WARNING" ID="0x8c3e12a3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][START_TOGGLE_ACCORD_DELAY]joint is not in ready @dadp_tws_ctrl.c(607),INFO" ID="0x8c3e12fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][START_TOGGLE_ACCORD_DELAY_RESULT]btclk=0x%x @dadp_tws_ctrl.c(616),INFO" ID="0x8c3e1345" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DADP][START_TOGGLE_ACCORD_DELAY]connect_handle=0x%x, toggle_interval=%d, toggle_delay=%d @dadp_tws_ctrl.c(640),INFO" ID="0x8c3e1405" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP]get_render_rsp is NULL @dadp_tws_ctrl.c(651),WARNING" ID="0x8c3e145b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DADP][AUDIO-&gt;BT][GET_RENDER_RSP]timeStamp=%d,toggleCnt=%d,tsRatio=%d @dadp_tws_ctrl.c(656),INFO" ID="0x8c3e1485" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;AUDIO][GET_RENDER_REQ]Rol is err @dadp_tws_ctrl.c(686),ERROR" ID="0x8c3e1572" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][GET_RENDER_REQ]ipc fail ret=% @dadp_tws_ctrl.c(705),WARNING" ID="0x8c3e160b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;AUDIO][STOP_TOGGLE]new buf fail @dadp_tws_ctrl.c(721),ERROR" ID="0x8c3e168a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;AUDIO][STOP_TOGGLE]send msg @dadp_tws_ctrl.c(731),INFO" ID="0x8c3e16dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][STOP_TOGGLE]ipc fail ret=%d @dadp_tws_ctrl.c(735),ERROR" ID="0x8c3e16fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][AUDIO-&gt;BT][RECV_AUDIO_GET_PEER_SYNC]ptr is null @dadp_tws_ctrl.c(762),WARNING" ID="0x8c3e17d3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][AUDIO-&gt;BT][AUDIO_GET_PEER_SYNC]datalen=%d @dadp_tws_ctrl.c(767),INFO" ID="0x8c3e17fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;BT][PRIV_SYNC_IND]stream state not right @dadp_tws_ctrl.c(800),INFO" ID="0x8c3e1905" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;BT][PRIV_SYNC_IND]dataLen=%d @dadp_tws_ctrl.c(807),INFO" ID="0x8c3e193d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][GET_PEER_SYNC_IND]ipc fail ret=%d @dadp_tws_ctrl.c(828),WARNING" ID="0x8c3e19e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][AUDIO-&gt;BT][SET_RENDER_RSP]audio set fail @dadp_tws_ctrl.c(839),WARNING" ID="0x8c3e1a3b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][AUDIO-&gt;BT][RECV_AUDIO_MSG]cmdId=%d @dadp_tws_ctrl.c(886),INFO" ID="0x8c3e1bb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DADP][BT-&gt;AUDIO][SET_RENDER_REQ]toggle_len=%d, audio_delay=%d @dadp_tws_ctrl.c(938),INFO" ID="0x8c3e1d55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][SET_AUDIO_RENDER_REQ]ipc fail ret=% @dadp_tws_ctrl.c(942),WARNING" ID="0x8c3e1d73" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][HITWS_UPDATE_SILENCE]is_silent=%d @dadp_tws_ctrl.c(1020),INFO" ID="0x8c3e1fe5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][HITWS_UPDATE_SILENCE]ipc fail ret=%d @dadp_tws_ctrl.c(1024),ERROR" ID="0x8c3e2002" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO]codecId is aac, sample=%d @dadp_tws_ctrl.c(1040),INFO" ID="0x8c3e2085" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DADP][BT-&gt;AUDIO]codecId=%x, sample=%d @dadp_tws_ctrl.c(1067),INFO" ID="0x8c3e215d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DADP][MEDIA_DATA]DATA_LENGTH=%d, SN=%d, TIMESTAMP=%d @dadp_tws_ctrl.c(1114),INFO" ID="0x8c3e22d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;AUDIO][TWS_MODE_SWITCH] @dadp_tws_ctrl.c(1277),INFO" ID="0x8c3e27ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DADP][BT-&gt;AUDIO][TWS_MODE_SWITCH]ipc fail ret=%d @dadp_tws_ctrl.c(1281),ERROR" ID="0x8c3e280a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP]stream_sync_buf is null @dadp_tws_ctrl.c(1330),WARNING" ID="0x8c3e2993" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[DADP]timestamp=%u, sample=%d, is_neg=%d, init_bts=%u, pres_delay=%d @dadp_tws_ctrl.c(1345),INFO" ID="0x8c3e2a0d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DADP][DADP_TOG_INFO]timestamp=%u, init_bts=%u, bts_offset=%u @dadp_tws_ctrl.c(1369),INFO" ID="0x8c3e2acd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DADP][PRINT_DISCONTINUOUS_SN]LAST_SN=%u, CUR_SN=%u @dadp_tws_ctrl.c(1440),INFO" ID="0x8c3e2d05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;AUDIO][GET_RENDER_REQ]dadp_get_render_req ONCE @dadp_tws_ctrl.c(1489),INFO" ID="0x8c3e2e8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DADP][BT-&gt;AUDIO][GET_RENDER_REQ]dadp_get_render_req TWICE @dadp_tws_ctrl.c(1502),INFO" ID="0x8c3e2ef5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[TWS][AUDIO_EMPTY_HANDLE]: enter  @dadp_tws_ctrl.c(1530),INFO" ID="0x8c3e2fd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[TWS][AUDIO_EMPTY_HANDLE]: g_pktEmptyCounter=%d @dadp_tws_ctrl.c(1555),WARNING" ID="0x8c3e309b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[TWS][AUDIO_EMPTY_HANDLE]: Audio Is Empty And Has Release Device  @dadp_tws_ctrl.c(1558),WARNING" ID="0x8c3e30b3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[TWS][AUDIO_EMPTY_HANDLE]: TWS_COM_AUDIO_DATA_CTRL  @dadp_tws_ctrl.c(1564),WARNING" ID="0x8c3e30e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[TWS][AUDIO_EMPTY_HANDLE]: start timer  @dadp_tws_ctrl.c(1568),WARNING" ID="0x8c3e3103" />
+			</MSG_LOG>

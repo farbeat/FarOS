@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[HFP][SEND_AT_CMD]JITWS slave not send at cmd!!! @hfp_hlp.c(219),WARNING" ID="0x8be406db" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HFP][SEND_AT_CMD]PEND_CMD is too much @hfp_hlp.c(227),WARNING" ID="0x8be4071b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HFP][SEND_AT_CMD] CODE=0x%x @hfp_hlp.c(322),INFO" ID="0x8be40a15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][RECV_RING_STOP] @hfp_hlp.c(772),INFO" ID="0x8be41825" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HFP][AT_CMD] +CLCC @hfp_hlp.c(1135),INFO" ID="0x8be4237d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HFP][AT_CMD] +CIEV=&lt;%u&gt;, &lt;%u&gt; @hfp_hlp.c(1220),WARNING" ID="0x8be42623" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HFP][CONN_DISC] REASON=0x%x @hfp_hlp.c(1416),INFO" ID="0x8be42c45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HFP][CONN_DISC] connection_number=0x%x @hfp_hlp.c(1430),INFO" ID="0x8be42cb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HFP][SCO_DISC] SCO_HANDLE=0x%x @hfp_hlp.c(1525),INFO" ID="0x8be42fad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HFP][SCO_CONN_REQ] not support sco codec neg @hfp_hlp.c(1554),WARNING" ID="0x8be43093" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HFP][SCO_CONN] SCO_HANDLE=0x%x @hfp_hlp.c(1624),INFO" ID="0x8be432c5" />
+			</MSG_LOG>

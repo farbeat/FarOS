@@ -1,0 +1,28 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="event_type: %d size: %d @bt_audio_hal.c(52),INFO" ID="0xd80001a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stream_hdl: %08x ret: %08x @bt_audio_hal.c(65),INFO" ID="0xd800020d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="stop timer a2dp_stream_suspend @bt_audio_hal.c(70),INFO" ID="0xd8000235" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="stop timer success! @bt_audio_hal.c(76),INFO" ID="0xd8000265" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="start timer a2dp_stream_suspend @bt_audio_hal.c(81),INFO" ID="0xd800028d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create timer error! ret: %x @bt_audio_hal.c(93),ERROR" ID="0xd80002ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start timer error! ret: %x @bt_audio_hal.c(99),ERROR" ID="0xd800031a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream_hdl: %08x @bt_audio_hal.c(109),INFO" ID="0xd800036d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream not exist. stream_hdl: %08x @bt_audio_hal.c(125),ERROR" ID="0xd80003ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %08x stream_status:%u ret: %08x @bt_audio_hal.c(135),INFO" ID="0xd800043d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream_hdl: %08x @bt_audio_hal.c(142),INFO" ID="0xd8000475" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stream_hdl: %08x ret: %08x @bt_audio_hal.c(155),INFO" ID="0xd80004dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream not exist. stream_hdl: %08x @bt_audio_hal.c(157),ERROR" ID="0xd80004ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream is not a2dp src. stream_hdl: %08x @bt_audio_hal.c(187),ERROR" ID="0xd80005da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream is not a2dp snk. stream_hdl: %08x @bt_audio_hal.c(190),ERROR" ID="0xd80005f2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="dev_hdl: %08x stream_hdl: %08x enable %x shm_id: %08x @bt_audio_hal.c(194),INFO" ID="0xd8000615" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="dev_hdl: %08x stream_hdl: %08x shm_id: %08x ret: %08x @bt_audio_hal.c(197),INFO" ID="0xd800062d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %08x port_type: %d shm_id: %08x @bt_audio_hal.c(209),INFO" ID="0xd800068d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="sco sync_hdl: %x in_id: %x out_id: %x ret: %x @bt_audio_hal.c(239),INFO" ID="0xd800077d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %08x port_type: %d shm_id: %08x @bt_audio_hal.c(251),INFO" ID="0xd80007dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="sco sync_hdl: %x in_id: %x out_id: %x ret: %x @bt_audio_hal.c(264),INFO" ID="0xd8000845" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="sco sync_hdl: %x in_id: %x out_id: %x ret: %x @bt_audio_hal.c(270),INFO" ID="0xd8000875" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %08x type: %x len: %d @bt_audio_hal.c(280),INFO" ID="0xd80008c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream not exist. stream_hdl: %08x @bt_audio_hal.c(296),ERROR" ID="0xd8000942" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream not exist. stream_hdl: %08x @bt_audio_hal.c(309),ERROR" ID="0xd80009aa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %08x type: %x len: %d @bt_audio_hal.c(322),INFO" ID="0xd8000a15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stream not exist. stream_hdl: %08x @bt_audio_hal.c(339),ERROR" ID="0xd8000a9a" />
+			</MSG_LOG>

@@ -1,0 +1,39 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp stream state cbk, stream_handle=0x%X, state=%u. @bt_at_cmd_a2dp.c(45),INFO" ID="0xd8bc016d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream state cbk, memcpy_s error. @bt_at_cmd_a2dp.c(50),ERROR" ID="0xd8bc0192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream cfg cbk malloc error. @bt_at_cmd_a2dp.c(58),ERROR" ID="0xd8bc01d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream cfg cbk memcpy_s error. @bt_at_cmd_a2dp.c(63),ERROR" ID="0xd8bc01fa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp stream cfg cbk, stream_handle=0x%X, codec=%u. @bt_at_cmd_a2dp.c(70),INFO" ID="0xd8bc0235" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.sub_band=0x%x @bt_at_cmd_a2dp.c(73),INFO" ID="0xd8bc024d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.block_len=0x%x @bt_at_cmd_a2dp.c(75),INFO" ID="0xd8bc025d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.sample_f=0x%x @bt_at_cmd_a2dp.c(77),INFO" ID="0xd8bc026d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.chan_mode=0x%x @bt_at_cmd_a2dp.c(79),INFO" ID="0xd8bc027d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.alloc_method=0x%x @bt_at_cmd_a2dp.c(81),INFO" ID="0xd8bc028d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.min_bit_pool=0x%x @bt_at_cmd_a2dp.c(83),INFO" ID="0xd8bc029d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp stream cfg cbk, sbc.max_bit_pool=0x%x @bt_at_cmd_a2dp.c(85),INFO" ID="0xd8bc02ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp src deregister callback end.  @bt_at_cmd_a2dp.c(101),INFO" ID="0xd8bc032d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp src register callback end.  @bt_at_cmd_a2dp.c(111),INFO" ID="0xd8bc037d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp conn parameter fail! @bt_at_cmd_a2dp.c(122),ERROR" ID="0xd8bc03d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp conn addr fail! @bt_at_cmd_a2dp.c(126),ERROR" ID="0xd8bc03f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp conn version_type invaild! @bt_at_cmd_a2dp.c(130),ERROR" ID="0xd8bc0412" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp disconnect stream handle=0x%X,state=0x%X. @bt_at_cmd_a2dp.c(146),INFO" ID="0xd8bc0495" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream handle is null. @bt_at_cmd_a2dp.c(149),ERROR" ID="0xd8bc04aa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp start stream handle=0x%X,state=0x%X. @bt_at_cmd_a2dp.c(163),INFO" ID="0xd8bc051d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp start stream result=0x%X. @bt_at_cmd_a2dp.c(165),INFO" ID="0xd8bc052d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream handle is null. @bt_at_cmd_a2dp.c(168),ERROR" ID="0xd8bc0542" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp at set codec parameter fail! @bt_at_cmd_a2dp.c(177),ERROR" ID="0xd8bc058a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp at set codec reconfi invaild! @bt_at_cmd_a2dp.c(181),ERROR" ID="0xd8bc05aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp reconfig handle is null  @bt_at_cmd_a2dp.c(185),ERROR" ID="0xd8bc05ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp set codec stream handle=0x%X,state=0x%X @bt_at_cmd_a2dp.c(191),INFO" ID="0xd8bc05fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp send stream handle=0x%X,state=0x%X. @bt_at_cmd_a2dp.c(215),INFO" ID="0xd8bc06bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream handle is null  @bt_at_cmd_a2dp.c(218),ERROR" ID="0xd8bc06d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream parameter fail! @bt_at_cmd_a2dp.c(226),ERROR" ID="0xd8bc0712" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream param invaild! @bt_at_cmd_a2dp.c(230),ERROR" ID="0xd8bc0732" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp start stream_handle=0x%X,state=0x%X @bt_at_cmd_a2dp.c(236),INFO" ID="0xd8bc0765" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp stream handle is null  @bt_at_cmd_a2dp.c(239),ERROR" ID="0xd8bc077a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts avdtp getconf stream handle=0x%X,state=0x%X. @bt_at_cmd_a2dp.c(251),INFO" ID="0xd8bc07dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp getconf stream handle is null  @bt_at_cmd_a2dp.c(254),ERROR" ID="0xd8bc07f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts at avdtp register cap parameter fail! @bt_at_cmd_a2dp.c(262),ERROR" ID="0xd8bc0832" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts at avdtp register cap service_category invaild! @bt_at_cmd_a2dp.c(266),ERROR" ID="0xd8bc0852" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts avdtp abort stream handle=0x%X,state=0x%X. @bt_at_cmd_a2dp.c(280),INFO" ID="0xd8bc08c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp abort stream handle is null. @bt_at_cmd_a2dp.c(283),ERROR" ID="0xd8bc08da" />
+			</MSG_LOG>

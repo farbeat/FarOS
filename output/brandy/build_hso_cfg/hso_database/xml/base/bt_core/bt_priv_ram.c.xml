@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERR]error_handler:NULL PTR: err_id = 0x%x @bt_priv_ram.c(351),ERROR" ID="0x88da0afa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR]error_handler:ERR PARAM: err_id = 0x%x , err_code = 0x%x @bt_priv_ram.c(357),ERROR" ID="0x88da0b2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]error_handler:ERR Judgement: err_id = 0x%x  @bt_priv_ram.c(366),ERROR" ID="0x88da0b72" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERR]error_handler:EM Read Error: addr=0x%X, dst len=0x%X, len=0x%X @bt_priv_ram.c(384),ERROR" ID="0x88da0c02" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERR]error_handler:EM Write Error: addr=0x%X, dst len=0x%X, len=0x%X @bt_priv_ram.c(392),ERROR" ID="0x88da0c42" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERR]error_handler:EM Set Error: addr=0x%X, dst len=0x%X, len=0x%X @bt_priv_ram.c(399),ERROR" ID="0x88da0c7a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERR]error_handler:Mem Error: err_code=%d, param=0x%x, param2=0x%x @bt_priv_ram.c(405),ERROR" ID="0x88da0caa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR]error_handler:no handle: err_id = 0x%x, err_code = 0x%x  @bt_priv_ram.c(425),ERROR" ID="0x88da0d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]ld_acl_start ea insert fail! @bt_priv_ram.c(429),WARNING" ID="0x88da0d6b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR]error_handler:alarm set fail: err_id = 0x%x, err_code = 0x%x  @bt_priv_ram.c(435),ERROR" ID="0x88da0d9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]ld_inq_sched ea insert fail! @bt_priv_ram.c(439),WARNING" ID="0x88da0dbb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]ea insert fail! err_id = %d @bt_priv_ram.c(445),WARNING" ID="0x88da0deb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]ea insert fail! err_id = %d @bt_priv_ram.c(451),WARNING" ID="0x88da0e1b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]ld_iscan_evt_canceled_cbk, ea insert fail! @bt_priv_ram.c(455),WARNING" ID="0x88da0e3b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]ea insert fail! err_id = 0x%x @bt_priv_ram.c(474),WARNING" ID="0x88da0ed3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]sec_trng_random_get return = %d @bt_priv_ram.c(573),ERROR" ID="0x88da11ea" />
+			</MSG_LOG>

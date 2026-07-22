@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg6" NAME="[BLE]ble_server_service_add_cbk server: %u status: %u srv_handle: %hu uuid_len: %u uuid: %02x%02x @ble_gatts_callbacks.c(28),INFO" ID="0xd83c00e5" />
+			<MSG STRUCTURE="diag_log_msg8" NAME="[BLE]server add characteristic cbk server_id: %u status: %u srv_hdl: %hu char_hdl: %hu value_handle: %hu uuid_len: %u uuid: %02x%02x @ble_gatts_callbacks.c(62),INFO" ID="0xd83c01f5" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[BLE]server add descriptor server: %u status: %u srv_hdl: %hu desc_hdl: %hu uuid_len:%u, uuid:  @ble_gatts_callbacks.c(85),INFO" ID="0xd83c02ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BLE]server start service server: %u status: %u srv_hdl: %hu @ble_gatts_callbacks.c(92),INFO" ID="0xd83c02e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]server read req server: %u status: %u conn_id:%hu handle: %hu  @ble_gatts_callbacks.c(104),INFO" ID="0xd83c0345" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]server write req server: %u status: %u conn_id:%hu handle: %hu  @ble_gatts_callbacks.c(111),INFO" ID="0xd83c037d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BLE]server stop service server: %u status: %u handle: %hu  @ble_gatts_callbacks.c(121),INFO" ID="0xd83c03cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BLE]server delete service server: %u status: %u  @ble_gatts_callbacks.c(127),INFO" ID="0xd83c03fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]server mtu change server: %u status: %u conn_id: %u mtu_size: %u  @ble_gatts_callbacks.c(133),INFO" ID="0xd83c042d" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[BLE]client discovery service cbk client_id: %u conn_id: %hu status: %u uuid: 0x%02x%02x  @ble_gatts_callbacks.c(158),INFO" ID="0xd83c04f5" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[BLE]client discovery character cbk client_id: %u conn_id: %hu status: %u uuid: 0x%02x%02x  @ble_gatts_callbacks.c(188),INFO" ID="0xd83c05e5" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[BLE]client discovery descriptor cbk client_id: %u conn_id: %hu status: %u uuid: 0x%02x%02x  @ble_gatts_callbacks.c(214),INFO" ID="0xd83c06b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]client read cbk client_id: %u conn_id: %hu status: 0x%x handle: %lu  @ble_gatts_callbacks.c(227),INFO" ID="0xd83c071d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]client write cbk client_id: %u conn_id: %hu status: %d handle: %hu  @ble_gatts_callbacks.c(236),INFO" ID="0xd83c0765" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]client notification cbk client_id: %u conn_id: %hu status: %u handle: %hu  @ble_gatts_callbacks.c(246),INFO" ID="0xd83c07b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]client MTU changed cbk: status: %u client_id: %u conn_id: %u mtu:%u. @ble_gatts_callbacks.c(258),INFO" ID="0xd83c0815" />
+			</MSG_LOG>

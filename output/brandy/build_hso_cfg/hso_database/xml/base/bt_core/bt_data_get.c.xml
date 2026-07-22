@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="g_h4tl_uart_callback_fun[H4TL_UART_RX_SM] is null @bt_data_get.c(40),WARNING" ID="0x89260143" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt_data_rx:continue receive next msg @bt_data_get.c(47),INFO" ID="0x8926017d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt_data_rx:deal msg not right @bt_data_get.c(50),WARNING" ID="0x89260193" />
+			</MSG_LOG>

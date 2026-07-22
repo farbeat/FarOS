@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LD]ld_acl_phy_apply Enter! cs_idx=%d, tx_phy=%d, rx_phy=%d @ld_acl_uhd.c(157),INFO" ID="0x899e04ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD]instant&gt;MAX_SLOT_CLOCK @ld_acl_uhd.c(215),INFO" ID="0x899e06bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]ld_acl_uhd_compute_switch_instant:clock=0x%x, instant=0x%x @ld_acl_uhd.c(219),INFO" ID="0x899e06dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][param]ld_uhd_phy_prepare:set update phy alarm fail @ld_acl_uhd.c(238),WARNING" ID="0x899e0773" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][param]ld_uhd_phy_prepare:acl_par-&gt;role = %d @ld_acl_uhd.c(252),WARNING" ID="0x899e07e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_acl_phy_update_on_cbk:lc_env_ptr is NULL @ld_acl_uhd.c(284),WARNING" ID="0x899e08e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD]ld_acl_phy_update_alarm_restart:slave instant pass @ld_acl_uhd.c(465),INFO" ID="0x899e0e8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD]ld_acl_uhd_instant_resh:set phy alarm fail @ld_acl_uhd.c(533),ERROR" ID="0x899e10aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD]ld_acl_uhd_instant_resh:phy instant=0x%x @ld_acl_uhd.c(538),INFO" ID="0x899e10d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_acl_uhd_set_ch_map_2M:Memory process is error @ld_acl_uhd.c(671),WARNING" ID="0x899e14fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_acl_uhd_set_ch_map_4M:Memory process is error @ld_acl_uhd.c(696),WARNING" ID="0x899e15c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]ld_acl_uhd_ch_map_update:Memory process is error @ld_acl_uhd.c(728),WARNING" ID="0x899e16c3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_uhd_auto_switch_phy: undefined phy code %d @ld_acl_uhd.c(843),INFO" ID="0x899e1a5d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_uhd_auto_switch_phy cur_phy=%d, total_pkt=%d, err_pkt=%d, rssi=%d @ld_acl_uhd.c(849),INFO" ID="0x899e1a8d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_uhd_auto_switch_phy cur_phy=%d, total_pkt=%d, err_pkt=%d, rssi=%d @ld_acl_uhd.c(854),INFO" ID="0x899e1ab5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_phy_to_pref_phy_value: undefined phy code %d @ld_acl_uhd.c(877),INFO" ID="0x899e1b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]pref_phy_to_ld_phy_value: undefined phy code %d @ld_acl_uhd.c(893),INFO" ID="0x899e1bed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ld_acl_uhd_auto_rate cur_phy=%d expt_phy=%d. @ld_acl_uhd.c(913),INFO" ID="0x899e1c8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][CQDDR]Don't increase the rate because UHD. @ld_acl_uhd.c(962),INFO" ID="0x899e1e15" />
+			</MSG_LOG>

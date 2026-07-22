@@ -1,0 +1,33 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memcpy tempPaint error! @ui_canvas_ext.cpp(52),ERROR" ID="0xcaec01a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="UIMalloc for stops failed. Gradient will be inactive. @ui_canvas_ext.cpp(55),WARNING" ID="0xcaec01bb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Already beginned a path without setting path data. @ui_canvas_ext.cpp(64),ERROR" ID="0xcaec0202" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Previous path has been initialized but has not called DrawPath. @ui_canvas_ext.cpp(68),ERROR" ID="0xcaec0222" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd or data is nullptr. @ui_canvas_ext.cpp(82),ERROR" ID="0xcaec0292" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Need to call BeginPath prior to calling this method. @ui_canvas_ext.cpp(86),ERROR" ID="0xcaec02b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path is nullptr @ui_canvas_ext.cpp(91),ERROR" ID="0xcaec02da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Path data has been set. Can only set once. @ui_canvas_ext.cpp(95),ERROR" ID="0xcaec02fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc buffer for data failed. @ui_canvas_ext.cpp(104),ERROR" ID="0xcaec0342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy for cmds failed. @ui_canvas_ext.cpp(111),ERROR" ID="0xcaec037a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc buffer for data failed. @ui_canvas_ext.cpp(122),ERROR" ID="0xcaec03d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy for data failed. @ui_canvas_ext.cpp(131),ERROR" ID="0xcaec041a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="can only set matrix after beginning any path. @ui_canvas_ext.cpp(145),ERROR" ID="0xcaec048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Index out of range. @ui_canvas_ext.cpp(153),ERROR" ID="0xcaec04ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="HandleStyleAndPattern failed. UpdateImageInfoIfNecessary failed. @ui_canvas_ext.cpp(274),ERROR" ID="0xcaec0892" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Image is invalid! @ui_canvas_ext.cpp(340),ERROR" ID="0xcaec0aa2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path or paint or matrix is nullptr. @ui_canvas_ext.cpp(390),ERROR" ID="0xcaec0c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc buffer for cmd failed. @ui_canvas_ext.cpp(455),ERROR" ID="0xcaec0e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc buffer for cmd failed. @ui_canvas_ext.cpp(492),ERROR" ID="0xcaec0f62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc buffer for cmd failed. @ui_canvas_ext.cpp(526),ERROR" ID="0xcaec1072" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Sector is not supported currently @ui_canvas_ext.cpp(542),WARNING" ID="0xcaec10f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="startAngle and endAngle can not be smaller than 0. @ui_canvas_ext.cpp(550),ERROR" ID="0xcaec1132" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="endAngle should not be equal to startAngle @ui_canvas_ext.cpp(554),ERROR" ID="0xcaec1152" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="realpath fail:  %s @ui_canvas_ext.cpp(595),ERROR" ID="0xcaec129a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="new svgdata obj failed @ui_canvas_ext.cpp(607),ERROR" ID="0xcaec12fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="OverlayOpacity Failed!!! @ui_canvas_ext.cpp(632),ERROR" ID="0xcaec13c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="can only set matrix after beginning any path. @ui_canvas_ext.cpp(719),ERROR" ID="0xcaec167a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="index error @ui_canvas_ext.cpp(723),ERROR" ID="0xcaec169a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read data fail. @ui_canvas_ext.cpp(786),ERROR" ID="0xcaec1892" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="UIMalloc path fail. @ui_canvas_ext.cpp(804),ERROR" ID="0xcaec1922" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="UIMalloc path fail. @ui_canvas_ext.cpp(809),ERROR" ID="0xcaec194a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="open %s fail @ui_canvas_ext.cpp(825),ERROR" ID="0xcaec19ca" />
+			</MSG_LOG>

@@ -1,0 +1,56 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="avrcp tg report conn stat: %u @avrcp_tg_service.c(47),INFO" ID="0xd814017d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="info: state: %d @avrcp_tg_service.c(55),INFO" ID="0xd81401bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="dev_hdl:0x%x, tl: 0x%x, cmd_type: 0x%x , datalen: %d @avrcp_tg_service.c(72),INFO" ID="0xd8140245" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="TG BTSDK_APP_EV_AVRCP_GET_CAPABILITIES_IND, len:0x%x @avrcp_tg_service.c(76),INFO" ID="0xd8140265" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="TG BTSDK_APP_EV_AVRCP_SET_ABSOLUTE_VOLUME_IND: volume:0x%x @avrcp_tg_service.c(84),INFO" ID="0xd81402a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="TG BTSDK_APP_EV_AVRCP_REGISTER_NOTIFICATION_IND: event id :0x%x, playbackInterval:0x%x @avrcp_tg_service.c(90),INFO" ID="0xd81402d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="TG BTSDK_APP_EV_AVRCP_GENERAL_REJECT_IND: @avrcp_tg_service.c(94),INFO" ID="0xd81402f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="auto_rsp: %d @avrcp_tg_service.c(104),INFO" ID="0xd8140345" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="avrcp_tg_handle_remote_sep_cap_msg @avrcp_tg_service.c(142),INFO" ID="0xd8140475" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="msg is null @avrcp_tg_service.c(149),ERROR" ID="0xd81404aa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="avrcp tg envtid: %u, hdl_id:%u, param:%u @avrcp_tg_service.c(153),INFO" ID="0xd81404cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid addr @avrcp_tg_service.c(176),ERROR" ID="0xd8140582" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is error @avrcp_tg_service.c(187),ERROR" ID="0xd81405da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="tg addr is NULL @avrcp_tg_service.c(197),ERROR" ID="0xd814062a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="play_status:0x%x @avrcp_tg_service.c(211),INFO" ID="0xd814069d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="play status is error @avrcp_tg_service.c(213),ERROR" ID="0xd81406aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="avrcp is not support @avrcp_tg_service.c(217),ERROR" ID="0xd81406ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error:notify ret:0x%x @avrcp_tg_service.c(222),ERROR" ID="0xd81406f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="info:notify ret:0x%x @avrcp_tg_service.c(224),INFO" ID="0xd8140705" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="identifier:0x%llx @avrcp_tg_service.c(229),INFO" ID="0xd814072d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:id:%llu, ret:0x%x @avrcp_tg_service.c(235),ERROR" ID="0xd814075a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @avrcp_tg_service.c(241),INFO" ID="0xd814078d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCOde:%u, ret:0x%x @avrcp_tg_service.c(247),ERROR" ID="0xd81407ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @avrcp_tg_service.c(253),INFO" ID="0xd81407ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCode:%u, ret:0x%x @avrcp_tg_service.c(256),ERROR" ID="0xd8140802" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="playback_pos:0x%x @avrcp_tg_service.c(262),INFO" ID="0xd8140835" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCode:%u, ret:0x%x @avrcp_tg_service.c(265),ERROR" ID="0xd814084a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @avrcp_tg_service.c(271),INFO" ID="0xd814087d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCode:%u, ret:0x%x @avrcp_tg_service.c(277),ERROR" ID="0xd81408aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @avrcp_tg_service.c(283),INFO" ID="0xd81408dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCode:%u, ret:0x%x @avrcp_tg_service.c(289),ERROR" ID="0xd814090a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="player_id:0x%x, uid_counter:0x%x @avrcp_tg_service.c(295),INFO" ID="0xd814093d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCode:%u, ret:0x%x @avrcp_tg_service.c(298),ERROR" ID="0xd8140952" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uid_counter:0x%x @avrcp_tg_service.c(304),INFO" ID="0xd8140985" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="error:rspCode:%u, uid:%u, ret:0x%x @avrcp_tg_service.c(307),ERROR" ID="0xd814099a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="volume:0x%x @avrcp_tg_service.c(313),INFO" ID="0xd81409cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="volume is not in valid scope: 0~0x7F @avrcp_tg_service.c(315),ERROR" ID="0xd81409da" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="error:rspCode:%u, ret:0x%x @avrcp_tg_service.c(320),ERROR" ID="0xd8140a02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="func is null @avrcp_tg_service.c(327),ERROR" ID="0xd8140a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mem not enough @avrcp_tg_service.c(346),ERROR" ID="0xd8140ad2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="tg support cnt:0x%x @avrcp_tg_service.c(352),INFO" ID="0xd8140b05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="0x%02x  @avrcp_tg_service.c(355),INFO" ID="0xd8140b1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @avrcp_tg_service.c(357),INFO" ID="0xd8140b2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param @avrcp_tg_service.c(372),ERROR" ID="0xd8140ba2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="0x%02x  @avrcp_tg_service.c(385),INFO" ID="0xd8140c0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @avrcp_tg_service.c(387),INFO" ID="0xd8140c1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get_Cap : id 0x%x @avrcp_tg_service.c(398),INFO" ID="0xd8140c75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="NOT_SUPPORTED @avrcp_tg_service.c(412),INFO" ID="0xd8140ce5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="id:%u, error ret:0x%x @avrcp_tg_service.c(416),ERROR" ID="0xd8140d02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BTSDK_AVRCP_RSP_INTERIM , param.id/g_locVal: 0x%x @avrcp_tg_service.c(433),INFO" ID="0xd8140d8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dev_hdl:0x%x, event id :0x%x @avrcp_tg_service.c(440),INFO" ID="0xd8140dc5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not support @avrcp_tg_service.c(468),INFO" ID="0xd8140ea5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ret:0x%x @avrcp_tg_service.c(472),INFO" ID="0xd8140ec5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="TG BTSDK_APP_EV_AVRCP_PASSTHROUGH_IND:opid:%u, value:%u @avrcp_tg_service.c(482),INFO" ID="0xd8140f15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="op_id is error @avrcp_tg_service.c(485),ERROR" ID="0xd8140f2a" />
+			</MSG_LOG>

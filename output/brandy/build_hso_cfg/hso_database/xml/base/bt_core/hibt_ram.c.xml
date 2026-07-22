@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]diag config :0x8182838C, get diag value is 0x%x @hibt_ram.c(110),WARNING" ID="0x88860373" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]diag config :0x8d8e8f90, get diag value is 0x%x @hibt_ram.c(112),WARNING" ID="0x88860383" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]diag config :0x919ba0a7, get diag value is 0x%x @hibt_ram.c(114),WARNING" ID="0x88860393" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]link %d CS point is 0x%x @hibt_ram.c(118),WARNING" ID="0x888603b3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]INQ CS point is 0x%x @hibt_ram.c(123),WARNING" ID="0x888603db" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]ISCAN CS point is 0x%x @hibt_ram.c(126),WARNING" ID="0x888603f3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING]%d:extab0=0x%x, extab1=0x%x @hibt_ram.c(132),WARNING" ID="0x88860423" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="count: %d, cur_cnt=%d, lr=0x%x, fincnt=0x%x @hibt_ram.c(144),INFO" ID="0x88860485" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="timestamp=0x%x, clk=0x%x, etptr=0x%x, type=0x%x @hibt_ram.c(146),INFO" ID="0x88860495" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FE5F]: bt toggle start and stop success, bt_toggle_sn=%d, current_tog_time=%d @hibt_ram.c(167),INFO" ID="0x8886053d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][SLEEP]bt_sleep_wakeup wkup fincnt(%d)slp_period(%d)glbcnt(0x%x) @hibt_ram.c(212),INFO" ID="0x888606a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]BT CONCEVTINT ERR: bt int err = 0x%x @hibt_ram.c(281),WARNING" ID="0x888608cb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR]enter error interrupt as the reason of 0x%x, clock is 0x%x, g_error_report.flag=%d,diag_lock=0x%x @hibt_ram.c(285),ERROR" ID="0x888608ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR]curr_rxdesc_idx=%d, curr_rx_ptr=0x%x, curr_rx_done=%d @hibt_ram.c(296),ERROR" ID="0x88860942" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BT]diag_value1=%d, diag_value2=0x%x, cs_ptr=0x%x, cs_idx=%d @hibt_ram.c(316),INFO" ID="0x888609e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNINIG][diag_isr]diag is going... @hibt_ram.c(388),WARNING" ID="0x88860c23" />
+			</MSG_LOG>

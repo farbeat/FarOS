@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="matrix[%u][%u] = %f @lv_matrix.c(113),INFO" ID="0xc95c038d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="matrix[%u][%u] = %f @lv_matrix.c(289),INFO" ID="0xc95c090d" />
+			</MSG_LOG>

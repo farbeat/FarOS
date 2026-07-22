@@ -1,0 +1,41 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="ea_prog_time_set current_time(0x%x)finetarget_time(0x%x),lr=%x @ea.c(455),WARNING" ID="0x882a0e3b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="finetarget_time(0x%x) is smaller than or equal to current time(0x%x), lr=0x%x @ea.c(513),WARNING" ID="0x882a100b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="first_elt is null @ea.c(520),WARNING" ID="0x882a1043" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][EA]ea_check_alarm_wait_list_prog,current_time(0x%x),elt_timestamp(0x%x),elt_start_cbk(0x%x) @ea.c(595),WARNING" ID="0x882a129b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][EA]ea_check_alarm_wait_list_prog, current_time(0x%x), alarm_timestamp(0x%x), alarm_cbk(0x%x) @ea.c(619),WARNING" ID="0x882a135b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][EA]ea_check_alarm_wait_list_prog:ea_prog_timer again fail @ea.c(649),WARNING" ID="0x882a144b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][HEAP]Check heap after reset:heap_size[%d]=0x%x, heap_used[%d]=0x%x @ea.c(679),INFO" ID="0x882a153d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param] elt = NULL @ea.c(691),ERROR" ID="0x882a159a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][EA]ea_elt_insert_first_ts timestamp(0x%x)LR(0x%x) @ea.c(710),ERROR" ID="0x882a1632" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][EA]ea_elt_insert_first_ts first_allowed_ts=0x%x, stop_notification_delay=0x%x, prog start_cb=0x%x @ea.c(723),INFO" ID="0x882a169d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][EA]ea_elt_insert_done EA_ERROR_REJECTED @ea.c(787),INFO" ID="0x882a189d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][EA]ea_elt_insert:elt=0x%x, evt_mode=%d, wait_list_cnt=%d, prog_elt=0x%x @ea.c(903),WARNING" ID="0x882a1c3b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][EA]ea_elt_insert:wait_list_elt=0x%x @ea.c(906),WARNING" ID="0x882a1c53" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][ASAP_INSERT] insert_ts=0x%x, pre_ts=0x%x , next_ts=0x%x, next_start_cbk=0x%x @ea.c(935),WARNING" ID="0x882a1d3b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][EA]ea_elt_insert:elt in the wait or prog list elt=0x%x, lr=0x%x @ea.c(952),ERROR" ID="0x882a1dc2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][EA]ea_elt_insert current_time=0x%x, elt: cb_start=0x%x, ts=0x%x. prio=0x%x @ea.c(1010),INFO" ID="0x882a1f95" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][EA]ea_elt_insert:rejected(EA_FLAG_NO_ASAP), first_allowed_ts=%d, elt-&gt;ts=%d, pri=%d @ea.c(1015),INFO" ID="0x882a1fbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][EA Interval] list dump:Addr = 0x%x, Interval = %d, Offset =%d, Duration = %d @ea.c(1235),INFO" ID="0x882a269d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][EA Interval] list dump:conhdl_used = 0x%x, linkid = 0x%x, Role = %d(0:Master, 1:Slave) @ea.c(1237),INFO" ID="0x882a26ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][EA Interval] list dump:odd_offset = %d, retx_att = %d, voice = %d @ea.c(1239),INFO" ID="0x882a26bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][EA Interval] input:intv_min = %d, intv_max = %d, dur_min = %d, dur_max = %d @ea.c(1251),INFO" ID="0x882a271d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][EA Interval] input:pref_period = %d, offset = %d, action = %d 0:GET,1:CHECK, retx_att = %d @ea.c(1253),INFO" ID="0x882a272d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][EA Interval] input:conhdl = 0x%x, linkid = 0x%x, odd_offset = %d, voice = %d @ea.c(1255),INFO" ID="0x882a273d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][EA Interval] input:role = %d(0:Master, 1:Slave) output: Interval = %d, Duration = %d @ea.c(1257),INFO" ID="0x882a274d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][EA Interval] ouput:interval = %d, duration = %d, offset = %d @ea.c(1264),INFO" ID="0x882a2785" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[EA]elt_prog ea_cb_stop=0x%x @ea.c(1354),INFO" ID="0x882a2a55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][EA]next_elt ea_cb_start=0x%x @ea.c(1376),INFO" ID="0x882a2b05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][EA]ea_cb_alarm=0%x @ea.c(1412),INFO" ID="0x882a2c25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][EA]current_elt ea_cb_stop=0%x @ea.c(1466),INFO" ID="0x882a2dd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][EA]next_elt is NULL @ea.c(1475),ERROR" ID="0x882a2e1a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][EA]SW interrupt ea_cb_cancel=0x%x, ea_cb_start=0x%x  @ea.c(1532),INFO" ID="0x882a2fe5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][EA]ea_offset_req:status = %d @ea.c(2122),INFO" ID="0x882a4255" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR]ea_alarm_record_dump, evt_ts(0x%x), set_ts(0x%x), list_cnt(%d), lr_addr(0x%x) @ea.c(2342),ERROR" ID="0x882a4932" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="elt_prog is NULL! @ea.c(2482),WARNING" ID="0x882a4d93" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="prog_elt timestamp=0x%x, intv=0x%x, asap_limit=0x%x, asap_settings=0x%x @ea.c(2488),WARNING" ID="0x882a4dc3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="prog_elt current_prio=0x%x, duration_min=0x%x, duration_asap1=0x%x, duration_asap2=0x%x @ea.c(2491),WARNING" ID="0x882a4ddb" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="finetarget_time=%d, finetgtintmsk=%d finetarget=%d @ea.c(2505),INFO" ID="0x882a4e4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ea_list_dump:elt_prog=0x%x, elt_prog_ts=0x%x @ea.c(2510),WARNING" ID="0x882a4e73" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ea_list_dump:elt_prog is NULL! @ea.c(2513),WARNING" ID="0x882a4e8b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ea_list_dump:next_elt=0x%x, next_elt_ts=0x%x @ea.c(2519),WARNING" ID="0x882a4ebb" />
+			</MSG_LOG>

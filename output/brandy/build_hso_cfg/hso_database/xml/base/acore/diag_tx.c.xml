@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="diag_alloc_pkt_buffer memcpy fail @diag_tx.c(35),ERROR" ID="0xa09a011a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="offline log wrtie failed, ret = 0x%x @diag_tx.c(78),ERROR" ID="0xa09a0272" />
+			</MSG_LOG>

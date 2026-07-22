@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SPP][START_SERVER] SVR_CHANNEL=%d @spp_server.c(52),INFO" ID="0x8bb001a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SPP][START_SERVER] ACTION=SPP_OPEN, RESULT=%d @spp_server.c(77),INFO" ID="0x8bb0026d" />
+			</MSG_LOG>

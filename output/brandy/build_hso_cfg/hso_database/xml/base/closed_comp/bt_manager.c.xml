@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc bt manager sync rsp memcpy failed @bt_manager.c(66),ERROR" ID="0xd87c0212" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] mc bt manager sync rsp sync_num = %u. @bt_manager.c(75),INFO" ID="0xd87c025d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] mc bt manager change req param invaild. @bt_manager.c(108),ERROR" ID="0xd87c0362" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] bt manager svr proc cmdid:0x%02X pay_len:%d. @bt_manager.c(193),INFO" ID="0xd87c060d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt manager svr proc command id:0X%02X invaild. @bt_manager.c(206),ERROR" ID="0xd87c0672" />
+			</MSG_LOG>

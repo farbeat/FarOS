@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[NV][magic] Get valid next key (location = 0x%x). @nv_key.c(439),DBG" ID="0xa06e0dbe" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV][magic] Get next key on end 2 (location = 0x%x). @nv_key.c(468),DBG" ID="0xa06e0ea6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] header magic error(location = 0x%x)! Get next key by magic. @nv_key.c(506),INFO" ID="0xa06e0fd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] validate failed (location = 0x%x)! Get next key by magic. @nv_key.c(531),INFO" ID="0xa06e109d" />
+			</MSG_LOG>

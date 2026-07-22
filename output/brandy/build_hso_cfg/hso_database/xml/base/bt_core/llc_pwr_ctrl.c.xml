@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[LLC]llc_llcp_pwr_ctrl_req_pdu_send:phy[0x%x],delta[%d],txpwr[%d],pwrlev[%d] @llc_pwr_ctrl.c(49),INFO" ID="0x89ec018d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLC]llc_llcp_pwr_ctrl_rsp_pdu_send:limit[0x%x],delta[%d],txpwr[%d],pwrlev[%d] @llc_pwr_ctrl.c(68),INFO" ID="0x89ec0225" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLC][SUPP]llc_pwr_ctrl_ind_handler:discard the message @llc_pwr_ctrl.c(90),ERROR" ID="0x89ec02d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLC][POWER]llc_pwr_ctrl_ind_handler:already in save queue @llc_pwr_ctrl.c(96),WARNING" ID="0x89ec0303" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]pwr_ctrl_req_52_send:phy[0x%x],delta[%d],pwr[%d],pwrlev[0x%x] @llc_pwr_ctrl.c(130),INFO" ID="0x89ec0415" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]pwr_ctrl_rsp_52send:limit[0x%x],delta[%d],txpwr[%d],apr[%d] @llc_pwr_ctrl.c(156),INFO" ID="0x89ec04e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]pwr_chg_ind_52send:limit[0x%x],delta[%d],txpwr[%d],pwrlev[0x%x] @llc_pwr_ctrl.c(197),INFO" ID="0x89ec062d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble_con_20dbm_tx_init, conhdl=0x%x, operator=%d @llc_pwr_ctrl.c(604),INFO" ID="0x89ec12e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CUST]hci_le_con_pwr_set_cmd_handler: conhdl=0x%x,status=0x%x,le20dbm=0x%x @llc_pwr_ctrl.c(652),INFO" ID="0x89ec1465" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_20dbm_start_ind_handler:acl conhdl[0x%x],tx20dbm en[0x%x],txpwrlev[0x%x],sw[0x%x] @llc_pwr_ctrl.c(731),INFO" ID="0x89ec16dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_20dbm_start_ind_handler:ico conhdl[0x%x],tx20dbm en[0x%x],txpwrlev[0x%x],sw[0x%x] @llc_pwr_ctrl.c(734),INFO" ID="0x89ec16f5" />
+			</MSG_LOG>

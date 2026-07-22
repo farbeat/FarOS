@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][handle](EM_BT_RXDESC_OFFSET+ld_env.curr_rxdesc_index*REG_EM_BT_RXDESC_SIZE)=%d @ld_inq.c(189),ERROR" ID="0x889405ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_inq.c(192),ERROR" ID="0x88940602" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INQ_STOP]rxdesc_idx=%d, status=0x%x, rxheader=0x%x, rxchass=0x%x @ld_inq.c(195),INFO" ID="0x8894061d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INQ_STOP]rxdesc_idx=%d, status=0x%x, rxheader=0x%x, rxchass=0x%x @ld_inq.c(197),INFO" ID="0x8894062d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INQ_STOP]rxdesc_idx=%d, status=0x%x, rxheader=0x%x, rxchass=0x%x @ld_inq.c(342),INFO" ID="0x88940ab5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][handle]ld_inq_env.evt != evt @ld_inq.c(522),ERROR" ID="0x88941052" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_inq_env.evt != evt @ld_inq.c(579),ERROR" ID="0x8894121a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]((struct ld_inq_evt_params*) &amp;evt-&gt;env)-&gt;state = %d @ld_inq.c(585),ERROR" ID="0x8894124a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ld_inq_stop ld_inq_env.evt is null @ld_inq.c(729),WARNING" ID="0x889416cb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ld_inq_start malloc fail @ld_inq.c(798),ERROR" ID="0x889418f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ld_inq_start ld_inq_env.evt is not null start_cbk is 0x%x, timestamps=%d @ld_inq.c(802),WARNING" ID="0x88941913" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_inq_backoff page_backoff_stage=%d, inq_start_ts_test=0x%x, page_start_ts=0x%x, ble_scan_start_ts=0x%x @ld_inq.c(860),INFO" ID="0x88941ae5" />
+			</MSG_LOG>

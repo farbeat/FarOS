@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO]llc_ble_end_prt_rssi_send_chr: reason=CON_TIMEOUT,rssi=%d, rssi=%d, rssi=%d @llc_util_ram.c(99),INFO" ID="0x8998031d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llc_uhd_v2_util_compute_data_time:trx_phy=%d @llc_util_ram.c(272),ERROR" ID="0x89980882" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]llc_util_get_empty_data_time:trx_state=%d @llc_util_ram.c(284),INFO" ID="0x899808e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CTE]llc_util_connless_cte_parm_init: NULL pointer, impossible! @llc_util_ram.c(397),ERROR" ID="0x89980c6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT][WARNING]llc_util_connless_cte_parm_init:cte_params NOT NULL, may exist memory leak @llc_util_ram.c(409),WARNING" ID="0x89980ccb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CTE]llc_util_connless_iq_samp_en_init:iq_sample_en_para NOT NULL, may exist memory leak @llc_util_ram.c(587),ERROR" ID="0x8998125a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][CTE]: CTE CHECKED!, current demod type is %d @llc_util_ram.c(638),INFO" ID="0x899813f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][AE]scan_elt is NULL @llc_util_ram.c(677),WARNING" ID="0x8998152b" />
+			</MSG_LOG>

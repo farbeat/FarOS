@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ANCSClientSetupCBK]conn_id:%u status:0x%x @sample_ble_ancs.c(42),INFO" ID="0xd8ec0155" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ANCSClientSubscribeResultCBK]conn_id:%u type:%d status:0x%x @sample_ble_ancs.c(51),INFO" ID="0xd8ec019d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ANCSClientCMDResultCBK]conn_id:%u status:0x%x @sample_ble_ancs.c(58),INFO" ID="0xd8ec01d5" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[ANCSClientNotifySRCCBK]conn_id:%u status:0x%x notify_id:%lu eventId:%u eventFlags:0x%x category_id:%d @sample_ble_ancs.c(74),INFO" ID="0xd8ec0255" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ANCSClientNotifySRCCBK]conn_id:%u status:0x%x. @sample_ble_ancs.c(77),INFO" ID="0xd8ec026d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ANCSClientNotifyATTRSPCBK]conn_id:%u status:0x%x notify_uid:%lu @sample_ble_ancs.c(88),INFO" ID="0xd8ec02c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ANCSClientNotifyATTRSPCBK]att id:%u length:%lu att_value:%s @sample_ble_ancs.c(95),INFO" ID="0xd8ec02fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ANCSClientAPPATTRSPCBK]conn_id:%u status:0x%x @sample_ble_ancs.c(113),INFO" ID="0xd8ec038d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ANCSClientAPPATTRSPCBK]app id:%s length:%lu app name:%s @sample_ble_ancs.c(122),INFO" ID="0xd8ec03d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client register cbk ret:0x%x @sample_ble_ancs.c(149),INFO" ID="0xd8ec04ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client setup ret:0x%x @sample_ble_ancs.c(165),INFO" ID="0xd8ec052d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client sub notify ret:0x%x @sample_ble_ancs.c(187),INFO" ID="0xd8ec05dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client sub data ret:0x%x @sample_ble_ancs.c(210),INFO" ID="0xd8ec0695" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client perform action ret:0x%x @sample_ble_ancs.c(237),INFO" ID="0xd8ec076d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client notify att get ret:0x%x @sample_ble_ancs.c(316),INFO" ID="0xd8ec09e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble ancs client app att get ret:0x%x @sample_ble_ancs.c(384),INFO" ID="0xd8ec0c05" />
+			</MSG_LOG>

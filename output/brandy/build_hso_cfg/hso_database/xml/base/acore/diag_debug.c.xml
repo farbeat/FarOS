@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[%s][frame][sof=0x%02x][ctrl=0x%02x] @diag_debug.c(21),DBG" ID="0xa08c00ae" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ctrl2=0x%02x] @diag_debug.c(23),DBG" ID="0xa08c00be" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[len=0x%02x] @diag_debug.c(25),DBG" ID="0xa08c00ce" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="%s cnt=%u data_len[0]=%u data_len[1]=%u data_len[2]=%u @diag_debug.c(54),DBG" ID="0xa08c01b6" />
+			</MSG_LOG>

@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][avdtp_remote_done] avdtp_stream_done  @avdtp_hlp.c(594),INFO" ID="0x8ac41295" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AVDTP][REMOTE_DONE] SIGNAL_CID=0x%x, REASON=%u @avdtp_hlp.c(601),INFO" ID="0x8ac412cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][GET_SEP_FAIL] Can not get sep info @avdtp_hlp.c(652),WARNING" ID="0x8ac41463" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][avdtp_stream_done] reason=%d @avdtp_hlp.c(714),INFO" ID="0x8ac41655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][avdtp_stream_done] avdtp_remote_done @avdtp_hlp.c(724),INFO" ID="0x8ac416a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][avdtp_sep_done] local avdtp_stream_done  @avdtp_hlp.c(934),INFO" ID="0x8ac41d35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][avdtp_sep_done] remote avdtp_stream_done  @avdtp_hlp.c(955),INFO" ID="0x8ac41ddd" />
+			</MSG_LOG>

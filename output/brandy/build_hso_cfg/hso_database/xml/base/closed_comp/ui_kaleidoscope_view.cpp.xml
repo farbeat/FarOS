@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="buffer is nil @ui_kaleidoscope_view.cpp(46),ERROR" ID="0xcb400172" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Fmt not support: %d @ui_kaleidoscope_view.cpp(55),ERROR" ID="0xcb4001ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Init KaleidoscopeUtils failed. @ui_kaleidoscope_view.cpp(62),ERROR" ID="0xcb4001f2" />
+			</MSG_LOG>

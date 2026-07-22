@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ams starts %s&quot;, result ? &quot;successfully&quot; : &quot;unsuccessfully @ability_mgr_service.cpp(58),INFO" ID="0xe01801d5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="AbilityMgrService::ServiceInitialize serviceId = %d, featureId = %d, queueId = %d @ability_mgr_service.cpp(87),DBG" ID="0xe01802be" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AMS] handle msg: START_ABILITY @ability_mgr_service.cpp(100),INFO" ID="0xe0180325" />
+			</MSG_LOG>

@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME=" handle is null  @stack_mpc.c(78),WARNING" ID="0xd8e40273" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="handle has exit, opcode = 0x%x  @stack_mpc.c(129),WARNING" ID="0xd8e4040b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="handle create faild, no memory  @stack_mpc.c(134),WARNING" ID="0xd8e40433" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_mpc.c(143),ERROR" ID="0xd8e4047a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_mpc.c(202),ERROR" ID="0xd8e40652" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="handle is null opcode = 0x%x  @stack_mpc.c(208),ERROR" ID="0xd8e40682" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_mpc.c(232),ERROR" ID="0xd8e40742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_mpc.c(242),ERROR" ID="0xd8e40792" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ret = 0x%x opcode = 0x%x  @stack_mpc.c(247),ERROR" ID="0xd8e407ba" />
+			</MSG_LOG>

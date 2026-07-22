@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[RFCOMM][FSM]dlcix=0x%x, ddlci=0x%x, dlcix_status=%d, reason=0x%x @rfcomm_fsm_ram.c(60),INFO" ID="0x8bcc01e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[RFCOMM][FSM]RFCOMM_DLCIX_MASK_FC_OFF_OUTGOING @rfcomm_fsm_ram.c(151),INFO" ID="0x8bcc04bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[RFCOMM][FSM]no credit @rfcomm_fsm_ram.c(161),INFO" ID="0x8bcc050d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[RFCOMM][Dispatch_DLCIx_Done]dlcix-&gt;ddlci=%d, reason=%d, dlcix-&gt;cbk_ev=%d @rfcomm_fsm_ram.c(254),WARNING" ID="0x8bcc07f3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[RFCOMM][FSM]dlci0=0x%x, dlci0_status=%d, ddlci=%d @rfcomm_fsm_ram.c(297),INFO" ID="0x8bcc094d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[RFCOMM][FSM]send DM, dlcix=0x%x, dlcix_status=%d @rfcomm_fsm_ram.c(323),INFO" ID="0x8bcc0a1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[RFCOMM][FSM]send DM, dlcix is NULL @rfcomm_fsm_ram.c(329),INFO" ID="0x8bcc0a4d" />
+			</MSG_LOG>

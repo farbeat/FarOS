@@ -1,0 +1,108 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="tx_channel: %d valid @bt_dft.c(160),ERROR" ID="0x8d0a0502" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="tx_type: %d valid @bt_dft.c(170),ERROR" ID="0x8d0a0552" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="tx_len: %d valid @bt_dft.c(180),ERROR" ID="0x8d0a05a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="tx_time: %d valid @bt_dft.c(190),ERROR" ID="0x8d0a05f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rx_ch: %d valid @bt_dft.c(200),ERROR" ID="0x8d0a0642" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rx_time: %d valid @bt_dft.c(210),ERROR" ID="0x8d0a0692" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft response malloc err @bt_dft.c(225),INFO" ID="0x8d0a070d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response len = 0x%x @bt_dft.c(229),INFO" ID="0x8d0a072d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response memcpy ok, res_len: %d @bt_dft.c(234),INFO" ID="0x8d0a0755" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft response memcpy err @bt_dft.c(236),INFO" ID="0x8d0a0765" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft response param err @bt_dft.c(240),INFO" ID="0x8d0a0785" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response only ack: 0x%x @bt_dft.c(243),INFO" ID="0x8d0a079d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response tid = 0x%x @bt_dft.c(246),INFO" ID="0x8d0a07b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft response opcode = 0x%x @bt_dft.c(247),INFO" ID="0x8d0a07bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft set rf test mode = %d @bt_dft.c(258),INFO" ID="0x8d0a0815" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt set rf test mode param err,new&amp;old = 0x%04x @bt_dft.c(262),INFO" ID="0x8d0a0835" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft is busy @bt_dft.c(270),INFO" ID="0x8d0a0875" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr tx mode dft is busy! @bt_dft.c(300),INFO" ID="0x8d0a0965" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr tx mode dft already open @bt_dft.c(306),INFO" ID="0x8d0a0995" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr tx mode ok @bt_dft.c(318),INFO" ID="0x8d0a09f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr tx mode param err @bt_dft.c(320),INFO" ID="0x8d0a0a05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr tx mode failed @bt_dft.c(322),INFO" ID="0x8d0a0a15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr rx mode dft is busy! @bt_dft.c(337),INFO" ID="0x8d0a0a8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr rx mode dft already open @bt_dft.c(343),INFO" ID="0x8d0a0abd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr rx mode ok @bt_dft.c(355),INFO" ID="0x8d0a0b1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr rx mode param err @bt_dft.c(357),INFO" ID="0x8d0a0b2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set bredr rx mode failed @bt_dft.c(359),INFO" ID="0x8d0a0b3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft set ble tx mode on_off&amp;tx_channel&amp;pkt_type&amp;pkt_len = 0x%08x @bt_dft.c(378),INFO" ID="0x8d0a0bd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble tx mode dft is busy! @bt_dft.c(381),INFO" ID="0x8d0a0bed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble tx mode dft already open @bt_dft.c(387),INFO" ID="0x8d0a0c1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="tx_phy: %d invalid @bt_dft.c(397),ERROR" ID="0x8d0a0c6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble tx mode ok @bt_dft.c(411),INFO" ID="0x8d0a0cdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble tx mode failed @bt_dft.c(414),INFO" ID="0x8d0a0cf5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft set ble rx mode on_off&amp;rx_channel 0x%04x @bt_dft.c(425),INFO" ID="0x8d0a0d4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble rx mode dft is busy! @bt_dft.c(428),INFO" ID="0x8d0a0d65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble rx mode dft already open @bt_dft.c(434),INFO" ID="0x8d0a0d95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rx_phy: %d invalid @bt_dft.c(442),ERROR" ID="0x8d0a0dd2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble rx mode param check ok @bt_dft.c(453),INFO" ID="0x8d0a0e2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble rx mode ok @bt_dft.c(458),INFO" ID="0x8d0a0e55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft set ble rx mode failed @bt_dft.c(462),INFO" ID="0x8d0a0e75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft get rf tx packets @bt_dft.c(476),INFO" ID="0x8d0a0ee5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft get rf tx packets is busy! @bt_dft.c(479),INFO" ID="0x8d0a0efd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft get rf tx packets pkt_num = 0x%04x @bt_dft.c(485),INFO" ID="0x8d0a0f2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft get rf tx packets @bt_dft.c(502),INFO" ID="0x8d0a0fb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft get bt version @bt_dft.c(522),INFO" ID="0x8d0a1055" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft cali power init param err @bt_dft.c(532),ERROR" ID="0x8d0a10a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT: bt dft cali power init %d @bt_dft.c(538),INFO" ID="0x8d0a10d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft cali power start param err @bt_dft.c(549),ERROR" ID="0x8d0a112a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT: bt dft cali power end %d @bt_dft.c(567),INFO" ID="0x8d0a11bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft default cmds @bt_dft.c(573),INFO" ID="0x8d0a11ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dongle test proc msg_id: 0x%x @bt_dft.c(589),INFO" ID="0x8d0a126d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dongle test proc mac is NULL @bt_dft.c(601),ERROR" ID="0x8d0a12ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dongle test proc dis acl err @bt_dft.c(604),ERROR" ID="0x8d0a12e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dongle test proc is ble only @bt_dft.c(608),INFO" ID="0x8d0a1305" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dongle test proc cmd err! @bt_dft.c(638),INFO" ID="0x8d0a13f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: Ble test faile @bt_dft.c(644),INFO" ID="0x8d0a1425" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @bt_dft.c(665),INFO" ID="0x8d0a14cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt dft transparent trans malloc err @bt_dft.c(669),ERROR" ID="0x8d0a14ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc notify bt device info len = %d @bt_dft.c(687),ERROR" ID="0x8d0a157a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: ResponseBtInfo param NULL @bt_dft.c(697),ERROR" ID="0x8d0a15ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble core: App Start Ble Adv get localname or mac err @bt_dft.c(704),ERROR" ID="0x8d0a1602" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt dft read addr:0x%x @bt_dft.c(717),INFO" ID="0x8d0a166d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="MPC: bt dft read addr:0x%x:**:**:**:0x%x:0x%x @bt_dft.c(719),INFO" ID="0x8d0a167d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="MPC: bt dft reset:0x%x, status:0x%x @bt_dft.c(729),INFO" ID="0x8d0a16cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: ResponseBtInfo param NULL @bt_dft.c(736),ERROR" ID="0x8d0a1702" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble core: App Start Ble Adv get localname or mac err @bt_dft.c(744),ERROR" ID="0x8d0a1742" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: ResponseNameRead Response:0x%x @bt_dft.c(759),INFO" ID="0x8d0a17bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt dft write name:0x%x success @bt_dft.c(769),INFO" ID="0x8d0a180d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: bt adpt set br edr scan ble only not support Br Scan! @bt_dft.c(776),INFO" ID="0x8d0a1845" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="MPC: BtSetScan %d, return:%d @bt_dft.c(787),INFO" ID="0x8d0a189d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="MPC: adpt gap set page scan window %d, return:%d @bt_dft.c(792),INFO" ID="0x8d0a18c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt clear scan mode:0x%x, success @bt_dft.c(810),INFO" ID="0x8d0a1955" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt set scan start:0x%x, success @bt_dft.c(823),INFO" ID="0x8d0a19bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt disconnect link:pkt_len = %d, entry @bt_dft.c(835),INFO" ID="0x8d0a1a1d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="MPC:remote_addr 0x%02x:%02x:**:**:**:%02x @bt_dft.c(841),INFO" ID="0x8d0a1a4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: No device connected @bt_dft.c(850),INFO" ID="0x8d0a1a95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: memcpy error @bt_dft.c(857),INFO" ID="0x8d0a1acd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: adpt gap disconnect link return:%d @bt_dft.c(867),INFO" ID="0x8d0a1b1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt disconnect link:0x%x, success @bt_dft.c(875),INFO" ID="0x8d0a1b5d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="MPC: bt get ble con devinfo br: 0x%x:0x%x:**:**:**:0x%x:0x%x @bt_dft.c(903),INFO" ID="0x8d0a1c3d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="MPC: bt get ble con devinfo ble:0x%x:0x%x:**:**:**:0x%x:0x%x @bt_dft.c(905),INFO" ID="0x8d0a1c4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: bt get ble con devinfo: Get device name fail @bt_dft.c(913),INFO" ID="0x8d0a1c8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: bt get ble con devinfo formate info error @bt_dft.c(926),INFO" ID="0x8d0a1cf5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt get ble con devinfo ble connect state:%u @bt_dft.c(930),INFO" ID="0x8d0a1d15" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="MPC: bt get ble con devinfo ble:0x%x:0x%x:**:**:**:0x%x @bt_dft.c(947),INFO" ID="0x8d0a1d9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: bt get ble con devinfo: formate info error @bt_dft.c(954),INFO" ID="0x8d0a1dd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt get ble con devinfo ble connect state:%u @bt_dft.c(959),INFO" ID="0x8d0a1dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt change adv addr type:pkt_len = %d, entry @bt_dft.c(967),INFO" ID="0x8d0a1e3d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="MPC: bt change adv addr type:addr_type = %d, use_private_addr = %d @bt_dft.c(976),INFO" ID="0x8d0a1e85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC: bt change adv addr type:0x%x, success @bt_dft.c(979),INFO" ID="0x8d0a1e9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MPC: bt reg default gatt services success @bt_dft.c(986),INFO" ID="0x8d0a1ed5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Exit for pointer is NULL @bt_dft.c(1079),ERROR" ID="0x8d0a21ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft recieve cmd opcode= 0x%X @bt_dft.c(1102),INFO" ID="0x8d0a2275" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft proc dongle cmds tarns_id= 0x%X @bt_dft.c(1153),INFO" ID="0x8d0a240d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft proc dongle cmds opcode = 0x%X @bt_dft.c(1154),INFO" ID="0x8d0a2415" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft proc dongle cmds control= 0x%X @bt_dft.c(1155),INFO" ID="0x8d0a241d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt dft proc dongle cmds sequence= 0x%X @bt_dft.c(1156),INFO" ID="0x8d0a2425" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt dft proc dongle cmds param[%d] = 0x%X @bt_dft.c(1159),INFO" ID="0x8d0a243d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft not idle @bt_dft.c(1169),INFO" ID="0x8d0a248d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dft dongle param pass @bt_dft.c(1183),INFO" ID="0x8d0a24fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT: bt dft is in rf test %d @bt_dft.c(1197),INFO" ID="0x8d0a256d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft dongle rf test start @bt_dft.c(1203),INFO" ID="0x8d0a259d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft rf aging start @bt_dft.c(1226),INFO" ID="0x8d0a2655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft rf aging stop @bt_dft.c(1248),INFO" ID="0x8d0a2705" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft aging test control param is NULL @bt_dft.c(1267),INFO" ID="0x8d0a279d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_DFT: bt dft aging test control param-&gt;pkt_ptr is NULL @bt_dft.c(1272),INFO" ID="0x8d0a27c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_DFT: bt dft aging test control %d @bt_dft.c(1281),INFO" ID="0x8d0a280d" />
+			</MSG_LOG>

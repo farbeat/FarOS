@@ -1,0 +1,153 @@
+[1/135] HSO_DB Makedir
+[2/135] Building HSO_DB_memory_core
+[3/135] Building HSO_DB_reboot
+[4/135] Building HSO_DB_hal_pke
+[5/135] Building HSO_DB_hal_ipc_old
+[6/135] Building HSO_DB_hal_gpio_v100
+[7/135] Building HSO_DB_partition
+[8/135] Building HSO_DB_dfx_update
+[9/135] Building HSO_DB_dfx_log
+[10/135] Building HSO_DB_ulp_aon
+[11/135] Building HSO_DB_xip_port
+[12/135] Building HSO_DB_hal_l2ram
+[13/135] Building HSO_DB_nand_flash
+[14/135] Building HSO_DB_chip_brandy
+[15/135] Building HSO_DB_brandy_app_standard
+[16/135] Building HSO_DB_drv_mmc
+[17/135] Building HSO_DB_hal_reboot
+[18/135] Building HSO_DB_brandy_clocks
+[19/135] Building HSO_DB_hal_reg_config
+[20/135] Building HSO_DB_pmu_brandy
+[21/135] Building HSO_DB_hal_sectors
+[22/135] Building HSO_DB_lpc
+[23/135] Building HSO_DB_lib_utils
+[24/135] Building HSO_DB_mtd_com
+[25/135] Building HSO_DB_partition_brandy
+[26/135] Building HSO_DB_dfx_nv
+[27/135] Building HSO_DB_hal_efuse_v100
+[28/135] Building HSO_DB_nv_brandy
+[29/135] Building HSO_DB_algorithm
+[30/135] Building HSO_DB_mbedtls
+[31/135] Building HSO_DB_dfx_port_brandy
+[32/135] Building HSO_DB_nv
+[33/135] Building HSO_DB_cpu_load
+[34/135] Building HSO_DB_x_vfs
+[35/135] Building HSO_DB_cipher
+[36/135] Building HSO_DB_otp
+[37/135] Building HSO_DB_cpu_utils
+[38/135] Building HSO_DB_liteos_port
+[39/135] Building HSO_DB_osal
+[40/135] Building HSO_DB_hal_hash
+[41/135] Building HSO_DB_dfx_file_operation
+[42/135] Building HSO_DB_non_os
+[43/135] Building HSO_DB_dma
+[44/135] Building HSO_DB_x_disk
+[45/135] Building HSO_DB_x_dpal
+[46/135] Building HSO_DB_pm_brandy
+[47/135] Building HSO_DB_pm_service
+[48/135] Building HSO_DB_at_cmd
+[49/135] Building HSO_DB_hal_pmp
+[50/135] Building HSO_DB_app_at_service
+[51/135] Building HSO_DB_bt_manager_at_service
+[52/135] Building HSO_DB_adc_port
+[53/135] Building HSO_DB_x_fat
+[54/135] Building HSO_DB_button_port
+[55/135] Building HSO_DB_build_version
+[56/135] Building HSO_DB_app_version
+[57/135] Building HSO_DB_hal_qspi
+[58/135] Building HSO_DB_connectivity
+[59/135] Building HSO_DB_dfx_panic
+[60/135] Building HSO_DB_hal_cpu_core
+[61/135] Building HSO_DB_dfx_preserve
+[62/135] Building HSO_DB_hal_lpc
+[63/135] Building HSO_DB_hal_xip
+[64/135] Building HSO_DB_hal_adc
+[65/135] Building HSO_DB_hal_systick
+[66/135] Building HSO_DB_adc
+[67/135] Building HSO_DB_ipc_old
+[68/135] Building HSO_DB_spi
+[69/135] Building HSO_DB_hal_spi
+[70/135] Building HSO_DB_pinctrl
+[71/135] Building HSO_DB_hal_dma_v100
+[72/135] Building HSO_DB_spi_porting
+[73/135] Building HSO_DB_tcxo
+[74/135] Building HSO_DB_dma_port
+[75/135] Building HSO_DB_hal_i2c
+[76/135] Building HSO_DB_i2c
+[77/135] Building HSO_DB_uart_port
+[78/135] Building HSO_DB_i2c_porting
+[79/135] Building HSO_DB_hal_pwm
+[80/135] Building HSO_DB_pwm
+[81/135] Building HSO_DB_pwm_port
+[82/135] Building HSO_DB_pmp
+[83/135] Building HSO_DB_watchdog
+[84/135] Building HSO_DB_pmp_port
+[85/135] Building HSO_DB_hal_watchdog
+[86/135] Building HSO_DB_watchdog_port
+[87/135] Building HSO_DB_port_pinctrl
+[88/135] Building HSO_DB_uart
+[89/135] Building HSO_DB_hal_uart
+[90/135] Building HSO_DB_hal_otp
+[91/135] Building HSO_DB_gpio
+[92/135] Building HSO_DB_qspi
+[93/135] Building HSO_DB_hal_cpu_trace
+[94/135] Building HSO_DB_gpio_port
+[95/135] Building HSO_DB_cpu_trace
+[96/135] Building HSO_DB_systick
+[97/135] Building HSO_DB_hash
+[98/135] Building HSO_DB_drv_timer
+[99/135] Building HSO_DB_hal_tcxo
+[100/135] Building HSO_DB_hash_port
+[101/135] Building HSO_DB_hal_timer
+[102/135] Building HSO_DB_rtc_unified
+[103/135] Building HSO_DB_rtc_unified_port
+[104/135] Building HSO_DB_timer_port
+[105/135] Building HSO_DB_hal_rtc_unified
+[106/135] Building HSO_DB_systick_port
+[107/135] Building HSO_DB_tcxo_port
+[108/135] Building HSO_DB_hal_trng
+[109/135] Building HSO_DB_trng
+[110/135] Building HSO_DB_pke
+[111/135] Building HSO_DB_trng_port
+[112/135] Building HSO_DB_dfx_exception
+[113/135] Building HSO_DB_hal_cipher
+[114/135] Building HSO_DB_pke_port
+[115/135] Building HSO_DB_cipher_port
+[116/135] Building HSO_DB_hal_km
+[117/135] Building HSO_DB_km
+[118/135] Building HSO_DB_km_port
+[119/135] Building HSO_DB_efuse
+[120/135] Building HSO_DB_efuse_porting
+[121/135] Building HSO_DB_update_common
+[122/135] Building HSO_DB_update_storage
+[123/135] Building HSO_DB_update_local
+[124/135] Building HSO_DB_update_storage_brandy
+[125/135] Building HSO_DB_lzma_21.07
+[126/135] Building HSO_DB_update_common_brandy
+[127/135] Building HSO_DB_hal_pinctrl
+[128/135] Building HSO_DB_flash
+[129/135] Building HSO_DB_flash_porting
+[130/135] Building HSO_DB_soc_log
+[131/135] Building HSO_DB_log_file
+[132/135] Building HSO_DB_diag_dfx_cmd
+[133/135] Building HSO_DB_dfx_diag
+[134/135] Building HSO_DB_bt_host_brandy_sample
+[135/135] Running utility command for HSO_DB
+Running parse step1 at C:\Users\25288\Desktop\hi3321_650\tools\tools\DevEco\DevTools_CFBB_V1.0.8\thirdparty\python\python.exe  version:3.9.11
+out_file:
+C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/parse_tool\auto_class.py
+out_file:
+C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/parse_tool\auto_struct.txt
+Build parse tool success.
+['C:\\Users\\25288\\Desktop\\hi3321_650\\tools\\tools\\DevEco\\DevTools_CFBB_V1.0.8\\thirdparty\\python\\python.exe', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\pkg\\packet.py', 'brandy', 'brandy-mcu-bt', '0x800000']
+
+
+Parameter error
+Build params success!
+build nv bin success!!
+ssb_path:  C:\Users\25288\Desktop\sdk_mini_650\tools\pkg\bin\brandy\ssb.bin
+['C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\pkg\\bin\\brandy\\ssb.bin', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\partition_table.bin', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\acore\\brandy-mcu-bt\\application.bin', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\pkg\\bin\\brandy\\bt.bin', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\pkg\\bin\\brandy\\dsp\\mini\\dsp_main.bin', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\pkg\\bin\\brandy\\dsp\\mini\\dsp_overlay.bin', 'C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\nv_bin\\brandy_all_nv.bin']
+[1879048192, 1879371776, 1881866240, 1879638016, 1880096768, 1880555520, 1887408128]
+[131072, 4096, 5541888, 458752, 458752, 1310720, 16384]
+[75900, 1024, 636408, 424584, 338160, 131728, 4096]
+[0, 100, 18, 20, 22, 26, 100]

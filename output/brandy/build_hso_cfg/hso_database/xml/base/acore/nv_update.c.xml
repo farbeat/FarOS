@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[NV] found defrag_page. loc = 0x%x @nv_update.c(693),DBG" ID="0xa07a15ae" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] The Key not need update. Key id = 0x%x @nv_update.c(1037),DBG" ID="0xa07a206e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] get erase page_number failed! page_location = 0x%x @nv_update.c(1179),DBG" ID="0xa07a24de" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[NV] update nv map for erase key = 0x%x (page = 0x%x) size = %d @nv_update.c(1200),DBG" ID="0xa07a2586" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] get new key page_number failed! page_location = 0x%x @nv_update.c(1210),DBG" ID="0xa07a25d6" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[NV] update nv map for new key = 0x%x (page = 0x%x) size = %d @nv_update.c(1230),DBG" ID="0xa07a2676" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%08X:   @nv_update.c(1445),DBG" ID="0xa07a2d2e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%s   @nv_update.c(1446),DBG" ID="0xa07a2d36" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%s   @nv_update.c(1447),DBG" ID="0xa07a2d3e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%s @nv_update.c(1448),DBG" ID="0xa07a2d46" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="*** State Machine  %s *** @nv_update.c(1450),DBG" ID="0xa07a2d56" />
+			</MSG_LOG>

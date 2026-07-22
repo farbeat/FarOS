@@ -1,0 +1,76 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[INFO][HCI]dbg wbs vendor_spec subcode %d, enable=%d, codec=%d @dbg_task.c(980),INFO" ID="0x88221ea5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CAL][ADPLL DTC] [lsb]addr:0x%x, val:0x%x; [msb]addr:0x%x, val:0x%x @dbg_task.c(1018),INFO" ID="0x88221fd5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADPLL DTC]addr:0x%x, val:0x%x @dbg_task.c(1024),INFO" ID="0x88222005" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADPLL MOD_SEN]addr:0x%x, val:0x%x @dbg_task.c(1027),INFO" ID="0x8822201d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADPLL MOD_SEN]addr:0x%x, val:0x%x @dbg_task.c(1029),INFO" ID="0x8822202d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CAL][ADPLL PULLING]freq:%d, val_high:0x%x, val_low:0x%x @dbg_task.c(1035),INFO" ID="0x8822205d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][TX 2ND HARMONICS]addr:0x%x, val:0x%x @dbg_task.c(1045),INFO" ID="0x882220ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX LNA SATDET]addr:0x%x, val:0x%x @dbg_task.c(1048),INFO" ID="0x882220c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1051),INFO" ID="0x882220dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1053),INFO" ID="0x882220ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1055),INFO" ID="0x882220fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1057),INFO" ID="0x8822210d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1059),INFO" ID="0x8822211d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1061),INFO" ID="0x8822212d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX DC]addr:0x%x, val:0x%x @dbg_task.c(1063),INFO" ID="0x8822213d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX IQ]addr:0x%x, val:0x%x @dbg_task.c(1067),INFO" ID="0x8822215d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX IQ]addr:0x%x, val:0x%x @dbg_task.c(1069),INFO" ID="0x8822216d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][RX LPF]addr:0x%x, val:0x%x @dbg_task.c(1072),INFO" ID="0x88222185" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][R CODE]addr:0x%x, val:0x%x @dbg_task.c(1075),INFO" ID="0x8822219d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][MOM CAP]addr:0x%x, val:0x%x @dbg_task.c(1079),INFO" ID="0x882221bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADC CAP]addr:0x%x, val:0x%x @dbg_task.c(1083),INFO" ID="0x882221dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADC CAP]addr:0x%x, val:0x%x @dbg_task.c(1085),INFO" ID="0x882221ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][ADC CAP]addr:0x%x, val:0x%x @dbg_task.c(1087),INFO" ID="0x882221fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] write com addr:0x%x, value:0x%x @dbg_task.c(1106),INFO" ID="0x88222295" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] read com addr:0x%x, value:0x%x @dbg_task.c(1121),INFO" ID="0x8822230d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] write com addr:0x%x, value:0x%x @dbg_task.c(1140),INFO" ID="0x882223a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] read com addr:0x%x, value:0x%x @dbg_task.c(1155),INFO" ID="0x8822241d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]write modem addr_v[0x%x], value_v[0x%x] @dbg_task.c(1170),INFO" ID="0x88222495" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] read modem addr_v:0x%x, value:0x%x @dbg_task.c(1182),INFO" ID="0x882224f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] write rf addr:0x%x, value:0x%x @dbg_task.c(1200),INFO" ID="0x88222585" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] write rfpll addr:0x%x, value:0x%x @dbg_task.c(1218),INFO" ID="0x88222615" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] read rf addr:0x%x, value:0x%x @dbg_task.c(1232),INFO" ID="0x88222685" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug] read rfpll addr:0x%x, value:0x%x @dbg_task.c(1246),INFO" ID="0x882226f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DBG][SET_LE_ADDR] curr_addr_type=%d, LE_ADDR is 0x%02x:0x%02x*:*:*:0x%02x @dbg_task.c(1302),INFO" ID="0x882228b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set_le_addr_cmd ERR=%d @dbg_task.c(1311),ERROR" ID="0x882228fa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DBG][SET_LE_ADDR] rand LE_ADDR is 0x%02x:0x%02x:*:*:*:0x%02x @dbg_task.c(1315),INFO" ID="0x8822291d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]hci_dbg_le_multi_adv_prio_cmd_handler:adv_instance=%d, adv_prio=%d,conhdl=%d,status=%d @dbg_task.c(1566),INFO" ID="0x882230f5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][HCI]hci_le_multi_advt_cmd_handler:SubOpcode=0x%x conhdl=0x%x status=0x%x @dbg_task.c(1599),INFO" ID="0x882231fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DBG]hci_dbg_le_get_energy_cmd_handler:event_filed=%d @dbg_task.c(1687),INFO" ID="0x882234bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][BT]hci_dbg_bt_dfx_parse_cmd_handler. len = 0x%x, param = %c @dbg_task.c(1720),INFO" ID="0x882235c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][BT]dfx parse cmp evt alloc FAILED! @dbg_task.c(1725),ERROR" ID="0x882235ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO] sco rx status:total=%d, bad=%d @dbg_task.c(1754),INFO" ID="0x882236d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DBG][HCI]hci_dbg_vendor_specific_cmd_handler:sub_opcode=0x%x @dbg_task.c(1785),INFO" ID="0x882237cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][DBG][HCI]TWS_PAIR_BD_ADDR:[%x:%x:*:*:*:%x] @dbg_task.c(1816),INFO" ID="0x882238c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="scene_identify:hdl=%x, scene=%x, bitrate=%x, low_time_delay=%x @dbg_task.c(1825),INFO" ID="0x8822390d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DBG][HCI]hci_dbg_vendor_specific_cmd_ext_handler:sub_opcode=0x%x @dbg_task.c(1878),INFO" ID="0x88223ab5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SET_A2DP_CID]HCI_DBG_VENDOR_SET_A2DP_CID:conhdl=%d, cid=%d @dbg_task.c(1928),INFO" ID="0x88223c45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[SET_A2DP_CID]: link_id=%d, ld_acl_scene_state=%d, ld_acl_cid=%d @dbg_task.c(1940),INFO" ID="0x88223ca5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SET_A2DP_CID]: invalid conhdl!] @dbg_task.c(1943),INFO" ID="0x88223cbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="scene_identify hdl is not exist @dbg_task.c(1991),INFO" ID="0x88223e3d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SET_ICO_VOICE_CODEC_PARAM]format=%d, rate=%d @dbg_task.c(2006),INFO" ID="0x88223eb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV]get nv and cali start! @dbg_task.c(2027),INFO" ID="0x88223f5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV]get nv and cali finished! @dbg_task.c(2030),INFO" ID="0x88223f75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="TX/RX is going on normally @dbg_task.c(2039),INFO" ID="0x88223fbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="TX/RX is abnormal, plz check operation or config @dbg_task.c(2042),WARNING" ID="0x88223fd3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DBG][HCI]dbg_bt_pub_priv_key_set:key_len[0x%x] @dbg_task.c(2051),INFO" ID="0x8822401d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CLEAN UP]BTC CLEAN UP @dbg_task.c(2105),INFO" ID="0x882241cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CAL][TX PWR]addr:0x%x, val:0x%x @dbg_task.c(2150),INFO" ID="0x88224335" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[00-09], val:0x%x @dbg_task.c(2151),INFO" ID="0x8822433d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[10-19], val:0x%x @dbg_task.c(2152),INFO" ID="0x88224345" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[20-31], val:0x%x @dbg_task.c(2153),INFO" ID="0x8822434d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[32-56], val:0x%x @dbg_task.c(2154),INFO" ID="0x88224355" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[57-65], val:0x%x @dbg_task.c(2155),INFO" ID="0x8822435d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[66-69], val:0x%x @dbg_task.c(2156),INFO" ID="0x88224365" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[70-73], val:0x%x @dbg_task.c(2157),INFO" ID="0x8822436d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CAL][TX PWR]freq[74-78], val:0x%x @dbg_task.c(2158),INFO" ID="0x88224375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BT_WL][DBG]hci_dbg_wlcoex_a2dp_cmd_handler param-&gt;conhdl=%d @dbg_task.c(2189),WARNING" ID="0x8822446b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][BT_WL][DBG]hci_dbg_wlcoex_a2dp_cmd_handler index=%d, lvl=%d @dbg_task.c(2196),INFO" ID="0x882244a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][BT_WL][DBG]hci_dbg_wlcoex_obex_cmd_handler index=%d, lvl=%d @dbg_task.c(2328),INFO" ID="0x882248c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[productline_cali]productline cmd handler start @dbg_task.c(2366),INFO" ID="0x882249f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][PRODUCTLINE]cali pow cmp evt alloc FAILED! @dbg_task.c(2375),ERROR" ID="0x88224a3a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[productline_cali]freq = %d, current_power = %d @dbg_task.c(2377),INFO" ID="0x88224a4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[productline_cali], SUCCESS, productline event set @dbg_task.c(2380),INFO" ID="0x88224a65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[productline_cali], FAIL, productline event set @dbg_task.c(2389),ERROR" ID="0x88224aaa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]hci_dbg_bt_productcheck_query_cmd_handler: RF test abort FAILED @dbg_task.c(2456),ERROR" ID="0x88224cc2" />
+			</MSG_LOG>

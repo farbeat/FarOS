@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_rd_local_priv_feature_cmd_handler Enter! @lc_hci_priv.c(61),INFO" ID="0x89a601ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_rd_local_priv_feature_cmd_handler Exit! @lc_hci_priv.c(72),INFO" ID="0x89a60245" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_rd_peer_priv_feature_cmd_handler Enter! @lc_hci_priv.c(117),INFO" ID="0x89a603ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_rd_peer_priv_feature_cmd_handler Exit! @lc_hci_priv.c(140),INFO" ID="0x89a60465" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[L2CAP][NEW_CID] PSM=0x%x, STATUS=%d, LOCAL_CID=%d @l2cap_core.c(93),INFO" ID="0x8ada02ed" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[L2CAP][DELETE_CID] PSM=0x%x, STATUS=%d, LOCAL_CID=%d, ERR_CODE=0x%x @l2cap_core.c(116),INFO" ID="0x8ada03a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[T%x][TIMEOUT] CID PROCEDURE, CID_LOCAL=%u, TIMER=0x%x @l2cap_core.c(278),WARNING" ID="0x8ada08b3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[L2CAP][SIGNAL_PSM]PSM=0x%x @l2cap_core.c(799),INFO" ID="0x8ada18fd" />
+			</MSG_LOG>

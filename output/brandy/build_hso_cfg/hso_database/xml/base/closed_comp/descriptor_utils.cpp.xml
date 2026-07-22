@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Failed to RenderForDescriptor because the result value is undefined. @descriptor_utils.cpp(94),ERROR" ID="0xe0d002f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="delete native view pointer from native element failed. @descriptor_utils.cpp(193),WARNING" ID="0xe0d0060b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to create descriptor because the type argument is null or empty. @descriptor_utils.cpp(211),ERROR" ID="0xe0d0069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to create descriptor because the getter argument is not a function. @descriptor_utils.cpp(216),ERROR" ID="0xe0d006c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to create descriptor because the render argument is not a function. @descriptor_utils.cpp(221),ERROR" ID="0xe0d006ea" />
+			</MSG_LOG>
