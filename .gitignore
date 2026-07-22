@@ -1,6 +1,6 @@
 .deveco/**
 .vscode/**
-test/**
+# test/**
 tools/**
 
 # application/**
