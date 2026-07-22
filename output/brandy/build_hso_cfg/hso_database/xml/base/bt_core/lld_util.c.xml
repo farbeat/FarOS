@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLD]lld_pdu_tx_flush_list:txnode-&gt;idx=%d @lld_util.c(123),INFO" ID="0x885c03dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_util_set_cs_bd_address:idx=0x%x, type=%x, bd[5:4]=%x, bd[0]=%x @lld_util.c(166),INFO" ID="0x885c0535" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LLD][UHD]lld_util_dle_set_cs_fields:rx_max_len=%d,rx_max_time=%d,rx_polar=%d @lld_util.c(199),INFO" ID="0x885c063d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLD][UHD]lld_util_dle_set_cs_fields:rx_max_len=%d,rx_max_time=%d @lld_util.c(230),INFO" ID="0x885c0735" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]lld_util_compute_ce_max:tx_time=%d, rx_time=%d, encryption=%d, frame_size=%d @lld_util.c(316),INFO" ID="0x885c09e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]lld_util_compute_ce_max:max_bw=%d, frame_size=%d, nb_frame_by_interval=%d @lld_util.c(328),INFO" ID="0x885c0a45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]lld_util_compute_ce_max:ce_max=%d, frame_size=%d, nb_frame_by_interval=%d @lld_util.c(335),INFO" ID="0x885c0a7d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[UHD]lld_debug_polar_config:ico_phy:0x%x, ico_polar:0x%x @lld_util.c(409),INFO" ID="0x885c0ccd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble_btc_only_ico_polar_config:tx_phy=%d, rx_phy = %d @lld_util.c(491),INFO" ID="0x885c0f5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTC]ble_get_uhd_time:not normal phy_type %d @lld_util.c(525),WARNING" ID="0x885c106b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BTC]ble_get_uhd_time:time: %d,phy:%d @lld_util.c(528),WARNING" ID="0x885c1083" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble_get_polar_time:time: %d,phy_type:%d,phy_rate:%d,tx_polar_r:%d @lld_util.c(542),WARNING" ID="0x885c10f3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]lld_uhd_v2_util_compute_ce_max:tx_time=%d, rx_time=%d, encryption=%d, frame_size=%d @lld_util.c(655),INFO" ID="0x885c147d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]lld_uhd_v2_util_compute_ce_max:max_bw=%d, frame_size=%d, nb_frame_by_interval=%d @lld_util.c(661),INFO" ID="0x885c14ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]lld_uhd_v2_util_compute_ce_max:ce_max=%d, frame_size=%d, nb_frame_by_interval=%d @lld_util.c(668),INFO" ID="0x885c14e5" />
+			</MSG_LOG>

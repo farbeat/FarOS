@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][set_configuration_ind] local_seid:%d set INUSE @avdtp_sep_ram.c(163),INFO" ID="0x8baa051d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][AVDTP_SUSPEND] STREAM_STATUS=%u @avdtp_sep_ram.c(249),WARNING" ID="0x8baa07cb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][AVDTP_START] STREAM_STATUS=%u @avdtp_sep_ram.c(295),WARNING" ID="0x8baa093b" />
+			</MSG_LOG>

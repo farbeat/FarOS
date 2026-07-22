@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BMS] get file data pos failed! @gt_bundle_extractor.cpp(100),ERROR" ID="0xe0400322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] get file attr failed! @gt_bundle_extractor.cpp(106),ERROR" ID="0xe0400352" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] get profile data failed! @gt_bundle_extractor.cpp(117),ERROR" ID="0xe04003aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] extract file data pos failed! @gt_bundle_extractor.cpp(145),ERROR" ID="0xe040048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] get file attr failed! @gt_bundle_extractor.cpp(151),ERROR" ID="0xe04004ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="VINCENTSS::GtBundleExtractor::ExtractInstallMsg totalFileSize = %d @gt_bundle_extractor.cpp(199),INFO" ID="0xe040063d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] get unsigned file length failed! @gt_bundle_extractor.cpp(201),ERROR" ID="0xe040064a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] extract resource file failed! @gt_bundle_extractor.cpp(211),ERROR" ID="0xe040069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] parse hap profile get bundle info failed! @gt_bundle_extractor.cpp(220),ERROR" ID="0xe04006e2" />
+			</MSG_LOG>

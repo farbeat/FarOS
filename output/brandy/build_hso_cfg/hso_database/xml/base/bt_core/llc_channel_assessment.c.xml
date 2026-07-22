@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_chnlscan_start_check:new start @llc_channel_assessment.c(37),INFO" ID="0x89f6012d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_ch_compute_master_ch_map:channel_sum=0 @llc_channel_assessment.c(458),INFO" ID="0x89f60e55" />
+			</MSG_LOG>

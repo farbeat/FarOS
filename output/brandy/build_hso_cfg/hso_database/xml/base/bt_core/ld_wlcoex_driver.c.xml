@@ -1,0 +1,25 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[COEX][UART]CHECKSUM ERR, ABORT UART MSG @ld_wlcoex_driver.c(133),INFO" ID="0x881c042d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX]ld_wlcoex_set_init memcpy_s fail! bt state value0=0x%x @ld_wlcoex_driver.c(152),INFO" ID="0x881c04c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX]ld_wlcoex_set_init memcpy_s fail! bt state value1=0x%x @ld_wlcoex_driver.c(159),INFO" ID="0x881c04fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX]uart_status is NULL @ld_wlcoex_driver.c(227),INFO" ID="0x881c071d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[send_msg_to_wifi]uart_status.header = %x, uart_status.ordertype = %x @ld_wlcoex_driver.c(258),INFO" ID="0x881c0815" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[send_msg_to_wifi]uart_status.status[0] = %x, uart_status.status[1] = %x @ld_wlcoex_driver.c(260),INFO" ID="0x881c0825" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[send_msg_to_wifi]uart_status.status[2] = %x, uart_status.status[3] = %x @ld_wlcoex_driver.c(262),INFO" ID="0x881c0835" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[coex_uart_rx_lite_process]uartstatus = 0x%x, wlstate_value = 0x%x @ld_wlcoex_driver.c(307),INFO" ID="0x881c099d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]ld_wlcoex_uart_isr_process reg0=0x%x, reg1=0x%x @ld_wlcoex_driver.c(365),INFO" ID="0x881c0b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]data incomplete, buf_len = %d! @ld_wlcoex_driver.c(468),INFO" ID="0x881c0ea5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]mem_flag = %x @ld_wlcoex_driver.c(472),ERROR" ID="0x881c0ec2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]mem_flag = %x @ld_wlcoex_driver.c(484),ERROR" ID="0x881c0f22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX]incomplete buf full, wlcoex_uart_isr_process! @ld_wlcoex_driver.c(489),INFO" ID="0x881c0f4d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[COEX]buf_len = %d, uart_status.header = %x, uart_status.ordertype = %x @ld_wlcoex_driver.c(492),INFO" ID="0x881c0f65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[COEX]uart_status.status[0] = %x, uart_status.status[1] = %x @ld_wlcoex_driver.c(494),INFO" ID="0x881c0f75" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[COEX]uart_status.status[2] = %x, uart_status.status[3] = %x @ld_wlcoex_driver.c(496),INFO" ID="0x881c0f85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX]missing last coex uart isr! @ld_wlcoex_driver.c(533),ERROR" ID="0x881c10aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]mem_flag = %x @ld_wlcoex_driver.c(540),ERROR" ID="0x881c10e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]get wrong uart info head = %x @ld_wlcoex_driver.c(550),INFO" ID="0x881c1135" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX]ld_wlcoex_set_init memcpy_s fail! bt state value0=0x%x @ld_wlcoex_driver.c(598),INFO" ID="0x881c12b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX]ld_wlcoex_set_init memcpy_s fail! bt state value1=0x%x @ld_wlcoex_driver.c(605),INFO" ID="0x881c12ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][COEX]ld_wlcoex_set_init wlan state value0=0x%x, state value1=0x%x @ld_wlcoex_driver.c(647),INFO" ID="0x881c143d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]system mode[%d] @ld_wlcoex_driver.c(702),INFO" ID="0x881c15f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX]system mode switch, current mode[%d] @ld_wlcoex_driver.c(745),INFO" ID="0x881c174d" />
+			</MSG_LOG>

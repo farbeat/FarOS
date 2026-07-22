@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LMP]lmp_priv_feats_req_handler Enter! @lc_lmp_priv.c(52),INFO" ID="0x89a201a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LMP]lmp_priv_feats_req_handler Exit! @lc_lmp_priv.c(71),INFO" ID="0x89a2023d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LMP]lmp_priv_feats_res_handler Enter! @lc_lmp_priv.c(99),INFO" ID="0x89a2031d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LMP]lmp_priv_feats_res_handler Exit! @lc_lmp_priv.c(121),INFO" ID="0x89a203cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]lc_lmp_rsp_to_priv_feat_handler @lc_lmp_priv.c(131),INFO" ID="0x89a2041d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]ld_acl_priv_env_init:g_lc_env_ram[%d] = NULL @lc_lmp_priv.c(194),ERROR" ID="0x89a20612" />
+			</MSG_LOG>

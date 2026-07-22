@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_le_set_adv_rand_add:conhdl=0x%x, rand_addr=0x%x:0x%x:*:*:*0x%x @llc.c(219),INFO" ID="0x883006dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_set_adv_param:interval min=0x%x, max=0x%x, channel map=%d, filter policy=%d @llc.c(285),INFO" ID="0x883008ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llc_set_adv_en:conhd=0x%x, adv_en=%d @llc.c(456),INFO" ID="0x88300e45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][LLC][TEST]llc_test_mode_tx_config:tx_buff_node=0x%x, tx_desc_node=0x%x @llc.c(654),ERROR" ID="0x88301472" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LLC][TEST]llc_test_mode_tx_config:pk_payload_type=%d @llc.c(708),ERROR" ID="0x88301622" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][TEST]llc_test_mode_start_tx:config fail @llc.c(774),WARNING" ID="0x88301833" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC][TEST]llc_test_mode_start_rx:rx_freq=%d @llc.c(784),INFO" ID="0x88301885" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_uhd_update_current_trxphy:conhdl=0x%x, new_tx_phy=%d, new_rx_phy=%d @llc.c(856),INFO" ID="0x88301ac5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_set_trxuhd_cs_fileds:current_tx_phy=%d,current_rx_phy = % d  @llc.c(936),INFO" ID="0x88301d45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_set_trxuhd_cs_fileds:current_tx_polar=%d,current_rx_polar = % d  @llc.c(938),INFO" ID="0x88301d55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLC]llc_set_trxuhd_cs:tx_uhd_capability%d @llc.c(975),INFO" ID="0x88301e7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][TEST]llc_enhanced_test_mode_start_tx:config fail @llc.c(1094),WARNING" ID="0x88302233" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="tx_phy is %d @llc.c(1143),INFO" ID="0x883023bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][TEST]llc_enhanced_test_mode_start_tx:config fail @llc.c(1182),WARNING" ID="0x883024f3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rx_phy is %d @llc.c(1196),INFO" ID="0x88302565" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="tx_polar_en is %d tx_polar_r is %d priv_hec_en is %d priv_mode_en is %d @llc.c(1252),INFO" ID="0x88302725" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLC]llc_update_max_trxtime:txoctets=%d,rxoctets=%d,txtime=%d,rxtime=%d @llc.c(1385),INFO" ID="0x88302b4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_update_maxrxtime_minimum:current_txphy=%d,current_rxphy=%d @llc.c(1430),INFO" ID="0x88302cb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]:cis address:0x%x, conhdl:%d @llc.c(1620),INFO" ID="0x883032a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]:llc_env_ext_address:0x%x, conhdl:%d @llc.c(1636),INFO" ID="0x88303325" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_stop:llc_env[conhdl]=NULL @llc.c(1675),INFO" ID="0x8830345d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llc_con_req_ind:rx_status=0x%x, chsel_alg=0x%x @llc.c(1776),INFO" ID="0x88303785" />
+			</MSG_LOG>

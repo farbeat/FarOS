@@ -1,0 +1,40 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ahib mpc table route op_code = 0x%x @ahib_mpc.c(50),DBG" ID="0x8dfa0196" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahib mpc table route op_code = 0x%x not found @ahib_mpc.c(62),ERROR" ID="0x8dfa01f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc tx mcu packet NO memory. @ahib_mpc.c(76),ERROR" ID="0x8dfa0262" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc tx mcu packet memcpy failed @ahib_mpc.c(82),ERROR" ID="0x8dfa0292" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC:data send retry opcode: %x @ahib_mpc.c(86),ERROR" ID="0x8dfa02b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC:data send err opcode: %x @ahib_mpc.c(95),ERROR" ID="0x8dfa02fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahib mpc bt process packet tid= 0x%x not table route @ahib_mpc.c(137),DBG" ID="0x8dfa044e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc route packet param is error! @ahib_mpc.c(150),ERROR" ID="0x8dfa04b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="route data:TID&amp;SOF&amp;SID&amp;CID = 0x%08x @ahib_mpc.c(161),DBG" ID="0x8dfa050e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc tx frame param is error! @ahib_mpc.c(188),ERROR" ID="0x8dfa05e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc tx frame item_ptr malloc fail! @ahib_mpc.c(200),ERROR" ID="0x8dfa0642" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc tx frame memcpy failed @ahib_mpc.c(221),ERROR" ID="0x8dfa06ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc tx packet param is null! @ahib_mpc.c(247),ERROR" ID="0x8dfa07ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="wait data rev timer start, mode=0x%x @ahib_mpc.c(289),DBG" ID="0x8dfa090e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="start rx timer:unknown channel! @ahib_mpc.c(298),ERROR" ID="0x8dfa0952" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="stop rx timer:unknown channel! @ahib_mpc.c(323),ERROR" ID="0x8dfa0a1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc check data NO SOF! @ahib_mpc.c(342),ERROR" ID="0x8dfa0ab2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc check data CRC Check ERROR! @ahib_mpc.c(348),ERROR" ID="0x8dfa0ae2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc scan frame enter @ahib_mpc.c(392),DBG" ID="0x8dfa0c46" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Start scan mpc data stream! @ahib_mpc.c(419),DBG" ID="0x8dfa0d1e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc scan stream item is NULL ! @ahib_mpc.c(423),ERROR" ID="0x8dfa0d3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BAM READ ERROR, data_len &amp; queue_size = 0x%8x @ahib_mpc.c(435),ERROR" ID="0x8dfa0d9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Drop Rx data (TransId &amp; len) = 0x%8x @ahib_mpc.c(445),ERROR" ID="0x8dfa0dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc scan stream rev data not complete! @ahib_mpc.c(455),DBG" ID="0x8dfa0e3e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="NO SOF Skip data Prefix4 = 0x%08X @ahib_mpc.c(462),DBG" ID="0x8dfa0e76" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc rx data param is error! @ahib_mpc.c(481),ERROR" ID="0x8dfa0f0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahib mpc rx data frorm MCU len err: %d @ahib_mpc.c(492),ERROR" ID="0x8dfa0f62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rev MCU data SID &amp; CID = 0x%04x @ahib_mpc.c(498),INFO" ID="0x8dfa0f95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc rx data rev unknown data ! @ahib_mpc.c(501),ERROR" ID="0x8dfa0faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc rx data: mpc mgnt is null! @ahib_mpc.c(507),ERROR" ID="0x8dfa0fda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahib mpc rx data full = %d @ahib_mpc.c(515),ERROR" ID="0x8dfa101a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc timeout mpc_mgnt is null! @ahib_mpc.c(529),ERROR" ID="0x8dfa108a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rx timer timeout happen, mode = 0x%x @ahib_mpc.c(533),DBG" ID="0x8dfa10ae" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rx timeout Drop data (len &amp; opcode) = 0x%08X @ahib_mpc.c(543),ERROR" ID="0x8dfa10fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc reg channel enter @ahib_mpc.c(565),DBG" ID="0x8dfa11ae" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc reg channel mgnt is null! @ahib_mpc.c(568),ERROR" ID="0x8dfa11c2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ahib mpc reg table list_count = %d, size = %d @ahib_mpc.c(585),INFO" ID="0x8dfa124d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc reg table node new failed @ahib_mpc.c(588),ERROR" ID="0x8dfa1262" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ahib mpc init enter @ahib_mpc.c(598),INFO" ID="0x8dfa12b5" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BT]rwp_init error=%d @bt_priv.c(279),ERROR" ID="0x88dc08ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BT]rwp_init error, send to host=%d @bt_priv.c(285),ERROR" ID="0x88dc08ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT]bt  reset  entered @bt_priv.c(307),INFO" ID="0x88dc099d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]sec_trng_random_get return = %d @bt_priv.c(433),ERROR" ID="0x88dc0d8a" />
+			</MSG_LOG>

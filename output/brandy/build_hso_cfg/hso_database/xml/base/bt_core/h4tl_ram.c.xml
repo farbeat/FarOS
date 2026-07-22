@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="h4tl_read_start:ready for receiving msg type fail @h4tl_ram.c(67),INFO" ID="0x88ea021d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="h4tl_read_start:ready for receiving msg type success @h4tl_ram.c(69),INFO" ID="0x88ea022d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="hci_acl_local_loopback_received:buff = 0x%x, lpck_acl_len = 0x%x @h4tl_ram.c(85),INFO" ID="0x88ea02ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hci_acl_local_loopback_received:env-&gt;curr_payl_buff = 0x%x @h4tl_ram.c(90),INFO" ID="0x88ea02d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hci_acl_local_loopback_received:buf is null @h4tl_ram.c(92),ERROR" ID="0x88ea02e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][HCI]hci_acl_local_loopback_received:len=%d, max_len=%d @h4tl_ram.c(95),WARNING" ID="0x88ea02fb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]hci_acl_local_loopback_send:curr_payl_buff = 0x%x. @h4tl_ram.c(107),INFO" ID="0x88ea035d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="hci_sco_local_loopback_received:buff = 0x%x, lpck_sco_len = 0x%x @h4tl_ram.c(125),INFO" ID="0x88ea03ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hci_sco_local_loopback_received:env-&gt;curr_payl_buff = 0x%x @h4tl_ram.c(131),INFO" ID="0x88ea041d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hci_sco_local_loopback_received:buf is null @h4tl_ram.c(133),ERROR" ID="0x88ea042a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][HCI]hci_sco_local_loopback_received:len=%d, max_len=%d @h4tl_ram.c(136),WARNING" ID="0x88ea0443" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]hci_sco_local_loopback_send:curr_payl_buff = 0x%x. @h4tl_ram.c(147),INFO" ID="0x88ea049d" />
+			</MSG_LOG>

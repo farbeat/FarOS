@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERR][transmit dst]write len %d @transmit_dst.c(54),ERROR" ID="0xa0b001b2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR][transmit dst]file : %s open failed, fd = %d @transmit_dst.c(59),ERROR" ID="0xa0b001da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="$$$$$$ received_size = 0x%x $$$$$$ @transmit_dst.c(76),DBG" ID="0xa0b00266" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR][transmit dst]reply match id failed!, id = 0x%x @transmit_dst.c(98),ERROR" ID="0xa0b00312" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="statfs failed. file_path = %s @transmit_dst.c(145),ERROR" ID="0xa0b0048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit dst]init is failed @transmit_dst.c(180),ERROR" ID="0xa0b005a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit dst]no enough space @transmit_dst.c(185),ERROR" ID="0xa0b005ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR][transmit dst]file : %s open failed, fd = %d @transmit_dst.c(192),ERROR" ID="0xa0b00602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit dst]init failed @transmit_dst.c(216),ERROR" ID="0xa0b006c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit dst]init failed @transmit_dst.c(244),ERROR" ID="0xa0b007a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="stop match id failed!, id = 0x%x @transmit_dst.c(270),DBG" ID="0xa0b00876" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit dst] receive frame timeout. @transmit_dst.c(342),ERROR" ID="0xa0b00ab2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="!!!!!!!!!!re request 0x%x 0x%0x @transmit_dst.c(357),ERROR" ID="0xa0b00b2a" />
+			</MSG_LOG>

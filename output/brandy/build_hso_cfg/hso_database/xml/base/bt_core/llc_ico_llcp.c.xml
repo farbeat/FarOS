@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[ICO]llc_llcp_ico_upd_ind_send aa=0x%x%x%x%x @llc_ico_llcp.c(91),INFO" ID="0x883c02dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]llc_llcp_ico_upd_ind_send ch_offset %d ch_delay %d stream_delay %d evt_count_ref %d  @llc_ico_llcp.c(94),INFO" ID="0x883c02f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_llcp_ico_upd_ind_send ico_param is equal to NULL @llc_ico_llcp.c(97),WARNING" ID="0x883c030b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] anchor point is smaller,anchor_point=%d, llc_acl_ptr-&gt;elt-&gt;timestamp=%d @llc_ico_llcp.c(115),INFO" ID="0x883c039d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="next_conhdl=%d @llc_ico_llcp.c(133),INFO" ID="0x883c042d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_llcp_ico_terminate_ind_pdu_send ico_param is equal to NULL @llc_ico_llcp.c(229),WARNING" ID="0x883c072b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ICO]llc_acl_ptr or llc_ico_ptr  is NULL!   OR  ico_state=%d  ERROR @llc_ico_llcp.c(249),WARNING" ID="0x883c07cb" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]llcp_ico_terminate_ind_handler stream_id %d channel_id %d discode %d @llc_ico_llcp.c(263),INFO" ID="0x883c083d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]stop primary ico channel instant:channel id = %d,conhdl %d @llc_ico_llcp.c(324),INFO" ID="0x883c0a25" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AUTORATE] llcp_ico_autorate_req:stream_id=%d,channel_id=%d,per=%d @llc_ico_llcp.c(357),INFO" ID="0x883c0b2d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AUTORATE] llc_llcp_ico_phy_update_req_pdu_send: stream_id=%d, channel_id=%d, instant=%d @llc_ico_llcp.c(404),INFO" ID="0x883c0ca5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AUTORATE] llc_llcp_ico_phy_update_req_pdu_send:ico_param equal to NULL @llc_ico_llcp.c(406),ERROR" ID="0x883c0cb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AUTORATE] llcp_ico_phy_update_req_handler ERROR @llc_ico_llcp.c(426),ERROR" ID="0x883c0d52" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AUTORATE] llcp_ico_phy_update_req_handler: stream_id=%d, channel_id=%d, m2s_phy=0x%x, s2m_phy=0x%x @llc_ico_llcp.c(435),INFO" ID="0x883c0d9d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AUTORATE] llcp_ico_phy_update_req_handler: nse=%d, instant=%d, ico_evt_counter=%d @llc_ico_llcp.c(437),INFO" ID="0x883c0dad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AUTORATE] llcp_ico_phy_update_req_handler:instant passed @llc_ico_llcp.c(445),WARNING" ID="0x883c0deb" />
+			</MSG_LOG>

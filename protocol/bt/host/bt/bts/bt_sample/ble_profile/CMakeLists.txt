@@ -1,0 +1,2 @@
+add_subdirectory_if_exist(ble_at_sample)
+add_subdirectory_if_exist(profiles)

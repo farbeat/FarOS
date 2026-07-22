@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="ap =&gt; bt ipc error, get cpu trace ret=%d, action = %d @ipc.c(433),ERROR" ID="0xa02c0d8a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ap =&gt; bt ipc error, get cpu trace bt pc=0x%x, lr=0x%x, sp=0x%x @ipc.c(437),ERROR" ID="0xa02c0daa" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ipc error core %d =&gt; %d action=%d, called=0x%X @ipc.c(720),ERROR" ID="0xa02c1682" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ipc error, core=%d current pc=0x%x, lr=0x%x, sp=0x%x @ipc.c(722),ERROR" ID="0xa02c1692" />
+			</MSG_LOG>

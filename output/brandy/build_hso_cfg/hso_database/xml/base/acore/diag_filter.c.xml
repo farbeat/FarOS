@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="zdiag_set_enable %d @diag_filter.c(54),DBG" ID="0xa08e01b6" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="zdiag_set_level_enable %u %d @diag_filter.c(78),DBG" ID="0xa08e0276" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="zdiag_set_id_enable %u %d %d %d @diag_filter.c(108),DBG" ID="0xa08e0366" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="un_enable_b %u %u @diag_filter.c(131),DBG" ID="0xa08e041e" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="un_enable_c %u %u @diag_filter.c(136),DBG" ID="0xa08e0446" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="un_enable_e %u %u @diag_filter.c(145),DBG" ID="0xa08e048e" />
+			</MSG_LOG>

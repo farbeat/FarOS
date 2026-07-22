@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO]llc_util_bw_mgt:conhdl=0x%x, loc_proc_state=0x%x @llc_util.c(410),INFO" ID="0x882e0cd5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_check_channel_map_acked, instant=%d, current=%d, action=%d @llc_util.c(499),WARNING" ID="0x882e0f9b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[VoiceID]llc_con_voiceid_req_ack:return @llc_util.c(544),INFO" ID="0x882e1105" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[VoiceID]recovery subrate off:max_subrate=%d, min_subrate=%d @llc_util.c(561),INFO" ID="0x882e118d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_adv_pdu_defer:status=0x%x, pdu_type=%d @llc_util.c(769),INFO" ID="0x882e180d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llc_util_compute_data_time:trx_phy=%d @llc_util.c(1162),ERROR" ID="0x882e2452" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]llc_util_get_empty_data_time:trx_state=%d @llc_util.c(1218),INFO" ID="0x882e2615" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llc_util_get_data_common_time:trx_phy=%d @llc_util.c(1352),ERROR" ID="0x882e2a42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llc_util_get_real_phy:conhdl=%d @llc_util.c(1402),ERROR" ID="0x882e2bd2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BLE CON Already Exist:BD_ADDR is 0x%x:0x%x:*:*:*:0x%x @llc_util.c(1599),INFO" ID="0x882e31fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_channel_class_req_handler mode:%d, pdu.max_intv:%d @llc_util.c(1825),INFO" ID="0x882e390d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_util_UHD_rf_test_data_handler,  malloc failed  @llc_util.c(1994),ERROR" ID="0x882e3e52" />
+			</MSG_LOG>

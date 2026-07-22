@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_COMMAND_COMPLETE len(%u) error @hci_hlp.c(727),ERROR" ID="0x8ad216ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_NUMBER_OF_COMPLETED_DATA_BLOCKS len(%u) error @hci_hlp.c(762),ERROR" ID="0x8ad217d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_NUMBER_OF_COMPLETED_DATA_BLOCKS plen(%u) error @hci_hlp.c(771),ERROR" ID="0x8ad2181a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_CONNECTIONLESS_SLAVE_BROADCAST_RECEIVE stru_len(%u) error @hci_hlp.c(786),ERROR" ID="0x8ad21892" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_SYNCHRONIZATION_TRAIN_RECEIVED stru_len(%u) error @hci_hlp.c(821),ERROR" ID="0x8ad219aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] EVENT_INDEX=0x%x, unknown hci event @hci_hlp.c(842),INFO" ID="0x8ad21a55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] hci_inquiry_result_with_rssi plen(%u) error @hci_hlp.c(863),ERROR" ID="0x8ad21afa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_EXTENDED_INQUIRY_RESULT plen(%u) error @hci_hlp.c(900),ERROR" ID="0x8ad21c22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_EXTENDED_INQUIRY_RESULT plen(%u) error @hci_hlp.c(973),ERROR" ID="0x8ad21e6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_EVI_USER_CONFIRMATION_REQUEST plen(%u) error @hci_hlp.c(1020),ERROR" ID="0x8ad21fe2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] OPCODE=0x%x, unknown hci opcode @hci_hlp.c(1099),INFO" ID="0x8ad2225d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][STREAM_TO_STRUCT] HCI_OPC_READ_LOCAL_VERSION_INFORMATION len(%u) error @hci_hlp.c(1185),ERROR" ID="0x8ad2250a" />
+			</MSG_LOG>

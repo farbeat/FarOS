@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="M core wakeup interrupt is: 0x%X @pmu_interrupt.c(227),INFO" ID="0xa034071d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="M core wakeup interrupt is: 0x%X @pmu_interrupt.c(247),INFO" ID="0xa03407bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LOW_POWER], ana_status:0x%x @pmu_interrupt.c(305),ERROR" ID="0xa034098a" />
+			</MSG_LOG>

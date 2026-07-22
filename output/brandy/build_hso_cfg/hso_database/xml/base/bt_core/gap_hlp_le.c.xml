@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[GAP] smp cbk event:%d @gap_hlp_le.c(507),ERROR" ID="0x8b8c0fda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][RandAddrCfm][ERROR] gap_fsminst is NULL @gap_hlp_le.c(1229),INFO" ID="0x8b8c266d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP][LE_MULTI_ADV] ACTION=UPDATE_MULTI_ADV_PARAM, RESULT=0x%x @gap_hlp_le.c(2061),INFO" ID="0x8b8c406d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP][LE_MULTI_ADV] ACTION=UPDATE_MULTI_DATA, RESULT=0x%x @gap_hlp_le.c(2126),INFO" ID="0x8b8c4275" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP][LE_MULTI_ADV] ACTION=UPDATE_MULTI_RANDOM_ADDR, RESULT=0x%x @gap_hlp_le.c(2168),INFO" ID="0x8b8c43c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][LE_MULTI_ADV][ERROR] gap_fsminst is NULL @gap_hlp_le.c(2171),INFO" ID="0x8b8c43dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP][LE_MULTI_ADV] ACTION=UPDATE_MULTIADV_ENABLE, RESULT=0x%x @gap_hlp_le.c(2237),INFO" ID="0x8b8c45ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_PARAM, SUB_CODE=%d, HANDLE=0x%x @gap_hlp_le.c(2315),INFO" ID="0x8b8c485d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_DATA, SUB_CODE=%d, HANDLE=0x%x @gap_hlp_le.c(2347),INFO" ID="0x8b8c495d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_RANDOM_ADDR, SUB_CODE=%d, HANDLE=0x%x @gap_hlp_le.c(2371),INFO" ID="0x8b8c4a1d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_ENABLE, SUB_CODE=%d, HANDLE=0x%x, ENABLE=%d @gap_hlp_le.c(2402),INFO" ID="0x8b8c4b15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP] own_address_type = %x adv_event_flag = %x @gap_hlp_le.c(2555),INFO" ID="0x8b8c4fdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]set ext adv - BT init not complete!!! @gap_hlp_le.c(3075),WARNING" ID="0x8b8c601b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_le.c(3527),ERROR" ID="0x8b8c6e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_le.c(3533),ERROR" ID="0x8b8c6e6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_le.c(3541),ERROR" ID="0x8b8c6eaa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_le.c(3547),ERROR" ID="0x8b8c6eda" />
+			</MSG_LOG>

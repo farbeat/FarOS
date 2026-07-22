@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[LLC]llc_util_store_rem_cis_param: cis_parm alloc fail! @patch_llc_cis.c(24),WARNING" ID="0x8e4a00c3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]disconnect command, create cis not deliver conhdl=%d @patch_llc_cis.c(68),INFO" ID="0x8e4a0225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CIS]disconnect command, cis not active conhdl=%d @patch_llc_cis.c(81),INFO" ID="0x8e4a028d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]disconnect cis conhdl:0x%x, reason:0x%x @patch_llc_cis.c(95),INFO" ID="0x8e4a02fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_rsp_handler, state=%d , ERROR @patch_llc_cis.c(127),ERROR" ID="0x8e4a03fa" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]llcp_cis_rsp_handler evt_count_ref %d ch_offset_max %d ch_offset_min %d interval %d @patch_llc_cis.c(140),INFO" ID="0x8e4a0465" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_rsp_handler, instant=%d @patch_llc_cis.c(142),INFO" ID="0x8e4a0475" />
+			</MSG_LOG>

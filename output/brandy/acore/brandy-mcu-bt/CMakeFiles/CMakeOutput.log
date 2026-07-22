@@ -1,0 +1,214 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.26200 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/CMakeFiles/3.20.5/CompilerIdC/a.out"
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)
+Target: riscv32
+Thread model: posix
+InstalledDir: C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/CMakeFiles/3.20.5/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/ninja/ninja.exe cmTC_6d046 && [1/2] Building C object CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj
+clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)
+Target: riscv32
+Thread model: posix
+InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin
+ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin\\clang.exe" -cc1 -triple riscv32 -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=fast -fno-rounding-math -fno-verbose-asm -no-integrated-as -mconstructor-aliases -nostdsysteminc -target-feature +m -target-feature +c -target-feature +xlinxma -target-feature +xlinxmb -target-feature +xlinxmc -target-feature +xlinxmd -target-feature +xlinxme -target-feature +xlinxmf -target-feature +relax -target-feature -save-restore -target-abi ilp32 -msmall-data-limit 8 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1" -dependency-file "CMakeFiles\\cmTC_6d046.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include" -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include" -fno-dwarf-directory-asm -fdebug-compilation-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\acore\\brandy-mcu-bt\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -o "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCCompilerABI-135c04.s" -x c C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/python/Lib/site-packages/cmake/data/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target riscv32
+ignoring duplicate directory "C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include
+ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin/../riscv32-elf/include
+End of search list.
+ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/as" -mabi ilp32 -march rv32imc_xlinxma_xlinxmb_xlinxmc_xlinxmd_xlinxme_xlinxmf -o CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCCompilerABI-135c04.s"
+[2/2] Linking C executable cmTC_6d046
+clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)
+Target: riscv32
+Thread model: posix
+InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin
+ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/ld" -m elf32lriscv "-LC:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o" CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj --start-group -lc -lgloss "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a" --end-group "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o" -o cmTC_6d046
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include]
+    add: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/../riscv32-elf/include]
+  end of search list found
+  collapse include dir [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include]
+  collapse include dir [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/../riscv32-elf/include] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/include]
+  implicit include dirs: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv32-linux-musl-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/ninja/ninja.exe cmTC_6d046 && [1/2] Building C object CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)]
+  ignore line: [Target: riscv32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin]
+  ignore line: [ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin\\clang.exe" -cc1 -triple riscv32 -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=fast -fno-rounding-math -fno-verbose-asm -no-integrated-as -mconstructor-aliases -nostdsysteminc -target-feature +m -target-feature +c -target-feature +xlinxma -target-feature +xlinxmb -target-feature +xlinxmc -target-feature +xlinxmd -target-feature +xlinxme -target-feature +xlinxmf -target-feature +relax -target-feature -save-restore -target-abi ilp32 -msmall-data-limit 8 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1" -dependency-file "CMakeFiles\\cmTC_6d046.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include" -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include" -fno-dwarf-directory-asm -fdebug-compilation-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\acore\\brandy-mcu-bt\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -o "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCCompilerABI-135c04.s" -x c C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/python/Lib/site-packages/cmake/data/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target riscv32]
+  ignore line: [ignoring duplicate directory "C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include]
+  ignore line: [ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin/../riscv32-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/as" -mabi ilp32 -march rv32imc_xlinxma_xlinxmb_xlinxmc_xlinxmd_xlinxme_xlinxmf -o CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCCompilerABI-135c04.s"]
+  ignore line: [[2/2] Linking C executable cmTC_6d046]
+  ignore line: [clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)]
+  ignore line: [Target: riscv32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin]
+  link line: [ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/ld" -m elf32lriscv "-LC:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o" CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj --start-group -lc -lgloss "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a" --end-group "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o" -o cmTC_6d046]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf32lriscv] ==> ignore
+    arg [-LC:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/] ==> dir [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o] ==> obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o] ==> obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o]
+    arg [CMakeFiles/cmTC_6d046.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a] ==> lib [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a]
+    arg [--end-group] ==> ignore
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o] ==> obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o]
+    arg [-o] ==> ignore
+    arg [cmTC_6d046] ==> ignore
+  remove lib [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a]
+  collapse obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32/crt0.o]
+  collapse obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o]
+  collapse obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o]
+  collapse library dir [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32]
+  implicit libs: [c;gloss]
+  implicit objs: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32/crt0.o;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o]
+  implicit dirs: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/ninja/ninja.exe cmTC_6e7dd && [1/2] Building CXX object CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj
+clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)
+Target: riscv32
+Thread model: posix
+InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin
+ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin\\clang++.exe" -cc1 -triple riscv32 -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=fast -fno-rounding-math -fno-verbose-asm -no-integrated-as -mconstructor-aliases -nostdsysteminc -target-feature +m -target-feature +c -target-feature +xlinxma -target-feature +xlinxmb -target-feature +xlinxmc -target-feature +xlinxmd -target-feature +xlinxme -target-feature +xlinxmf -target-feature +relax -target-feature -save-restore -target-abi ilp32 -msmall-data-limit 8 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1" -dependency-file "CMakeFiles\\cmTC_6e7dd.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include/c++/v1" -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include" -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include" -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\acore\\brandy-mcu-bt\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-554a5d.s" -x c++ C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/python/Lib/site-packages/cmake/data/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target riscv32
+ignoring duplicate directory "C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin/../riscv32-elf/include/c++/v1
+ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include
+ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin/../riscv32-elf/include
+End of search list.
+ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/as" -mabi ilp32 -march rv32imc_xlinxma_xlinxmb_xlinxmc_xlinxmd_xlinxme_xlinxmf -o CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-554a5d.s"
+[2/2] Linking CXX executable cmTC_6e7dd
+clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)
+Target: riscv32
+Thread model: posix
+InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin
+ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/ld" -m elf32lriscv "-LC:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o" CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj -lc++ -lc++abi -lunwind --start-group -lc -lgloss "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a" --end-group "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o" -o cmTC_6e7dd
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/../riscv32-elf/include/c++/v1]
+    add: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include]
+    add: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/../riscv32-elf/include]
+  end of search list found
+  collapse include dir [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/../riscv32-elf/include/c++/v1] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/include/c++/v1]
+  collapse include dir [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include]
+  collapse include dir [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/bin/../riscv32-elf/include] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/include]
+  implicit include dirs: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/include/c++/v1;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/include;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv32-linux-musl-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/brandy-mcu-bt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/ninja/ninja.exe cmTC_6e7dd && [1/2] Building CXX object CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)]
+  ignore line: [Target: riscv32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin]
+  ignore line: [ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin\\clang++.exe" -cc1 -triple riscv32 -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=fast -fno-rounding-math -fno-verbose-asm -no-integrated-as -mconstructor-aliases -nostdsysteminc -target-feature +m -target-feature +c -target-feature +xlinxma -target-feature +xlinxmb -target-feature +xlinxmc -target-feature +xlinxmd -target-feature +xlinxme -target-feature +xlinxmf -target-feature +relax -target-feature -save-restore -target-abi ilp32 -msmall-data-limit 8 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1" -dependency-file "CMakeFiles\\cmTC_6e7dd.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include/c++/v1" -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include" -internal-isystem "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include" -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir "C:\\Users\\25288\\Desktop\\sdk_mini_650\\output\\brandy\\acore\\brandy-mcu-bt\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-554a5d.s" -x c++ C:/Users/25288/Desktop/hi3321_650/tools/tools/DevEco/DevTools_CFBB_V1.0.8/thirdparty/python/Lib/site-packages/cmake/data/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target riscv32]
+  ignore line: [ignoring duplicate directory "C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin/../riscv32-elf/include/c++/v1]
+  ignore line: [ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\lib\clang\12.0.1/include]
+  ignore line: [ C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin/../riscv32-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/as" -mabi ilp32 -march rv32imc_xlinxma_xlinxmb_xlinxmc_xlinxmd_xlinxme_xlinxmf -o CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj "C:\\Users\\25288\\AppData\\Local\\Temp\\CMakeCXXCompilerABI-554a5d.s"]
+  ignore line: [[2/2] Linking CXX executable cmTC_6e7dd]
+  ignore line: [clang version 12.0.1 (Linx Base Software-MCU 1.3.0.B007)]
+  ignore line: [Target: riscv32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\25288\Desktop\sdk_mini_650\tools\bin\compiler\linx\linx_170\linx-llvm-binary-debug\linx-llvm-binary-release-win-musl\bin]
+  link line: [ "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/ld" -m elf32lriscv "-LC:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o" "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o" CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj -lc++ -lc++abi -lunwind --start-group -lc -lgloss "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a" --end-group "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o" -o cmTC_6e7dd]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/riscv32/riscv32-raw/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf32lriscv] ==> ignore
+    arg [-LC:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/] ==> dir [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o] ==> obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o] ==> obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o]
+    arg [CMakeFiles/cmTC_6e7dd.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a] ==> lib [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a]
+    arg [--end-group] ==> ignore
+    arg [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o] ==> obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o]
+    arg [-o] ==> ignore
+    arg [cmTC_6e7dd] ==> ignore
+  remove lib [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/libclang_rt.builtins-riscv32.a]
+  collapse obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/crt0.o] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32/crt0.o]
+  collapse obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o]
+  collapse obj [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o]
+  collapse library dir [C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/lib/rv32imc_ilp32/] ==> [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32]
+  implicit libs: [c++;c++abi;unwind;c;gloss]
+  implicit objs: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32/crt0.o;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtbegin-riscv32.o;C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/lib/clang/12.0.1/lib/rv32imc_ilp32/clang_rt.crtend-riscv32.o]
+  implicit dirs: [C:/Users/25288/Desktop/sdk_mini_650/tools/bin/compiler/linx/linx_170/linx-llvm-binary-debug/linx-llvm-binary-release-win-musl/riscv32-elf/lib/rv32imc_ilp32]
+  implicit fwks: []
+
+

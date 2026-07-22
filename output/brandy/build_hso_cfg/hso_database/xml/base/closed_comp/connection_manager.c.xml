@@ -1,0 +1,134 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="osal_mutex_init in g_connect_list_lock failed @connection_manager.c(126),ERROR" ID="0xd80603f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="osal_mutex_init in g_ble_conn_list_lock failed @connection_manager.c(131),ERROR" ID="0xd806041a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create timer error! ret: %x @connection_manager.c(206),ERROR" ID="0xd8060672" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start timer error! ret: %x @connection_manager.c(214),ERROR" ID="0xd80606b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="start timer success! @connection_manager.c(219),INFO" ID="0xd80606dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already in discovery @connection_manager.c(238),WARNING" ID="0xd8060773" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already in discovery @connection_manager.c(250),WARNING" ID="0xd80607d3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start discovery fail ret: %x @connection_manager.c(264),ERROR" ID="0xd8060842" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="discovery started @connection_manager.c(272),INFO" ID="0xd8060885" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="reconnect phone con_hdl:0x%x, result: %08x @connection_manager.c(405),INFO" ID="0xd8060cad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="exist connect phone reject! @connection_manager.c(433),INFO" ID="0xd8060d8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @connection_manager.c(454),ERROR" ID="0xd8060e32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @connection_manager.c(458),ERROR" ID="0xd8060e52" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @connection_manager.c(464),ERROR" ID="0xd8060e82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create acl cfm ret = %08x @connection_manager.c(472),INFO" ID="0xd8060ec5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="dev_hdl: 0x%08x cod: 0x%x link_type: 0x%x @connection_manager.c(501),INFO" ID="0xd8060fad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already exist conn_node @connection_manager.c(511),INFO" ID="0xd8060ffd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="accept not paired earbuds. @connection_manager.c(520),INFO" ID="0xd8061045" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="exist same type conn node. @connection_manager.c(524),INFO" ID="0xd8061065" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add conn info error! @connection_manager.c(531),ERROR" ID="0xd806109a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_disconnect_acl_by_handle ret: %x @connection_manager.c(538),INFO" ID="0xd80610d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @connection_manager.c(546),ERROR" ID="0xd8061112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr fail @connection_manager.c(553),ERROR" ID="0xd806114a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @connection_manager.c(558),ERROR" ID="0xd8061172" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @connection_manager.c(564),ERROR" ID="0xd80611a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect exist conn_node @connection_manager.c(580),INFO" ID="0xd8061225" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="exist same type conn_node, disconnect. @connection_manager.c(585),INFO" ID="0xd806124d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="find remote node fail @connection_manager.c(593),WARNING" ID="0xd806128b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add conn info error! @connection_manager.c(600),ERROR" ID="0xd80612c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create acl ret = %08x @connection_manager.c(612),WARNING" ID="0xd8061323" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="acl is connected @connection_manager.c(620),INFO" ID="0xd8061365" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dev_hdl: %08x @connection_manager.c(629),INFO" ID="0xd80613ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not exist conn node. @connection_manager.c(632),INFO" ID="0xd80613c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="is phone=0x%x @connection_manager.c(635),INFO" ID="0xd80613dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status error dev_hdl: %x status: %d @connection_manager.c(638),WARNING" ID="0xd80613f3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_disconnect_acl_by_handle ret: %x @connection_manager.c(678),INFO" ID="0xd8061535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send msg connecting @connection_manager.c(710),INFO" ID="0xd8061635" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @connection_manager.c(714),ERROR" ID="0xd8061652" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @connection_manager.c(718),ERROR" ID="0xd8061672" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @connection_manager.c(724),ERROR" ID="0xd80616a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send msg connecting success! @connection_manager.c(727),INFO" ID="0xd80616bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="stop timer @connection_manager.c(732),INFO" ID="0xd80616e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="stop timer success! @connection_manager.c(740),INFO" ID="0xd8061725" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="start timer @connection_manager.c(745),INFO" ID="0xd806174d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @connection_manager.c(755),ERROR" ID="0xd806179a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create timer error! ret: %x @connection_manager.c(760),ERROR" ID="0xd80617c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start timer error! ret: %x @connection_manager.c(766),ERROR" ID="0xd80617f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="start timer success! try to reconnect %d times interval %dms @connection_manager.c(771),INFO" ID="0xd806181d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dev_hdl: %08x reason: %08x @connection_manager.c(803),INFO" ID="0xd806191d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="no conn record dev_hdl: %08x @connection_manager.c(812),WARNING" ID="0xd8061963" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rmt device class=0x%x is phone: 0x%x @connection_manager.c(822),INFO" ID="0xd80619b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr fail @connection_manager.c(835),WARNING" ID="0xd8061a1b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get remote dev addr failed. dev_hdl: %x @connection_manager.c(849),WARNING" ID="0xd8061a8b" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="addr: ****%02x%02x%02x%02x dev_hdl: %08x gap_remove_pair ret(bool): %d @connection_manager.c(858),INFO" ID="0xd8061ad5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="error dev_hdl: %x pair_ret: %x disconn_ret: %x @connection_manager.c(867),WARNING" ID="0xd8061b1b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dev_hdl: %08x @connection_manager.c(874),INFO" ID="0xd8061b55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn node is null dev_hdl: %x @connection_manager.c(878),INFO" ID="0xd8061b75" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status error dev_hdl: %x status: %d @connection_manager.c(884),INFO" ID="0xd8061ba5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dev_hdl: %08x @connection_manager.c(898),INFO" ID="0xd8061c15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr fail @connection_manager.c(906),WARNING" ID="0xd8061c53" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="rmt device is phone @connection_manager.c(913),INFO" ID="0xd8061c8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="rmt device is not phone @connection_manager.c(916),INFO" ID="0xd8061ca5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="node not exist @connection_manager.c(927),INFO" ID="0xd8061cfd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="success @connection_manager.c(935),INFO" ID="0xd8061d3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add remote list error! @connection_manager.c(989),WARNING" ID="0xd8061eeb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="descovery result @connection_manager.c(1015),INFO" ID="0xd8061fbd" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="found device addr: ****%02x%02x%02x%02x name: %s @connection_manager.c(1024),INFO" ID="0xd8062005" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_get_device_name failed @connection_manager.c(1026),INFO" ID="0xd8062015" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get device name fail @connection_manager.c(1051),WARNING" ID="0xd80620db" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id: %d @connection_manager.c(1120),WARNING" ID="0xd8062303" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set discovery status to stop @connection_manager.c(1138),INFO" ID="0xd8062395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id: %d @connection_manager.c(1209),WARNING" ID="0xd80625cb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show conn list: @connection_manager.c(1230),INFO" ID="0xd8062675" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="| %-4s | %-32s | %-12s | %-16s | %-16s | %-8s | %-8s | @connection_manager.c(1232),INFO" ID="0xd8062685" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote is null @connection_manager.c(1240),ERROR" ID="0xd80626c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr memcpy_s fail @connection_manager.c(1243),ERROR" ID="0xd80626da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="name memcpy_s fail @connection_manager.c(1246),ERROR" ID="0xd80626f2" />
+			<MSG STRUCTURE="diag_log_msg10" NAME="| %-4d | %-32s | ****%02x%02x%02x%02x | %-16d | %-16d | %-8d | %-8d | @connection_manager.c(1251),INFO" ID="0xd806271d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show conn list end! @connection_manager.c(1256),INFO" ID="0xd8062745" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show ble conn list: @connection_manager.c(1264),INFO" ID="0xd8062785" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="| %-4s | %-12s | %-10s | %-8s | %-12s | %-12s | %-12s | %-12s  | %-48s | @connection_manager.c(1269),INFO" ID="0xd80627ad" />
+			<MSG STRUCTURE="diag_log_msg11" NAME="| %-4d | %02x******%02x%02x | %-10d | %-8d | %-12d | %-12d | %-12d | %-12d | %-48s | @connection_manager.c(1282),INFO" ID="0xd8062815" />
+			<MSG STRUCTURE="diag_log_msg8" NAME="| %-4s | %-12s | %-10s | %-8s | %-12s | %-12s | %-12s | %-12s  | @connection_manager.c(1289),INFO" ID="0xd806284d" />
+			<MSG STRUCTURE="diag_log_msg10" NAME="| %-4d | %02x******%02x%02x | %-10d | %-8d | %-12d | %-12d | %-12d | %-12d | @connection_manager.c(1295),INFO" ID="0xd806287d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show ble conn list end! @connection_manager.c(1303),INFO" ID="0xd80628bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show link mode: @connection_manager.c(1315),INFO" ID="0xd806291d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="| %-4s | %-32s | %-12s | %-16s | @connection_manager.c(1317),INFO" ID="0xd806292d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote is null @connection_manager.c(1326),ERROR" ID="0xd8062972" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr memcpy_s fail @connection_manager.c(1329),ERROR" ID="0xd806298a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="name memcpy_s fail @connection_manager.c(1332),ERROR" ID="0xd80629a2" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="| %-4d | %-32s | ****%02x%02x%02x%02x | %-16s | @connection_manager.c(1340),INFO" ID="0xd80629e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show link mode end! @connection_manager.c(1345),INFO" ID="0xd8062a0d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="set scan mode old=%d new=%d @connection_manager.c(1407),INFO" ID="0xd8062bfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_set_discovery_mode ret: %x @connection_manager.c(1418),INFO" ID="0xd8062c55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="btsdk_set_discovery_mode mode: %x ret: %x @connection_manager.c(1429),INFO" ID="0xd8062cad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already in discovery @connection_manager.c(1451),INFO" ID="0xd8062d5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt is not enabled @connection_manager.c(1464),WARNING" ID="0xd8062dc3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="discovery already stopped @connection_manager.c(1469),WARNING" ID="0xd8062deb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_stop_device_discovery ret=0x%x @connection_manager.c(1474),INFO" ID="0xd8062e15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="discovery stopped @connection_manager.c(1477),INFO" ID="0xd8062e2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not start bt @connection_manager.c(1503),INFO" ID="0xd8062efd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param id null @connection_manager.c(1507),INFO" ID="0xd8062f1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="exist connect audio device @connection_manager.c(1513),INFO" ID="0xd8062f4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_br_cancel_discovery fail @connection_manager.c(1518),INFO" ID="0xd8062f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_disconnect_acl_by_handle ret: %x @connection_manager.c(1554),INFO" ID="0xd8063095" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatt client add conn node memcpy fail. @connection_manager.c(1621),ERROR" ID="0xd80632aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv connect state change cbk arg NULL! @connection_manager.c(1635),ERROR" ID="0xd806331a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect state update memcpy fail. @connection_manager.c(1640),ERROR" ID="0xd8063342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect node is null. @connection_manager.c(1656),ERROR" ID="0xd80633c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble smp paired keys cbk param error @connection_manager.c(1675),ERROR" ID="0xd806345a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="paired keys malloc fail. @connection_manager.c(1681),ERROR" ID="0xd806348a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="paired keys malloc fail. @connection_manager.c(1686),ERROR" ID="0xd80634b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pair keys notify, keys addr memcpy fail. @connection_manager.c(1691),ERROR" ID="0xd80634da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pair keys notify, keys memcpy fail. @connection_manager.c(1698),ERROR" ID="0xd8063512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble smp paired complete cbk param error @connection_manager.c(1715),ERROR" ID="0xd806359a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect param update incomes arg is NULL! @connection_manager.c(1726),ERROR" ID="0xd80635f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect param update, conn_node not found. @connection_manager.c(1733),ERROR" ID="0xd806362a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect param update,connect_params NULL. @connection_manager.c(1739),ERROR" ID="0xd806365a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect param update, addr memcpy fail. @connection_manager.c(1745),ERROR" ID="0xd806368a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="connect param update done ret:%d. @connection_manager.c(1754),INFO" ID="0xd80636d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_ble_connect_remote_device not start bt @connection_manager.c(1763),INFO" ID="0xd806371d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_ble_connect_remote_device param id null @connection_manager.c(1767),INFO" ID="0xd806373d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] addr memcpy to param fail. @connection_manager.c(1773),INFO" ID="0xd806376d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv]addr memcpy fail. @connection_manager.c(1791),INFO" ID="0xd80637fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr memcpy_s fail @connection_manager.c(1809),ERROR" ID="0xd806388a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote device rssi, conn_node not found. @connection_manager.c(1830),ERROR" ID="0xd8063932" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote device rssi fail @connection_manager.c(1835),ERROR" ID="0xd806395a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn_node not found. @connection_manager.c(1850),ERROR" ID="0xd80639d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="auto reconnect is enabled, close it first. @connection_manager.c(1874),ERROR" ID="0xd8063a92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @connection_manager.c(1879),ERROR" ID="0xd8063aba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @connection_manager.c(1883),ERROR" ID="0xd8063ada" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @connection_manager.c(1890),ERROR" ID="0xd8063b12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send msg connecting success! @connection_manager.c(1894),INFO" ID="0xd8063b35" />
+			</MSG_LOG>

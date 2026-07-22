@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="bas service init result:%u @sample_ble_bas.c(51),INFO" ID="0xd82c019d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get battery level is %u @sample_ble_bas.c(69),INFO" ID="0xd82c022d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas receive change notify, battery level:%u @sample_ble_bas.c(114),INFO" ID="0xd82c0395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas battery level:%u @sample_ble_bas.c(120),INFO" ID="0xd82c03c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas cfd format is 0x%02X @sample_ble_bas.c(126),INFO" ID="0xd82c03f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas cfd exponent is 0x%02X @sample_ble_bas.c(127),INFO" ID="0xd82c03fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bas cfd unit is 0x%02X%02x @sample_ble_bas.c(128),INFO" ID="0xd82c0405" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas cfd name_space is 0x%02X @sample_ble_bas.c(129),INFO" ID="0xd82c040d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bas cfd description is 0x%02X%02x @sample_ble_bas.c(131),INFO" ID="0xd82c041d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas cccd value:0x%04X @sample_ble_bas.c(137),INFO" ID="0xd82c044d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas service discovery result:%u @sample_ble_bas.c(143),INFO" ID="0xd82c047d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas client discovery service result:%u @sample_ble_bas.c(158),INFO" ID="0xd82c04f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bas read character client_id:0x%x conn_id:0x%x @sample_ble_bas.c(173),INFO" ID="0xd82c056d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas read character result:%u @sample_ble_bas.c(176),INFO" ID="0xd82c0585" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas read descriptor result:%u @sample_ble_bas.c(202),INFO" ID="0xd82c0655" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bas write ccd result:%u @sample_ble_bas.c(226),INFO" ID="0xd82c0715" />
+			</MSG_LOG>

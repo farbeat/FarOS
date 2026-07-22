@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_core_reset:acl_buf_elt = NULL @ld.c(312),ERROR" ID="0x889209c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt_abort_when_work @ld.c(332),INFO" ID="0x88920a65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BTC][CQDDR_RX_STAT] link_id=%d, next_rate_found=%d, next_rate_idx=%d @ld.c(968),INFO" ID="0x88921e45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LD][INIT]local_bd_addr=0x%0x:0x%0x:*:*:*:0x%0x @ld.c(1171),INFO" ID="0x8892249d" />
+			</MSG_LOG>

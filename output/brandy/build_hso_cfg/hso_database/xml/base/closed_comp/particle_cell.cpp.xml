@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="src is nullptr! @particle_cell.cpp(44),ERROR" ID="0xcb780162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy imageInfo_ failed. @particle_cell.cpp(49),ERROR" ID="0xcb78018a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ABS(range) is out of range @particle_cell.cpp(116),INFO" ID="0xcb7803a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Particle cell's parent should be UIParticleView! @particle_cell.cpp(257),ERROR" ID="0xcb78080a" />
+			</MSG_LOG>

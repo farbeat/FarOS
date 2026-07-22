@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]MAP_REQ_OPCODE instant=%d, txbuffer=%d, evt_count=%d, conhdl=%d @lld_con_pdu.c(1076),INFO" ID="0x897c21a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]UPDATE_REQ_OPCODE instant=%d, txbuffer=%d, evt_count=%d, latency=%d @lld_con_pdu.c(1113),INFO" ID="0x897c22cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]PHY_UPDATE_OPCODE instant=%d, txbuffer=%d, evt_count=%d, conhdl=%d @lld_con_pdu.c(1131),INFO" ID="0x897c235d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="total send packet over total %d max_buffer %d @lld_con_pdu.c(1373),INFO" ID="0x897c2aed" />
+			</MSG_LOG>

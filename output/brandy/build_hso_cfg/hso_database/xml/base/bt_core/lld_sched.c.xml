@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLD]llm_sched_scan_insert:old_ts is 0x%x, clock is 0x%x @lld_sched.c(197),WARNING" ID="0x885a062b" />
+			</MSG_LOG>

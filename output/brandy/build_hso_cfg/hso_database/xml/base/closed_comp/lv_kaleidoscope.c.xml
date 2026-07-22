@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] LvDrawKaleidoscope Failed. @lv_kaleidoscope.c(67),ERROR" ID="0xc98e021a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] LvInitKaleidoscopeInfo failed. @lv_kaleidoscope.c(104),ERROR" ID="0xc98e0342" />
+			</MSG_LOG>

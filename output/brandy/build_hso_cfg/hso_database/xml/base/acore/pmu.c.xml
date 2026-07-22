@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="Reg_ack is checking, addr:%x, offset:%x @pmu.c(121),INFO" ID="0xa05003cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Reg_ack has temed out, addr:%x, offset:%x @pmu.c(128),INFO" ID="0xa0500405" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Reg_status is checking, addr:%x, cur_value:%x @pmu.c(147),INFO" ID="0xa050049d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Reg_status has temed out, addr:%x, cur_value:%x @pmu.c(154),INFO" ID="0xa05004d5" />
+			</MSG_LOG>

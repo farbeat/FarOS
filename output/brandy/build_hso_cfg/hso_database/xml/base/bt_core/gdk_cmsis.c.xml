@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="GdkTimer Create TimerId:%d @gdk_cmsis.c(29),INFO" ID="0x8cb000ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GdkTimer Start TimerId:%d @gdk_cmsis.c(49),DBG" ID="0x8cb0018e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GdkTimer Stop TimerId:%d @gdk_cmsis.c(61),DBG" ID="0x8cb001ee" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GdkTimer Create TimerId:%d @gdk_cmsis.c(79),INFO" ID="0x8cb0027d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GdkTimer Start TimerId:%d @gdk_cmsis.c(99),DBG" ID="0x8cb0031e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GdkTimer Stop TimerId:%d @gdk_cmsis.c(111),DBG" ID="0x8cb0037e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gdk os malloc size 0 @gdk_cmsis.c(152),ERROR" ID="0x8cb004c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gdk os malloc FAIL size:%d @gdk_cmsis.c(159),ERROR" ID="0x8cb004fa" />
+			</MSG_LOG>

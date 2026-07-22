@@ -1,0 +1,40 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc fail @bt_dft_discovery_service.c(127),ERROR" ID="0xd89203fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add_hid_device_node memcpy fail @bt_dft_discovery_service.c(131),INFO" ID="0xd892041d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add_hid_device_report_node not find device @bt_dft_discovery_service.c(151),INFO" ID="0xd89204bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hid_device_report_id_update not find device @bt_dft_discovery_service.c(171),INFO" ID="0xd892055d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[hid_device_report_id_update] device-&gt;report_count:%u&quot; NEWLINE,device-&gt;report_count);for (uint8_t index = 0; index &lt; device-&gt;report_count; index++) {if (device-&gt;report_map[index].handle == handle - BT_NUM2) {device-&gt;report_map[index].report_id = report_id;bth_at_log_print_f(&quot;[hid_device_report_id_update] update handle:%hu --&gt; report_id:%uhandle, report_id);return;}}}static uint8_t __attribute__((unused)) sdk_get_hid_device_report_id(bth_address *addr, uint16_t handle){struct sdk_hid_device_report_info *device = NULL;device = sdk_hid_device_node_find(addr);if (device == NULL) {bt_acore_log0(LOG_ACORE_DRV_BT, LOG_LEVEL_INFO,&quot;hid_device_report_id_update not find device, use default value @bt_dft_discovery_service.c(192),INFO" ID="0xd8920605" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[Discovery Service] start hdl:%hu, end hdl:%hu, short uuid:0x%04x&quot; NEWLINE,para-&gt;start_hdl, para-&gt;end_hdl, para-&gt;uuid.short_uuid);} else {bth_at_log_print_f(&quot;[Discovery Service] start hdl:%hu, end hdl:%hu @bt_dft_discovery_service.c(280),INFO" ID="0xd89208c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @bt_dft_discovery_service.c(282),INFO" ID="0xd89208d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="discovery_service_event_cbk memcpy fail @bt_dft_discovery_service.c(298),INFO" ID="0xd8920955" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="discovery_service_event_cbk handle error, start_hdl:%d, end_hdl:%d @bt_dft_discovery_service.c(305),INFO" ID="0xd892098d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="discovery_service_event_cbk fail start_hdl:%d, end_hdl:%d @bt_dft_discovery_service.c(316),ERROR" ID="0xd89209e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="discovery_characteristic_event_cbk not found on handle:%d @bt_dft_discovery_service.c(349),INFO" ID="0xd8920aed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="discovery_service_event_cbk fail @bt_dft_discovery_service.c(365),ERROR" ID="0xd8920b6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="discovery_descriptor_event_cbk not service found on handle:%d @bt_dft_discovery_service.c(386),INFO" ID="0xd8920c15" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Characteristic Value Notification] value_handle:%d len:%d&quot; NEWLINE,para-&gt;characteristic_handle,para-&gt;value.len);report_id = sdk_get_hid_device_report_id(&amp;para-&gt;addr, para-&gt;characteristic_handle);report_data[index] = report_id;index++;for (uint32_t i = 0; i &lt; para-&gt;value.len; i++) {report_data[index] = para-&gt;value.data[i];index++;}for (uint32_t i = 0; i &lt; index; i++) {bth_at_log_print_f(&quot;%02x @bt_dft_discovery_service.c(427),INFO" ID="0xd8920d5d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hid_report_map_event_cbk] value_handle:%d len:%d&quot; NEWLINE,para-&gt;handle,para-&gt;val_len);for (uint32_t i = 0; i &lt; para-&gt;val_len; i++) {bth_at_log_print_f(&quot;%02x @bt_dft_discovery_service.c(445),INFO" ID="0xd8920ded" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="discovery_service_event_reg event cbk successfully&quot; NEWLINE);}/** Input: 1 params* &lt; addr &gt;* addr: remote device addr which need to discovery service*/int bts_at_cmd_gatt_start_discovery_all_services(int argc, char *argv[]){bts_discovery_service_event_reg();bts_gatt_discovery_info_free();bth_gatt_discovery_service param = {0};if ((argc &lt; BT_AT_PARAM_LEN2) || (argv == NULL)) {bt_acore_log0(LOG_ACORE_DRV_BT, LOG_LEVEL_ERROR,&quot;[Error] gatt_start_discovery_all_services fail! @bt_dft_discovery_service.c(498),ERROR" ID="0xd8920f92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_start_discovery_all_services write_bdaddr fail. @bt_dft_discovery_service.c(504),ERROR" ID="0xd8920fc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_start_discovery_all_services write_bdaddr fail. @bt_dft_discovery_service.c(509),ERROR" ID="0xd8920fea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_start_discovery_all_services g_discovery_service fail. @bt_dft_discovery_service.c(514),ERROR" ID="0xd8921012" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_get_report_map param invaild! @bt_dft_discovery_service.c(537),ERROR" ID="0xd89210ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_get_report_map param invaild! @bt_dft_discovery_service.c(541),ERROR" ID="0xd89210ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_get_report_map param invaild! @bt_dft_discovery_service.c(546),ERROR" ID="0xd8921112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hid_device_input_report_ccc_write new fail! @bt_dft_discovery_service.c(562),ERROR" ID="0xd8921192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_add_descriptor memset_s fail @bt_dft_discovery_service.c(570),ERROR" ID="0xd89211d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hid_device_descriptor_config param is NULL @bt_dft_discovery_service.c(606),INFO" ID="0xd89212f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable fail! @bt_dft_discovery_service.c(641),ERROR" ID="0xd892140a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable write_bdaddr fail. @bt_dft_discovery_service.c(647),ERROR" ID="0xd892143a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable write_bdaddr fail. @bt_dft_discovery_service.c(652),ERROR" ID="0xd8921462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable enable fail. @bt_dft_discovery_service.c(657),ERROR" ID="0xd892148a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable fail! @bt_dft_discovery_service.c(674),ERROR" ID="0xd8921512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable write_bdaddr fail. @bt_dft_discovery_service.c(679),ERROR" ID="0xd892153a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable write_bdaddr fail. @bt_dft_discovery_service.c(684),ERROR" ID="0xd8921562" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable fail! @bt_dft_discovery_service.c(706),ERROR" ID="0xd8921612" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable write_bdaddr fail. @bt_dft_discovery_service.c(711),ERROR" ID="0xd892163a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt_hid_device_ccc_enable write_bdaddr fail. @bt_dft_discovery_service.c(716),ERROR" ID="0xd8921662" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hid_device_report_id_init fail! @bt_dft_discovery_service.c(741),ERROR" ID="0xd892172a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hid_device_report_id_init write_bdaddr fail. @bt_dft_discovery_service.c(745),ERROR" ID="0xd892174a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] hid_device_report_id_init write_bdaddr fail. @bt_dft_discovery_service.c(750),ERROR" ID="0xd8921772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hid_device_report_id_init:device not found. @bt_dft_discovery_service.c(757),ERROR" ID="0xd89217aa" />
+			</MSG_LOG>

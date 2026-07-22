@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="add faild, Input parameter error. @ui_coverflow_view.cpp(97),ERROR" ID="0xcb44030a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove faild, Input parameter error. @ui_coverflow_view.cpp(138),ERROR" ID="0xcb440452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="UICoverflowView calls TYPE_THREE vibrator @ui_coverflow_view.cpp(339),INFO" ID="0xcb440a9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="UICoverflowView calls TYPE_ONE vibrator @ui_coverflow_view.cpp(342),INFO" ID="0xcb440ab5" />
+			</MSG_LOG>

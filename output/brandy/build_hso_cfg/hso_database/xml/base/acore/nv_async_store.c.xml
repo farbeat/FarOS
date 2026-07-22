@@ -1,0 +1,29 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async update value: memcpy_s fail! @nv_async_store.c(129),ERROR" ID="0xa07e040a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async add key: malloc fail! @nv_async_store.c(144),ERROR" ID="0xa07e0482" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async add key: memeset_s fail! @nv_async_store.c(148),ERROR" ID="0xa07e04a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_async_update_value fail! @nv_async_store.c(154),ERROR" ID="0xa07e04d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async store init keys one page: malloc fail! @nv_async_store.c(176),ERROR" ID="0xa07e0582" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async store init keys one page: memset_s fail! @nv_async_store.c(181),ERROR" ID="0xa07e05aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] nv async store init keys one page: kv key read data fail key= 0x%d @nv_async_store.c(203),ERROR" ID="0xa07e065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async read with attr: g_hash_table not init! @nv_async_store.c(219),ERROR" ID="0xa07e06da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async read with attr: semaphore error! @nv_async_store.c(224),ERROR" ID="0xa07e0702" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] nv async read with attr: not found key 0x%x! @nv_async_store.c(231),ERROR" ID="0xa07e073a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async read with attr: memcpy_s fail! @nv_async_store.c(245),ERROR" ID="0xa07e07aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async write with attr: g_hash_table not init! @nv_async_store.c(269),ERROR" ID="0xa07e086a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async write with attr: semaphore error! @nv_async_store.c(274),ERROR" ID="0xa07e0892" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async write with attr: not support write! @nv_async_store.c(279),INFO" ID="0xa07e08bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async write with attr: not enough space! @nv_async_store.c(286),INFO" ID="0xa07e08f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async msg process: semaphore error! @nv_async_store.c(316),ERROR" ID="0xa07e09e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async msg process not found key in hashtable! @nv_async_store.c(322),INFO" ID="0xa07e0a15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async msg process location not same! @nv_async_store.c(328),INFO" ID="0xa07e0a45" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[NV] nv async msg process key=0x%x,len=%d,attr %d %d %d @nv_async_store.c(338),DBG" ID="0xa07e0a96" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async msg process flash_space get fail! @nv_async_store.c(344),ERROR" ID="0xa07e0ac2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async thread msg event init: osal msg queue create! @nv_async_store.c(376),ERROR" ID="0xa07e0bc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv async thread msg event init:: osal kthread create! @nv_async_store.c(389),ERROR" ID="0xa07e0c2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] nv_async_flush fail! key_id=0x%x @nv_async_store.c(409),ERROR" ID="0xa07e0cca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_key_map_init: get page handle error! @nv_async_store.c(427),ERROR" ID="0xa07e0d5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_key_map_init: init keys one page error! @nv_async_store.c(432),ERROR" ID="0xa07e0d82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_key_map_init: osal sem binary sem init! @nv_async_store.c(443),ERROR" ID="0xa07e0dda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_key_map_init: nv async hash init fail! @nv_async_store.c(450),ERROR" ID="0xa07e0e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_key_map_init: nv async thread msg event init! @nv_async_store.c(457),ERROR" ID="0xa07e0e4a" />
+			</MSG_LOG>

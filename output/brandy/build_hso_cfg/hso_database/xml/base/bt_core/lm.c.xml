@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LM]lm_lt_addr_alloc:lt addr = %d, now addr bitmap=0x%0x @lm.c(507),INFO" ID="0x88680fdd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LM]lm_lt_addr_free:freed lt_addr = %d, now addr bitmap=0x%0x @lm.c(532),INFO" ID="0x886810a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][ACL]lm_acl_disc:lm_env.con_info[%d].role= %d @lm.c(674),INFO" ID="0x88681515" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][CHNLSCAN]compute_mst_chnl_map:assess mask ch%d @lm.c(992),INFO" ID="0x88681f05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][CHNLSCAN]compute_mst_chnl_map:peer mask ch%d @lm.c(1007),INFO" ID="0x88681f7d" />
+			</MSG_LOG>

@@ -1,0 +1,48 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="g_rmt_dev: %d @pbap_service.c(56),INFO" ID="0xd82801c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr: ****%02x%02x%02x%02x @pbap_service.c(63),INFO" ID="0xd82801fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s addr fail @pbap_service.c(66),ERROR" ID="0xd8280212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="callback functon not registered @pbap_service.c(89),INFO" ID="0xd82802cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="event=0x%x result=0x%x @pbap_service.c(95),INFO" ID="0xd82802fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start transferring %s: @pbap_service.c(102),INFO" ID="0xd8280335" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%10u bytes @pbap_service.c(104),INFO" ID="0xd8280345" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%10u byte transferred @pbap_service.c(106),INFO" ID="0xd8280355" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="extra app event=%u g_pbap_get_size=0x%x @pbap_service.c(110),INFO" ID="0xd8280375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="result: 0x%x @pbap_service.c(112),WARNING" ID="0xd8280383" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="free g_sdk_param @pbap_service.c(129),INFO" ID="0xd828040d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bd_addr is null! @pbap_service.c(145),ERROR" ID="0xd828048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bd_addr is wrong! @pbap_service.c(148),ERROR" ID="0xd82804a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid bd_addr! @pbap_service.c(157),ERROR" ID="0xd82804ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No device selected @pbap_service.c(161),ERROR" ID="0xd828050a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already connected @pbap_service.c(165),INFO" ID="0xd828052d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="g_rmt_dev=0x%x @pbap_service.c(169),INFO" ID="0xd828054d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt_connect_ex finish, result: 0x%x conn_handle=0x%x @pbap_service.c(171),INFO" ID="0xd828055d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already connected @pbap_service.c(175),INFO" ID="0xd828057d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid bd_addr! @pbap_service.c(188),ERROR" ID="0xd82805e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no connection @pbap_service.c(192),INFO" ID="0xd8280605" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap_pce_stop_trans result: 0x%x @pbap_service.c(198),INFO" ID="0xd8280635" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Line: %d] finish, result: 0x%x @pbap_service.c(201),INFO" ID="0xd828064d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already disconnected @pbap_service.c(206),INFO" ID="0xd8280675" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="reset g_pbap_conn @pbap_service.c(216),INFO" ID="0xd82806c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="free g_sdk_param @pbap_service.c(222),INFO" ID="0xd82806f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn_handle=0x%x @pbap_service.c(230),INFO" ID="0xd8280735" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @pbap_service.c(232),ERROR" ID="0xd8280742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param! @pbap_service.c(236),ERROR" ID="0xd8280762" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_sdk_param is busy! @pbap_service.c(240),WARNING" ID="0xd8280783" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_sdk_param malloc failed! @pbap_service.c(245),ERROR" ID="0xd82807aa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Line: %d] finish, name:%s, ret: 0x%x @pbap_service.c(258),INFO" ID="0xd8280815" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @pbap_service.c(267),ERROR" ID="0xd828085a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param! @pbap_service.c(271),ERROR" ID="0xd828087a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid search value len! @pbap_service.c(276),ERROR" ID="0xd82808a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_sdk_param is busy! @pbap_service.c(280),WARNING" ID="0xd82808c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_sdk_param malloc failed! @pbap_service.c(285),ERROR" ID="0xd82808ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Line: %d] finish, name:%s, ret: 0x%x @pbap_service.c(301),INFO" ID="0xd828096d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @pbap_service.c(310),ERROR" ID="0xd82809b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param! @pbap_service.c(314),ERROR" ID="0xd82809d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_sdk_param is busy! @pbap_service.c(318),WARNING" ID="0xd82809f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_sdk_param malloc failed! @pbap_service.c(323),ERROR" ID="0xd8280a1a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Line: %d] finish, name:%s, ret: %u @pbap_service.c(332),INFO" ID="0xd8280a65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @pbap_service.c(341),ERROR" ID="0xd8280aaa" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[Line: %d] finish, name:%s, len:%d ret: 0x%x @pbap_service.c(346),INFO" ID="0xd8280ad5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="No PBAP connection selected! @pbap_service.c(355),ERROR" ID="0xd8280b1a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Line: %d] finish, ret: %u @pbap_service.c(359),INFO" ID="0xd8280b3d" />
+			</MSG_LOG>

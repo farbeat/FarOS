@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[HCI]pts_mode=%d, is_le_ext_adving = %d, updated = %d @hci_le.c(147),INFO" ID="0x8b92049d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI]privacy=%d @hci_le.c(189),INFO" ID="0x8b9205ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI]local-&gt;leisa_cur = %02x @hci_le.c(1272),INFO" ID="0x8b9227c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][WHITE_LIST]TYPE=%d, ADDR=%02x:%02x:**:**:**:%02x @hci_le.c(1522),INFO" ID="0x8b922f95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]memcpy failed @hci_le.c(1988),ERROR" ID="0x8b923e22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]memcpy failed @hci_le.c(2023),ERROR" ID="0x8b923f3a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI]slot = %02x, type = %02x @hci_le.c(2027),INFO" ID="0x8b923f5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI]addr_type = %02x @hci_le.c(2037),INFO" ID="0x8b923fad" />
+			</MSG_LOG>

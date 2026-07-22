@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Nothing in font cache can be freed! @ui_font_hw_cache.cpp(45),ERROR" ID="0xcb14016a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="unicode %u was not found in font %u @ui_font_hw_cache.cpp(55),ERROR" ID="0xcb1401ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="GetSpace AllocBuffer failed. @ui_font_hw_cache.cpp(69),ERROR" ID="0xcb14022a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="unicode %u was not found in font %u @ui_font_hw_cache.cpp(97),ERROR" ID="0xcb14030a" />
+			</MSG_LOG>

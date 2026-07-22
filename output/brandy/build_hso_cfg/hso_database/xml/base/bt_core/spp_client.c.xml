@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SPP][START_CLIENT] SVR_CHANNEL=%d @spp_client.c(119),INFO" ID="0x8bae03bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SPP][START_CLIENT] ACTION=SPP_OPEN_SUCCESS, SVR_CHANNEL=%d, V_PORT=%d @spp_client.c(151),INFO" ID="0x8bae04bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SPP][START_CLIENT] ACTION=SPP_OPEN_FAIL, SVR_CHANNEL=%d, V_PORT=%d @spp_client.c(155),WARNING" ID="0x8bae04db" />
+			</MSG_LOG>

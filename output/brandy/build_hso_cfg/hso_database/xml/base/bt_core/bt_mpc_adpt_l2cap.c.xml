@@ -1,0 +1,37 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap reg psm. @bt_mpc_adpt_l2cap.c(45),INFO" ID="0x8dd2016d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface reg psm fail. len = %u @bt_mpc_adpt_l2cap.c(48),ERROR" ID="0x8dd20182" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface fail: %d @bt_mpc_adpt_l2cap.c(54),ERROR" ID="0x8dd201b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface fail: %d @bt_mpc_adpt_l2cap.c(60),ERROR" ID="0x8dd201e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap unreg psm. @bt_mpc_adpt_l2cap.c(70),INFO" ID="0x8dd20235" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface unreg psm fail. len = %u @bt_mpc_adpt_l2cap.c(73),ERROR" ID="0x8dd2024a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface fail: %d @bt_mpc_adpt_l2cap.c(79),ERROR" ID="0x8dd2027a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface fail: %d @bt_mpc_adpt_l2cap.c(85),ERROR" ID="0x8dd202aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general interface credit ch req. @bt_mpc_adpt_l2cap.c(95),INFO" ID="0x8dd202fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch req fail. len = %u @bt_mpc_adpt_l2cap.c(98),ERROR" ID="0x8dd20312" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch req fail: %d @bt_mpc_adpt_l2cap.c(104),ERROR" ID="0x8dd20342" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch req fail: %d @bt_mpc_adpt_l2cap.c(110),ERROR" ID="0x8dd20372" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general interface credit ch rsq. @bt_mpc_adpt_l2cap.c(120),INFO" ID="0x8dd203c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch rsq fail. len = %u @bt_mpc_adpt_l2cap.c(123),ERROR" ID="0x8dd203da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch rsq fail: %d @bt_mpc_adpt_l2cap.c(129),ERROR" ID="0x8dd2040a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch rsq fail: %d @bt_mpc_adpt_l2cap.c(135),ERROR" ID="0x8dd2043a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general interface credit tx. @bt_mpc_adpt_l2cap.c(143),INFO" ID="0x8dd2047d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit tx fail. len = %u @bt_mpc_adpt_l2cap.c(147),ERROR" ID="0x8dd2049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch rsq fail: %d @bt_mpc_adpt_l2cap.c(153),ERROR" ID="0x8dd204ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general interface. @bt_mpc_adpt_l2cap.c(163),INFO" ID="0x8dd2051d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch flow control fail. len = %u @bt_mpc_adpt_l2cap.c(166),ERROR" ID="0x8dd20532" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface fail: %d @bt_mpc_adpt_l2cap.c(172),ERROR" ID="0x8dd20562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface fail: %d @bt_mpc_adpt_l2cap.c(178),ERROR" ID="0x8dd20592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general interface disconnect. @bt_mpc_adpt_l2cap.c(188),INFO" ID="0x8dd205e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface disconnect fail. len = %u @bt_mpc_adpt_l2cap.c(191),ERROR" ID="0x8dd205fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface disconnect fail: %d @bt_mpc_adpt_l2cap.c(197),ERROR" ID="0x8dd2062a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface disconnect fail: %d @bt_mpc_adpt_l2cap.c(203),ERROR" ID="0x8dd2065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general interface credit ch req. @bt_mpc_adpt_l2cap.c(213),INFO" ID="0x8dd206ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch req fail. len = %u @bt_mpc_adpt_l2cap.c(216),ERROR" ID="0x8dd206c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch req fail: %d @bt_mpc_adpt_l2cap.c(222),ERROR" ID="0x8dd206f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general interface credit ch req fail: %d @bt_mpc_adpt_l2cap.c(228),ERROR" ID="0x8dd20722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general: l2cap general set_l2cap_config_params. @bt_mpc_adpt_l2cap.c(238),INFO" ID="0x8dd20775" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general set_l2cap_config_params fail. len = %u @bt_mpc_adpt_l2cap.c(241),ERROR" ID="0x8dd2078a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: bt_mpc_adapter_l2cap_set_l2cap_config_params fail: %d @bt_mpc_adpt_l2cap.c(247),ERROR" ID="0x8dd207ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general set_l2cap_config_params fail: %d @bt_mpc_adpt_l2cap.c(253),ERROR" ID="0x8dd207ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general: l2cap general handler opcode 0x%04x invaild! @bt_mpc_adpt_l2cap.c(289),ERROR" ID="0x8dd2090a" />
+			</MSG_LOG>

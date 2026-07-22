@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="AllocBuffer failed. @lv_surface_view.c(163),ERROR" ID="0xc962051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc for rgb buffer failed. @lv_surface_view.c(195),ERROR" ID="0xc962061a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Alloc for rgb buffer failed. @lv_surface_view.c(206),ERROR" ID="0xc9620672" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Invalid surface or buffer. @lv_surface_view.c(418),ERROR" ID="0xc9620d12" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Append to free list failed. @lv_surface_view.c(424),ERROR" ID="0xc9620d42" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] surface is NULL, or surface is not initialized. @lv_surface_view.c(488),ERROR" ID="0xc9620f42" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Invalid surface or buffer. @lv_surface_view.c(516),ERROR" ID="0xc9621022" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Append to dirty list failed. @lv_surface_view.c(523),ERROR" ID="0xc962105a" />
+			</MSG_LOG>

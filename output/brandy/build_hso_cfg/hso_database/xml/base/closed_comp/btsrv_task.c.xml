@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="btsrv_init: create msg queue fail ret:%08x @btsrv_task.c(44),ERROR" ID="0xd8020162" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsrv_init: create task fail ret:%08x @btsrv_task.c(54),ERROR" ID="0xd80201b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsrv_init: set pri error:%08x @btsrv_task.c(59),ERROR" ID="0xd80201da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_init: task create success @btsrv_task.c(62),INFO" ID="0xd80201f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="msg id %d not register @btsrv_task.c(88),WARNING" ID="0xd80202c3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="btsrv_send_simple_msg: send fail msg_id: %d ret: %08x @btsrv_task.c(96),ERROR" ID="0xd8020302" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid msg id %d @btsrv_task.c(112),WARNING" ID="0xd8020383" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="handle funcs is null @btsrv_task.c(117),WARNING" ID="0xd80203ab" />
+			</MSG_LOG>

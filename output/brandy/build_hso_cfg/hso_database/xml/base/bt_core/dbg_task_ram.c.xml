@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[page_tx_pwr_reduce]val:%d @dbg_task_ram.c(154),INFO" ID="0x8a4404d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[a2dp_tx_pwr_reduce]switch:%d, val:%d @dbg_task_ram.c(167),INFO" ID="0x8a44053d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ear_wear_notice]switch:%d @dbg_task_ram.c(213),INFO" ID="0x8a4406ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][high power] param status=%d, handle=0x%x @dbg_task_ram.c(243),INFO" ID="0x8a44079d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][high power] enable high power, link_id=%d, allowe_status=0x%x @dbg_task_ram.c(249),INFO" ID="0x8a4407cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][high power] disable high power, link_id=%d, allowe_status=0x%x @dbg_task_ram.c(260),INFO" ID="0x8a440825" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI RESET PLUS]cali start! @dbg_task_ram.c(423),INFO" ID="0x8a440d3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI RESET PLUS]cali finished! @dbg_task_ram.c(436),INFO" ID="0x8a440da5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CANT SET POWER HIGHER THAN 2 @dbg_task_ram.c(510),INFO" ID="0x8a440ff5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CANT SET POWER HIGHER THAN 14 @dbg_task_ram.c(515),INFO" ID="0x8a44101d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ALL POWER SET TO %d dBm @dbg_task_ram.c(527),INFO" ID="0x8a44107d" />
+			</MSG_LOG>

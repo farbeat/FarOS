@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[COEX_ABORT]get coex abort in gt mode! @ld_smart_wear_wlcoex_ram.c(121),ERROR" ID="0x8a0c03ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[COEX_ABORT]Wi-Fi abort %d times in %d slot @ld_smart_wear_wlcoex_ram.c(158),INFO" ID="0x8a0c04f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX] virtual_call_state=%d @ld_smart_wear_wlcoex_ram.c(188),INFO" ID="0x8a0c05e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX]ld_wlcoex_check_sco_att, sco retrans type: %d @ld_smart_wear_wlcoex_ram.c(223),INFO" ID="0x8a0c06fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[COEX_SCO_WIFI]wifi low speed mode change to %d, time = %d @ld_smart_wear_wlcoex_ram.c(294),INFO" ID="0x8a0c0935" />
+			</MSG_LOG>

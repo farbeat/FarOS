@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg6" NAME="[IPC][ERROR][APP]err_cnt:%d, loop_cnt:%u, called:0x%x, [cpuLoad pc:0x%x lr:0x%x sp:0x%x] @system_info.c(25),INFO" ID="0xa04a00cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="g_missed_messages:%d @system_info.c(35),INFO" ID="0xa04a011d" />
+			</MSG_LOG>

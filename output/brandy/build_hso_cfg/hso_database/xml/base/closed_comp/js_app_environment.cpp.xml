@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="JsAppEnvironment::JsAppEnvironment @js_app_environment.cpp(48),DBG" ID="0xe0c80186" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Failed to load JavaScript framework. @js_app_environment.cpp(110),ERROR" ID="0xe0c80372" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Success to load JavaScript framework. @js_app_environment.cpp(114),INFO" ID="0xe0c80395" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ACELite is running in snapshot mode @js_app_environment.cpp(144),DBG" ID="0xe0c80486" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ACELite is running in JS parser mode @js_app_environment.cpp(146),DBG" ID="0xe0c80496" />
+			</MSG_LOG>

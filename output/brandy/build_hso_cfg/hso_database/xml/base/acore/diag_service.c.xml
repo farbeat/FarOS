@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="diag_service_data_merge: SN start! cur_sn = %d @diag_service.c(51),DBG" ID="0xa096019e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="diag_service_data_merge: SN inside. cur_sn = %d @diag_service.c(63),DBG" ID="0xa09601fe" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="diag_service_data_merge: SN end. cur_sn = %d @diag_service.c(68),DBG" ID="0xa0960226" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="diag_service_data_merge: SN err. cur_sn = %d @diag_service.c(73),ERROR" ID="0xa096024a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="diag_service_build_notify_data: src addr is valid.src_addr = %d, id = %d @diag_service.c(134),ERROR" ID="0xa0960432" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="uapi_diag_service_send_data: dst addr is valid. dst_addr = %d, id = %d @diag_service.c(307),ERROR" ID="0xa096099a" />
+			</MSG_LOG>

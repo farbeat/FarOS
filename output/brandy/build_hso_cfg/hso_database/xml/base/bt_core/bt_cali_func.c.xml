@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[LPF_CALI]code = %x, abs_diff_val = %d, pwr_1m = %d, 2 * pwr_2_5m = %d @bt_cali_func.c(564),INFO" ID="0x894211a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[rxiq]trim version = %d @bt_cali_func.c(1281),INFO" ID="0x8942280d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="START CALCU PREF @bt_cali_func.c(1447),INFO" ID="0x89422d3d" />
+			</MSG_LOG>

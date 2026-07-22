@@ -1,0 +1,582 @@
+/*
+ * Copyright (c) @CompanyNameMagicTag 2022-2023. All rights reserved.
+ * Description: test at cmd proc
+ */
+#ifndef MPC_CODE_DEF_H
+#define MPC_CODE_DEF_H
+#ifdef __cplusplus
+#if __cplusplus
+extern "C" {
+#endif
+#endif
+
+typedef enum {
+    MPC_COMMAND_BLE_BASE = 0x10,
+    MPC_COMMAND_BR_BASE = 0x30,
+    MPC_COMMAND_GLE_BASE = 0x50,
+    MPC_COMMAND_TEST_BASE = 0x70,
+} mc_service_base;
+
+typedef enum {
+    BT_DEVICE_MGR_SVR = MPC_COMMAND_BLE_BASE,
+    BLE_CONNECT_SVR,
+    BT_MANAGER_SVR,
+    BT_DESKTOP_SVR,
+} mc_service_type_ble;
+
+typedef enum {
+    GLE_MANAGER_SVR = MPC_COMMAND_GLE_BASE,
+} mc_service_type_gle;
+
+typedef enum {
+    MC_BT_SRV_A2DP = MPC_COMMAND_BR_BASE,
+    MC_BT_SRV_AVRCP,
+    MC_BT_SRV_HFP,
+    MC_BT_SRV_PBAP,
+    MC_BT_SRV_GAP,
+    MC_BT_SRV_GAP_EVENT,
+    MC_BT_SRV_SPP,
+    MC_BT_SRV_PAN,
+    MC_BT_SVR_BRANDY_MAX,
+} mc_service_type_br;
+
+typedef enum {
+    MC_BT_FACTORY_TEST_SVR = MPC_COMMAND_TEST_BASE,
+    MC_BT_SRV_BRANDY_PTS,
+    MC_BT_SRV_DONGLE_TEST
+} mc_service_type_test;
+
+/* service_id: MC_BT_FACTORY_TEST_SVR */
+typedef enum {
+    MC_BT_DFT_BT_BASE                   = 0x00,
+    MC_BT_DFT_CHECK_EFLASH              = 0x01,
+    MC_BT_DFT_RF_TEST_ON                = 0x02,
+    MC_BT_DFT_RF_TX_ONOFF               = 0x03,
+    MC_BT_DFT_READ_HW_VERSION           = 0x04,
+    MC_BT_DFT_READ_VOLTAGE              = 0x05,
+    MC_BT_DFT_RESERVED_1306             = 0x06,
+    MC_BT_DFT_WRITE_BDADDR              = 0x07,
+    MC_BT_DFT_READ_BDADDR               = 0x08,
+    MC_BT_DFT_NAME_WRITE                = 0x09,
+    MC_BT_DFT_NAME_READ                 = 0x0A,
+    MC_BT_DFT_READ_BT_VERSION           = 0x0B,
+    MC_BT_DFT_READ_MFI_ID               = 0x0C,
+    MC_BT_DFT_SQIF_RW_CHECK             = 0x0D,
+    MC_BT_DFT_MICA_LOOP                 = 0x0E,
+    MC_BT_DFT_MICB_LOOP                 = 0x0F,
+    MC_BT_DFT_MIC_CALIBRATION           = 0x10,
+    MC_BT_DFT_ENTER_DFU_MODE            = 0x11,
+    MC_BT_DFT_FACTORY_MODE              = 0x12,
+    MC_BT_DFT_RESET_PDL                 = 0x13,
+    MC_BT_DFT_READ_USB_PORT             = 0x14,
+    MC_BT_DFT_SET_USB_PORT              = 0x15,
+    MC_BT_DFT_PSKEY_READ                = 0x16,
+    MC_BT_DFT_ENTER_PAIRING             = 0x17,
+    MC_BT_DFT_TEMP_READ                 = 0x18,
+    MC_BT_DFT_RESET                     = 0x19,
+    MC_BT_DFT_ENTER_DUT_MODE            = 0x1A,
+    MC_BT_DFT_POWER_ON                  = 0x1B,
+    MC_BT_DFT_POWER_OFF                 = 0x1C,
+    MC_BT_DFT_SET_SIG_CMD               = 0x1D,
+    MC_BT_DFT_RF_BLE_TX_MODE            = 0x25,
+    MC_BT_DFT_RF_BLE_RX_MODE            = 0x26,
+    MC_BT_DFT_RF_RESET_RX_COUNT         = 0x27,
+    MC_BT_DFT_RF_READ_RX_COUNT          = 0x28,
+    MC_BT_DFT_RF_BREDR_TX_MODE          = 0x2B,
+    MC_BT_DFT_RF_BREDR_RX_MODE          = 0x2C,
+    MC_BT_DFT_CALI_POWER_INIT           = 0x2D,
+    MC_BT_DFT_CALI_POWER_START          = 0x2E,
+    MC_BT_DFT_CALI_POWER_END            = 0x2F,
+    MC_BT_DFT_OPERATION_CALIBRATION     = 0x30,
+    MC_BT_DFT_TRANSPARENT_TRANS         = 0x31,
+    MC_BT_DFT_DISCONNECT_LINK           = 0x32,
+    MC_BT_DFT_QUERY_CON_INFO            = 0x33,
+    MC_BT_DFT_QUERY_PAIRED_DEVICE_INFO  = 0x34,
+    MC_BT_DFT_BLE_DEV_INFO              = 0x37,
+    MC_BT_DFT_ADDR_INFO_SET             = 0x39,
+    MC_BT_DFT_GATT_GAP_REG              = 0x3A,
+    MC_BT_DFT_RF_RX_COUNT_RSP           = 0x3B,
+    MC_BT_DFT_SET_VENDOR_CMD            = 0x3C,
+} mc_bt_dft_command_type;
+
+/* service_id: BT_DEVICE_MGR_SVR */
+typedef enum {
+    MC_BT_DEV_GET_VERSION                           = 0x01,
+    MC_BT_DEV_RESET_FACTORY                         = 0x02,
+    MC_BT_DEV_BAT_VALUE                             = 0x03,
+    MC_BT_DEV_BAT_STATE                             = 0x04,
+    MC_BT_DEV_START_COMP                            = 0x05,
+    MC_BT_DEV_INFO                                  = 0x06,
+    MC_BT_DEV_BT_LOST_REMIND                        = 0x07,
+    MC_BT_MANAGER_RECOVER_CALIBRATION_DATA          = 0x08,
+    MC_BT_MANAGER_RECOVER_SMP_KEYS                  = 0x09,
+    MC_BT_MANAGER_RECOVER_PRODUCT_TYPE              = 0x0a,
+    MC_BT_MANAGER_RECOVER_SYS_CONFIG                = 0x0b,
+    MC_BT_MANAGER_SET_LOCAL_ADDR                    = 0x0c,
+    MC_BT_MANAGER_SET_LOCAL_NAME                    = 0x0d,
+    MC_BT_MANAGER_REPORT_SMP_KEYS                   = 0x0e,
+} mc_bt_dev_manager_command_type;
+
+/* service_id: BLE_CONNECT_SVR */
+typedef enum {
+    MC_BLE_CONN_STATE                               = 0x01,
+    MC_BLE_PAIR_MODE                                = 0x02,
+    MC_BLE_DISCONN                                  = 0x03,
+    MC_BLE_QUERY_CONN_STATE                         = 0x04,
+    MC_BLE_ENTER_HV_MODE                            = 0x05,
+    MC_BLE_BPM_DATA                                 = 0x06,
+    MC_BLE_DEL_PAIR_INFO                            = 0x07, // MCU notify BLE delete pair infomation
+    MC_BLE_RPT_HRS_MODE                             = 0x08, // BLE report hrs mode
+    MC_BLE_RPT_SAIS_MODE                            = 0x09, // BLE report sais mode
+    MC_BLE_ADV_ENABLE                               = 0x0A,
+    MC_BLE_CONNECT_PEER                             = 0x0B,
+    MC_BLE_SET_PRODUCT_TYPE                         = 0x0C,
+    MC_BLE_MTU_INQUERY                              = 0x0D,
+    MC_BLE_CONN_UPDATE                              = 0x0E,
+
+    /* General Interface for Stack */
+    MC_BLE_L2CAP_REG_PSM                            = 0x20,
+    MC_BLE_L2CAP_UNREG_PSM,
+    MC_BLE_L2CAP_CREDIT_CH_REQ,
+    MC_BLE_L2CAP_CREDIT_CH_RSP,
+    MC_BLE_L2CAP_CREDIT_CH_RX,
+    MC_BLE_L2CAP_CH_TX,
+    MC_BLE_L2CAP_CREDIT_FLOW_CTRL,  /* 0x25 */
+    MC_BLE_L2CAP_DISCONNECTION,
+    MC_BLE_L2CAP_SET_CONFIG_PARAMS,
+    MC_BLE_L2CAP_CONNECT,
+
+    /* General Interface for gatt server Stack */
+    MC_BLE_GATT_CREATE_SERVER                       = 0x40,
+    MC_BLE_GATT_CREATE_SERVICE                      = 0x41,
+    MC_BLE_GATT_ADD_INCLUDE_SERVICE                 = 0x42,
+    MC_BLE_GATT_ADD_CHARACTER                       = 0x43,
+    MC_BLE_GATT_ADD_DESC                            = 0x44,
+    MC_BLE_GATT_START_SERVICE                       = 0x45,
+    MC_BLE_GATT_SEND_RESPONSE                       = 0x46,
+    MC_BLE_GATT_UPDATE_CHARACTER_VALUE              = 0x47,
+    MC_BLE_GATT_UPDATE_DESCRIPTOR_VALUE             = 0x48,
+    MC_BLE_GATT_GET_GAP_ATTTIBUTE                   = 0x49,
+    MC_BLE_GATT_SET_GAP_ATTTIBUTE                   = 0x4A,
+    MC_BLE_GATT_MULTIPLE_VALUE_NTF                  = 0x4B,
+    MP_BLE_GATT_MTU_SET_PARAM                       = 0x4C,
+    MC_BLE_GATT_WRITE_IND                           = 0x4D,
+    MC_BLE_GATT_READ_IND                            = 0x4E,
+    MC_BLE_GATT_STOP_SERVICE                        = 0x4F,
+    MC_BLE_GATT_MTU_CHANGED                         = 0x50,
+
+    /* General Interface for gatt client Stack */
+    MC_BLE_GATT_DISCOVERY_SERVICE                   = 0x51,
+    MC_BLE_GATT_DISCOVERY_INCLUDE                   = 0x52,
+    MC_BLE_GATT_DISCOVERY_CHARACTER                 = 0x53,
+    MC_BLE_GATT_DISCOVERY_CHARACTER_BY_UUID         = 0x54,
+    MC_BLE_GATT_DISCOVERY_DESCRIPTOR                = 0x55,
+    MC_BLE_GATT_DISCOVERY_DESCRIPTOR_BY_HANDLE      = 0x56,
+    MC_BLE_GATT_READ_CHARACTER                      = 0x57,
+    MC_BLE_GATT_READ_CHARACTER_BY_UUID              = 0x58,
+    MC_BLE_GATT_READ_MULTIPLE_CHARACTER             = 0x59,
+    MC_BLE_GATT_MULTIPLE_VALUE_READ_CHARACTER       = 0x5A,
+    MC_BLE_GATT_WRITE_CHARACTER                     = 0x5B,
+    MC_BLE_GATT_RELIABLE_WRITE_CHARACTER            = 0x5C,
+    MC_BLE_GATT_READ_DESCRIPTOR                     = 0x5D,
+    MC_BLE_GATT_WRITE_DESCRIPTOR                    = 0x5E,
+    MC_BLE_GATT_MTU_CONFIG                          = 0x5F,
+    MC_BLE_GATT_VALUE_NOTIFICATION                  = 0x60,
+    MC_BLE_GATT_GET_HID_DEVICE_REPORT               = 0x61,
+    MC_BLE_GATT_SET_ATT_MIN_KEY_SIZE                = 0x62,
+    MC_BLE_GATT_SET_ATT_CONFIG_PARAM                = 0x63,
+    MC_BLE_GATT_UPDATE_CHARACTER_VALUE_BY_UUID      = 0x64,
+    MC_BLE_GATT_DISCOVERY_SERVICE_COMPMLETE         = 0x65,
+    MC_BLE_GATT_DISCOVERY_CHARACTER_COMPMLETE       = 0x66,
+    MC_BLE_GATT_DISCOVERY_DESCRIPTOR_COMPMLETE      = 0x67,
+    MC_BLE_GATT_READ_CHARACTER_COMPLETE             = 0x68,
+
+    MC_BLE_GAP_ADV_RPT                              = 0x70,
+    MC_BLE_GAP_UPDATE_CONN_PARAMS                   = 0x71,
+    MC_BLE_GAP_EXT_ADV_ENABLE                       = 0x72,
+    MC_BLE_GAP_ADD_WHITE_LIST                       = 0x73,
+    MC_BLE_GAP_RMV_WHITE_LIST                       = 0x74,
+
+    MC_BLE_GAP_GET_LOCAL_APPEARANCE                 = 0x75,
+    MC_BLE_GAP_SET_LOCAL_APPEARANCE                 = 0x76,
+    MC_BLE_GAP_SET_PERIOD_ADVERTISING               = 0x77,
+    MC_BLE_GAP_DIS_PERIOD_ADVERTISING               = 0x78,
+    MC_BLE_GAP_SET_PERIOD_ADV_LIST                  = 0x79,
+    MC_BLE_GAP_PERIOD_ADV_CREATE_SYNC               = 0x7a,
+    MC_BLE_GAP_PERIOD_ADV_TERMINATE_SYNC            = 0x7b,
+
+    MC_BLE_GAP_DIS_EXTERN_ADV                       = 0x7c,
+    MC_BLE_GAP_SET_EXTERN_ADV                       = 0x7d,
+    MC_BLE_GAP_RMV_EXTERN_ADV                       = 0x7e,
+    MC_BLE_GAP_DIS_EXTERN_SCAN                      = 0x7f,
+    MC_BLE_GAP_SET_EXTERN_SCAN                      = 0x80,
+    MC_BLE_GAP_SET_RANDOM_ADDR                      = 0x81,
+    MC_BLE_GAP_GET_WHITE_LIST                       = 0x82,
+    MC_BLE_GAP_CON_USE_WHITE_LIST                   = 0x83,
+    MC_BLE_GAP_SET_GLOABL_VALUE                     = 0x84,
+    MC_BLE_GAP_SET_CONN_PARAM                       = 0x85,
+    MC_BLE_GAP_SET_HCI_LE_EVENT_MASK                = 0x86,
+    MC_BLE_GAP_SET_ADDR_RESOLVE                     = 0x87,
+    MC_BLE_GAP_ADV_SET_TERMINATED                   = 0x88,
+    MC_BLE_READ_RSSI                                = 0x89,
+    MC_BLE_SET_HCI_LINK_KEY                         = 0x8A,
+    MC_BLE_SET_PHY                                  = 0x8B,
+    MC_BLE_SET_DATA_LENGTH                          = 0x8C,
+
+    MC_BLE_SMP_SET_SEC_PARAM                        = 0xA0,
+    MC_BLE_SMP_PASSKEY_REQ                          = 0xA1,
+    MC_BLE_SMP_PASSKEY_NOTIFY                       = 0xA2,
+    MC_BLE_SMP_PAIR_COMPLETE                        = 0xA3,
+    MC_BLE_SMP_REMOVE_PAIR_INFO                     = 0xA4,
+    MC_BLE_SMP_SET_KEY_FROM_BTC                     = 0xA5,
+    MC_BLE_SMP_REMOVE_PAIR_DEVICE                   = 0xA6,
+    MC_BLE_SMP_REPORT_PAIRED_KEYS                   = 0xA7,
+    MC_BLE_SMP_CTKD_PARAM                           = 0xA8,
+    /* General Interface for Stack */
+} mc_ble_conn_manager_command_type;
+
+/* service_id: BT_DESKTOP_SVR */
+typedef enum {
+    MC_BT_DESKTOP_BASE                              = 0x00,
+    MC_BT_DESKTOP_KEYBOARD_INPUT                    = 0x01,
+    MC_BT_DESKTOP_KEYBOARD_OUTPUT                   = 0x02,
+    MC_BT_DESKTOP_MOUSE_INPUT                       = 0x03,
+} mc_bt_desktop_command_type;
+
+/* service_id: BT_MANAGER_SVR */
+typedef enum {
+    MC_BT_MANAGER_SYNC_REQ                          = 0x01,
+    MC_BT_MANAGER_SYNC_RSP                          = 0x02,
+    MC_BT_MANAGER_CHANGE_REQ                        = 0x03,
+    MC_BT_MANAGER_CHANGE_RSP                        = 0x04,
+    MC_BT_MANAGER_LOCK_STATE_NOTIFY                 = 0x05,
+    MC_BT_MANAGER_FAC_RESET                         = 0x06,
+    MC_BT_MANAGER_DEV_SHUTDOWN                      = 0x07,
+    MC_BT_MANAGER_DEV_HIGHT_POWER                   = 0x08,
+    MC_BT_MANAGER_SELFIND_INFO_NOTIFY               = 0x09, /* Only used to Selfind adv func */
+    MC_BT_MANAGER_TRANSPARENT                       = 0x0A,
+    MC_BT_MANAGER_PDL_OPERATION                     = 0x0B, /* Transmit the storage info of PDL to BT Core */
+    MC_BT_MANAGER_RESET_TYPE                        = 0x0C,
+    MC_BT_MANAGER_PRODUCT_MODE                      = 0x0D,
+    MC_BT_MANAGER_MODE_CHANGE                       = 0x0E,
+} mc_bt_manager_command_type;
+
+/* service_id: MC_BT_SRV_DONGLE_TEST */
+typedef enum {
+    MC_BT_DONGLE_TEST
+} mc_dongle_test_command_type;
+
+typedef enum {
+    MC_GENERAL_CMD_L2CAP1               = 0x2,
+    MC_GENERAL_CMD_L2CAP2               = 0x3,
+    MC_GENERAL_CMD_GATT1                = 0x4,
+    MC_GENERAL_CMD_GATT2                = 0x5,
+    MC_GENERAL_CMD_GATT3                = 0x6,
+    MC_GENERAL_CMD_GAP1                 = 0x7,
+    MC_GENERAL_CMD_GAP2                 = 0x8,
+    MC_GENERAL_CMD_GAP3                 = 0x9,
+    MC_GENERAL_CMD_SMP                  = 0xA,
+    MC_GENERAL_CMD_NUM,
+} mc_general_cmd_t;
+
+/* service_id: MC_BT_SRV_GAP */
+typedef enum {
+    GAP_SDK_INIT              = 0x00,
+    GAP_SDK_DISCONNECT,
+    GAP_SDK_CONNECT_EX,
+    GAP_SDK_START_DEFAULT_BT,
+    GAP_IF_START_DEVICE_DISCOVERY,
+    GAP_IF_SET_DISCOVERY_MODE,
+    GAP_IF_GET_DISCOVERY_MODE,
+    GAP_IF_STOP_DISCOVERY,
+    GAP_IF_CREATE_ACL,
+    GAP_IF_GET_REMOTE_DEV_HANDLE,
+    GAP_IF_IS_DEVICE_CONNECTED,
+    GAP_IF_DISCONNECT_ACL_HANDLE,
+    GAP_IF_PAIR_DEVICE,
+    GAP_IF_UNPAIR_DEVICE,
+    GAP_IF_ADD_RMT_DEVICE,
+    GAP_IF_UPDATE_RMT_DEVICE_NAME,
+    GAP_IF_GET_LOCAL_ADDR,
+    GAP_IF_SET_LOCAL_ADDR,
+    GAP_IF_GET_LOCAL_NAME,
+    GAP_IF_SET_LOCAL_NAME,
+    GAP_IF_GET_RMT_DEV_ADDR,
+    GAP_IF_BROWSE_RMT_SERVICE,
+    GAP_IF_SET_VOICE_SHM_ID,
+    GAP_IF_RECONNECT_PHONE,
+    GAP_IF_SET_TX_POWER,
+    GAP_IF_SDK_DONE,
+    GAP_IF_CREATE_ACL_ASYNC,
+    GAP_IF_UPDATE_RMT_DEVICE_NAME_ASYNC,
+    GAP_IF_READ_RSSI_BR,
+    GAP_IF_SET_ACTIVE_SCENE,
+    GAP_IF_SET_INQUIRY_SCAN_PARAM,
+    GAP_IF_RESTORE_REMOTE_DEVICE,
+    GAP_IF_GET_LINK_MODE,
+    GAP_IF_SET_BR_SECURE_PARAM,
+    GAP_IF_SET_BTH_FLOW_LIMIT,
+} mpc_bt_stack_gap_opcode;
+
+/* service_id: MC_BT_SRV_A2DP */
+typedef enum {
+    MC_BT_SRV_A2DP_CONNECT,
+    MC_BT_SRV_A2DP_DISCONNECT,
+    MC_BT_SRV_A2DP_STREAM_START,
+    MC_BT_SRV_A2DP_STREAM_SUSPEND,
+    MC_BT_SRV_A2DP_SET_AUDIO_SHMID,
+    MC_BT_SRV_A2DP_SET_STREAM_CODEX,
+    MC_BT_SRV_A2DP_RPT_REMOTE_SEP_CAP,
+    MC_BT_SRV_A2DP_RPT_STREAM_STATE,
+    MC_BT_SRV_A2DP_RPT_STREAM_CONFIG,
+    MC_BT_SRV_A2DP_RPT_STREAM_REJECT,
+    MC_BT_SRV_A2DP_STREAM_START_ACCEPT,
+    MC_BT_SRV_A2DP_SNK_UNREGISTER_SERVICE,
+    MC_BT_SRV_A2DP_SNK_REGISTER_SERVICE,
+    MC_BT_SRC_A2DP_MAX,
+} mc_bt_a2dp_command_type;
+
+/* service_id: MC_BT_SRV_HFP */
+typedef enum {
+    MC_BT_SRV_HFP_DAIL,
+    MC_BT_SRV_HFP_CANCEL_CALL,
+    MC_BT_SRV_HFP_3WAY_HANDLE,
+    MC_BT_SRV_HFP_ANSWER_CALL,
+    MC_BT_SRV_HFP_SPK_VOL,
+    MC_BT_SRV_HFP_MIC_VOL,
+    MC_BT_SRV_HFP_AUDIO_CONN_TRANS,
+    MC_BT_SRV_HFP_TX_DTMF,
+    MC_BT_SRV_HFP_GET_CURRENT_CALL,
+    MC_BT_SRV_VOICE_RECOGNITION,
+    MC_BT_SRV_HFP_SCO_ACCEPT,
+    MC_BT_SRV_HFP_HF_CMD_CBK,
+    MC_BT_SRV_HFP_AG_ANSWER_CALL,
+    MC_BT_SRV_HFP_AG_CANCEL_CALL,
+    MC_BT_SRV_HFP_AG_AUDIO_CONN_TRANS,
+    MC_BT_SRV_HFP_AG_SEND_NETWORK_EVENT,
+    MC_BT_SRV_HFP_AG_SEND_CURRENT_CALL,
+    MC_BT_SRV_HFP_AG_SPK_VOL,
+    MC_BT_SRV_HFP_AG_MIC_VOL,
+    MC_BT_SRV_HFP_AG_SEND_SUBSCRIBER_NUMBER,
+    MC_BT_SRV_HFP_AG_SEND_BATTERY_CHARGE,
+    MC_BT_SRV_HFP_AG_SEND_CMEE_ERROR,
+    MC_BT_SRV_HFP_AG_SEND_NETWORK_OPERATOR,
+    MC_BT_SRV_HFP_AG_SET_INDICATOR_VAL,
+    MC_BT_SRV_HFP_AG_SEND_INCOMING_EVENT,
+    MC_BT_SRV_HFP_AG_CHANGE_INBAND_RING_SETTING,
+    MC_BT_SRV_HFP_AG_CMD_CBK,
+    MC_BT_SRV_HFP_AG_ORIGINATE_CALL,
+    MC_BT_SRC_HFP_MAX,
+} mc_bt_hfp_command_type;
+
+/* service_id: MC_BT_SRV_AVRCP */
+typedef enum {
+    MC_BT_SRV_AVRCP_CT_REG_SRV,
+    MC_BT_SRV_AVRCP_CT_REG_NOTIFY,
+    MC_BT_SRV_AVRCP_CT_GET_CAP,
+    MC_BT_SRV_AVRCP_CT_PASS_THROUGH,
+    MC_BT_SRV_AVRCP_CT_GET_ELEMENT_ATTR,
+    MC_BT_SRV_AVRCP_CT_GET_PLAY_STATUS,
+    MC_BT_SRV_AVRCP_CT_SET_ABSOLUTE_VOL_REQ,
+    MC_BT_SRV_AVRCP_TG_SET_ABSOLUTE_VOL_RSP,
+    MC_BT_SRV_AVRCP_TG_EVT_PLAY_STATUS_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_TRACK_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_TRACK_REACH_END,
+    MC_BT_SRV_AVRCP_TG_EVT_TRACK_REACH_START,
+    MC_BT_SRV_AVRCP_TG_EVT_PLAY_POS_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_PLAY_CONTENT_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_AVAILABLE_PLAYER_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_ADDR_PLAYER_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_UIDS_CHG,
+    MC_BT_SRV_AVRCP_TG_EVT_VOL_CHG,
+    MC_BT_SRV_AVRCP_CT_GET_CAPAILITIES_RSP,
+    MC_BT_SRV_AVRCP_TG_CMD_CBK,
+    MC_BT_SRV_AVRCP_CT_EVT_RSP_CBK,
+    MC_BT_SRC_AVRCP_MAX,
+} mc_bt_avrcp_command_type;
+
+/* service_id: MC_BT_SRV_PBAP */
+typedef enum {
+    MC_BT_SRV_PBAP_PULL_PHONEDBOOK,
+    MC_BT_SRV_PBAP_PULL_CARDLIST,
+    MC_BT_SRV_PBAP_PULL_CARDENTRY,
+    MC_BT_SRV_PBAP_SET_PATH,
+    MC_BT_SRV_PBAP_CANCEL_TRANSFER,
+    MC_BT_SRV_PBAP_WRITE_FILE,
+    MC_BT_SRV_PBAP_APP_EVENT,
+} mc_bt_pbap_command_type;
+
+/* service_id: MC_BT_SRV_SPP */
+typedef enum {
+    MC_BT_SRV_SPP_REGISTER,
+    MC_BT_SRV_SPP_READ_STREAM,
+    MC_BT_SRV_SPP_WRITE_STREAM,
+    MC_BT_SRV_SPP_APP_EVENT,
+    MC_BT_SRV_SPP_UNREGISTER,
+    MC_BT_SRC_SPP_MAX,
+} mc_bt_spp_command_type;
+
+typedef enum {
+    MC_BT_SRV_PAN_CONNECT,
+    MC_BT_SRV_PAN_DISCONNECT,
+    MC_BT_SRV_PAN_SETUP_CONN,
+    MC_BT_SRV_PAN_FILTER_PROTOCOL,
+    MC_BT_SRV_PAN_FILTER_MULTIADDR,
+    MC_BT_SRV_PAN_ETHERNET_REQ,
+    MC_BT_SRV_PAN_NET_STATE_CHANGE,
+    MC_BT_SRV_PAN_FILTER_PROTOCOL_RESULT,
+    MC_BT_SRV_PAN_FILTER_MULTIADDR_RESULT,
+    MC_BT_SRV_PAN_RPT_ETHERNET,
+    MC_BT_SRV_PAN_REGISTER_CBK,
+    MC_BT_SRC_PAN_MAX,
+} mc_bt_pan_command_type;
+/* service_id: MC_BT_SRV_BRANDY_PTS */
+typedef enum {
+    /* GAP COMMAND */
+    MC_BT_SRV_PTS_CREAT_ACL,
+    MC_BT_SRV_PTS_SEC_MODE_SET,
+    MC_BT_SRV_PTS_VISUAL_MODE_SET,
+    MC_BT_SRV_PTS_BOND_MODE_SET,
+    MC_BT_SRV_PTS_DISCONNECT_BY_ADDR,
+    MC_BT_SRV_PTS_ENABLE_DISCOVERY,
+    MC_BT_SRV_PTS_PAIR_RMTDEV,
+    MC_BT_SRV_PTS_IO_ABILLITY,
+    MC_BT_SRV_PTS_SET_BT_DEFAULT,
+    MC_BT_SRV_PTS_SET_SECU_LEVEL,
+    MC_BT_SRV_PTS_UNPAIR_RMTDEV,
+    MC_BT_SRV_PTS_ENCRYPTLINK,
+    MC_BT_SRV_PTS_ADD_RMTDEV,
+    /* L2CAP COMMAND */
+    MC_BT_SRV_PTS_L2CAP_CONNECT_RSP,
+    MC_BT_SRV_PTS_L2CAP_DISCONNECT_REQ,
+    MC_BT_SRV_PTS_L2CAP_CONNECT_REQ,
+    /* PBAP COMMAND */
+    MC_BT_SRV_PTS_PBAP_CONNECT_REQ,
+    MC_BT_SRV_PTS_PBAP_DISCONNECT_REQ,
+    /* AVRCP COMMAND */
+    MC_BT_SRV_PTS_AVRCP_CONN,
+    MC_BT_SRV_PTS_AVRCP_SET_ADDRESSED_PLAYER,
+    MC_BT_SRV_PTS_AVRCP_SET_BROWSED_PLAYER,
+    MC_BT_SRV_PTS_AVRCP_FLOADER_ITEMS,
+    MC_BT_SRV_PTS_AVRCP_GET_TOTAL_NUM_OF_ITEMS,
+    MC_BT_SRV_PTS_AVRCP_SEARCH,
+    MC_BT_SRV_PTS_AVRCP_SET_ABSOLUTE_VOLUME,
+    MC_BT_SRV_PTS_AVRCP_REGISTER_NOTIFICATION,
+    MC_BT_SRV_PTS_AVCTP_CONT_BROW_SET,
+    MC_BT_SRV_PTS_AVCTP_CONT_BROW_REL,
+    MC_BT_SRV_PTS_AVRCP_PASS_THROUGT,
+    MC_BT_SRV_PTS_AVRCP_SUB_UNIT_INFO,
+    MC_BT_SRV_PTS_AVRCP_UNIT_INFO,
+    MC_BT_SRV_PTS_AVRCP_REGISTER_SEP,
+    MC_BT_SRV_PTS_AVRCP_PASS_THROUGH_RSP,
+    MC_BT_SRV_PTS_AVRCP_SET_ABSOLUTE_VOL_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_CAPABILITIES_RSP,
+    MC_BT_SRV_PTS_AVRCP_EVENT_PLAYER_APP_SET_CMD_RSP,
+    MC_BT_SRV_PTS_AVRCP_EVENT_VOL_CHANGED_RSP,
+    MC_BT_SRV_PTS_AVRCP_TG_SET_VOL_CHANGED,
+    MC_BT_SRV_PTS_AVRCP_EVENT_TRACK_CHANGED_RSP,
+    MC_BT_SRV_PTS_AVRCP_CT_EVENT_GET_FOLDER_ITEMS_RSP,
+    MC_BT_SRV_PTS_AVRCP_CHANGE_PATH,
+    MC_BT_SRV_PTS_AVRCP_PLAY_ITEM,
+    MC_BT_SRV_PTS_AVRCP_ADD_TO_NOW_PLAYING,
+    MC_BT_SRV_PTS_AVRCP_SET_BROWSED_PLAYER_RSP,
+    MC_BT_SRV_PTS_AVRCP_SET_ADDRESSED_PLAYER_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_PLAY_STATUS_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_ELEMENT_ATTRIBUTES_RSP,
+    MC_BT_SRV_PTS_AVRCP_TG_REJECT_REGISTER_NOTIFICATION,
+    MC_BT_SRV_PTS_AVRCP_EVENT_PLAYER_APP_SET_CHANGED_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_FOLDER_ITEMS_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_FOLDER_ITEMS_OTHER_RSP,
+    MC_BT_SRV_PTS_AVRCP_EVENT_ADDR_PLAYER_CHANGED_RSP,
+    MC_BT_SRV_PTS_AVRCP_EVENT_AVAILABLE_PLAYERS_CHANGED_RSP,
+    MC_BT_SRV_PTS_AVRCP_TG_EVENT_UID_CHANGED_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_FOLDER_ITEMS_ONE_EXTERN_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_FOLDER_ITEMS_TWO_EXTERN_RSP,
+    MC_BT_SRV_PTS_AVRCP_GET_FOLDER_ITEMS_THREE_EXTERN_RSP,
+    MC_BT_SRV_PTS_AVRCP_STATE_INIT,
+    MC_BT_SRV_PTS_AVRCP_GET_ELEMENT_ATTRIBUTES_FRAGMENT_RSP,
+    /* HFP COMMAND */
+    MC_BT_SRV_PTS_AUDIO_CONN_HFP,
+    MC_BT_SRV_PTS_HF_NETWORK_OP_REQ_HFP,
+    MC_BT_SRV_PTS_HF_SPK_VOL_HFP,
+    MC_BT_SRV_PTS_HF_MIC_VOL_HFP,
+    MC_BT_SRV_PTS_HF_GET_SUB_SCRIBER_NUM,
+    MC_BT_SRV_PTS_HF_GET_CURRENT_CALLS,
+    MC_BT_SRV_PTS_HF_DISABLE_NREC,
+    MC_BT_SRV_PTS_HF_GET_RESPONSE_HOLD_STATUS,
+    MC_BT_SRV_PTS_HF_SET_EXTENDED_ERRORS,
+    MC_BT_SRV_PTS_HF_GET_PHONE_MANU_MODEL,
+    MC_BT_SRV_PTS_HF_GET_HOLD_INCOMING_CALL,
+    MC_BT_SRV_PTS_HF_ACCEPT_HELD_INCOMMING_CALL,
+    MC_BT_SRV_PTS_HF_REJECT_INCOMING_CALL,
+    MC_BT_SRV_PTS_HF_ANSWER_CALL,
+    MC_BT_SRV_PTS_HF_HOLD_INCOMING_CALL,
+    MC_BT_SRV_PTS_HF_CANCEL_INCOMING_CALL,
+    MC_BT_SRV_PTS_HF_CANCEL_CALL,
+    MC_BT_SRV_PTS_HF_TAG_PHONENUM,
+    MC_BT_SRV_PTS_HF_SET_VOICE_RECONITION_REQ,
+    MC_BT_SRV_PTS_HF_TRANSMIT_DTMF_CODE,
+    MC_BT_SRV_PTS_HF_DIAL,
+    MC_BT_SRV_PTS_HF_DIAL_SECOND_CALL,
+    MC_BT_SRV_PTS_HF_LAST_NUM_REDIAL,
+    MC_BT_SRV_PTS_HF_SLC_CONN,
+    MC_BT_SRV_PTS_HF_SLC_DISCONN,
+    MC_BT_SRV_PTS_HF_GET_AG_FEATURES,
+    MC_BT_SRV_PTS_HF_3_WAY_CALLING_CHLD_0,
+    MC_BT_SRV_PTS_HF_3_WAY_CALLING_CHLD_1,
+    MC_BT_SRV_PTS_HF_3_WAY_CALLING_CHLD_2,
+    MC_BT_SRV_PTS_HF_3_WAY_CALLING_CHLD_3,
+    MC_BT_SRV_PTS_HF_3_WAY_CALLING_CHLD_4,
+    MC_BT_SRV_PTS_HF_REPT_CHANGED_CODEC_CAP,
+    /* RFCOMM COMMAND */
+    MC_BT_SRV_PTS_RFCOMM_CONN_REQ,
+    MC_BT_SRV_PTS_RFCOMM_DISCONN_REQ,
+    MC_BT_SRV_PTS_RFCOMM_CONN_RSP,
+    MC_BT_SRV_PTS_RFCOMM_DATA_REQ,
+    MC_BT_SRV_PTS_RFCOMM_RLS_REQ,
+    MC_BT_SRV_PTS_RFCOMM_REG_SERVER,
+    /* SDP COMMAND */
+    MC_BT_SRV_PTS_SDP_SA_ADD_ATTR,
+    MC_BT_SRV_PTS_SDP_SSA_ADD_ATTR,
+    MC_BT_SRV_PTS_SDP_SSA_ADDI_DESC,
+    MC_BT_SRV_PTS_SDP_ADD_RECORD,
+    MC_BT_SRV_PTS_SDP_RM_RECORD,
+    /* AVCTP COMMAND */
+    MC_BT_SRV_PTS_AVCTP_CONN,
+    MC_BT_SRV_PTS_AVCTP_DISCONN,
+    MC_BT_SRV_PTS_AVCTP_CT_NFR,
+    MC_BT_SRV_PTS_AVCTP_CT_FRA,
+    MC_BT_SRV_PTS_AVCTP_TG_FRA,
+    /* A2DP COMMAND */
+    MC_BT_SRV_PTS_A2DP_SRC_CONN,
+    MC_BT_SRV_PTS_A2DP_SRC_DISCONN,
+    MC_BT_SRV_PTS_A2DP_SRC_SEND_STREAM,
+    MC_BT_SRV_PTS_A2DP_SRC_SUSPEND_STREAM,
+    /* AVDTP */
+    MC_BT_SRV_PTS_AVDTP_GET_CONF,
+    MC_BT_SRV_PTS_AVDTP_REGIST_CAP,
+    MC_BT_SRV_PTS_AVDTP_ABORT,
+    /* PBAP COMMAND */
+    MC_BT_SRV_PTS_PBAP_CONNECT,
+    MC_BT_SRV_PTS_PBAP_DISCONNECT,
+    MC_BT_SRV_PTS_PBAP_PULL_PB,
+    MC_BT_SRV_PTS_PBAP_PULL_CARD_LIST,
+    MC_BT_SRV_PTS_PBAP_PULL_PB_ENTRY,
+    MC_BT_SRV_PTS_PBAP_SET_PB_REQ,
+    MC_BT_SRV_PTS_PBPA_ABORT_PULL_ACTION,
+    /* BNEP */
+    MC_BT_SRV_PTS_PAN_CONNECT,
+    MC_BT_SRV_PTS_PAN_DISCONNECT,
+    MC_BT_SRV_PTS_PAN_FILTER_MULTIADDR,
+    MC_BT_SRV_PTS_PAN_ETHERNET_REQ
+} mc_bt_pts_command_type;
+
+#define BT_SHIFT_BITS_8     8
+#define cmd_id_2_opcode(service_id, command_id) (((service_id) << BT_SHIFT_BITS_8) | (command_id))
+
+#ifdef __cplusplus
+#if __cplusplus
+}
+#endif /* __cpluscplus */
+#endif /* __cpluscplus */
+#endif /* end of MPC_CODE_DEF_H */

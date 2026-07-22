@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="BT_Vendor: saia utils pack blob memcpy failed @bt_saia_utils.c(174),ERROR" ID="0x8c920572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_Vendor: saiaUtilsTlvPackBlob memcpy failed @bt_saia_utils.c(465),ERROR" ID="0x8c920e8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BT_Vendor: bt saia utils convert int to char error @bt_saia_utils.c(756),ERROR" ID="0x8c9217a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BtSaiaIUtils: HandleProcessPacket error = %d @bt_saia_utils.c(781),ERROR" ID="0x8c92186a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BtSaiaIUtils: ParseDeviceClass: %x, %x, %x @bt_saia_utils.c(872),INFO" ID="0x8c921b45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BtSaiaIUtils: ParseDeviceClass: %x, %x, %x @bt_saia_utils.c(893),INFO" ID="0x8c921bed" />
+			</MSG_LOG>

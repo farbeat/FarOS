@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="open logfile %s failed. ret = 0x%x @diag_msg.c(36),ERROR" ID="0xa0920122" />
+			</MSG_LOG>

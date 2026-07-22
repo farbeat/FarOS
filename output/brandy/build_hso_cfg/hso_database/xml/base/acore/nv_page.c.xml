@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[NV] kv_page_find_first_key: key magic err (location = 0x%x)! @nv_page.c(32),DBG" ID="0xa0740106" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[NV] key validate integrity. key id = 0x%x location = 0x%x. ret = 0x%x @nv_page.c(100),ERROR" ID="0xa0740322" />
+			</MSG_LOG>

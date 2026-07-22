@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update params NULL. @sdk_ble_gap_ui.c(96),INFO" ID="0xd8d60305" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update conn_node NULL. @sdk_ble_gap_ui.c(102),INFO" ID="0xd8d60335" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update connect_params NULL. @sdk_ble_gap_ui.c(108),INFO" ID="0xd8d60365" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update addr memcpy fail. @sdk_ble_gap_ui.c(114),INFO" ID="0xd8d60395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO] uapi connect param update ret:%u. @sdk_ble_gap_ui.c(123),INFO" ID="0xd8d603dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi reg data bypass cbk error. @sdk_ble_gap_ui.c(141),INFO" ID="0xd8d6046d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error] uapi send data bypass params error len = %hu. @sdk_ble_gap_ui.c(152),INFO" ID="0xd8d604c5" />
+			</MSG_LOG>

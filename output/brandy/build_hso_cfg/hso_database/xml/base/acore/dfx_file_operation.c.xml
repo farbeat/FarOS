@@ -1,0 +1,32 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] get_fullpath: malloc error @dfx_file_operation.c(27),ERROR" ID="0xa0b200da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] get_fullpath: snprintf_s error ret = %d @dfx_file_operation.c(39),ERROR" ID="0xa0b2013a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]opendir failed, errno is %d.  @dfx_file_operation.c(81),ERROR" ID="0xa0b2028a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]realpath failed, errno is %d.  @dfx_file_operation.c(111),ERROR" ID="0xa0b2037a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]remove failed, errno is %d.  @dfx_file_operation.c(117),ERROR" ID="0xa0b203aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]remove again failed, errno is %d.  @dfx_file_operation.c(125),ERROR" ID="0xa0b203ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]realpath failed, errno is %d.  @dfx_file_operation.c(141),ERROR" ID="0xa0b2046a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]open failed, errno is %d.  @dfx_file_operation.c(148),ERROR" ID="0xa0b204a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR]dfx_file_mkdir failed.  @dfx_file_operation.c(161),ERROR" ID="0xa0b2050a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]open failed, errno is %d.  @dfx_file_operation.c(166),ERROR" ID="0xa0b20532" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]open failed, errno is %d.  @dfx_file_operation.c(178),ERROR" ID="0xa0b20592" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]close failed, errno is %d.  @dfx_file_operation.c(194),ERROR" ID="0xa0b20612" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]lseek failed, errno is %d.  @dfx_file_operation.c(207),ERROR" ID="0xa0b2067a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]read failed, errno is %d.  @dfx_file_operation.c(213),ERROR" ID="0xa0b206aa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR]mkdir %s failed, errno is %d.  @dfx_file_operation.c(244),ERROR" ID="0xa0b207a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="rmdir: dir is not exsit @dfx_file_operation.c(265),ERROR" ID="0xa0b2084a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="rmdir: get stat error @dfx_file_operation.c(271),ERROR" ID="0xa0b2087a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR]rmdir %s failed, errno is %d.  @dfx_file_operation.c(302),ERROR" ID="0xa0b20972" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR]remove %s failed, errno is %d.  @dfx_file_operation.c(308),ERROR" ID="0xa0b209a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR]dfx_file_mkdir failed.  @dfx_file_operation.c(324),ERROR" ID="0xa0b20a22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]open failed, errno is %d.  @dfx_file_operation.c(329),ERROR" ID="0xa0b20a4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]lseek failed, errno is %d.  @dfx_file_operation.c(336),ERROR" ID="0xa0b20a82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]write failed, errno is %d.  @dfx_file_operation.c(341),ERROR" ID="0xa0b20aaa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]close failed, errno is %d.  @dfx_file_operation.c(346),ERROR" ID="0xa0b20ad2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]lseek failed, errno is %d.  @dfx_file_operation.c(358),ERROR" ID="0xa0b20b32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]write failed, errno is %d.  @dfx_file_operation.c(363),ERROR" ID="0xa0b20b5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]realpath failed, errno is %d.  @dfx_file_operation.c(377),ERROR" ID="0xa0b20bca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]open failed, errno is %d.  @dfx_file_operation.c(384),ERROR" ID="0xa0b20c02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]lseek failed, errno is %d.  @dfx_file_operation.c(390),ERROR" ID="0xa0b20c32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]read failed, errno is %d.  @dfx_file_operation.c(394),ERROR" ID="0xa0b20c52" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]close failed, errno is %d.  @dfx_file_operation.c(398),ERROR" ID="0xa0b20c72" />
+			</MSG_LOG>

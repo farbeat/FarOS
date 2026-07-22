@@ -1,0 +1,193 @@
+# 1 "C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/acore.c"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 319 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/acore.c" 2
+# 1 "C:/Users/25288/Desktop/sdk_mini_650/middleware/chips/brandy/nv/nv_config/include\\common.h" 1
+
+
+
+
+
+
+
+
+# 1 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include\\stdint.h" 1 3
+# 52 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include\\stdint.h" 3
+# 1 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\stdint.h" 1 3
+# 20 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\stdint.h" 3
+# 1 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\bits/alltypes.h" 1 3
+# 54 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\bits/alltypes.h" 3
+typedef unsigned int uintptr_t;
+# 69 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\bits/alltypes.h" 3
+typedef int intptr_t;
+# 95 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\bits/alltypes.h" 3
+typedef signed char int8_t;
+
+
+
+
+typedef signed short int16_t;
+
+
+
+
+typedef signed int int32_t;
+
+
+
+
+typedef signed long long int64_t;
+
+
+
+
+typedef signed long long intmax_t;
+
+
+
+
+typedef unsigned char uint8_t;
+
+
+
+
+typedef unsigned short uint16_t;
+
+
+
+
+typedef unsigned int uint32_t;
+
+
+
+
+typedef unsigned long long uint64_t;
+# 145 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\bits/alltypes.h" 3
+typedef unsigned long long uintmax_t;
+# 21 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\stdint.h" 2 3
+
+typedef int8_t int_fast8_t;
+typedef int64_t int_fast64_t;
+
+typedef int8_t int_least8_t;
+typedef int16_t int_least16_t;
+typedef int32_t int_least32_t;
+typedef int64_t int_least64_t;
+
+typedef uint8_t uint_fast8_t;
+typedef uint64_t uint_fast64_t;
+
+typedef uint8_t uint_least8_t;
+typedef uint16_t uint_least16_t;
+typedef uint32_t uint_least32_t;
+typedef uint64_t uint_least64_t;
+# 95 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\stdint.h" 3
+# 1 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\bits/stdint.h" 1 3
+typedef int32_t int_fast16_t;
+typedef int32_t int_fast32_t;
+typedef uint32_t uint_fast16_t;
+typedef uint32_t uint_fast32_t;
+# 96 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\bin/../riscv32-elf/include\\stdint.h" 2 3
+# 53 "C:\\Users\\25288\\Desktop\\sdk_mini_650\\tools\\bin\\compiler\\linx\\linx_170\\linx-llvm-binary-debug\\linx-llvm-binary-release-win-musl\\lib\\clang\\12.0.1/include\\stdint.h" 2 3
+# 10 "C:/Users/25288/Desktop/sdk_mini_650/middleware/chips/brandy/nv/nv_config/include\\common.h" 2
+
+
+
+
+
+typedef struct {
+    int8_t param1;
+    int8_t param2;
+    uint32_t param3;
+    uint32_t param4;
+    uint8_t param5;
+} sample1_type_t;
+
+
+typedef struct {
+    uint32_t param1[5];
+} sample2_type_t;
+
+
+typedef struct {
+    uint32_t param1[5];
+    uint32_t param2;
+    uint8_t param3;
+    sample1_type_t param4;
+} sample3_type_t;
+
+
+typedef struct {
+    sample1_type_t param1;
+    sample2_type_t param2;
+    sample3_type_t param3;
+} sample4_type_t;
+
+typedef struct {
+    uint8_t conn_vertify[384];
+    uint8_t conn_salt[20];
+    uint32_t salt_len;
+} ext_nv_secure_conn_t;
+
+
+
+
+
+typedef struct {
+    uint8_t bd_addr[6];
+    uint8_t reserve;
+    uint8_t device_mode;
+    uint8_t name[64];
+} btsrv_local_device_info_t;
+
+
+
+
+typedef struct {
+    uint8_t nv_tx_power_cali_num;
+    int16_t nv_tx_power_cali_pref_offset[8];
+    uint8_t nv_tx_power_cali_freq[8];
+    int16_t nv_tx_power_coff[3];
+    uint32_t nv_cali_switch_all;
+    uint16_t nv_ble_1m_max_power_val;
+    uint16_t nv_ble_2m_max_power_val;
+    uint16_t nv_br_max_power_val;
+    uint16_t nv_edr_gfsk_max_power_val;
+    uint8_t nv_customized_feature;
+    uint8_t nv_fcc_ind;
+    uint8_t nv_tws_monitor_switch;
+    uint8_t nv_tws_dual_switch;
+} btsrv_calibration_config_t;
+
+
+
+
+
+typedef struct {
+    uint8_t device_num;
+    uint8_t reserve[3];
+    uint8_t info[960];
+} btsrv_paired_device_info_t;
+
+
+
+
+
+typedef struct {
+    uint8_t reserve;
+    uint8_t config_data[584];
+} bth_product_data_config_t;
+
+
+
+typedef struct {
+    uint32_t size;
+    uint32_t data[48];
+} audio_vqe_param_t;
+# 2 "C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/acore.c" 2
+# 1 "C:/Users/25288/Desktop/sdk_mini_650/middleware/chips/brandy/nv/nv_config/include\\key_id.h" 1
+# 2 "C:/Users/25288/Desktop/sdk_mini_650/output/brandy/acore/acore.c" 2
+

@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] dsc is NULL. @lv_clip_img.c(12),ERROR" ID="0xc9880062" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] dsc's data is NULL. @lv_clip_img.c(16),ERROR" ID="0xc9880082" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] path is NULL. @lv_clip_img.c(25),ERROR" ID="0xc98800ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] path's cmd or data is NULL. @lv_clip_img.c(29),ERROR" ID="0xc98800ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Check src and path failed. @lv_clip_img.c(39),ERROR" ID="0xc988013a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] disp or disp's driver is NULL. @lv_clip_img.c(44),ERROR" ID="0xc9880162" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] SetPathData failed. @lv_clip_img.c(52),ERROR" ID="0xc98801a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] ClipImgByPath failed. @lv_clip_img.c(56),ERROR" ID="0xc98801c2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Check src and path failed. @lv_clip_img.c(66),ERROR" ID="0xc9880212" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] disp or disp's driver is NULL. @lv_clip_img.c(71),ERROR" ID="0xc988023a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] SetPathData failed. @lv_clip_img.c(78),ERROR" ID="0xc9880272" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] ClipImgByPath failed. @lv_clip_img.c(83),ERROR" ID="0xc988029a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] disp or disp's driver is NULL. @lv_clip_img.c(96),ERROR" ID="0xc9880302" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] LvObtainCirclePath failed. @lv_clip_img.c(104),ERROR" ID="0xc9880342" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] lv_mem_alloc failed. @lv_clip_img.c(110),ERROR" ID="0xc9880372" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] Alloc for dstBuf failed. @lv_clip_img.c(119),ERROR" ID="0xc98803ba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] LvClipImgByPath failed @lv_clip_img.c(134),ERROR" ID="0xc9880432" />
+			</MSG_LOG>

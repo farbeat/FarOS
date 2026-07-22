@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]big_param is NULL! @llc_bis_util.c(379),WARNING" ID="0x895a0bdb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]exlen:bis_conhdl=0x%x,max_pld_size=%d @llc_bis_util.c(419),INFO" ID="0x895a0d1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_big_acad_ind_handle, biginfo unpack fail @llc_bis_util.c(439),WARNING" ID="0x895a0dbb" />
+			</MSG_LOG>

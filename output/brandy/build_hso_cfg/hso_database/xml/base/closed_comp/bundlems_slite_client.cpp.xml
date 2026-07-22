@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Initialize is failed @bundlems_slite_client.cpp(178),ERROR" ID="0xe0300592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Initialize is failed @bundlems_slite_client.cpp(193),ERROR" ID="0xe030060a" />
+			</MSG_LOG>

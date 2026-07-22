@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="fmp target add characteristic success, character_handle: 0x%x @ble_fmp_target.c(65),INFO" ID="0xd83a020d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] fmp target start service success,service_att_handle:%hu @ble_fmp_target.c(74),INFO" ID="0xd83a0255" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] fmp target write req handle:%hu, value:%u @ble_fmp_target.c(82),INFO" ID="0xd83a0295" />
+			</MSG_LOG>

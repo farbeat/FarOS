@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERR]report file : %s failed! @transmit_cmd_ls.c(55),ERROR" ID="0xa0ac01ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR]get file list failed! @transmit_cmd_ls.c(78),ERROR" ID="0xa0ac0272" />
+			</MSG_LOG>

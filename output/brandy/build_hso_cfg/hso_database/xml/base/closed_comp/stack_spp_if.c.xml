@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @stack_spp_if.c(69),ERROR" ID="0xd8ea022a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(85),ERROR" ID="0xd8ea02aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(97),ERROR" ID="0xd8ea030a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="memory copy failed res = 0x%x len=%u @stack_spp_if.c(108),ERROR" ID="0xd8ea0362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(130),ERROR" ID="0xd8ea0412" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @stack_spp_if.c(138),ERROR" ID="0xd8ea0452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(152),ERROR" ID="0xd8ea04c2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="svr_chnl=0x%x svc_name=%s len=%u @stack_spp_if.c(176),INFO" ID="0xd8ea0585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(183),ERROR" ID="0xd8ea05ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory copy failed @stack_spp_if.c(192),ERROR" ID="0xd8ea0602" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="svr_chnl=0x%x svc_name=%s field_len=%hu @stack_spp_if.c(196),INFO" ID="0xd8ea0625" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(201),ERROR" ID="0xd8ea064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ret=0x%x @stack_spp_if.c(208),INFO" ID="0xd8ea0685" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="svc_hdl=0x%x @stack_spp_if.c(220),INFO" ID="0xd8ea06e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @stack_spp_if.c(228),ERROR" ID="0xd8ea0722" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ret=0x%x @stack_spp_if.c(234),INFO" ID="0xd8ea0755" />
+			</MSG_LOG>

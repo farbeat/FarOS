@@ -1,0 +1,51 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="uapi_vau_create failure! @display_vau.c(74),ERROR" ID="0xcb200252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="GrallocInitialize failed. @display_vau.c(83),ERROR" ID="0xcb20029a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Unsupported Format! @display_vau.c(129),ERROR" ID="0xcb20040a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="unsupported color format @display_vau.c(138),ERROR" ID="0xcb200452" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="blend type %d is not supported yet, use BLEND_SRCOVER instead @display_vau.c(169),WARNING" ID="0xcb20054b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AllocMem failed. @display_vau.c(182),ERROR" ID="0xcb2005b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="DispMalloc failed due to handle limit. @display_vau.c(191),ERROR" ID="0xcb2005fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi_vau_wait_for_done failed. @display_vau.c(256),ERROR" ID="0xcb200802" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Convert2VauSurface failed @display_vau.c(299),ERROR" ID="0xcb20095a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_vau_render failure, ret = 0x%x! @display_vau.c(326),ERROR" ID="0xcb200a32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi_vau_parse_cmp_header failed @display_vau.c(348),ERROR" ID="0xcb200ae2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="unsupported color format @display_vau.c(366),ERROR" ID="0xcb200b72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Blend type of each image must be same when blitting them together. @display_vau.c(423),ERROR" ID="0xcb200d3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ConvertVGUImg2VauSurface failed @display_vau.c(427),ERROR" ID="0xcb200d5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_vau_compose failure, ret = 0x%x! @display_vau.c(473),ERROR" ID="0xcb200eca" />
+			<MSG STRUCTURE="diag_log_msg14" NAME="src[%d] w:%u h:%u str:%u fmt:%d cmp:%d rect:[%d,%d,%u,%u] outRect:[%d,%d,%u,%u] @display_vau.c(480),ERROR" ID="0xcb200f02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="DispMalloc for dstSurface failed! @display_vau.c(537),ERROR" ID="0xcb2010ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="1st render error!!!! @display_vau.c(552),ERROR" ID="0xcb201142" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="2nd render error!!!! @display_vau.c(576),ERROR" ID="0xcb201202" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid cmd num: 0. @display_vau.c(592),ERROR" ID="0xcb201282" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VGUPathAppendData with invalid path. @display_vau.c(597),ERROR" ID="0xcb2012aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid cmd num: 0. @display_vau.c(613),ERROR" ID="0xcb20132a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VGUPathAppendData with invalid path. @display_vau.c(618),ERROR" ID="0xcb201352" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="%s: %d memcpy_s failed @display_vau.c(627),ERROR" ID="0xcb20139a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="%s: %d memcpy_s for cmd failed. @display_vau.c(637),ERROR" ID="0xcb2013ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="%s: %d memcpy_s failed @display_vau.c(647),ERROR" ID="0xcb20143a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Invalid gradient type: %d @display_vau.c(716),ERROR" ID="0xcb201662" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Invalid VGUFillRule. @display_vau.c(734),ERROR" ID="0xcb2016f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="HandlePaintStyle failed. @display_vau.c(739),ERROR" ID="0xcb20171a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Invalid Cap Style! @display_vau.c(759),ERROR" ID="0xcb2017ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Invalid Join Style! @display_vau.c(780),ERROR" ID="0xcb201862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="HandlePaintStyle failed. @display_vau.c(794),ERROR" ID="0xcb2018d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_vau_render failure, ret = 0x%x! @display_vau.c(977),ERROR" ID="0xcb201e8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_vau_render failure, ret = 0x%x! @display_vau.c(1044),ERROR" ID="0xcb2020a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="RenderPath with invalid path. @display_vau.c(1176),ERROR" ID="0xcb2024c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="One of fill and stroke in path attr should be set! @display_vau.c(1181),ERROR" ID="0xcb2024ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] DispMalloc for tmpTarget1 failed @display_vau.c(1213),ERROR" ID="0xcb2025ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] DispMalloc for tmpTarget2 failed @display_vau.c(1221),ERROR" ID="0xcb20262a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] RenderPathInternal failed @display_vau.c(1227),ERROR" ID="0xcb20265a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] RenderPatternInternal failed @display_vau.c(1232),ERROR" ID="0xcb202682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] BlendToSurface failed @display_vau.c(1237),ERROR" ID="0xcb2026aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] BlendToSurface failed @display_vau.c(1242),ERROR" ID="0xcb2026d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] RenderPathInternal failed @display_vau.c(1269),ERROR" ID="0xcb2027aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[%d] BlendImgToSurface failed @display_vau.c(1273),ERROR" ID="0xcb2027ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="g_hdlLast %lld has not been destroyed, destroy now. @display_vau.c(1319),ERROR" ID="0xcb20293a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_vau_submit failure, ret = 0x%x! @display_vau.c(1326),ERROR" ID="0xcb202972" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gFuncs is null @display_vau.c(1338),ERROR" ID="0xcb2029d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memset_s gFuncs failed @display_vau.c(1344),ERROR" ID="0xcb202a02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VGU initializes successfully @display_vau.c(1363),INFO" ID="0xcb202a9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VGU uninitializes successfully @display_vau.c(1372),INFO" ID="0xcb202ae5" />
+			</MSG_LOG>

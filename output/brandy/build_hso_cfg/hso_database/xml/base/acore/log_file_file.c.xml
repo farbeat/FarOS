@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="logfile save data failed. errno is %d, num is %d @log_file_file.c(100),ERROR" ID="0xa0bc0322" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="logfile save data failed. errno is %d, num is %d @log_file_file.c(106),ERROR" ID="0xa0bc0352" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="logfile open file %s failed @log_file_file.c(204),ERROR" ID="0xa0bc0662" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="logfile remove file [%d] failed. errno is %d  @log_file_file.c(237),DBG" ID="0xa0bc076e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="logfile open next file %s failed @log_file_file.c(284),ERROR" ID="0xa0bc08e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="logfile save record head failed, ret = 0x%x @log_file_file.c(325),ERROR" ID="0xa0bc0a2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="logfile save record data failed, ret = 0x%x @log_file_file.c(334),ERROR" ID="0xa0bc0a72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="mkdir %s failed, ret  @log_file_file.c(440),ERROR" ID="0xa0bc0dc2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="remove %s failed! @log_file_file.c(477),ERROR" ID="0xa0bc0eea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="logfile open file failed @log_file_file.c(508),ERROR" ID="0xa0bc0fe2" />
+			</MSG_LOG>

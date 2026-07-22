@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ke_msg_alloc:msg = NULL @ke_msg.c(73),ERROR" ID="0x891a024a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]the MSG is not in heap @ke_msg.c(183),ERROR" ID="0x891a05ba" />
+			</MSG_LOG>

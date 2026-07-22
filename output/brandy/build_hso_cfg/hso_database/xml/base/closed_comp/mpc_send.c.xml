@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] ipc send message fail ret:%d! @mpc_send.c(28),ERROR" ID="0xd86400e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] ipc send message timeout fail ret:%d! @mpc_send.c(44),ERROR" ID="0xd8640162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] bt acore mpc send to bt para malloc fail! @mpc_send.c(61),ERROR" ID="0xd86401ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] bt acore mpc send to bt para error! @mpc_send.c(76),ERROR" ID="0xd8640262" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] bt acore mpc send to bt para memcpy error! cpy len %d @mpc_send.c(83),ERROR" ID="0xd864029a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] bt acore send data to bt system bypass param fail! @mpc_send.c(104),ERROR" ID="0xd8640342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore][Error] bt acore send data to bt system bypass malloc fail! @mpc_send.c(111),ERROR" ID="0xd864037a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore][Error] bt acore send data to bt system bypass memcpy error! cpy len %d @mpc_send.c(118),ERROR" ID="0xd86403b2" />
+			</MSG_LOG>

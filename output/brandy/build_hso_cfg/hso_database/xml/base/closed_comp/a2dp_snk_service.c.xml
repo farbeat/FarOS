@@ -1,0 +1,61 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="last_state: %d new_state: %d @a2dp_snk_service.c(72),INFO" ID="0xd80e0245" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="addr: ****%02x%02x%02x%02x conn_hdl: %x @a2dp_snk_service.c(95),INFO" ID="0xd80e02fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="disconnect_ret(int): %d @a2dp_snk_service.c(101),INFO" ID="0xd80e032d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @a2dp_snk_service.c(105),ERROR" ID="0xd80e034a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="event: %x dev_hdl: %x conn_hdl: %x @a2dp_snk_service.c(124),INFO" ID="0xd80e03e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="rmt_hdl: %x seid: %x sc_len: %d sc:  @a2dp_snk_service.c(138),INFO" ID="0xd80e0455" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%x  @a2dp_snk_service.c(140),INFO" ID="0xd80e0465" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @a2dp_snk_service.c(142),INFO" ID="0xd80e0475" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="streamMtu:%d, FrameSize: %d, numFrame: %d, stream_hdl: 0x%x, stream_state: %d @a2dp_snk_service.c(161),INFO" ID="0xd80e050d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unexpected state %d @a2dp_snk_service.c(192),WARNING" ID="0xd80e0603" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %x state: %d param_len: %d @a2dp_snk_service.c(200),INFO" ID="0xd80e0645" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set active device ret: %x @a2dp_snk_service.c(213),INFO" ID="0xd80e06ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="error: cap_len is bigger! @a2dp_snk_service.c(260),ERROR" ID="0xd80e0822" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sbc report inf  @a2dp_snk_service.c(262),INFO" ID="0xd80e0835" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="codec_caps[%u]:%02x  @a2dp_snk_service.c(264),INFO" ID="0xd80e0845" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @a2dp_snk_service.c(266),INFO" ID="0xd80e0855" />
+			<MSG STRUCTURE="diag_log_msg8" NAME="sbc sampleFreq: %02x chnlMode: %02x blockLen: %02x subBand: %02x allocMtd: %02x Bitpool: %02x %02x payload:%u @a2dp_snk_service.c(289),INFO" ID="0xd80e090d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="error: cap_len is bigger! @a2dp_snk_service.c(318),ERROR" ID="0xd80e09f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="aac report inf  @a2dp_snk_service.c(320),INFO" ID="0xd80e0a05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="codec_caps[%u]:%02x  @a2dp_snk_service.c(322),INFO" ID="0xd80e0a15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @a2dp_snk_service.c(324),INFO" ID="0xd80e0a25" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="aac sampleFreq: %02x bit_rate: %02x channels: %02x objectType: %02x rfa: %02x vbr: %02x @a2dp_snk_service.c(344),INFO" ID="0xd80e0ac5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="code_c: %d @a2dp_snk_service.c(352),INFO" ID="0xd80e0b05" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="stream_hdl: %x, role: %x, event: %x, err: %x @a2dp_snk_service.c(375),INFO" ID="0xd80e0bbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc errr @a2dp_snk_service.c(385),ERROR" ID="0xd80e0c0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s errr @a2dp_snk_service.c(394),ERROR" ID="0xd80e0c52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc errr @a2dp_snk_service.c(405),ERROR" ID="0xd80e0caa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s errr @a2dp_snk_service.c(414),ERROR" ID="0xd80e0cf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc errr @a2dp_snk_service.c(425),ERROR" ID="0xd80e0d4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s errr @a2dp_snk_service.c(431),ERROR" ID="0xd80e0d7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc errr @a2dp_snk_service.c(442),ERROR" ID="0xd80e0dd2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s errr @a2dp_snk_service.c(448),ERROR" ID="0xd80e0e02" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="conn_state:%d dev_hdl: %08x conn_hdl: %08x stream_hdl: %08x @a2dp_snk_service.c(479),INFO" ID="0xd80e0efd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_snk_set_stream_codec memcpy fail @a2dp_snk_service.c(523),ERROR" ID="0xd80e105a" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="sbc sF: %02x cM: %02x blockL: %02x sBand: %02x alcM: %02x BitP: %02x %02x @a2dp_snk_service.c(532),INFO" ID="0xd80e10a5" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="aac sF: %02x bit_rate: %02x channel: %02x objType: %02x fa: %02x vbr: %02x @a2dp_snk_service.c(537),INFO" ID="0xd80e10cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="is_reconfig: %d stream_hdl: %x ret %x @a2dp_snk_service.c(543),INFO" ID="0xd80e10fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_disconnect error ret: %x @a2dp_snk_service.c(575),ERROR" ID="0xd80e11fa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="filter try_report: %d now: %d reported: %d @a2dp_snk_service.c(602),INFO" ID="0xd80e12d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr error @a2dp_snk_service.c(609),INFO" ID="0xd80e130d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr error @a2dp_snk_service.c(626),INFO" ID="0xd80e1395" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr error @a2dp_snk_service.c(643),INFO" ID="0xd80e141d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr error @a2dp_snk_service.c(660),ERROR" ID="0xd80e14a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc error @a2dp_snk_service.c(666),ERROR" ID="0xd80e14d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fill codec error @a2dp_snk_service.c(673),ERROR" ID="0xd80e150a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error sbc sample_frequency %x @a2dp_snk_service.c(703),ERROR" ID="0xd80e15fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error aac sample_frequency %x @a2dp_snk_service.c(725),ERROR" ID="0xd80e16aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error codec_type %x @a2dp_snk_service.c(729),ERROR" ID="0xd80e16ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id %x @a2dp_snk_service.c(779),WARNING" ID="0xd80e185b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="btsdk_connect_ex error ret: %x, %x @a2dp_snk_service.c(848),ERROR" ID="0xd80e1a82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="a2dp snk disconnect error ret: %x @a2dp_snk_service.c(871),ERROR" ID="0xd80e1b3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @a2dp_snk_service.c(887),ERROR" ID="0xd80e1bba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="duplicate register callback @a2dp_snk_service.c(905),INFO" ID="0xd80e1c4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc error @a2dp_snk_service.c(915),ERROR" ID="0xd80e1c9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @a2dp_snk_service.c(920),ERROR" ID="0xd80e1cc2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="stream_hdl: %08x stream_status:%u ret: %08x @a2dp_snk_service.c(987),INFO" ID="0xd80e1edd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="suspend stream_hdl: %08x ret: %08x @a2dp_snk_service.c(998),INFO" ID="0xd80e1f35" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stop stream_hdl: %08x ret: %08x @a2dp_snk_service.c(1009),INFO" ID="0xd80e1f8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="start accept stream_hdl: %08x ret: %08x @a2dp_snk_service.c(1020),INFO" ID="0xd80e1fe5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp snk is connected, service unregister fail. @a2dp_snk_service.c(1037),ERROR" ID="0xd80e206a" />
+			</MSG_LOG>

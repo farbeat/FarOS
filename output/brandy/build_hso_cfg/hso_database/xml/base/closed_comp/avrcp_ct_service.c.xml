@@ -1,0 +1,44 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="avrcp ct report conn stat: %u @avrcp_ct_service.c(58),INFO" ID="0xd81001d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="CT BTSDK_APP_EV_AVRCP_PASSTHROUGH_IND:opid:%u, value:%u @avrcp_ct_service.c(70),INFO" ID="0xd8100235" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="op_id is error @avrcp_ct_service.c(73),ERROR" ID="0xd810024a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param is null @avrcp_ct_service.c(93),ERROR" ID="0xd81002ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param is null @avrcp_ct_service.c(106),INFO" ID="0xd8100355" />
+			<MSG STRUCTURE="diag_log_msg4" NAME=" ct notfy rsp size:0x%x rsp_type:0x%x, event_id:0x%x, rsp_cmd_type:0x%x @avrcp_ct_service.c(115),INFO" ID="0xd810039d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="not support, rsp_type:0x%x, event_id:0x%x  @avrcp_ct_service.c(146),INFO" ID="0xd8100495" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set absolute volume rsp: val:0x%x  @avrcp_ct_service.c(159),INFO" ID="0xd81004fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="reject info: cmd type:0x%x errcode:0x%x @avrcp_ct_service.c(166),INFO" ID="0xd8100535" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="dev_hdl:0x%x, rsp_type:0x%x, len:0x%x  @avrcp_ct_service.c(171),INFO" ID="0xd810055d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail. @avrcp_ct_service.c(177),ERROR" ID="0xd810058a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail. @avrcp_ct_service.c(181),ERROR" ID="0xd81005aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @avrcp_ct_service.c(187),ERROR" ID="0xd81005da" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dev_hdl:0x%x, rsp_type:0x%x  @avrcp_ct_service.c(196),INFO" ID="0xd8100625" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cbk default @avrcp_ct_service.c(231),INFO" ID="0xd810073d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param @avrcp_ct_service.c(240),ERROR" ID="0xd8100782" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="size %d capability id: %d count %d @avrcp_ct_service.c(245),INFO" ID="0xd81007ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="not supported capability id %d @avrcp_ct_service.c(261),INFO" ID="0xd810082d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="id num: %d  @avrcp_ct_service.c(281),INFO" ID="0xd81008cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc error @avrcp_ct_service.c(284),ERROR" ID="0xd81008e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc error @avrcp_ct_service.c(294),ERROR" ID="0xd8100932" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="attr id: 0x%x characterset id: 0x%x len: 0x%x @avrcp_ct_service.c(304),INFO" ID="0xd8100985" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="g_attr_cb_para is null @avrcp_ct_service.c(306),ERROR" ID="0xd8100992" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc error @avrcp_ct_service.c(319),ERROR" ID="0xd81009fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @avrcp_ct_service.c(326),ERROR" ID="0xd8100a32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param is null @avrcp_ct_service.c(347),ERROR" ID="0xd8100ada" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="size %d subpacket type: %d g_attr_num %d @avrcp_ct_service.c(351),INFO" ID="0xd8100afd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="not supported subpacket type %d @avrcp_ct_service.c(358),INFO" ID="0xd8100b35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="info: state: %d @avrcp_ct_service.c(366),INFO" ID="0xd8100b75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="avrcp_ct_handle_remote_sep_cap_msg @avrcp_ct_service.c(382),INFO" ID="0xd8100bf5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="msg is null @avrcp_ct_service.c(389),ERROR" ID="0xd8100c2a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="avrcp ct envtid: %u, hdl_id:%u, param:%u @avrcp_ct_service.c(393),INFO" ID="0xd8100c4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid addr @avrcp_ct_service.c(416),ERROR" ID="0xd8100d02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is error. @avrcp_ct_service.c(427),ERROR" ID="0xd8100d5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is not exist. @avrcp_ct_service.c(447),ERROR" ID="0xd8100dfa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="avrcp ct is disconnected. @avrcp_ct_service.c(451),ERROR" ID="0xd8100e1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="key operatiion is not in valid scope: 0x41~0x7F @avrcp_ct_service.c(463),ERROR" ID="0xd8100e7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="key operatiion is not in valid scope: 0x41~0x7F @avrcp_ct_service.c(479),ERROR" ID="0xd8100efa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is error or attr num is 0 @avrcp_ct_service.c(522),ERROR" ID="0xd8101052" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid param @avrcp_ct_service.c(553),ERROR" ID="0xd810114a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="volume is not in valid scope: 0~0x7F @avrcp_ct_service.c(569),ERROR" ID="0xd81011ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="vol:0x%x @avrcp_ct_service.c(576),INFO" ID="0xd8101205" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ret:0x%x @avrcp_ct_service.c(579),INFO" ID="0xd810121d" />
+			</MSG_LOG>

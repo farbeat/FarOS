@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="not found active acl conhdl:%d @llc_enhan_con_up.c(47),INFO" ID="0x8808017d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CENTRAL] not exist the conhdl:%d @llc_enhan_con_up.c(115),WARNING" ID="0x8808039b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CENTRAL] not exist the conhdl elt:%d @llc_enhan_con_up.c(123),WARNING" ID="0x880803db" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_subrate_invalid_param: subrate_min=%d, subrate_max = %d, max_latency=%d, continuation_num=%d @llc_enhan_con_up.c(138),INFO" ID="0x88080455" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="supervision_timeout = %d, timeout=%d, slave_sub_factor=%d @llc_enhan_con_up.c(140),INFO" ID="0x88080465" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_subrate_invalid_param: data is NULL @llc_enhan_con_up.c(153),INFO" ID="0x880804cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_subrate_invalid_param elt is null @llc_enhan_con_up.c(169),INFO" ID="0x8808054d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLCP]subrate_min=%d, subrate_max=%d,max_latency=%d, super_timeout=%d @llc_enhan_con_up.c(225),INFO" ID="0x8808070d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DEFAULT]subrate_min=%d, subrate_max=%d,max_latency=%d, super_timeout=%d @llc_enhan_con_up.c(232),INFO" ID="0x88080745" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="subrate_min=%d, subrate_max=%d,max_latency=%d, super_timeout=%d @llc_enhan_con_up.c(288),INFO" ID="0x88080905" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ENHANCED] llcp_subrate_req_handler not exist conhdl:%d @llc_enhan_con_up.c(296),ERROR" ID="0x88080942" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO] mic_failure @llc_enhan_con_up.c(305),ERROR" ID="0x8808098a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO] mic_failure @llc_enhan_con_up.c(361),ERROR" ID="0x88080b4a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]llcp_subrate_ind_handler:subrate=%d, latency=%d, ref_event_counter=%d @llc_enhan_con_up.c(383),INFO" ID="0x88080bfd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]llc_peripheral_check_rem_subrate_param:subrate_factor=%d, continuation_num=%d, latency=%d,super_timeout:%d @llc_enhan_con_up.c(473),INFO" ID="0x88080ecd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]sub ind send, subrate=%d, latency=%d, reference_event_counter=%d, continuation_num = %d @llc_enhan_con_up.c(494),INFO" ID="0x88080f75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]sub req send, subrate_factor_min=%d, max_latency=%d, subrate_factor_max=%d, continuation_num = %d @llc_enhan_con_up.c(512),INFO" ID="0x88081005" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc llc_env[conhdl].enhan_connup_tag failed @llc_enhan_con_up.c(585),ERROR" ID="0x8808124a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="subrate conhdl already exist, conhdl=%d, llc_env[conhdl].enhan_connup_tag=0x%x @llc_enhan_con_up.c(593),INFO" ID="0x8808128d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC][ENHANCED]llc_subrate_change_ind_handler:discard the message @llc_enhan_con_up.c(634),INFO" ID="0x880813d5" />
+			</MSG_LOG>

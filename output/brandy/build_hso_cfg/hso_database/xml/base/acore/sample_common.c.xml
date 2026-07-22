@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="len err! str_len = %d  len = %d @sample_common.c(38),INFO" ID="0xd85c0135" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="str: %s  bd_addr: @sample_common.c(42),INFO" ID="0xd85c0155" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="invalid input %c%c @sample_common.c(48),INFO" ID="0xd85c0185" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_common.c(52),INFO" ID="0xd85c01a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_common.c(55),INFO" ID="0xd85c01bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="str: %s len: %u out:  @sample_common.c(63),INFO" ID="0xd85c01fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="invalid input %c%c @sample_common.c(75),INFO" ID="0xd85c025d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_common.c(80),INFO" ID="0xd85c0285" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_common.c(83),INFO" ID="0xd85c029d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uuid len exceeds max limit! str_len = %u  @sample_common.c(142),INFO" ID="0xd85c0475" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="str_len: %u str: %s  uuid: @sample_common.c(145),INFO" ID="0xd85c048d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_common.c(149),INFO" ID="0xd85c04ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_common.c(152),INFO" ID="0xd85c04c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="str_len: %u str: %s  num: @sample_common.c(160),INFO" ID="0xd85c0505" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_common.c(164),INFO" ID="0xd85c0525" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_common.c(167),INFO" ID="0xd85c053d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] uuid data to len2 memcpy fail. @sample_common.c(176),ERROR" ID="0xd85c0582" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to malloc for full uuid. @sample_common.c(201),ERROR" ID="0xd85c064a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] base uuid memcpy fail. @sample_common.c(207),ERROR" ID="0xd85c067a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] short uuid memcpy fail. @sample_common.c(214),ERROR" ID="0xd85c06b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] full uuid memcpy fail. @sample_common.c(220),ERROR" ID="0xd85c06e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] GATT only supports 16-bit or 128-bit UUIDs. @sample_common.c(225),ERROR" ID="0xd85c070a" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt_at_cmd_keyboard_input, data len:%d @keyboard_hid.c(41),INFO" ID="0xd896014d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_keyboard_input len %d invaild! @keyboard_hid.c(44),ERROR" ID="0xd8960162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param null! @keyboard_hid.c(52),ERROR" ID="0xd89601a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param invaild! @keyboard_hid.c(60),ERROR" ID="0xd89601e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param invaild! @keyboard_hid.c(65),ERROR" ID="0xd896020a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input_one_word send key message failed! @keyboard_hid.c(79),ERROR" ID="0xd896027a" />
+			</MSG_LOG>

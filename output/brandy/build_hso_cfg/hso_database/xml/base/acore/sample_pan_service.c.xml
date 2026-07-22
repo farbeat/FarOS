@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="sample pan acl connect:param is invalid. @sample_pan_service.c(28),INFO" ID="0xd84c00e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample pan acl connect:decode addr error! @sample_pan_service.c(33),INFO" ID="0xd84c010d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan acl connect result=%d @sample_pan_service.c(37),INFO" ID="0xd84c012d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample pan acl connect:param is invalid. @sample_pan_service.c(43),INFO" ID="0xd84c015d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample pan acl connect:decode addr error! @sample_pan_service.c(48),INFO" ID="0xd84c0185" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan close result=%d @sample_pan_service.c(52),INFO" ID="0xd84c01a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan acl connect:net_state is %u. @sample_pan_service.c(60),INFO" ID="0xd84c01e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan net_state=%u @sample_pan_service.c(65),INFO" ID="0xd84c020d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="sample pan rpt ethernet length=%lu, first_byte=0x%x. @sample_pan_service.c(70),INFO" ID="0xd84c0235" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan register callback result=%d @sample_pan_service.c(83),INFO" ID="0xd84c029d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan deregister callback result=%d @sample_pan_service.c(91),INFO" ID="0xd84c02dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample pan write data result=%d. @sample_pan_service.c(107),INFO" ID="0xd84c035d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt pan cmd_id [%d] not support now! @sample_pan_service.c(130),INFO" ID="0xd84c0415" />
+			</MSG_LOG>

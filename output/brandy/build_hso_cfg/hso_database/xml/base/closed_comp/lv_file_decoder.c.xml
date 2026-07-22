@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[%s: %d] read failed @lv_file_decoder.c(86),ERROR" ID="0xc93e02b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Only support compressed src file. @lv_file_decoder.c(91),ERROR" ID="0xc93e02da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid cf. @lv_file_decoder.c(128),ERROR" ID="0xc93e0402" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[%s: %d] open failed ret = %u @lv_file_decoder.c(135),ERROR" ID="0xc93e043a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid cf. @lv_file_decoder.c(179),ERROR" ID="0xc93e059a" />
+			</MSG_LOG>

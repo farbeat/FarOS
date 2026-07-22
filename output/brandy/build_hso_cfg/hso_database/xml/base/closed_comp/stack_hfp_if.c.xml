@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="btsdk_hfap_dial invalid len %u: @stack_hfp_if.c(139),ERROR" ID="0xd8e2045a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk_hfap_dial memcpy failed @stack_hfp_if.c(146),ERROR" ID="0xd8e20492" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="hfp ag send network event handle=0x%x, event=%u. @stack_hfp_if.c(354),INFO" ID="0xd8e20b15" />
+			</MSG_LOG>

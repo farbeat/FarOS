@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][WBS]invalid rx type for mSBC, quit rx @ld_wbs_esco.c(103),ERROR" ID="0x88c0033a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][WBS]No Memory for message @ld_wbs_esco.c(156),ERROR" ID="0x88c004e2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][WBS]wbs_esco_enable for esco lid=%d, t_esco=%d, ul_rx_pkt_len=%d, ul_tx_pkt_len=%d @ld_wbs_esco.c(319),INFO" ID="0x88c009fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][WBS]wbs_esco_enable bt_intcntl_get()=0x%0x, bt_e_scochancntl_get=0x%0x @ld_wbs_esco.c(321),INFO" ID="0x88c00a0d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][WBS]wbs_esco_enable failed, uc_esco_lid=%d, uc_link_id=%d @ld_wbs_esco.c(327),INFO" ID="0x88c00a3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][WBS]wbs_esco_disable for esco lid=%d @ld_wbs_esco.c(341),INFO" ID="0x88c00aad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][WBS]esco isr lost_count(%d)cur(%d)last(%d) @ld_wbs_esco.c(387),WARNING" ID="0x88c00c1b" />
+			</MSG_LOG>

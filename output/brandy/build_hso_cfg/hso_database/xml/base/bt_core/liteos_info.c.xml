@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg6" NAME="[STACK] id:%d, address:0x%x, top:0x%x, size:%d, waterLine:%d, sp:0x%x @liteos_info.c(31),INFO" ID="0xa04600fd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HEAP_STAT] total:0x%x, used:0x%x, free:0x%x @liteos_info.c(46),INFO" ID="0xa0460175" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[STACK] id:%d, top:0x%x, size:0x%x, task usage peak:%x, sp:0x%x @liteos_info.c(63),INFO" ID="0xa04601fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HEAP_STAT1] total:0x%x, used:0x%x, free:0x%x, usage waterline:0x%x @liteos_info.c(77),INFO" ID="0xa046026d" />
+			</MSG_LOG>

@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[ERR][transmit src] read data failed!, offset = 0x%x, read_size = %d readed_size = %d @transmit_src.c(66),ERROR" ID="0xa0b60212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit src]init is failed @transmit_src.c(171),ERROR" ID="0xa0b6055a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR][transmit src]file : %s open failed, fd = %d @transmit_src.c(178),ERROR" ID="0xa0b60592" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR][transmit src]request match id failed!, id = 0x%x @transmit_src.c(205),ERROR" ID="0xa0b6066a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit src]init failed @transmit_src.c(232),ERROR" ID="0xa0b60742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR][transmit src]init failed @transmit_src.c(268),ERROR" ID="0xa0b60862" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="stop match id failed!, type = 0x%x, dst = 0x%x @transmit_src.c(425),DBG" ID="0xa0b60d4e" />
+			</MSG_LOG>

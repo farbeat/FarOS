@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][CTE]llm_util_per_sync_check_cte_type: HIT - Do not sync to packets without a CTE @llm_ram.c(125),WARNING" ID="0x8a1803eb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][CTE] type check: HIT - Do not sync to packets with an %d type CTE @llm_ram.c(134),WARNING" ID="0x8a180433" />
+			</MSG_LOG>

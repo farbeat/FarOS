@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memcpy cmd data failed @ui_font_hw_vector.cpp(276),ERROR" ID="0xcb1608a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy path data failed @ui_font_hw_vector.cpp(279),ERROR" ID="0xcb1608ba" />
+			</MSG_LOG>

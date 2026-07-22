@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]NOT Restore maxslot @lc_sco.c(209),WARNING" ID="0x8872068b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][send_esco_req] Desco=0x%x, NegoState=0x%x @lc_sco.c(624),INFO" ID="0x88721385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]lc_sco_env[sync_linkid].p_nego_params != NULL @lc_sco.c(963),ERROR" ID="0x88721e1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]lc_sco_env[sync_linkid].p_nego_params != NULL @lc_sco.c(1122),ERROR" ID="0x88722312" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="role = slave, esco_lt_addr = acl_lt_addr = %d @lc_sco.c(1203),INFO" ID="0x8872259d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="black list lmp_esco_nego_multi_times_backlist_match i(%d) @lc_sco.c(1239),WARNING" ID="0x887226bb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]lc_sco_env[sync_linkid].p_nego_params != NULL @lc_sco.c(1445),ERROR" ID="0x88722d2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="role = slave, esco_lt_addr = acl_lt_addr = %d @lc_sco.c(1659),INFO" ID="0x887233dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]lc_sco_env[sync_linkid].p_nego_params != NULL @lc_sco.c(1912),ERROR" ID="0x88723bc2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR]lc_sco_peer_reject_disc link_id=%d, reason=%d @lc_sco.c(2020),ERROR" ID="0x88723f22" />
+			</MSG_LOG>

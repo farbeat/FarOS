@@ -1,0 +1,143 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="dev not found addr: ****%02x%02x%02x%02x @sample_bts_gap.c(155),INFO" ID="0xd85404dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get name fail @sample_bts_gap.c(169),INFO" ID="0xd854054d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get cod fail @sample_bts_gap.c(174),INFO" ID="0xd8540575" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get rssi fail @sample_bts_gap.c(178),INFO" ID="0xd8540595" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="swap fail %x @sample_bts_gap.c(221),INFO" ID="0xd85406ed" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="found_device[%d]: addr: ****%02x%02x%02x%02x name: &quot;%s&quot; cod: %x rssi: %d limited_mdoe: %d @sample_bts_gap.c(245),INFO" ID="0xd85407ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="enable_ble ret(errcode_t): %x @sample_bts_gap.c(258),INFO" ID="0xd8540815" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="disable_ble ret(errcode_t): %x @sample_bts_gap.c(271),INFO" ID="0xd854087d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="enable_bt_stack ret(errcode_t): %x @sample_bts_gap.c(280),INFO" ID="0xd85408c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="disable_bt_stack ret(errcode_t): %x @sample_bts_gap.c(289),INFO" ID="0xd854090d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_local_addr params_cnt error! need: sample_mode len @sample_bts_gap.c(296),INFO" ID="0xd8540945" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(302),INFO" ID="0xd8540975" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_local_addr malloc error! @sample_bts_gap.c(311),INFO" ID="0xd85409bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bluetooth_get_local_addr ret(errcode_t): %x mac:  @sample_bts_gap.c(318),INFO" ID="0xd85409f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gap.c(321),INFO" ID="0xd8540a0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gap.c(324),INFO" ID="0xd8540a25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_local_name params_cnt error! need: sample_mode length @sample_bts_gap.c(333),INFO" ID="0xd8540a6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(339),INFO" ID="0xd8540a9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_local_name malloc error! @sample_bts_gap.c(348),INFO" ID="0xd8540ae5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bluetooth_get_local_name ret(errcode_t): %x length: %u name: &quot; @sample_bts_gap.c(365),INFO" ID="0xd8540b6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%s @sample_bts_gap.c(367),INFO" ID="0xd8540b7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="&quot; @sample_bts_gap.c(369),INFO" ID="0xd8540b8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_set_local_name params_cnt error! need: sample_mode name length @sample_bts_gap.c(380),INFO" ID="0xd8540be5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(386),INFO" ID="0xd8540c15" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="bluetooth_set_local_name inputName: &quot;%s&quot; inputLen: %d ret(errcode_t): %x @sample_bts_gap.c(399),INFO" ID="0xd8540c7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bluetooth_factory_reset ret(bool): %d @sample_bts_gap.c(409),INFO" ID="0xd8540ccd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_br_get_scan_mode mode: %d @sample_bts_gap.c(419),INFO" ID="0xd8540d1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_set_bt_scan_mode params_cnt error! need: mode duration @sample_bts_gap.c(426),INFO" ID="0xd8540d55" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="gap_br_set_bt_scan_mode inputMode: %d inputDuration: %d ret(bool): %d @sample_bts_gap.c(435),INFO" ID="0xd8540d9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_paired_device_num params_cnt error! need: sample_mode @sample_bts_gap.c(443),INFO" ID="0xd8540ddd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(449),INFO" ID="0xd8540e0d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap_get_paired_devices_num ret(errcode_t): %x, num of paired devices:%u @sample_bts_gap.c(461),INFO" ID="0xd8540e6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap_get_paired_devices_num ret(bool): %d, num of paired devices:%u @sample_bts_gap.c(469),INFO" ID="0xd8540ead" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_paired_devices_list params_cnt error! need: sample_mode number @sample_bts_gap.c(476),INFO" ID="0xd8540ee5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(482),INFO" ID="0xd8540f15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_paired_devices_list malloc error! @sample_bts_gap.c(491),INFO" ID="0xd8540f5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_get_paired_devices_list ret(bool): %d @sample_bts_gap.c(511),INFO" ID="0xd8540ffd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="number: %d paired_list: @sample_bts_gap.c(513),INFO" ID="0xd854100d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="t%d name: &quot;%s&quot; addr: ****%02x%02x%02x%02x @sample_bts_gap.c(518),INFO" ID="0xd8541035" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap_get_paired_devices_num ret(bool): %d, num of paired devices:%d @sample_bts_gap.c(535),INFO" ID="0xd85410bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_paired_devices_list malloc error! @sample_bts_gap.c(542),INFO" ID="0xd85410f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_get_paired_devices_list ret(bool): %d @sample_bts_gap.c(551),INFO" ID="0xd854113d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show paired list: @sample_bts_gap.c(553),INFO" ID="0xd854114d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="| %-4s | %-32s | %-12s |&quot;, &quot;idx&quot;, &quot;name&quot;, &quot;address @sample_bts_gap.c(554),INFO" ID="0xd8541155" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="| %-4d | %-32s | ****%02x%02x%02x%02x | @sample_bts_gap.c(558),INFO" ID="0xd8541175" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show paired list end! @sample_bts_gap.c(560),INFO" ID="0xd8541185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_pair_state params_cnt error! need: sample_mode addr @sample_bts_gap.c(572),INFO" ID="0xd85411e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(578),INFO" ID="0xd8541215" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_pair_state decode addr error! @sample_bts_gap.c(583),INFO" ID="0xd854123d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap_get_pair_state ret(errcode_t): %x status: %d @sample_bts_gap.c(595),INFO" ID="0xd854129d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_get_pair_state ret(int): %d @sample_bts_gap.c(602),INFO" ID="0xd85412d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_remove_pair params_cnt error! need: sample_mode addr @sample_bts_gap.c(609),INFO" ID="0xd854130d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(615),INFO" ID="0xd854133d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_pair_state decode addr error! @sample_bts_gap.c(620),INFO" ID="0xd8541365" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_remove_pair ret(bool): %d @sample_bts_gap.c(631),INFO" ID="0xd85413bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_remove_all_pairs ret(bool): %d @sample_bts_gap.c(641),INFO" ID="0xd854140d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_is_acl_connected params_cnt error! need: sample_mode addr @sample_bts_gap.c(648),INFO" ID="0xd8541445" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(654),INFO" ID="0xd8541475" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_is_acl_connected decode addr error! @sample_bts_gap.c(659),INFO" ID="0xd854149d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_is_acl_connected ret(bool): %d @sample_bts_gap.c(670),INFO" ID="0xd85414f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_disconnect_remote_device params_cnt error! need: addr addr_type. @sample_bts_gap.c(677),INFO" ID="0xd854152d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr_type fail @sample_bts_gap.c(683),INFO" ID="0xd854155d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_disconnect_remote_device decode addr error! @sample_bts_gap.c(688),INFO" ID="0xd8541585" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_disconnect_remote_device ret(bool): %u @sample_bts_gap.c(694),INFO" ID="0xd85415b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_connect_remote_device params_cnt error! need: sample_mode addr @sample_bts_gap.c(703),INFO" ID="0xd85415fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get addr_type fail @sample_bts_gap.c(709),INFO" ID="0xd854162d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_connect_remote_device decode addr error! @sample_bts_gap.c(714),INFO" ID="0xd8541655" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_connect_remote_device ret(bool): %u @sample_bts_gap.c(722),INFO" ID="0xd8541695" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param id null @sample_bts_gap.c(729),INFO" ID="0xd85416cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_connect_remote_device ret(errcode_t): %x @sample_bts_gap.c(734),INFO" ID="0xd85416f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap_state_changed_callback transport: %d status: %d @sample_bts_gap.c(740),INFO" ID="0xd8541725" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_acl_state_changed_callback addr:  @sample_bts_gap.c(758),INFO" ID="0xd85417b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gap.c(760),INFO" ID="0xd85417c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME=" state: %d reason: %x cod: %x  @sample_bts_gap.c(766),INFO" ID="0xd85417f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample_gap_acl_state_changed_callback call AudioManagerInit - AUDIO_STREAM_MUSIC @sample_bts_gap.c(772),INFO" ID="0xd8541825" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="call avrcp_ct_connect @sample_bts_gap.c(776),INFO" ID="0xd8541845" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="avrcp_ct_connect ret(int): %x @sample_bts_gap.c(778),INFO" ID="0xd8541855" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample_gap_acl_state_changed_callback call a2dp_src_connect @sample_bts_gap.c(787),INFO" ID="0xd854189d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample_gap_acl_state_changed_callback a2dp_src_connect ret(int): %x @sample_bts_gap.c(789),INFO" ID="0xd85418ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_discovery_state_changed_callback status: %d @sample_bts_gap.c(798),INFO" ID="0xd85418f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_discovery_result_callback malloc error! @sample_bts_gap.c(806),INFO" ID="0xd8541935" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="gap_discovery_result_callback addr: ****%02x%02x%02x%02x  @sample_bts_gap.c(816),INFO" ID="0xd8541985" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="cod: %x getNameRet: %x getRssiRet: %x  @sample_bts_gap.c(817),INFO" ID="0xd854198d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="nameLen: %u name: &quot;%s&quot; @sample_bts_gap.c(819),INFO" ID="0xd854199d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gap.c(821),INFO" ID="0xd85419ad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="gap_pair_requested_callback addr: ****%02x%02x%02x%02x @sample_bts_gap.c(830),INFO" ID="0xd85419f5" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="gap_pair_confirmed_callback addr: ****%02x%02x%02x%02x req_type: %d number: %d @sample_bts_gap.c(837),INFO" ID="0xd8541a2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_scan_mode_changed_callback mode: %d @sample_bts_gap.c(842),INFO" ID="0xd8541a55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap_local_device_name_changed_callback length: %u name: &quot;%s&quot; @sample_bts_gap.c(847),INFO" ID="0xd8541a7d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="gap_local_device_addr_changed_callback addr: ****%02x%02x%02x%02x @sample_bts_gap.c(853),INFO" ID="0xd8541aad" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="gap_pair_status_changed_callback addr: ****%02x%02x%02x%02x status: %d @sample_bts_gap.c(859),INFO" ID="0xd8541add" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="gap_remote_uuid_changed_callback addr: ****%02x%02x%02x%02x uuid:  @sample_bts_gap.c(865),INFO" ID="0xd8541b0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gap.c(867),INFO" ID="0xd8541b1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gap.c(869),INFO" ID="0xd8541b2d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="gap_remote_name_changed_callback addr: ****%02x%02x%02x%02x length: %u device_name: &quot;%s&quot; @sample_bts_gap.c(877),INFO" ID="0xd8541b6d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="gap_remote_alias_changed_callback addr: ****%02x%02x%02x%02x length: %u alias: &quot;%s&quot; @sample_bts_gap.c(885),INFO" ID="0xd8541bad" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="gap_remote_cod_changed_callback addr: ****%02x%02x%02x%02x cod: %d @sample_bts_gap.c(892),INFO" ID="0xd8541be5" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="gap_remote_battery_level_changed_callback addr: ****%02x%02x%02x%02x battery_level: %d @sample_bts_gap.c(899),INFO" ID="0xd8541c1d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="gap_read_remote_rssi_event_callback addr: ****%02x%02x%02x%02x rssi: %d status: %d @sample_bts_gap.c(906),INFO" ID="0xd8541c55" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="is_accept_conn_on_safe_mode_callback addr: ****%02x%02x%02x%02x set *res true @sample_bts_gap.c(919),INFO" ID="0xd8541cbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap reg cbk ret %x @sample_bts_gap.c(947),INFO" ID="0xd8541d9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_register_callbacks params_cnt error! need: sample_mode fill_callbacks @sample_bts_gap.c(954),INFO" ID="0xd8541dd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(960),INFO" ID="0xd8541e05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_register_callbacks with funcs ret(int): %x @sample_bts_gap.c(989),INFO" ID="0xd8541eed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_register_callbacks test ret(int): %x @sample_bts_gap.c(993),INFO" ID="0xd8541f0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble update connection parameters params_cnt error! need: conn_handle int_min int_maxslave_latency timeout_multiplier. @sample_bts_gap.c(1002),INFO" ID="0xd8541f55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble update connection parameters ret: %u @sample_bts_gap.c(1013),INFO" ID="0xd8541fad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_br_cancel_discovery ret(bool): %d @sample_bts_gap.c(1022),INFO" ID="0xd8541ff5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="is_bt_discovering params_cnt error! need: mode duration @sample_bts_gap.c(1029),INFO" ID="0xd854202d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="is_bt_discovering transport: %d ret(bool): %d @sample_bts_gap.c(1037),INFO" ID="0xd854206d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_read_remote_rssi_value params_cnt error! need: sample_mode addr @sample_bts_gap.c(1044),INFO" ID="0xd85420a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(1050),INFO" ID="0xd85420d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_read_remote_rssi_value decode addr error! @sample_bts_gap.c(1055),INFO" ID="0xd85420fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_read_remote_rssi_value ret(bool): %d @sample_bts_gap.c(1066),INFO" ID="0xd8542155" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_device_name params_cnt error! need: sample_mode length @sample_bts_gap.c(1073),INFO" ID="0xd854218d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(1079),INFO" ID="0xd85421bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_device_name decode addr error! @sample_bts_gap.c(1084),INFO" ID="0xd85421e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_get_device_name malloc error! @sample_bts_gap.c(1093),INFO" ID="0xd854222d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_get_device_name ret(bool): %d name: &quot; @sample_bts_gap.c(1104),INFO" ID="0xd8542285" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%s @sample_bts_gap.c(1106),INFO" ID="0xd8542295" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="&quot; len: %u @sample_bts_gap.c(1108),INFO" ID="0xd85422a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_get_device_class params_cnt error! need: sample_mode addr @sample_bts_gap.c(1119),INFO" ID="0xd85422fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_bts_gap.c(1125),INFO" ID="0xd854232d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_get_device_class decode addr error! @sample_bts_gap.c(1130),INFO" ID="0xd8542355" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_get_device_class device_class: %d @sample_bts_gap.c(1141),INFO" ID="0xd85423ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_br_set_inquiry_paramters params_cnt error! need: device_class max_number @sample_bts_gap.c(1147),INFO" ID="0xd85423dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="gap_br_set_inquiry_paramters dev_class:0x%x max_num:0x%x ret: %d @sample_bts_gap.c(1156),INFO" ID="0xd8542425" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_set_connect_req_answer params_cnt error! need: accept @sample_bts_gap.c(1178),INFO" ID="0xd85424d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv_sample_cmd_set_feature_config params_cnt error! need: feature_config @sample_bts_gap.c(1189),INFO" ID="0xd854252d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="feature:%d bt_auto_reconnect_closed:%d @sample_bts_gap.c(1193),INFO" ID="0xd854254d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bts set features ret:%d @sample_bts_gap.c(1195),INFO" ID="0xd854255d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bts get features feature: bt_auto_reconnect_closed:%d. @sample_bts_gap.c(1203),INFO" ID="0xd854259d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="reconnect phone param error! need: bd_addr. @sample_bts_gap.c(1210),INFO" ID="0xd85425d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="reconnect phone decode addr error! @sample_bts_gap.c(1216),INFO" ID="0xd8542605" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="reconnect phone ret:%d. @sample_bts_gap.c(1220),INFO" ID="0xd8542625" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need one param! @sample_bts_gap.c(1226),INFO" ID="0xd8542655" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bts set service task priority ret:0x%x priority:%d @sample_bts_gap.c(1231),INFO" ID="0xd854267d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need one param! @sample_bts_gap.c(1237),INFO" ID="0xd85426ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bts set flow limit ret:0x%x limit:%d @sample_bts_gap.c(1242),INFO" ID="0xd85426d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need one param! @sample_bts_gap.c(1248),INFO" ID="0xd8542705" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bts set spp write retry max ret:0x%x max:%u @sample_bts_gap.c(1253),INFO" ID="0xd854272d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsrv_gap_sample_cmd cmd_id %d not support now! @sample_bts_gap.c(1325),INFO" ID="0xd854296d" />
+			</MSG_LOG>

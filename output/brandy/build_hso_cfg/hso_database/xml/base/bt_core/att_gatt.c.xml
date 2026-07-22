@@ -1,0 +1,24 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(75),ERROR" ID="0x8c4c025a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ATT_GATT] gatt tl done reason:%d occured:%d @att_gatt.c(320),ERROR" ID="0x8c4c0a02" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ATT_GATT] gatt tl create require:%d addr:%02x******%02x%02x @att_gatt.c(414),ERROR" ID="0x8c4c0cf2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ATT_GATT]tl timeout evt:%d @att_gatt.c(667),ERROR" ID="0x8c4c14da" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ATT_GATT] gatt tl disconnect require:%d addr:%02x******%02x%02x @att_gatt.c(844),ERROR" ID="0x8c4c1a62" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ATT_GATT] gatt event cbk:%p evt:%d @att_gatt.c(871),ERROR" ID="0x8c4c1b3a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ATT_GATT] gatt error cfm task:%d errcode:%d mask:%d @att_gatt.c(887),ERROR" ID="0x8c4c1bba" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ATT]UUID[0x%04x] start hdl[0x%x], end hdl[0x%x] @att_gatt.c(973),INFO" ID="0x8c4c1e6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(1074),ERROR" ID="0x8c4c2192" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ATT]UUID[0x%04x] hdl[0x%x], value hdl[0x%x], len[0x%x]  @att_gatt.c(1086),INFO" ID="0x8c4c21f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="properties[0x%x] @att_gatt.c(1087),INFO" ID="0x8c4c21fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(1145),ERROR" ID="0x8c4c23ca" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ATT]UUID[0x%04x], hdl[0x%x], len[0x%x] @att_gatt.c(1154),INFO" ID="0x8c4c2415" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="GATT_Server_Create_UpdateCCC_Item, add item[hdl:%d] ccc onaddr:0x%02x:%02x:xx:xx:%02x:%02x @att_gatt.c(1368),INFO" ID="0x8c4c2ac5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(1491),ERROR" ID="0x8c4c2e9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ATT_GATT] create le connect mask:%d @att_gatt.c(1809),ERROR" ID="0x8c4c388a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ATT_GATT] create br connect mask:%d @att_gatt.c(1818),ERROR" ID="0x8c4c38d2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ATT_GATT] smp cfm mask:%d task_index:%d result:%d @att_gatt.c(1937),ERROR" ID="0x8c4c3c8a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ATT_GATT] smp request mask:%d task_index:%d sec_mode:%d @att_gatt.c(1972),ERROR" ID="0x8c4c3da2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s error @att_gatt.c(2355),ERROR" ID="0x8c4c499a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(2601),ERROR" ID="0x8c4c514a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(2629),ERROR" ID="0x8c4c522a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]memcpy_s&#160;error @att_gatt.c(2634),ERROR" ID="0x8c4c5252" />
+			</MSG_LOG>

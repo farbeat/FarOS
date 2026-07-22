@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Find Me Stop Alerting! @sample_ble_fmp.c(16),INFO" ID="0xd8300085" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Find Me Alert Mild! @sample_ble_fmp.c(19),INFO" ID="0xd830009d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Find Me Alert High! @sample_ble_fmp.c(22),INFO" ID="0xd83000b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Find Me BAD Level:%u! @sample_ble_fmp.c(25),INFO" ID="0xd83000cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Init fmp target retcode:%u @sample_ble_fmp.c(36),INFO" ID="0xd8300125" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="fmp client connect target retcode:%u @sample_ble_fmp.c(50),INFO" ID="0xd8300195" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="fmp client send alert retcode:%u @sample_ble_fmp.c(67),INFO" ID="0xd830021d" />
+			</MSG_LOG>

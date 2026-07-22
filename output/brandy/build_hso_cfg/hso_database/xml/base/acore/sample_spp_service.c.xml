@@ -1,0 +1,103 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="get uuid fail @sample_spp_service.c(102),INFO" ID="0xd8500335" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="uuid: %s uuid_len: %u @sample_spp_service.c(109),INFO" ID="0xd850036d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="socket_type: %x is_encrypt: %d name: %s nameLen: %u @sample_spp_service.c(111),INFO" ID="0xd850037d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_server_create ret: %x @sample_spp_service.c(114),INFO" ID="0xd8500395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(122),INFO" ID="0xd85003d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_spp_service.c(128),INFO" ID="0xd8500405" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get uuid fail @sample_spp_service.c(134),INFO" ID="0xd8500435" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sample_mode: %x uuid: %s uuid_len: %u @sample_spp_service.c(144),INFO" ID="0xd8500485" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="socket_type: %x is_encrypt: %d name: %s nameLen: %u @sample_spp_service.c(146),INFO" ID="0xd8500495" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_server_create ret: %x @sample_spp_service.c(158),INFO" ID="0xd85004f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="server_id: %x @sample_spp_service.c(166),INFO" ID="0xd8500535" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_server_accept ret: %x @sample_spp_service.c(170),INFO" ID="0xd8500555" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="spp_server_accept task %x task.task %x @sample_spp_service.c(173),INFO" ID="0xd850056d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail. exsit running task. @sample_spp_service.c(186),INFO" ID="0xd85005d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(195),INFO" ID="0xd850061d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(200),INFO" ID="0xd8500645" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(203),INFO" ID="0xd850065d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(210),INFO" ID="0xd8500695" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get server_id fail @sample_spp_service.c(216),INFO" ID="0xd85006c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(225),INFO" ID="0xd850070d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(230),INFO" ID="0xd8500735" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(233),INFO" ID="0xd850074d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_server_close ret: %x @sample_spp_service.c(240),INFO" ID="0xd8500785" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(248),INFO" ID="0xd85007c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get server_id fail @sample_spp_service.c(254),INFO" ID="0xd85007f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_server_close ret: %x @sample_spp_service.c(260),INFO" ID="0xd8500825" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="testMode: %x uuid: %s @sample_spp_service.c(268),INFO" ID="0xd8500865" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_spp_service.c(270),INFO" ID="0xd8500875" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="socket_type: %x is_encrypt: %d addr:  @sample_spp_service.c(273),INFO" ID="0xd850088d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_spp_service.c(275),INFO" ID="0xd850089d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_spp_service.c(277),INFO" ID="0xd85008ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_connect ret: %x @sample_spp_service.c(289),INFO" ID="0xd850090d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="generate uuid fail @sample_spp_service.c(304),INFO" ID="0xd8500985" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="decode addr error! input_addr: %s @sample_spp_service.c(312),INFO" ID="0xd85009c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(319),INFO" ID="0xd85009fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(324),INFO" ID="0xd8500a25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(327),INFO" ID="0xd8500a3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(334),INFO" ID="0xd8500a75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_spp_service.c(342),INFO" ID="0xd8500ab5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="generate uuid fail @sample_spp_service.c(347),INFO" ID="0xd8500add" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="decode addr error! input_addr: %s @sample_spp_service.c(355),INFO" ID="0xd8500b1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(362),INFO" ID="0xd8500b55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(367),INFO" ID="0xd8500b7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(370),INFO" ID="0xd8500b95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="client_id: %x @sample_spp_service.c(377),INFO" ID="0xd8500bcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_disconnect ret: %x @sample_spp_service.c(381),INFO" ID="0xd8500bed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(394),INFO" ID="0xd8500c55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(399),INFO" ID="0xd8500c7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create task success. client_id: 0x%x @sample_spp_service.c(402),INFO" ID="0xd8500c95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(409),INFO" ID="0xd8500ccd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get client_id fail @sample_spp_service.c(415),INFO" ID="0xd8500cfd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(424),INFO" ID="0xd8500d45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(429),INFO" ID="0xd8500d6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(432),INFO" ID="0xd8500d85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="is_spp_connected ret(bool): %d @sample_spp_service.c(440),INFO" ID="0xd8500dc5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(447),INFO" ID="0xd8500dfd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get client_id fail @sample_spp_service.c(453),INFO" ID="0xd8500e2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="is_spp_connected ret(bool): %d @sample_spp_service.c(459),INFO" ID="0xd8500e5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_get_remote_addr ret(int): %d addr:  @sample_spp_service.c(468),INFO" ID="0xd8500ea5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_spp_service.c(471),INFO" ID="0xd8500ebd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_spp_service.c(474),INFO" ID="0xd8500ed5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(481),INFO" ID="0xd8500f0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_spp_service.c(487),INFO" ID="0xd8500f3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get client_id fail @sample_spp_service.c(493),INFO" ID="0xd8500f6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spp_get_remote_addr ret(int): %d addr:  @sample_spp_service.c(505),INFO" ID="0xd8500fcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_spp_service.c(508),INFO" ID="0xd8500fe5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_spp_service.c(511),INFO" ID="0xd8500ffd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="client:%u connected @sample_spp_service.c(517),INFO" ID="0xd850102d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="client:%u disconnected @sample_spp_service.c(519),INFO" ID="0xd850103d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read_buf is empty @sample_spp_service.c(526),INFO" ID="0xd8501075" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rcv spp msg from client:%u, data_len=%u @sample_spp_service.c(530),INFO" ID="0xd8501095" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="testMode: %x client_id: %x dataLen: %d cycleNum: %d delayTime: %d isPrint: %d tid: %x @sample_spp_service.c(573),INFO" ID="0xd85011ed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="round: %d ret: %d @sample_spp_service.c(591),INFO" ID="0xd850127d" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="write task end. tid: %x startSec: %u endSec: %u sendBytes: %u Bps: %u @sample_spp_service.c(603),INFO" ID="0xd85012dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc task_params fail @sample_spp_service.c(618),INFO" ID="0xd8501355" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(635),INFO" ID="0xd85013dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(641),INFO" ID="0xd850140d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(644),INFO" ID="0xd8501425" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get sample_mode fail @sample_spp_service.c(653),INFO" ID="0xd850146d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get client_id fail @sample_spp_service.c(657),INFO" ID="0xd850148d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(674),INFO" ID="0xd8501515" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(682),INFO" ID="0xd8501555" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc task_params fail @sample_spp_service.c(689),INFO" ID="0xd850158d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get data fail. get succ cnt %d @sample_spp_service.c(703),INFO" ID="0xd85015fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(710),INFO" ID="0xd8501635" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(716),INFO" ID="0xd8501665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task success. @sample_spp_service.c(719),INFO" ID="0xd850167d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="tid: %x client_id: %x srcFilePath: %s @sample_spp_service.c(730),INFO" ID="0xd85016d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cal src file size error @sample_spp_service.c(735),INFO" ID="0xd85016fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="open src file error fp: %x @sample_spp_service.c(743),INFO" ID="0xd850173d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="read file error. fp: %x read_len: %d @sample_spp_service.c(752),INFO" ID="0xd8501785" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SPP write error! writeLen: %d realWriteLen: %d @sample_spp_service.c(758),INFO" ID="0xd85017b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send_bytes: %d @sample_spp_service.c(764),INFO" ID="0xd85017e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="close src file error fp: %x @sample_spp_service.c(769),INFO" ID="0xd850180d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="file send task end. tid: %x src_file_size: %d send_bytes: %d @sample_spp_service.c(775),INFO" ID="0xd850183d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="invalid params cnt %x @sample_spp_service.c(785),INFO" ID="0xd850188d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc task_params fail @sample_spp_service.c(794),INFO" ID="0xd85018d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get client_id fail @sample_spp_service.c(802),INFO" ID="0xd8501915" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create task fail @sample_spp_service.c(811),INFO" ID="0xd850195d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set pri error: %08x @sample_spp_service.c(817),INFO" ID="0xd850198d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="create task success. task: %x @sample_spp_service.c(820),INFO" ID="0xd85019a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cmd_id %d not support now! @sample_spp_service.c(856),INFO" ID="0xd8501ac5" />
+			</MSG_LOG>

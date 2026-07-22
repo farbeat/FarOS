@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[STACK][HITWS_CALL]iso update codecId =%d, sampleRate=%d  @hfp_hlp_ram.c(435),WARNING" ID="0x8be40d9b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[STACK][HITWS_CALL]hitws call codec info reset  @hfp_hlp_ram.c(453),WARNING" ID="0x8be40e2b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="memory copy failed ret=0x%x @hfp_hlp_ram.c(520),ERROR" ID="0x8be41042" />
+			</MSG_LOG>

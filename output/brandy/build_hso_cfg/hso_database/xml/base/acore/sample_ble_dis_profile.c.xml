@@ -1,0 +1,70 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="local manufacturer name is %s @sample_ble_dis_profile.c(40),INFO" ID="0xd82e0145" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_manu_name argc:%d @sample_ble_dis_profile.c(49),INFO" ID="0xd82e018d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local model number is %s @sample_ble_dis_profile.c(75),INFO" ID="0xd82e025d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_get_model_num argc:%d @sample_ble_dis_profile.c(84),INFO" ID="0xd82e02a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local serial number is %s @sample_ble_dis_profile.c(110),INFO" ID="0xd82e0375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_serial_num argc:%d @sample_ble_dis_profile.c(119),INFO" ID="0xd82e03bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local hardware revision is %s @sample_ble_dis_profile.c(145),INFO" ID="0xd82e048d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_hw_revision argc:%d @sample_ble_dis_profile.c(154),INFO" ID="0xd82e04d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local firmware revision is %s @sample_ble_dis_profile.c(180),INFO" ID="0xd82e05a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_fw_revision argc:%d @sample_ble_dis_profile.c(189),INFO" ID="0xd82e05ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local software revision is %s @sample_ble_dis_profile.c(215),INFO" ID="0xd82e06bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_sw_revision argc:%d @sample_ble_dis_profile.c(224),INFO" ID="0xd82e0705" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local system id is %s @sample_ble_dis_profile.c(250),INFO" ID="0xd82e07d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_system_id argc:%d @sample_ble_dis_profile.c(259),INFO" ID="0xd82e081d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="local ieee regulatory certification data list is %s @sample_ble_dis_profile.c(285),INFO" ID="0xd82e08ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_ieee_rcdl argc:%d @sample_ble_dis_profile.c(294),INFO" ID="0xd82e0935" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="pnp id info:vendor_id_source:0x%xvendor_id:0x%xproduct_id:0x%xproduct_revision:0x%x @sample_ble_dis_profile.c(321),INFO" ID="0xd82e0a0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_srv_set_pnp_id argc:%d @sample_ble_dis_profile.c(330),INFO" ID="0xd82e0a55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_discovery_service argc:%d @sample_ble_dis_profile.c(349),INFO" ID="0xd82e0aed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dis client discovery service result:%u @sample_ble_dis_profile.c(359),INFO" ID="0xd82e0b3d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="DIS Client read remote character of uuid:0x%x error_code:%u @sample_ble_dis_profile.c(366),INFO" ID="0xd82e0b75" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="character value len:%hu val:%s @sample_ble_dis_profile.c(381),INFO" ID="0xd82e0bed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="DIS Client read remote character of uuid:0x%x error_code:%u @sample_ble_dis_profile.c(390),INFO" ID="0xd82e0c35" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="vendor_id_source:0x%02x vendor_id:0x%04x product_id:0x%04x product_revision:0x%04x @sample_ble_dis_profile.c(410),INFO" ID="0xd82e0cd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_manu_name argc:%d @sample_ble_dis_profile.c(420),INFO" ID="0xd82e0d25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote manufacturer name read ok @sample_ble_dis_profile.c(433),INFO" ID="0xd82e0d8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote manufacturer name not support @sample_ble_dis_profile.c(436),INFO" ID="0xd82e0da5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote manufacturer name not readable @sample_ble_dis_profile.c(439),INFO" ID="0xd82e0dbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote manufacturer name read timeout @sample_ble_dis_profile.c(442),INFO" ID="0xd82e0dd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_model_num argc:%d @sample_ble_dis_profile.c(457),INFO" ID="0xd82e0e4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote model number read ok @sample_ble_dis_profile.c(470),INFO" ID="0xd82e0eb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote model number not support @sample_ble_dis_profile.c(473),INFO" ID="0xd82e0ecd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote model number not readable @sample_ble_dis_profile.c(476),INFO" ID="0xd82e0ee5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote model number read timeout @sample_ble_dis_profile.c(479),INFO" ID="0xd82e0efd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_serial_num argc:%d @sample_ble_dis_profile.c(494),INFO" ID="0xd82e0f75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote serial number read ok @sample_ble_dis_profile.c(509),INFO" ID="0xd82e0fed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote serial number not support @sample_ble_dis_profile.c(512),INFO" ID="0xd82e1005" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote serial number not readable @sample_ble_dis_profile.c(515),INFO" ID="0xd82e101d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote serial number read timeout @sample_ble_dis_profile.c(518),INFO" ID="0xd82e1035" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_hw_revision argc:%d @sample_ble_dis_profile.c(532),INFO" ID="0xd82e10a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote hardware revision read ok @sample_ble_dis_profile.c(546),INFO" ID="0xd82e1115" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote hardware revision not support @sample_ble_dis_profile.c(549),INFO" ID="0xd82e112d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote hardware revision not readable @sample_ble_dis_profile.c(552),INFO" ID="0xd82e1145" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote hardware revision read timeout @sample_ble_dis_profile.c(555),INFO" ID="0xd82e115d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_fw_revision argc:%d @sample_ble_dis_profile.c(569),INFO" ID="0xd82e11cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote firmware revision read ok @sample_ble_dis_profile.c(583),INFO" ID="0xd82e123d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote firmware revision not support @sample_ble_dis_profile.c(586),INFO" ID="0xd82e1255" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote firmware revision not readable @sample_ble_dis_profile.c(589),INFO" ID="0xd82e126d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote firmware revision read timeout @sample_ble_dis_profile.c(592),INFO" ID="0xd82e1285" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_sw_revision argc:%d @sample_ble_dis_profile.c(607),INFO" ID="0xd82e12fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote software revision read ok @sample_ble_dis_profile.c(621),INFO" ID="0xd82e136d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote software revision not support @sample_ble_dis_profile.c(624),INFO" ID="0xd82e1385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote software revision not readable @sample_ble_dis_profile.c(627),INFO" ID="0xd82e139d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote software revision read timeout @sample_ble_dis_profile.c(630),INFO" ID="0xd82e13b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_system_id argc:%d @sample_ble_dis_profile.c(645),INFO" ID="0xd82e142d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote system id read ok @sample_ble_dis_profile.c(659),INFO" ID="0xd82e149d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote system id not support @sample_ble_dis_profile.c(662),INFO" ID="0xd82e14b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote system id not readable @sample_ble_dis_profile.c(665),INFO" ID="0xd82e14cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote system id read timeout @sample_ble_dis_profile.c(668),INFO" ID="0xd82e14e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_ieee_rcdl argc:%d @sample_ble_dis_profile.c(683),INFO" ID="0xd82e155d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote ieee regulatory certification data list read ok @sample_ble_dis_profile.c(697),INFO" ID="0xd82e15cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote ieee regulatory certification data list not support @sample_ble_dis_profile.c(700),INFO" ID="0xd82e15e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote ieee regulatory certification data list not readable @sample_ble_dis_profile.c(703),INFO" ID="0xd82e15fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote ieee regulatory certification data list read timeout @sample_ble_dis_profile.c(706),INFO" ID="0xd82e1615" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_dis_cln_rd_rmt_pnp_id argc:%d @sample_ble_dis_profile.c(721),INFO" ID="0xd82e168d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote pnp id read ok @sample_ble_dis_profile.c(735),INFO" ID="0xd82e16fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote pnp id not support @sample_ble_dis_profile.c(738),INFO" ID="0xd82e1715" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote pnp id not readable @sample_ble_dis_profile.c(741),INFO" ID="0xd82e172d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remote pnp id read timeout @sample_ble_dis_profile.c(744),INFO" ID="0xd82e1745" />
+			</MSG_LOG>

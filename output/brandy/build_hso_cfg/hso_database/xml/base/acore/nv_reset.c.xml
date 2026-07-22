@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[NV] backup_retain_keys_helper key_id: %d @nv_reset.c(110),DBG" ID="0xa0760376" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] restore_retain_keys_b key_id: 0x%x @nv_reset.c(143),DBG" ID="0xa076047e" />
+			</MSG_LOG>

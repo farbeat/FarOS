@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hid][INFO]beginning add server @ble_hid_take_photo_server.c(287),INFO" ID="0xd86a08fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hid][INFO]server_id:%d @ble_hid_take_photo_server.c(289),INFO" ID="0xd86a090d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hid][INFO]beginning add service @ble_hid_take_photo_server.c(290),INFO" ID="0xd86a0915" />
+			</MSG_LOG>

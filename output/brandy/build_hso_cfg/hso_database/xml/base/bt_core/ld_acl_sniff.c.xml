@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LD]ld_acl_sniff_tx:ld_acl_env_evt = NULL, linkid(%d), cs_txrxcntl_rxthr(0x%x), return @ld_acl_sniff.c(49),INFO" ID="0x89fe018d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL @ld_acl_sniff.c(311),ERROR" ID="0x89fe09ba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]ld_acl_sniff_sched anchor_point(0x%x)current_prio(%d) @ld_acl_sniff.c(788),WARNING" ID="0x89fe18a3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]ld_acl_sniff_sched sched fail extab_prio=%d, sniff_ts=%d, last_sync=%d, lsto=%d @ld_acl_sniff.c(816),WARNING" ID="0x89fe1983" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING]ld_acl_sniff_sched sched fail prio=%d,clk_off=%d,last_sync_clk_off=%d @ld_acl_sniff.c(818),WARNING" ID="0x89fe1993" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]ld_acl_sniff_enter, clk_off(%d), last_sync_clk_of(%d) @ld_acl_sniff.c(1065),WARNING" ID="0x89fe214b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_sniff_enter clk_off(0x%x)bit_off(%d)last_sync_clk_off(0x%x)last_sync_bit_off(%d) @ld_acl_sniff.c(1116),INFO" ID="0x89fe22e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_sniff_enter intv(%d)offset(%d)att(%d)to(%d) @ld_acl_sniff.c(1118),INFO" ID="0x89fe22f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_sniff_trans:acl end for already set end:%d @ld_acl_sniff.c(1298),WARNING" ID="0x89fe2893" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD]ld_acl_sniff_trans:acl sched fail extab_prio=%d, acl_ts=0x%x, last_sync=0x%x, lsto=%d @ld_acl_sniff.c(1330),WARNING" ID="0x89fe2993" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LD]ld_sniff_anchor_point_check:clock 0x%x, sniff_ts:0x%x @ld_acl_sniff.c(1570),WARNING" ID="0x89fe3113" />
+			</MSG_LOG>

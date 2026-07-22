@@ -1,0 +1,30 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="============================================== @bt_at_cmd_l2cap.c(43),INFO" ID="0xd88e015d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTH][AT] pkt len %hu. @bt_at_cmd_l2cap.c(44),INFO" ID="0xd88e0165" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02X  @bt_at_cmd_l2cap.c(46),INFO" ID="0xd88e0175" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="============================================== @bt_at_cmd_l2cap.c(48),INFO" ID="0xd88e0185" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTH][AT] reg psm: %hu. @bt_at_cmd_l2cap.c(54),INFO" ID="0xd88e01b5" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[BTH][AT] credit channel request addr 0x%02x:xx:xx:xx:%02x:%02x psm %hu result %hu. @bt_at_cmd_l2cap.c(66),INFO" ID="0xd88e0215" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[BTH][AT] credit channel request addr 0x%02x:xx:xx:xx:%02x:%02x psm %hu result %hu. @bt_at_cmd_l2cap.c(74),INFO" ID="0xd88e0255" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BTH][AT] l2cap disconnect addr 0x%02x:xx:xx:xx:%02x:%02x result %hu. @bt_at_cmd_l2cap.c(86),INFO" ID="0xd88e02b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_reg_psm fail! @bt_at_cmd_l2cap.c(102),ERROR" ID="0xd88e0332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_reg_psm fail! @bt_at_cmd_l2cap.c(112),ERROR" ID="0xd88e0382" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_unreg_psm fail! @bt_at_cmd_l2cap.c(134),ERROR" ID="0xd88e0432" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_unreg_psm fail! @bt_at_cmd_l2cap.c(141),ERROR" ID="0xd88e046a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_credit_channel_req fail! @bt_at_cmd_l2cap.c(160),ERROR" ID="0xd88e0502" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_credit_channel_req fail! @bt_at_cmd_l2cap.c(174),ERROR" ID="0xd88e0572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_channel_tx fail! @bt_at_cmd_l2cap.c(192),ERROR" ID="0xd88e0602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_channel_tx param fail! @bt_at_cmd_l2cap.c(198),ERROR" ID="0xd88e0632" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_channel_tx malloc fail! @bt_at_cmd_l2cap.c(204),ERROR" ID="0xd88e0662" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] l2cap_channel_tx param fail!, length:(0x%04x) @bt_at_cmd_l2cap.c(215),ERROR" ID="0xd88e06ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts l2cap data send fail! @bt_at_cmd_l2cap.c(240),ERROR" ID="0xd88e0782" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts l2cap data send param fail! @bt_at_cmd_l2cap.c(246),ERROR" ID="0xd88e07b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts l2cap data send malloc fail! @bt_at_cmd_l2cap.c(252),ERROR" ID="0xd88e07e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_credit_channel_req fail! @bt_at_cmd_l2cap.c(279),ERROR" ID="0xd88e08ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_credit_channel_req fail! @bt_at_cmd_l2cap.c(288),ERROR" ID="0xd88e0902" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Error] l2cap_credit_channel_flow_control invalid peer:0x%02x:*:*:*:0x%02x:0x%02x! @bt_at_cmd_l2cap.c(295),ERROR" ID="0xd88e093a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts l2cap connect fail! @bt_at_cmd_l2cap.c(313),ERROR" ID="0xd88e09ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bts l2cap connect fail! @bt_at_cmd_l2cap.c(321),ERROR" ID="0xd88e0a0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_disconnect fail! @bt_at_cmd_l2cap.c(340),ERROR" ID="0xd88e0aa2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] l2cap_disconnect fail! @bt_at_cmd_l2cap.c(348),ERROR" ID="0xd88e0ae2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] l2cap_disconnect invalid cid:0x%04x! @bt_at_cmd_l2cap.c(355),ERROR" ID="0xd88e0b1a" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="sdu_interval_m2s1=%d, sdu_interval_m2s2=%d, sdu_interval_m2s3=%d @llc_cis_hci_ram.c(77),INFO" ID="0x8a42026d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sdu_interval_s2m1=%d, sdu_interval_s2m2=%d, sdu_interval_s2m3=%d @llc_cis_hci_ram.c(79),INFO" ID="0x8a42027d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ft_m2s=%d, ft_s2m=%d, slaves_clock_acc=%d, packing=%d @llc_cis_hci_ram.c(82),INFO" ID="0x8a420295" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="framing=%d, cis_count=%d, cis_id=%d, nse=%d @llc_cis_hci_ram.c(84),INFO" ID="0x8a4202a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="max_sdu_m2s=%d, max_sdu_s2m=%d, max_pdu_m2s=%d, max_pdu_s2m=%d @llc_cis_hci_ram.c(86),INFO" ID="0x8a4202b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ft_m2s=%d, ft_s2m=%d, bn_m2s=%d, bn_s2m=%d @llc_cis_hci_ram.c(88),INFO" ID="0x8a4202c5" />
+			</MSG_LOG>

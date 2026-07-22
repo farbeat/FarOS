@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BMS] GtExtractorUtil::ExtractFileHeaderInfo @gt_extractor_util.cpp(104),INFO" ID="0xe0480345" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read name Int fail @gt_extractor_util.cpp(138),ERROR" ID="0xe0480452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read fileName fail @gt_extractor_util.cpp(143),ERROR" ID="0xe048047a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read path Int fail @gt_extractor_util.cpp(149),ERROR" ID="0xe04804aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read relativeFilePath fail @gt_extractor_util.cpp(153),ERROR" ID="0xe04804ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read fail size fail @gt_extractor_util.cpp(160),ERROR" ID="0xe0480502" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read name Int fail @gt_extractor_util.cpp(170),ERROR" ID="0xe0480552" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read fileName fail @gt_extractor_util.cpp(175),ERROR" ID="0xe048057a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read path Int fail @gt_extractor_util.cpp(181),ERROR" ID="0xe04805aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] Read fail size fail @gt_extractor_util.cpp(192),ERROR" ID="0xe0480602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] malloc destPath addr fail @gt_extractor_util.cpp(208),ERROR" ID="0xe0480682" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] strcat destPath path fail @gt_extractor_util.cpp(212),ERROR" ID="0xe04806a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] strcat file path fail @gt_extractor_util.cpp(225),ERROR" ID="0xe048070a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] copy file data fail @gt_extractor_util.cpp(230),ERROR" ID="0xe0480732" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] open file when copy file data, filePath=%s @gt_extractor_util.cpp(247),ERROR" ID="0xe04807ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] read file when copy file data @gt_extractor_util.cpp(259),ERROR" ID="0xe048081a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] write file when copy file data @gt_extractor_util.cpp(266),ERROR" ID="0xe0480852" />
+			</MSG_LOG>

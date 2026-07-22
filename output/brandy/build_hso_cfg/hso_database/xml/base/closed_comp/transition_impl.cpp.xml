@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="animator create failed @transition_impl.cpp(33),ERROR" ID="0xe04c010a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="animator not initial or has been started @transition_impl.cpp(58),INFO" ID="0xe04c01d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="animator not initial or is not running @transition_impl.cpp(72),INFO" ID="0xe04c0245" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="transformType not set @transition_impl.cpp(124),INFO" ID="0xe04c03e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="time arrived @transition_impl.cpp(267),DBG" ID="0xe04c085e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="animation nothing to do. @transition_impl.cpp(329),INFO" ID="0xe04c0a4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="animation iterations should set between 1 and 127 @transition_impl.cpp(348),ERROR" ID="0xe04c0ae2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="repeat @transition_impl.cpp(385),DBG" ID="0xe04c0c0e" />
+			</MSG_LOG>

@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="add failed, view is nullptr @ui_coverflow_view2.cpp(53),ERROR" ID="0xcb4601aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add failed, the view type is not support, only suppot UITransformGroup. @ui_coverflow_view2.cpp(58),ERROR" ID="0xcb4601d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="insert failed, view is nullptr @ui_coverflow_view2.cpp(76),ERROR" ID="0xcb460262" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add failed, the view type is not support, only suppot UITransformGroup. @ui_coverflow_view2.cpp(81),ERROR" ID="0xcb46028a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove failed, view is nullptr @ui_coverflow_view2.cpp(104),ERROR" ID="0xcb460342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove failed, the view type is not support, only suppot UITransformGroup. @ui_coverflow_view2.cpp(109),ERROR" ID="0xcb46036a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove failed, view parent is nullptr @ui_coverflow_view2.cpp(115),ERROR" ID="0xcb46039a" />
+			</MSG_LOG>

@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[BLE]dis client discovery character ret:%u  @dis_profile_client.c(262),INFO" ID="0xd83e0835" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]dis client discovery character cbk, uuid:0x%02x%02x, value_handle:%hu, properties: %u @dis_profile_client.c(288),INFO" ID="0xd83e0905" />
+			</MSG_LOG>

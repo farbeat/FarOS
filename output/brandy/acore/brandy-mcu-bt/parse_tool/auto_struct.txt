@@ -1,0 +1,123 @@
+typedef unsigned char td_bool;
+typedef char td_char;
+typedef unsigned char td_uchar;
+typedef short td_s16;
+typedef unsigned short td_u16;
+typedef short unsigned int td_u16;
+typedef int td_s32;
+typedef unsigned int td_u32;
+typedef long long td_s64;
+typedef unsigned long long td_u64;
+typedef float td_float;
+typedef double td_double;
+typedef td_u32 uint32_t;
+typedef td_uchar uint8_t;
+typedef struct {
+    uint32_t baud_rate;
+    uint8_t data_bits;
+    uint8_t stop_bits;
+    uint8_t parity;
+    uint8_t pad;
+}uart_attr;
+typedef uart_attr uart_attr_t;
+typedef td_u16 uint16_t;
+typedef struct {
+    uint16_t key;
+    uint16_t crc;
+}random_type_835;
+typedef random_type_835 nv_read_input_t;
+typedef struct {
+    td_bool permanent;
+    td_bool encrypted;
+    td_bool non_upgrade;
+    uint8_t reserve;
+}random_type_838;
+typedef random_type_838 nv_attr;
+typedef struct {
+    uint32_t ret;
+    uint16_t key;
+    uint16_t length;
+    nv_attr attr;
+    uint8_t value[0];
+}random_type_837;
+typedef random_type_837 nv_read_with_attr_output_t;
+typedef struct {
+    uint16_t key;
+    uint16_t length;
+    td_bool permanent;
+    td_bool encrypted;
+    td_bool non_upgrade;
+    uint8_t value[0];
+}random_type_840;
+typedef random_type_840 nv_write_with_attr_input_t;
+typedef struct {
+    uint32_t ret;
+    uint32_t key;
+}random_type_854;
+typedef random_type_854 nv_write_with_attr_output_t;
+typedef struct {
+    uint32_t total_space;
+    uint32_t used_space;
+    uint32_t reclaimable_space;
+    uint32_t corrupted_space;
+    uint32_t max_key_space;
+}random_type_850;
+typedef random_type_850 nv_store_status_t;
+typedef struct {
+    uint16_t store_id;
+    uint8_t ver;
+    uint8_t page_index;
+    uint32_t inverted_details_word;
+    uint32_t sequence_number;
+    uint32_t inverted_sequence_number;
+    uint32_t total_space;
+    uint32_t used_space;
+    uint32_t reclaimable_space;
+    uint32_t corrupted_space;
+    uint32_t max_key_space;
+    uint32_t first_writable_location;
+}random_type_855;
+typedef random_type_855 nv_page_usage_out;
+typedef struct {
+    uint32_t package_len;
+}upg_prepare_info;
+typedef upg_prepare_info upg_prepare_info_t;
+typedef td_u32 uintptr_t;
+typedef struct {
+    uintptr_t start_addr;
+    uint32_t cnt;
+}random_type_875;
+typedef random_type_875 mem_read_cmd_t;
+typedef struct {
+    uintptr_t start_addr;
+    uint32_t size;
+}random_type_877;
+typedef random_type_877 mem_read_ind_head_t;
+typedef struct {
+    mem_read_ind_head_t head;
+    uint32_t data[16];
+}random_type_876;
+typedef random_type_876 mem_read32_ind_t;
+typedef struct {
+    mem_read_ind_head_t head;
+    uint16_t data[32];
+}random_type_878;
+typedef random_type_878 mem_read16_ind_t;
+typedef struct {
+    mem_read_ind_head_t head;
+    uint8_t data[64];
+}random_type_879;
+typedef random_type_879 mem_read8_ind_t;
+typedef struct {
+    uintptr_t start_addr;
+    uint32_t val;
+}random_type_880;
+typedef random_type_880 mem_write_cmd_t;
+typedef struct {
+    uint32_t ret;
+}random_type_881;
+typedef random_type_881 mem_write_ind_t;
+typedef struct {
+    uint32_t id;
+}random_type_886;
+typedef random_type_886 diag_dbg_stat_query_t;

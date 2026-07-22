@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="new LangBinInfo failed @font_global_manager.cpp(37),ERROR" ID="0xcb12012a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the filename of language resource is invalid @font_global_manager.cpp(47),ERROR" ID="0xcb12017a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory is not enough. @font_global_manager.cpp(55),ERROR" ID="0xcb1201ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy filename error! @font_global_manager.cpp(59),ERROR" ID="0xcb1201da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the langbin filename is null @font_global_manager.cpp(108),ERROR" ID="0xcb120362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="invalid path. @font_global_manager.cpp(118),ERROR" ID="0xcb1203b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="file %s open failed @font_global_manager.cpp(127),ERROR" ID="0xcb1203fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="can not malloc memory @font_global_manager.cpp(136),ERROR" ID="0xcb120442" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="fread failed errno : %d @font_global_manager.cpp(141),ERROR" ID="0xcb12046a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="textId %u is invalid @font_global_manager.cpp(163),ERROR" ID="0xcb12051a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="textId %u is invalid @font_global_manager.cpp(175),ERROR" ID="0xcb12057a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="language has not set @font_global_manager.cpp(201),ERROR" ID="0xcb12064a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="can not get the langbininfo @font_global_manager.cpp(212),ERROR" ID="0xcb1206a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="can not get the langbininfo @font_global_manager.cpp(224),ERROR" ID="0xcb120702" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="can not malloc memory %s @font_global_manager.cpp(238),ERROR" ID="0xcb120772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the resFile is nullptr @font_global_manager.cpp(272),ERROR" ID="0xcb120882" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="the default is bigger than the total @font_global_manager.cpp(276),ERROR" ID="0xcb1208a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="load langId %u failed @font_global_manager.cpp(300),ERROR" ID="0xcb120962" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not view group @font_global_manager.cpp(312),WARNING" ID="0xcb1209c3" />
+			</MSG_LOG>

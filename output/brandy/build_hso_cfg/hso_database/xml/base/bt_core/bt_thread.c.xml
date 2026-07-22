@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][BTC]bt_set_thread_event Open MsgQueue Fail @bt_thread.c(115),ERROR" ID="0x8924039a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BTC]bt_set_thread_event LOS_MsgChl_Write Fail ret:0x%x @bt_thread.c(122),ERROR" ID="0x892403d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BT] entry bt_thread_msg_close_handle @bt_thread.c(133),WARNING" ID="0x8924042b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DSP2BT]dsp power on, notify sco start tog. @bt_thread.c(176),INFO" ID="0x89240585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]bt_handle_audio_from_dsp No rx buff! @bt_thread.c(203),ERROR" ID="0x8924065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt_get_audio_from_dsp invalid g_sco_link_id @bt_thread.c(254),INFO" ID="0x892407f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_adp_acquire_stream failed, reason = %d @bt_thread.c(262),INFO" ID="0x89240835" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="something error in bt_handle_audio_from_dsp @bt_thread.c(275),INFO" ID="0x8924089d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi_adp_release_stream failed, reason = %d @bt_thread.c(280),INFO" ID="0x892408c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BTC][HCI][TX][ERR]MallocFail @bt_thread.c(522),ERROR" ID="0x89241052" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BTC][HCI][TX][ERR]MemCpyFail2 @bt_thread.c(561),ERROR" ID="0x8924118a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTC][HCI][TX]bt_btc2bth_msg_handle ret_err:0x%x @bt_thread.c(562),ERROR" ID="0x89241192" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTC][HCI][CMD]bt_btc2bth_msg_handle ret:0x%x @bt_thread.c(579),ERROR" ID="0x8924121a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTC][HCI][TX]bt_get_msg2os ret_err:0x%x @bt_thread.c(606),ERROR" ID="0x892412f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTC][HCI][CMD]bt_get_msg2os ret:0x%x @bt_thread.c(616),ERROR" ID="0x89241342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][ECC]ECC SEM NEW FAILED! @bt_thread.c(683),ERROR" ID="0x8924155a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][ECC]ECC MUTEX NEW FAILED @bt_thread.c(686),ERROR" ID="0x89241572" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][param] BTC TopOfStack(%x), StackSize(%x) @bt_thread.c(741),INFO" ID="0x8924172d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT]bt_run_state_report OK @bt_thread.c(801),INFO" ID="0x8924190d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][BT]g_BtRunState=%d @bt_thread.c(816),INFO" ID="0x89241985" />
+			</MSG_LOG>

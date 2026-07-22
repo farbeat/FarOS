@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[NV] nv_direct_write_with_attr: len exceeds the max size. key_id = 0x%x @soc_nv_storage_handle.c(112),ERROR" ID="0xa0680382" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV] nv_direct_write_with_attr: semaphore error! @soc_nv_storage_handle.c(117),ERROR" ID="0xa06803aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NV] nv_direct_write_with_attr: operation not allowed! key_id = 0x%x @soc_nv_storage_handle.c(129),ERROR" ID="0xa068040a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[NV] nv_direct_write_with_attr failed. key_id = 0x%x, ret = 0x%x @soc_nv_storage_handle.c(146),ERROR" ID="0xa0680492" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="nv init success! @soc_nv_storage_handle.c(468),INFO" ID="0xa0680ea5" />
+			</MSG_LOG>

@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="cpu_utils_sys_reboot_req reason is 0x%x. @cpu_utils.c(154),ERROR" ID="0xa01804d2" />
+			</MSG_LOG>

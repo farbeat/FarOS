@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="exc_info_write error. @zdiag_adapt_sdt.c(271),ERROR" ID="0xa086087a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ipc_check_status error. core = %d @zdiag_adapt_sdt.c(399),ERROR" ID="0xa0860c7a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="core log level %d, %d, %d OK @zdiag_adapt_sdt.c(404),INFO" ID="0xa0860ca5" />
+			</MSG_LOG>

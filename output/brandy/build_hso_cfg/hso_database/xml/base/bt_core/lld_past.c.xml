@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_per_sync_evt_cnt_calc:CEref[%d],CEc[%d],PEa[%d],PEb[%d] @lld_past.c(89),INFO" ID="0x89ba02cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLD]lld_per_sync_evt_cnt_calc:PEc[%d] @lld_past.c(102),INFO" ID="0x89ba0335" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD]lld_per_sync_drift_calc:mst_sca=%d,sca_drift=%d @lld_past.c(136),INFO" ID="0x89ba0445" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_per_sync_elt_ts_calc:con_evt_counter=%d,con_elt_ts=0x%x,con_intv=0x%x,per_intv=0x%x @lld_past.c(193),INFO" ID="0x89ba060d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_per_sync_elt_ts_calc:time_diff=%d,time_offset=%d,basetime_cnt=0x%x,finetime_cnt=0x%x @lld_past.c(197),INFO" ID="0x89ba062d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_per_sync_syncinfo_time_get:sync_offset[0x%x],offset_value[0x%x],offset_units[%d],offset_adjust[%d] @lld_past.c(232),INFO" ID="0x89ba0745" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLD]lld_per_scan_start:create_sync or new_intv malloc fail @lld_past.c(246),ERROR" ID="0x89ba07b2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_per_scan_start:rx_phy[%d],syncinfo_counter[%d],syncinfo_time[%d],intv[%d] @lld_past.c(310),INFO" ID="0x89ba09b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_per_scan_start:elt_ts[0x%x],elt_end_ts[0x%x],window[0x%x],last_sync_ts[0x%x] @lld_past.c(363),INFO" ID="0x89ba0b5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LLD]lld_per_scan_start:elt ea offset req failed @lld_past.c(365),ERROR" ID="0x89ba0b6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_per_scan_trigger:evt_defer is null @lld_past.c(395),WARNING" ID="0x89ba0c5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD]lld_per_scan_trigger:sync start ok @lld_past.c(398),INFO" ID="0x89ba0c75" />
+			</MSG_LOG>

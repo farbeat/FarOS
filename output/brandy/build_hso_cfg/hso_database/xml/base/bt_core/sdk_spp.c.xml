@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @sdk_spp.c(176),ERROR" ID="0x8b6c0582" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sdk][spp]read_stream failed ret=0x%x @sdk_spp.c(181),INFO" ID="0x8b6c05ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @sdk_spp.c(188),ERROR" ID="0x8b6c05e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="memcpy failed len=%d @sdk_spp.c(197),ERROR" ID="0x8b6c062a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="spp rcv data hdl=0x%x len=%d @sdk_spp.c(203),INFO" ID="0x8b6c065d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memory alloc failed @sdk_spp.c(257),ERROR" ID="0x8b6c080a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[sdk][spp]send_app_event: hdl=0x%x ev=0x%x cnt=%d @sdk_spp.c(264),ERROR" ID="0x8b6c0842" />
+			</MSG_LOG>

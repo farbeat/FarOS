@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_4k_mouse_input len %d invaild! @mouse_4k.c(61),ERROR" ID="0xd89801ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_4k_mouse_input len %d invaild! @mouse_4k.c(68),ERROR" ID="0xd8980222" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] sdk_em_value_set len %d invaild! @mouse_4k.c(84),ERROR" ID="0xd89802a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] sdk_em_value_get len %d invaild! @mouse_4k.c(98),ERROR" ID="0xd8980312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Info] bt_at_cmd_mouse_rx_int_enable! @mouse_4k.c(188),INFO" ID="0xd89805e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Info] bt_at_cmd_mouse_tx_int_enable! @mouse_4k.c(209),INFO" ID="0xd898068d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Info] bt_at_cmd_mouse_rx_info_print rx_total_counter = %d, rx_mis_counter:%d! @mouse_4k.c(219),INFO" ID="0xd89806dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Info] bt_at_cmd_mouse_rx_info_print tx_data_counter:%d! @mouse_4k.c(229),INFO" ID="0xd898072d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_update_mouse_tx_mode len %d invaild! @mouse_4k.c(238),ERROR" ID="0xd8980772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_update_mouse_tx_mode param null! @mouse_4k.c(243),ERROR" ID="0xd898079a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_update_mouse_tx_mode error param! @mouse_4k.c(250),ERROR" ID="0xd89807d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_at_cmd_update_mouse_tx_mode g_mouse_mode:%x! @mouse_4k.c(255),INFO" ID="0xd89807fd" />
+			</MSG_LOG>

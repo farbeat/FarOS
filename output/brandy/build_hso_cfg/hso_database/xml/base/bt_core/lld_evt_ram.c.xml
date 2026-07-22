@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[DUAL_ANT]lld_dual_ant_statistic: ico_conhdl=0x%x, current_ant=%d, avg_rssi=%d, per=%d @lld_evt_ram.c(211),INFO" ID="0x8a28069d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DUAL_ANT]switch_check: per up to PER_THRESHOLD @lld_evt_ram.c(241),INFO" ID="0x8a28078d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DUAL_ANT]switch_check: switch exec timer TO! @lld_evt_ram.c(244),INFO" ID="0x8a2807a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DUAL_ANT]switch_back:last_avg_rssi=%d, last_per=%d, rx_total_pkt=%d, per_threshold=%d @lld_evt_ram.c(275),INFO" ID="0x8a28089d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DUAL_ANT]switch_succ:last_avg_rssi=%d, last_per=%d, rx_total_pkt=%d, per_threshold=%d @lld_evt_ram.c(279),INFO" ID="0x8a2808bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_restart_mst_mode_next_interval, conhdl=%d, next_event_counter=%d, ts=%d, duration_min=%d @lld_evt_ram.c(353),INFO" ID="0x8a280b0d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_restart_slave_mode, next_event_counter=%d, rxwin=%d, ts=%d, fcntoffset=%d @lld_evt_ram.c(439),INFO" ID="0x8a280dbd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][AE]lld_adv_channel_random_config: adv_channel = %d,adv_step = %d @lld_evt_ram.c(787),INFO" ID="0x8a28189d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR][LLD]lld_evt_end:mode=%d, ts=0x%x, cur_clk=0x%x, evt-&gt;interval=%d @lld_evt_ram.c(837),ERROR" ID="0x8a281a2a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_evt_end:defer_elt=%d, conflict=%d, rx_desc_cnt=%d, evt_state=%d @lld_evt_ram.c(866),INFO" ID="0x8a281b15" />
+			</MSG_LOG>

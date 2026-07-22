@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="bt_init start... em start addr is 0x%x,em_size is 0x%x @bt_main.c(445),INFO" ID="0x89220ded" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]bt init pmu state change fail @bt_main.c(449),ERROR" ID="0x89220e0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT]bt_hal_phy_init started... @bt_main.c(469),INFO" ID="0x89220ead" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT]init_sleep started... @bt_main.c(474),INFO" ID="0x89220ed5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT]intc_init started... @bt_main.c(477),INFO" ID="0x89220eed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BT]bt param config started... @bt_main.c(480),INFO" ID="0x89220f05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]bt init end pmu state change fail @bt_main.c(501),ERROR" ID="0x89220faa" />
+			</MSG_LOG>

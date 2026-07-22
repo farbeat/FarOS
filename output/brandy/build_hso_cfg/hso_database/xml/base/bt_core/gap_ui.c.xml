@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memset failed @gap_ui.c(1251),ERROR" ID="0x8b5c271a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_ui.c(1255),ERROR" ID="0x8b5c273a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_ui.c(1259),ERROR" ID="0x8b5c275a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_ui.c(2025),ERROR" ID="0x8b5c3f4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP] create_connection_whitelist start @gap_ui.c(2349),INFO" ID="0x8b5c496d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_ui.c(2457),ERROR" ID="0x8b5c4cca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SADP][GAP] set_local_addr_cbk result is %u @gap_ui.c(2933),INFO" ID="0x8b5c5bad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP]set br sc cmd error result=0x%x @gap_ui.c(2959),ERROR" ID="0x8b5c5c7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP]set br sc status=0x%x @gap_ui.c(2964),ERROR" ID="0x8b5c5ca2" />
+			</MSG_LOG>

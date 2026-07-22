@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LMP]lc_send_lmp:buf_elt is NULL @lc_lmppdu.c(93),ERROR" ID="0x887402ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LMP]lc_send_lmp:opcode = %d, ext_opcode = %d @lc_lmppdu.c(112),WARNING" ID="0x88740383" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lc_send_pdu_not_acc:reason = %d @lc_lmppdu.c(145),INFO" ID="0x8874048d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LMP]lc_send_pdu_not_acc_ext4:reason = %d @lc_lmppdu.c(159),INFO" ID="0x887404fd" />
+			</MSG_LOG>

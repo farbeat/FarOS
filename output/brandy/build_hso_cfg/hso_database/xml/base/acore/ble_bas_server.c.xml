@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bas server add cfd handle:%hu. @ble_bas_server.c(48),INFO" ID="0xd8360185" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bas server add cccd handle:%hu. @ble_bas_server.c(71),INFO" ID="0xd836023d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] bas server add character handle:%hu value_handle:%hu. @ble_bas_server.c(92),INFO" ID="0xd83602e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bas server add service handle:%hu. @ble_bas_server.c(116),INFO" ID="0xd83603a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bas server beginning add service @ble_bas_server.c(128),INFO" ID="0xd8360405" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bas start service success,service_att_handle:%hu @ble_bas_server.c(167),INFO" ID="0xd836053d" />
+			</MSG_LOG>

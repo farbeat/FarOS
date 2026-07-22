@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[sdk]gatt_get_descriptor_value memcpy failed @sdk_gatt.c(387),ERROR" ID="0x8b800c1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_get_descriptor_value&#160;memcpy_s&#160;error @sdk_gatt.c(571),ERROR" ID="0x8b8011da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic mem_new failed @sdk_gatt.c(794),ERROR" ID="0x8b8018d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic memcpy failed @sdk_gatt.c(799),ERROR" ID="0x8b8018fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic memcpy failed @sdk_gatt.c(808),ERROR" ID="0x8b801942" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="btsdk gatt get characteristics by uuid start_handle:0x%x end_handle:0x%x, uuid:0x%x @sdk_gatt.c(837),INFO" ID="0x8b801a2d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="btsdk gatt get characteristic value by uuid start_handle:0x%x end_handle:0x%x @sdk_gatt.c(885),INFO" ID="0x8b801bad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[sdk]gatt_get_descriptor_by_handle start_handle:0x%x end_handle:0x%x @sdk_gatt.c(908),INFO" ID="0x8b801c65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sdk]gatt_get_multiple_characteristics_by_handle handle_count:0x%x @sdk_gatt.c(929),INFO" ID="0x8b801d0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_set_gap_ui_attributes&#160;memcpy_s&#160;error @sdk_gatt.c(1207),ERROR" ID="0x8b8025ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_set_gap_ui_attributes&#160;memcpy_s&#160;error @sdk_gatt.c(1220),ERROR" ID="0x8b802622" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_get_gap_ui_attributes&#160;memcpy_s&#160;error @sdk_gatt.c(1292),ERROR" ID="0x8b802862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_send_response&#160;memcpy_s&#160;error @sdk_gatt.c(1890),ERROR" ID="0x8b803b12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_change_descriptor_value&#160;memcpy_s&#160;error @sdk_gatt.c(1971),ERROR" ID="0x8b803d9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_notify_characteristic_changed&#160;memcpy_s&#160;error @sdk_gatt.c(2016),ERROR" ID="0x8b803f02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]gatt_notify_characteristic_changed&#160;memcpy_s&#160;error @sdk_gatt.c(2023),ERROR" ID="0x8b803f3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]can't find hdl by uuid @sdk_gatt.c(2214),ERROR" ID="0x8b804532" />
+			</MSG_LOG>

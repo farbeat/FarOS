@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ams register feature failure! @ability_mgr_slite_feature.cpp(47),ERROR" ID="0xe01a017a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ams feature init %s&quot;, apiResult ? &quot;success&quot; : &quot;failure @ability_mgr_slite_feature.cpp(54),INFO" ID="0xe01a01b5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="AbilityMgrSliteFeature::OnFeatureInitialize featureId = %d, queueId = %d, serviceId = %d @ability_mgr_slite_feature.cpp(78),INFO" ID="0xe01a0275" />
+			</MSG_LOG>

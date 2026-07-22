@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="bth change global_value %d to %d! @ble_general_gap.c(47),INFO" ID="0x8dde017d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble core: param is null @ble_general_gap.c(97),ERROR" ID="0x8dde030a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble core: The link does not exist @ble_general_gap.c(104),ERROR" ID="0x8dde0342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR] ble general set phy memcpy fail. @ble_general_gap.c(312),ERROR" ID="0x8dde09c2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble general set phy hdl:%x all:%x rx:%x tx:%x. @ble_general_gap.c(317),INFO" ID="0x8dde09ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR] ble general set len memcpy fail. @ble_general_gap.c(329),ERROR" ID="0x8dde0a4a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general set len hdl:%x max_oct:%x max_tm:%x @ble_general_gap.c(333),INFO" ID="0x8dde0a6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general get white list pkt_len = %d @ble_general_gap.c(382),INFO" ID="0x8dde0bf5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general get white list result memcpy fail: %d @ble_general_gap.c(391),ERROR" ID="0x8dde0c3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general get white list white_addr_count = %d @ble_general_gap.c(413),INFO" ID="0x8dde0ced" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general get white list: 0x%x:**:**:**:0x%x:0x%x @ble_general_gap.c(419),INFO" ID="0x8dde0d1d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble general set connect param interval_min:%d interval_max:%d,interval_coded_min:%d,interval coded_max:%d @ble_general_gap.c(492),INFO" ID="0x8dde0f65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general read remote rssi handle:%d. @ble_general_gap.c(519),INFO" ID="0x8dde103d" />
+			</MSG_LOG>

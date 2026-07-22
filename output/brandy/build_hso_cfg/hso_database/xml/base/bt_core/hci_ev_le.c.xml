@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[HCI][LE_CONN_COMPLETE] STATUS=0x%x role:%d conn_handle:%d @hci_ev_le.c(410),ERROR" ID="0x8ad00cd2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][LE_CONN_COMPLETE] addr=%02x******%02x%02x addr_type:%d @hci_ev_le.c(417),ERROR" ID="0x8ad00d0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI][LE_META_ISO_EV] it is iso event @hci_ev_le.c(536),INFO" ID="0x8ad010c5" />
+			</MSG_LOG>

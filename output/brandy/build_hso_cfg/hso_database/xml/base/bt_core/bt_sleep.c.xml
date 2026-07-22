@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[PMU][ERROR]Wakeup isr come more than once, sleep_int_id:%d, wakeup_int_id:%d @bt_sleep.c(139),WARNING" ID="0x88f0045b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]wakeup pmu state change fail @bt_sleep.c(147),ERROR" ID="0x88f0049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="g_clock_32k_100x = %d @bt_sleep.c(178),INFO" ID="0x88f00595" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][SLEEP]bt_program_sleep clk(%d)dur(%d)glbcnt(0x%x) @bt_sleep.c(224),INFO" ID="0x88f00705" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][SLEEP]wakeup_end clk(%d) sleep_time(%d) sleep_dur(%d) @bt_sleep.c(267),ERROR" ID="0x88f0085a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][SLEEP]wakeup_end clk(%d) fincnt(%d)glbcnt(0x%x) @bt_sleep.c(271),INFO" ID="0x88f0087d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]btc sleep pmu state change fail @bt_sleep.c(313),ERROR" ID="0x88f009ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[PMU][WARNING]Set osc_en down more than once, sleep_int_id:%d, wakeup_int_id:%d @bt_sleep.c(322),WARNING" ID="0x88f00a13" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]sleep time is too short! @bt_sleep.c(372),WARNING" ID="0x88f00ba3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][SLEEP]osc_en wakeup isr error! @bt_sleep.c(376),ERROR" ID="0x88f00bc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PMU][ERROR]extern wakeup pmu state change fail @bt_sleep.c(392),ERROR" ID="0x88f00c42" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][SLEEP]extern wakeup btc clk(%d)slp_dur_slot(%d)glbcnt(%d) @bt_sleep.c(398),INFO" ID="0x88f00c75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="g_dfx_time:%d @bt_sleep.c(418),INFO" ID="0x88f00d15" />
+			</MSG_LOG>

@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="audio_debug ipc_send dsp begin,sequence_number = 0x%x,length = 0x%x. @a2dp_hlp_ram.c(93),INFO" ID="0x8ba002ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="audio_debug ready to go =======ipc_send dsp end===ret = %d. @a2dp_hlp_ram.c(100),INFO" ID="0x8ba00325" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]audio_debug ipc2dsp_msg_str fail @a2dp_hlp_ram.c(102),WARNING" ID="0x8ba00333" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="a2dp_audio: save active device addr 0x%02x:0x%02x:**:**:**:0x%02x @a2dp_hlp_ram.c(521),ERROR" ID="0x8ba0104a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: memcpy_s failed @a2dp_hlp_ram.c(523),ERROR" ID="0x8ba0105a" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_ae_per_sync_start:evt_defer is null @lld_per_pdu.c(76),WARNING" ID="0x897a0263" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD]lld_ae_per_sync_start:sync start ok @lld_per_pdu.c(79),INFO" ID="0x897a027d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLD]lld_ae_per_sync_start:not start, syncinfo_time=0x%x, pdu_dur=%d @lld_per_pdu.c(84),WARNING" ID="0x897a02a3" />
+			</MSG_LOG>

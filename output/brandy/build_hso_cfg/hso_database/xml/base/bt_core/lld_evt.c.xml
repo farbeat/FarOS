@@ -1,0 +1,64 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_evt_check_state_flag:to delete elt=0x%x, elt_ts=0x%x, mode=%d, conhdl=%d @lld_evt.c(160),INFO" ID="0x88600505" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR][LLD]BLE ERROR TXDESC is NULL conhdl=%d, conflict=%d, finetimecnt=%d, ts=%d @lld_evt.c(185),ERROR" ID="0x886005ca" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR][LLD]AE TXDESC is NULL conhdl=0x%x, conflict=%d, finetimecnt=0x%x, ts=0x%x @lld_evt.c(198),ERROR" ID="0x88600632" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_evt_send_ind:mode=0x%x, conhdl=0x%x, evt=0x%x @lld_evt.c(266),INFO" ID="0x88600855" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD]lld_evt_flush_common:elt is null @lld_evt.c(310),INFO" ID="0x886009b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_rxwin_update, sync_win_size=%d, drift_winsize=%d @lld_evt.c(572),WARNING" ID="0x886011e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_get_offset_used @lld_evt.c(632),WARNING" ID="0x886013c3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_evt_init_scan_check:wait to delete elt=0x%x, elt_ts=0x%x, mode=%d @lld_evt.c(899),INFO" ID="0x88601c1d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO_ACL] restart OFF, timestamp=%d, finetime_cnt=%d, counter=%d, rxwin=%d @lld_evt.c(1082),INFO" ID="0x886021d5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_evt_set_acl_not_in_ea_flag, acl_syncp_timestamp=%d, acl_syncp_point=%d, last_sync_event_counter=%d @lld_evt.c(1095),INFO" ID="0x8860223d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_set_acl_not_in_ea_flag, ico_syncp_timestamp=%d, ico_syncp_point=%d, ico_sync_event_counter=%d, diff=%d @lld_evt.c(1101),INFO" ID="0x8860226d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[DEBUG] lld_evt_test_mode_restart conhdl 0x%x, counter 0x%x, freq %d @lld_evt.c(1281),WARNING" ID="0x8860280b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LLD]lld_evt_elt_insert:elt 0x%x failed in mode %d, asap state %d, prio %d @lld_evt.c(1355),WARNING" ID="0x88602a5b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LLD]lld_evt_elt_insert, duration_min[%d], timestamp[%d], asap_limit[%d], mode[%d] @lld_evt.c(1387),WARNING" ID="0x88602b5b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LLD]lld_evt_elt_insert:elt NULL LR(0x%x) @lld_evt.c(1448),ERROR" ID="0x88602d42" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][BLE]lld_evt_defered_elt_check count[%d]&gt;cnt[%d]  @lld_evt.c(1499),WARNING" ID="0x88602edb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[lld_evt]reach ico instant conhdl=%d, counter=%d, time=0x%x, offset=%d  @lld_evt.c(1529),INFO" ID="0x88602fcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="elt_to_delete LLD_EVT_ICO_MST_MODE! @lld_evt.c(1555),WARNING" ID="0x8860309b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLD]lld_evt_elt_delete:elt 0x%x in prog list @lld_evt.c(1681),WARNING" ID="0x8860348b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_evt_schedule_next, roll_back=%d, current_ts=%d, ts=%d @lld_evt.c(1758),INFO" ID="0x886036f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_schedule_next,  nb_roll_back_counter=%d, last_sync_counter=%d @lld_evt.c(1762),INFO" ID="0x88603715" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="schedule_next missed_cnt=%d, slot_offset=%d, counter=%d, nb_skip_evt=%d @lld_evt.c(1999),WARNING" ID="0x88603e7b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]move_to_master:mode=%d,conhdl=%d,basetime_cnt=0x%x,finetime_cnt=0x%x @lld_evt.c(2266),INFO" ID="0x886046d5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]lld_evt_move_to_master:mode=%d, conhdl=%d, basetime_cnt=0x%x, finetime_cnt=0x%x @lld_evt.c(2339),INFO" ID="0x8860491d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_sket_isr:mode|et_prio|etptr = 0x%x, sket_clkn = 0x%x @lld_evt.c(2479),INFO" ID="0x88604d7d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_sket_isr: etptr = 0x%x, sket_clkn = 0x%x @lld_evt.c(2481),INFO" ID="0x88604d8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_evt_coex_state_refresh:scan_wait_list-&gt;elt_ptr = NULL @lld_evt.c(2498),ERROR" ID="0x88604e12" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_evt_dump_prog_list:mode=%d,elt_prog=0x%x,elt_prog_ts=0x%x,duration_min=%d @lld_evt.c(2512),INFO" ID="0x88604e85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_evt_dump_wait_list:mode=%d,elt_wait=0x%x,elt_wait_ts=0x%x,duration_min=%d @lld_evt.c(2525),INFO" ID="0x88604eed" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLD]lld_evt_move_to_master:cnx_req_end_ts[0x%x], current_time[0x%x], elt_connect_ts[0x%x], txwinoff[0x%x] @lld_evt.c(2629),INFO" ID="0x8860522d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO]lld_evt_move_to_slave:slot_offset=[%d], winoff_pdu[%d], winsize_pdu[%d] @lld_evt.c(2832),INFO" ID="0x88605885" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_evt_adv_create:adv elt is null @lld_evt.c(2960),WARNING" ID="0x88605c83" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]Ble Statistics: mode=%d, duration_total=0x%x, conflict_times=%d, rcv_err_pkt=%d @lld_evt.c(3044),INFO" ID="0x88605f25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lld_evt_defered_elt_handler,  test end @lld_evt.c(3105),WARNING" ID="0x8860610b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLD]lld_evt_end:RxBufFull currentrxdescptr=0x%x @lld_evt.c(3345),WARNING" ID="0x8860688b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LLD]lld_evt_end:RxBufFull rx_hdl=0x%x, rxptr=0x%x, rxstatus=0x%x, rxclass=0x%x @lld_evt.c(3351),WARNING" ID="0x886068bb" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_evt_try_to_insert_check_2:mode=%d, rx_desc_cnt=%d, past=%d @lld_evt.c(3480),INFO" ID="0x88606cc5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][AE]lld_evt_end aux elt insert fail, restart evt-&gt;mode = %d @lld_evt.c(3542),INFO" ID="0x88606eb5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_get_ico_cs_id, primary_desc=%d, second_desc=%d, primary_conflict=%d, second_conflict=%d @lld_evt.c(3592),INFO" ID="0x88607045" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_evt_get_ico_cs_id2, primary_rem=%d, second_rem=%d, lastcs=%d, primary|second_dbg=0x%x @lld_evt.c(3597),INFO" ID="0x8860706d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]lld_evt_dm_prio_set_or_not:conhdl=%d @lld_evt.c(3714),WARNING" ID="0x88607413" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]evt-&gt;conhdl num out of array bounds @lld_evt.c(3861),ERROR" ID="0x886078aa" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BLE]id=%d, tx_time_total:%d, rx_time_total:%d, ble_statis_clock:%d @lld_evt.c(3870),WARNING" ID="0x886078f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_evt_end_isr:elt=NULL @lld_evt.c(3928),WARNING" ID="0x88607ac3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR][LLD]lld_evt_end_isr:elt=0x%x, sw_idx=%d, hw_idx=%d, apfm=%d @lld_evt.c(3961),ERROR" ID="0x88607bca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLD]lld_evt_end_isr:error_code=0x%x, errint_st=0x%x @lld_evt.c(3963),WARNING" ID="0x88607bdb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_rxhdr_isr:elt=0x%x, elt_ts=0x%x, elt_end_ts_1=0x%x, elt_end_ts_2=0x%x @lld_evt.c(4031),INFO" ID="0x88607dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[VoiceID]voiceid_enable_set:enable=%d @lld_evt.c(4049),INFO" ID="0x88607e8d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[VoiceID] priority before=%d, after=%d, duration_min=%d @lld_evt.c(4082),INFO" ID="0x88607f95" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[VoiceID] priority before=%d, after=%d, duration_min=%d @lld_evt.c(4085),INFO" ID="0x88607fad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_evt_coex_state_refresh:scan_wait_list-&gt;elt_ptr = NULL @lld_evt.c(4172),ERROR" ID="0x88608262" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_evt_slave_param_update_perform,update_offset=%d,update_size=%d,instant=%d @lld_evt.c(4289),WARNING" ID="0x8860860b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_evt_master_param_update_perform:elt_old is null @lld_evt.c(4351),WARNING" ID="0x886087fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLD]lld_evt_master_param_update_perform:elt_new is null @lld_evt.c(4457),WARNING" ID="0x88608b4b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][BLE]lld_evt_elt_delete elt NULL LR(0x%x)  @lld_evt.c(4475),ERROR" ID="0x88608bda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLD]lld_evt_elt_delete:to be delete elt=0x%x @lld_evt.c(4486),WARNING" ID="0x88608c33" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_evt_continue:mode=%d, old_ts=0x%x, new_ts=0x%x, asap_limit=0x%x @lld_evt.c(5061),INFO" ID="0x88609e2d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD]lld_evt_continue:old_ts=0x%x,new_ts=0x%x,asap_limit=0x%x @lld_evt.c(5090),INFO" ID="0x88609f15" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD] lld_evt_page_inq_ts_check curr_time = 0x%x, ts=0x%x, page_backoff_stage = %d @lld_evt.c(5160),INFO" ID="0x8860a145" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]Invalid parameters finetimecnt:%d, subevtint:%d, ico_rx_ok_cnt:%d @lld_evt.c(5335),WARNING" ID="0x8860a6bb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lld_ico_syncp_info rx_ok_cnt=%d, subevtnum=%d, syncp_ts=0x%x, basetime=%d @lld_evt.c(5340),WARNING" ID="0x8860a6e3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_ico_syncp_info conflict=%d, remnum=%d @lld_evt.c(5341),WARNING" ID="0x8860a6eb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[LLD]lld_evt_scan_backoff:stage = %d, inquiry_start_ts = 0x%x, page_start_ts =0x%x, ble_scan_start_ts=0x%x @lld_evt.c(5586),INFO" ID="0x8860ae95" />
+			</MSG_LOG>

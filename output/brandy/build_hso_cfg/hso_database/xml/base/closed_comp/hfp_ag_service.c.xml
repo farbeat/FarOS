@@ -1,0 +1,43 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="malloc errr @hfp_ag_service.c(87),ERROR" ID="0xd82202ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s errr @hfp_ag_service.c(93),ERROR" ID="0xd82202ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @hfp_ag_service.c(118),ERROR" ID="0xd82203b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag disable device fail, addr is not present. @hfp_ag_service.c(140),ERROR" ID="0xd8220462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag disable device fail, dev_handl is not present. @hfp_ag_service.c(145),ERROR" ID="0xd822048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag disable device fail, conn_handl is not present. @hfp_ag_service.c(150),ERROR" ID="0xd82204b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="first report sco disconnect complete. @hfp_ag_service.c(155),INFO" ID="0xd82204dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag disable device fail, pan context memset error. @hfp_ag_service.c(163),ERROR" ID="0xd822051a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="hfp ag conn event: %x dev_hdl: %x conn_hdl: %x @hfp_ag_service.c(174),INFO" ID="0xd8220575" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id %x @hfp_ag_service.c(192),WARNING" ID="0xd8220603" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag service init memset error. @hfp_ag_service.c(202),ERROR" ID="0xd8220652" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="state: 0x%x g_hfp_ag_ctx_t.sco_hdl: 0x%x @hfp_ag_service.c(225),INFO" ID="0xd822070d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="len err: %d! @hfp_ag_service.c(247),ERROR" ID="0xd82207ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="audio conn released. @hfp_ag_service.c(258),INFO" ID="0xd8220815" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sco disconnect complete. @hfp_ag_service.c(265),INFO" ID="0xd822084d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="micvol: %d @hfp_ag_service.c(272),INFO" ID="0xd8220885" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="spkvol: %d @hfp_ag_service.c(281),INFO" ID="0xd82208cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="codec: %d @hfp_ag_service.c(290),INFO" ID="0xd8220915" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dial req, phone_len: %d @hfp_ag_service.c(296),INFO" ID="0xd8220945" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="mem dial req, index: %d @hfp_ag_service.c(305),INFO" ID="0xd822098d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lastnum dial req. @hfp_ag_service.c(315),INFO" ID="0xd82209dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="answer call req, type=%d @hfp_ag_service.c(324),INFO" ID="0xd8220a25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cancel call req, type=%d @hfp_ag_service.c(333),INFO" ID="0xd8220a6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dtmf req, code=%d @hfp_ag_service.c(342),INFO" ID="0xd8220ab5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="subscriber number req. @hfp_ag_service.c(352),INFO" ID="0xd8220b05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="current calls req. @hfp_ag_service.c(362),INFO" ID="0xd8220b55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="current indicator req. @hfp_ag_service.c(372),INFO" ID="0xd8220ba5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="network operator format req. @hfp_ag_service.c(391),INFO" ID="0xd8220c3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="network operator req. @hfp_ag_service.c(401),INFO" ID="0xd8220c8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hfp ag event=0x%x. @hfp_ag_service.c(431),INFO" ID="0xd8220d7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag service connect error, bluetooth is disable. @hfp_ag_service.c(481),ERROR" ID="0xd8220f0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag service connect error, device handle is invalid. @hfp_ag_service.c(486),ERROR" ID="0xd8220f32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp ag service connect error, device is not connected. @hfp_ag_service.c(490),ERROR" ID="0xd8220f52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp already connected @hfp_ag_service.c(494),WARNING" ID="0xd8220f73" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="finish, hdl:0x%x, result: 0x%x! @hfp_ag_service.c(500),INFO" ID="0xd8220fa5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hfp is not connected @hfp_ag_service.c(508),WARNING" ID="0xd8220fe3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error: 0x%x @hfp_ag_service.c(514),ERROR" ID="0xd8221012" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="g_hfp_ag_ctx_t.conn_hdl:0x%x ret:0x%x @hfp_ag_service.c(526),INFO" ID="0xd8221075" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sco already connected sco_hdl:0x%x @hfp_ag_service.c(528),WARNING" ID="0xd8221083" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="g_hfp_ag_ctx_t.conn_hdl:0x%x ret:0x%x @hfp_ag_service.c(539),INFO" ID="0xd82210dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="no sco connected @hfp_ag_service.c(541),WARNING" ID="0xd82210eb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Volume too large %d, change it to 15 @hfp_ag_service.c(625),WARNING" ID="0xd822138b" />
+			</MSG_LOG>

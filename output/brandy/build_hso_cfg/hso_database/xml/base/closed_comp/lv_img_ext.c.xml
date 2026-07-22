@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Transform is set. zoom and angle is not handled. @lv_img_ext.c(38),WARNING" ID="0xc9800133" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="zoom or angle is set. Transform cannot be set. @lv_img_ext.c(295),WARNING" ID="0xc980093b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Decode header info failed. @lv_img_ext.c(423),ERROR" ID="0xc9800d3a" />
+			</MSG_LOG>

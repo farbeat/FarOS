@@ -1,0 +1,263 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]RegisterServerCallback server: %u status: %d @sample_bts_gatt.c(138),INFO" ID="0xd8560455" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is null  @sample_bts_gatt.c(145),INFO" ID="0xd856048d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]ConnectServerCallback server: %u conn_id: %u  @sample_bts_gatt.c(148),INFO" ID="0xd85604a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr: ****%02x%02x%02x%02x @sample_bts_gatt.c(151),INFO" ID="0xd85604bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="addr is null  @sample_bts_gatt.c(158),INFO" ID="0xd85604f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]DisconnectServerCallback server: %u conn_id: %u  @sample_bts_gatt.c(161),INFO" ID="0xd856050d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr: ****%02x%02x%02x%02x @sample_bts_gatt.c(164),INFO" ID="0xd8560525" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uuid is null  @sample_bts_gatt.c(170),INFO" ID="0xd8560555" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTServer]ServiceAddCallback server: %u status: %u srv_handle: %u uuid:  @sample_bts_gatt.c(174),INFO" ID="0xd8560575" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(176),INFO" ID="0xd8560585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(178),INFO" ID="0xd8560595" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uuid is null  @sample_bts_gatt.c(185),INFO" ID="0xd85605cd" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[GATTServer]CharacteristicAddCallback server: %u status: %u srv_hdl: %u char_hdl: %x value_handle:%x uuid:  @sample_bts_gatt.c(189),INFO" ID="0xd85605ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(191),INFO" ID="0xd85605fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(193),INFO" ID="0xd856060d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uuid is null  @sample_bts_gatt.c(200),INFO" ID="0xd8560645" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTServer]DescriptorAddCallback server: %u status: %u srv_hdl: %u desc_hdl: %x uuid:  @sample_bts_gatt.c(204),INFO" ID="0xd8560665" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(206),INFO" ID="0xd8560675" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(208),INFO" ID="0xd8560685" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTServer]ServiceStartCallback server: %u status: %u srv_hdl: %u @sample_bts_gatt.c(213),INFO" ID="0xd85606ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTServer]ServiceStopCallback server: %u status: %u srv_hdl: %u @sample_bts_gatt.c(219),INFO" ID="0xd85606dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]ServiceDeleteCallback server: %u status: %u  @sample_bts_gatt.c(224),INFO" ID="0xd8560705" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cb_para is null  @sample_bts_gatt.c(232),INFO" ID="0xd8560745" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="server_id:%u, conn id: %u, request_id: %u, handle:%u, need_authorize:%d need_rsp:%d @sample_bts_gatt.c(236),INFO" ID="0xd8560765" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(237),INFO" ID="0xd856076d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cb_para is null  @sample_bts_gatt.c(245),INFO" ID="0xd85607ad" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="server_id:%u, conn id: %u, request_id: %u, handle:%u, need_authorize:%d, need_rsp:%d @sample_bts_gatt.c(250),INFO" ID="0xd85607d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(251),INFO" ID="0xd85607dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]ResponseConfirmationCallback: status: %d handle: %u @sample_bts_gatt.c(256),INFO" ID="0xd8560805" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]IndicationSentCallback: status: %d conn_id: %u @sample_bts_gatt.c(261),INFO" ID="0xd856082d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]MtuChangeCallback: mtu: %u conn_id: %u @sample_bts_gatt.c(268),INFO" ID="0xd8560865" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTServer]ble_gatts_service_tRead len: %u buff:  @sample_bts_gatt.c(273),INFO" ID="0xd856088d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_bts_gatt.c(275),INFO" ID="0xd856089d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(277),INFO" ID="0xd85608ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="buff is null  @sample_bts_gatt.c(284),INFO" ID="0xd85608e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTServer]ble_gatts_service_tWrite len: %u buff:  @sample_bts_gatt.c(287),INFO" ID="0xd85608fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_bts_gatt.c(289),INFO" ID="0xd856090d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(291),INFO" ID="0xd856091d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="buff is null  @sample_bts_gatt.c(298),INFO" ID="0xd8560955" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTServer]ble_gatts_service_tIndicate len: %u buff:  @sample_bts_gatt.c(301),INFO" ID="0xd856096d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_bts_gatt.c(303),INFO" ID="0xd856097d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(305),INFO" ID="0xd856098d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode fill_callbacks @sample_bts_gatt.c(313),INFO" ID="0xd85609cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_gatts_register_callbacks with funcs ret(errcode_t): %x @sample_bts_gatt.c(336),INFO" ID="0xd8560a85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_gatts_register_callbacks with funcs ret(errcode_t): %x @sample_bts_gatt.c(340),INFO" ID="0xd8560aa5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_gatts_register_callbacks test ret(errcode_t): %x @sample_bts_gatt.c(344),INFO" ID="0xd8560ac5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Discovery service callback: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(352),INFO" ID="0xd8560b05" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="service: start_hdl: 0x%04x end_hdl: 0x%04x uuid_len: %u uuid: @sample_bts_gatt.c(355),INFO" ID="0xd8560b1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(357),INFO" ID="0xd8560b2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(359),INFO" ID="0xd8560b3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uuid is null  @sample_bts_gatt.c(372),INFO" ID="0xd8560ba5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTClient]Discovery service rsp: status: %u client_id: %u conn_id: %u uuid_len:%u uuid: @sample_bts_gatt.c(377),INFO" ID="0xd8560bcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(379),INFO" ID="0xd8560bdd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Discovery characteristic callback: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(387),INFO" ID="0xd8560c1d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="character: declare_handle: 0x%04x value_handle: 0x%04x properties: 0x%02x uuid_len: %u uuid: @sample_bts_gatt.c(390),INFO" ID="0xd8560c35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(392),INFO" ID="0xd8560c45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(394),INFO" ID="0xd8560c55" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Discovery characteristic rsp: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(405),INFO" ID="0xd8560cad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="service_handle: 0x%04x uuid_len: %u uuid: @sample_bts_gatt.c(407),INFO" ID="0xd8560cbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(409),INFO" ID="0xd8560ccd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(411),INFO" ID="0xd8560cdd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Discovery descriptor callback: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(419),INFO" ID="0xd8560d1d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="descriptor_hdl: 0x%04x uuid_len: %u uuid: @sample_bts_gatt.c(422),INFO" ID="0xd8560d35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(424),INFO" ID="0xd8560d45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(426),INFO" ID="0xd8560d55" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTClient]Discovery descriptor rsp: status: %u client_id: %u conn_id: %ud char_hdl:0x%04x @sample_bts_gatt.c(434),INFO" ID="0xd8560d95" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Read Cfm cbk: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(441),INFO" ID="0xd8560dcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read_result is null  @sample_bts_gatt.c(443),INFO" ID="0xd8560ddd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME=" handle:0x%04x data_len:%u data:  @sample_bts_gatt.c(447),INFO" ID="0xd8560dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_bts_gatt.c(449),INFO" ID="0xd8560e0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(451),INFO" ID="0xd8560e1d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Read by uuid rsp: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(458),INFO" ID="0xd8560e55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param is null  @sample_bts_gatt.c(460),INFO" ID="0xd8560e65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME=" start_hdl:0x%04x end_hdl:%u uuid_len:%u uuid:  @sample_bts_gatt.c(465),INFO" ID="0xd8560e8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(467),INFO" ID="0xd8560e9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(469),INFO" ID="0xd8560ead" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTClient]Write cfm cbk: status: %u client_id: %u conn_id: %u handle:0x%04x. @sample_bts_gatt.c(475),INFO" ID="0xd8560edd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTClient]MTU changed cbk: status: %u client_id: %u conn_id: %u mtu:%u. @sample_bts_gatt.c(481),INFO" ID="0xd8560f0d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Notification cbk: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(488),INFO" ID="0xd8560f45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="data is null  @sample_bts_gatt.c(490),INFO" ID="0xd8560f55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME=" handle:0x%04x data_len:%u data:  @sample_bts_gatt.c(494),INFO" ID="0xd8560f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_bts_gatt.c(495),INFO" ID="0xd8560f7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(496),INFO" ID="0xd8560f85" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Indication cbk: status: %u client_id: %u conn_id: %u @sample_bts_gatt.c(503),INFO" ID="0xd8560fbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="data is null  @sample_bts_gatt.c(505),INFO" ID="0xd8560fcd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME=" handle:0x%04x data_len:%u data:  @sample_bts_gatt.c(509),INFO" ID="0xd8560fed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x  @sample_bts_gatt.c(511),INFO" ID="0xd8560ffd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(513),INFO" ID="0xd856100d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatts_register params_cnt error! need: sample_mode app_uuid @sample_bts_gatt.c(520),INFO" ID="0xd8561045" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode app_uuid error! @sample_bts_gatt.c(530),INFO" ID="0xd8561095" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer]gatts_register ret(errcode_t): %u server_id:%u @sample_bts_gatt.c(536),INFO" ID="0xd85610c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id @sample_bts_gatt.c(544),INFO" ID="0xd8561105" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTServer]BleGattsUnregister ret(errcode_t): %x @sample_bts_gatt.c(550),INFO" ID="0xd8561135" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode bd_addr server_id conn_id @sample_bts_gatt.c(558),INFO" ID="0xd8561175" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GATTServer]sample_gatts_cmd_disconn decode addr error! @sample_bts_gatt.c(563),INFO" ID="0xd856119d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode server_id is_primary uuid @sample_bts_gatt.c(575),INFO" ID="0xd85611fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode service_uuid error! @sample_bts_gatt.c(586),INFO" ID="0xd8561255" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts add service ret(errcode_t): %x @sample_bts_gatt.c(592),INFO" ID="0xd8561285" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gatts add service sync ret(errcode_t): %x handle:0x%04x. @sample_bts_gatt.c(596),INFO" ID="0xd85612a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode server_id char_uuid properties permissions @sample_bts_gatt.c(604),INFO" ID="0xd85612e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatts cmd add char decode char_uuid error! @sample_bts_gatt.c(615),INFO" ID="0xd856133d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatts cmd add char malloc value error! @sample_bts_gatt.c(621),INFO" ID="0xd856136d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="failed to decode input value. @sample_bts_gatt.c(626),INFO" ID="0xd8561395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts add characteristic ret(errcode_t): %x @sample_bts_gatt.c(633),INFO" ID="0xd85613cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="gatts add characteristic sync ret(errcode_t): %x handle:0x%04x val_hdl:0x%04x @sample_bts_gatt.c(638),INFO" ID="0xd85613f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode server_id srv_handle permissions desc_uuid @sample_bts_gatt.c(647),INFO" ID="0xd856143d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample gatts cmd add char decode desc_uuid error! @sample_bts_gatt.c(659),INFO" ID="0xd856149d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample gatts cmd add char malloc value error! @sample_bts_gatt.c(666),INFO" ID="0xd85614d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="failed to decode input value. @sample_bts_gatt.c(671),INFO" ID="0xd85614fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts add descriptor ret(errcode_t): %x @sample_bts_gatt.c(677),INFO" ID="0xd856152d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gatts add descriptor sync ret(errcode_t): %x handle:0x%04x. @sample_bts_gatt.c(681),INFO" ID="0xd856154d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id srv_handle @sample_bts_gatt.c(690),INFO" ID="0xd8561595" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts_start_service ret(errcode_t): %x @sample_bts_gatt.c(696),INFO" ID="0xd85615c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id srv_handle @sample_bts_gatt.c(703),INFO" ID="0xd85615fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts_stop_service ret(errcode_t): %x @sample_bts_gatt.c(709),INFO" ID="0xd856162d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id srv_handle @sample_bts_gatt.c(716),INFO" ID="0xd8561665" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts_delete_service ret(errcode_t): %x @sample_bts_gatt.c(723),INFO" ID="0xd856169d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id @sample_bts_gatt.c(730),INFO" ID="0xd85616d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts delete all services ret(errcode_t): %x @sample_bts_gatt.c(735),INFO" ID="0xd85616fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode server_id conn_id status attr_handle value_len value @sample_bts_gatt.c(743),INFO" ID="0xd856173d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_gatts_send_response ret(errcode_t): %x @sample_bts_gatt.c(754),INFO" ID="0xd8561795" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode server_id conn_id attr_handle confirm value_len value @sample_bts_gatt.c(762),INFO" ID="0xd85617d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GATTServer] failed to decode input value. @sample_bts_gatt.c(778),INFO" ID="0xd8561855" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_gatts_send_indication ret(errcode_t): %x @sample_bts_gatt.c(784),INFO" ID="0xd8561885" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id conn_id uuid start_hdl end_hdl value_len value @sample_bts_gatt.c(791),INFO" ID="0xd85618bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sample gatts cmd send notify by uuid decode chara_uuid error! @sample_bts_gatt.c(803),INFO" ID="0xd856191d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GATTServer] failed to decode input value. @sample_bts_gatt.c(809),INFO" ID="0xd856194d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts notify indicate by uuid ret(errcode_t): %x @sample_bts_gatt.c(814),INFO" ID="0xd8561975" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: server_id mtu_size. @sample_bts_gatt.c(821),INFO" ID="0xd85619ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatts set mtu size ret(errcode_t): %x @sample_bts_gatt.c(828),INFO" ID="0xd85619e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode fill_callbacks @sample_bts_gatt.c(835),INFO" ID="0xd8561a1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]ble_gattc_register_callbacks with funcs ret(errcode_t): %x @sample_bts_gatt.c(862),INFO" ID="0xd8561af5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient] register gatt callback with funcs ret(int): %x @sample_bts_gatt.c(865),INFO" ID="0xd8561b0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]ble_gattc_register_callbacks with funcs ret(errcode_t): %x @sample_bts_gatt.c(869),INFO" ID="0xd8561b2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]ble_gattc_register_callbacks with funcs ret(errcode_t): %x @sample_bts_gatt.c(873),INFO" ID="0xd8561b4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]ble_gattc_register_callbacks test ret(errcode_t): %x @sample_bts_gatt.c(877),INFO" ID="0xd8561b6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gattc_register params_cnt error! need: sample_mode app_uuid @sample_bts_gatt.c(884),INFO" ID="0xd8561ba5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode app_uuid error! @sample_bts_gatt.c(895),INFO" ID="0xd8561bfd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTClient]gattc_register ret(errcode_t): %x client_id:%u @sample_bts_gatt.c(900),INFO" ID="0xd8561c25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id @sample_bts_gatt.c(908),INFO" ID="0xd8561c65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]gattc_unregister ret(errcode_t): %x @sample_bts_gatt.c(913),INFO" ID="0xd8561c8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id @sample_bts_gatt.c(920),INFO" ID="0xd8561cc5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode service uuid error! @sample_bts_gatt.c(933),INFO" ID="0xd8561d2d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GATTClient]Discovery service for client(id:%u) conn(id:%u) ret(errcode_t): %x @sample_bts_gatt.c(939),INFO" ID="0xd8561d5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id @sample_bts_gatt.c(946),INFO" ID="0xd8561d95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode service uuid error! @sample_bts_gatt.c(961),INFO" ID="0xd8561e0d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTClient]Discovery charactersitic for client(id:%u) conn(id:%u) svc_hdl(id:%u) ret(errcode_t): %x @sample_bts_gatt.c(967),INFO" ID="0xd8561e3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id @sample_bts_gatt.c(974),INFO" ID="0xd8561e75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GATTClient]Discovery descriptor for client(id:%u) conn(id:%u) chara_hdl(id:%u) ret(errcode_t): %x @sample_bts_gatt.c(983),INFO" ID="0xd8561ebd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode app_uuid error! @sample_bts_gatt.c(990),INFO" ID="0xd8561ef5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id conn_id att_handle  @sample_bts_gatt.c(1000),INFO" ID="0xd8561f45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]Read by handle ret(errcode_t): %x @sample_bts_gatt.c(1008),INFO" ID="0xd8561f85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id conn_id att_handle  @sample_bts_gatt.c(1015),INFO" ID="0xd8561fbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode service uuid error! @sample_bts_gatt.c(1025),INFO" ID="0xd856200d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]Read by uuid ret(errcode_t): %x @sample_bts_gatt.c(1030),INFO" ID="0xd8562035" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id conn_id att_handle len value. @sample_bts_gatt.c(1037),INFO" ID="0xd856206d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc att_value.data error! @sample_bts_gatt.c(1047),INFO" ID="0xd85620bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode att_value.data error! @sample_bts_gatt.c(1051),INFO" ID="0xd85620dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]Write requet ret(errcode_t): %x @sample_bts_gatt.c(1057),INFO" ID="0xd856210d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id conn_id att_handle len value. @sample_bts_gatt.c(1065),INFO" ID="0xd856214d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc att_value.data error! @sample_bts_gatt.c(1075),INFO" ID="0xd856219d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode att_value.data error! @sample_bts_gatt.c(1079),INFO" ID="0xd85621bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]Write cmd ret(errcode_t): %x @sample_bts_gatt.c(1085),INFO" ID="0xd85621ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: client_id conn_id mtu_size  @sample_bts_gatt.c(1093),INFO" ID="0xd856222d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTClient]Exchange mtu ret(errcode_t): %x @sample_bts_gatt.c(1101),INFO" ID="0xd856226d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BleGattcReadRemoteRssi params_cnt error! need: sample_mode client_id addr @sample_bts_gatt.c(1109),INFO" ID="0xd85622ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: sample_mode adv_id adv_data scan_rsp_data @sample_bts_gatt.c(1118),INFO" ID="0xd85622f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc adv data error! @sample_bts_gatt.c(1134),INFO" ID="0xd8562375" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc scan data error! @sample_bts_gatt.c(1140),INFO" ID="0xd85623a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode adv data error! @sample_bts_gatt.c(1145),INFO" ID="0xd85623cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_ble_set_adv_data ret(errcode_t): %x @sample_bts_gatt.c(1154),INFO" ID="0xd8562415" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: adv_id min_int max_int adv_type channel_mapadv_filter_policy tx_pwr duration [peer_addr] @sample_bts_gatt.c(1162),INFO" ID="0xd8562455" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set ble adv param decode peer addr error! @sample_bts_gatt.c(1176),INFO" ID="0xd85624c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set adv param ret(errcode_t): %x @sample_bts_gatt.c(1180),INFO" ID="0xd85624e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ggap ble start adv params_cnt error! need: adv_id. @sample_bts_gatt.c(1187),INFO" ID="0xd856251d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble start adv ret(errcode_t): %x @sample_bts_gatt.c(1192),INFO" ID="0xd8562545" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble stop adv params_cnt error! need: adv_id @sample_bts_gatt.c(1199),INFO" ID="0xd856257d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble stop adv ret(errcode_t): %x @sample_bts_gatt.c(1204),INFO" ID="0xd85625a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set scan parameters params_cnt error! need: scan_interval scan_window scan_type scan_phy scan_filter_policy. @sample_bts_gatt.c(1212),INFO" ID="0xd85625e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set scan parameters ret(errcode_t): %x @sample_bts_gatt.c(1223),INFO" ID="0xd856263d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble start scan ret(errcode_t): %x @sample_bts_gatt.c(1231),INFO" ID="0xd856267d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble stop scan ret(errcode_t): %x @sample_bts_gatt.c(1239),INFO" ID="0xd85626bd" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="gap ble get local addr ret(errcode_t): %x addr_type: %u addr:0x%02x:**:**:**:%02x:%02x @sample_bts_gatt.c(1250),INFO" ID="0xd8562715" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set local addr params_cnt error! need: addr [addr_type]. @sample_bts_gatt.c(1256),INFO" ID="0xd8562745" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set local addr decode addr error! @sample_bts_gatt.c(1262),INFO" ID="0xd8562775" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set local addr ret(errcode_t): %x @sample_bts_gatt.c(1269),INFO" ID="0xd85627ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set local appearance params_cnt error! need: appearance. @sample_bts_gatt.c(1275),INFO" ID="0xd85627dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set local appearance ret(errcode_t): %x @sample_bts_gatt.c(1281),INFO" ID="0xd856280d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="gap ble get local name ret(errcode_t): %x name:%s len:%u. @sample_bts_gatt.c(1296),INFO" ID="0xd8562885" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set local name params_cnt error! need: name length. @sample_bts_gatt.c(1302),INFO" ID="0xd85628b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set local name ret(errcode_t): %x @sample_bts_gatt.c(1309),INFO" ID="0xd85628ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble pair remote device params_cnt error! need: addr [addr_type]. @sample_bts_gatt.c(1315),INFO" ID="0xd856291d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble pair remote device decode addr error! @sample_bts_gatt.c(1321),INFO" ID="0xd856294d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble pair remote device ret(errcode_t): %x @sample_bts_gatt.c(1328),INFO" ID="0xd8562985" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap ble pair remote device ret(errcode_t): %x number: %u. @sample_bts_gatt.c(1337),INFO" ID="0xd85629cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap ble pair remote device ret(errcode_t): %x number: %u. @sample_bts_gatt.c(1348),INFO" ID="0xd8562a25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble pair remote device malloc error! @sample_bts_gatt.c(1353),INFO" ID="0xd8562a4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble pair remote device memset error! @sample_bts_gatt.c(1357),INFO" ID="0xd8562a6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap ble pair remote device ret(errcode_t): %x number: %u. @sample_bts_gatt.c(1361),INFO" ID="0xd8562a8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show ble paired list: @sample_bts_gatt.c(1363),INFO" ID="0xd8562a9d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="| %-4s | %-17s |&quot;, &quot;idx&quot;, &quot;address @sample_bts_gatt.c(1364),INFO" ID="0xd8562aa5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="| %-4d | %02x:%02x:**:**:**:%02x | @sample_bts_gatt.c(1368),INFO" ID="0xd8562ac5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show ble paired list end! @sample_bts_gatt.c(1370),INFO" ID="0xd8562ad5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble get pair state params_cnt error! need: addr [addr_type]. @sample_bts_gatt.c(1380),INFO" ID="0xd8562b25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble get pair state decode addr error! @sample_bts_gatt.c(1386),INFO" ID="0xd8562b55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gap ble get pair state ret(errcode_t): %x state(gap_ble_pair_state_t): %d @sample_bts_gatt.c(1394),INFO" ID="0xd8562b95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble remove pair params_cnt error! @sample_bts_gatt.c(1401),INFO" ID="0xd8562bcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble remove pair decode addr error! @sample_bts_gatt.c(1410),INFO" ID="0xd8562c15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble remove pair ret(errcode_t): %x @sample_bts_gatt.c(1418),INFO" ID="0xd8562c55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble read rssi params_cnt error! @sample_bts_gatt.c(1425),INFO" ID="0xd8562c8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble read rssi ret(errcode_t): %x @sample_bts_gatt.c(1430),INFO" ID="0xd8562cb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set phy params_cnt error! @sample_bts_gatt.c(1436),INFO" ID="0xd8562ce5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set phy ret(errcode_t): %x @sample_bts_gatt.c(1446),INFO" ID="0xd8562d35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap ble set data len params_cnt error! @sample_bts_gatt.c(1452),INFO" ID="0xd8562d65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set data length ret(errcode_t): %x @sample_bts_gatt.c(1460),INFO" ID="0xd8562da5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="EnableBLECallback status: %u @sample_bts_gatt.c(1465),INFO" ID="0xd8562dcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="DisableBLECallback status: %u @sample_bts_gatt.c(1470),INFO" ID="0xd8562df5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SetAdvDataCallback adv_id: %u status: %u @sample_bts_gatt.c(1475),INFO" ID="0xd8562e1d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="SetAdvParamCallback adv_id: %u status: %u @sample_bts_gatt.c(1480),INFO" ID="0xd8562e45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SetScanParameterCallback status: %u @sample_bts_gatt.c(1485),INFO" ID="0xd8562e6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="StartAdvCallback adv_id: %u status: %d @sample_bts_gatt.c(1490),INFO" ID="0xd8562e95" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="StopAdvCallback adv_id: %u status: %d @sample_bts_gatt.c(1495),INFO" ID="0xd8562ebd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="scan_result_data is null  @sample_bts_gatt.c(1501),INFO" ID="0xd8562eed" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="event_type:%u addr_type: %u addr:0x%02x:**:**:**:%02x:%02x adv_len:%u. @sample_bts_gatt.c(1506),INFO" ID="0xd8562f15" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="ConnectStateChanged conn_id:%u addr:0x%02x:**:**:**:%02x:%02x addr_type:%uconn_state:%d pair_state:%d @sample_bts_gatt.c(1514),INFO" ID="0xd8562f55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ConnectStateChanged disc_reason:%x @sample_bts_gatt.c(1516),INFO" ID="0xd8562f65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="PairedCompleteCall conn_id:%u status:%u @sample_bts_gatt.c(1527),INFO" ID="0xd8562fbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr:0x%02x:**:**:**:%02x:%02x addr_type:%u @sample_bts_gatt.c(1530),INFO" ID="0xd8562fd5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="TerminateAdvCall adv_id:%u status:%d @sample_bts_gatt.c(1536),INFO" ID="0xd8563005" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="AuthCompleteCall conn_id:%u status:0x%x @sample_bts_gatt.c(1542),INFO" ID="0xd8563035" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr:0x%02x:**:**:**:%02x:%02x addr_type:%u @sample_bts_gatt.c(1545),INFO" ID="0xd856304d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ltk_len:%u ltk: @sample_bts_gatt.c(1548),INFO" ID="0xd8563065" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02x @sample_bts_gatt.c(1550),INFO" ID="0xd8563075" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @sample_bts_gatt.c(1552),INFO" ID="0xd8563085" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="read remote rssi conn_id:%u rssi:%d status:%u @sample_bts_gatt.c(1558),INFO" ID="0xd85630b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="connect param changed conn_id:%u status:%u @sample_bts_gatt.c(1564),INFO" ID="0xd85630e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME=" interval:%u latency:%u timeout:%u @sample_bts_gatt.c(1566),INFO" ID="0xd85630f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap_ble_register_callbacks params_cnt error! need: sample_mode fill_callbacks @sample_bts_gatt.c(1574),INFO" ID="0xd8563135" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_ble_register_callbacks with funcs ret(errcode_t): %x @sample_bts_gatt.c(1602),INFO" ID="0xd8563215" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap_ble_register_callbacks test ret(errcode_t): %x @sample_bts_gatt.c(1606),INFO" ID="0xd8563235" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: bondable io_capability sc_enable sc_mode  @sample_bts_gatt.c(1614),INFO" ID="0xd8563275" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble set sec param ret(errcode_t): %x @sample_bts_gatt.c(1623),INFO" ID="0xd85632bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="params_cnt error! need: connect_handle  @sample_bts_gatt.c(1629),INFO" ID="0xd85632ed" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble connect param ret(errcode_t): %x interval:%u latency:%u timeout:%u @sample_bts_gatt.c(1636),INFO" ID="0xd8563325" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="server interval:%u! @sample_bts_gatt.c(1651),INFO" ID="0xd856339d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc att_value.data error! @sample_bts_gatt.c(1660),INFO" ID="0xd85633e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="decode att_value.data error! @sample_bts_gatt.c(1664),INFO" ID="0xd8563405" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="client write start! @sample_bts_gatt.c(1668),INFO" ID="0xd8563425" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="client write end! @sample_bts_gatt.c(1679),INFO" ID="0xd856347d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="server interval:%u! @sample_bts_gatt.c(1695),INFO" ID="0xd85634fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc ind_para.data error! @sample_bts_gatt.c(1704),INFO" ID="0xd8563545" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GATTServer] failed to decode input value. @sample_bts_gatt.c(1709),INFO" ID="0xd856356d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="server notify start! @sample_bts_gatt.c(1712),INFO" ID="0xd8563585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="server notify end! @sample_bts_gatt.c(1723),INFO" ID="0xd85635dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble secure ctkd param error! need: bd_addr. @sample_bts_gatt.c(1731),INFO" ID="0xd856361d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set ble ctkd ret:0x%x. @sample_bts_gatt.c(1737),INFO" ID="0xd856364d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTServer] AddCCC handle=%d. @sample_bts_gatt.c(1750),INFO" ID="0xd85636b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GATTServer] service limit test start! @sample_bts_gatt.c(1770),INFO" ID="0xd8563755" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GATTServer] AddService handle=%d. @sample_bts_gatt.c(1777),INFO" ID="0xd856378d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GATTServer] AddCharacter handle=%d value_handle=%d. @sample_bts_gatt.c(1790),INFO" ID="0xd85637f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GATTServer] service limit test end! @sample_bts_gatt.c(1801),INFO" ID="0xd856384d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsrv_gatt_sample_cmd cmd_id %d not support now! @sample_bts_gatt.c(1909),INFO" ID="0xd8563bad" />
+			</MSG_LOG>
