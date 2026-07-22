@@ -1,0 +1,41 @@
+/*********************************************************************
+*              SEGGER MICROCONTROLLER GmbH & Co. K.G.                *
+*        Solutions for real time microcontroller applications        *
+**********************************************************************
+*                                                                    *
+*        (c) 2015-2015 SEGGER Microcontroller GmbH & Co. KG          *
+*                                                                    *
+* Internet: www.segger.com Support: support@segger.com               *
+*                                                                    *
+**********************************************************************
+----------------------------------------------------------------------
+Purpose : 
+---------------------------END-OF-HEADER------------------------------
+*/
+
+/*********************************************************************
+*
+*       InitTarget
+*/
+void InitTarget(void) {
+  int v;
+
+  Report("J-Link script: Connect to Core 2");
+  //CPU=RISC-V;
+  //
+  // Manually configure which APs are present on the CoreSight device
+  //
+  CORESIGHT_AddAP(0, CORESIGHT_AHB_AP);
+  CORESIGHT_AddAP(1, CORESIGHT_AHB_AP);
+  CORESIGHT_AddAP(2, CORESIGHT_AHB_AP);
+  
+  JLINK_CORESIGHT_WriteDP(2, 0xE);
+  JLINK_CORESIGHT_WriteDP(1, 1);
+  JLINK_CORESIGHT_ReadDP(1);
+  JLINK_CORESIGHT_WriteDP(2, 0);
+  JLINK_CORESIGHT_WriteAP(1, 0xf0000038);
+  JLINK_CORESIGHT_WriteAP(3, 1);
+  JLINK_CORESIGHT_ReadAP(3);
+  
+  CORESIGHT_IndexAHBAPToUse  = 2;
+}
