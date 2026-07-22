@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_send_2_host:this hci event is masked(%d) or filtered(%d) @hci.c(693),INFO" ID="0x88d615ad" />
+			</MSG_LOG>

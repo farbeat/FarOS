@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble: l2cap le psm. psm:%d type:%d error. @sdk_general_l2cap_ui.c(71),ERROR" ID="0xd874023a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble: l2cap le psm. psm:%d type:%d error. @sdk_general_l2cap_ui.c(77),ERROR" ID="0xd874026a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble: l2cap reg le psm:%d already regist. @sdk_general_l2cap_ui.c(94),INFO" ID="0xd87402f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble: l2cap unreg le psm:%d not regist. @sdk_general_l2cap_ui.c(117),ERROR" ID="0xd87403aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble: l2cap reg le psm:%d not regist. @sdk_general_l2cap_ui.c(135),ERROR" ID="0xd874043a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] ble: l2cap channel tx addr is not ready addr:0x%02x:**:**:**:%02x:%02x. @sdk_general_l2cap_ui.c(154),ERROR" ID="0xd87404d2" />
+			</MSG_LOG>

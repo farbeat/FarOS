@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[WARNING]bt_util_buf_acl_tx_free_patch:idx=0x%x, address=0X%x @bt_util_buf.c(203),WARNING" ID="0x8880065b" />
+			</MSG_LOG>

@@ -1,0 +1,44 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="llc_ico_update_finished unknown ico_conhdl @llc_ico.c(203),WARNING" ID="0x883e065b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]conhdl unknown conhdl role, conhdl = %d, role = %d @llc_ico.c(216),ERROR" ID="0x883e06c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_cis_update_finished unknown cis_conhdl @llc_ico.c(235),WARNING" ID="0x883e075b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_cis_state_changed @llc_ico.c(245),INFO" ID="0x883e07ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CIS]conhdl unknown conhdl role, conhdl = %d, role = %d @llc_ico.c(248),ERROR" ID="0x883e07c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]llc_restore_ico_related_acl:acl_cohdl=%d @llc_ico.c(264),WARNING" ID="0x883e0843" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO_ACL] llc_restore_ico_related_acl @llc_ico.c(272),INFO" ID="0x883e0885" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]llc_delete_ico_interval_elt:fir_hdl=%d, sec_hdl=%d @llc_ico.c(305),INFO" ID="0x883e098d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]llc_delete_ico_interval_elt&#163;&#186;scan_conhdl=%d @llc_ico.c(310),WARNING" ID="0x883e09b3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]lld_ico_stop_ind_handler llc_ico_ptr = NULL @llc_ico.c(342),WARNING" ID="0x883e0ab3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][ICO]iter_cnt=%d,number=%d @llc_ico.c(563),ERROR" ID="0x883e119a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][ICO]llc_util_get_empty_pkt_of_specified_evt_cnt:cnt=%d @llc_ico.c(595),ERROR" ID="0x883e129a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][ICO]llc_util_get_empty_pkt_of_tx_rdy:cnt=%d @llc_ico.c(619),ERROR" ID="0x883e135a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][ICO]number=%d,bn=%d @llc_ico.c(653),WARNING" ID="0x883e146b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_util_ico_max_sz_is_exlen:ico_conhdl=0x%x,max_sz_m2s=%d,max_sz_s2m=%d @llc_ico.c(843),INFO" ID="0x883e1a5d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]Ble ICO Statistics:conhdl=%d,ack_rate=%d,tx_ack=%d,tx_flushed=%d @llc_ico.c(928),INFO" ID="0x883e1d05" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] Ble ICO Statistics: loss_packet=%d, rx_rcv=%d, rx_rcv_err=%d, rx_sync_err=%d @llc_ico.c(958),INFO" ID="0x883e1df5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO] Ble ICO Statistics: per=%d @llc_ico.c(959),INFO" ID="0x883e1dfd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] Ble ICO Statistics: per=%d, rx_rcv=%d, rx_rcv_err=%d, rx_sync_err=%d @llc_ico.c(964),INFO" ID="0x883e1e25" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]Ble ICO Statistics:rx_rcv_err=%d,rx_sync_err=%d @llc_ico.c(993),INFO" ID="0x883e1f0d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]Ble ICO Statistics:conhdl=%d,loss_packet=%d,pkt_rx_rcv=%d,ackrate=%d @llc_ico.c(995),INFO" ID="0x883e1f1d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]Ble ICO Statistics:conhdl=%d,ack_rate=%d,tx_ack=%d,tx_flushed=%d @llc_ico.c(1015),INFO" ID="0x883e1fbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] Ble ICO Statistics: per=%d, rx_rcv=%d, rx_rcv_err=%d, rx_sync_err=%d @llc_ico.c(1023),INFO" ID="0x883e1ffd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ISO]ICO Cohdl already exist, conhdl=%d, llc_env=0x%x @llc_ico.c(1088),ERROR" ID="0x883e2202" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="channel id = 0,next_conhdl = %d, anchor_point %d, instants %d @llc_ico.c(1175),INFO" ID="0x883e24bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] anchor point is smaller,anchor_point=%d, llc_acl_ptr-&gt;elt-&gt;timestamp=%d @llc_ico.c(1191),INFO" ID="0x883e253d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="channel id = 1,anchor_point %d, instants %d @llc_ico.c(1261),INFO" ID="0x883e276d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] anchor point is smaller,anchor_point=%d, llc_acl_ptr-&gt;elt-&gt;timestamp=%d @llc_ico.c(1280),INFO" ID="0x883e2805" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="restore LLC_ICO_START_CONNECT_IND aclconhdl=%d, ico_conhdl=%d @llc_ico.c(1336),INFO" ID="0x883e29c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] channel_id:%d,ts:%d @llc_ico.c(1428),INFO" ID="0x883e2ca5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ICO]ico_param not release in past, conhdl= %d @llc_ico.c(1541),WARNING" ID="0x883e302b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]llc_llcp_ico_upd_ind_send ch_offset %d stream delay %d ch_delay %d evt_count_ref %d  @llc_ico.c(1631),INFO" ID="0x883e32fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]Enter Slave Update handler ts=%d, instant=%d, counter=%d, interval=%d @llc_ico.c(1694),WARNING" ID="0x883e34f3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO] Instant passed. First_ts=%d, instant=%d, counter=%d, interval=%d @llc_ico.c(1702),WARNING" ID="0x883e3533" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ICO]ico_param not release in past, conhdl= %d @llc_ico.c(1797),WARNING" ID="0x883e382b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]lld_ico_stop_procedure: conhdl=%d channel=%d @llc_ico.c(1868),INFO" ID="0x883e3a65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]llm disable ico: conhdl %d status %d @llc_ico.c(1937),INFO" ID="0x883e3c8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]llm disable ico: conhdl %d status %d @llc_ico.c(1986),INFO" ID="0x883e3e15" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AUTORATE] llc_ico_autorate_req_evt_send:conhdl=0x%x,cause=%d,m2s_phy now=0x%x,next=0x%x @llc_ico.c(2073),INFO" ID="0x883e40cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AUTORATE] llc_ico_autorate_req_evt_send: elt equal to NULL @llc_ico.c(2090),ERROR" ID="0x883e4152" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]llc_util_insert_phone_ico_node:node_evt_cnt=%d,curr_evt_cnt=%d @llc_ico.c(2324),INFO" ID="0x883e48a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[UHD CHR] ble_uhd_abnormal_chr_report: report reason:0x%x @llc_ico.c(2406),WARNING" ID="0x883e4b33" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO][WARNING]llc_hci_iso_data_tx_handler: ico pld length(%d) &gt; autorate phy MTU(%d) @llc_ico.c(2569),WARNING" ID="0x883e504b" />
+			</MSG_LOG>

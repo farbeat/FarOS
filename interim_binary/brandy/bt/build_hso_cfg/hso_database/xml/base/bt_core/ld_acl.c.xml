@@ -1,0 +1,82 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param] acl_par-&gt;test_mode = NULL @ld_acl.c(656),ERROR" ID="0x88a41482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][handle]em_bt_txptr_txdone_getf(txdesc_idx)=%d @ld_acl.c(740),ERROR" ID="0x88a41722" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LD]ld_acl_rsw_rx_lmp length %d, opcode %d, ext_opcode %d @ld_acl.c(937),WARNING" ID="0x88a41d4b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_acl.c(1015),ERROR" ID="0x88a41fba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][ACL]link_id=%d;ld_acl_flow_off-&gt;TX flow off @ld_acl.c(1117),INFO" ID="0x88a422ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][ACL]link_id=%d;ld_acl_flow_on-&gt;TX flow on @ld_acl.c(1134),INFO" ID="0x88a42375" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ld_acl_lmp_tx sw_id=%d, hw_id=%d, cnt=%d, cs_ptr=0x%x @ld_acl.c(1325),INFO" ID="0x88a4296d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR]send lmp error. code 0x%x, ori %d, new %d, txdesc %d @ld_acl.c(1332),ERROR" ID="0x88a429a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="start acl aes rx mode @ld_acl.c(1589),WARNING" ID="0x88a431ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="WLAN NOT WORKING, 3X NOT LOW POWER @ld_acl.c(2749),INFO" ID="0x88a455ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LD]ld_acl_sched_update_ts ts=0x%x @ld_acl.c(2928),INFO" ID="0x88a45b85" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][LD]ld_acl_sched LR = 0x%x, link_id=%d, clock 0x%x @ld_acl.c(2980),ERROR" ID="0x88a45d22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD]ld_acl_sched:acl end for already set end:%d @ld_acl.c(3008),WARNING" ID="0x88a45e03" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD]ld_acl_sched_before_rsw:acl sched fail extab_prio=%d, acl_ts=0x%x, last_sync=0x%x, lsto=%d @ld_acl.c(3056),WARNING" ID="0x88a45f83" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][handle]bt_et_currentrxdescptr_currentrxdescptr_getf()=%d @ld_acl.c(3103),WARNING" ID="0x88a460fb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD]ld_acl_frm_dis_nb_check:bt_coex_abort=%d,txstatus=0x%x,bt_acl_priocntl=0x%x,coex_status=0x%x @ld_acl.c(3189),WARNING" ID="0x88a463ab" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD]ld_acl_frm_dis_nb_check:link_id=%d, last_sync_ts=0x%x, queue_acl_tx=%d, csprio=%d @ld_acl.c(3192),WARNING" ID="0x88a463c3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][LD]ld_acl_frm_prog_disable:dis_reason=%d, clock=0x%x, ts=0x%x @ld_acl.c(3206),WARNING" ID="0x88a46433" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]acl_par-&gt;nb_prog = %d @ld_acl.c(3288),ERROR" ID="0x88a466c2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] ld_acl_rx_print:link:%d, rx_total=%d, rx_nacks=%d, rx_audio_total=%d @ld_acl.c(3536),INFO" ID="0x88a46e85" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO] ld_acl_rx_print:link:%d, per=%d @ld_acl.c(3540),INFO" ID="0x88a46ea5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO] ld_acl_rx_print:link:%d, rssi_avg=%d, id_rssi_avg=%d, pwrlev=%d @ld_acl.c(3566),INFO" ID="0x88a46f75" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO] ld_acl_rx_print:link:%d, rssi_avg=%d, pwrlev=%d @ld_acl.c(3573),INFO" ID="0x88a46fad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CLOSE ME] linkid=%d,close me reason=%d,[reg616]dpsk_cfo_del=0x%x,[reg618]dpsk_phase_mismatch=0x%x @ld_acl.c(3741),INFO" ID="0x88a474ed" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CLOSE ME] linkid=%d,close me reason=%d,[reg613]gfsk_eye_pos=0x%x,[reg614]gfsk_eye_neg=0x%x @ld_acl.c(3748),INFO" ID="0x88a47525" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CLOSE ME] linkid=%d, close me reason=%d @ld_acl.c(3750),INFO" ID="0x88a47535" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="mic_err status=0x%x reg_610=0x%x @ld_acl.c(3767),WARNING" ID="0x88a475bb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="mic_err reg_613=0x%x reg_614=0x%x reg_616=0x%x reg_618=0x%x @ld_acl.c(3773),WARNING" ID="0x88a475eb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[OBEX]mic_err rxpheader=0x%x, length=%d @ld_acl.c(3776),WARNING" ID="0x88a47603" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="start aes rx check rxstat=0x%x, rxtype=%d, length=%d @ld_acl.c(3794),WARNING" ID="0x88a47693" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="aes rx check fail: rxstat=0x%x, rxtype=%d, length=%d @ld_acl.c(3805),WARNING" ID="0x88a476eb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING]ld_acl_rx:link_id(0x%x), clock(0x%x), last_sync_ts(0x%x),rx_traffic(%d) @ld_acl.c(3948),WARNING" ID="0x88a47b63" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD][ACL]currxhwptr(%d)currxswptr(%d)clk(0x%x)fincnt(%d) @ld_acl.c(3961),WARNING" ID="0x88a47bcb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD][ACL]linkid(%d)timestamp(0x%x)intstat(0x%x)lr(0x%x) @ld_acl.c(3963),WARNING" ID="0x88a47bdb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mear disconnect with sear @ld_acl.c(4009),WARNING" ID="0x88a47d4b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sear disconnect with mear @ld_acl.c(4018),WARNING" ID="0x88a47d93" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mear disconnect with phone @ld_acl.c(4027),WARNING" ID="0x88a47ddb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sear disconnect with phone @ld_acl.c(4036),WARNING" ID="0x88a47e23" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="free_lost_lmp_buff:link_id:%d @ld_acl.c(4120),INFO" ID="0x88a480c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX_OBEX]ld_acl_end, data transmit stop, data_trans_id[%d] @ld_acl.c(4142),INFO" ID="0x88a48175" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[TX] pkt has been retransmitted [%d] times, txpheader=0x%x, txlmbufptr=0x%x, txaclbufptr=0x%x @ld_acl.c(4172),INFO" ID="0x88a48265" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[TX] next_buf_ptr=0x%x, !txpheader=0x%x, !txlmbufptr=0x%x, !txaclbufptr=0x%x @ld_acl.c(4177),INFO" ID="0x88a4828d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[TX] reach_thres_print, link id %d, txtype %d, txheader 0x%x @ld_acl.c(4181),INFO" ID="0x88a482ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX_ABORT]get coex abort in gt mode! @ld_acl.c(4186),ERROR" ID="0x88a482d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[COEX_ABROT]coex_abort_cnt = %d @ld_acl.c(4188),INFO" ID="0x88a482e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][TX] pkt has been retransmitted [%d] times, txstat=0x%x, txpheader=0x%x, clock=0x%x @ld_acl.c(4212),INFO" ID="0x88a483a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][TX] pkt has been retransmitted [%d] times, txstat=0x%x, txpheader=0x%x @ld_acl.c(4222),INFO" ID="0x88a483f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][ACL][LD]ld_aes_tx_bypass_check: acl_par is null @ld_acl.c(4304),ERROR" ID="0x88a48682" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][ACL][LD]ld_acl_tx_ack: txdesc_cnt = %x,opcode = 0x%x,opcode_ext=0x%x,txdone = %x @ld_acl.c(4316),WARNING" ID="0x88a486e3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL txlength(%d)txdesc_cnt(%d)curr_buf_elt(0x%x) @ld_acl.c(4385),ERROR" ID="0x88a4890a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL @ld_acl.c(4418),ERROR" ID="0x88a48a12" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL link_id(%d)txdesc_cnt(%d)curr_buf_elt(0x%x) @ld_acl.c(4422),ERROR" ID="0x88a48a32" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LD]ld_acl_tx:ld_acl_env_evt = NULL, linkid(%d), cs_txrxcntl_rxthr(0x%x), return @ld_acl.c(4492),INFO" ID="0x88a48c65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ESCO]esco daycounter rolls over 0, sco_link_id=%d, daycounter=%d @ld_acl.c(4518),WARNING" ID="0x88a48d33" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL @ld_acl.c(4688),ERROR" ID="0x88a49282" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][ACL]acl_par-&gt;next_buf_elt != NULL @ld_acl.c(4765),ERROR" ID="0x88a494ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][ACL] acl_buf_elt == NULL @ld_acl.c(5038),ERROR" ID="0x88a49d72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][ACL] acl_par-&gt;next_buf_elt != NULL @ld_acl.c(5057),ERROR" ID="0x88a49e0a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LD]ld acl not allowed next_elt start clock=0x%x, start_cancel=%d, cancel_nb=%d intv=%d  @ld_acl.c(5305),INFO" ID="0x88a4a5cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LD]ld acl not allowed next_elt start clock=0x%x, start_cancel=%d, intv=%d  @ld_acl.c(5414),INFO" ID="0x88a4a935" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][LD]ld_acl_sched:acl sched fail extab_prio=%d,acl_ts=0x%x,last_sync=0x%x,lsto=%d @ld_acl.c(5585),WARNING" ID="0x88a4ae8b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;role_conv:del_rc_to_timer @ld_acl.c(5723),INFO" ID="0x88a4b2dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BTC_TWS-&gt;role_conv:stop sched link id %d, clock %d, to_val %d @ld_acl.c(5751),INFO" ID="0x88a4b3bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][param]acl_par-&gt;nb_prog = %d @ld_acl.c(5771),WARNING" ID="0x88a4b45b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="clk off changes too much, link id %d, new clk off %d, last clk off %d, int stat 0x%x @ld_acl.c(5886),INFO" ID="0x88a4b7f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="clk off changes too much, new bit off %d, last bit off %d @ld_acl.c(5888),INFO" ID="0x88a4b805" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][ACL][LD]ld_remove_resume_enc_opcode:txdesc_idx=%x,opcode=0x%x,opcode_ext=0x%x,txdone=%x @ld_acl.c(5983),WARNING" ID="0x88a4bafb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD]ld_acl_instant_refresh:switch instant=0x%x @ld_acl.c(6025),INFO" ID="0x88a4bc4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD]ld_acl_instant_refresh:set afh alarm fail @ld_acl.c(6040),ERROR" ID="0x88a4bcc2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD]ld_acl_instant_refresh:afh instant=0x%x @ld_acl.c(6044),INFO" ID="0x88a4bce5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[fec]REG_SYSTEM_BT_FEC_CHECK = %x @ld_acl.c(6082),INFO" ID="0x88a4be15" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BT SCAN]id=%d, tx_time_total:%d, rx_time_total:%d, bt_statis_clock:%d @ld_acl.c(6300),WARNING" ID="0x88a4c4e3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BT ACL]id=%d, tx_time_total:%d, rx_time_total:%d, bt_mst_clock:0x%x @ld_acl.c(6316),WARNING" ID="0x88a4c563" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][HCI]hci_acl_tx_data_alloc:BT used tx buffer = %d, link id=%d time_interval(ms) %d len %d @ld_acl.c(6417),INFO" ID="0x88a4c88d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BT ACL] link_id=%d every seconds(bytes) %d @ld_acl.c(6426),INFO" ID="0x88a4c8d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING]bt_util_buf_acl_rx_alloc FAIL free cnt %d @ld_acl.c(6482),WARNING" ID="0x88a4ca93" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="SCATT START @ld_acl.c(6962),INFO" ID="0x88a4d995" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="SCATT STOP @ld_acl.c(6967),INFO" ID="0x88a4d9bd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][param]acl_par-&gt;next_buf_elt != NULL data_len=%d,cnt=%d,clock=0x%x @ld_acl.c(7094),ERROR" ID="0x88a4ddb2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][DISC]ld_acl_end:status = %d, lr=0x%x,link_id=%d, reason %d @ld_acl.c(7647),WARNING" ID="0x88a4eefb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][DISC]ld_acl_end: clk off %d, bit off %d, sync clk off %d, sync bit off %d @ld_acl.c(7649),INFO" ID="0x88a4ef0d" />
+			</MSG_LOG>

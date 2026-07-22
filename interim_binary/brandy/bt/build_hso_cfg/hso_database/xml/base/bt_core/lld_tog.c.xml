@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ICO_TOG] start tog fail, status=%d @lld_tog.c(39),ERROR" ID="0x890e013a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO_TOG] count_set=%d, high_set=%d, count_now=%d, high_now=%d @lld_tog.c(82),INFO" ID="0x890e0295" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ISO_tog]error param counter @lld_tog.c(103),INFO" ID="0x890e033d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[tog_debug]stop tog type = %d, linkid=0x%x @lld_tog.c(207),INFO" ID="0x890e067d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO_TOG] voice start_slotcnt=%d, start_finecnt=%d, clock=%d @lld_tog.c(237),INFO" ID="0x890e076d" />
+			</MSG_LOG>

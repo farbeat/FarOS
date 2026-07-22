@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="nb = %d @hci_util.c(120),INFO" ID="0x88d203c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="nb = %d @hci_util.c(122),INFO" ID="0x88d203d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]hci_util_pack:format = NULL @hci_util.c(155),ERROR" ID="0x88d204da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]hci_util_unpack:format = NULL @hci_util.c(248),ERROR" ID="0x88d207c2" />
+			</MSG_LOG>

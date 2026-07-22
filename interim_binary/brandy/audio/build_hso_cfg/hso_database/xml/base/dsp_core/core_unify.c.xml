@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bit_depth = 0x%08X @core_unify.c(72),ERROR" ID="0x98540242" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bit_depth = 0x%08X @core_unify.c(128),ERROR" ID="0x98540402" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]bit_depth = %u @core_unify.c(244),ERROR" ID="0x985407a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bit_depth = %u @core_unify.c(245),ERROR" ID="0x985407aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bit_depth = %u @core_unify.c(288),ERROR" ID="0x98540902" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bit_depth = %u @core_unify.c(331),ERROR" ID="0x98540a5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]samples = %u @core_unify.c(349),ERROR" ID="0x98540aea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_unify_bit_depth_pcm_data Failed, Error Code: [0x%08X] @core_unify.c(378),ERROR" ID="0x98540bd2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_unity_xmix_pcm_data Failed, Error Code: [0x%08X] @core_unify.c(392),ERROR" ID="0x98540c42" />
+			</MSG_LOG>

@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_get_default_attr Failed, Error Code: [0x%08X] @core_msg_track.c(42),ERROR" ID="0x984e0152" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_create Failed, Error Code: [0x%08X] @core_msg_track.c(59),ERROR" ID="0x984e01da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_destroy Failed, Error Code: [0x%08X] @core_msg_track.c(73),ERROR" ID="0x984e024a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_state Failed, Error Code: [0x%08X] @core_msg_track.c(88),ERROR" ID="0x984e02c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_state Failed, Error Code: [0x%08X] @core_msg_track.c(105),ERROR" ID="0x984e034a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_get_attr Failed, Error Code: [0x%08X] @core_msg_track.c(120),ERROR" ID="0x984e03c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_attr Failed, Error Code: [0x%08X] @core_msg_track.c(135),ERROR" ID="0x984e043a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_get_volume Failed, Error Code: [0x%08X] @core_msg_track.c(150),ERROR" ID="0x984e04b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_volume Failed, Error Code: [0x%08X] @core_msg_track.c(167),ERROR" ID="0x984e053a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_get_mute Failed, Error Code: [0x%08X] @core_msg_track.c(182),ERROR" ID="0x984e05b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_mute Failed, Error Code: [0x%08X] @core_msg_track.c(204),ERROR" ID="0x984e0662" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_track_set_bypass Failed, Error Code: [0x%08X] @core_msg_track.c(221),ERROR" ID="0x984e06ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_open Failed, Error Code: [0x%08X] @core_msg_track.c(238),ERROR" ID="0x984e0772" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_data-&gt;cmd = %u @core_msg_track.c(277),ERROR" ID="0x984e08aa" />
+			</MSG_LOG>

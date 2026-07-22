@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_conn_period_cte_sched_check: llc_env[%d] is NULL, elt is 0x%x @lld_ram.c(132),WARNING" ID="0x8a120423" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lld_v3_test_mode_tx,before aox_test_margin=%d @lld_ram.c(212),INFO" ID="0x8a1206a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lld_v3_test_mode_tx,after aox_test_margin=%d @lld_ram.c(214),INFO" ID="0x8a1206b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AoA]update aoa test config,ble_maxevtime_get=%d @lld_ram.c(219),INFO" ID="0x8a1206dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lld_v3_test_mode_rx, before aox_test_margin=%d @lld_ram.c(255),INFO" ID="0x8a1207fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lld_v3_test_mode_rx, after  aox_test_margin=%d @lld_ram.c(257),INFO" ID="0x8a12080d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AoA]update aoa rx config,ble_maxevtime_get=%d @lld_ram.c(262),INFO" ID="0x8a120835" />
+			</MSG_LOG>

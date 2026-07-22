@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rbuf_attr.size = %u @hal_ref_chan.c(98),INFO" ID="0x987e0315" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_ref_chan.c(108),INFO" ID="0x987e0365" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ai_port = 0x%08X @hal_ref_chan.c(125),INFO" ID="0x987e03ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ao_port = 0x%08X @hal_ref_chan.c(126),INFO" ID="0x987e03f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ao_attr.channels = %u @hal_ref_chan.c(136),INFO" ID="0x987e0445" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ao_attr.bit_depth = %u @hal_ref_chan.c(137),INFO" ID="0x987e044d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ao_attr.sample_rate = %u @hal_ref_chan.c(138),INFO" ID="0x987e0455" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ref_attr.channels = %u @hal_ref_chan.c(139),INFO" ID="0x987e045d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ref_attr.bit_depth = %u @hal_ref_chan.c(140),INFO" ID="0x987e0465" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ref_inst-&gt;ref_attr.sample_rate = %u @hal_ref_chan.c(141),INFO" ID="0x987e046d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_ref_chan.c(159),INFO" ID="0x987e04fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_ref_chan.c(167),INFO" ID="0x987e053d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_ref_chan.c(172),INFO" ID="0x987e0565" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_ref_chan.c(195),INFO" ID="0x987e061d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_pcm_unify Failed, Error Code: [0x%08X] @hal_ref_chan.c(234),WARNING" ID="0x987e0753" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @hal_ref_chan.c(248),ERROR" ID="0x987e07c2" />
+			</MSG_LOG>

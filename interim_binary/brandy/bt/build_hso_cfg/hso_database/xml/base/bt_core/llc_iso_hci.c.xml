@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[setup data path]coding=%d @llc_iso_hci.c(121),INFO" ID="0x883603cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]ISO conhdl don,t exist,conhdl=%d @llc_iso_hci.c(134),WARNING" ID="0x88360433" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[setup data path] set up out data path:%d, in data path:%d @llc_iso_hci.c(137),INFO" ID="0x8836044d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]ISO conhdl don,t exist,conhdl=%d @llc_iso_hci.c(185),WARNING" ID="0x883605cb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]data_path_direction:%d @llc_iso_hci.c(345),INFO" ID="0x88360acd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]ico_chnl-&gt;iso_exist:%d @llc_iso_hci.c(357),INFO" ID="0x88360b2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]ISO conhdl don,t exist,conhdl=%d @llc_iso_hci.c(368),WARNING" ID="0x88360b83" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO][WARNING]llc_hci_iso_data_tx_handler: ico pld length(%d) &gt; MTU(%d) @llc_iso_hci.c(397),WARNING" ID="0x88360c6b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO][WARNING]llc_hci_iso_data_tx_handler: ico pld length(%d) &gt; MTU(%d) @llc_iso_hci.c(416),WARNING" ID="0x88360d03" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO][WARNING]llc_hci_iso_data_tx_handler: ico pld length(%d) &gt; autorate phy MTU(%d) @llc_iso_hci.c(438),WARNING" ID="0x88360db3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BIS][WARNING]llc_hci_iso_data_tx_handler: bis pld length(%d) &gt; MTU(%d) @llc_iso_hci.c(455),WARNING" ID="0x88360e3b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[IST]iso_cis_test_pkt_cnt alloc failed @llc_iso_hci.c(569),ERROR" ID="0x883611ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME=" 5 packet iso interval total:%d @llc_iso_hci.c(606),INFO" ID="0x883612f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[IST]iso_cis_test_pkt_cnt alloc failed @llc_iso_hci.c(624),ERROR" ID="0x88361382" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llc_iso_tx_test_handler, cis_chnl = 0x%x, txnode = 0x%x @llc_iso_hci.c(659),ERROR" ID="0x8836149a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="llc_iso_tx_test_handler, bis_chnl = 0x%x, txnode = 0x%x @llc_iso_hci.c(678),ERROR" ID="0x88361532" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Invalid payload_type = %d @llc_iso_hci.c(722),ERROR" ID="0x88361692" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_iso_tx_test_handler, ptr is NULL @llc_iso_hci.c(742),ERROR" ID="0x88361732" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]bis conhdl don,t exist,conhdl=%d @llc_iso_hci.c(770),WARNING" ID="0x88361813" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]bis conhdl has been set as input path,conhdl=%d @llc_iso_hci.c(775),WARNING" ID="0x8836183b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]bis conhdl do not exist,conhdl=%d @llc_iso_hci.c(815),WARNING" ID="0x8836197b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]bis conhdl has been set as output path,conhdl=%d @llc_iso_hci.c(818),WARNING" ID="0x88361993" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]cis conhdl do not exist,conhdl=%d @llc_iso_hci.c(844),WARNING" ID="0x88361a63" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]bis conhdl do not exist,conhdl=%d @llc_iso_hci.c(855),WARNING" ID="0x88361abb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO]cis conhdl do not exist,conhdl=%d @llc_iso_hci.c(893),WARNING" ID="0x88361beb" />
+			</MSG_LOG>

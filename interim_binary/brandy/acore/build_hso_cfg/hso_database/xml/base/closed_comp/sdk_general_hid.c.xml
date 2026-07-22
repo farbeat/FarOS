@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble conn general hid proc:cmdid:0x%02X pay_len:%d. @sdk_general_hid.c(118),INFO" ID="0xd87003b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble conn general hid proc command id:0X%02X invaild. @sdk_general_hid.c(132),INFO" ID="0xd8700425" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: mc_ble_hid_keyboard_input_atb. @sdk_general_hid.c(140),INFO" ID="0xd8700465" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble_conn_general_hid_key_input, data len:%d @sdk_general_hid.c(148),INFO" ID="0xd87004a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble_conn_general_hid_key_input len %d invaild! @sdk_general_hid.c(151),ERROR" ID="0xd87004ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param null! @sdk_general_hid.c(159),ERROR" ID="0xd87004fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_conn_general_hid_keyboard_input_one_word send key message failed! @sdk_general_hid.c(172),ERROR" ID="0xd8700562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt_at_cmd_keyboard_input, data len:%d @sdk_general_hid.c(184),INFO" ID="0xd87005c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] bt_at_cmd_keyboard_input len %d invaild! @sdk_general_hid.c(187),ERROR" ID="0xd87005da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param null! @sdk_general_hid.c(195),ERROR" ID="0xd870061a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param invaild! @sdk_general_hid.c(203),ERROR" ID="0xd870065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input param invaild! @sdk_general_hid.c(208),ERROR" ID="0xd8700682" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bt_at_cmd_keyboard_input_one_word send key message failed! @sdk_general_hid.c(221),ERROR" ID="0xd87006ea" />
+			</MSG_LOG>

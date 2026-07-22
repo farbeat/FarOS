@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_get_attr Failed, Error Code: [0x%08X] @core_msg_adp.c(70),ERROR" ID="0x983c0232" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_create Failed, Error Code: [0x%08X] @core_msg_adp.c(87),ERROR" ID="0x983c02ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_register_event_proc Failed, Error Code: [0x%08X] @core_msg_adp.c(93),ERROR" ID="0x983c02ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_destroy Failed, Error Code: [0x%08X] @core_msg_adp.c(107),ERROR" ID="0x983c035a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_get_attr Failed, Error Code: [0x%08X] @core_msg_adp.c(122),ERROR" ID="0x983c03d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_set_attr Failed, Error Code: [0x%08X] @core_msg_adp.c(137),ERROR" ID="0x983c044a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]adp_type = %u @core_msg_adp.c(161),ERROR" ID="0x983c050a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]adp_type = %u @core_msg_adp.c(166),ERROR" ID="0x983c0532" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @core_msg_adp.c(167),ERROR" ID="0x983c053a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_set_attr Failed, Error Code: [0x%08X] @core_msg_adp.c(178),ERROR" ID="0x983c0592" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]adp_type = %u @core_msg_adp.c(204),ERROR" ID="0x983c0662" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @core_msg_adp.c(209),ERROR" ID="0x983c068a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]adp_attr_user.rbuf_size = %u @core_msg_adp.c(215),ERROR" ID="0x983c06ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]adp_attr_min.rbuf_size = %u @core_msg_adp.c(216),ERROR" ID="0x983c06c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_alloc_shrb Failed, Error Code: [0x%08X] @core_msg_adp.c(227),ERROR" ID="0x983c071a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_free_shrb Failed, Error Code: [0x%08X] @core_msg_adp.c(241),ERROR" ID="0x983c078a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_attach_shrb Failed, Error Code: [0x%08X] @core_msg_adp.c(255),ERROR" ID="0x983c07fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_adp_detach_shrb Failed, Error Code: [0x%08X] @core_msg_adp.c(269),ERROR" ID="0x983c086a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_open Failed, Error Code: [0x%08X] @core_msg_adp.c(286),ERROR" ID="0x983c08f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_data-&gt;cmd = %u @core_msg_adp.c(323),ERROR" ID="0x983c0a1a" />
+			</MSG_LOG>

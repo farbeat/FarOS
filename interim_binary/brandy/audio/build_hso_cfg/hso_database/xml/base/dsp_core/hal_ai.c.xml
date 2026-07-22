@@ -1,0 +1,24 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ai_port = 0x%08X @hal_ai.c(84),ERROR" ID="0x987a02a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_destroy Failed, Error Code: [0x%08X] @hal_ai.c(128),ERROR" ID="0x987a0402" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_create Failed, Error Code: [0x%08X] @hal_ai.c(161),ERROR" ID="0x987a050a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_sio_get_rx_board_cfg Failed, Error Code: [0x%08X] @hal_ai.c(190),ERROR" ID="0x987a05f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ai_create_rbuf Failed, Error Code: [0x%08X] @hal_ai.c(199),ERROR" ID="0x987a063a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_open_edma Failed, Error Code: [0x%08X] @hal_ai.c(205),ERROR" ID="0x987a066a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_open Failed, Error Code: [0x%08X] @hal_ai.c(211),ERROR" ID="0x987a069a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_close_edma Failed, Error Code: [0x%08X] @hal_ai.c(231),ERROR" ID="0x987a073a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]port_handle-&gt;ai_port = 0x%08X @hal_ai.c(237),ERROR" ID="0x987a076a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_close Failed, Error Code: [0x%08X] @hal_ai.c(238),ERROR" ID="0x987a0772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_ai.c(262),INFO" ID="0x987a0835" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_ai.c(274),INFO" ID="0x987a0895" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_start_edma Failed, Error Code: [0x%08X] @hal_ai.c(316),ERROR" ID="0x987a09e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_start Failed, Error Code: [0x%08X] @hal_ai.c(323),ERROR" ID="0x987a0a1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call i_hal_sio_port_stop Failed, Error Code: [0x%08X] @hal_ai.c(337),ERROR" ID="0x987a0a8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_stop_edma Failed, Error Code: [0x%08X] @hal_ai.c(343),ERROR" ID="0x987a0aba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memset_s Failed, Error Code: [0x%08X] @hal_ai.c(439),ERROR" ID="0x987a0dba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_get_edma_info Failed, Error Code: [0x%08X] @hal_ai.c(491),ERROR" ID="0x987a0f5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_info Failed, Error Code: [0x%08X] @hal_ai.c(507),ERROR" ID="0x987a0fda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_pos Failed, Error Code: [0x%08X] @hal_ai.c(514),ERROR" ID="0x987a1012" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_ai.c(534),INFO" ID="0x987a10b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_edma_reg_data_process Failed, Error Code: [0x%08X] @hal_ai.c(542),ERROR" ID="0x987a10f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_ai.c(546),INFO" ID="0x987a1115" />
+			</MSG_LOG>

@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_ab_get_proc_info Failed, Error Code: [0x%08X] @core_msg_ab.c(28),ERROR" ID="0x986800e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_data-&gt;cmd = %u @core_msg_ab.c(42),ERROR" ID="0x98680152" />
+			</MSG_LOG>

@@ -1,0 +1,32 @@
+#===============================================================================
+# @brief    cmake file
+# Copyright (c) @CompanyNameMagicTag 2022-2022. All rights reserved.
+#===============================================================================
+if("SUPPORT_BLE" IN_LIST DEFINES AND "SUPPORT_BREDR" IN_LIST DEFINES)
+    set(COMPONENT_LIST "bt_host_brandy_sample" "bt_host_brandy_service" "bt_host_sdk" "bt_host_audio_manager_wrapper")
+else()
+    set(COMPONENT_LIST "bt_host_brandy_sample" "bt_host_brandy_service" "bt_host_sdk")
+endif()
+
+foreach(COMPONENT ${COMPONENT_LIST})
+    set(COMPONENT_NAME ${COMPONENT})
+    if (NOT ${COMPONENT_NAME} IN_LIST TARGET_COMPONENT)
+        continue()
+    endif()
+    if("SUPPORT_BLE" IN_LIST DEFINES AND "SUPPORT_BREDR" IN_LIST DEFINES)
+        if("MEMORY_MINI" IN_LIST DEFINES)
+            set(LIBRARY_FIND_PATH ${CMAKE_CURRENT_SOURCE_DIR}/${BOARD}_${APPLICATION}/${OS}/mini/br)
+        else()
+            set(LIBRARY_FIND_PATH ${CMAKE_CURRENT_SOURCE_DIR}/${BOARD}_${APPLICATION}/${OS}/br)
+        endif()
+    else()
+        if("MEMORY_MINI" IN_LIST DEFINES)
+            set(LIBRARY_FIND_PATH ${CMAKE_CURRENT_SOURCE_DIR}/${BOARD}_${APPLICATION}/${OS}/mini/ble)
+        else()
+            set(LIBRARY_FIND_PATH ${CMAKE_CURRENT_SOURCE_DIR}/${BOARD}_${APPLICATION}/${OS}/ble)
+        endif()
+    endif()
+    find_library(LIBS${COMPONENT_NAME} "lib${COMPONENT_NAME}.a" ${LIBRARY_FIND_PATH})
+    target_link_libraries(${TARGET_NAME} PRIVATE -Wl,--whole-archive  ${LIBS${COMPONENT_NAME}} -Wl,--no-whole-archive )
+    build_component()
+endforeach()

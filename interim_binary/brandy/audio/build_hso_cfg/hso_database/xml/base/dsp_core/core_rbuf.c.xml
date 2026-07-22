@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_rbuf.c(171),INFO" ID="0x981a055d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rbuf_size = %u @core_rbuf.c(188),ERROR" ID="0x981a05e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]attr-&gt;size = 0x%08X @core_rbuf.c(201),INFO" ID="0x981a064d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]attr-&gt;tail_size = 0x%08X @core_rbuf.c(202),INFO" ID="0x981a0655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_rbuf.c(205),INFO" ID="0x981a066d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_rbuf.c(211),INFO" ID="0x981a069d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_rbuf.c(224),INFO" ID="0x981a0705" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %u @core_rbuf.c(285),ERROR" ID="0x981a08ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %u @core_rbuf.c(375),ERROR" ID="0x981a0bba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ERR_SYS_MEM_COPY = 0x%08X @core_rbuf.c(588),INFO" ID="0x981a1265" />
+			</MSG_LOG>

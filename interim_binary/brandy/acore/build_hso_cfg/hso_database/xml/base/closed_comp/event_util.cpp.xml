@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="failed to execute the callback function of event. @event_util.cpp(42),ERROR" ID="0xe05e0152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="failed to execute the callback function of event. @event_util.cpp(48),ERROR" ID="0xe05e0182" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="failed to set direction attribute for event argument. @event_util.cpp(113),ERROR" ID="0xe05e038a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to invoke event callback. @event_util.cpp(132),ERROR" ID="0xe05e0422" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="EventUtil::InvokeCallback failed: Async task dispatch failure. @event_util.cpp(142),ERROR" ID="0xe05e0472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="fail to get element by UI view. @event_util.cpp(151),ERROR" ID="0xe05e04ba" />
+			</MSG_LOG>

@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[hifi]ana offset = 0x%04x, value = 0x%08x. @hal_afe_sys.c(69),INFO" ID="0x989a022d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ana_reg_ro.bits.rctune_code = 0x%08X @hal_afe_sys.c(129),ERROR" ID="0x989a040a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_afe_sys.c(646),INFO" ID="0x989a1435" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_afe_sys.c(658),INFO" ID="0x989a1495" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @hal_afe_sys.c(664),INFO" ID="0x989a14c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @hal_afe_sys.c(676),INFO" ID="0x989a1525" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]CODEC_COM_REG_BASE = 0x%08X @hal_afe_sys.c(712),ERROR" ID="0x989a1642" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]CODEC_ANA_REG_BASE = 0x%08X @hal_afe_sys.c(720),ERROR" ID="0x989a1682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]CODEC_AFE_REG_BASE = 0x%08X @hal_afe_sys.c(728),ERROR" ID="0x989a16c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]CODEC_MAD_REG_BASE = 0x%08X @hal_afe_sys.c(736),ERROR" ID="0x989a1702" />
+			</MSG_LOG>

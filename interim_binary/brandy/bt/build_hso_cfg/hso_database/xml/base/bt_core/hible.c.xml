@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BLE][ISR]clear rx isr bit during apfm isr @hible.c(316),INFO" ID="0x882c09e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][BLE][ISR]clear rx isr bit during event end isr @hible.c(332),INFO" ID="0x882c0a65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][BLE][ISR]BLE Int ERR:ble int error_code = 0x%x,ble_diag=0x%x,btdm_diag=0x%x @hible.c(399),WARNING" ID="0x882c0c7b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][BLE][ISR]BLE Int ERR:ble int err = 0x%x, error_code = 0x%x @hible.c(407),ERROR" ID="0x882c0cba" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[WARNING][BLE][ISR]clkn=0x%x, etptr=0x%x, elt_idx=%d, hw_id=%d @hible.c(418),WARNING" ID="0x882c0d13" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][BLE][ISR]ET%d:extab0=0x%x, extab1=0x%x @hible.c(427),WARNING" ID="0x882c0d5b" />
+			</MSG_LOG>

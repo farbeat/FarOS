@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Fail to malloc for img dsc data. @lv_barcode.c(102),ERROR" ID="0xc8380332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s failed. @lv_barcode.c(144),ERROR" ID="0xc8380482" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="barcode or data is NULL @lv_barcode.c(161),ERROR" ID="0xc838050a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Fail to malloc for encodedData. @lv_barcode.c(169),ERROR" ID="0xc838054a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="produced data length is 0: %s @lv_barcode.c(175),ERROR" ID="0xc838057a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ConvertBarcodeData failed @lv_barcode.c(181),ERROR" ID="0xc83805aa" />
+			</MSG_LOG>

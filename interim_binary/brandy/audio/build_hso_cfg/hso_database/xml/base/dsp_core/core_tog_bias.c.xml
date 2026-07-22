@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]proc pointer is null @core_tog_bias.c(46),ERROR" ID="0x98ca0172" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_edma_reg_sync_process Failed, Error Code: [0x%08X] @core_tog_bias.c(97),ERROR" ID="0x98ca030a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ao_port = %u @core_tog_bias.c(117),INFO" ID="0x98ca03ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ao_get_edma_ch Failed, Error Code: [0x%08X] @core_tog_bias.c(123),ERROR" ID="0x98ca03da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sio_edma_reg_sync_process Failed, Error Code: [0x%08X] @core_tog_bias.c(133),ERROR" ID="0x98ca042a" />
+			</MSG_LOG>

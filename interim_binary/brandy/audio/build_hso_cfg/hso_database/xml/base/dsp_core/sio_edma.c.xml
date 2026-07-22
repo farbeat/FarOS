@@ -1,0 +1,41 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;flow_ctrl = %u @sio_edma.c(242),ERROR" ID="0x98860792" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]malloc lli failed @sio_edma.c(258),ERROR" ID="0x98860812" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;lli_phy = %p @sio_edma.c(265),INFO" ID="0x9886084d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]malloc src failed @sio_edma.c(270),ERROR" ID="0x98860872" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]malloc dst failed @sio_edma.c(276),ERROR" ID="0x988608a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;src_addr = %p @sio_edma.c(280),INFO" ID="0x988608c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;dst_addr = %p @sio_edma.c(281),INFO" ID="0x988608cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;dma_addr = %p @sio_edma.c(284),INFO" ID="0x988608e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]malloc dma failed @sio_edma.c(286),ERROR" ID="0x988608f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;dma_phy = %p @sio_edma.c(294),INFO" ID="0x98860935" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;flow_ctrl = %u @sio_edma.c(296),ERROR" ID="0x98860942" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;flow_ctrl = %u @sio_edma.c(331),ERROR" ID="0x98860a5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]all edmac channels are busy @sio_edma.c(462),ERROR" ID="0x98860e72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call edmac_stop Failed, Error Code: [0x%08X] @sio_edma.c(468),ERROR" ID="0x98860ea2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]malloc ctx failed @sio_edma.c(474),ERROR" ID="0x98860ed2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call edmac_alloc_mem Failed, Error Code: [0x%08X] @sio_edma.c(483),ERROR" ID="0x98860f1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;peroid_size = %u @sio_edma.c(501),INFO" ID="0x98860fad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;data_width = %u @sio_edma.c(502),INFO" ID="0x98860fb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ctx-&gt;burst_length = %u @sio_edma.c(503),INFO" ID="0x98860fbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]open edmac ch%d @sio_edma.c(504),INFO" ID="0x98860fc5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edmac ch%d is not running @sio_edma.c(514),ERROR" ID="0x98861012" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]close edmac ch%d @sio_edma.c(524),INFO" ID="0x98861065" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edma_ch = %u @sio_edma.c(547),ERROR" ID="0x9886111a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]loop edmac tx ch%d will start later @sio_edma.c(552),INFO" ID="0x98861145" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]start edmac ch%d @sio_edma.c(556),INFO" ID="0x98861165" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]stop edmac ch%d @sio_edma.c(563),INFO" ID="0x9886119d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rx_edma_ch = %u @sio_edma.c(629),ERROR" ID="0x988613aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]tx_edma = %u @sio_edma.c(635),ERROR" ID="0x988613da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @sio_edma.c(654),INFO" ID="0x98861475" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edmac ch%d is not running @sio_edma.c(658),ERROR" ID="0x98861492" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @sio_edma.c(663),INFO" ID="0x988614bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @sio_edma.c(671),INFO" ID="0x988614fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edmac ch%d is not running @sio_edma.c(675),ERROR" ID="0x9886151a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @sio_edma.c(680),INFO" ID="0x98861545" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @sio_edma.c(689),INFO" ID="0x9886158d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edmac ch%d is not running @sio_edma.c(693),ERROR" ID="0x988615aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @sio_edma.c(698),INFO" ID="0x988615d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edmac ch%d is not running @sio_edma.c(708),ERROR" ID="0x98861622" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edma_ch = %u @sio_edma.c(730),ERROR" ID="0x988616d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]edma_ch = %u @sio_edma.c(745),ERROR" ID="0x9886174a" />
+			</MSG_LOG>

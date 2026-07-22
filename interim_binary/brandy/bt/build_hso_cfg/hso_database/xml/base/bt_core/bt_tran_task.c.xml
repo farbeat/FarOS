@@ -1,0 +1,27 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="hci qos buf overflow. @bt_tran_task.c(107),ERROR" ID="0x8c94035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bth ipc fsm rx tx buf overflow. @bt_tran_task.c(112),ERROR" ID="0x8c940382" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]p_data is null @bt_tran_task.c(125),ERROR" ID="0x8c9403ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BT_TRAN:route data:TID&amp;SOF&amp;SID&amp;CID, LEN = 0x%04X%04X, %d @bt_tran_task.c(155),ERROR" ID="0x8c9404da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Error route_id! @bt_tran_task.c(167),ERROR" ID="0x8c94053a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="BT_TRAN:route data:TID&amp;SOF&amp;SID&amp;CID=0x%04X%04X,LEN=%d,CNT=%d @bt_tran_task.c(210),ERROR" ID="0x8c940692" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="BT_TRAN:data:TID&amp;SOF&amp;SID&amp;CID:0x%04X%04X,LEN:%d @bt_tran_task.c(213),ERROR" ID="0x8c9406aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="INVALID DATA! @bt_tran_task.c(249),ERROR" ID="0x8c9407ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BT_TRAN: TXMCU:ipc send data fail, ret=%d opcode=0x%x @bt_tran_task.c(278),ERROR" ID="0x8c9408b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="UNKNOW CORE! @bt_tran_task.c(287),ERROR" ID="0x8c9408fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt tran task framek free property allow_free= %d @bt_tran_task.c(327),INFO" ID="0x8c940a3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pst_property-&gt;en_id = 0x%x @bt_tran_task.c(345),INFO" ID="0x8c940acd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BT_TRAN: data ERROR data_len:%d @bt_tran_task.c(418),WARNING" ID="0x8c940d13" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="BT_TRAN: data ERROR data:0x%08x, 0x%08x @bt_tran_task.c(422),WARNING" ID="0x8c940d33" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="rec mcu error data,tid:0x%x,sof:0x%x,len:0x%04x,opcode:0x%04x @bt_tran_task.c(431),ERROR" ID="0x8c940d7a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rec data malloc fail opcode:0x%04x,length:(0x%04x) @bt_tran_task.c(449),ERROR" ID="0x8c940e0a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rec data memcpy fail opcode:0x%04x,length:(0x%04x) @bt_tran_task.c(455),ERROR" ID="0x8c940e3a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="rec mcu write property fail,tid:0x%x,sof:0x%x,len:0x%04x,opcode:0x%04x @bt_tran_task.c(465),ERROR" ID="0x8c940e8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ipc data data len err = %d @bt_tran_task.c(502),ERROR" ID="0x8c940fb2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ipc data data len err = %d @bt_tran_task.c(512),ERROR" ID="0x8c941002" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ipc data from M7 error = %d @bt_tran_task.c(516),ERROR" ID="0x8c941022" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ipc data from unknow core @bt_tran_task.c(528),ERROR" ID="0x8c941082" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt tran task handler osMessageQueueGet fail ret:(%x) @bt_tran_task.c(554),ERROR" ID="0x8c941152" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt tran task framek write property en_id = 0x%x @bt_tran_task.c(578),INFO" ID="0x8c941215" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="write Property fail id:0x%x, ret:0x%x @bt_tran_task.c(586),ERROR" ID="0x8c941252" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt tran task framek write property fail en_id:%d,ret:%x @bt_tran_task.c(595),ERROR" ID="0x8c94129a" />
+			</MSG_LOG>

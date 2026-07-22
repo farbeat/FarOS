@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]BT rfpll addr:0x%x = %04x @bt_dbg.c(72),INFO" ID="0x89320245" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]BT rf    addr:0x%x = %04x @bt_dbg.c(78),INFO" ID="0x89320275" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]BT mdm    addr:0x%x = %04x @bt_dbg.c(92),INFO" ID="0x893202e5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]ABB REG addr:0x%x = %04x @bt_dbg.c(100),INFO" ID="0x89320325" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]ABB REG addr:0x%x = %04x @bt_dbg.c(102),INFO" ID="0x89320335" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bt_debug]ABB REG addr:0x%x = %04x @bt_dbg.c(104),INFO" ID="0x89320345" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[TEST][TX]freq=%d, mode=%d, packtype=%d, txpower=%d @bt_dbg.c(209),INFO" ID="0x8932068d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[TEST][TX]freq=%d, mode=%d, packtype=%d, txpower=%d @bt_dbg.c(343),INFO" ID="0x89320abd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD]bt_test_config:Memory process is error @bt_dbg.c(347),WARNING" ID="0x89320adb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DEBUG][UPC] RF tx power CONFIG to 0x%x. @bt_dbg.c(566),INFO" ID="0x893211b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======work info START====== @bt_dbg.c(574),INFO" ID="0x893211f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="PILOT! @bt_dbg.c(576),INFO" ID="0x89321205" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CMU MODE. @bt_dbg.c(579),INFO" ID="0x8932121d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======work info END====== @bt_dbg.c(581),INFO" ID="0x8932122d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======upccode calibration START====== @bt_dbg.c(584),INFO" ID="0x89321245" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="calibrate at %d freqency, below @bt_dbg.c(585),INFO" ID="0x8932124d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="freq = %d, pdet reference = %d, upccode = 0x%x(%d) @bt_dbg.c(589),INFO" ID="0x8932126d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======upccode calibration END====== @bt_dbg.c(592),INFO" ID="0x89321285" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======upccode in txup2 START====== @bt_dbg.c(595),INFO" ID="0x8932129d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="FREQ = %d, UPCCODE = 0x%x(%d), dynamic power vdet target=%d @bt_dbg.c(601),INFO" ID="0x893212cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======upccode in txup2 END====== @bt_dbg.c(604),INFO" ID="0x893212e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======PA LPF in txup3 START====== @bt_dbg.c(607),INFO" ID="0x893212fd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="IDX = %d, POWER = 0x%x(%d) @bt_dbg.c(610),INFO" ID="0x89321315" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="======PA LPF in txup3 END====== @bt_dbg.c(613),INFO" ID="0x8932132d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Last C0 Tsensor temperature %d, temp code %d @bt_dbg.c(616),INFO" ID="0x89321345" />
+			</MSG_LOG>

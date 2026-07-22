@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[param]co_list_pool_init:list_hdr = NULL @co_list.c(55),ERROR" ID="0x892001ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_extract:list_hdr = NULL @co_list.c(96),ERROR" ID="0x89200302" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_extract:last = NULL @co_list.c(120),ERROR" ID="0x892003c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_extract_after:list = NULL @co_list.c(167),ERROR" ID="0x8920053a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_extract_after:elt_to_rem_hdr = NULL @co_list.c(172),ERROR" ID="0x89200562" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_insert_after:elt_to_add_hdr = NULL @co_list.c(222),ERROR" ID="0x892006f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_insert_before:elt_to_add_hdr = NULL @co_list.c(267),ERROR" ID="0x8920085a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[param] list2 = NULL @co_list.c(308),ERROR" ID="0x892009a2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="co_list_pop_front count = 0 list = 0x%x lr = 0x%x element 0x%x @co_list.c(357),INFO" ID="0x89200b2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]co_list_push_back:list_hdr = NULL, lr=0x%x @co_list.c(374),ERROR" ID="0x89200bb2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]co_list_push_back:list = NULL, lr=0x%x @co_list.c(383),ERROR" ID="0x89200bfa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]co_list_push_front:list_hdr = NULL @co_list.c(413),ERROR" ID="0x89200cea" />
+			</MSG_LOG>

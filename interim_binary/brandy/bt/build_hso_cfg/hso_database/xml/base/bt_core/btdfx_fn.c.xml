@@ -1,0 +1,145 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="idx=%d @btdfx_fn.c(327),INFO" ID="0x88e40a3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd:rdblecs invalid index @btdfx_fn.c(334),INFO" ID="0x88e40a75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[get_tog_start_slot]slotcnt_start=%d @btdfx_fn.c(364),INFO" ID="0x88e40b65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="Mpw0 reg:0x%x=0x%x, @btdfx_fn.c(374),INFO" ID="0x88e40bb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:set phy rate 125k @btdfx_fn.c(394),INFO" ID="0x88e40c55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:set phy rate 500k @btdfx_fn.c(397),INFO" ID="0x88e40c6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="enable %d num ral_struct @btdfx_fn.c(437),WARNING" ID="0x88e40dab" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start ble aes key calc by HW loop %d times @btdfx_fn.c(470),WARNING" ID="0x88e40eb3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dfx_bt_debug_cmd_callback_role invalid link id %d, @btdfx_fn.c(479),WARNING" ID="0x88e40efb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dfx_bt_debug_cmd_callback_role invalid link id %d for lc_env, @btdfx_fn.c(484),WARNING" ID="0x88e40f23" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dfx_bt_debug_cmd_callback_role %d, req_role %d @btdfx_fn.c(491),WARNING" ID="0x88e40f5b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dfx_bt_debug_cmd_callback_link_policy invalid link_id %d @btdfx_fn.c(507),WARNING" ID="0x88e40fdb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start channel scan @btdfx_fn.c(514),INFO" ID="0x88e41015" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:stop channel scan @btdfx_fn.c(521),INFO" ID="0x88e4104d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="wr register 0x%x,value 0x%x. @btdfx_fn.c(533),WARNING" ID="0x88e410ab" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rd register 0x%x,value 0x%x. @btdfx_fn.c(552),WARNING" ID="0x88e41143" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="print link key succ. @btdfx_fn.c(558),WARNING" ID="0x88e41173" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:adv:%x @btdfx_fn.c(683),INFO" ID="0x88e4155d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback_hcireset end @btdfx_fn.c(689),INFO" ID="0x88e4158d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:btsnoop_acl_on @btdfx_fn.c(695),INFO" ID="0x88e415bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:btsnoop_acl_off @btdfx_fn.c(701),INFO" ID="0x88e415ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:btsnoop_off @btdfx_fn.c(707),INFO" ID="0x88e4161d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:btsnoop_on @btdfx_fn.c(713),INFO" ID="0x88e4164d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:btsnoop_timeout_print @btdfx_fn.c(719),INFO" ID="0x88e4167d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="TX/RX is going on normally @btdfx_fn.c(733),INFO" ID="0x88e416ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="TX/RX is abnormal, plz check operation or config @btdfx_fn.c(735),WARNING" ID="0x88e416fb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gain_code  = 0x%x @btdfx_fn.c(797),INFO" ID="0x88e418ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="DTC cali start! @btdfx_fn.c(804),INFO" ID="0x88e41925" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mode sense cali start! @btdfx_fn.c(807),INFO" ID="0x88e4193d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pulling sense cali start! @btdfx_fn.c(810),INFO" ID="0x88e41955" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="wr ssi register 0x%x,value 0x%x. @btdfx_fn.c(823),WARNING" ID="0x88e419bb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rd ssi register 0x%x @btdfx_fn.c(835),WARNING" ID="0x88e41a1b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rd ssi register 0x%x,value 0x%x. @btdfx_fn.c(839),WARNING" ID="0x88e41a3b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:pcmloopback @btdfx_fn.c(880),INFO" ID="0x88e41b85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:pcm_print_off @btdfx_fn.c(887),INFO" ID="0x88e41bbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:pcm_print_on @btdfx_fn.c(894),INFO" ID="0x88e41bf5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:stop_tx @btdfx_fn.c(902),INFO" ID="0x88e41c35" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start_tx, freq=%d, mode=%d @btdfx_fn.c(915),INFO" ID="0x88e41c9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start_rx @btdfx_fn.c(925),INFO" ID="0x88e41ced" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:stop_rx @btdfx_fn.c(933),INFO" ID="0x88e41d2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:sco_print_on @btdfx_fn.c(940),INFO" ID="0x88e41d65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="=========Inquiry start!========= @btdfx_fn.c(956),INFO" ID="0x88e41de5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][DFX]ex table index = (%d), mode = (0x%0x), status = (%d), sniff bit = (%d), @btdfx_fn.c(984),INFO" ID="0x88e41ec5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][DFX]ex table esco bit = (%d), vx channel = (%d), reserved bit = (%d), csb bit = (%d),) @btdfx_fn.c(991),INFO" ID="0x88e41efd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]ex table cs struct pointer = (0x%0x), excptrnrdy bit = (%d), @btdfx_fn.c(995),INFO" ID="0x88e41f1d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]the %d link CS address is 0x%x @btdfx_fn.c(1006),INFO" ID="0x88e41f75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd:rdbtcs invalid index @btdfx_fn.c(1012),INFO" ID="0x88e41fa5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:param_count=%d @btdfx_fn.c(1020),INFO" ID="0x88e41fe5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:opcode is [0x%0x,0x%0x] @btdfx_fn.c(1024),INFO" ID="0x88e42005" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:param 0 is [0x%0x,0x%0x] @btdfx_fn.c(1029),INFO" ID="0x88e4202d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:param 1 is [0x%0x,0x%0x] @btdfx_fn.c(1031),INFO" ID="0x88e4203d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:param 2 is [0x%0x,0x%0x] @btdfx_fn.c(1034),INFO" ID="0x88e42055" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:param 3 is [0x%0x,0x%0x] @btdfx_fn.c(1037),INFO" ID="0x88e4206d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="RF ABB LDP OPEN @btdfx_fn.c(1046),INFO" ID="0x88e420b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="RF ABB LDP CLOSED @btdfx_fn.c(1052),INFO" ID="0x88e420e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ADPLL ENABLE @btdfx_fn.c(1058),INFO" ID="0x88e42115" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ADPLL DISABLE @btdfx_fn.c(1064),INFO" ID="0x88e42145" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DEBUG] Read 0x%x: 0x%x @btdfx_fn.c(1077),INFO" ID="0x88e421ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DEBUG] Write 0x%x: 0x%x @btdfx_fn.c(1087),INFO" ID="0x88e421fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]bt_debug &lt;command_str&gt; &lt;parm1&gt; &lt;parm2&gt; &lt;parm3&gt; &lt;parm4&gt; -- bt debug command @btdfx_fn.c(1251),INFO" ID="0x88e4271d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]bt_log? -- query bt log status @btdfx_fn.c(1252),INFO" ID="0x88e42725" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]bt_log = &lt;service_id,log_level&lt;semicolon&gt;&gt; -- set service log level or switch log on/off @btdfx_fn.c(1253),INFO" ID="0x88e4272d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]for example:bt_log=on,0; -- globally disable bt log @btdfx_fn.c(1254),INFO" ID="0x88e42735" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]for example:bt_log=on,1; -- globally enable bt log @btdfx_fn.c(1255),INFO" ID="0x88e4273d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]for example:bt_log=common,1; -- set common bt log warning level @btdfx_fn.c(1256),INFO" ID="0x88e42745" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:schedule_tool_on! @btdfx_fn.c(1384),INFO" ID="0x88e42b45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:schedule_tool_off! @btdfx_fn.c(1391),INFO" ID="0x88e42b7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_cmd_gpio_0_trriger @btdfx_fn.c(1399),INFO" ID="0x88e42bbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GPIO][COEX]GPIO1 signal create! @btdfx_fn.c(1405),INFO" ID="0x88e42bed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]bt debug mimic cfg enter @btdfx_fn.c(1416),INFO" ID="0x88e42c45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_test @btdfx_fn.c(1460),INFO" ID="0x88e42da5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="header = %x, order_type = %x @btdfx_fn.c(1462),INFO" ID="0x88e42db5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="len = %x @btdfx_fn.c(1463),INFO" ID="0x88e42dbd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status0 = %x, status1 = %x @btdfx_fn.c(1465),INFO" ID="0x88e42dcd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status2 = %x, status3 = %x @btdfx_fn.c(1467),INFO" ID="0x88e42ddd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_once_test--uart_send_msg_to_wifi @btdfx_fn.c(1519),INFO" ID="0x88e42f7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_once_test--uart_send_msg_to_wifi end @btdfx_fn.c(1521),INFO" ID="0x88e42f8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_once_test @btdfx_fn.c(1525),INFO" ID="0x88e42fad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="header = %x, order_type = %x @btdfx_fn.c(1527),INFO" ID="0x88e42fbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="len = %x @btdfx_fn.c(1528),INFO" ID="0x88e42fc5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status0 = %x, status1 = %x @btdfx_fn.c(1530),INFO" ID="0x88e42fd5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status2 = %x, status3 = %x @btdfx_fn.c(1532),INFO" ID="0x88e42fe5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_recovery_test--uart_send_msg_to_wifi @btdfx_fn.c(1546),INFO" ID="0x88e43055" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_recovery_test--uart_send_msg_to_wifi end @btdfx_fn.c(1548),INFO" ID="0x88e43065" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX][COEX]dfx_bt_debug_uart_recovery_test @btdfx_fn.c(1552),INFO" ID="0x88e43085" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="header = %x, order_type = %x @btdfx_fn.c(1554),INFO" ID="0x88e43095" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="len = %x @btdfx_fn.c(1555),INFO" ID="0x88e4309d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status0 = %x, status1 = %x @btdfx_fn.c(1557),INFO" ID="0x88e430ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="status2 = %x, status3 = %x @btdfx_fn.c(1559),INFO" ID="0x88e430bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="g_pta_denied_flag = %d, g_pta_denied_delay = %d slot @btdfx_fn.c(1568),INFO" ID="0x88e43105" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[acl_long_tx]2-DH5 TX start! pkt_len=0x%x, modu_type=0x%x @btdfx_fn.c(1599),INFO" ID="0x88e431fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble_tx: tx_freq=0x%x, test_data_len=0x%x, pk_payload_type=0x%x, tx_phy=0x%x, @btdfx_fn.c(1635),INFO" ID="0x88e4331d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble_tx: power_level = 0x%x @btdfx_fn.c(1636),INFO" ID="0x88e43325" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="polar_debug:g_ico_phy=0x%x,g_ico_polar_r = 0x%x,g_acl_maxtime=%d,g_ico_maxtime=%d @btdfx_fn.c(1676),INFO" ID="0x88e43465" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_debug:g_btc_ico_polar_enable=%d @btdfx_fn.c(1683),INFO" ID="0x88e4349d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[POLAR]time:0x%x, frame_enable:0x%x @btdfx_fn.c(1703),INFO" ID="0x88e4353d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble_frame_end:enable=%d, time:0x%x @btdfx_fn.c(1704),INFO" ID="0x88e43545" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BTC][TWS]tws_break_test::Bitoff:0x%x, Rept:0x%x @btdfx_fn.c(1718),WARNING" ID="0x88e435b3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BR HARQ CTRL SET TO %d  @btdfx_fn.c(1736),INFO" ID="0x88e43645" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BR HARQ CTRL PARAM ERROR @btdfx_fn.c(1738),ERROR" ID="0x88e43652" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="BR HARQ MODE SET TO %d  @btdfx_fn.c(1746),INFO" ID="0x88e43695" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BR HARQ MODE PARAM ERROR @btdfx_fn.c(1748),ERROR" ID="0x88e436a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback_set_scene:invalid link_id:%d @btdfx_fn.c(1759),WARNING" ID="0x88e436fb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:scene:%x @btdfx_fn.c(1766),INFO" ID="0x88e43735" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BASE_ADDR(0x%08X)EM_BT_END(0x%x)EM_BLE_END(0x%x)EM_END(0x%x) @btdfx_fn.c(1776),INFO" ID="0x88e43785" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_ET_OFFSET(0x%x)(%d)EM_FT_OFFSET(0x%x)(%d) @btdfx_fn.c(1783),INFO" ID="0x88e437bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_RF_SW_SPI_OFFSET(0x%x)(%d)EM_RF_HW_SPI_OFFSET(0x%x)(%d) @btdfx_fn.c(1790),INFO" ID="0x88e437f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_E0_OFFSET(0x%x)(%d)EM_BT_CS_OFFSET(0x%x)(%d) @btdfx_fn.c(1800),INFO" ID="0x88e43845" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_RXDESC_OFFSET(0x%x)(%d)EM_BT_TXDESC_OFFSET(0x%x)(%d) @btdfx_fn.c(1805),INFO" ID="0x88e4386d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_LMPRXBUF_OFFSET(0x%x)(%d)EM_BT_LMPTXBUF_OFFSET(0x%x)(%d) @btdfx_fn.c(1810),INFO" ID="0x88e43895" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_ISCANFHSTXBUF_OFFSET(0x%x)(%d)EM_BT_PAGEFHSTXBUF_OFFSET(0x%x)(%d) @btdfx_fn.c(1816),INFO" ID="0x88e438c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_EIRTXBUF_OFFSET(0x%x)(%d)EM_BT_STPTXBUF_OFFSET(0x%x)(%d) @btdfx_fn.c(1825),INFO" ID="0x88e4390d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_ACLRXBUF_OFFSET(0x%x)(%d)EM_BT_ACLTXBUF_OFFSET(0x%x)(%d) @btdfx_fn.c(1830),INFO" ID="0x88e43935" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_BLE_CS_OFFSET(0x%x)(%d) @btdfx_fn.c(1837),INFO" ID="0x88e4396d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BLE_TX_DESC_OFFSET(0x%x)(%d)EM_BLE_RX_DESC_OFFSET(0x%x)(%d) @btdfx_fn.c(1842),INFO" ID="0x88e43995" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BLE_ENC_PLAIN_OFFSET(0x%x)(%d)EM_BLE_ENC_CIPHER_OFFSET(0x%x)(%d) @btdfx_fn.c(1848),INFO" ID="0x88e439c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BLE_RAL_OFFSET(0x%x)(%d)EM_BLE_ADI_OFFSET(0x%x)(%d) @btdfx_fn.c(1855),INFO" ID="0x88e439fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BLE_TX_BUFFER_CNTL_OFFSET(0x%x)(%d)EM_BLE_TX_BUFFER_DATA_OFFSET(0x%x)(%d) @btdfx_fn.c(1866),INFO" ID="0x88e43a55" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BLE_TX_BUFFER_DATA_OFFSET(0x%x)(%d)EM_AE_TX_BUFFER_DATA_OFFSET(0x%x)(%d) @btdfx_fn.c(1872),INFO" ID="0x88e43a85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BLE_RX_BUFFER_OFFSET(0x%x)(%d)EM_BLE_RX_BUFFER_SUPP_DATA_OFFSET(0x%x)(%d) @btdfx_fn.c(1882),INFO" ID="0x88e43ad5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_BLE_TX_BUFFER_EXTHEAD_OFFSET(0x%x)(%d) @btdfx_fn.c(1885),INFO" ID="0x88e43aed" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_WBS_OFFSET(0x%x)(%d)EM_BT_CHNLSCAN_OFFSET(0x%x)(%d) @btdfx_fn.c(1896),INFO" ID="0x88e43b45" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_CS_FT_OFFSET(0x%x)(%d) @btdfx_fn.c(1901),INFO" ID="0x88e43b6d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_BT_REG_STORE_OFFSET(0x%x)(%d) @btdfx_fn.c(1906),INFO" ID="0x88e43b95" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_BT_AUDIOBUF_OFFSET(0x%x)(%d) @btdfx_fn.c(1910),INFO" ID="0x88e43bb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_BT_CHNLSCAN_OFFSET_STATIC(0x%x)(%d) @btdfx_fn.c(1913),INFO" ID="0x88e43bcd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_ACLHARQ_OFFSET(0x%x)(%d)EM_BT_ESCOHARQ_OFFSET(0x%x)(%d) @btdfx_fn.c(1920),INFO" ID="0x88e43c05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[DFX]EM_BT_HARQ_DEBUG_OFFSET(0x%x)(%d) @btdfx_fn.c(1923),INFO" ID="0x88e43c1d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DFX]EM_BT_RAM_END(0x%x)EM_BT_END(0x%x)EM_BLE_RAM_END(0x%x)EM_BLE_ROM_END(0x%x) @btdfx_fn.c(1930),INFO" ID="0x88e43c55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CANT SET POWER HIGHER THAN 2 @btdfx_fn.c(1952),INFO" ID="0x88e43d05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CANT SET POWER HIGHER THAN 14 @btdfx_fn.c(1957),INFO" ID="0x88e43d2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ALL POWER SET TO %d dBm @btdfx_fn.c(1969),INFO" ID="0x88e43d8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bypass txpower cali @btdfx_fn.c(1985),INFO" ID="0x88e43e0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bypass txpower cali @btdfx_fn.c(1990),INFO" ID="0x88e43e35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="recover txpower cali @btdfx_fn.c(2003),INFO" ID="0x88e43e9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="recover txpower cali @btdfx_fn.c(2008),INFO" ID="0x88e43ec5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gain_code  = 0x%x @btdfx_fn.c(2021),INFO" ID="0x88e43f2d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Mod Sen Config]msb is %x, lsb is %x @btdfx_fn.c(2030),INFO" ID="0x88e43f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="chip temperature = %d @btdfx_fn.c(2035),INFO" ID="0x88e43f9d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="update_keys sec_con = %d @btdfx_fn.c(2043),INFO" ID="0x88e43fdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="update_keys lm_ecc_gen_new_key return = %d @btdfx_fn.c(2049),INFO" ID="0x88e4400d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt debug trigger panic, panic id %d @btdfx_fn.c(2054),INFO" ID="0x88e44035" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DEBUG]ld_sched_env.access_modes:%d, g_close_addbtframe:%d, g_fastswitch:%d, g_fastpri:%d @btdfx_fn.c(2092),INFO" ID="0x88e44165" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DEBUG]g_msg_ptr_read%d, @btdfx_fn.c(2093),INFO" ID="0x88e4416d" />
+			</MSG_LOG>

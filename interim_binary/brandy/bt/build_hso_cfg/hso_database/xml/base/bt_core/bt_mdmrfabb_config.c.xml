@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[FRONTEND]bt_tx_power_get param level is %d, OUT OF RANGE @bt_mdmrfabb_config.c(97),ERROR" ID="0x88f8030a" />
+			</MSG_LOG>

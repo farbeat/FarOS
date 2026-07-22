@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]lib_id = 0x%08X @core_sea_lib.c(101),ERROR" ID="0x9862032a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sea_lib_get_lib_index Failed, Error Code: [0x%08X] @core_sea_lib.c(119),ERROR" ID="0x986203ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_sea_lib_status[index].lib_id = 0x%08X @core_sea_lib.c(131),ERROR" ID="0x9862041a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sea_lib_get_lib_index Failed, Error Code: [0x%08X] @core_sea_lib.c(144),ERROR" ID="0x98620482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_sea_lib_status[index].lib_id = 0x%08X @core_sea_lib.c(156),ERROR" ID="0x986204e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sea_lib_get_lib_index Failed, Error Code: [0x%08X] @core_sea_lib.c(169),ERROR" ID="0x9862054a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_sea_lib_status[index].lib_id = 0x%08X @core_sea_lib.c(183),ERROR" ID="0x986205ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call sea_lib_get_lib_index Failed, Error Code: [0x%08X] @core_sea_lib.c(196),ERROR" ID="0x98620622" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]g_sea_lib_status[index].lib_id = 0x%08X @core_sea_lib.c(208),ERROR" ID="0x98620682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]type = 0x%08X @core_sea_lib.c(397),ERROR" ID="0x98620c6a" />
+			</MSG_LOG>

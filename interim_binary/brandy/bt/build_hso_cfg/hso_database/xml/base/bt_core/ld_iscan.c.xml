@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_iscan_env.evt != evt @ld_iscan.c(373),ERROR" ID="0x88b40baa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_iscan_env.evt != evt @ld_iscan.c(412),ERROR" ID="0x88b40ce2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]((struct ld_iscan_evt_params*) &amp;evt-&gt;env)-&gt;state = %d @ld_iscan.c(418),ERROR" ID="0x88b40d12" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[iscan stop]tx_time_total:%d, rx_time_total:%d, bt_statis_clock:%d @ld_iscan.c(746),WARNING" ID="0x88b41753" />
+			</MSG_LOG>

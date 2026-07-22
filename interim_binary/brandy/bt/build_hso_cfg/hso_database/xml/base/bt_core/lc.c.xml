@@ -1,0 +1,22 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_save_previous_state:save state=%d, call is 0x%x @lc.c(178),INFO" ID="0x88780595" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]no need to update previous state=%d @lc.c(192),INFO" ID="0x88780605" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_restore_previous_state:previous_state state=%d, call is 0x%x @lc.c(209),INFO" ID="0x8878068d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LC] invalid previous state=%d @lc.c(221),ERROR" ID="0x887806ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]lc_start:link_id = %d @lc.c(335),ERROR" ID="0x88780a7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]lc_start:lc_env[%d] = NULL @lc.c(343),ERROR" ID="0x88780aba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_auth_cmp:pid =%d, reason=%d @lc.c(457),INFO" ID="0x88780e4d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LC]lc_start_rsw:reason=%d, policy 0x%x, mode %d, keyflag %d @lc.c(1280),INFO" ID="0x88782805" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LC]HCI_ROLE_CHG_EVT:reason=%d, role=%d @lc.c(1303),INFO" ID="0x887828bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[REKEY]MASTER PAUSE ENC @lc.c(1581),WARNING" ID="0x8878316b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[REKEY]SLAVE PAUSE ENC @lc.c(1587),WARNING" ID="0x8878319b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LC]lc_max_slot_mgt max_slot=0x%x @lc.c(1792),ERROR" ID="0x88783802" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LC]lc_mutual_auth_end:link id =%d, reason=%d @lc.c(1937),INFO" ID="0x88783c8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][LC]lc_release:ld_acl_stop status=%d, link id=%d @lc.c(2793),ERROR" ID="0x8878574a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;unsniff_sync:slave don't send unsniff resp to phone @lc.c(3549),INFO" ID="0x88786eed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTC_TWS-&gt;unsniff_sync:only MEAR reach here. @lc.c(3794),INFO" ID="0x88787695" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][SECCON][LC]lc_pair:lc_sp_fail @lc.c(3906),INFO" ID="0x88787a15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][ACL]lc_sp_end reason=%d @lc.c(4220),INFO" ID="0x887883e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]lc_release_prevcon, if bd_addr is used, disc previous connection, task_id=%d @lc.c(4277),INFO" ID="0x887885ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="print link key @lc.c(4342),INFO" ID="0x887887b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]lc_set_link_policy:LinkPolicySet=0x%x @lc.c(4360),INFO" ID="0x88788845" />
+			</MSG_LOG>

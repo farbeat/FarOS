@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sbc_config-&gt;sample_rate = %u @xasbc_enc_comp.c(183),ERROR" ID="0x98b205ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sbc_config-&gt;channel_mode = %u @xasbc_enc_comp.c(187),ERROR" ID="0x98b205da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]open_param-&gt;channels = %u @xasbc_enc_comp.c(327),ERROR" ID="0x98b20a3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]open_param-&gt;bit_depth = %u @xasbc_enc_comp.c(332),ERROR" ID="0x98b20a62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]open_param-&gt;sample_rate = %u @xasbc_enc_comp.c(340),ERROR" ID="0x98b20aa2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call check_enc_param_valid Failed, Error Code: [0x%08X] @xasbc_enc_comp.c(418),ERROR" ID="0x98b20d12" />
+			</MSG_LOG>

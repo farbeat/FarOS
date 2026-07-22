@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][AE]llm_adv_report_send ral_idx overflow ral_ptr:0x%x, em_ral_addr:0x%x @llm.c(217),INFO" ID="0x884c06cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_adv_report_send:no adv report evt send to host @llm.c(287),WARNING" ID="0x884c08fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLM]llm_sec_init:ok @llm.c(525),INFO" ID="0x884c106d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][param]llm_le_env.scanning_params = NULL &amp;&amp; ext_scanning_params = NULL @llm.c(613),WARNING" ID="0x884c132b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLM]llm_set_scan_en:scan_en=%d @llm.c(733),INFO" ID="0x884c16ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLM]llm_wl_dev_add_hdl:peer address is not in ral @llm.c(935),INFO" ID="0x884c1d3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]bd_addr_type=%d @llm.c(952),WARNING" ID="0x884c1dc3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_wl_dev_rem_hdl:nb_dev_in_wl=0 @llm.c(977),WARNING" ID="0x884c1e8b" />
+			</MSG_LOG>

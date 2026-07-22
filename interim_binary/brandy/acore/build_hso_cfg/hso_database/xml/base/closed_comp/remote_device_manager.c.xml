@@ -1,0 +1,86 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="osal_mutex_init in g_btsrv_rmt_dev_list_lock failed @remote_device_manager.c(125),ERROR" ID="0xd80a03ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv get remote paired phone node, acquire rmt dev list lock failed. @remote_device_manager.c(162),ERROR" ID="0xd80a0512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(182),ERROR" ID="0xd80a05b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get paired info fail @remote_device_manager.c(188),WARNING" ID="0xd80a05e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get paired real len fail @remote_device_manager.c(193),WARNING" ID="0xd80a060b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create node error @remote_device_manager.c(201),ERROR" ID="0xd80a064a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy error! @remote_device_manager.c(205),ERROR" ID="0xd80a066a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s error! @remote_device_manager.c(231),ERROR" ID="0xd80a073a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="paired dev info write error! ret 0x%x @remote_device_manager.c(240),ERROR" ID="0xd80a0782" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="node is null @remote_device_manager.c(247),ERROR" ID="0xd80a07ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(252),ERROR" ID="0xd80a07e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(256),ERROR" ID="0xd80a0802" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="node is null @remote_device_manager.c(268),ERROR" ID="0xd80a0862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(273),ERROR" ID="0xd80a088a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(277),ERROR" ID="0xd80a08aa" />
+			<MSG STRUCTURE="diag_log_msg10" NAME="addr: ****%02x%02x%02x%02x [little endian: %02x%02x%02x%02x**** ] name: %s hdl: %x @remote_device_manager.c(298),INFO" ID="0xd80a0955" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create node error @remote_device_manager.c(302),ERROR" ID="0xd80a0972" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(345),ERROR" ID="0xd80a0aca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(352),ERROR" ID="0xd80a0b02" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="addr: ****%02x%02x%02x%02x hdl: %x @remote_device_manager.c(358),WARNING" ID="0xd80a0b33" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv add remote dev node, acquire rmt dev list lock failed. @remote_device_manager.c(362),ERROR" ID="0xd80a0b52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv get remote dev node, acquire rmt dev list lock failed. @remote_device_manager.c(375),ERROR" ID="0xd80a0bba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv clear remtoe dev list, acquire rmt dev list lock failed. @remote_device_manager.c(421),ERROR" ID="0xd80a0d2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv set remote dev status found 2 none, acquire rmt dev list lock failed. @remote_device_manager.c(459),ERROR" ID="0xd80a0e5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsrv dfx show remote dev list, acquire rmt dev list lock failed. @remote_device_manager.c(486),ERROR" ID="0xd80a0f32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show remote device list: @remote_device_manager.c(492),INFO" ID="0xd80a0f65" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="| %-4s | %-32s | %-12s | %-16s | %-8s | %-8s | %-8s | %-8s | %-48s | @remote_device_manager.c(498),INFO" ID="0xd80a0f95" />
+			<MSG STRUCTURE="diag_log_msg12" NAME="| %-4d | %-32s | ****%02x%02x%02x%02x | %-16x | %-8d | %-8d | %-8d | %-8d | %-48s | @remote_device_manager.c(514),INFO" ID="0xd80a1015" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="| %-4s | %-32s | %-12s | %-16s | %-8s | %-8s | @remote_device_manager.c(521),INFO" ID="0xd80a104d" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="| %-4d | %-32s | ****%02x%02x%02x%02x | %-16x | %-8d | %-8d | @remote_device_manager.c(528),INFO" ID="0xd80a1085" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="show remote device list end! @remote_device_manager.c(536),INFO" ID="0xd80a10c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr: ****%02X%02X%02X%02X @remote_device_manager.c(544),INFO" ID="0xd80a1105" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not in remote list @remote_device_manager.c(553),INFO" ID="0xd80a114d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="not have key status: %d have_key: %d @remote_device_manager.c(559),INFO" ID="0xd80a117d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s error @remote_device_manager.c(565),ERROR" ID="0xd80a11aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(588),ERROR" ID="0xd80a1262" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(593),ERROR" ID="0xd80a128a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @remote_device_manager.c(600),ERROR" ID="0xd80a12c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send br msg connecting success! @remote_device_manager.c(604),INFO" ID="0xd80a12e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(611),ERROR" ID="0xd80a131a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(615),ERROR" ID="0xd80a133a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="exist same type conn_node, disconnect. @remote_device_manager.c(636),INFO" ID="0xd80a13e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="addr: ****%02X%02X%02X%02X  @remote_device_manager.c(660),INFO" ID="0xd80a14a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="not in remote list @remote_device_manager.c(666),WARNING" ID="0xd80a14d3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy error @remote_device_manager.c(673),ERROR" ID="0xd80a150a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dev_hdl: %08x result: %02x @remote_device_manager.c(707),INFO" ID="0xd80a161d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="find/add remote device failed @remote_device_manager.c(732),WARNING" ID="0xd80a16e3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get remote device name fail. ret: %x  @remote_device_manager.c(747),WARNING" ID="0xd80a175b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="get remote device name success. name: %s name_len: %d @remote_device_manager.c(752),INFO" ID="0xd80a1785" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc tmp_addr fail @remote_device_manager.c(756),ERROR" ID="0xd80a17a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc tmp_name fail @remote_device_manager.c(760),ERROR" ID="0xd80a17c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(766),ERROR" ID="0xd80a17f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send msg fail. %x @remote_device_manager.c(773),ERROR" ID="0xd80a182a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dev_hdl: %x @remote_device_manager.c(781),INFO" ID="0xd80a186d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="acl disconnected. dev_hdl: %x @remote_device_manager.c(783),INFO" ID="0xd80a187d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dev not found @remote_device_manager.c(796),INFO" ID="0xd80a18e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="find node fail @remote_device_manager.c(807),WARNING" ID="0xd80a193b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="memcpy error! last_len: %d cur_len: %d cpy_len: %d ret: %x @remote_device_manager.c(818),ERROR" ID="0xd80a1992" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(825),ERROR" ID="0xd80a19ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(830),ERROR" ID="0xd80a19f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get pair devices num fail ret = %d @remote_device_manager.c(883),ERROR" ID="0xd80a1b9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get pair devices fail ret = %d @remote_device_manager.c(898),ERROR" ID="0xd80a1c12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap get paired devices list, acquire rmt dev list lock failed. @remote_device_manager.c(919),ERROR" ID="0xd80a1cba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="num error! i: %d *number: %d @remote_device_manager.c(948),ERROR" ID="0xd80a1da2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get pair devices num fail ret = %d @remote_device_manager.c(987),ERROR" ID="0xd80a1eda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_disconnect_acl_by_handle ret: %x @remote_device_manager.c(1006),INFO" ID="0xd80a1f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsdk_un_pair_device ret: %x @remote_device_manager.c(1009),INFO" ID="0xd80a1f8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(1013),ERROR" ID="0xd80a1faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(1017),ERROR" ID="0xd80a1fca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="acquire rmt dev list lock failed. @remote_device_manager.c(1045),ERROR" ID="0xd80a20aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gap remove all pairs, acquire rmt dev list lock failed. @remote_device_manager.c(1073),ERROR" ID="0xd80a218a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove pair device fail @remote_device_manager.c(1105),ERROR" ID="0xd80a228a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove pair all devices key fail @remote_device_manager.c(1115),ERROR" ID="0xd80a22da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="disconnect all devices fail @remote_device_manager.c(1119),ERROR" ID="0xd80a22fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove all bond devices fail @remote_device_manager.c(1128),ERROR" ID="0xd80a2342" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get bonded devices fail ret = %d @remote_device_manager.c(1148),ERROR" ID="0xd80a23e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="get bonded devices error no enough space, real addr cnt:%d, number:%d @remote_device_manager.c(1153),ERROR" ID="0xd80a240a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get bonded devices memcpy fail @remote_device_manager.c(1158),ERROR" ID="0xd80a2432" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get bonded devices cnt = %d @remote_device_manager.c(1161),INFO" ID="0xd80a244d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc fail @remote_device_manager.c(1190),ERROR" ID="0xd80a2532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(1195),ERROR" ID="0xd80a255a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dev not found @remote_device_manager.c(1204),INFO" ID="0xd80a25a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dev not found @remote_device_manager.c(1227),INFO" ID="0xd80a265d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @remote_device_manager.c(1246),INFO" ID="0xd80a26f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dev not found @remote_device_manager.c(1270),INFO" ID="0xd80a27b5" />
+			</MSG_LOG>

@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP]connect sep_selector @avdtp_fsm.c(147),INFO" ID="0x8bac049d" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[AVDTP][L2CAP_IND]Create REMOTE=0x%x, ADDR=%02x:%02x:**:**:**:%02x, CID=0x%x @avdtp_fsm.c(175),INFO" ID="0x8bac057d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[AVDTP][L2CAP_IND]Obj has been exist, REMOTE=0x%x, STATUS=0x%x, ADDR=%02x:%02x:**:**:**:%02x, CID=0x%x @avdtp_fsm.c(207),WARNING" ID="0x8bac067b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AVDTP][CONN_COMPLETE] LOCAL_CID=0x%x, RESULT=0x%x @avdtp_fsm.c(265),INFO" ID="0x8bac084d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP]connect stream_done @avdtp_fsm.c(318),INFO" ID="0x8bac09f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP]disconnect streamStatus=%d @avdtp_fsm.c(340),INFO" ID="0x8bac0aa5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP]abort streamStatus=%d @avdtp_fsm.c(372),INFO" ID="0x8bac0ba5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][L2CAP_DISC_IND]Delete REMOTE @avdtp_fsm.c(394),INFO" ID="0x8bac0c55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][L2CAP_DISC_IND]Delete STREAM @avdtp_fsm.c(402),INFO" ID="0x8bac0c95" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[AVDTP][L2CAP_DISC_IND]Can't find obj for ADDR=%02x:%02x:**:**:**:%02x, CID=0x%x, REASON=0x%x @avdtp_fsm.c(412),INFO" ID="0x8bac0ce5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[T%x][TIMEOUT] WAIT FOR AVDTP OPEN FAIL @avdtp_fsm.c(512),WARNING" ID="0x8bac1003" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[T%x][TIMEOUT] SIGNAL_ID=0x%x @avdtp_fsm.c(516),WARNING" ID="0x8bac1023" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AVDTP][RTX_EXPIRED] SIGNAL_ID=0x%x @avdtp_fsm.c(542),WARNING" ID="0x8bac10f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AVDTP][RTX_EXPIRED] Remote doesn't support AVDTP_DELAY_REPORT @avdtp_fsm.c(584),WARNING" ID="0x8bac1243" />
+			</MSG_LOG>

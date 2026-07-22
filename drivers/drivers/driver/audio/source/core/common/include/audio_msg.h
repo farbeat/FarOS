@@ -1,0 +1,310 @@
+/*
+ * Copyright (c) CompanyNameMagicTag 2020-2020. All rights reserved.
+ * Description: header file for message
+ * Author: audio
+ */
+
+#ifndef __AUDIO_MSG_H__
+#define __AUDIO_MSG_H__
+
+#include "audio_type.h"
+#include "audio_struct.h"
+
+#ifdef __cplusplus
+#if __cplusplus
+extern "C" {
+#endif
+#endif
+
+#define MSG_FIFO_BUFFER_SIZE 0x800
+#define MSG_SYNC_WAIT_TIME_MS 500
+
+typedef enum {
+    MSG_CORE_SYS_INIT = 0,
+    MSG_CORE_SYS_DEINIT,
+    MSG_CORE_SYS_SET_TOTAL_CPS,
+    MSG_CORE_SYS_SET_IDLE_TIMEOUT,
+    MSG_CORE_SYS_GET_PROC_INFO,
+    MSG_CORE_SYS_SET_CLOCK_ATTR,
+    MSG_CORE_SYS_CLEAR_OVERLAY_SECTION,
+    MSG_CORE_SYS_SET_DSP_LOG_LEVEL,
+
+    MSG_CORE_SYS_CMD_MAX
+} msg_core_sys_cmd;
+
+typedef enum {
+    MSG_CORE_ADP_INIT = 0,
+    MSG_CORE_ADP_DEINIT,
+    MSG_CORE_ADP_GET_DEF_ATTR,
+    MSG_CORE_ADP_OPEN,
+    MSG_CORE_ADP_CLOSE,
+    MSG_CORE_ADP_GET_ATTR,
+    MSG_CORE_ADP_SET_ATTR,
+    MSG_CORE_ADP_SYNC_ATTR,
+    MSG_CORE_ADP_ALLOC_SHRB,
+    MSG_CORE_ADP_FREE_SHRB,
+    MSG_CORE_ADP_ATTACH_SHRB,
+    MSG_CORE_ADP_DETACH_SHRB,
+    MSG_CORE_ADP_ATTACH_OUTPUT,
+    MSG_CORE_ADP_DETACH_OUTPUT,
+    MSG_CORE_ADP_CMD_MAX
+} msg_core_adp_cmd;
+
+typedef enum {
+    MSG_CORE_AI_INIT = 0,
+    MSG_CORE_AI_DEINIT,
+    MSG_CORE_AI_GET_DEFATTR,
+    MSG_CORE_AI_OPEN,
+    MSG_CORE_AI_CLOSE,
+    MSG_CORE_AI_START,
+    MSG_CORE_AI_STOP,
+    MSG_CORE_AI_GET_ATTR,
+    MSG_CORE_AI_SET_ATTR,
+    MSG_CORE_AI_SET_BYPASS,
+    MSG_CORE_AI_RESET_VAD,
+    MSG_CORE_AI_GET_GAIN,
+    MSG_CORE_AI_SET_GAIN,
+    MSG_CORE_AI_GET_MUTE,
+    MSG_CORE_AI_SET_MUTE,
+    MSG_CORE_AI_SET_MIC_CALI_VOLUME,
+    MSG_CORE_AI_ATTACH_OUTPUT,
+    MSG_CORE_AI_DETACH_OUTPUT,
+    MSG_CORE_AI_GET_PROC_INFO,
+    MSG_CORE_AI_CMD_MAX
+} msg_core_ai_cmd;
+
+typedef enum {
+    MSG_CORE_SEA_INIT = 0,
+    MSG_CORE_SEA_DEINIT,
+    MSG_CORE_SEA_GET_ENG_CAPS,
+    MSG_CORE_SEA_GET_DEF_ATTR,
+    MSG_CORE_SEA_CREATE,
+    MSG_CORE_SEA_DESTROY,
+    MSG_CORE_SEA_START,
+    MSG_CORE_SEA_STOP,
+    MSG_CORE_SEA_GET_ENG_ATTR,
+    MSG_CORE_SEA_SET_ENG_ATTR,
+    MSG_CORE_SEA_GET_PCM_ATTR,
+    MSG_CORE_SEA_SET_PCM_ATTR,
+    MSG_CORE_SEA_SET_BYPASS,
+    MSG_CORE_SEA_GET_ITEM_COUNT,
+    MSG_CORE_SEA_GET_ITEM_SETS,
+    MSG_CORE_SEA_ADD_ITEM,
+    MSG_CORE_SEA_REMOVE_ITEM,
+    MSG_CORE_SEA_ENABLE_VID_ENROLL,
+    MSG_CORE_SEA_ATTACH_OUTPUT,
+    MSG_CORE_SEA_DETACH_OUTPUT,
+    MSG_CORE_SEA_GET_PROC_INFO,
+    MSG_CORE_SEA_GET_PARAM,
+    MSG_CORE_SEA_SET_PARAM,
+    MSG_CORE_SEA_QUERY_LIB_STATUS,
+    MSG_CORE_SEA_UPDATE_LIB_STATUS,
+    MSG_CORE_SEA_CMD_MAX
+} msg_core_sea_cmd;
+
+typedef enum {
+    MSG_CORE_AO_INIT = 0,
+    MSG_CORE_AO_DEINIT,
+    MSG_CORE_AO_GET_DEFATTR,
+    MSG_CORE_AO_OPEN,
+    MSG_CORE_AO_CLOSE,
+    MSG_CORE_AO_GET_PORT_ENABLE,
+    MSG_CORE_AO_SET_PORT_ENABLE,
+    MSG_CORE_AO_GET_MUTE,
+    MSG_CORE_AO_SET_MUTE,
+    MSG_CORE_AO_GET_VOLUME,
+    MSG_CORE_AO_SET_VOLUME,
+    MSG_CORE_AO_GET_TRACK_MODE,
+    MSG_CORE_AO_SET_TRACK_MODE,
+    MSG_CORE_AO_GET_ALL_TRACK_MUTE,
+    MSG_CORE_AO_SET_ALL_TRACK_MUTE,
+    MSG_CORE_AO_SET_BYPASS,
+    MSG_CORE_AO_GET_ATTR,
+    MSG_CORE_AO_ATTACH_OUTPUT,
+    MSG_CORE_AO_DETACH_OUTPUT,
+    MSG_CORE_AO_GET_PROC_INFO,
+    MSG_CORE_AO_GET_AEF_PARAM,
+    MSG_CORE_AO_SET_AEF_PARAM,
+    MSG_CORE_AO_GET_AEF_ENABLE,
+    MSG_CORE_AO_SET_AEF_ENABLE,
+    MSG_CORE_AO_SET_AEF_PROFILE,
+    MSG_CORE_AO_SET_SPK_CALI,
+    MSG_CORE_AO_CMD_MAX
+} msg_core_ao_cmd;
+
+typedef enum {
+    MSG_CORE_TRACK_INIT = 0,
+    MSG_CORE_TRACK_DEINIT,
+    MSG_CORE_TRACK_GET_DEFATTR,
+    MSG_CORE_TRACK_OPEN,
+    MSG_CORE_TRACK_CLOSE,
+    MSG_CORE_TRACK_GET_STATE,
+    MSG_CORE_TRACK_SET_STATE,
+    MSG_CORE_TRACK_GET_ATTR,
+    MSG_CORE_TRACK_SET_ATTR,
+    MSG_CORE_TRACK_GET_MUTE,
+    MSG_CORE_TRACK_SET_MUTE,
+    MSG_CORE_TRACK_GET_VOLUME,
+    MSG_CORE_TRACK_SET_VOLUME,
+    MSG_CORE_TRACK_SET_BYPASS,
+    MSG_CORE_TRACK_ATTACH_OUTPUT,
+    MSG_CORE_TRACK_DETACH_OUTPUT,
+    MSG_CORE_TRACK_CMD_MAX
+} msg_core_track_cmd;
+
+typedef enum {
+    MSG_CORE_ADEC_INIT = 0,
+    MSG_CORE_ADEC_DEINIT,
+    MSG_CORE_ADEC_OPEN,
+    MSG_CORE_ADEC_CLOSE,
+    MSG_CORE_ADEC_START,
+    MSG_CORE_ADEC_STOP,
+    MSG_CORE_ADEC_GET_ATTR,
+    MSG_CORE_ADEC_SET_ATTR,
+    MSG_CORE_ADEC_SET_BYPASS,
+    MSG_CORE_ADEC_ATTACH_OUTPUT,
+    MSG_CORE_ADEC_DETACH_OUTPUT,
+    MSG_CORE_ADEC_GET_PROC_INFO,
+    MSG_CORE_ADEC_GET_LIB_TYPE,
+    MSG_CORE_ADEC_CMD_MAX
+} msg_core_adec_cmd;
+
+typedef enum {
+    MSG_CORE_AENC_INIT = 0,
+    MSG_CORE_AENC_DEINIT,
+    MSG_CORE_AENC_OPEN,
+    MSG_CORE_AENC_CLOSE,
+    MSG_CORE_AENC_START,
+    MSG_CORE_AENC_STOP,
+    MSG_CORE_AENC_SET_ATTR,
+    MSG_CORE_AENC_GET_ATTR,
+    MSG_CORE_AENC_SET_BYPASS,
+    MSG_CORE_AENC_ATTACH_OUTPUT,
+    MSG_CORE_AENC_DETACH_OUTPUT,
+    MSG_CORE_AENC_GET_PROC_INFO,
+    MSG_CORE_AENC_GET_LIB_TYPE,
+    MSG_CORE_AENC_SET_PARAM,
+    MSG_CORE_AENC_CMD_MAX
+} msg_core_aenc_cmd;
+
+typedef enum {
+    MSG_CORE_ANC_SET_CONFIG = 0,
+    MSG_CORE_ANC_GET_CONFIG,
+
+    MSG_CORE_ANC_CMD_MAX
+} msg_core_anc_cmd;
+
+typedef enum {
+    MSG_CORE_HAID_GET_DEFAULT_ATTR = 0,
+    MSG_CORE_HAID_CREATE,
+    MSG_CORE_HAID_DESTROY,
+    MSG_CORE_HAID_LOAD_LIB,
+    MSG_CORE_HAID_SET_ENABLE,
+    MSG_CORE_HAID_GET_ENABLE,
+    MSG_CORE_HAID_SET_VOLUME,
+    MSG_CORE_HAID_GET_VOLUME,
+    MSG_CORE_HAID_SET_CONFIG,
+    MSG_CORE_HAID_GET_CONFIG,
+    MSG_CORE_HAID_SET_HARDWARE_CONFIG,
+    MSG_CORE_HAID_REFRESH_ALL_CONFIG,
+    MSG_CORE_HAID_SET_ALL_CONFIG,
+    MSG_CORE_HAID_GET_ALL_CONFIG,
+    MSG_CORE_HAID_SINUS_TONE_START,
+    MSG_CORE_HAID_SINUS_TONE_STOP,
+    MSG_CORE_HAID_SET_SCENE,
+    MSG_CORE_HAID_GET_SCENE,
+    MSG_CORE_HAID_GET_PROC_INFO,
+    MSG_CORE_HAID_SET_SPK_CALI,
+    MSG_CORE_HAID_SET_MIC_CALI_VOLUME,
+
+    MSG_CORE_HAID_CMD_MAX
+} msg_core_haid_cmd;
+
+typedef enum {
+    MSG_CORE_DPM_INIT = 0,
+    MSG_CORE_DPM_DEINIT,
+    MSG_CORE_DPM_OPEN,
+    MSG_CORE_DPM_CLOSE,
+    MSG_CORE_DPM_START,
+    MSG_CORE_DPM_STOP,
+    MSG_CORE_DPM_SET_ATTR,
+    MSG_CORE_DPM_GET_ATTR,
+    MSG_CORE_DPM_SET_BYPASS,
+    MSG_CORE_DPM_ATTACH_OUTPUT,
+    MSG_CORE_DPM_DETACH_OUTPUT,
+    MSG_CORE_DPM_GET_PROC_INFO,
+    MSG_CORE_DPM_GET_LIB_TYPE,
+    MSG_CORE_DPM_CMD_MAX
+} msg_core_dpm_cmd;
+
+typedef enum {
+    MSG_DRV_SYS_REPORT_EVENT = 0,
+    MSG_DRV_SYS_CMD_MAX
+} msg_drv_sys_cmd;
+
+typedef enum {
+    MSG_DRV_AI_REPORT_EVENT = 0,
+    MSG_DRV_AI_CMD_MAX
+} msg_drv_ai_cmd;
+
+typedef enum {
+    MSG_DRV_SEA_REPORT_EVENT = 0,
+    MSG_DRV_SEA_CMD_MAX
+} msg_drv_sea_cmd;
+
+typedef enum {
+    MSG_DRV_ADP_REPORT_EVENT = 0,
+    MSG_DRV_ADP_CMD_MAX
+} msg_drv_adp_cmd;
+
+typedef enum {
+    MSG_CORE_AB_GET_PROC_INFO = 0,
+
+    MSG_CORE_AB_CMD_MAX
+} msg_core_ab_cmd;
+
+typedef enum {
+    MSG_DRV_HAID_REPORT_EVENT = 0,
+    MSG_DRV_HAID_CMD_MAX
+} msg_drv_haid_cmd;
+
+typedef enum {
+    MSG_CORE_SYS_MODULE = 0,
+    MSG_CORE_ADP_MODULE,
+    MSG_CORE_AI_MODULE,
+    MSG_CORE_SEA_MODULE,
+    MSG_CORE_AO_MODULE,
+    MSG_CORE_TRACK_MODULE,
+    MSG_CORE_ADEC_MODULE,
+    MSG_CORE_AENC_MODULE,
+    MSG_CORE_ANC_MODULE,
+    MSG_CORE_AB_MODULE,
+    MSG_CORE_HAID_MODULE,
+    MSG_CORE_DPM_MODULE,
+    MSG_CORE_MODULE_MAX
+} core_msg_module;
+
+typedef struct {
+    td_u32 cmd;
+    td_u32 handle;
+    td_u32 input_data_size; // 下面input data的大小,如果input_data为空，input_data_size应设置为0
+    td_void *input_data;
+    td_u32 output_data_size; // 下面output data的大小,如果output_data为空，output_data_size应设置为0
+    td_void *output_data;
+} core_msg_data;
+
+typedef td_s32 (*core_msg_func)(core_msg_data *msg_data);
+typedef td_s32 (*core_msg_shoot)(audio_core_id from, audio_core_id to);
+typedef td_s32 (*core_msg_sys_active)(audio_core_id from);
+
+typedef struct {
+    core_msg_func func;
+} core_msg_module_func;
+
+#ifdef __cplusplus
+#if __cplusplus
+}
+#endif
+#endif /* __cplusplus */
+
+#endif /* __AUDIO_MSG_H__ */

@@ -1,0 +1,30 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call input Failed, Error Code: [0x%08X] @connector.c(147),ERROR" ID="0x9836049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call platform_get_input_adp_attr Failed, Error Code: [0x%08X] @connector.c(157),ERROR" ID="0x983604ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call platform_get_output_adp_attr Failed, Error Code: [0x%08X] @connector.c(163),ERROR" ID="0x9836051a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_destroy Failed, Error Code: [0x%08X] @connector.c(192),ERROR" ID="0x98360602" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_detach_output Failed, Error Code: [0x%08X] @connector.c(216),ERROR" ID="0x983606c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_detach_input Failed, Error Code: [0x%08X] @connector.c(222),ERROR" ID="0x983606f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]input = 0x%08X @connector.c(232),ERROR" ID="0x98360742" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]output = 0x%08X @connector.c(233),ERROR" ID="0x9836074a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_alloc_data_buffer Failed, Error Code: [0x%08X] @connector.c(250),ERROR" ID="0x983607d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_attach_input Failed, Error Code: [0x%08X] @connector.c(256),ERROR" ID="0x98360802" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_attach_output Failed, Error Code: [0x%08X] @connector.c(262),ERROR" ID="0x98360832" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_info Failed, Error Code: [0x%08X] @connector.c(291),ERROR" ID="0x9836091a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_pos Failed, Error Code: [0x%08X] @connector.c(297),ERROR" ID="0x9836094a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_get_info Failed, Error Code: [0x%08X] @connector.c(304),ERROR" ID="0x98360982" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_get_delay Failed, Error Code: [0x%08X] @connector.c(390),ERROR" ID="0x98360c32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @connector.c(425),ERROR" ID="0x98360d4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @connector.c(432),ERROR" ID="0x98360d82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @connector.c(484),ERROR" ID="0x98360f22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @connector.c(523),ERROR" ID="0x9836105a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_peek Failed, Error Code: [0x%08X] @connector.c(616),ERROR" ID="0x98361342" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_poke Failed, Error Code: [0x%08X] @connector.c(646),ERROR" ID="0x98361432" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_peek Failed, Error Code: [0x%08X] @connector.c(660),ERROR" ID="0x983614a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_poke Failed, Error Code: [0x%08X] @connector.c(689),ERROR" ID="0x9836158a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_release_stream_info Failed, Error Code: [0x%08X] @connector.c(706),ERROR" ID="0x98361612" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_release_stream_info Failed, Error Code: [0x%08X] @connector.c(728),ERROR" ID="0x983616c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_flush Failed, Error Code: [0x%08X] @connector.c(741),ERROR" ID="0x9836172a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_flush Failed, Error Code: [0x%08X] @connector.c(751),ERROR" ID="0x9836177a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_reset Failed, Error Code: [0x%08X] @connector.c(766),ERROR" ID="0x983617f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_reset Failed, Error Code: [0x%08X] @connector.c(776),ERROR" ID="0x98361842" />
+			</MSG_LOG>

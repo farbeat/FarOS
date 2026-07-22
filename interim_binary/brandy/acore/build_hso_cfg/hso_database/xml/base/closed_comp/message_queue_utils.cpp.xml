@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:CreateMessageQueue parameters invalid! @message_queue_utils.cpp(28),ERROR" ID="0xe05000e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="todo call linux createMessageQueue interface here! @message_queue_utils.cpp(32),WARNING" ID="0xe0500103" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:DeleteMessageQueue parameters invalid! @message_queue_utils.cpp(43),ERROR" ID="0xe050015a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="todo call linux deleteMessageQueue interface here! @message_queue_utils.cpp(47),WARNING" ID="0xe050017b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:DeleteMessageQueue failed! @message_queue_utils.cpp(52),ERROR" ID="0xe05001a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:PutMessage parameters invalid! @message_queue_utils.cpp(62),ERROR" ID="0xe05001f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="todo call linux putmsg interface here! @message_queue_utils.cpp(66),WARNING" ID="0xe0500213" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:PutMessage failed! @message_queue_utils.cpp(71),ERROR" ID="0xe050023a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:GetMessage parameters invalid! @message_queue_utils.cpp(81),ERROR" ID="0xe050028a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="todo call linux getmsg interface here! @message_queue_utils.cpp(85),WARNING" ID="0xe05002ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="MessageQueueUtils:GetMessage failed! @message_queue_utils.cpp(90),ERROR" ID="0xe05002d2" />
+			</MSG_LOG>

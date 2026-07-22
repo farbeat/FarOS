@@ -1,0 +1,40 @@
+<MSG_LOG><MSG STRUCTURE="bt_status_msg_id_401" NAME="GNSS_state=%s" ID="0x1f0401" />
+			<MSG STRUCTURE="bt_status_msg_id_402" NAME="isr_lost_number=%d; trans_lost_number=%d; sending_time:%d; dbb_exch_cycle_largest=%d; measure_period=%d; dbb_ms_period_min=%d" ID="0x1f0402" />
+			<MSG STRUCTURE="bt_status_msg_id_801" NAME="%s;----&gt;%s; link id=%d; %s" ID="0x1f0801" />
+			<MSG STRUCTURE="bt_status_msg_id_840" NAME="TASK_SRC  :----&gt;TASK_HCI :   %s; %s; link id=%d" ID="0x1f0840" />
+			<MSG STRUCTURE="bt_status_msg_id_841" NAME="[HCI][%s;] %s;     TASK_HCI ----&gt;%s; link id=%d" ID="0x1f0841" />
+			<MSG STRUCTURE="bt_status_msg_id_842" NAME="current_state is %s; save_state is %s; save_vaild is %s;link id=%d" ID="0x1f0842" />
+			<MSG STRUCTURE="bt_status_msg_id_843" NAME="Feature %s;  %s; LR=%d" ID="0x1f0843" />
+			<MSG STRUCTURE="bt_status_msg_id_850" NAME="[LMP NOR RX]:Opcode=%s; linkid=%d" ID="0x1f0850" />
+			<MSG STRUCTURE="bt_status_msg_id_851" NAME="[LMP EXT RX]:Ext_Opcodes=%s; linkid=%d" ID="0x1f0851" />
+			<MSG STRUCTURE="bt_status_msg_id_852" NAME="TASK_LC ----&gt;TASK_NONE Opcode=%s; linkid=%d" ID="0x1f0852" />
+			<MSG STRUCTURE="bt_status_msg_id_853" NAME="TASK_LC ----&gt;TASK_NONE Ext_Opcodes=%s; linkid=%d" ID="0x1f0853" />
+			<MSG STRUCTURE="bt_status_msg_id_854" NAME="[LMP ACC GET]:Opcodes=%s;orig_Opcodes=%s" ID="0x1f0854" />
+			<MSG STRUCTURE="bt_status_msg_id_855" NAME="[LMP ACC NOT GET]:Opcodes=%s;orig_Opcodes=%s; %s" ID="0x1f0855" />
+			<MSG STRUCTURE="bt_status_msg_id_856" NAME="[LMP ACC EXT GET]:Opcodes=%s;orig_Opcodes=%s" ID="0x1f0856" />
+			<MSG STRUCTURE="bt_status_msg_id_857" NAME="[LMP ACC NOT EXT GET]:Opcodes=%s;orig_Opcodes=%s; %s" ID="0x1f0857" />
+			<MSG STRUCTURE="bt_status_msg_id_858" NAME="[LMP TX CFM]: Opcode=%s" ID="0x1f0858" />
+			<MSG STRUCTURE="bt_status_msg_id_859" NAME="[LMP TX CFM]:Ext_Opcodes=%s" ID="0x1f0859" />
+			<MSG STRUCTURE="bt_status_msg_id_820" NAME="%s; msg=%s;dest task id=%x;dest task state=%s" ID="0x1f0820" />
+			<MSG STRUCTURE="bt_status_msg_id_821" NAME="%s; msg=%s;dest task id=%x;dest task state=%s" ID="0x1f0821" />
+			<MSG STRUCTURE="bt_status_msg_id_822" NAME="%s; msg=%s;dest task id=%x;dest task state=%s" ID="0x1f0822" />
+			<MSG STRUCTURE="bt_status_msg_id_825" NAME="%s; msg=%s;dest task id=%x;dest task state=%s" ID="0x1f0825" />
+			<MSG STRUCTURE="bt_status_msg_id_826" NAME="%s; msg=%s;dest task id=%x;dest task state=%s" ID="0x1f0826" />
+			<MSG STRUCTURE="bt_status_msg_id_828" NAME="%s; msg=%s;dest task id=%x;dest task state=%s" ID="0x1f0828" />
+			<MSG STRUCTURE="bt_status_msg_id_811" NAME="ke_state_get:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0811" />
+			<MSG STRUCTURE="bt_status_msg_id_812" NAME="ke_state_get:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0812" />
+			<MSG STRUCTURE="bt_status_msg_id_815" NAME="ke_state_get:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0815" />
+			<MSG STRUCTURE="bt_status_msg_id_816" NAME="ke_state_get:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0816" />
+			<MSG STRUCTURE="bt_status_msg_id_818" NAME="ke_state_get:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0818" />
+			<MSG STRUCTURE="bt_status_msg_id_830" NAME="ke_state_set:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0830" />
+			<MSG STRUCTURE="bt_status_msg_id_831" NAME="ke_state_set:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0831" />
+			<MSG STRUCTURE="bt_status_msg_id_832" NAME="ke_state_get:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0832" />
+			<MSG STRUCTURE="bt_status_msg_id_835" NAME="ke_state_set:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0835" />
+			<MSG STRUCTURE="bt_status_msg_id_836" NAME="ke_state_set:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0836" />
+			<MSG STRUCTURE="bt_status_msg_id_838" NAME="ke_state_set:task id=%x;state=%s;FileName: %s ;LineNumber: %d" ID="0x1f0838" />
+			<MSG STRUCTURE="bt_status_msg_id_861" NAME="TASK_SRC  ----&gt;TASK_HCI   %s; %s" ID="0x1f0861" />
+			<MSG STRUCTURE="bt_status_msg_id_872" NAME="[LLCP MSG RX]:Cohdl=%d;Opcode=%s" ID="0x1f0872" />
+			<MSG STRUCTURE="bt_status_msg_id_873" NAME="[LLCP MSG TX]:Cohdl=%d;Opcode=%s" ID="0x1f0873" />
+			<MSG STRUCTURE="bt_status_msg_id_874" NAME="[error][circle_count]:cnt=%d;clock=%d;FileName  %s;LineNumber  %d" ID="0x1f0874" />
+			<MSG STRUCTURE="bt_status_msg_id_875" NAME="[error][circle_count]:max_cnt=%d;avr_cnt=%d;FileName %s;LineNumber  %d" ID="0x1f0875" />
+			</MSG_LOG>

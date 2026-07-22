@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][SECCON][LLD]lld_init:could not write new secret key to NVDS. @lld.c(211),ERROR" ID="0x8854069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble_abort_when_work @lld.c(368),INFO" ID="0x88540b85" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD]lld_adv_start:dur_start_ts=0x%X, duration=0x%X @lld.c(561),INFO" ID="0x8854118d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="0x%x  0x%x  0x%x  0x%x   @lld.c(777),ERROR" ID="0x8854184a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="0x%x  0x%x  0x%x  0x%x   @lld.c(779),ERROR" ID="0x8854185a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="0x%x  0x%x  0x%x  0x%x   @lld.c(781),ERROR" ID="0x8854186a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="0x%x  0x%x  0x%x  0x%x   @lld.c(783),ERROR" ID="0x8854187a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble aes key calc by HW loop %d times @lld.c(796),WARNING" ID="0x885418e3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_dbg_le_enhanced_test_mode_tx: power level overrange! config:%d, max:%d @lld.c(1167),WARNING" ID="0x8854247b" />
+			</MSG_LOG>

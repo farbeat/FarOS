@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLM]llm_ral_clear:nbraldev=%d @llm_rpa.c(85),INFO" ID="0x898802ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLM]llm_ral_dev_add:ral is full @llm_rpa.c(105),INFO" ID="0x8988034d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLM]llm_ral_dev_add:in_wl=%d, l_irk_valid=%d, p_irk_valid=%d, peer_id_addr_type=%d @llm_rpa.c(126),INFO" ID="0x898803f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLM]llm_ral_dev_add:peer_id_addr=0x%8x%4x @llm_rpa.c(132),INFO" ID="0x89880425" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLM]llm_ral_dev_rm:peer_addr=0x%8x%4x, position=%d, nbraldev=%d @llm_rpa.c(195),INFO" ID="0x8988061d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_ral_get_rpa:local_rpa_valid=0 @llm_rpa.c(218),WARNING" ID="0x898806d3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_ral_get_rpa:peer_rpa_valid=0 @llm_rpa.c(225),WARNING" ID="0x8988070b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][PRIVACY][LLM]llm_ral_set_timeout:rpa_timeout=%d(s) @llm_rpa.c(253),INFO" ID="0x898807ed" />
+			</MSG_LOG>

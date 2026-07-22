@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_mad_init Failed, Error Code: [0x%08X] @dev_vad_mad.c(95),ERROR" ID="0x989602fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_vad_mad.c(116),INFO" ID="0x989603a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_mad_open Failed, Error Code: [0x%08X] @dev_vad_mad.c(123),ERROR" ID="0x989603da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_vad_mad.c(133),INFO" ID="0x9896042d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_vad_mad.c(142),INFO" ID="0x98960475" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_mad_set_enable Failed, Error Code: [0x%08X] @dev_vad_mad.c(147),ERROR" ID="0x9896049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_mad_close Failed, Error Code: [0x%08X] @dev_vad_mad.c(153),ERROR" ID="0x989604ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_vad_mad.c(160),INFO" ID="0x98960505" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_vad_mad.c(169),INFO" ID="0x9896054d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_mad_set_vad_enable Failed, Error Code: [0x%08X] @dev_vad_mad.c(173),ERROR" ID="0x9896056a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_vad_mad.c(177),INFO" ID="0x9896058d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_vad_mad.c(187),INFO" ID="0x989605dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_mad_set_attr Failed, Error Code: [0x%08X] @dev_vad_mad.c(193),ERROR" ID="0x9896060a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_vad_mad.c(197),INFO" ID="0x9896062d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_vad_mad.c(205),INFO" ID="0x9896066d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_vad_mad.c(208),INFO" ID="0x98960685" />
+			</MSG_LOG>

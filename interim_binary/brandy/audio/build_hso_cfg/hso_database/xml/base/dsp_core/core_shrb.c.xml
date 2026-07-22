@@ -1,0 +1,93 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;mem_type = %d @core_shrb.c(210),INFO" ID="0x981c0695" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;cache = %d @core_shrb.c(211),INFO" ID="0x981c069d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;size = 0x%08X @core_shrb.c(212),INFO" ID="0x981c06a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;fd = %d @core_shrb.c(215),INFO" ID="0x981c06bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;mem_type = %d @core_shrb.c(224),INFO" ID="0x981c0705" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;cache = %d @core_shrb.c(225),INFO" ID="0x981c070d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;size = 0x%08X @core_shrb.c(226),INFO" ID="0x981c0715" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;fd = %d @core_shrb.c(229),INFO" ID="0x981c072d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(240),INFO" ID="0x981c0785" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call audio_osal_mmz_alloc Failed, Error Code: [0x%08X] @core_shrb.c(245),ERROR" ID="0x981c07aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(257),INFO" ID="0x981c080d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(288),INFO" ID="0x981c0905" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]core_id = 0x%08X @core_shrb.c(296),ERROR" ID="0x981c0942" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]shrb_mgr-&gt;core_id = 0x%08X @core_shrb.c(297),ERROR" ID="0x981c094a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(301),INFO" ID="0x981c096d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_inst_list_alloc Failed, Error Code: [0x%08X] @core_shrb.c(313),ERROR" ID="0x981c09ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]init_cfg-&gt;mem_type = 0x%08X @core_shrb.c(321),ERROR" ID="0x981c0a0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]core_id = %d @core_shrb.c(322),ERROR" ID="0x981c0a12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(336),INFO" ID="0x981c0a85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(346),INFO" ID="0x981c0ad5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(348),INFO" ID="0x981c0ae5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(353),INFO" ID="0x981c0b0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(359),ERROR" ID="0x981c0b3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(377),INFO" ID="0x981c0bcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]mod_id = 0x%08X @core_shrb.c(387),ERROR" ID="0x981c0c1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(393),ERROR" ID="0x981c0c4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]mod_id = 0x%08X @core_shrb.c(399),ERROR" ID="0x981c0c7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_id Failed, Error Code: [0x%08X] @core_shrb.c(400),ERROR" ID="0x981c0c82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(416),INFO" ID="0x981c0d05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]mod_id = 0x%08X @core_shrb.c(418),ERROR" ID="0x981c0d12" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(424),ERROR" ID="0x981c0d42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]mod_id = 0x%08X @core_shrb.c(431),ERROR" ID="0x981c0d7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]call shrb_get_free_inst failed @core_shrb.c(437),ERROR" ID="0x981c0daa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call audio_osal_mmz_alloc Failed, Error Code: [0x%08X] @core_shrb.c(449),ERROR" ID="0x981c0e0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(462),INFO" ID="0x981c0e75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(472),INFO" ID="0x981c0ec5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(477),ERROR" ID="0x981c0eea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]shrb-&gt;shrb_id = 0x%08X @core_shrb.c(482),ERROR" ID="0x981c0f12" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]shrb_mgr-&gt;core_id = 0x%08X @core_shrb.c(483),ERROR" ID="0x981c0f1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]i = %u @core_shrb.c(489),ERROR" ID="0x981c0f4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(506),INFO" ID="0x981c0fd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(518),ERROR" ID="0x981c1032" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]buf_handle = 0x%08X @core_shrb.c(525),INFO" ID="0x981c106d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_destroy Failed, Error Code: [0x%08X] @core_shrb.c(526),ERROR" ID="0x981c1072" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(552),ERROR" ID="0x981c1142" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_create Failed, Error Code: [0x%08X] @core_shrb.c(561),ERROR" ID="0x981c118a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(577),ERROR" ID="0x981c120a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]buf_handle = 0x%08X @core_shrb.c(588),INFO" ID="0x981c1265" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_destroy Failed, Error Code: [0x%08X] @core_shrb.c(589),ERROR" ID="0x981c126a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(620),ERROR" ID="0x981c1362" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_create Failed, Error Code: [0x%08X] @core_shrb.c(629),ERROR" ID="0x981c13aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_destroy_info_buf Failed, Error Code: [0x%08X] @core_shrb.c(643),ERROR" ID="0x981c141a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_destroy_data_buf Failed, Error Code: [0x%08X] @core_shrb.c(649),ERROR" ID="0x981c144a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_create_data_buf Failed, Error Code: [0x%08X] @core_shrb.c(662),ERROR" ID="0x981c14b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_create_info_buf Failed, Error Code: [0x%08X] @core_shrb.c(668),ERROR" ID="0x981c14e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(683),INFO" ID="0x981c155d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(689),ERROR" ID="0x981c158a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(694),INFO" ID="0x981c15b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_create_buf Failed, Error Code: [0x%08X] @core_shrb.c(715),ERROR" ID="0x981c165a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(719),INFO" ID="0x981c167d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_shrb.c(730),INFO" ID="0x981c16d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(736),ERROR" ID="0x981c1702" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]shrb = 0x%08X @core_shrb.c(742),INFO" ID="0x981c1735" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(744),INFO" ID="0x981c1745" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_destroy_buf Failed, Error Code: [0x%08X] @core_shrb.c(750),ERROR" ID="0x981c1772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_shrb.c(764),INFO" ID="0x981c17e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(778),ERROR" ID="0x981c1852" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(823),ERROR" ID="0x981c19ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_linear_put_buffer Failed, Error Code: [0x%08X] @core_shrb.c(908),ERROR" ID="0x981c1c62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @core_shrb.c(921),ERROR" ID="0x981c1cca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_shrb_check_frame_attr Failed, Error Code: [0x%08X] @core_shrb.c(960),ERROR" ID="0x981c1e02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bits_bytes = %u @core_shrb.c(980),WARNING" ID="0x981c1ea3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @core_shrb.c(991),ERROR" ID="0x981c1efa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @core_shrb.c(998),ERROR" ID="0x981c1f32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @core_shrb.c(1048),ERROR" ID="0x981c20c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_write Failed, Error Code: [0x%08X] @core_shrb.c(1055),ERROR" ID="0x981c20fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_acquire_frame_info Failed, Error Code: [0x%08X] @core_shrb.c(1098),ERROR" ID="0x981c2252" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_peek Failed, Error Code: [0x%08X] @core_shrb.c(1130),ERROR" ID="0x981c2352" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]peek_frame.bits_bytes = 0x%08X @core_shrb.c(1136),ERROR" ID="0x981c2382" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]peek_frame.pcm_samples = 0x%08X @core_shrb.c(1137),ERROR" ID="0x981c238a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;bits_bytes = 0x%08X @core_shrb.c(1138),ERROR" ID="0x981c2392" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]frame-&gt;pcm_samples = 0x%08X @core_shrb.c(1139),ERROR" ID="0x981c239a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_poke Failed, Error Code: [0x%08X] @core_shrb.c(1145),ERROR" ID="0x981c23ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_release_frame_info Failed, Error Code: [0x%08X] @core_shrb.c(1161),ERROR" ID="0x981c244a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_peek Failed, Error Code: [0x%08X] @core_shrb.c(1184),ERROR" ID="0x981c2502" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_acquire_stream_info Failed, Error Code: [0x%08X] @core_shrb.c(1212),ERROR" ID="0x981c25e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_peek Failed, Error Code: [0x%08X] @core_shrb.c(1244),ERROR" ID="0x981c26e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]peek_frame.bits_bytes = 0x%08X @core_shrb.c(1249),ERROR" ID="0x981c270a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]stream-&gt;size = 0x%08X @core_shrb.c(1250),ERROR" ID="0x981c2712" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call ring_buf_poke Failed, Error Code: [0x%08X] @core_shrb.c(1256),ERROR" ID="0x981c2742" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_release_stream_info Failed, Error Code: [0x%08X] @core_shrb.c(1272),ERROR" ID="0x981c27c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call shrb_get_mgr Failed, Error Code: [0x%08X] @core_shrb.c(1308),ERROR" ID="0x981c28e2" />
+			</MSG_LOG>

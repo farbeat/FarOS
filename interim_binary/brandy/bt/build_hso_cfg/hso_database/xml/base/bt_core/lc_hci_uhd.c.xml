@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]hci_rd_phy_cmd_handler Enter! conhdl=%d @lc_hci_uhd.c(56),INFO" ID="0x89a401c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_rd_phy_cmd_handler:lc_env_ptr is NULL @lc_hci_uhd.c(62),WARNING" ID="0x89a401f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]hci_rd_phy_cmd_handler Exit! @lc_hci_uhd.c(95),INFO" ID="0x89a402fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][HCI]hci_set_phy_status_handler Enter! Status=%d @lc_hci_uhd.c(101),INFO" ID="0x89a4032d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_set_phy_status_handler phy_state=%d, uhd_state=%d @lc_hci_uhd.c(121),INFO" ID="0x89a403cd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][HCI]hci_set_phy_cmd_handler Enter! conhdl=%d txphy=%d rxphy=%d @lc_hci_uhd.c(131),INFO" ID="0x89a4041d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARN][HCI] dev not support 2M or 4M rx phy @lc_hci_uhd.c(144),WARNING" ID="0x89a40483" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]lc_uhd_phy_auto_rate_report exit, because wait set phy. @lc_hci_uhd.c(200),INFO" ID="0x89a40645" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][HCI]lc_uhd_phy_auto_rate_report exit, because phy is same. @lc_hci_uhd.c(208),INFO" ID="0x89a40685" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]lc_uhd_phy_auto_rate_report expt_rxphy:%d, expt_txphy:%d @lc_hci_uhd.c(224),INFO" ID="0x89a40705" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BTC][keep_cqddr_algo_to_qpsk] link_id=%d, next_rate_found=%d, next_rate_idx=0x1 @lc_hci_uhd.c(241),INFO" ID="0x89a4078d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][HCI]hci_bt_uhd_enable_cmd_handler conhdl=%d, enable=%d @lc_hci_uhd.c(249),INFO" ID="0x89a407cd" />
+			</MSG_LOG>

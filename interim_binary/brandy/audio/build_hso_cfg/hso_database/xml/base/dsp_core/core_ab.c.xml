@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_get_attach_info Failed, Error Code: [0x%08X] @core_ab.c(71),ERROR" ID="0x9866023a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi]attach_cnt = %d is over, max_attach_num = %d @core_ab.c(76),WARNING" ID="0x98660263" />
+			</MSG_LOG>

@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[JITWS][AVDTP]a2dp_set_config_ind_cfm: can't find a2dp stream handle by input HANDLE=0x%x @a2dp_hlp.c(116),INFO" ID="0x8abe03a5" />
+			</MSG_LOG>

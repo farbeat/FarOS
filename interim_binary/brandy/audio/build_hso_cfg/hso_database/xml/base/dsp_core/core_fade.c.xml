@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]invalid precision volume @core_fade.c(511),ERROR" ID="0x98480ffa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]invalid precision volume decimal part @core_fade.c(518),ERROR" ID="0x98481032" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]invalid precision volume integer part @core_fade.c(523),ERROR" ID="0x9848105a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]invalid precision volume integer part @core_fade.c(528),ERROR" ID="0x98481082" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]invalid precision volume integer part @core_fade.c(533),ERROR" ID="0x984810aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @core_fade.c(572),ERROR" ID="0x984811e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_format-&gt;sample_rate = 0x%08X @core_fade.c(573),INFO" ID="0x984811ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @core_fade.c(578),ERROR" ID="0x98481212" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_format-&gt;bit_depth = 0x%08X @core_fade.c(579),INFO" ID="0x9848121d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Error Code: [0x%08X] @core_fade.c(585),ERROR" ID="0x9848124a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]pcm_format-&gt;channels = 0x%08X @core_fade.c(586),INFO" ID="0x98481255" />
+			</MSG_LOG>

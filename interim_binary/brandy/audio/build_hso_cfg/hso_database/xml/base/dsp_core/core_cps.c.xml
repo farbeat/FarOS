@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]size = %u @core_cps.c(264),ERROR" ID="0x980a0842" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]cnt = %u @core_cps.c(265),ERROR" ID="0x980a084a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]cnt = %u @core_cps.c(267),INFO" ID="0x980a085d" />
+			</MSG_LOG>

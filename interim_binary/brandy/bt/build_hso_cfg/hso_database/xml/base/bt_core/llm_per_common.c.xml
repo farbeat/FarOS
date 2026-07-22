@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][AE]llm_per_sync_lost_report:sync link establish fail @llm_per_common.c(73),INFO" ID="0x8996024d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][AE]llm_per_sync_lost_report:sync link timeout @llm_per_common.c(86),INFO" ID="0x899602b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][AE]:event is masked @llm_per_common.c(114),WARNING" ID="0x89960393" />
+			</MSG_LOG>

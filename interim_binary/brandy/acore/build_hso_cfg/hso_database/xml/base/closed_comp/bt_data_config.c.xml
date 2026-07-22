@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt read nv config fail. @bt_data_config.c(63),INFO" ID="0xd87e01fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt read nv config succ, real_len:%hu. @bt_data_config.c(65),INFO" ID="0xd87e020d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt set nv config fail. @bt_data_config.c(75),INFO" ID="0xd87e025d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt set nv config succ. @bt_data_config.c(77),INFO" ID="0xd87e026d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sync config err, malloc fail. @bt_data_config.c(113),ERROR" ID="0xd87e038a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt get data config table offset fail. @bt_data_config.c(139),ERROR" ID="0xd87e045a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore config data write err @bt_data_config.c(155),ERROR" ID="0xd87e04da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt acore config data write:%d @bt_data_config.c(158),INFO" ID="0xd87e04f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore config data write offset err! @bt_data_config.c(163),ERROR" ID="0xd87e051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt config data write err! @bt_data_config.c(169),ERROR" ID="0xd87e054a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore config data read err! @bt_data_config.c(177),ERROR" ID="0xd87e058a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore config data read offset err! @bt_data_config.c(184),ERROR" ID="0xd87e05c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore config data read memcpy err! @bt_data_config.c(189),ERROR" ID="0xd87e05ea" />
+			</MSG_LOG>

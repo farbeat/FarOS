@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="pbap_set_pb_req set root folder @bt_at_cmd_pbap.c(148),ERROR" ID="0xd8cc04a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pbap_set_pb_req parameter invalid @bt_at_cmd_pbap.c(157),ERROR" ID="0xd8cc04ea" />
+			</MSG_LOG>

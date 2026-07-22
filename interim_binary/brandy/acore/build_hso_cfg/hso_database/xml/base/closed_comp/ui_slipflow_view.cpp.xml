@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="add failed, view is nullptr @ui_slipflow_view.cpp(60),ERROR" ID="0xcb4801e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove faild, Input parameter error. @ui_slipflow_view.cpp(135),ERROR" ID="0xcb48043a" />
+			</MSG_LOG>

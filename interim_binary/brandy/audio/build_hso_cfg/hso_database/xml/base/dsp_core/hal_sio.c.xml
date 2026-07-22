@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ai_port = 0x%08X @hal_sio.c(423),ERROR" ID="0x98800d3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rx_type = 0x%08X @hal_sio.c(424),ERROR" ID="0x98800d42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]ao_port = 0x%08X @hal_sio.c(451),ERROR" ID="0x98800e1a" />
+			</MSG_LOG>

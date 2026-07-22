@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="LruList is emtry, cannot remove Lru entry. @lv_font_vector_cache.c(57),ERROR" ID="0xc94e01ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Cannot create font cache for unicode: %u @lv_font_vector_cache.c(75),ERROR" ID="0xc94e025a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Cannot create font cache for unicode: %u @lv_font_vector_cache.c(87),ERROR" ID="0xc94e02ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Cannot create font cache for unicode: %u @lv_font_vector_cache.c(101),ERROR" ID="0xc94e032a" />
+			</MSG_LOG>

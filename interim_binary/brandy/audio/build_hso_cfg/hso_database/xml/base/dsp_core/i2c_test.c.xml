@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi][i2c] invalid read buffer or length %d @i2c_test.c(52),ERROR" ID="0x98da01a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi][i2c] invalid write buffer or length %d @i2c_test.c(103),ERROR" ID="0x98da033a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[hifi][i2c] write error, ret = %d when write byte %d @i2c_test.c(117),ERROR" ID="0x98da03aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(137),ERROR" ID="0x98da044a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(142),ERROR" ID="0x98da0472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(147),ERROR" ID="0x98da049a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(152),ERROR" ID="0x98da04c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]malloc buffer failed @i2c_test.c(158),ERROR" ID="0x98da04f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(188),ERROR" ID="0x98da05e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(193),ERROR" ID="0x98da060a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]cmd input is invalid, please run help cmd for details @i2c_test.c(201),ERROR" ID="0x98da064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]len = %u @i2c_test.c(207),ERROR" ID="0x98da067a" />
+			</MSG_LOG>

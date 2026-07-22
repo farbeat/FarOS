@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="freq = %u @set_req.c(33),ERROR" ID="0x9812010a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Call core_sys_set_total_cps Failed, Error Code: [0x%08X] @set_req.c(43),ERROR" ID="0x9812015a" />
+			</MSG_LOG>

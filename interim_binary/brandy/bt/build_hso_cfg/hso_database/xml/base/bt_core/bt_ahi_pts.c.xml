@@ -1,0 +1,251 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="pts gap usr cfm numeric_value=%lu @bt_ahi_pts.c(357),INFO" ID="0x8c9e0b2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts gap linkkey notify key_type=0x%x @bt_ahi_pts.c(369),INFO" ID="0x8c9e0b8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts gap linkkey req key_type=0x%x @bt_ahi_pts.c(385),INFO" ID="0x8c9e0c0d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="pts gap secu_level=%d reg-&gt;mask=0x%x, incoming_mask=0x%x @bt_ahi_pts.c(496),INFO" ID="0x8c9e0f85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Set BT Sec Mode err! pkt_len = %u @bt_ahi_pts.c(534),ERROR" ID="0x8c9e10b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt core: App Set BT Bondable Mode @bt_ahi_pts.c(569),INFO" ID="0x8c9e11cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Set BT Bondable Mode err! pkt_len = %u @bt_ahi_pts.c(572),ERROR" ID="0x8c9e11e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Set BT Bondable Mode fail: %d @bt_ahi_pts.c(579),ERROR" ID="0x8c9e121a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App discovery pkt_len = %u @bt_ahi_pts.c(593),ERROR" ID="0x8c9e128a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Oper device Discovery fail: %d @bt_ahi_pts.c(603),ERROR" ID="0x8c9e12da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc handle br edr pair rmt dev memcpy error! @bt_ahi_pts.c(618),ERROR" ID="0x8c9e1352" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt mpc handle br edr pair rmt dev get g_rmt_dev = %d dev_hdl = %d @bt_ahi_pts.c(626),INFO" ID="0x8c9e1395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Oper device Discovery fail: %d @bt_ahi_pts.c(629),ERROR" ID="0x8c9e13aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt core: App Set BT IO Capability @bt_ahi_pts.c(641),INFO" ID="0x8c9e140d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Set BT IO Capability err! pkt_len = %u @bt_ahi_pts.c(644),ERROR" ID="0x8c9e1422" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App Set BT IO Capability fail: %d @bt_ahi_pts.c(651),ERROR" ID="0x8c9e145a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc handle br edr gap disconn peer by addr memcpy error! @bt_ahi_pts.c(666),ERROR" ID="0x8c9e14d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App disconn peer by addr fail: %d @bt_ahi_pts.c(672),ERROR" ID="0x8c9e1502" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bredr unpair peer err! pkt_len = %u @bt_ahi_pts.c(690),ERROR" ID="0x8c9e1592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bredr core: App unpair peer memcpy fail @bt_ahi_pts.c(697),ERROR" ID="0x8c9e15ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bredr core: App unpair peermemcpy fail @bt_ahi_pts.c(706),ERROR" ID="0x8c9e1612" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App unpair peer fail: %d @bt_ahi_pts.c(713),ERROR" ID="0x8c9e164a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bredr core:gap encrypt link memcpy fail @bt_ahi_pts.c(734),ERROR" ID="0x8c9e16f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt core: App encrypt link fail: %d @bt_ahi_pts.c(742),ERROR" ID="0x8c9e1732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc handle br edr add remote dev memcpy error @bt_ahi_pts.c(756),ERROR" ID="0x8c9e17a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bredr core: App Connect Ble memcpy fail @bt_ahi_pts.c(792),ERROR" ID="0x8c9e18c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF hold_incoming_call FAILED:ret=0x%x @bt_ahi_pts.c(868),INFO" ID="0x8c9e1b25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hold_incoming_call OK @bt_ahi_pts.c(871),INFO" ID="0x8c9e1b3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF tag_phone_num_req FAILED:ret=0x%x @bt_ahi_pts.c(879),INFO" ID="0x8c9e1b7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="tag_phone_num_req OK @bt_ahi_pts.c(882),INFO" ID="0x8c9e1b95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF accept_held_incoming_call FAILED:ret=0x%x @bt_ahi_pts.c(890),INFO" ID="0x8c9e1bd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="accept_held_incoming_call OK @bt_ahi_pts.c(893),INFO" ID="0x8c9e1bed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF reject_held_incoming_call FAILED:ret=0x%x @bt_ahi_pts.c(901),INFO" ID="0x8c9e1c2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="reject_held_incoming_call OK @bt_ahi_pts.c(904),INFO" ID="0x8c9e1c45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ch = %x @bt_ahi_pts.c(912),INFO" ID="0x8c9e1c85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF transmit_dtmf_code FAILED:ret=0x%x @bt_ahi_pts.c(915),INFO" ID="0x8c9e1c9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="transmit_dtmf_code OK @bt_ahi_pts.c(918),INFO" ID="0x8c9e1cb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="idx = %d @bt_ahi_pts.c(925),INFO" ID="0x8c9e1ced" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF voice_recognition_req FAILED:ret=0x%x @bt_ahi_pts.c(928),INFO" ID="0x8c9e1d05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="voice_recognition_req OK @bt_ahi_pts.c(931),INFO" ID="0x8c9e1d1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(937),INFO" ID="0x8c9e1d4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="vol = %d @bt_ahi_pts.c(939),INFO" ID="0x8c9e1d5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF mic_vol_ctl FAILED:ret=0x%x @bt_ahi_pts.c(942),INFO" ID="0x8c9e1d75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mic_vol_ctl OK @bt_ahi_pts.c(945),INFO" ID="0x8c9e1d8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(951),INFO" ID="0x8c9e1dbd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="vol = %d @bt_ahi_pts.c(953),INFO" ID="0x8c9e1dcd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF speaker_vol_ctl FAILED:ret=0x%x @bt_ahi_pts.c(956),INFO" ID="0x8c9e1de5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="speaker_vol_ctl OK @bt_ahi_pts.c(959),INFO" ID="0x8c9e1dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HFAUDIOCONNTR:hdl=%d @bt_ahi_pts.c(969),INFO" ID="0x8c9e1e4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="phonenum = %s @bt_ahi_pts.c(971),INFO" ID="0x8c9e1e5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="len = %d @bt_ahi_pts.c(972),INFO" ID="0x8c9e1e65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Dialing fail! @bt_ahi_pts.c(974),INFO" ID="0x8c9e1e75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dial OK @bt_ahi_pts.c(977),INFO" ID="0x8c9e1e8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HFAUDIOCONNTR:hdl=%d @bt_ahi_pts.c(987),INFO" ID="0x8c9e1edd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="phonenum = %s @bt_ahi_pts.c(989),INFO" ID="0x8c9e1eed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="len = %d @bt_ahi_pts.c(990),INFO" ID="0x8c9e1ef5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Dialing fail! @bt_ahi_pts.c(992),INFO" ID="0x8c9e1f05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dial OK @bt_ahi_pts.c(995),INFO" ID="0x8c9e1f1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HFAUDIOCONNTR:hdl=%d @bt_ahi_pts.c(1003),INFO" ID="0x8c9e1f5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="last num redial fail! @bt_ahi_pts.c(1006),INFO" ID="0x8c9e1f75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="last num redial OK @bt_ahi_pts.c(1009),INFO" ID="0x8c9e1f8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="-----&gt; btsdk connect ex result: %04x @bt_ahi_pts.c(1019),INFO" ID="0x8c9e1fdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF get_current_calls FAILED:ret=0x%x @bt_ahi_pts.c(1027),INFO" ID="0x8c9e201d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get_current_calls OK @bt_ahi_pts.c(1030),INFO" ID="0x8c9e2035" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(1036),INFO" ID="0x8c9e2065" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF get_ag_features FAILED:ret=0x%x @bt_ahi_pts.c(1039),INFO" ID="0x8c9e207d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(1048),INFO" ID="0x8c9e20c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF s3_way_calling_CHLD_0 FAILED:ret=0x%x @bt_ahi_pts.c(1051),INFO" ID="0x8c9e20dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(1060),INFO" ID="0x8c9e2125" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="&gt;&gt;&gt; idx = %d @bt_ahi_pts.c(1062),INFO" ID="0x8c9e2135" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF s3_way_calling_CHLD_1 FAILED:ret=0x%x @bt_ahi_pts.c(1065),INFO" ID="0x8c9e214d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(1074),INFO" ID="0x8c9e2195" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="&gt;&gt;&gt; idx = %d @bt_ahi_pts.c(1076),INFO" ID="0x8c9e21a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF s3_way_calling_CHLD_2 FAILED:ret=0x%x @bt_ahi_pts.c(1079),INFO" ID="0x8c9e21bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(1089),INFO" ID="0x8c9e220d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF s3_way_calling_CHLD_3 FAILED:ret=0x%x @bt_ahi_pts.c(1092),INFO" ID="0x8c9e2225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hdl = %x @bt_ahi_pts.c(1102),INFO" ID="0x8c9e2275" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF s3_way_calling_CHLD_4 FAILED:ret=0x%x @bt_ahi_pts.c(1105),INFO" ID="0x8c9e228d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="-----&gt; disconn result: %04x @bt_ahi_pts.c(1117),INFO" ID="0x8c9e22ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF disable_nrec FAILED:ret=0x%x @bt_ahi_pts.c(1125),INFO" ID="0x8c9e232d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="disable_nrec OK @bt_ahi_pts.c(1128),INFO" ID="0x8c9e2345" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="+HF get_subscriber_number FAILED:ret=0x%x @bt_ahi_pts.c(1136),INFO" ID="0x8c9e2385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get_subscriber_number OK @bt_ahi_pts.c(1139),INFO" ID="0x8c9e239d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="in 01 bt mpc avrcp connect pair err1 = %d @bt_ahi_pts.c(1334),INFO" ID="0x8c9e29b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk_connect_ex fail @bt_ahi_pts.c(1346),ERROR" ID="0x8c9e2a12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avctp control browsing set pair memcpy fail @bt_ahi_pts.c(1359),ERROR" ID="0x8c9e2a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp set absolute vol req fail @bt_ahi_pts.c(1382),ERROR" ID="0x8c9e2b32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp reg notif req fail @bt_ahi_pts.c(1415),ERROR" ID="0x8c9e2c3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp pass through req ex fail @bt_ahi_pts.c(1441),ERROR" ID="0x8c9e2d0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp sub unit info pair memcpy fail @bt_ahi_pts.c(1454),ERROR" ID="0x8c9e2d72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp unit info pair memcpy fail @bt_ahi_pts.c(1469),ERROR" ID="0x8c9e2dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp get folder items req fail @bt_ahi_pts.c(1500),ERROR" ID="0x8c9e2ee2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bredr: bt mpc avrcp set browsed player pair memcpy fail @bt_ahi_pts.c(1516),ERROR" ID="0x8c9e2f62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bredr: bt mpc avrcp set browsed player pair sdk fail @bt_ahi_pts.c(1522),ERROR" ID="0x8c9e2f92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp set addressed player pair memcpy fail @bt_ahi_pts.c(1537),ERROR" ID="0x8c9e300a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp set addressed player req fail @bt_ahi_pts.c(1543),ERROR" ID="0x8c9e303a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get total number of items pair memcpy fail @bt_ahi_pts.c(1558),ERROR" ID="0x8c9e30b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get total number of items pair fail @bt_ahi_pts.c(1564),ERROR" ID="0x8c9e30e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp search pair memcpy fail @bt_ahi_pts.c(1581),ERROR" ID="0x8c9e316a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp search pair fail @bt_ahi_pts.c(1586),ERROR" ID="0x8c9e3192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd pass through cbk cmd_type err @bt_ahi_pts.c(1607),INFO" ID="0x8c9e323d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp pass through rsp ex fail @bt_ahi_pts.c(1613),ERROR" ID="0x8c9e326a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd set absolute vol cbk cmd_type err @bt_ahi_pts.c(1644),INFO" ID="0x8c9e3365" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp set absolute vol rsp fail @bt_ahi_pts.c(1651),ERROR" ID="0x8c9e339a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event addr player changed fail @bt_ahi_pts.c(1689),ERROR" ID="0x8c9e34ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event play status changed fail @bt_ahi_pts.c(1702),ERROR" ID="0x8c9e3532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get capabilities rsp fail @bt_ahi_pts.c(1728),ERROR" ID="0x8c9e3602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get capabilities rsp fail @bt_ahi_pts.c(1744),ERROR" ID="0x8c9e3682" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get capabilities rsp pair memcpy fail @bt_ahi_pts.c(1771),ERROR" ID="0x8c9e375a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp list player app set val rsp fail @bt_ahi_pts.c(1792),ERROR" ID="0x8c9e3802" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp get cur player app set val rsp fail @bt_ahi_pts.c(1812),ERROR" ID="0x8c9e38a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp get player app set attr txt rsp fail @bt_ahi_pts.c(1843),ERROR" ID="0x8c9e399a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp get player app set attr txt rsp fail @bt_ahi_pts.c(1856),ERROR" ID="0x8c9e3a02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp get player app set val txt rsp fail @bt_ahi_pts.c(1879),ERROR" ID="0x8c9e3aba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btsdk avrcp get player app set val txt rsp fail @bt_ahi_pts.c(1892),ERROR" ID="0x8c9e3b22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd event player app set cmd cbk fail @bt_ahi_pts.c(1915),ERROR" ID="0x8c9e3bda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd event player app set cmd cbk cmd_type err @bt_ahi_pts.c(1929),INFO" ID="0x8c9e3c4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp event player app set cmd rsp pair memcpy fail @bt_ahi_pts.c(1945),ERROR" ID="0x8c9e3cca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd event vol changed cbk cmd_type err @bt_ahi_pts.c(1964),INFO" ID="0x8c9e3d65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event vol changed fail @bt_ahi_pts.c(1973),ERROR" ID="0x8c9e3daa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event vol changed fail @bt_ahi_pts.c(2009),ERROR" ID="0x8c9e3eca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd event track changed cbk cmd_type err @bt_ahi_pts.c(2026),INFO" ID="0x8c9e3f55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event track changed fail @bt_ahi_pts.c(2037),ERROR" ID="0x8c9e3faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event track changed fail @bt_ahi_pts.c(2051),ERROR" ID="0x8c9e401a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avrcp ct cmd event get folder items cbk memcpy err @bt_ahi_pts.c(2083),ERROR" ID="0x8c9e411a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avrcp ct cmd event get folder items cbk memcpy err @bt_ahi_pts.c(2090),ERROR" ID="0x8c9e4152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avrcp ct cmd event get folder items cbk memcpy err @bt_ahi_pts.c(2098),ERROR" ID="0x8c9e4192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp change path pair memcpy err @bt_ahi_pts.c(2132),ERROR" ID="0x8c9e42a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp change path pair fail @bt_ahi_pts.c(2137),ERROR" ID="0x8c9e42ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp play item pair memcpy err @bt_ahi_pts.c(2151),ERROR" ID="0x8c9e433a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy err @bt_ahi_pts.c(2164),ERROR" ID="0x8c9e43a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy err @bt_ahi_pts.c(2172),ERROR" ID="0x8c9e43e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp play item pair param err @bt_ahi_pts.c(2178),ERROR" ID="0x8c9e4412" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp play item pair fail @bt_ahi_pts.c(2183),ERROR" ID="0x8c9e443a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp add to now playing pair memcpy err @bt_ahi_pts.c(2197),ERROR" ID="0x8c9e44aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy err @bt_ahi_pts.c(2210),ERROR" ID="0x8c9e4512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy err @bt_ahi_pts.c(2218),ERROR" ID="0x8c9e4552" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp add to now playing pair param err @bt_ahi_pts.c(2224),ERROR" ID="0x8c9e4582" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp add to now playing pair fail @bt_ahi_pts.c(2229),ERROR" ID="0x8c9e45aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd set browsed player normal cbk fail @bt_ahi_pts.c(2253),ERROR" ID="0x8c9e466a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd set browsed player cbk cmd_type err @bt_ahi_pts.c(2266),ERROR" ID="0x8c9e46d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp set browsed player rsp pair memcpy fail @bt_ahi_pts.c(2282),ERROR" ID="0x8c9e4752" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp set addressed player rsp fail @bt_ahi_pts.c(2310),ERROR" ID="0x8c9e4832" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd set addressed player normal cbk cmd_type err @bt_ahi_pts.c(2319),ERROR" ID="0x8c9e487a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp set addressed player rsp pair memcpy fail @bt_ahi_pts.c(2335),ERROR" ID="0x8c9e48fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd get play status cbk cmd_type err @bt_ahi_pts.c(2350),INFO" ID="0x8c9e4975" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get play status rsp fail @bt_ahi_pts.c(2360),ERROR" ID="0x8c9e49c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd get element attr cbk @bt_ahi_pts.c(2390),INFO" ID="0x8c9e4ab5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="inpts pts avrcp tg cmd get element attr cbk result=0x%x @bt_ahi_pts.c(2402),INFO" ID="0x8c9e4b15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd get element attr cbk memcpy fail @bt_ahi_pts.c(2422),ERROR" ID="0x8c9e4bb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event addr player changed fail @bt_ahi_pts.c(2459),ERROR" ID="0x8c9e4cda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp set addressed player rsp pair memcpy fail @bt_ahi_pts.c(2468),ERROR" ID="0x8c9e4d22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd event player app set changed cbk cmd_type err @bt_ahi_pts.c(2483),INFO" ID="0x8c9e4d9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event player app set changed fail @bt_ahi_pts.c(2496),ERROR" ID="0x8c9e4e02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event player app set changed fail @bt_ahi_pts.c(2510),ERROR" ID="0x8c9e4e72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp list player app set attr rsp fail @bt_ahi_pts.c(2523),ERROR" ID="0x8c9e4eda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(2590),ERROR" ID="0x8c9e50f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(2638),ERROR" ID="0x8c9e5272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avrcp tg cmd get folder items extern virtual filesystem rsp start_item err @bt_ahi_pts.c(2897),ERROR" ID="0x8c9e5a8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(2902),ERROR" ID="0x8c9e5ab2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(2923),ERROR" ID="0x8c9e5b5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(2949),ERROR" ID="0x8c9e5c2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(2989),ERROR" ID="0x8c9e5d6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(3039),ERROR" ID="0x8c9e5efa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(3102),ERROR" ID="0x8c9e60f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(3115),ERROR" ID="0x8c9e615a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(3133),ERROR" ID="0x8c9e61ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get folder items rsp fail @bt_ahi_pts.c(3147),ERROR" ID="0x8c9e625a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp change path rsp fail @bt_ahi_pts.c(3310),ERROR" ID="0x8c9e6772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp play item rsp fail @bt_ahi_pts.c(3334),ERROR" ID="0x8c9e6832" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp add to now playing rsp fail @bt_ahi_pts.c(3358),ERROR" ID="0x8c9e68f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event uids changed fail @bt_ahi_pts.c(3378),ERROR" ID="0x8c9e6992" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get folder items rsp pair memcpy fail @bt_ahi_pts.c(3411),ERROR" ID="0x8c9e6a9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp search rsp fail @bt_ahi_pts.c(3432),ERROR" ID="0x8c9e6b42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event now playing content changed fail @bt_ahi_pts.c(3448),ERROR" ID="0x8c9e6bc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event now playing content changed fail @bt_ahi_pts.c(3460),ERROR" ID="0x8c9e6c22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get folder items other rsp pair memcpy fail @bt_ahi_pts.c(3501),ERROR" ID="0x8c9e6d6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event addr player changed fail @bt_ahi_pts.c(3525),ERROR" ID="0x8c9e6e2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event available player changed fail @bt_ahi_pts.c(3566),ERROR" ID="0x8c9e6f72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event available player changed fail @bt_ahi_pts.c(3586),ERROR" ID="0x8c9e7012" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event uids changed fail @bt_ahi_pts.c(3626),ERROR" ID="0x8c9e7152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get folder items extern rsp pair memcpy fail @bt_ahi_pts.c(3684),ERROR" ID="0x8c9e7322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event track changed fail @bt_ahi_pts.c(3712),ERROR" ID="0x8c9e7402" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp event track changed fail @bt_ahi_pts.c(3731),ERROR" ID="0x8c9e749a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get folder items extern two rsp pair memcpy fail @bt_ahi_pts.c(3768),ERROR" ID="0x8c9e75c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc avrcp get folder items extern three rsp pair memcpy fail @bt_ahi_pts.c(3806),ERROR" ID="0x8c9e76f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts bt mpc avrcp state init pair fail @bt_ahi_pts.c(3823),ERROR" ID="0x8c9e777a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd get element attr fragment cbk @bt_ahi_pts.c(3834),INFO" ID="0x8c9e77d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts btsdk avrcp get element attr rsp fail @bt_ahi_pts.c(3852),ERROR" ID="0x8c9e7862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="inpts pts avrcp tg cmd get element attr fragment cbk memcpy fail @bt_ahi_pts.c(3867),ERROR" ID="0x8c9e78da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp connect pkt_len = %u @bt_ahi_pts.c(3902),ERROR" ID="0x8c9e79f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp connect memcpy fail @bt_ahi_pts.c(3907),ERROR" ID="0x8c9e7a1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp connect dev_hdl=0x%X @bt_ahi_pts.c(3911),INFO" ID="0x8c9e7a3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp disconnect pkt_len = %u @bt_ahi_pts.c(3930),ERROR" ID="0x8c9e7ad2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp disconnect memcpy fail @bt_ahi_pts.c(3935),ERROR" ID="0x8c9e7afa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp disconnect dev_hdl=0x%X @bt_ahi_pts.c(3939),INFO" ID="0x8c9e7b1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp ct nfr pkt_len = %u @bt_ahi_pts.c(3949),ERROR" ID="0x8c9e7b6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct nfr memcpy fail @bt_ahi_pts.c(3954),ERROR" ID="0x8c9e7b92" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="avctp ct nfr handle=0x%X @bt_ahi_pts.c(3958),INFO" ID="0x8c9e7bb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp ct fra pkt_len=%u @bt_ahi_pts.c(3974),ERROR" ID="0x8c9e7c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct fra memcpy fail @bt_ahi_pts.c(3979),ERROR" ID="0x8c9e7c5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp ct fra handle=0x%X @bt_ahi_pts.c(3983),INFO" ID="0x8c9e7c7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct fra memset fail @bt_ahi_pts.c(3998),ERROR" ID="0x8c9e7cf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp ct fra memcpy fail @bt_ahi_pts.c(4004),ERROR" ID="0x8c9e7d22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avctp tg send fra head fail,result=0x%X @bt_ahi_pts.c(4024),INFO" ID="0x8c9e7dc5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp tg fra memcpy fail @bt_ahi_pts.c(4043),ERROR" ID="0x8c9e7e5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avctp tg send fra param invalid @bt_ahi_pts.c(4054),INFO" ID="0x8c9e7eb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp connect pkt_len=%u. @bt_ahi_pts.c(4099),INFO" ID="0x8c9e801d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp connect memcpy fail. @bt_ahi_pts.c(4104),INFO" ID="0x8c9e8045" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp connect new fail. @bt_ahi_pts.c(4114),INFO" ID="0x8c9e8095" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp connect memcpy fail. @bt_ahi_pts.c(4125),INFO" ID="0x8c9e80ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp connect new fail. @bt_ahi_pts.c(4130),INFO" ID="0x8c9e8115" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp connect end  @bt_ahi_pts.c(4139),INFO" ID="0x8c9e815d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts a2dp disconnect stream_handle=0x%X @bt_ahi_pts.c(4153),INFO" ID="0x8c9e81cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp suspend stream param null @bt_ahi_pts.c(4162),INFO" ID="0x8c9e8215" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp suspend stream param pkt_ptr null @bt_ahi_pts.c(4166),INFO" ID="0x8c9e8235" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp suspend stream stream_handle=0x%X, g_audio_status.a2dp_sta=0x%X @bt_ahi_pts.c(4172),INFO" ID="0x8c9e8265" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp send stream g_pts_audio_params.enable=0x%X,g_audio_status.a2dp_sta=0x%X @bt_ahi_pts.c(4348),INFO" ID="0x8c9e87e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream memcpy fail. @bt_ahi_pts.c(4364),INFO" ID="0x8c9e8865" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="a2dp_audio: btsdk_a2dp_send_stream return error 0x%x @bt_ahi_pts.c(4372),INFO" ID="0x8c9e88a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream param null. @bt_ahi_pts.c(4384),INFO" ID="0x8c9e8905" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream param pkt_ptr null. @bt_ahi_pts.c(4388),INFO" ID="0x8c9e8925" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts a2dp send stream handle=0x%X, codec_type=0x%X @bt_ahi_pts.c(4396),INFO" ID="0x8c9e8965" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream over. @bt_ahi_pts.c(4416),INFO" ID="0x8c9e8a05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts a2dp send stream end @bt_ahi_pts.c(4423),INFO" ID="0x8c9e8a3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp getconf param null @bt_ahi_pts.c(4431),INFO" ID="0x8c9e8a7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp getconf param pkt_ptr null @bt_ahi_pts.c(4435),INFO" ID="0x8c9e8a9d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avdtp getconf stream_handle=0x%X @bt_ahi_pts.c(4439),INFO" ID="0x8c9e8abd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp register cap param null @bt_ahi_pts.c(4520),INFO" ID="0x8c9e8d45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp register cap param pkt_ptr null @bt_ahi_pts.c(4524),INFO" ID="0x8c9e8d65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp register cap sep invalid. @bt_ahi_pts.c(4532),INFO" ID="0x8c9e8da5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pts avdtp register cap service_capability invalid. @bt_ahi_pts.c(4538),INFO" ID="0x8c9e8dd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pts avdtp abort stream_handle=0x%X @bt_ahi_pts.c(4577),INFO" ID="0x8c9e8f0d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt pbap write file func! @bt_ahi_pts.c(4614),INFO" ID="0x8c9e9035" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt pbap status info cbk! @bt_ahi_pts.c(4620),INFO" ID="0x8c9e9065" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt pts rfcomm ev cbk:%d @bt_ahi_pts.c(4957),INFO" ID="0x8c9e9aed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn param invalid @bt_ahi_pts.c(5099),ERROR" ID="0x8c9e9f5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn new fail @bt_ahi_pts.c(5105),ERROR" ID="0x8c9e9f8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn memcpy fail @bt_ahi_pts.c(5109),ERROR" ID="0x8c9e9faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn end @bt_ahi_pts.c(5114),INFO" ID="0x8c9e9fd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi disconn param invalid @bt_ahi_pts.c(5121),ERROR" ID="0x8c9ea00a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn memcpy fail @bt_ahi_pts.c(5126),ERROR" ID="0x8c9ea032" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi filter multiaddr param invalid @bt_ahi_pts.c(5136),ERROR" ID="0x8c9ea082" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi filter multiaddr memcpy bd fail @bt_ahi_pts.c(5141),ERROR" ID="0x8c9ea0aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi filter multiaddr memcpy start fail @bt_ahi_pts.c(5149),ERROR" ID="0x8c9ea0ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi filter multiaddr memcpy end fail @bt_ahi_pts.c(5153),ERROR" ID="0x8c9ea10a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi ethernet param null @bt_ahi_pts.c(5163),ERROR" ID="0x8c9ea15a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi ethernet param invalid @bt_ahi_pts.c(5167),ERROR" ID="0x8c9ea17a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi ethernet memcpy bd fail @bt_ahi_pts.c(5172),ERROR" ID="0x8c9ea1a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MPC:pts cmd = %x @bt_ahi_pts.c(5340),INFO" ID="0x8c9ea6e5" />
+			</MSG_LOG>

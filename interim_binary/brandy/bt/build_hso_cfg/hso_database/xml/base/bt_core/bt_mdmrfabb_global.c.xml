@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="GET NV ERR, NV Buf is NULL, err_line = %d @bt_mdmrfabb_global.c(1017),ERROR" ID="0x89381fca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GET NV ERR, err_line = %d @bt_mdmrfabb_global.c(1027),ERROR" ID="0x8938201a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="MEMCPY ERR, mem_flag = %d @bt_mdmrfabb_global.c(1041),ERROR" ID="0x8938208a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="nv_tx_power_cali_num = %d, nv_tx_power_cali_pref_offset[1] = %d @bt_mdmrfabb_global.c(1046),INFO" ID="0x893820b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="nv_ble_1m_max_power_val = %d,nv_edr_gfsk_max_power_val = %d @bt_mdmrfabb_global.c(1048),INFO" ID="0x893820c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="nv power offset protect error @bt_mdmrfabb_global.c(1059),INFO" ID="0x8938211d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="get unreasonable nv txpower cali pref %d, %d @bt_mdmrfabb_global.c(1077),WARNING" ID="0x893821ab" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="get unreasonable nv txpower cali freq %d, %d @bt_mdmrfabb_global.c(1089),WARNING" ID="0x8938220b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[POWER_INFO]BLE POWER : %d, BR POWER : %d, EDR GFSK POWER : %d, EDR DPSK POWER : %d @bt_mdmrfabb_global.c(1121),INFO" ID="0x8938230d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="customized_feature, nv_flag 0x%x, g_dual_ant %d @bt_mdmrfabb_global.c(1141),INFO" ID="0x893823ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="customized_feature, nv_flag 0x%x, g_elna %d @bt_mdmrfabb_global.c(1145),INFO" ID="0x893823cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[POWER_INFO]bt_cfg_nv_data: power_limit_mode_allowed = %d @bt_mdmrfabb_global.c(1163),INFO" ID="0x8938245d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get unreasonable nv edr pwr %d @bt_mdmrfabb_global.c(1174),WARNING" ID="0x893824b3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get unreasonable nv edr pwr %d @bt_mdmrfabb_global.c(1205),WARNING" ID="0x893825ab" />
+			</MSG_LOG>

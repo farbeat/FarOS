@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SMARTIF]freq idx out of range! idx=%d @ld_chnlscan_ram.c(60),INFO" ID="0x89ae01e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[smartif][final]use nagtive if F, smart_if_k=%d @ld_chnlscan_ram.c(101),WARNING" ID="0x89ae032b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[smartif][final]use postive if 0, smart_if_k=%d @ld_chnlscan_ram.c(107),WARNING" ID="0x89ae035b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING]chnlrssi_ptr is null @ld_chnlscan_ram.c(125),WARNING" ID="0x89ae03eb" />
+			</MSG_LOG>

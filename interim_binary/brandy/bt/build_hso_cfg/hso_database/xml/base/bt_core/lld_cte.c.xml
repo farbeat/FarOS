@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][CTE]lld_set_primary_ant_into_cs:Primary ant is %d, OUT OF RANGE! @lld_cte.c(78),ERROR" ID="0x88620272" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AOA]:switch_pattern_len=%d,antid0 =0x%02x,antid1=0x%02x @lld_cte.c(146),INFO" ID="0x88620495" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lld_cte_antenna_validation: switch_pattern_len=%d @lld_cte.c(170),ERROR" ID="0x88620552" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_cte_antenna_validation: antenna_id_list[%d]=%d @lld_cte.c(176),ERROR" ID="0x88620582" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CTE]lld_cteinfo_pack: CTE type %d out of range! @lld_cte.c(205),ERROR" ID="0x8862066a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CTE]lld_cteinfo_pack: CTE time %d out of range! @lld_cte.c(209),ERROR" ID="0x8862068a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CTE]lld_cteinfo_unpack: CTE type %d out of range! @lld_cte.c(243),ERROR" ID="0x8862079a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][CTE]lld_cteinfo_unpack: CTE time %d out of range! @lld_cte.c(247),ERROR" ID="0x886207ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][MASK]lld_connless_cte_samp_report: LE_CONNLESS_IQ_REP_EVT_BIT event MASKED! @lld_cte.c(333),ERROR" ID="0x88620a6a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][AOA]lld_cte_conn_rx_hw_set:phyrate=%d, slot_duration=%d @lld_cte.c(504),INFO" ID="0x88620fc5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BT][CTE]lld_cte_iq_process:slot_dur = 0x%x, cte_time = %d, cte_type = %d, samp_cnt = %d @lld_cte.c(684),INFO" ID="0x88621565" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][CTE]lld_cte_save_iq_samp: suppflag DO NOT exist! @lld_cte.c(730),INFO" ID="0x886216d5" />
+			</MSG_LOG>

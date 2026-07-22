@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="BTC_TWS-&gt;sear_abort_rx_lmp:opcode = %d, ext_opcode = %d @lm_tws_monitor.c(85),WARNING" ID="0x89ea02ab" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[SNIFF OFFSET] Cmd = %d 0:HL,1:PEER,2:UPDATE, offset = %d, Flag = %d @lm_tws_monitor.c(105),INFO" ID="0x89ea034d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[SNIFF OFFSET] Linkid = %d, role = %d, 0:M,1:S, ClockN = 0x%x, clk_off = 0x%x @lm_tws_monitor.c(109),INFO" ID="0x89ea036d" />
+			</MSG_LOG>

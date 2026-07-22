@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call memcpy_s Failed, Error Code: [0x%08X] @shell_cmd.c(168),ERROR" ID="0x98a40542" />
+			</MSG_LOG>

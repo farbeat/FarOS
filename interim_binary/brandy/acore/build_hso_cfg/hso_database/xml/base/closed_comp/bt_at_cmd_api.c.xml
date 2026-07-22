@@ -1,0 +1,39 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[Error] write_bdaddr fail: Param num illegal = %d @bt_at_cmd_api.c(74),ERROR" ID="0xd8840252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] write_bdaddr fail: Param loss @bt_at_cmd_api.c(78),ERROR" ID="0xd8840272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] name_write fail: Param illegal! @bt_at_cmd_api.c(96),ERROR" ID="0xd8840302" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] name_write fail: name input illegal! @bt_at_cmd_api.c(102),ERROR" ID="0xd8840332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] dev_name memcpy_s fail @bt_at_cmd_api.c(107),ERROR" ID="0xd884035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AT]pairing comes!!! @bt_at_cmd_api.c(136),INFO" ID="0xd8840445" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pairing param len fail! @bt_at_cmd_api.c(142),ERROR" ID="0xd8840472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pairing addr fail! @bt_at_cmd_api.c(147),ERROR" ID="0xd884049a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pairing param invaild! @bt_at_cmd_api.c(156),ERROR" ID="0xd88404e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pairing addr memcpy fail! @bt_at_cmd_api.c(163),ERROR" ID="0xd884051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] disconnect_link parameter fail! @bt_at_cmd_api.c(182),ERROR" ID="0xd88405b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] disconnect_link addr fail! @bt_at_cmd_api.c(187),ERROR" ID="0xd88405da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[AT] ble_connect_white_list comes! @bt_at_cmd_api.c(200),INFO" ID="0xd8840645" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_connect_peer parameter fail! @bt_at_cmd_api.c(212),ERROR" ID="0xd88406a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_connect_peer addr fail! @bt_at_cmd_api.c(217),ERROR" ID="0xd88406ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_connect_peer param invaild! @bt_at_cmd_api.c(225),ERROR" ID="0xd884070a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_add_white_list parameter fail! @bt_at_cmd_api.c(241),ERROR" ID="0xd884078a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_add_white_list addr fail! @bt_at_cmd_api.c(246),ERROR" ID="0xd88407b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_add_white_list param invaild! @bt_at_cmd_api.c(255),ERROR" ID="0xd88407fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_remove_white_list parameter fail! @bt_at_cmd_api.c(275),ERROR" ID="0xd884089a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_remove_white_list addr fail! @bt_at_cmd_api.c(280),ERROR" ID="0xd88408c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_remove_white_list param invaild! @bt_at_cmd_api.c(289),ERROR" ID="0xd884090a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_disconnect parameter fail! @bt_at_cmd_api.c(339),ERROR" ID="0xd8840a9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_disconnect addr fail! @bt_at_cmd_api.c(344),ERROR" ID="0xd8840ac2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble_disconnect param invaild! @bt_at_cmd_api.c(353),ERROR" ID="0xd8840b0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] battery_report param invaild! @bt_at_cmd_api.c(368),ERROR" ID="0xd8840b82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] addr_type_change param invaild! @bt_at_cmd_api.c(387),ERROR" ID="0xd8840c1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sec_param_set param invaild! @bt_at_cmd_api.c(411),ERROR" ID="0xd8840cda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sec_param_set param invaild! @bt_at_cmd_api.c(419),ERROR" ID="0xd8840d1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="============================================== @bt_at_cmd_api.c(431),INFO" ID="0xd8840d7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AT RX] len:%d-&gt; @bt_at_cmd_api.c(433),INFO" ID="0xd8840d8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AT TX] len:%hu-&gt; @bt_at_cmd_api.c(435),INFO" ID="0xd8840d9d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%02X  @bt_at_cmd_api.c(438),INFO" ID="0xd8840db5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="============================================== @bt_at_cmd_api.c(440),INFO" ID="0xd8840dc5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] transparent to btc fail! @bt_at_cmd_api.c(452),ERROR" ID="0xd8840e22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] transparent to btc malloc fail! @bt_at_cmd_api.c(461),ERROR" ID="0xd8840e6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] transparent to btc malloc fail!, length:(0x%04x) @bt_at_cmd_api.c(467),ERROR" ID="0xd8840e9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] set_product_type param invaild! @bt_at_cmd_api.c(490),ERROR" ID="0xd8840f52" />
+			</MSG_LOG>

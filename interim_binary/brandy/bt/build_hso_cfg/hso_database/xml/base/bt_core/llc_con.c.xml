@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLC]ble_peer_rpa_valid_getf(%d)=%d @llc_con.c(316),WARNING" ID="0x896209e3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLC]ble_peer_rpa_valid_getf(%d)=%d @llc_con.c(388),WARNING" ID="0x89620c23" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC]llc_lsto_con_update:to=%d*10ms @llc_con.c(575),INFO" ID="0x896211fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_map_update_ind, using both old and new---0x%x:0x%x:0x%x,0x%x @llc_con.c(611),INFO" ID="0x8962131d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_map_update_ind, using both old and new---0x%x, nb_good_chnl=%d, conhdl=0x%x, hopcntl=0x%x @llc_con.c(615),INFO" ID="0x8962133d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_map_update_ind---0x%x:0x%x:0x%x,0x%x @llc_con.c(641),INFO" ID="0x8962140d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_map_update_ind---0x%x, nb_good_chnl=%d, conhdl=0x%x, hopcntl=0x%x @llc_con.c(644),INFO" ID="0x89621425" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_update_current_trxphy:conhdl=0x%x, new_tx_phy=%d, new_rx_phy=%d @llc_con.c(684),INFO" ID="0x89621565" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_set_trxphy_cs_fileds:current_tx_phy=%d, current_rx_phy=%d, tx_phy_option=%d @llc_con.c(739),INFO" ID="0x8962171d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llc_le_multi_adv_statechange_subevt_send:sub_evt_code=%d, conhdl=%d, adv_instance=%d,state_chg_reason=%d @llc_con.c(936),INFO" ID="0x89621d45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLM]llm_con_cs_phy_reconfig:conhdl=0x%x, rxphy=0x%x, rxphyri=0x%x @llc_con.c(950),INFO" ID="0x89621db5" />
+			</MSG_LOG>

@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[hifi]hal_i2c_write_ready timeout! @hal_i2c.c(608),ERROR" ID="0x98d81302" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_i2c_master_chkerr Failed, Error Code: [0x%08X] @hal_i2c.c(616),ERROR" ID="0x98d81342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]hal_i2c_read_ready timeout! @hal_i2c.c(637),ERROR" ID="0x98d813ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_i2c_master_chkerr Failed, Error Code: [0x%08X] @hal_i2c.c(645),ERROR" ID="0x98d8142a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi][i2c] comp_version address = %X @hal_i2c.c(732),ERROR" ID="0x98d816e2" />
+			</MSG_LOG>

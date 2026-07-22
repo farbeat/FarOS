@@ -1,0 +1,26 @@
+#===============================================================================
+# @brief    cmake file
+# Copyright (c) @CompanyNameMagicTag 2022-2022. All rights reserved.
+#===============================================================================
+add_subdirectory_if_exist(adc)
+add_subdirectory_if_exist(arch)
+add_subdirectory_if_exist(gpio)
+add_subdirectory_if_exist(liteos)
+add_subdirectory_if_exist(pwm)
+add_subdirectory_if_exist(security)
+add_subdirectory_if_exist(uart)
+add_subdirectory_if_exist(timer)
+add_subdirectory_if_exist(systick)
+add_subdirectory_if_exist(tcxo)
+add_subdirectory_if_exist(calendar)
+add_subdirectory_if_exist(watchdog)
+add_subdirectory_if_exist(pinctrl)
+add_subdirectory_if_exist(xip)
+add_subdirectory_if_exist(pmp)
+add_subdirectory_if_exist(i2c)
+add_subdirectory_if_exist(dma)
+add_subdirectory_if_exist(spi)
+add_subdirectory_if_exist(flash)
+add_subdirectory_if_exist(mem_monitor)
+add_subdirectory_if_exist(rtc_unified)
+add_subdirectory_if_exist(button)

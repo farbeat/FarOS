@@ -1,0 +1,125 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][ERROR] server_id %d not exist @btsrv_gatt_server.c(242),ERROR" ID="0xd81a0792" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] send msg fail @btsrv_gatt_server.c(256),ERROR" ID="0xd81a0802" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[btsrv][INFO]desc_info:[desc_hdl:%#x][permission: %#x] @btsrv_gatt_server.c(275),INFO" ID="0xd81a089d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[btsrv][INFO]CharInfo:[hdl:%d][properties:%#x][permission:%#x] @btsrv_gatt_server.c(283),INFO" ID="0xd81a08dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[btsrv][INFO] service info[handle:%d][is_prim:%d][is_active: %d]  @btsrv_gatt_server.c(297),INFO" ID="0xd81a094d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][INFO]---------service_list_head_addr: %08x list: @btsrv_gatt_server.c(312),INFO" ID="0xd81a09c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO]show ble gatts service list end!--------- @btsrv_gatt_server.c(317),INFO" ID="0xd81a09ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc cb_para fail @btsrv_gatt_server.c(326),ERROR" ID="0xd81a0a32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] uuid memcpy fail @btsrv_gatt_server.c(334),ERROR" ID="0xd81a0a72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc cb_para fail @btsrv_gatt_server.c(347),ERROR" ID="0xd81a0ada" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] uuid memcpy fail @btsrv_gatt_server.c(357),ERROR" ID="0xd81a0b2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc cb_para fail @btsrv_gatt_server.c(370),ERROR" ID="0xd81a0b92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] uuid memcpy fail @btsrv_gatt_server.c(379),ERROR" ID="0xd81a0bda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc cb_para fail @btsrv_gatt_server.c(392),ERROR" ID="0xd81a0c42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc cb_para fail @btsrv_gatt_server.c(408),ERROR" ID="0xd81a0cc2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc cb_para fail @btsrv_gatt_server.c(429),ERROR" ID="0xd81a0d6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts write cbk value memcpy fail @btsrv_gatt_server.c(445),ERROR" ID="0xd81a0dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to malloc tmp_uuid when comparing. @btsrv_gatt_server.c(557),ERROR" ID="0xd81a116a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to malloc tmp_uuid when comparing. @btsrv_gatt_server.c(563),ERROR" ID="0xd81a119a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc fail @btsrv_gatt_server.c(614),ERROR" ID="0xd81a1332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] @btsrv_gatt_server.c(631),INFO" ID="0xd81a13bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO]---------server list head addr list: @btsrv_gatt_server.c(633),INFO" ID="0xd81a13cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[btsrv][INFO][%d] server_id: %d  @btsrv_gatt_server.c(637),INFO" ID="0xd81a13ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] @btsrv_gatt_server.c(638),INFO" ID="0xd81a13f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO]show ble gatts server list end!--------- @btsrv_gatt_server.c(642),INFO" ID="0xd81a1415" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc fail @btsrv_gatt_server.c(649),ERROR" ID="0xd81a144a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatt server node app_uuid memcpy fail @btsrv_gatt_server.c(654),ERROR" ID="0xd81a1472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] server num reached maximum @btsrv_gatt_server.c(660),ERROR" ID="0xd81a14a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] unlikely, failed to find available server id @btsrv_gatt_server.c(674),ERROR" ID="0xd81a1512" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][INFO] unhandled msg id: %d @btsrv_gatt_server.c(709),INFO" ID="0xd81a162d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][INFO] unhandled msg id: %d @btsrv_gatt_server.c(757),INFO" ID="0xd81a17ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][ERROR] gatt server invalid msg id:%d. @btsrv_gatt_server.c(770),ERROR" ID="0xd81a1812" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc add characterisitic param fail @btsrv_gatt_server.c(796),ERROR" ID="0xd81a18e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] data memcpy fail @btsrv_gatt_server.c(803),ERROR" ID="0xd81a191a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] long uuid memcpy fail @btsrv_gatt_server.c(816),ERROR" ID="0xd81a1982" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc start service param fail @btsrv_gatt_server.c(833),ERROR" ID="0xd81a1a0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc add descriptor param fail @btsrv_gatt_server.c(847),ERROR" ID="0xd81a1a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] data memcpy fail @btsrv_gatt_server.c(854),ERROR" ID="0xd81a1ab2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] short uuid memcpy fail @btsrv_gatt_server.c(867),ERROR" ID="0xd81a1b1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] add character chara is null @btsrv_gatt_server.c(896),INFO" ID="0xd81a1c05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc add service param fail @btsrv_gatt_server.c(918),ERROR" ID="0xd81a1cb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] long uuid memcpy fail @btsrv_gatt_server.c(930),ERROR" ID="0xd81a1d12" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][INFO] gatts not found on handle:%x @btsrv_gatt_server.c(965),ERROR" ID="0xd81a1e2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts change event param is NULL @btsrv_gatt_server.c(1000),ERROR" ID="0xd81a1f42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts change event conn_node is NULL @btsrv_gatt_server.c(1005),ERROR" ID="0xd81a1f6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts read req event conn_node is NULL @btsrv_gatt_server.c(1034),ERROR" ID="0xd81a2052" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] write req value memcpy fail @btsrv_gatt_server.c(1062),ERROR" ID="0xd81a2132" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts write req event conn_node is NULL @btsrv_gatt_server.c(1068),ERROR" ID="0xd81a2162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] GATT server has already been initialized. @btsrv_gatt_server.c(1083),INFO" ID="0xd81a21dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] GATT server has not been initialized. @btsrv_gatt_server.c(1092),INFO" ID="0xd81a2225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][ERROR] service_node num reached maximum: %d @btsrv_gatt_server.c(1104),ERROR" ID="0xd81a2282" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] service_uuid already exists @btsrv_gatt_server.c(1109),ERROR" ID="0xd81a22aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc service_node fail @btsrv_gatt_server.c(1114),ERROR" ID="0xd81a22d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] service_node uuid memcpy fail @btsrv_gatt_server.c(1124),ERROR" ID="0xd81a2322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] character memnew fail @btsrv_gatt_server.c(1138),ERROR" ID="0xd81a2392" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] character_node uuid memcpy fail @btsrv_gatt_server.c(1148),ERROR" ID="0xd81a23e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] character val memnew fail @btsrv_gatt_server.c(1156),ERROR" ID="0xd81a2422" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] character_node uuid memcpy fail @btsrv_gatt_server.c(1161),ERROR" ID="0xd81a244a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] character node not exist @btsrv_gatt_server.c(1176),ERROR" ID="0xd81a24c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] descriptor memnew fail @btsrv_gatt_server.c(1181),ERROR" ID="0xd81a24ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] descriptor uuid memcpy fail @btsrv_gatt_server.c(1190),ERROR" ID="0xd81a2532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] descriptor val memnew fail @btsrv_gatt_server.c(1198),ERROR" ID="0xd81a2572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] descriptor val memcpy fail @btsrv_gatt_server.c(1204),ERROR" ID="0xd81a25a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to register bcore callback. @btsrv_gatt_server.c(1229),ERROR" ID="0xd81a266a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1238),ERROR" ID="0xd81a26b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to register a server. @btsrv_gatt_server.c(1243),ERROR" ID="0xd81a26da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add server node. @btsrv_gatt_server.c(1248),ERROR" ID="0xd81a2702" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1260),ERROR" ID="0xd81a2762" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid server_id. @btsrv_gatt_server.c(1265),ERROR" ID="0xd81a278a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][INFO] unregister server %d success. @btsrv_gatt_server.c(1272),INFO" ID="0xd81a27c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1283),ERROR" ID="0xd81a281a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1289),ERROR" ID="0xd81a284a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add service node. @btsrv_gatt_server.c(1294),ERROR" ID="0xd81a2872" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] send msg fail @btsrv_gatt_server.c(1301),ERROR" ID="0xd81a28aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1313),ERROR" ID="0xd81a290a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1318),ERROR" ID="0xd81a2932" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add service node. @btsrv_gatt_server.c(1323),ERROR" ID="0xd81a295a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1337),ERROR" ID="0xd81a29ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1342),ERROR" ID="0xd81a29f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add character node. @btsrv_gatt_server.c(1347),ERROR" ID="0xd81a2a1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] send msg fail @btsrv_gatt_server.c(1355),ERROR" ID="0xd81a2a5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1368),ERROR" ID="0xd81a2ac2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1373),ERROR" ID="0xd81a2aea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1378),ERROR" ID="0xd81a2b12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add character node. @btsrv_gatt_server.c(1383),ERROR" ID="0xd81a2b3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1396),ERROR" ID="0xd81a2ba2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1401),ERROR" ID="0xd81a2bca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add descriptor node. @btsrv_gatt_server.c(1406),ERROR" ID="0xd81a2bf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] send msg fail @btsrv_gatt_server.c(1414),ERROR" ID="0xd81a2c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1428),ERROR" ID="0xd81a2ca2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1433),ERROR" ID="0xd81a2cca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1438),ERROR" ID="0xd81a2cf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] failed to add descriptor node. @btsrv_gatt_server.c(1443),ERROR" ID="0xd81a2d1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1456),ERROR" ID="0xd81a2d82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1462),ERROR" ID="0xd81a2db2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[btsrv][ERROR] invalid service service already started, server id %d hdl %d @btsrv_gatt_server.c(1468),ERROR" ID="0xd81a2de2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc start_service fail @btsrv_gatt_server.c(1474),ERROR" ID="0xd81a2e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts send response addr memcpy fail @btsrv_gatt_server.c(1479),ERROR" ID="0xd81a2e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1501),ERROR" ID="0xd81a2eea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] server_id not exist @btsrv_gatt_server.c(1506),ERROR" ID="0xd81a2f12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid service handle, or service not active yet. @btsrv_gatt_server.c(1512),ERROR" ID="0xd81a2f42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] long uuid memcpy fail @btsrv_gatt_server.c(1522),ERROR" ID="0xd81a2f92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] send msg fail @btsrv_gatt_server.c(1530),ERROR" ID="0xd81a2fd2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1542),ERROR" ID="0xd81a3032" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] server_id not exist @btsrv_gatt_server.c(1547),ERROR" ID="0xd81a305a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv][ERROR] service handle(%d) not exists, or service is still active (need to stop first). @btsrv_gatt_server.c(1553),ERROR" ID="0xd81a308a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] send msg fail @btsrv_gatt_server.c(1561),ERROR" ID="0xd81a30ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1571),ERROR" ID="0xd81a311a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1581),ERROR" ID="0xd81a316a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1593),ERROR" ID="0xd81a31ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts send response param new fail @btsrv_gatt_server.c(1599),ERROR" ID="0xd81a31fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts send response addr memcpy fail @btsrv_gatt_server.c(1608),ERROR" ID="0xd81a3242" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatts send response data memcpy fail @btsrv_gatt_server.c(1615),ERROR" ID="0xd81a327a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1633),ERROR" ID="0xd81a330a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1638),ERROR" ID="0xd81a3332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] malloc send notification param fail @btsrv_gatt_server.c(1649),ERROR" ID="0xd81a338a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] data memcpy fail @btsrv_gatt_server.c(1657),ERROR" ID="0xd81a33ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] enable ble first! @btsrv_gatt_server.c(1674),ERROR" ID="0xd81a3452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] invalid param @btsrv_gatt_server.c(1679),ERROR" ID="0xd81a347a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] param new fail @btsrv_gatt_server.c(1689),ERROR" ID="0xd81a34ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] sen ntf/ind by uuid memcpy fail @btsrv_gatt_server.c(1699),ERROR" ID="0xd81a351a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] sen ntf/ind by uuid memcpy fail @btsrv_gatt_server.c(1708),ERROR" ID="0xd81a3562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set mtu out of bounds use dft_val:23 set_val:%d. @btsrv_gatt_server.c(1724),WARNING" ID="0xd81a35e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] gatt server callback memcpy fail @btsrv_gatt_server.c(1737),ERROR" ID="0xd81a364a" />
+			</MSG_LOG>

@@ -1,0 +1,31 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_add_inst Failed, Error Code: [0x%08X] @dev_ai_rx.c(54),ERROR" ID="0x988e01b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rx_inst-&gt;enable = %d @dev_ai_rx.c(73),ERROR" ID="0x988e024a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(114),INFO" ID="0x988e0395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_init Failed, Error Code: [0x%08X] @dev_ai_rx.c(118),ERROR" ID="0x988e03b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(122),INFO" ID="0x988e03d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(128),INFO" ID="0x988e0405" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(132),INFO" ID="0x988e0425" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(138),INFO" ID="0x988e0455" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(146),INFO" ID="0x988e0495" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_port_get_pcm_attr Failed, Error Code: [0x%08X] @dev_ai_rx.c(159),ERROR" ID="0x988e04fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rx_inst-&gt;frame_size = %u @dev_ai_rx.c(169),ERROR" ID="0x988e054a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]rx_inst-&gt;port_frame_size = %u @dev_ai_rx.c(170),ERROR" ID="0x988e0552" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]WORK_BUF_SIZE = %u @dev_ai_rx.c(171),ERROR" ID="0x988e055a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_port_check_interleave Failed, Error Code: [0x%08X] @dev_ai_rx.c(178),ERROR" ID="0x988e0592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(191),INFO" ID="0x988e05fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(217),INFO" ID="0x988e06cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(237),INFO" ID="0x988e076d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_port_close Failed, Error Code: [0x%08X] @dev_ai_rx.c(246),ERROR" ID="0x988e07b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(252),INFO" ID="0x988e07e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(262),INFO" ID="0x988e0835" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_port_start Failed, Error Code: [0x%08X] @dev_ai_rx.c(267),ERROR" ID="0x988e085a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_port_stop Failed, Error Code: [0x%08X] @dev_ai_rx.c(273),ERROR" ID="0x988e088a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(280),INFO" ID="0x988e08c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(298),INFO" ID="0x988e0955" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call hal_ai_set_attr Failed, Error Code: [0x%08X] @dev_ai_rx.c(303),ERROR" ID="0x988e097a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(307),INFO" ID="0x988e099d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(367),INFO" ID="0x988e0b7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(370),INFO" ID="0x988e0b95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @dev_ai_rx.c(380),INFO" ID="0x988e0be5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @dev_ai_rx.c(382),INFO" ID="0x988e0bf5" />
+			</MSG_LOG>

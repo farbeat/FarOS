@@ -1,0 +1,40 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer parameter fail! @bt_at_cmd_api_brandy.c(36),ERROR" ID="0xd8820122" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer addr fail! @bt_at_cmd_api_brandy.c(41),ERROR" ID="0xd882014a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer param invaild! @bt_at_cmd_api_brandy.c(48),ERROR" ID="0xd8820182" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sec_param_set param invaild! @bt_at_cmd_api_brandy.c(63),ERROR" ID="0xd88201fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sec_param_set param invaild! @bt_at_cmd_api_brandy.c(67),ERROR" ID="0xd882021a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sec_param_set param invaild! @bt_at_cmd_api_brandy.c(80),ERROR" ID="0xd8820282" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sec_param_set param invaild! @bt_at_cmd_api_brandy.c(84),ERROR" ID="0xd88202a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_bondable_mode_set param invaild! @bt_at_cmd_api_brandy.c(98),ERROR" ID="0xd8820312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_bondable_mode_set param invaild! @bt_at_cmd_api_brandy.c(103),ERROR" ID="0xd882033a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_disconnect parameter fail! @bt_at_cmd_api_brandy.c(121),ERROR" ID="0xd88203ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_disconnect addr fail! @bt_at_cmd_api_brandy.c(126),ERROR" ID="0xd88203f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_disconnect param invaild! @bt_at_cmd_api_brandy.c(134),ERROR" ID="0xd8820432" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_bondable_mode_set param invaild! @bt_at_cmd_api_brandy.c(149),ERROR" ID="0xd88204aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_bondable_mode_set param invaild! @bt_at_cmd_api_brandy.c(154),ERROR" ID="0xd88204d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer parameter fail! @bt_at_cmd_api_brandy.c(168),ERROR" ID="0xd8820542" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer addr fail! @bt_at_cmd_api_brandy.c(173),ERROR" ID="0xd882056a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer param invaild! @bt_at_cmd_api_brandy.c(180),ERROR" ID="0xd88205a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_gap_io_set param error! @bt_at_cmd_api_brandy.c(195),INFO" ID="0xd882061d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_gap_io_set param invaild! @bt_at_cmd_api_brandy.c(199),INFO" ID="0xd882063d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pts gap set io cap, io_mode=0x%x, io_params[0]=0x%x. @bt_at_cmd_api_brandy.c(204),INFO" ID="0xd8820665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer parameter fail! @bt_at_cmd_api_brandy.c(213),ERROR" ID="0xd88206aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer addr fail! @bt_at_cmd_api_brandy.c(218),ERROR" ID="0xd88206d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_bt_default parameter fail! @bt_at_cmd_api_brandy.c(230),ERROR" ID="0xd8820732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_bt_default addr fail! @bt_at_cmd_api_brandy.c(234),ERROR" ID="0xd8820752" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_bt_default param invaild! @bt_at_cmd_api_brandy.c(239),ERROR" ID="0xd882077a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_secu_level parameter fail! @bt_at_cmd_api_brandy.c(251),ERROR" ID="0xd88207da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_secu_level param invaild! @bt_at_cmd_api_brandy.c(255),ERROR" ID="0xd88207fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_secu_level param invaild! @bt_at_cmd_api_brandy.c(259),ERROR" ID="0xd882081a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_set_secu_level param invaild! @bt_at_cmd_api_brandy.c(263),ERROR" ID="0xd882083a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="pts gap secure_level=%u, incoming_flag=%u, avctp_flag=%u. @bt_at_cmd_api_brandy.c(267),INFO" ID="0xd882085d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_encryptlink parameter fail! @bt_at_cmd_api_brandy.c(276),ERROR" ID="0xd88208a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_encryptlink addr fail! @bt_at_cmd_api_brandy.c(281),ERROR" ID="0xd88208ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer parameter fail! @bt_at_cmd_api_brandy.c(293),ERROR" ID="0xd882092a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] bredr_conn_peer addr fail! @bt_at_cmd_api_brandy.c(298),ERROR" ID="0xd8820952" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pbap_creat_obex_conn params error. needs 2 params! @bt_at_cmd_api_brandy.c(312),ERROR" ID="0xd88209c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pbap_creat_obex_conn addr fail! @bt_at_cmd_api_brandy.c(316),ERROR" ID="0xd88209e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pbap_creat_obex_conn param invaild! @bt_at_cmd_api_brandy.c(320),ERROR" ID="0xd8820a02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pbap_stop_obex_conn parameter fail! @bt_at_cmd_api_brandy.c(334),ERROR" ID="0xd8820a72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] pbap_stop_obex_conn addr fail! @bt_at_cmd_api_brandy.c(340),ERROR" ID="0xd8820aa2" />
+			</MSG_LOG>

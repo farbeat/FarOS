@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="path memcpy failed @stack_pbap_if.c(56),ERROR" ID="0xd8e801c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param memcpy failed @stack_pbap_if.c(62),ERROR" ID="0xd8e801f2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="conn_hdl=0x%x path_len=%u path=%s @stack_pbap_if.c(67),INFO" ID="0xd8e8021d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="max_count=%hu @stack_pbap_if.c(68),INFO" ID="0xd8e80225" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path memcpy failed @stack_pbap_if.c(86),ERROR" ID="0xd8e802b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param memcpy failed @stack_pbap_if.c(92),ERROR" ID="0xd8e802e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="search_value memcpy failed @stack_pbap_if.c(98),ERROR" ID="0xd8e80312" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="path=%s path_len=%u search_attrib=0x%x search_val=%s @stack_pbap_if.c(105),INFO" ID="0xd8e8034d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path memcpy failed @stack_pbap_if.c(119),ERROR" ID="0xd8e803ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="param memcpy failed @stack_pbap_if.c(125),ERROR" ID="0xd8e803ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="path=%s path_len=%u @stack_pbap_if.c(130),INFO" ID="0xd8e80415" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="path memcpy failed @stack_pbap_if.c(145),ERROR" ID="0xd8e8048a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="path=%s path_len=%u @stack_pbap_if.c(149),INFO" ID="0xd8e804ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: btsdk_pbap_reg_cbk error @stack_pbap_if.c(195),ERROR" ID="0xd8e8061a" />
+			</MSG_LOG>

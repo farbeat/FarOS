@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GAP][create_handle] memcpy failed @gap_hlp_comm.c(260),ERROR" ID="0x8b8e0822" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP] acl_link cbk link_type:%d job:%d @gap_hlp_comm.c(444),ERROR" ID="0x8b8e0de2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP][acl]job:%d link is NULL @gap_hlp_comm.c(464),ERROR" ID="0x8b8e0e82" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[GAP][ACL_EVENT_CALLBACK] JOB=%u, LINK_TYPE=%u, ACL_LINK_HANDLE=0x%x, REMOTE_ADDR=%02x:%02x:**:**:**:%02x @gap_hlp_comm.c(482),INFO" ID="0x8b8e0f15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_comm.c(892),ERROR" ID="0x8b8e1be2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gaph_hci_command_cbk, operation=%x, code:%x @gap_hlp_comm.c(986),INFO" ID="0x8b8e1ed5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP][MEMCPY_FAILED]CreateContext memcpy fail,ret=%d @gap_hlp_comm.c(1053),INFO" ID="0x8b8e20ed" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GAP][LINK_ALREADY_EXISTS] REMOTE_ADDR=%02x:%02x:**:**:**:%02x @gap_hlp_comm.c(1091),INFO" ID="0x8b8e221d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_comm.c(1847),ERROR" ID="0x8b8e39ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]memcpy failed @gap_hlp_comm.c(1867),ERROR" ID="0x8b8e3a5a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GAP][LOCAL_DISC_REQ] REMOTE_ADDR=%02x:%02x:**:**:**:%02x, can't find acl link @gap_hlp_comm.c(2016),INFO" ID="0x8b8e3f05" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GAP][LOCAL_DISC_REQ] REMOTE_ADDR=%02x:%02x:**:**:**:%02x, can't find acl link @gap_hlp_comm.c(2046),INFO" ID="0x8b8e3ff5" />
+			</MSG_LOG>

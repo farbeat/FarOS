@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_strain_env.evt != evt @ld_strain.c(92),ERROR" ID="0x88bc02e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]ld_strain_env.evt != evt @ld_strain.c(144),ERROR" ID="0x88bc0482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]((struct ld_strain_evt_params*) &amp;evt-&gt;env)-&gt;state = %d @ld_strain.c(151),ERROR" ID="0x88bc04ba" />
+			</MSG_LOG>

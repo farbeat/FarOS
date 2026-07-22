@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llc_cte_req_failed_event_send:host filtered LE 0x17 SUBEVT @llc_ram.c(72),WARNING" ID="0x8a100243" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[AOA]tx_idx=%d, cte_type=%d, cte_len=%d @llc_ram.c(207),INFO" ID="0x8a10067d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][AOA]:ant_id_num=%d, slot_duration=%d @llc_ram.c(232),INFO" ID="0x8a100745" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="rx_freq=%d,rx_phy=%d,expected_cte_len=%d,expected_cte_type=%d @llc_ram.c(249),INFO" ID="0x8a1007cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="slot_duration=%d,switch_pattern_len=%d,switch_pattern[0]=%d,switch_pattern[1]=%d @llc_ram.c(252),INFO" ID="0x8a1007e5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[AoA]:conhdl=%d,tx_desc_idx=%d @llc_ram.c(322),WARNING" ID="0x8a100a13" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][TEST]:config fail @llc_ram.c(357),WARNING" ID="0x8a100b2b" />
+			</MSG_LOG>

@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="width and height can not set 0 @ui_roller_view.cpp(146),ERROR" ID="0xcb4a0492" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="RollerItemInfo is nullptr! @ui_roller_view.cpp(193),ERROR" ID="0xcb4a060a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Already add an item with the same name. Remove it before adding this. @ui_roller_view.cpp(237),ERROR" ID="0xcb4a076a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="name is empty! @ui_roller_view.cpp(280),ERROR" ID="0xcb4a08c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Should remove an item in DISPLAY mode @ui_roller_view.cpp(285),ERROR" ID="0xcb4a08ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="RollerItemInfo is null! @ui_roller_view.cpp(466),ERROR" ID="0xcb4a0e92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Cannot set align item when mode is about to change. @ui_roller_view.cpp(535),ERROR" ID="0xcb4a10ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Should SetCurrentItem in DISPLAY mode. @ui_roller_view.cpp(539),ERROR" ID="0xcb4a10da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Cannot find an item with name: %s @ui_roller_view.cpp(554),ERROR" ID="0xcb4a1152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Cannot set mode when AlignAnim is running @ui_roller_view.cpp(649),ERROR" ID="0xcb4a144a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mode is already set. @ui_roller_view.cpp(654),ERROR" ID="0xcb4a1472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Cannot Set mode during transition or cannot set TRANSITION mode. @ui_roller_view.cpp(659),ERROR" ID="0xcb4a149a" />
+			</MSG_LOG>

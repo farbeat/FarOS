@@ -1,0 +1,25 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]query bt log status @btlog.c(133),INFO" ID="0x88e2042d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]global log is on @btlog.c(135),INFO" ID="0x88e2043d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]global log is off @btlog.c(137),INFO" ID="0x88e2044d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]lmp rx log is on @btlog.c(141),INFO" ID="0x88e2046d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]lmp rx log is off @btlog.c(143),INFO" ID="0x88e2047d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]lmp tx log is on @btlog.c(147),INFO" ID="0x88e2049d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BT_LOG]lmp tx log is off @btlog.c(149),INFO" ID="0x88e204ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]bt message log level:%d @btlog.c(152),INFO" ID="0x88e204c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]get state log level:%d @btlog.c(153),INFO" ID="0x88e204cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]set state log level:%d @btlog.c(154),INFO" ID="0x88e204d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]save state log level:%d @btlog.c(155),INFO" ID="0x88e204dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]bt log level:%d @btlog.c(156),INFO" ID="0x88e204e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]ble log level:%d @btlog.c(157),INFO" ID="0x88e204ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]acl log level:%d @btlog.c(158),INFO" ID="0x88e204f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]bt co-exist log level:%d @btlog.c(159),INFO" ID="0x88e204fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]sco log level:%d @btlog.c(160),INFO" ID="0x88e20505" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]wbs log level:%d @btlog.c(161),INFO" ID="0x88e2050d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]role switch log level:%d @btlog.c(162),INFO" ID="0x88e20515" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]sniff log level:%d @btlog.c(163),INFO" ID="0x88e2051d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]irq log level:%d @btlog.c(164),INFO" ID="0x88e20525" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]raw data log level:%d @btlog.c(165),INFO" ID="0x88e2052d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]sleep log level:%d @btlog.c(166),INFO" ID="0x88e20535" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]channel scan log level:%d @btlog.c(167),INFO" ID="0x88e2053d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT_LOG]EA log level:%d @btlog.c(168),INFO" ID="0x88e20545" />
+			</MSG_LOG>

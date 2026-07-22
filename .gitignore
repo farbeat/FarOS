@@ -1,0 +1,17 @@
+.deveco/**
+.vscode/**
+test/**
+tools/**
+
+# application/**
+# bootloader/**
+# build/**
+# drivers/**
+# include/**
+# interim_binary/**
+kernel/**
+middleware/**
+open_source/**
+output/**
+protocol/**
+vendor/**

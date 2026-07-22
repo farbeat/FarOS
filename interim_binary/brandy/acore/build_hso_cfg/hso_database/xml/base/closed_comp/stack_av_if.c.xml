@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_av_if.c(67),ERROR" ID="0xd8dc021a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_av_if.c(123),ERROR" ID="0xd8dc03da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy_s fail. @stack_av_if.c(142),ERROR" ID="0xd8dc0472" />
+			<MSG STRUCTURE="diag_log_msg2" NAME=" a2dp rpt stream state %x src %x  @stack_av_if.c(189),INFO" ID="0xd8dc05ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME=" a2dp rpt stream config src %x  @stack_av_if.c(205),INFO" ID="0xd8dc066d" />
+			</MSG_LOG>

@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="parameter is NULL. @lv_canvas_ext.c(103),ERROR" ID="0xc960033a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AllocBuffer failed. @lv_canvas_ext.c(124),ERROR" ID="0xc96003e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd or data is nullptr. @lv_canvas_ext.c(377),ERROR" ID="0xc9600bca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AllocBuffer failed. @lv_canvas_ext.c(392),ERROR" ID="0xc9600c42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AllocBuffer failed. @lv_canvas_ext.c(401),ERROR" ID="0xc9600c8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AllocBuffer for path data failed. @lv_canvas_ext.c(417),ERROR" ID="0xc9600d0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AllocBuffer for path data failed. @lv_canvas_ext.c(428),ERROR" ID="0xc9600d62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Cannot find the path. @lv_canvas_ext.c(467),ERROR" ID="0xc9600e9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Update Path Data failed. @lv_canvas_ext.c(471),ERROR" ID="0xc9600eba" />
+			</MSG_LOG>

@@ -1,0 +1,10 @@
+{
+    "OUT_BIN_DIR" : "output/brandy/nv_bin",
+    "OUT_BIN_NAME" : "brandy_all_nv.bin",
+    "BUILD_TEMP_PATH" : "output/brandy",
+
+    "NV_TARGET_JSON_PATH" : "middleware/chips/brandy/nv/nv_config/cfg/nv_target.json",
+    "NV_RELATIVE_PATH" : "output/brandy/nv_bin/temp",
+    "NV_DEFAULT_CFG_DIR" : "middleware/chips/brandy/nv/nv_config/cfg/user",
+    "DATABASE_TXT_FILE" : "output/brandy/nv_bin"
+}

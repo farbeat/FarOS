@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[WARNING] llcp_channel_map_req_handler , INSTANT_REJECT, state=%d, mode=%d @patch_llc_llcp.c(42),WARNING" ID="0x8a520153" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING] llcp_channel_map_req_handler, INSTANT_COLLISION, map_instant_action %d instant_action %d @patch_llc_llcp.c(49),WARNING" ID="0x8a52018b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llcp_channel_map_req_handler, instant=%d, counter=%d, remote_device_id=%d @patch_llc_llcp.c(59),WARNING" ID="0x8a5201db" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING] llcp_channel_map_req_handler, INSTANT_PASSED, instant=%d, counter=%d @patch_llc_llcp.c(67),WARNING" ID="0x8a52021b" />
+			</MSG_LOG>

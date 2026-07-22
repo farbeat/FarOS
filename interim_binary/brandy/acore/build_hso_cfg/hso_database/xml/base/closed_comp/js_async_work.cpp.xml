@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="JsAsyncWork:DispatchAsyncWork parameters invalid or fatal error! @js_async_work.cpp(64),ERROR" ID="0xe04e0202" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JsAsyncWork:DispatchAsyncWork create async work failed! @js_async_work.cpp(85),ERROR" ID="0xe04e02aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="JsAsyncWork:DispatchAsyncWork failed!, handler[%{private}p] @js_async_work.cpp(95),ERROR" ID="0xe04e02fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="JsAsyncWork:ExecuteAsyncWork parameters invalid! @js_async_work.cpp(106),ERROR" ID="0xe04e0352" />
+			</MSG_LOG>

@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[L2CAP][SIGNAL_SEND]HANDLE=0x%x, CODE=0x%x, IDENTIFIER=%d, LENGTH=%d @l2cap_data_proc.c(126),INFO" ID="0x8bc403f5" />
+			</MSG_LOG>

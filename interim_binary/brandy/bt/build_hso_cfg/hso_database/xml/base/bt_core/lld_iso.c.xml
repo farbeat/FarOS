@@ -1,0 +1,30 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][ICO]lld_ico_channel_create:elt = NULL @lld_iso.c(422),WARNING" ID="0x88560d33" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD][ICO]lld_ico_channel_create:conhdl=%d, mode=%d, intv=%d @lld_iso.c(451),INFO" ID="0x88560e1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LLD][ICO]lld_find_another_acl_conhdl:conhdl=%d @lld_iso.c(605),ERROR" ID="0x885612ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLD][ICO]lld_find_another_acl_conhdl:not save conhdl=%d @lld_iso.c(627),WARNING" ID="0x8856139b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD][ICO]lld_check_only_one_acl_offset:ico_offset=%d,acl_offset=%d,bandwidth_ico=%d @lld_iso.c(653),INFO" ID="0x8856146d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLD][ICO]lld_check_only_one_acl_offset:new_ico_offset=%d,conflict=%d @lld_iso.c(675),INFO" ID="0x8856151d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD][ICO]lld_check_two_acl_offset:acl_offset_min=%d,acl_offset_max=%d,ico_offset=%d @lld_iso.c(705),INFO" ID="0x8856160d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]offset min close to offset max:ico_offset=%d @lld_iso.c(787),INFO" ID="0x8856189d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ico_offset can ensure one time:ico_offset=%d @lld_iso.c(791),INFO" ID="0x885618bd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD][ICO]lld_ico_acl_offset_conflict_check:ico_offset=%d,new_ico_offset=%d,another_acl_conhdl=%d @lld_iso.c(801),INFO" ID="0x8856190d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_ico_acl_offset_multiple_check:ico_evt-&gt;interval is 0 @lld_iso.c(814),ERROR" ID="0x88561972" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ico_offset=%d @lld_iso.c(827),INFO" ID="0x885619dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLD][ICO]lld_ico_get_first_ch_offset:offset=%d,interval=%d,evt_interval=%d @lld_iso.c(903),INFO" ID="0x88561c3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ICO] get offset fail offset=%d @lld_iso.c(905),ERROR" ID="0x88561c4a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO] lld_ico_set_rx_csccmpktcnt, RX software flush, rxminpldcnt:%d, rxccmpktcnt:%d, evt_counter:%d @lld_iso.c(993),INFO" ID="0x88561f0d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]lld_IcoSetTxCsccmpktcnt, TX software flush, txminpldcnt:%d, txccmpktcnt:%d, evt_counter:%d @lld_iso.c(1025),INFO" ID="0x8856200d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO] tx_max_pldnum=%d, txccmpktcnt=%d, evt_counter=%d @lld_iso.c(1168),INFO" ID="0x88562485" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO] rx_max_pldcnt=%d, rxccmpktcnt=%d, evt_counter=%d @lld_iso.c(1200),ERROR" ID="0x88562582" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AUTORATE] lld_ico_master_phy_update: ico_conhdl=0x%x, llcp tx no confirm @lld_iso.c(1275),WARNING" ID="0x885627db" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[AUTORATE]lld_ico_cs_phy_setf:conhdl=0x%x,txphy=0x%x,rxphy=0x%x,nse=%d @lld_iso.c(1370),INFO" ID="0x88562ad5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ISO] Mode Error! evt-&gt;mod = %d @lld_iso.c(1488),ERROR" ID="0x88562e82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="error ico_conhdl=%d @lld_iso.c(1660),ERROR" ID="0x885633e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ico_chnl is NULL @lld_iso.c(1665),ERROR" ID="0x8856340a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]ico phone get packet buf @lld_iso.c(1699),ERROR" ID="0x8856351a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO]set_alarm_ts:%d, current time=%d @lld_iso.c(1726),INFO" ID="0x885635f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]lld_ico_voice_path_start packet_buf != NULL @lld_iso.c(1747),ERROR" ID="0x8856369a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ICO]unknown coding format(%d)! @lld_iso.c(1770),ERROR" ID="0x88563752" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="enter channel stop @lld_iso.c(1834),INFO" ID="0x88563955" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="enter channel stop @lld_iso.c(1851),INFO" ID="0x885639dd" />
+			</MSG_LOG>

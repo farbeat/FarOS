@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Can not add view other than UIImageView or UITransfromGroup. @ui_waterfall_list.cpp(55),ERROR" ID="0xcb3c01ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="insertView is nullptr! @ui_waterfall_list.cpp(74),ERROR" ID="0xcb3c0252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Can not insert view other than UIImageView or UITransfromGroup. @ui_waterfall_list.cpp(87),ERROR" ID="0xcb3c02ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="scale value %f is invalid @ui_waterfall_list.cpp(271),ERROR" ID="0xcb3c087a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="parameter is not valid, distance_:%u size:%d @ui_waterfall_list.cpp(430),ERROR" ID="0xcb3c0d72" />
+			</MSG_LOG>

@@ -1,0 +1,38 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LD][CHNLSCAN]dft_para=0x%x, dft_para_m=%d, dft_para_k=%d, dft_para_rssi_rpt_mode=%d @ld_chnlscan.c(195),INFO" ID="0x88b8061d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_em_init:nbchgood=%d @ld_chnlscan.c(354),INFO" ID="0x88b80b15" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_end @ld_chnlscan.c(378),INFO" ID="0x88b80bd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_report:tog=%d @ld_chnlscan.c(392),INFO" ID="0x88b80c45" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LD][CHNLSCAN]ld_chnlscan_evt_canceled_cbk:ld_chnlscan_env.evt != evt @ld_chnlscan.c(413),WARNING" ID="0x88b80ceb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_evt_canceled_cbk @ld_chnlscan.c(417),INFO" ID="0x88b80d0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD][CHNLSCAN]ld_chnlscan_evt_canceled_cbk:state = %d @ld_chnlscan.c(426),WARNING" ID="0x88b80d53" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_evt_canceled_cbk:ea_elt_insert reschedule again @ld_chnlscan.c(455),INFO" ID="0x88b80e3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_evt_canceled_cbk:ea_elt_insert again ok @ld_chnlscan.c(466),INFO" ID="0x88b80e95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD][CHNLSCAN]ld_chnlscan_evt_canceled_cbk:evt is null @ld_chnlscan.c(470),ERROR" ID="0x88b80eb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_sched:ea_elt_insert success @ld_chnlscan.c(515),INFO" ID="0x88b8101d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD][CHNLSCAN]ld_chnlscan_sched:ea_elt_insert fail @ld_chnlscan.c(520),ERROR" ID="0x88b81042" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_frm_isr:ld_chnlscan_end @ld_chnlscan.c(542),INFO" ID="0x88b810f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_frm_isr:ld_chnlscan_env.evt is NULL @ld_chnlscan.c(549),INFO" ID="0x88b8112d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_prog:max_win_len=%d @ld_chnlscan.c(604),INFO" ID="0x88b812e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD][CHNLSCAN]ld_chnlscan_env.evt != evt @ld_chnlscan.c(615),ERROR" ID="0x88b8133a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_evt_start_cbk @ld_chnlscan.c(620),INFO" ID="0x88b81365" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_evt_start_cbk:evt-&gt;timestamp=%d, chnl_scan_end_ts=%d @ld_chnlscan.c(638),INFO" ID="0x88b813f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_init @ld_chnlscan.c(714),INFO" ID="0x88b81655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_reset @ld_chnlscan.c(744),INFO" ID="0x88b81745" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_map_config:nbgood=%d @ld_chnlscan.c(811),INFO" ID="0x88b8195d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_start @ld_chnlscan.c(822),INFO" ID="0x88b819b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ld_chnlscan_start: %d @ld_chnlscan.c(831),INFO" ID="0x88b819fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD][CHNLSCAN]ld_chnlscan_start:ld_chnlscan_env.evt is null @ld_chnlscan.c(864),ERROR" ID="0x88b81b02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_stop:ld_chnlscan_end @ld_chnlscan.c(887),INFO" ID="0x88b81bbd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_stop:set abort bit in CS @ld_chnlscan.c(901),INFO" ID="0x88b81c2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][CHNLSCAN]ld_chnlscan_stop:chnlscan abort fail @ld_chnlscan.c(916),WARNING" ID="0x88b81ca3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LD][CHNLSCAN]ld_chnlscan_stop:state=%d @ld_chnlscan.c(924),WARNING" ID="0x88b81ce3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LD][CHNLSCAN]ld_chnlscan_map_mask_check:mask gap freq=%d @ld_chnlscan.c(1014),INFO" ID="0x88b81fb5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHNLSCAN]ld_chnlscan_map_mask_check: freq:%d, interference_count&gt;:%d @ld_chnlscan.c(1035),INFO" ID="0x88b8205d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CHNLSCAN]ld_chnlscan_map_mask_check:mask channel %d @ld_chnlscan.c(1042),INFO" ID="0x88b82095" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CHNLSCAN]ld_chnlscan_acc_save: freq=%d, rssi=%d, ma=%d @ld_chnlscan.c(1235),INFO" ID="0x88b8269d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CHNLSCAN]ld_chnlscan_acc_save: freq=%d, strong=%d, medium=%d, weak=%d @ld_chnlscan.c(1238),INFO" ID="0x88b826b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][CHNLSCAN]ld_chnlscan_interference_sort: start(%d) or end(%d) &gt; CHANNEL_MAX @ld_chnlscan.c(1270),ERROR" ID="0x88b827b2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHNLSCAN]ch%d: moving_avg=%d @ld_chnlscan.c(1331),INFO" ID="0x88b8299d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][LD][CHNLSCAN]ld_chnlscan_data_report:chnlrssi_ptr is null @ld_chnlscan.c(1420),ERROR" ID="0x88b82c62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][LD][CHNLSCAN]ld_chnlscan_data_report: freq(%d) @ld_chnlscan.c(1454),ERROR" ID="0x88b82d72" />
+			</MSG_LOG>

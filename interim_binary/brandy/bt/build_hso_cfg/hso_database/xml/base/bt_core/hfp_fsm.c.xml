@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[HFP][hfpc_rfcomm_connect_complete] enter @hfp_fsm.c(170),INFO" ID="0x8be20555" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HFP][hfpc_rfcomm_connect_complete] REMOTE_BD=%02x:%02x:*:*:*:%02x, connection_number=%d @hfp_fsm.c(190),INFO" ID="0x8be205f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HFP][RFCOMM_DISC_COMPLETE] CONN_HANDLE=0x%x, REMOTE_BD=%02x:%02x:*:*:*:%02x @hfp_fsm.c(225),INFO" ID="0x8be2070d" />
+			</MSG_LOG>

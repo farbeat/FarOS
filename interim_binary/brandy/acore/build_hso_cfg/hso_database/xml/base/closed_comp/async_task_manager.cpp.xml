@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="AsyncTaskManager::Dispatch failed: handler is null. @async_task_manager.cpp(120),ERROR" ID="0xe05803c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AsyncTaskManager::Dispatch failed: Fatal error is hitted. @async_task_manager.cpp(124),ERROR" ID="0xe05803e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AsyncTaskManager::Dispatch failed: out of memory. @async_task_manager.cpp(130),ERROR" ID="0xe0580412" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AsyncTaskManager::Cancel failed: invalid task ID. @async_task_manager.cpp(154),ERROR" ID="0xe05804d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AsyncTaskManager::CancelWithContext failed: null context. @async_task_manager.cpp(183),ERROR" ID="0xe05805ba" />
+			</MSG_LOG>

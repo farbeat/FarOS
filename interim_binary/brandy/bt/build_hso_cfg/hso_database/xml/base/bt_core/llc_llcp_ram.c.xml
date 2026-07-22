@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_unknown_rsp_handler_ram:loc_proc_state=%d, unk_type=%d @llc_llcp_ram.c(324),INFO" ID="0x89660a25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_llcp_reject_ind:llc_env_ptr=NULL @llc_llcp_ram.c(430),ERROR" ID="0x89660d72" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_llcp_reject_ind:loc_proc_state=%d, err_code=0x%x, extended=%d @llc_llcp_ram.c(438),INFO" ID="0x89660db5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLD] Start channel classification timer. @llc_llcp_ram.c(490),INFO" ID="0x89660f55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CTE]llcp_cte_req_handler: LLCP_CTE_REQ Received! But current version software DO NOT support this feature. @llc_llcp_ram.c(636),ERROR" ID="0x896613e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][CTE]llcp_cte_rsp_handler: LLCP_SUPP_RSP Received! But current version software DO NOT support this feature. @llc_llcp_ram.c(700),ERROR" ID="0x896615e2" />
+			</MSG_LOG>

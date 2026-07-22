@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]type = %u @core_overlay_main.c(141),ERROR" ID="0x9802046a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]overlay_id = %u @core_overlay_main.c(142),ERROR" ID="0x98020472" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call snprintf_s Failed, Error Code: [0x%08X] @core_overlay_main.c(192),ERROR" ID="0x98020602" />
+			</MSG_LOG>

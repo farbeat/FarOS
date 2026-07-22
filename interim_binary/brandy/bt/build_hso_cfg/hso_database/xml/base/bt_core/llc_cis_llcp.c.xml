@@ -1,0 +1,28 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="llc_llcp_cis_req_pdu_send cis_param is equal to NULL @llc_cis_llcp.c(116),WARNING" ID="0x89d803a3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_llcp_cis_req_pdu_send: sdu_intv_m2s=%d, sdu_intv_s2m=%d, ts=0x%x @llc_cis_llcp.c(151),INFO" ID="0x89d804bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_llcp_cis_req_pdu_send: cig_id=%d, cis_id=%d, nse=%d, arrangement=%d @llc_cis_llcp.c(169),INFO" ID="0x89d8054d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_llcp_cis_req_pdu_send: ftm2s=%d, fts2m=%d, intv=%d, framing=%d @llc_cis_llcp.c(171),INFO" ID="0x89d8055d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_llcp_cis_req_pdu_send: pdum2s=%d, pdus2m=%d, sdum2s=%d, sdus2m=%d @llc_cis_llcp.c(173),INFO" ID="0x89d8056d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llc_llcp_cis_req_pdu_send: bnm2s=%d, bns2m=%d, phym2s=%d, phys2m=%d @llc_cis_llcp.c(175),INFO" ID="0x89d8057d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_llcp_cis_req_pdu_send: offset_min=%d, offset_max=%d, instant=%d @llc_cis_llcp.c(177),INFO" ID="0x89d8058d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_llcp_cis_req_pdu_send: cis_conhdl = %d, acl_conhdl=%d, cis_instant=%d @llc_cis_llcp.c(179),WARNING" ID="0x89d8059b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO] mic_failure @llc_cis_llcp.c(187),ERROR" ID="0x89d805da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llm_util_check_evt_mask(LE_CIS_REQUEST_EVT_BIT):%d @llc_cis_llcp.c(202),INFO" ID="0x89d80655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]env create failed @llc_cis_llcp.c(230),ERROR" ID="0x89d80732" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ICO] Cohdl exist, conhdl=%d, llc_env=0x%x @llc_cis_llcp.c(237),ERROR" ID="0x89d8076a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_req_handler, cis_param-&gt;instant=%d @llc_cis_llcp.c(249),WARNING" ID="0x89d807cb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_llcp_cis_rsp_pdu_send: NULL pointer cis hdl: %d @llc_cis_llcp.c(280),INFO" ID="0x89d808c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_rsp_pdu_send, ch_offset_min=%d @llc_cis_llcp.c(304),INFO" ID="0x89d80985" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_rsp_pdu_send, cis_param-&gt;instant=%d @llc_cis_llcp.c(305),INFO" ID="0x89d8098d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_llcp_cis_rsp_pdu_send cis_param is equal to NULL @llc_cis_llcp.c(308),WARNING" ID="0x89d809a3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_rsp_handler, state=%d , ERROR @llc_cis_llcp.c(328),ERROR" ID="0x89d80a42" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CIS]llcp_cis_rsp_handler evt_count_ref %d ch_offset_max %d ch_offset_min %d interval %d @llc_cis_llcp.c(341),INFO" ID="0x89d80aad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llcp_cis_rsp_handler, instant=%d @llc_cis_llcp.c(343),INFO" ID="0x89d80abd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]llc_llcp_cis_ind_send aa=0x%x%x%x%x @llc_cis_llcp.c(375),INFO" ID="0x89d80bbd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ICO]llc_llcp_cis_ind_send ch_offset %d cis_delay %d cig_delay %d evt_count_ref %d  @llc_cis_llcp.c(378),INFO" ID="0x89d80bd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_llcp_cis_ind_send cis_param is equal to NULL @llc_cis_llcp.c(382),WARNING" ID="0x89d80bf3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="llc_llcp_cis_terminate_ind_pdu_send cis_param is equal to NULL @llc_cis_llcp.c(442),WARNING" ID="0x89d80dd3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ICO]llc_acl_ptr or llc_cis_ptr is NULL! @llc_cis_llcp.c(464),WARNING" ID="0x89d80e83" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ICO]llcp_cis_terminate_ind_handler cig_id %d cis_id %d errcode %d @llc_cis_llcp.c(477),INFO" ID="0x89d80eed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="llc_llcp_reject_ind:%d @llc_cis_llcp.c(543),INFO" ID="0x89d810fd" />
+			</MSG_LOG>

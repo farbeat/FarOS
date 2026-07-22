@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn fail, device handle is invalid @bt_ahi_pan.c(34),ERROR" ID="0x8c9e0112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi conn fail, device is not connected @bt_ahi_pan.c(38),ERROR" ID="0x8c9e0132" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pan ahi conn done, conn_hdl=0x%x, result=0x%x @bt_ahi_pan.c(43),INFO" ID="0x8c9e015d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pan ahi disconn done, handle=0x%x, ret=0x%x @bt_ahi_pan.c(53),INFO" ID="0x8c9e01ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi filter prot memcpy fail @bt_ahi_pan.c(61),ERROR" ID="0x8c9e01ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi ethernet param length invalid @bt_ahi_pan.c(70),ERROR" ID="0x8c9e0232" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan ahi ethernet memcpy bd fail @bt_ahi_pan.c(75),ERROR" ID="0x8c9e025a" />
+			</MSG_LOG>

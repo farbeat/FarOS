@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="Can not add view other than UIImageView or UITransfromGroup. @ui_hexagons_list.cpp(73),ERROR" ID="0xcb36024a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="insertView is nullptr! @ui_hexagons_list.cpp(92),ERROR" ID="0xcb3602e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Can not insert view other than UIImageView or UITransfromGroup. @ui_hexagons_list.cpp(105),ERROR" ID="0xcb36034a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="don't support scale when rebound mode is normal @ui_hexagons_list.cpp(230),ERROR" ID="0xcb360732" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="scale value %f is invalid @ui_hexagons_list.cpp(235),ERROR" ID="0xcb36075a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Scale coefficient is same, don't scale and invalidate item. @ui_hexagons_list.cpp(495),DBG" ID="0xcb360f7e" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="parameter is not valid, distance_:%u size:%d @ui_hexagons_list.cpp(638),ERROR" ID="0xcb3613f2" />
+			</MSG_LOG>

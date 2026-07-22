@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="add faild, only support UI_TRANSFORM_GROUP @ui_sphere_view.cpp(68),ERROR" ID="0xca740222" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove faild, only support UI_TRANSFORM_GROUP @ui_sphere_view.cpp(78),ERROR" ID="0xca740272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="insert faild, only support UI_TRANSFORM_GROUP @ui_sphere_view.cpp(97),ERROR" ID="0xca74030a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="new extramsg faild @ui_sphere_view.cpp(154),ERROR" ID="0xca7404d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="new spherical surface info faild @ui_sphere_view.cpp(160),ERROR" ID="0xca740502" />
+			</MSG_LOG>

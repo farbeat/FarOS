@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="set_hci_log_status: [%d] @ble_conf.c(233),INFO" ID="0x8de8074d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set_le_resolution_enable:[%d] @ble_conf.c(240),INFO" ID="0x8de80785" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get_le_resolution_enable:[%d] @ble_conf.c(248),INFO" ID="0x8de807c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[MEM_TOTAL_USED_MAX][%d][MEM_TOTAL_USED][%d][MALLOC_TRACE][%d][FREE_TRACE][%d]  @ble_conf.c(278),INFO" ID="0x8de808b5" />
+			</MSG_LOG>

@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[HCI][SEND_ACL_DATA] SLOT=%u, LEN=%u, Remaining Packet NUM=%u, HANDLE=0x%x @hci_data_proc.c(146),INFO" ID="0x8bda0495" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]memcpy error @hci_data_proc.c(406),ERROR" ID="0x8bda0cb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]memcpy error @hci_data_proc.c(412),ERROR" ID="0x8bda0ce2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][RECV_ACL_DATA] CONN_HANDLE=0x%x, link not found @hci_data_proc.c(501),INFO" ID="0x8bda0fad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][H--&gt;C] OPCODE=0x%x, HANDLE=0x%x, LEN=%u @hci_data_proc.c(709),INFO" ID="0x8bda162d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] OPCODE=0x%x, OGF=0x%x, disc_reason=0x%x, LEN=%u @hci_data_proc.c(719),INFO" ID="0x8bda167d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] OPCODE=0x%x, OGF=0x%x, OCF=0x%x, LEN=%u @hci_data_proc.c(725),WARNING" ID="0x8bda16ab" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][H--&gt;C] OPCODE=0x%x, HANDLE=0x%x, LEN=%u @hci_data_proc.c(746),DBG" ID="0x8bda1756" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] OPCODE=0x%x, OGF=0x%x, OCF=0x%x, LEN=%u @hci_data_proc.c(751),DBG" ID="0x8bda177e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][H--&gt;C] LEN=%u @hci_data_proc.c(766),DBG" ID="0x8bda17f6" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] %02x %02x %02x %02x @hci_data_proc.c(772),DBG" ID="0x8bda1826" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][H--&gt;C] %02x %02x %02x @hci_data_proc.c(777),DBG" ID="0x8bda184e" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][H--&gt;C] %02x %02x @hci_data_proc.c(780),DBG" ID="0x8bda1866" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][H--&gt;C] %02x @hci_data_proc.c(782),DBG" ID="0x8bda1876" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[A2DP][HCI] a2dp_audio:first frame to btc, only for a2dp service. @hci_data_proc.c(801),INFO" ID="0x8bda190d" />
+			</MSG_LOG>

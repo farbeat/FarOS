@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general main conn cfm: psm:%d @sdk_general_l2cap_main.c(206),INFO" ID="0xd8720675" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] ble general: l2cap general main conn complete: cid %d rcid %d role %d. @sdk_general_l2cap_main.c(225),INFO" ID="0xd872070d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ACore] ble general: l2cap general main conn complete: addr:0x%02x:**:**:**:**:%02x atype %d cap %d. @sdk_general_l2cap_main.c(228),INFO" ID="0xd8720725" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: l2cap general main conn indication bth address copy fail. @sdk_general_l2cap_main.c(242),INFO" ID="0xd8720795" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble general: l2cap general main conn indication: psm %d cid %d. @sdk_general_l2cap_main.c(256),INFO" ID="0xd8720805" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general psm:%d not regist. @sdk_general_l2cap_main.c(268),INFO" ID="0xd8720865" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ACore] ble general: l2cap general channel req result: psm %d cid %d rcid %d result %d. @sdk_general_l2cap_main.c(282),INFO" ID="0xd87208d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: l2cap general channel disconnect: cid %d. @sdk_general_l2cap_main.c(293),INFO" ID="0xd872092d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ST L2cap]sdk_reg done! @sdk_general_l2cap_main.c(304),INFO" ID="0xd8720985" />
+			</MSG_LOG>

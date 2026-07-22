@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[LOW_POWER]des is error ,des:0x%x,%s,%d @hal_cpu_hifi.c(69),INFO" ID="0xa028022d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LOW_POWER]des is error ,des:0x%x,%s,%d @hal_cpu_hifi.c(85),INFO" ID="0xa02802ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LOW_POWER]img download size:0x%x is not 4 byte aligned, type:%d @hal_cpu_hifi.c(99),INFO" ID="0xa028031d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LOW_POWER]Memory process error @hal_cpu_hifi.c(112),INFO" ID="0xa0280385" />
+			</MSG_LOG>

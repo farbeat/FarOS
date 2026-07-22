@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="llcp_priv_uhd_req_handler_v1:state%d,llc_env_ptr-&gt;loc_proc_state%d @llc_uhd_llcp.c(102),INFO" ID="0x894e0335" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][PHY]llcp_priv_uhd_req_handler_v1:txphys=%d,rxphys=%d @llc_uhd_llcp.c(106),INFO" ID="0x894e0355" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][PHY]llcp_priv_uhd_req_handler_v1:tx_uhd_capability%d,rx_uhd_capability%d @llc_uhd_llcp.c(109),INFO" ID="0x894e036d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][PHY]llcp_priv_uhd_req_handler_v1:tx_polar%d,rx_polar%d @llc_uhd_llcp.c(112),INFO" ID="0x894e0385" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_priv_uhd_req_handler_slave_v3:temp_conn_eff_max_rx_octets=%d,temp_conn_eff_max_tx_octets=%d @llc_uhd_llcp.c(216),INFO" ID="0x894e06c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_priv_uhd_req_handler_slave_v3:temp_conn_eff_max_rx_time=%d,temp_conn_eff_max_tx_time=%d @llc_uhd_llcp.c(219),INFO" ID="0x894e06dd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llcp_priv_uhd_req_handler_slave_v3:local_tx_octets=%d,local_tx_time=%d,local_rx_octets=%d,local_rx_time=%d @llc_uhd_llcp.c(225),INFO" ID="0x894e070d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_priv_uhd_rsp_length_handler:temp_conn_eff_max_rx_octets=%d,temp_conn_eff_max_tx_octets=%d @llc_uhd_llcp.c(297),INFO" ID="0x894e094d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_priv_uhd_rsp_length_handler:temp_conn_eff_max_rx_time=%d,temp_conn_eff_max_tx_time=%d @llc_uhd_llcp.c(300),INFO" ID="0x894e0965" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC]llcp_uhd_phy_up_instant_check:param-&gt;instant%d @llc_uhd_llcp.c(393),INFO" ID="0x894e0c4d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llcp_phy_up_instant_check:instant=%d,evt-&gt;counter=%d,txphy=%d,rxphy=%d @llc_uhd_llcp.c(398),INFO" ID="0x894e0c75" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llcp_phy_up_instant_normal_check:instant operation is already on-going @llc_uhd_llcp.c(437),WARNING" ID="0x894e0dab" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLC]llcp_phy_up_instant_normal_check:rem_proc_state=%d @llc_uhd_llcp.c(442),WARNING" ID="0x894e0dd3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC]llcp_uhd_up_no_change_check:uhd_phy_up_req_flag=%d @llc_uhd_llcp.c(521),INFO" ID="0x894e104d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llcp_phy_up_req_handler:llc_env_ptr is null @llc_uhd_llcp.c(547),INFO" ID="0x894e111d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_priv_uhd_update_handler:dummy=%d,opcode=%d @llc_uhd_llcp.c(591),INFO" ID="0x894e127d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLCP]llc_llcp_priv_uhd_req_pdu_send:param-&gt;tx_phys%d,param-&gt;tx_uhd_capability%d @llc_uhd_llcp.c(675),INFO" ID="0x894e151d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_llcp_priv_uhd_up_ind_pdu_send:tx_phys%d,tx_uhd_capability%d, tx_polar%d @llc_uhd_llcp.c(713),INFO" ID="0x894e164d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[LLC]uhd_up_ind:pdu.instant %d @llc_uhd_llcp.c(727),INFO" ID="0x894e16bd" />
+			</MSG_LOG>

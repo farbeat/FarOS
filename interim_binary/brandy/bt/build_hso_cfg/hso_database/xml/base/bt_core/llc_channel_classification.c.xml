@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="llc_chnl_cls_feats_process:conhdl:%d, dest_id:%d @llc_channel_classification.c(135),INFO" ID="0x89f4043d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CLS]map[0]:%d,map[1]:%d,map[2]:%d,map[3]:%d @llc_channel_classification.c(157),INFO" ID="0x89f404ed" />
+			</MSG_LOG>

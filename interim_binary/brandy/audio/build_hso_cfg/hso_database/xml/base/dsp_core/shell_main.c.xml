@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call strncpy_s Failed, Error Code: [0x%08X] @shell_main.c(190),ERROR" ID="0x98a605f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call strncpy_s Failed, Error Code: [0x%08X] @shell_main.c(228),ERROR" ID="0x98a60722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @shell_main.c(245),INFO" ID="0x98a607ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @shell_main.c(253),INFO" ID="0x98a607ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call strncpy_s Failed, Error Code: [0x%08X] @shell_main.c(306),ERROR" ID="0x98a60992" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call strncpy_s Failed, Error Code: [0x%08X] @shell_main.c(339),ERROR" ID="0x98a60a9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call strcpy_s Failed, Error Code: [0x%08X] @shell_main.c(440),ERROR" ID="0x98a60dc2" />
+			</MSG_LOG>

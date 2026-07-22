@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param] totalsize = %d @ke_mem.c(159),ERROR" ID="0x891c04fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]node = NULL @ke_mem.c(172),ERROR" ID="0x891c0562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]node-&gt;corrupt_check = %d @ke_mem.c(178),ERROR" ID="0x891c0592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]node = NULL @ke_mem.c(236),ERROR" ID="0x891c0762" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERROR][param]ke_malloc:node_addr = 0x%x, node_addr_val=0x%x, call is 0x%x @ke_mem.c(244),ERROR" ID="0x891c07a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]found-&gt;previous = NULL @ke_mem.c(298),ERROR" ID="0x891c0952" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ERROR][param]ke_free: error_id[%d],node(0x%x)freed(0x%x)LR(0x%x) @ke_mem.c(479),ERROR" ID="0x891c0efa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]ke_get_mem_usage:type = %d @ke_mem.c(502),ERROR" ID="0x891c0fb2" />
+			</MSG_LOG>

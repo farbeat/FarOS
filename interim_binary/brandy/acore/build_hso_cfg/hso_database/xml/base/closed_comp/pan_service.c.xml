@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] pan service: pan service net state=%d @pan_service.c(41),INFO" ID="0xd826014d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] pan service: pan service filter result ipv4_only=%d @pan_service.c(47),INFO" ID="0xd826017d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy fail @pan_service.c(76),ERROR" ID="0xd8260262" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pan service ipv4 only error ret: %x @pan_service.c(96),ERROR" ID="0xd8260302" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan disable device fail, addr is not present. @pan_service.c(104),ERROR" ID="0xd8260342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan disable device fail, dev_handl is not present. @pan_service.c(109),ERROR" ID="0xd826036a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan disable device fail, conn_handl is not present. @pan_service.c(114),ERROR" ID="0xd8260392" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan disable device fail, pan context memset error. @pan_service.c(118),ERROR" ID="0xd82603b2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="event: %x dev_hdl: %x conn_hdl: %x @pan_service.c(134),INFO" ID="0xd8260435" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id %x @pan_service.c(152),WARNING" ID="0xd82604c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service init memset error. @pan_service.c(161),ERROR" ID="0xd826050a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service connect error, bluetooth is disable. @pan_service.c(173),ERROR" ID="0xd826056a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service connect error, device handle is invalid. @pan_service.c(178),ERROR" ID="0xd8260592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service connect error, device is not connected. @pan_service.c(182),ERROR" ID="0xd82605b2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="pan btsdk_connect_ex error ret: %x, %x @pan_service.c(188),ERROR" ID="0xd82605e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service close error, no acl connect. @pan_service.c(200),ERROR" ID="0xd8260642" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service close error, bd addr is not active. @pan_service.c(205),ERROR" ID="0xd826066a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pan service close error ret: %x @pan_service.c(211),ERROR" ID="0xd826069a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pan service write data error, net is off. @pan_service.c(220),ERROR" ID="0xd82606e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pan service write data error ret: %x @pan_service.c(225),ERROR" ID="0xd826070a" />
+			</MSG_LOG>

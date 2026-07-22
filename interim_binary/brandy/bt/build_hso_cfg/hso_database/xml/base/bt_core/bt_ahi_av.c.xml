@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: start @bt_ahi_av.c(57),ERROR" ID="0x8c9e01ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: suspend @bt_ahi_av.c(73),ERROR" ID="0x8c9e024a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="a2dp_audio: set audio param stream_hdl 0x%x shmid 0x%x enable %d result 0x%x @bt_ahi_av.c(111),ERROR" ID="0x8c9e037a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="a2dp_audio: send stream qos flag %d @bt_ahi_av.c(123),ERROR" ID="0x8c9e03da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: first frame @bt_ahi_av.c(167),ERROR" ID="0x8c9e053a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="a2dp_audio: send stream packet too much %d @bt_ahi_av.c(203),ERROR" ID="0x8c9e065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: alloc buffer fail @bt_ahi_av.c(221),ERROR" ID="0x8c9e06ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="a2dp_audio: send stream error 0x%x enable %d sta %d @bt_ahi_av.c(234),ERROR" ID="0x8c9e0752" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="a2dp_audio: send stream seq %d enable %d sta %d @bt_ahi_av.c(243),ERROR" ID="0x8c9e079a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="a2dp_audio: acquire stream error 0x%x shmid 0x%x @bt_ahi_av.c(254),ERROR" ID="0x8c9e07f2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="a2dp_audio: acquire frame empty cnt %d eos %d size %d pkt_len %d @bt_ahi_av.c(265),ERROR" ID="0x8c9e084a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="a2dp_audio: play state enable %d sta %d @bt_ahi_av.c(270),ERROR" ID="0x8c9e0872" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="a2dp_audio: release stream error 0x%x @bt_ahi_av.c(278),ERROR" ID="0x8c9e08b2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="a2dp_audio: no stream. enable %d sta %d @bt_ahi_av.c(289),ERROR" ID="0x8c9e090a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: a2dp service audio task handler @bt_ahi_av.c(299),INFO" ID="0x8c9e095d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="a2dp_audio: start accept @bt_ahi_av.c(329),ERROR" ID="0x8c9e0a4a" />
+			</MSG_LOG>

@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="malloc system info failed @locale_util.cpp(70),ERROR" ID="0xe06c0232" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get system language info failed @locale_util.cpp(76),ERROR" ID="0xe06c0262" />
+			</MSG_LOG>

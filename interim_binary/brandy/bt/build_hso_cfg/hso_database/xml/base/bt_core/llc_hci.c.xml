@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO]host send disconnect command in the reason of 0x%x @llc_hci.c(913),INFO" ID="0x88321c8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][PHY]hci_le_set_phy_cmd_handler:llc is in disconnected state @llc_hci.c(1500),WARNING" ID="0x88322ee3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC][PHY]hci_le_set_phy_cmd_handler:current_txphy=%d, current_rxphy=%d, txphyoption=%d, rxphyoption=%d @llc_hci.c(1545),INFO" ID="0x8832304d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHR]handle %d action %d  @llc_hci.c(2463),INFO" ID="0x88324cfd" />
+			</MSG_LOG>

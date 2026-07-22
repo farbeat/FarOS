@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[INFO][CSB][LB]lb_csb_tx_end_ind_handler supervision timeout @lb_task.c(348),INFO" ID="0x888a0ae5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][CSB][LB]lb_csb_rx_end_ind_handler supervision timeout @lb_task.c(501),INFO" ID="0x888a0fad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][CSB][LB]hci_set_res_lt_addr_cmd_handler lt_addr= 0X%x, status = %d @lb_task.c(826),INFO" ID="0x888a19d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][CSB][LB]hci_del_res_lt_addr_cmd_handler lt_addr= 0X%x, status = %d @lb_task.c(856),INFO" ID="0x888a1ac5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][CSB][LB]hci_set_con_slv_bcst_cmd_handler lt_addr= 0X%x, enable = %d,  csb_supv_to = %d, lpo_allowed = %d @lb_task.c(873),INFO" ID="0x888a1b4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][CSB][LB]hci_set_con_slv_bcst_rec_cmd_handler enable = %d, csb_supv_to = %d @lb_task.c(976),INFO" ID="0x888a1e85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][CSB][LB]hci_set_con_slv_bcst_rec_cmd_handler status = %d @lb_task.c(1025),INFO" ID="0x888a200d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][CSB][LB]hci_set_con_slv_bcst_data_cmd_handler lt_addr = %d, fragment = %d @lb_task.c(1040),INFO" ID="0x888a2085" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][CSB][LB]hci_rd_sync_train_param_cmd_handler sync_train_int =%d, sync_train_to=%d, service_data=%d @lb_task.c(1121),INFO" ID="0x888a230d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][CSB][LB]sync_train_to int_min =%d, int_max=%d, sync_train_to=%d @lb_task.c(1141),INFO" ID="0x888a23ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][CSB][LB]hci_start_sync_train_cmd_handler csb_mode_enabled= %d @lb_task.c(1169),INFO" ID="0x888a248d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][CSB][LB]hci_rec_sync_train_cmd_handler sync_scan_to= %d, sync_scan_win=%d, sync_scan_int=%d @lb_task.c(1197),INFO" ID="0x888a256d" />
+			</MSG_LOG>

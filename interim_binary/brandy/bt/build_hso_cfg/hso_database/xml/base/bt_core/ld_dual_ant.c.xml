@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[DUAL_ANT]ld_dual_ant_statistic: link_id=0x%x, current_ant=%d, avg_rssi=%d, per=%d @ld_dual_ant.c(107),INFO" ID="0x8a04035d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DUAL_ANT]switch_check: per up to PER_THRESHOLD @ld_dual_ant.c(137),INFO" ID="0x8a04044d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DUAL_ANT]switch_check: switch exec timer TO! @ld_dual_ant.c(140),INFO" ID="0x8a040465" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DUAL_ANT]switch_back:last_avg_rssi=%d, last_per=%d, rx_total_pkt=%d, per_threshold=%d @ld_dual_ant.c(171),INFO" ID="0x8a04055d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[DUAL_ANT]switch_succ:last_avg_rssi=%d, last_per=%d, rx_total_pkt=%d, per_threshold=%d @ld_dual_ant.c(175),INFO" ID="0x8a04057d" />
+			</MSG_LOG>

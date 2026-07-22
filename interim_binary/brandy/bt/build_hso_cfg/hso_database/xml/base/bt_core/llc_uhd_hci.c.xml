@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[LLC]hci_dbg_le_priv_set_uhd_phy_status_handler conhdl%d,state:%d,status:%d,msg_status:%d @llc_uhd_hci.c(45),WARNING" ID="0x894c016b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[LLC]hci_dbg_le_priv_set_uhd_phy_status_handler @llc_uhd_hci.c(74),WARNING" ID="0x894c0253" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC][PHY]hci_le_set_phy_cmd_handler:llc is in disconnected state @llc_uhd_hci.c(88),WARNING" ID="0x894c02c3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[LLC][UHD]hci_dbg_le_priv_set_uhd_phy_cmd_handler:param-&gt;tx_phys%d,param-&gt;tx_uhd_capability%d @llc_uhd_hci.c(109),INFO" ID="0x894c036d" />
+			</MSG_LOG>

@@ -1,0 +1,22 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[SMP]PAIRING_REQ_RECV @smp_fsm.c(1091),INFO" ID="0x8c46221d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[SMP][smp_key_base_new]link-&gt;hcihdl = %u, remote = 0x%x, key = 0x%x @smp_fsm.c(1990),INFO" ID="0x8c463e35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP]smp_require_new_incoming @smp_fsm.c(2842),INFO" ID="0x8c4658d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP]smp_require_end reason = 0x%x @smp_fsm.c(3215),INFO" ID="0x8c46647d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP]smp_ev_encryption_failed @smp_fsm.c(3320),INFO" ID="0x8c4667c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP][LE_LTK_REQ] CONN_HANDLE=0x%x @smp_fsm.c(3536),INFO" ID="0x8c466e85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LE_LTK_REQ]not find link key @smp_fsm.c(3548),WARNING" ID="0x8c466ee3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LE_LTK_REQ]not find br addr @smp_fsm.c(3551),WARNING" ID="0x8c466efb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP][LongTermKeyRequest]key-&gt;fea = 0x%x @smp_fsm.c(3562),INFO" ID="0x8c466f55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest]key == NULL @smp_fsm.c(3566),INFO" ID="0x8c466f75" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[SMP][LongTermKeyRequest]link-&gt;hcihdl = %u, link-&gt;remote = 0x%x, key = 0x%x @smp_fsm.c(3594),INFO" ID="0x8c467055" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][No LESC LTK SEND] @smp_fsm.c(3607),INFO" ID="0x8c4670bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][DIV mismatch, Unpaired] @smp_fsm.c(3631),INFO" ID="0x8c46717d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][ECDH LTK unavailable, pair!=NULL] @smp_fsm.c(3644),INFO" ID="0x8c4671e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][LTK unavailable, pair=NULL] @smp_fsm.c(3657),INFO" ID="0x8c46724d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][Send Negative Reply!] @smp_fsm.c(3674),INFO" ID="0x8c4672d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][smpc_hci_op_le_set_local_public_key] @smp_fsm.c(3700),INFO" ID="0x8c4673a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][smpc_hci_op_le_generate_dhkey] @smp_fsm.c(3715),INFO" ID="0x8c46741d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][smpc_hci_op_le_generate_dhkey]link == NULL @smp_fsm.c(3720),ERROR" ID="0x8c467442" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP][smpc_hci_op_le_generate_dhkey]in-&gt;status == %x @smp_fsm.c(3728),ERROR" ID="0x8c467482" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SMP]smpc_data_ind_event_do link-&gt;wait = %x, event = %x @smp_fsm.c(3760),INFO" ID="0x8c467585" />
+			</MSG_LOG>

@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_bis_elt_ready:elt=0x%x,elt_ts=0x%x,intv=%d,duration_min=%d @patch_lld_bis.c(46),INFO" ID="0x8a5a0175" />
+			</MSG_LOG>

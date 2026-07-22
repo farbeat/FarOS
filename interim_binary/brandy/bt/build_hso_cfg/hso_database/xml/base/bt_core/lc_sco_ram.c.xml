@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LC]lc_sco_wrapper_lm_check_sync_hl_rsp:CO_ERROR_CONN_REJ_SECURITY_REASONS, pkt_type=%d @lc_sco_ram.c(52),INFO" ID="0x8a4a01a5" />
+			</MSG_LOG>

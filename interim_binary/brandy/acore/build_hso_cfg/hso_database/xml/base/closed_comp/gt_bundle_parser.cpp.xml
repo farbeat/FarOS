@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BMS] open file failed! @gt_bundle_parser.cpp(93),ERROR" ID="0xe04602ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] ExtractHapProfile failed when excute parse bundle! @gt_bundle_parser.cpp(100),ERROR" ID="0xe0460322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] cJSON_Parse failed when excute parse bundle! @gt_bundle_parser.cpp(108),ERROR" ID="0xe0460362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] cJSON_GetObjectItem failed when excute parse bundle! @gt_bundle_parser.cpp(116),ERROR" ID="0xe04603a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="SetModuleInfoDeviceType fail! @gt_bundle_parser.cpp(716),ERROR" ID="0xe0461662" />
+			</MSG_LOG>

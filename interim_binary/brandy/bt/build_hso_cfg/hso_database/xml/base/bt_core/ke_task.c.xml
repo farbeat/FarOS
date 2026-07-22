@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][param]state_handler-&gt;msg_table[i].func = NULL @ke_task.c(182),ERROR" ID="0x891805b2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ke task handler, type %d, task_id addr 0x%x @ke_task.c(252),INFO" ID="0x891807e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]ke_state_set:type = %d @ke_task.c(474),ERROR" ID="0x89180ed2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]type = %d @ke_task.c(510),ERROR" ID="0x89180ff2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]type = %d @ke_task.c(552),ERROR" ID="0x89181142" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][param]type = %d @ke_task.c(579),ERROR" ID="0x8918121a" />
+			</MSG_LOG>

@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="subrate:%d,new_sub_rate:%d, new_reference_event_count:%d, reference_event_count:%d @lld_enhan_con_up.c(199),INFO" ID="0x880c063d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ts:%d, evt-&gt;high_counter:%d,continue_restart_temp:%d, evt-&gt;counter:%d @lld_enhan_con_up.c(201),INFO" ID="0x880c064d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_evt_schedule_next, roll_back=%d, current_ts=%d, ts=%d @lld_enhan_con_up.c(223),INFO" ID="0x880c06fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_schedule_next,  nb_roll_back_counter=%d, last_sync_counter=%d @lld_enhan_con_up.c(227),INFO" ID="0x880c071d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="mst_evt_schedule_next, current_ts=%d, ts=%d @lld_enhan_con_up.c(268),INFO" ID="0x880c0865" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO]subrate_factor_save:%d @lld_enhan_con_up.c(296),INFO" ID="0x880c0945" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lld_enhan_conup_create failed @lld_enhan_con_up.c(306),INFO" ID="0x880c0995" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lld_evt_schedule_next, roll_back=%d, current_ts=%d, ts=%d @lld_enhan_con_up.c(381),INFO" ID="0x880c0bed" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lld_evt_schedule_next,  nb_roll_back_counter=%d, last_sync_counter=%d @lld_enhan_con_up.c(385),INFO" ID="0x880c0c0d" />
+			</MSG_LOG>

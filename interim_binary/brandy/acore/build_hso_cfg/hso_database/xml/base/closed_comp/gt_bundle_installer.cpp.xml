@@ -1,0 +1,33 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="GtBundleInstaller::PreCheckBundle fileSize = %d @gt_bundle_installer.cpp(66),INFO" ID="0xe0420215" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bundleName does not match the appId! @gt_bundle_installer.cpp(92),ERROR" ID="0xe04202e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] bundle num is %d @gt_bundle_installer.cpp(108),INFO" ID="0xe0420365" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] bundle quantity exceeds the limit! @gt_bundle_installer.cpp(111),ERROR" ID="0xe042037a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] APPVERI_AppVerify is %d @gt_bundle_installer.cpp(127),INFO" ID="0xe04203fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="VINCENTSS::GtBundleInstaller::Install path = %s @gt_bundle_installer.cpp(188),INFO" ID="0xe04205e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] create random str fail! @gt_bundle_installer.cpp(215),ERROR" ID="0xe04206ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VINCENTSS::GtBundleInstaller::Install 0002 @gt_bundle_installer.cpp(219),INFO" ID="0xe04206dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode3 = %d @gt_bundle_installer.cpp(224),INFO" ID="0xe0420705" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VINCENTSS::GtBundleInstaller::Install 003 @gt_bundle_installer.cpp(232),INFO" ID="0xe0420745" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VINCENTSS::GtBundleInstaller::ProcessBundleInstall 001 @gt_bundle_installer.cpp(266),INFO" ID="0xe0420855" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode1 = %d @gt_bundle_installer.cpp(271),INFO" ID="0xe042087d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="VINCENTSS::GtBundleInstaller::ProcessBundleInstall 002 @gt_bundle_installer.cpp(277),INFO" ID="0xe04208ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode2 = %d @gt_bundle_installer.cpp(281),INFO" ID="0xe04208cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode3 = %d @gt_bundle_installer.cpp(295),INFO" ID="0xe042093d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode4 = %d @gt_bundle_installer.cpp(311),INFO" ID="0xe04209bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode5 = %d @gt_bundle_installer.cpp(319),INFO" ID="0xe04209fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode6 = %d @gt_bundle_installer.cpp(324),INFO" ID="0xe0420a25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode7 = %d @gt_bundle_installer.cpp(335),INFO" ID="0xe0420a7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode8 = %d @gt_bundle_installer.cpp(342),INFO" ID="0xe0420ab5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode9 = %d @gt_bundle_installer.cpp(354),INFO" ID="0xe0420b15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode10 = %d @gt_bundle_installer.cpp(361),INFO" ID="0xe0420b4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode11 = %d @gt_bundle_installer.cpp(370),INFO" ID="0xe0420b95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errorCode12 = %d @gt_bundle_installer.cpp(376),INFO" ID="0xe0420bc5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] UpdateBundleInfo errorCode = %d @gt_bundle_installer.cpp(378),INFO" ID="0xe0420bd5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] srcRawFilePath is nullptr @gt_bundle_installer.cpp(398),ERROR" ID="0xe0420c72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] rawfile is not exists! @gt_bundle_installer.cpp(403),INFO" ID="0xe0420c9d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] dstRawFilePath is nullptr @gt_bundle_installer.cpp(411),ERROR" ID="0xe0420cda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BMS] frename rawfile fail! @gt_bundle_installer.cpp(417),ERROR" ID="0xe0420d0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] transform js to bc when install, result is %d @gt_bundle_installer.cpp(591),INFO" ID="0xe042127d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] ConvertResInfoToBundleInfo errorCode = %d @gt_bundle_installer.cpp(615),INFO" ID="0xe042133d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BMS] delete permissions, result is %d @gt_bundle_installer.cpp(849),INFO" ID="0xe0421a8d" />
+			</MSG_LOG>

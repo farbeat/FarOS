@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]sys_event.event = %u @core_msg_sys.c(36),INFO" ID="0x98320125" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_set_total_cps Failed, Error Code: [0x%08X] @core_msg_sys.c(73),ERROR" ID="0x9832024a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_set_idle_timeout Failed, Error Code: [0x%08X] @core_msg_sys.c(88),ERROR" ID="0x983202c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_get_proc_info Failed, Error Code: [0x%08X] @core_msg_sys.c(103),ERROR" ID="0x9832033a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_set_clock_attr Failed, Error Code: [0x%08X] @core_msg_sys.c(118),ERROR" ID="0x983203b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_clear_overlay_section Failed, Error Code: [0x%08X] @core_msg_sys.c(132),ERROR" ID="0x98320422" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call core_sys_set_dsp_log_level Failed, Error Code: [0x%08X] @core_msg_sys.c(146),ERROR" ID="0x98320492" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]msg_data-&gt;cmd = %u @core_msg_sys.c(167),ERROR" ID="0x9832053a" />
+			</MSG_LOG>

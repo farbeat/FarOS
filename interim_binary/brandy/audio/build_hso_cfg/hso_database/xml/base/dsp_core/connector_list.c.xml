@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_reset Failed, Error Code: [0x%08X] @connector_list.c(89),WARNING" ID="0x983802cb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_send_frame Failed, Error Code: [0x%08X] @connector_list.c(126),INFO" ID="0x983803f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_send_stream_data Failed, Error Code: [0x%08X] @connector_list.c(145),INFO" ID="0x9838048d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_list_send_stream_info Failed, Error Code: [0x%08X] @connector_list.c(164),INFO" ID="0x98380525" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_send_stream Failed, Error Code: [0x%08X] @connector_list.c(183),INFO" ID="0x983805bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]Call connector_get_buffer_info Failed, Error Code: [0x%08X] @connector_list.c(205),ERROR" ID="0x9838066a" />
+			</MSG_LOG>

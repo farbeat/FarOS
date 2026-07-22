@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO]ld_wlcoex_protect_slave_acl_sched retrans count %d @ld_smart_wear_wlcoex.c(213),INFO" ID="0x881a06ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARN][COEX]inqpage alarm set fail, clock[0x%x], settime[0x%x], curtime[0x%x] @ld_smart_wear_wlcoex.c(244),WARNING" ID="0x881a07a3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_coex_set_mask start:%d, end=%d @ld_smart_wear_wlcoex.c(870),INFO" ID="0x881a1b35" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LD][CHNLSCAN]ld_chnlscan_data_report:LC_AFH_UPDATE_IND @ld_smart_wear_wlcoex.c(886),INFO" ID="0x881a1bb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][COEX]ld_wlcoex_a2dp_rate_type_set, bt_a2dp_rate_state[%d] @ld_smart_wear_wlcoex.c(1006),INFO" ID="0x881a1f75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="llm_wlcoex_set_scan_param, ori_interval[%d],ori_window[%d],scan_duty_cycle[%d],ble_blemprio1[0x%x] @ld_smart_wear_wlcoex.c(1213),INFO" ID="0x881a25ed" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]length = %u @ipc.c(194),ERROR" ID="0x98300612" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]src = %u @ipc.c(212),INFO" ID="0x983006a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inbox-&gt;dst = %u @ipc.c(213),INFO" ID="0x983006ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inbox-&gt;action = %u @ipc.c(214),INFO" ID="0x983006b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inbox-&gt;id = 0x%08X @ipc.c(215),INFO" ID="0x983006bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]inbox-&gt;status = %u @ipc.c(216),INFO" ID="0x983006c5" />
+			</MSG_LOG>

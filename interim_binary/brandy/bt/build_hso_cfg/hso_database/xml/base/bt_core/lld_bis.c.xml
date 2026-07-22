@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[BIS]rxmaxtime=%d,sub_intv=%d,bis_spacing=%d @lld_bis.c(279),INFO" ID="0x895c08bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][BIS]bis tx desc alloc fail @lld_bis.c(455),ERROR" ID="0x895c0e3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]create elt fail @lld_bis.c(521),WARNING" ID="0x895c104b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]create bis channel elt fail @lld_bis.c(572),WARNING" ID="0x895c11e3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]basetime_cnt=0x%x, finetime=0x%x, current_clk=0x%x, elt=0x%x @lld_bis.c(749),INFO" ID="0x895c176d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][BIS]evt_cnt=%d,bis_elt_ts=0x%x,duration_min=%d,big_offset=%d @lld_bis.c(761),INFO" ID="0x895c17cd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLD]lld_bis_elt_ready:elt=0x%x,elt_ts=0x%x,intv=%d,duration_min=%d @lld_bis.c(782),INFO" ID="0x895c1875" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][BIS]bis_conhdl %d may be free @lld_bis.c(1021),WARNING" ID="0x895c1feb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_bis_slave_param_assign, big_param is NULL! @lld_bis.c(1211),WARNING" ID="0x895c25db" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][BIS]lld_bis_slave_param_assign, packing=%d, bis_spacing=%d, sub_intv=%d @lld_bis.c(1234),INFO" ID="0x895c2695" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][BIS]lld_biginfo_handle, biginfo unpack fail @lld_bis.c(1294),WARNING" ID="0x895c2873" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BIS]lld_bis_slave_terminate_sync: elt is NULL @lld_bis.c(1396),INFO" ID="0x895c2ba5" />
+			</MSG_LOG>

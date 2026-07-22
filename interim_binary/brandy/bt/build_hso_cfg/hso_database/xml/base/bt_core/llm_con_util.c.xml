@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLM]llm_util_release_conhdl:conhdl=0x%04x @llm_con_util.c(53),INFO" ID="0x899001ad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLM]llm_util_get_free_conhdl:conhdl=0x%04x, type=%d, llm_state=%d @llm_con_util.c(107),INFO" ID="0x8990035d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_util_check_addr_info:peer_irk_valid is 0 @llm_con_util.c(221),WARNING" ID="0x899006eb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLM]llm_util_check_addr_info:peer address not in resolving list @llm_con_util.c(226),INFO" ID="0x89900715" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]llm_ble_init_defer:tx_cnt=0, pdu_type=%d @llm_con_util.c(309),WARNING" ID="0x899009ab" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]llm_ble_init_defer:rx_status 0x%x @llm_con_util.c(314),WARNING" ID="0x899009d3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WARNING][LLM]llm_ble_init_defer:llm_le_env.init_state 0x%x @llm_con_util.c(320),WARNING" ID="0x89900a03" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llm_util_get_supp_feature OVERFLOW, bit number %d @llm_con_util.c(472),ERROR" ID="0x89900ec2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]llm_util_set_supp_feature OVERFLOW, bit number %d @llm_con_util.c(490),ERROR" ID="0x89900f52" />
+			</MSG_LOG>

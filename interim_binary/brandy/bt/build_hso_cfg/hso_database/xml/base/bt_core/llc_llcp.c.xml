@@ -1,0 +1,36 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="llc_llcp_ch_map_update_pdu_send, instant=%d, current=%d, cohdl=%d @llc_llcp.c(110),WARNING" ID="0x88380373" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llc_llcp_con_update_pdu_send, win_size=%d, win_offset=%d, instant=%d @llc_llcp.c(311),WARNING" ID="0x883809bb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_llcp_terminate_ind_pdu_send:sup_to=%d, delay=%d @llc_llcp.c(475),INFO" ID="0x88380edd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_llcp_reject_ind:llc_env_ptr=NULL @llc_llcp.c(932),ERROR" ID="0x88381d22" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[INFO][LLC]llc_llcp_reject_ind:loc_proc_state=%d, err_code=0x%x, extended=%d @llc_llcp.c(940),INFO" ID="0x88381d65" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING][LLC]llc_llcp_tester_send:length=0x%x, llcp_length=0x%x @llc_llcp.c(1013),WARNING" ID="0x88381fab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llc_llcp_tester_send:llcp_ptr is not null @llc_llcp.c(1021),WARNING" ID="0x88381feb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llc_llcp_tester_send:llcp_elt is not null @llc_llcp.c(1026),WARNING" ID="0x88382013" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llcp_con_up_req_handler:llc_env_ptr is null @llc_llcp.c(1120),WARNING" ID="0x88382303" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_con_param_req_handler:loc_proc_state=0x%x, state=%d @llc_llcp.c(1606),INFO" ID="0x88383235" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llcp_unknown_rsp_handler:loc_proc_state=%d, unk_type=%d @llc_llcp.c(2594),INFO" ID="0x88385115" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC][PHY]llcp_phy_req_handler:txphys=%d, rxphys=%d @llc_llcp.c(2765),INFO" ID="0x8838566d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llcp_phy_set_msg_dummy:instant operation is already on-going @llc_llcp.c(3056),WARNING" ID="0x88385f83" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llcp_phy_set_msg_dummy:rem_proc_state is not LLC_REM_WAIT_PHY_UPD_REQ @llc_llcp.c(3061),WARNING" ID="0x88385fab" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llcp_phy_set_msg_dummy:instant=%d, evt-&gt;counter=%d, txphy=%d, rxphy=%d @llc_llcp.c(3070),INFO" ID="0x88385ff5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC]llcp_phy_up_req_handler:phy has no change(%d) @llc_llcp.c(3083),INFO" ID="0x8838605d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llcp_phy_up_req_handler:llc_env_ptr is null @llc_llcp.c(3138),INFO" ID="0x88386215" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llcp_min_used_channels_ind_handler:param_phys=%s, param_min_used_chnls=%d, x_phy=%d, nbgood_mst=%d @llc_llcp.c(3244),INFO" ID="0x88386565" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[VoiceID]send voiceid pdu:action=%d @llc_llcp.c(3292),INFO" ID="0x883866e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[VoiceID] start process voiceid on @llc_llcp.c(3310),INFO" ID="0x88386775" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[VoiceID] end process voiceid off @llc_llcp.c(3317),INFO" ID="0x883867ad" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[VoiceID]llcp_con_voiceid_req_handler:action=%d, voiceid_state=%d @llc_llcp.c(3337),INFO" ID="0x8838684d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]chnl_cls_rpt received: conhdl=%d, chnl_map(78~0):0x%04x %08x %08x @llc_llcp.c(3384),INFO" ID="0x883869c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO][LLC]llcp_chnl_report_ind_handler rep_mode=%d, min_intv=%d, max_intv=%d, ch_ass_en=%d @llc_llcp.c(3403),INFO" ID="0x88386a5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llcp_chnl_report_ind_handler invalid param @llc_llcp.c(3413),INFO" ID="0x88386aad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llcp_chnl_report_ind_handler channel classification already started. @llc_llcp.c(3422),INFO" ID="0x88386af5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][LLC]llcp_chnl_report_ind_handler start timer reporting_interval:%d @llc_llcp.c(3429),INFO" ID="0x88386b2d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[INFO]llcp_chnl_status_ind_handler: conhdl=%d, chnl_map(78~0):0x%04x %08x %08x @llc_llcp.c(3460),INFO" ID="0x88386c25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="****************ico_reject_ind received****************  @llc_llcp.c(3485),INFO" ID="0x88386ced" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][LLC]llc_uhd_ind_master_send_handler:discard the message @llc_llcp.c(3513),INFO" ID="0x88386dcd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING] llcp_channel_map_req_handler , INSTANT_REJECT, state=%d, mode=%d @llc_llcp.c(3602),WARNING" ID="0x88387093" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="llcp_channel_map_req_handler, instant=%d, counter=%d, remote_device_id=%d @llc_llcp.c(3615),WARNING" ID="0x883870fb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[WARNING] llcp_channel_map_req_handler, INSTANT_PASSED, instant=%d, counter=%d @llc_llcp.c(3624),WARNING" ID="0x88387143" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][LLC]llc_channel_map_instant_exec:dummy=%d,opcode=%d @llc_llcp.c(3663),INFO" ID="0x8838727d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][LLC]llcp_channel_map_req_handler:llc_env_ptr is null @llc_llcp.c(3693),WARNING" ID="0x8838736b" />
+			</MSG_LOG>

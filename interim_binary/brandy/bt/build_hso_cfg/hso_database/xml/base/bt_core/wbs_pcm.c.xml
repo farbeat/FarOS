@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][WBS]wbs_pcm_read_data no buf @wbs_pcm.c(81),WARNING" ID="0x8910028b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR][WBS]No memory! @wbs_pcm.c(124),ERROR" ID="0x891003e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][WBS]before BT_PCMGENCNTL_ADDR=0x%0x, bt_pcmgencntl_get()=0x%0x @wbs_pcm.c(208),INFO" ID="0x89100685" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][WBS]BT_PCMPHYSCNTL0_ADDR=0x%0x, bt_pcmphyscntl0_get()=0x%0x @wbs_pcm.c(222),INFO" ID="0x891006f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][WBS]before BT_INTCNTL_ADDR=0x%0x, bt_intcntl_get()=0x%0x @wbs_pcm.c(225),INFO" ID="0x8910070d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][WBS]after new BT_PCMGENCNTL_ADDR=0x%0x, bt_pcmgencntl_get()=0x%0x @wbs_pcm.c(246),INFO" ID="0x891007b5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO][WBS]after BT_INTCNTL_ADDR=0x%0x, bt_intcntl_get()=0x%0x @wbs_pcm.c(255),INFO" ID="0x891007fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARNING][WBS]wbs_pcm_disable entered @wbs_pcm.c(263),WARNING" ID="0x8910083b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[WARNING][WBS]pcm isr lost_count(%d)cur(%d)last(%d) @wbs_pcm.c(339),WARNING" ID="0x89100a9b" />
+			</MSG_LOG>

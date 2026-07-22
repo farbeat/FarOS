@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="create style_name failed. @app_style.cpp(29),ERROR" ID="0xe11800ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="style_name set string value error @app_style.cpp(33),ERROR" ID="0xe118010a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="transform prop value must be set. @app_style.cpp(169),ERROR" ID="0xe118054a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="None style to parse. @app_style.cpp(187),ERROR" ID="0xe11805da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="None style to parse. @app_style.cpp(193),ERROR" ID="0xe118060a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="malloc space error @app_style.cpp(265),ERROR" ID="0xe118084a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="convert style name to char failed, will be dropped @app_style.cpp(295),ERROR" ID="0xe118093a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="style name length is 0 or max, will be dropped @app_style.cpp(300),ERROR" ID="0xe1180962" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create style error @app_style.cpp(308),ERROR" ID="0xe11809a2" />
+			</MSG_LOG>

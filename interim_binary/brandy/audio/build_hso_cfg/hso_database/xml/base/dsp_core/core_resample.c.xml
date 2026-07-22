@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[hifi]id = %u @core_resample.c(47),ERROR" ID="0x9850017a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_resample.c(94),INFO" ID="0x985002f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]fs_out = %u @core_resample.c(97),ERROR" ID="0x9850030a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]fs_in = %u @core_resample.c(103),ERROR" ID="0x9850033a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[hifi]fs_out = %u @core_resample.c(104),ERROR" ID="0x98500342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_resample.c(122),INFO" ID="0x985003d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]enter... @core_resample.c(128),INFO" ID="0x98500405" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[hifi]exit... @core_resample.c(142),INFO" ID="0x98500475" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="pbap srv pull phonebook ret=0x%x @bt_ahi_pbap.c(51),INFO" ID="0x8c9e019d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap srv pull cardlist ret=0x%x @bt_ahi_pbap.c(72),INFO" ID="0x8c9e0245" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap srv pull cardentry ret=0x%x @bt_ahi_pbap.c(90),INFO" ID="0x8c9e02d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pbap srv set path ret=0x%x @bt_ahi_pbap.c(107),INFO" ID="0x8c9e035d" />
+			</MSG_LOG>

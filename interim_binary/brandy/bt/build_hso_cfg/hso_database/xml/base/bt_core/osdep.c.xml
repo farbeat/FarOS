@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BTOS][MEM_INTEGRITY_CHECK]Not support! @osdep.c(680),INFO" ID="0x8b981545" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTOS][MEM_NEW]ALLOC_SIZE=%u alloc fail! @osdep.c(724),ERROR" ID="0x8b9816a2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BTOS][MEM_NEW]fsm_count=%u fsm_limit=%u fsm_limit_max=%u hci_slice_rx=%u! @osdep.c(728),ERROR" ID="0x8b9816c2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[MEM_FREE][%d][0x%p], caller:0x%x  @osdep.c(765),INFO" ID="0x8b9817ed" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BTOS][MEM_FREE]ERROR_CODE=%u, addr:0x%p, caller:0x%x free fail! @osdep.c(773),WARNING" ID="0x8b98182b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTOS][MEM_NEW]ALLOC_SIZE=%u, alloc fail! @osdep.c(786),WARNING" ID="0x8b981893" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BTOS][MEM_FREE]ERROR_CODE=%u, addr:0x%p, caller:0x%x, free fail! @osdep.c(801),WARNING" ID="0x8b98190b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BTOS][MEM_NEW_S]AVAILABLE_MEMORY=%u, alloc fail because under secure threshold size! @osdep.c(832),WARNING" ID="0x8b981a03" />
+			</MSG_LOG>
