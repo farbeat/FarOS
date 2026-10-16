@@ -28,6 +28,9 @@
 #include "app_msg_manager.h"
 #include "app_tx_process.h"
 #include "app_at_process.h"
+#ifdef SUPPORT_HEALTH_SERVICE
+#include "app_health_at_process.h"
+#endif
 #include "app_test_fs.h"
 #include "log_file.h"
 #include "diag_msg.h"
@@ -1153,6 +1156,28 @@ static const at_cmd_table_t g_app_cmd[] = {
 #ifdef LOSCFG_DEBUG_SCHED_STATISTICS
     { "AT^SCHEDSTART", app_sched_statistis_start,   "" },
     { "AT^SCHEDSTOP",  app_sched_statistis_stop,   "" },
+#endif
+#ifdef SUPPORT_HEALTH_SERVICE
+    { "AT^HEALTHINIT",      app_health_at_init_handle,      "" },
+    { "AT^HEALTHDEINIT",    app_health_at_deinit_handle,    "" },
+    { "AT^HEALTHVER",       app_health_at_version_handle,   "" },
+    { "AT^HEALTHSTEP",      app_health_at_step_handle,      "" },
+    { "AT^HEALTHACT",       app_health_at_activity_handle,  "" },
+    { "AT^HEALTHCAD",       app_health_at_cadence_handle,   "" },
+    { "AT^HEALTHDIST",      app_health_at_distance_handle,  "" },
+    { "AT^HEALTHHR",        app_health_at_hr_handle,        "" },
+    { "AT^HEALTHHRV",       app_health_at_hrv_handle,       "" },
+    { "AT^HEALTHCAL",       app_health_at_calorie_handle,   "" },
+    { "AT^HEALTHVO2",       app_health_at_vo2max_handle,    "" },
+    { "AT^HEALTHLOAD",      app_health_at_load_handle,      "" },
+    { "AT^HEALTHREC",       app_health_at_recovery_handle,  "" },
+    { "AT^HEALTHSTR",       app_health_at_stress_handle,    "" },
+    { "AT^HEALTHBAT",       app_health_at_battery_handle,   "" },
+    { "AT^HEALTHSLEEP",     app_health_at_sleep_handle,     "" },
+    { "AT^HEALTHSLEEPSCORE", app_health_at_sleep_score_handle, "" },
+    { "AT^HEALTHDAILY",     app_health_at_daily_handle,     "" },
+    { "AT^HEALTHSENSOR",    app_health_at_sensor_handle,    "" },
+    { "AT^HEALTHSTATUS",    app_health_at_status_handle,    "" },
 #endif
 };
 

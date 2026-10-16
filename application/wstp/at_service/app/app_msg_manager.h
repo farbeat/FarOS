@@ -116,6 +116,28 @@ typedef enum {
     PERFSTOP            = 0x55,
     SCHEDSTART          = 0x56,
     SCHEDSTOP           = 0x57,
+#ifdef SUPPORT_HEALTH_SERVICE
+    HEALTHINIT          = 0x58,
+    HEALTHDEINIT        = 0x59,
+    HEALTHVER           = 0x5A,
+    HEALTHSTEP          = 0x5B,
+    HEALTHACT           = 0x5C,
+    HEALTHCAD           = 0x5D,
+    HEALTHDIST          = 0x5E,
+    HEALTHHR            = 0x5F,
+    HEALTHHRV           = 0x60,
+    HEALTHCAL           = 0x61,
+    HEALTHVO2           = 0x62,
+    HEALTHLOAD          = 0x63,
+    HEALTHREC           = 0x64,
+    HEALTHSTR           = 0x65,
+    HEALTHBAT           = 0x66,
+    HEALTHSLEEP         = 0x67,
+    HEALTHSLEEPSCORE    = 0x68,
+    HEALTHDAILY         = 0x69,
+    HEALTHSENSOR        = 0x6A,
+    HEALTHSTATUS        = 0x6B,
+#endif
     MSG_ID_MAX_BUTT,
 } app_msg_id;
 
