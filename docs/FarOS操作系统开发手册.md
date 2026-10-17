@@ -224,6 +224,27 @@ python build/script/build.py -t brandy-mcu-bt -l
 
 ### 3.1 任务管理
 
+FarOS 通过 OSAL（操作系统抽象层）提供统一的多任务管理能力，底层可适配 LiteOS 或 FreeRTOS。任务管理是嵌入式实时系统的核心，合理的任务划分直接影响系统的响应速度和资源利用率。
+
+**任务设计原则：**
+
+| 原则 | 说明 | 示例 |
+|------|------|------|
+| **职责单一** | 每个任务只负责一类功能 | 健康算法任务只处理传感器数据和算法计算 |
+| **优先级合理** | 实时性要求高的任务分配更高优先级 | 传感器中断处理 > 算法计算 > 数据存储 |
+| **避免忙等待** | 使用延时或事件等待释放CPU | `osDelay()` 或 `osSemaphoreAcquire()` |
+| **栈空间适度** | 根据任务调用深度分配栈空间 | 简单任务 1KB，复杂任务 4KB+ |
+
+**常用任务管理API：**
+
+| 函数 | 功能 |
+|------|------|
+| `osThreadNew(func, arg, attr)` | 创建新任务 |
+| `osThreadTerminate(id)` | 终止指定任务 |
+| `osThreadSetPriority(id, prio)` | 设置任务优先级 |
+| `osThreadGetId()` | 获取当前任务ID |
+| `osDelay(ticks)` | 任务延时（毫秒） |
+
 ```c
 #include "cmsis_os2.h"
 
@@ -242,117 +263,313 @@ static void my_task_func(void *arg)
 
 ### 3.2 消息队列
 
+消息队列是 FarOS 中模块间解耦通信的主要机制。通过消息队列，不同任务可以安全地交换数据，无需直接访问对方的内存空间。这种设计提高了系统的模块化和可维护性，尤其在运动健康场景中，传感器任务、算法任务、存储任务之间大量依赖消息队列进行数据传递。
+
+**消息队列的工作模式：**
+
+| 模式 | 说明 | 适用场景 |
+|------|------|----------|
+| **阻塞接收** | 队列为空时任务挂起等待 | 消费者任务，如健康算法处理任务 |
+| **非阻塞接收** | 队列为空时立即返回错误 | 需要轮询检查的场景 |
+| **超时接收** | 等待指定时间后返回 | 需要兼顾响应和避免死锁的场景 |
+| **覆盖发送** | 队列满时覆盖最旧消息 | 实时性优先，允许丢数据的场景 |
+
+**消息队列API：**
+
+| 函数 | 功能 |
+|------|------|
+| `osal_msg_queue_create(name, count, &id, flags, size)` | 创建消息队列 |
+| `osal_msg_queue_write_copy(id, data, len, timeout)` | 发送消息（拷贝模式） |
+| `osal_msg_queue_read_copy(id, buf, &len, timeout)` | 接收消息（拷贝模式） |
+| `osal_msg_queue_delete(id)` | 删除消息队列 |
+
 ```c
 #include "soc_osal.h"
 
-/* 创建队列 */
+/* 创建队列：队列名、消息数量、队列ID、标志位、单条消息大小 */
 osal_msg_queue_create("my_queue", 10, &queue_id, 0, sizeof(my_msg_t));
 
-/* 发送消息 */
+/* 发送消息：队列ID、数据指针、数据长度、超时时间（0=不等待） */
 osal_msg_queue_write_copy(queue_id, &msg, sizeof(msg), 0);
 
-/* 接收消息 */
+/* 接收消息：永久阻塞等待，直到有消息到达 */
 osal_msg_queue_read_copy(queue_id, &msg, &size, OSAL_MSGQ_WAIT_FOREVER);
 ```
 
 ### 3.3 定时器
 
+FarOS 提供高精度定时器支持，基于 TCXO（温度补偿晶体振荡器）时钟源，确保在宽温度范围内保持稳定的时间精度。定时器系统支持微秒级和毫秒级延时，以及系统运行时间的获取，是传感器采样时序控制、算法周期性处理和低功耗管理的基础。
+
+**定时器类型对比：**
+
+| 类型 | 精度 | 最大延时 | 特点 |
+|------|------|----------|------|
+| **Busy延时** | 微秒级 | 无限制 | 忙等待，CPU占用率高，适用于极短延时 |
+| **OS延时** | 毫秒级 | 无限制 | 任务挂起，释放CPU，推荐用于任务延时 |
+| **软件定时器** | 毫秒级 | 取决于实现 | 基于Tick的回调定时器，适合周期性任务 |
+| **硬件定时器** | 微秒级 | 取决于分频 | 基于硬件定时器中断，精度最高 |
+
+**低功耗场景注意事项：**
+- 使用 `osDelay()` 代替忙等待，使系统有机会进入低功耗模式
+- 长周期定时任务可配合 tickless 机制，在空闲时停止系统节拍
+- 传感器采样定时建议使用硬件定时器中断，精确控制采样间隔
+
 ```c
 #include "tcxo.h"
 
-/* 延时 */
-uapi_tcxo_delay_ms(100);   /* 延时100ms */
+/* 忙等待延时：适用于短于1ms的精确延时 */
 uapi_tcxo_delay_us(100);   /* 延时100us */
 
-/* 获取系统时间 */
-uint64_t ms = uapi_tcxo_get_ms();
-uint64_t us = uapi_tcxo_get_us();
+/* 任务挂起延时：释放CPU，推荐用于任务调度 */
+uapi_tcxo_delay_ms(100);   /* 延时100ms */
+
+/* 获取系统运行时间：从开机起的累计时间 */
+uint64_t ms = uapi_tcxo_get_ms();  /* 毫秒 */
+uint64_t us = uapi_tcxo_get_us();  /* 微秒 */
+
+/* 计算时间间隔 */
+uint64_t start = uapi_tcxo_get_ms();
+/* ... 执行某操作 ... */
+uint64_t elapsed = uapi_tcxo_get_ms() - start;
 ```
 
 ### 3.4 内存管理
 
-```c
-/* 动态内存分配 */
-void *ptr = malloc(size);
-free(ptr);
+FarOS 支持多种内存分配策略，以适应不同场景的需求。在资源受限的嵌入式环境中，合理的内存管理是系统稳定运行的关键。运动健康算法涉及大量传感器数据缓冲（如IMU原始数据、PPG波形），对内存管理有较高要求。
 
-/* 安全内存操作 */
-memset_s(dst, dst_size, 0, dst_size);
-memcpy_s(dst, dst_size, src, src_size);
+**内存区域划分：**
+
+| 区域 | 用途 | 特点 |
+|------|------|------|
+| **DTCM** | 数据紧耦合存储器 | 访问速度最快，容量较小（几十KB），适合频繁访问的数据 |
+| **L2RAM** | 二级缓存RAM | 容量中等，速度较快，适合任务栈和中等数据缓冲 |
+| **PSRAM** | 外部伪静态RAM | 容量最大（可达8MB+），速度较慢，适合大缓冲区和文件缓存 |
+| **Flash** | 代码和常量存储 | 只读或擦写受限，适合固件和配置数据 |
+
+**内存管理最佳实践：**
+
+| 实践 | 说明 |
+|------|------|
+| **优先使用静态分配** | 在编译时确定内存需求，避免运行时碎片和分配失败 |
+| **使用安全内存函数** | `memset_s` / `memcpy_s` 带边界检查，防止缓冲区溢出 |
+| **及时释放动态内存** | 避免内存泄漏，尤其是在周期性创建临时缓冲的场景 |
+| **注意内存对齐** | DMA操作通常要求16字节对齐，使用 `memalign(16, size)` |
+
+```c
+/* 动态内存分配：从系统堆中分配 */
+void *ptr = malloc(size);
+if (ptr != NULL) {
+    /* 使用内存... */
+    free(ptr);  /* 使用完毕后释放 */
+}
+
+/* 对齐内存分配：DMA传输要求16字节对齐 */
+void *dma_buf = memalign(16, buf_size);
+if (dma_buf != NULL) {
+    /* DMA传输... */
+    free(dma_buf);
+}
+
+/* 安全内存操作：带目标缓冲区大小检查，防止溢出 */
+memset_s(dst, dst_size, 0, dst_size);          /* 安全清零 */
+memcpy_s(dst, dst_size, src, src_size);        /* 安全拷贝 */
 ```
 
 ---
 
 ## 4. 驱动开发指南
 
+FarOS 驱动层采用 **HAL（硬件抽象层）+ Driver（设备驱动）** 双层架构。HAL 层封装了寄存器级操作，提供与具体芯片版本无关的统一接口；Driver 层基于 HAL 实现具体设备的功能逻辑。这种分层设计使得上层应用和中间件无需关心底层硬件细节，便于跨平台移植。
+
+驱动开发的一般流程：
+1. **引脚配置**：通过板级支持包（Board）定义 GPIO 复用和外设连接
+2. **时钟使能**：在芯片初始化时使能对应外设的时钟
+3. **HAL初始化**：配置外设的寄存器参数（波特率、模式、中断等）
+4. **Driver注册**：将设备注册到系统设备框架，提供标准文件操作接口
+5. **应用调用**：上层通过统一 API 访问设备
+
 ### 4.1 I2C驱动
+
+I2C（Inter-Integrated Circuit）是运动健康设备中最常用的传感器通信接口，IMU（加速度计/陀螺仪）、PPG（心率传感器）、气压计、温湿度传感器等通常都通过 I2C 连接。FarOS 的 I2C 驱动支持主模式和多主模式，最高支持 3.4MHz 高速模式。
+
+**I2C 总线配置参数：**
+
+| 参数 | 选项 | 适用场景 |
+|------|------|----------|
+| 速度模式 | 标准（100KHz）、快速（400KHz）、高速（3.4MHz） | 传感器通常用 400KHz |
+| 地址宽度 | 7位、10位 | 绝大多数传感器使用7位地址 |
+| 传输模式 | 写、读、组合（写后读） | 组合模式常用于读取寄存器 |
 
 ```c
 #include "i2c.h"
 
-/* 初始化I2C主机 */
+/* 准备I2C传输数据 */
 i2c_data_t data = {
-    .send_buf = tx_buf,
-    .send_len = tx_len,
-    .receive_buf = rx_buf,
-    .receive_len = rx_len,
+    .send_buf = tx_buf,        /* 发送缓冲区 */
+    .send_len = tx_len,        /* 发送字节数 */
+    .receive_buf = rx_buf,     /* 接收缓冲区 */
+    .receive_len = rx_len,     /* 接收字节数 */
 };
 
+/* 执行I2C写操作：总线0，设备地址0x50 */
 errcode_t ret = uapi_i2c_master_write(I2C_BUS_0, 0x50, &data);
+
+/* 执行I2C读操作 */
+ret = uapi_i2c_master_read(I2C_BUS_0, 0x50, &data);
+
+/* 组合传输：先写寄存器地址，再读取数据（常用模式） */
+ret = uapi_i2c_master_writeread(I2C_BUS_0, 0x50, &data);
 ```
 
 ### 4.2 GPIO驱动
 
+GPIO（General Purpose Input/Output）是控制外设和检测外部事件的基础接口。在运动健康设备中，GPIO 用于传感器中断输入、LED指示、按键检测、传感器使能控制等。FarOS 的 GPIO 驱动支持中断触发模式，可实现事件驱动的低功耗设计。
+
+**GPIO 工作模式：**
+
+| 模式 | 功能 | 应用示例 |
+|------|------|----------|
+| **输出推挽** | 驱动外部电路 | LED控制、传感器使能 |
+| **输出开漏** | 多设备共享总线 | I2C SDA/SCL（需上拉） |
+| **输入浮空** | 检测外部电平 | 按键检测（需外部上拉/下拉） |
+| **输入上拉/下拉** | 内置电阻稳定电平 | 中断引脚，防止浮空误触发 |
+| **中断输入** | 事件触发回调 | 传感器数据就绪中断 |
+
 ```c
 #include "gpio.h"
 
-/* 配置GPIO */
+/* 配置GPIO为输出模式：用于控制LED或传感器使能 */
 uapi_gpio_set_dir(GPIO_0, GPIO_DIRECTION_OUTPUT);
-uapi_gpio_set_output_val(GPIO_0, GPIO_LEVEL_HIGH);
+uapi_gpio_set_output_val(GPIO_0, GPIO_LEVEL_HIGH);  /* 输出高电平 */
 
-/* 读取GPIO */
+/* 配置GPIO为输入模式：用于读取传感器中断状态 */
+uapi_gpio_set_dir(GPIO_1, GPIO_DIRECTION_INPUT);
 gpio_level_t level;
-uapi_gpio_get_input_val(GPIO_0, &level);
+uapi_gpio_get_input_val(GPIO_1, &level);  /* 读取当前电平 */
+
+/* 配置GPIO中断：传感器数据就绪时触发回调 */
+void sensor_irq_handler(gpio_id_t id, gpio_level_t level)
+{
+    /* 读取传感器FIFO数据 */
+}
+uapi_gpio_register_interrupt(GPIO_2, GPIO_INTERRUPT_RISING_EDGE, sensor_irq_handler);
 ```
 
 ### 4.3 ADC驱动
 
+ADC（Analog-to-Digital Converter）用于将模拟信号转换为数字值。在运动健康设备中，ADC 主要用于读取 PPG（光电容积脉搏波）传感器的原始模拟信号、电池电压监测、温度检测等。FarOS 的 ADC 驱动支持单次采样、连续扫描和自动触发模式。
+
+**ADC 采样模式：**
+
+| 模式 | 说明 | 适用场景 |
+|------|------|----------|
+| **单次采样** | 软件触发一次转换 | 电池电压检测、温度读取 |
+| **连续扫描** | 按顺序扫描多个通道 | 多传感器轮询采集 |
+| **自动触发** | 由定时器或DMA触发 | PPG高频连续采样 |
+
 ```c
 #include "adc.h"
 
-/* 配置ADC */
+/* 配置ADC自动扫描：扫描1个通道 */
 adc_scan_config_t config = {
-    .type = ADC scanning_mode,
-    .channel_count = 1,
-    .channel_id = { ADC_CHANNEL_0 },
+    .type = ADC_SCANNING_MODE_AUTO,     /* 自动扫描模式 */
+    .channel_count = 1,                  /* 扫描通道数 */
+    .channel_id = { ADC_CHANNEL_0 },     /* 通道0：PPG信号 */
+    .sample_rate = ADC_SAMPLE_RATE_1KHZ, /* 采样率1KHz */
 };
 
+/* 启动自动扫描 */
 uapi_adc_auto_scan_config(&config);
+
+/* 读取采样结果 */
+uint16_t adc_value;
+uapi_adc_read_sample(ADC_CHANNEL_0, &adc_value);
+
+/* 停止扫描 */
+uapi_adc_auto_scan_stop();
 ```
 
 ---
 
 ## 5. 蓝牙开发指南
 
-### 5.1 BLE GATT服务
+FarOS 内置 **BTS (Bluetooth Stack)** 协议栈，完整支持 BLE 5.3 和经典蓝牙（BREDR）协议。蓝牙是运动健康设备与手机 APP、耳机、心率带等外设通信的核心通道，负责数据同步、固件升级、实时数据广播等功能。
 
-FarOS 内置 BTS (Bluetooth Stack) 协议栈，支持 BLE GATT Server/Client 开发。
+**BTS 协议栈架构：**
+
+```
++------------------------------------------+
+|  Application Profiles                    |
+|  GATT / GAP / A2DP / HFP / SPP / AVRCP   |
++------------------------------------------+
+|  Host Stack                              |
+|  ATT / SMP / L2CAP / HCI                 |
++------------------------------------------+
+|  Controller (Brandy SoC集成)              |
+|  Link Layer / PHY / RF                   |
++------------------------------------------+
+```
+
+**蓝牙在运动健康设备中的典型应用场景：**
+
+| 场景 | 协议 | 说明 |
+|------|------|------|
+| **数据同步** | BLE GATT | 运动记录、睡眠数据同步到手机APP |
+| **实时心率广播** | BLE HRS | 向连接的设备实时发送心率数据 |
+| **固件升级** | BLE OTA | 通过蓝牙无线升级设备固件 |
+| **音频播放** | A2DP | 连接蓝牙耳机播放运动指导语音 |
+| **通话控制** | HFP | 蓝牙耳机通话、来电提醒 |
+| **传感器外设** | BLE Client | 连接外部心率带、功率计、踏频器等 |
+
+### 5.1 BLE GATT服务开发
+
+GATT（Generic Attribute Profile）是 BLE 设备间数据交换的标准协议。FarOS 支持 GATT Server（被连接方，如智能手表）和 GATT Client（主动连接方）两种角色。
+
+**GATT 基本概念：**
+
+| 概念 | 说明 | 类比 |
+|------|------|------|
+| **Service** | 一组相关 Characteristic 的集合 | 数据库中的表 |
+| **Characteristic** | 具体的数据项，可读写或通知 | 表中的字段 |
+| **Descriptor** | Characteristic 的附加属性 | 字段的元数据 |
+| **UUID** | 唯一标识符，区分不同的 Service/Characteristic | 主键 |
+
+**开发GATT Server的基本步骤：**
+1. 定义 Service 和 Characteristic 的 UUID
+2. 注册 Service 到协议栈
+3. 实现 Characteristic 的读写回调函数
+4. 广播设备，等待连接
+5. 连接建立后，通过 Notification 主动上报数据
 
 ### 5.2 标准健康Profile
 
+FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康 APP（如 Keep、华为运动健康、Apple Health）的兼容性：
 
-| Profile                          | 用途           | 状态   |
-| ---------------------------------- | ---------------- | -------- |
-| HRS (Heart Rate Service)         | 心率数据广播   | 待实现 |
-| RSCS (Running Speed and Cadence) | 跑步速度和步频 | 待实现 |
-| BAS (Battery Service)            | 电池电量       | 已实现 |
-| DIS (Device Information)         | 设备信息       | 已实现 |
+| Profile | 全称 | 用途 | 数据内容 | 开发状态 |
+|---------|------|------|----------|----------|
+| **HRS** | Heart Rate Service | 心率数据广播 | 当前心率、能量消耗、RR间期 | 待实现 |
+| **RSCS** | Running Speed and Cadence | 跑步速度和步频 | 瞬时速度、步频、总距离 | 待实现 |
+| **CSCS** | Cycling Speed and Cadence | 骑行速度和踏频 | 踏频、轮速、总里程 | 待实现 |
+| **BAS** | Battery Service | 电池电量 | 当前电量百分比 | 已实现 |
+| **DIS** | Device Information | 设备信息 | 厂商名、型号、固件版本 | 已实现 |
+| **CTS** | Current Time Service | 当前时间同步 | 年/月/日/时/分/秒 | 待实现 |
+
+**FarOS 自定义 GATT Service（扩展）：**
+
+除标准 Profile 外，FarOS 还定义了自定义 Service 用于传输专有数据：
+
+| 自定义Service | 用途 | 数据类型 |
+|---------------|------|----------|
+| **FarOS Health Data** | 运动记录同步 | 结构化运动数据（JSON/Binary） |
+| **FarOS Sleep Data** | 睡眠记录同步 | 睡眠分期、心率曲线 |
+| **FarOS Config** | 设备配置 | 用户档案、闹钟、提醒设置 |
+| **FarOS OTA** | 固件升级 | 固件分片、校验、升级状态 |
 
 ---
 
 ## 6. 运动健康功能开发
 
-> **本章为手册核心章节**，详细介绍 FarOS 运动健康服务模块的架构设计、接口规范和调用方式。参考 Firstbeat 核心概念框架设计。
+> **本章为手册核心章节**，详细介绍 FarOS 运动健康服务模块的架构设计、接口规范和调用方式。参考 Far Beat 运动健康分析框架设计。
 
 ### 6.1 模块架构
 
@@ -579,14 +796,14 @@ uapi_activity_get_distance(&dist);
 PRINT("Distance today: %lu m\r\n", dist.distance_today_m);
 ```
 
-### 6.4 生理指标算法接口（参考Firstbeat）
+### 6.4 生理指标算法接口（参考Far Beat）
 
 #### 6.4.1 功能概述
 
-生理指标模块参考 **Firstbeat** 核心概念框架，提供以下高级生理参数：
+生理指标模块参考 **Far Beat** 运动健康分析框架，提供以下高级生理参数。Far Beat 是 FarOS 内置的生理数据分析引擎，融合了运动科学、生理信号处理和机器学习技术，旨在为可穿戴设备提供精准、实时的健康监测能力：
 
 
-| 指标         | Firstbeat概念        | 算法基础             | 应用场景     |
+| 指标         | Far Beat概念         | 算法基础             | 应用场景     |
 | -------------- | ---------------------- | ---------------------- | -------------- |
 | **心率监测** | Heart Rate           | PPG信号峰值检测      | 实时心率显示 |
 | **HRV分析**  | HRV Analysis         | RR间期时域/频域分析  | 自主神经评估 |
@@ -597,11 +814,11 @@ PRINT("Distance today: %lu m\r\n", dist.distance_today_m);
 | **压力指数** | Stress Monitoring    | 日间HRV压力分析      | 压力管理     |
 | **身体电量** | Body Battery         | HRV恢复+活动综合模型 | 能量管理     |
 
-#### 6.4.2 Firstbeat核心概念参考
+#### 6.4.2 Far Beat核心概念参考
 
 **EPOC（运动后过量氧耗）模型：**
 
-EPOC 是 Firstbeat 训练负荷计算的核心概念。运动后，身体需要消耗额外氧气来恢复到静息状态，这个额外的氧气消耗量即为 EPOC。
+EPOC（Excess Post-exercise Oxygen Consumption，运动后过量氧耗）是 Far Beat 训练负荷计算的核心概念。运动后，身体需要消耗额外氧气来恢复到静息状态，这个额外的氧气消耗量即为 EPOC。Far Beat 通过持续监测心率和活动强度，实时计算 EPOC 累积量，从而量化训练对身体的实际生理负荷。
 
 ```
 EPOC(t) = EPOC(t-1) + (MET(t) - 1) × k - EPOC(t-1) / τ
