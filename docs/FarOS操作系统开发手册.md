@@ -2,7 +2,7 @@
 
 > FarOS (Fitness & Health microkernel Real-time Operating System)
 >
-> 版本: v1.0 | 日期: 2024-10
+> 版本: v1.2 | 日期: 2026-10-23
 
 ---
 
@@ -12,63 +12,66 @@
    - [1.1 项目背景](#11-项目背景)
    - [1.2 系统架构](#12-系统架构)
      - [1.2.1 各层详细说明](#121-各层详细说明)
-       - [Application Layer（应用层）](#application-layer应用层)
-       - [Middleware Services（中间件服务层）](#middleware-services中间件服务层)
-       - [Kernel Layer（内核层）](#kernel-layer内核层)
-       - [Driver Layer（驱动层）](#driver-layer驱动层)
-       - [Hardware（硬件层）](#hardware硬件层)
      - [1.2.2 Middleware Services 详细介绍](#122-middleware-services-详细介绍)
-       - [Bluetooth Service（蓝牙服务）](#bluetooth-service蓝牙服务)
-       - [DFX（诊断与调试框架）](#dfx诊断与调试框架)
-       - [PM（电源管理）](#pm电源管理)
-       - [FS（文件系统）](#fs文件系统)
-       - [NV（非易失存储）](#nv非易失存储)
-       - [Security（安全子系统）](#security安全子系统)
    - [1.3 核心技术特性](#13-核心技术特性)
    - [1.4 应用场景](#14-应用场景)
-2. [开发环境搭建](#2-开发环境搭建)
-   - [2.1 硬件环境](#21-硬件环境)
-   - [2.2 软件环境](#22-软件环境)
-   - [2.3 编译与烧录](#23-编译与烧录)
-3. [内核编程指南](#3-内核编程指南)
-   - [3.1 任务管理](#31-任务管理)
-   - [3.2 消息队列](#32-消息队列)
-   - [3.3 定时器](#33-定时器)
-   - [3.4 内存管理](#34-内存管理)
-4. [驱动开发指南](#4-驱动开发指南)
-   - [4.1 I2C驱动](#41-i2c驱动)
-   - [4.2 GPIO驱动](#42-gpio驱动)
-   - [4.3 ADC驱动](#43-adc驱动)
-5. [蓝牙开发指南](#5-蓝牙开发指南)
-   - [5.1 BLE GATT服务开发](#51-ble-gatt服务开发)
-   - [5.2 标准健康Profile](#52-标准健康profile)
-6. [运动健康功能开发](#6-运动健康功能开发)
-   - [6.1 模块架构](#61-模块架构)
-     - [6.1.1 模块依赖关系](#611-模块依赖关系)
-     - [6.1.2 编译控制](#612-编译控制)
-   - [6.2 传感器数据采集](#62-传感器数据采集)
-     - [6.2.1 传感器抽象层](#621-传感器抽象层)
-     - [6.2.2 传感器配置建议](#622-传感器配置建议)
-   - [6.3 运动识别算法接口](#63-运动识别算法接口)
-     - [6.3.1 功能概述](#631-功能概述)
-   - [6.4 生理指标算法接口](#64-生理指标算法接口)
-     - [6.4.1 功能概述](#641-功能概述)
-     - [6.4.2 Far Beat核心概念参考](#642-far-beat核心概念参考)
-     - [6.4.3 API接口](#643-api接口)
-   - [6.5 睡眠分析接口](#65-睡眠分析接口)
-     - [6.5.1 功能概述](#651-功能概述)
-   - [6.6 数据管理接口](#66-数据管理接口)
-     - [6.6.1 功能概述](#661-功能概述)
-   - [6.7 AT命令调试接口](#67-at命令调试接口)
-   - [6.8 性能指标与优化建议](#68-性能指标与优化建议)
-     - [6.8.1 算法性能指标](#681-算法性能指标)
-     - [6.8.2 系统资源占用](#682-系统资源占用)
-     - [6.8.3 功耗优化建议](#683-功耗优化建议)
-7. [附录](#7-附录)
+   - [1.5 源码目录与启动顺序](#15-源码目录与启动顺序)
+2. [快速开始](#2-快速开始)
+   - [2.1 5分钟上手流程](#21-5分钟上手流程)
+   - [2.2 验证固件运行](#22-验证固件运行)
+3. [开发环境搭建](#3-开发环境搭建)
+   - [3.1 硬件环境](#31-硬件环境)
+   - [3.2 软件环境](#32-软件环境)
+   - [3.3 编译与烧录](#33-编译与烧录)
+   - [3.4 编译目标说明](#34-编译目标说明)
+4. [内核编程指南](#4-内核编程指南)
+   - [4.1 任务管理](#41-任务管理)
+   - [4.2 消息队列](#42-消息队列)
+   - [4.3 定时器](#43-定时器)
+   - [4.4 内存管理](#44-内存管理)
+5. [驱动开发指南](#5-驱动开发指南)
+   - [5.1 I2C驱动](#51-i2c驱动)
+   - [5.2 GPIO驱动](#52-gpio驱动)
+   - [5.3 ADC驱动](#53-adc驱动)
+6. [蓝牙开发指南](#6-蓝牙开发指南)
+   - [6.1 BLE GATT服务开发](#61-ble-gatt服务开发)
+   - [6.2 标准健康Profile](#62-标准健康profile)
+7. [运动健康功能开发](#7-运动健康功能开发)
+   - [7.1 模块架构](#71-模块架构)
+     - [7.1.1 模块依赖关系](#711-模块依赖关系)
+     - [7.1.2 编译控制](#712-编译控制)
+     - [7.1.3 服务启动与数据通路](#713-服务启动与数据通路)
+     - [7.1.4 公共接口与用户档案](#714-公共接口与用户档案)
+   - [7.2 传感器数据采集](#72-传感器数据采集)
+     - [7.2.1 传感器抽象层](#721-传感器抽象层)
+     - [7.2.2 传感器配置建议](#722-传感器配置建议)
+   - [7.3 运动识别算法接口](#73-运动识别算法接口)
+     - [7.3.1 功能概述](#731-功能概述)
+   - [7.4 生理指标算法接口](#74-生理指标算法接口)
+     - [7.4.1 功能概述](#741-功能概述)
+     - [7.4.2 Far Beat核心概念参考](#742-far-beat核心概念参考)
+     - [7.4.3 API接口](#743-api接口)
+   - [7.5 睡眠分析接口](#75-睡眠分析接口)
+     - [7.5.1 功能概述](#751-功能概述)
+   - [7.6 数据管理接口](#76-数据管理接口)
+     - [7.6.1 功能概述](#761-功能概述)
+     - [7.6.2 调用示例](#762-调用示例)
+   - [7.7 AT命令调试接口](#77-at命令调试接口)
+   - [7.8 性能指标与优化建议](#78-性能指标与优化建议)
+     - [7.8.1 算法性能指标](#781-算法性能指标)
+     - [7.8.2 系统资源占用](#782-系统资源占用)
+     - [7.8.3 功耗优化建议](#783-功耗优化建议)
+8. [故障排除与FAQ](#8-故障排除与faq)
+   - [8.1 编译问题](#81-编译问题)
+   - [8.2 烧录问题](#82-烧录问题)
+   - [8.3 运行时问题](#83-运行时问题)
+   - [8.4 运动健康模块问题](#84-运动健康模块问题)
+9. [附录](#9-附录)
    - [附录A: 运动健康API速查表](#附录a-运动健康api速查表)
    - [附录B: 错误码表](#附录b-错误码表)
    - [附录C: 数据类型定义](#附录c-数据类型定义)
    - [附录D: 文件清单](#附录d-文件清单)
+   - [附录E: 术语表](#附录e-术语表)
 
 ---
 
@@ -76,7 +79,7 @@
 
 ### 1.1 项目背景
 
-FarOS 是面向运动健康垂直领域的专用型微内核操作系统，依托国家重点研发计划"主动健康和人口老龄化科技应对"重点专项（项目编号：2023YFC3606100）立项研发。
+FarOS 是面向运动健康垂直领域的专用型微内核操作系统，依托国家重点专项《不同经济区域主动健康技术创新应用示范》（项目编号：2023YFC3606100）立项研发。
 
 系统基于开源微内核基础架构完成场景化迭代与定制优化，聚焦运动健康智能设备专属应用场景，重点攻克多品类、多厂商智能健康设备跨域互操作核心难题。
 
@@ -99,6 +102,7 @@ FarOS 是面向运动健康垂直领域的专用型微内核操作系统，依�
 |  + PM (电源管理)                          |
 |  + FS (文件系统)                          |
 |  + NV (非易失存储)                        |
+|  + Security (安全子系统)                  |
 +------------------------------------------+
 |  Kernel Layer                            |
 |  + OSAL (操作系统抽象层)                   |
@@ -148,7 +152,24 @@ FarOS 是面向运动健康垂直领域的专用型微内核操作系统，依�
 | **NV**                | `middleware/utils/nv/`         | 非易失存储：键值对持久化数据库，磨损均衡、掉电保护、CRC校验，用于保存用户配置和校准参数                   |
 | **Security**          | `middleware/utils/sec_boot/`   | 安全子系统：安全启动链、OTA固件签名验证、AES/SM4硬件加密、真随机数生成器（TRNG）                          |
 
-**Middleware Services 详细介绍：**
+中间件服务层采用**模块化+服务化**架构设计，各服务独立编译、按需链接，具备以下开发特性：
+
+- **统一初始化框架**：所有服务通过 `service_init()` 接口注册到系统启动流程，按依赖顺序自动初始化
+- **消息总线通信**：服务间通过 `osal_msg_queue` 解耦通信，避免直接调用导致的耦合
+- **动态加载能力**：支持 `dlopen` 式动态服务加载，非核心服务可按场景裁剪
+- **标准化接口**：每个服务对外提供 `uapi_<service>_init/enable/disable` 统一 API 模式
+
+**中间件服务开发流程：**
+
+```
+1. 创建服务目录：middleware/services/<my_service>/
+2. 实现服务接口：uapi_my_service_init() / uapi_my_service_enable()
+3. 注册初始化钩子：SERVICE_INIT(my_service_init)
+4. 配置编译开关：在 config.py 中添加 'SUPPORT_MY_SERVICE': 'YES'
+5. 链接服务库：在 CMakeLists.txt 中添加 target_link_libraries()
+```
+
+#### 1.2.2 Middleware Services 详细介绍
 
 **Bluetooth Service（蓝牙服务）**
 
@@ -222,7 +243,7 @@ NV 模块的核心特性：
 
 - **磨损均衡**：对Flash存储区域进行轮询写入，延长存储寿命
 - **掉电保护**：写操作采用双备份+原子切换，确保掉电不损坏数据
-- **CRC校验**：每条记录附带CRC校验码，检测数据 corruption
+- **CRC校验**：每条记录附带 CRC 校验码，用于发现掉电或位翻转造成的数据损坏
 - **版本兼容**：支持数据格式升级时的向后兼容
 
 **Security（安全子系统）**
@@ -315,16 +336,141 @@ Brandy SoC 面向可穿戴设备的关键设计：
 
 ### 1.4 应用场景
 
-- **大众主动健康监测**
-- **智能化科学健身**
-- **运动健康数据管控**
-- **智慧体育场景建设**
+FarOS 把传感器采集、运动与生理算法、本地存储和蓝牙同步放在同一套服务里，面向下面四类落地场景：
+
+| 场景 | 设备形态 | 主要使用的服务 |
+| --- | --- | --- |
+| **大众主动健康监测** | 手环、手表等全天佩戴设备 | `far_sensor` 低采样计步，`far_physio` 心率/压力/身体电量，`far_sleep` 夜间分期，PM 负责深睡续航 |
+| **智能化科学健身** | 跑步、骑行、力量训练终端 | `far_activity` 识别步行/跑步/骑行，`far_physio` 计算卡路里、VO2max、EPOC 训练负荷和恢复时间 |
+| **运动健康数据管控** | 需要导出或同步历史记录的设备 | `far_health_data` 以 NV + 文件系统保存运动和睡眠记录，BLE GATT 把记录同步到手机 |
+| **智慧体育场景建设** | 场馆、校园或多设备联动终端 | BTS 同时作为 GATT Server 上报本机数据，并作为 GATT Client 接入心率带、踏频器等外设 |
+
+### 1.5 源码目录与启动顺序
+
+仓库按层次拆分，运动健康相关代码集中在中间件服务和 AT 命令两处：
+
+| 目录 | 内容 |
+| --- | --- |
+| `application/brandy/brandy_standard/` | 标准模式入口。`main.c` 的 `app_main()` 依次完成内核、芯片、板级和服务初始化 |
+| `application/brandy/brandy_recovery/` | 恢复模式，固件升级失败后的最小系统 |
+| `application/brandy/brandy_standard/test_data/` | 活动识别回放样本：`imu_sit.csv`、`imu_walk.csv`、`imu_run.csv` |
+| `application/wstp/at_service/` | AT 命令服务。健康命令在 `app/app_health_at_process.c`，并注册进 `app_cmd_manager.c` |
+| `middleware/services/health/` | 运动健康服务实现 |
+| `include/middleware/services/health/` | 运动健康服务对外头文件 |
+| `include/middleware/services/bts/` | 蓝牙 Host API（GATT Server/Client、LE GAP、经典蓝牙 Profile） |
+| `protocol/bt/host/bt/bts/` | 蓝牙协议栈与 Profile 示例，BAS、DIS 示例在 `bt_sample/ble_profile/profiles/` |
+| `kernel/` | OSAL、LiteOS、FreeRTOS、DPAL、裸机运行时 |
+| `drivers/` | HAL、设备驱动、`boards/brandy_evb` 板级支持、`chips/brandy` 芯片初始化 |
+| `middleware/chips/brandy/` | Brandy 上的 DFX、电源管理和异常处理 |
+| `middleware/utils/` | 文件系统、NV、升级、安全启动等公共组件 |
+| `bootloader/` | SSB / Flashboot |
+| `build/script/build.py` | 配置、编译、烧录、日志入口 |
+| `build/config/target_config/brandy/config.py` | Brandy 编译目标定义 |
+
+标准模式的启动顺序写在 `application/brandy/brandy_standard/main.c`：
+
+```
+app_main()
+  1. kernel_init()       内核与内存
+  2. chip_init()         时钟、复位、芯片外设
+  3. board_init()        板级引脚与存储介质
+  4. service_init()      日志、分区、OTA、NV、DFX、电源管理、AT 命令注册
+  5. thread_pri_init()   创建系统任务
+  6. osKernelStart()     启动调度
+```
+
+`service_init()` 会注册 AT 命令表，但不会调用 `uapi_health_service_init()`。运动健康服务要在串口执行 `AT^HEALTHINIT`，或由应用在任务里显式调用该函数后才开始采样和算法调度。
 
 ---
 
-## 2. 开发环境搭建
+## 2. 快速开始
 
-### 2.1 硬件环境
+> 本章面向首次接触 FarOS 的开发者，提供一个从环境准备到运行首个固件的极简路径。熟悉嵌入式开发的开发者可跳过本章，直接阅读第3章。
+
+### 2.1 5分钟上手流程
+
+按照以下步骤，可在5分钟内完成首次编译和烧录：
+
+**步骤1：克隆代码仓库**
+
+```bash
+git clone <仓库地址> FarOS
+cd FarOS
+```
+
+**步骤2：安装工具链依赖**
+
+- Windows：安装 [Linx LLVM RISC-V 交叉编译器](tools/bin/compiler/linx/)，并添加到系统 PATH
+- Python 3.8+（用于构建脚本）
+- CMake 3.16+
+- J-Link 驱动（用于烧录和调试）
+
+**步骤3：一键配置、编译、烧录**
+
+```bash
+# 配置+编译+烧录（首次运行）
+python build/script/build.py -t brandy-mcu-bt -c -b -f
+```
+
+**步骤4：查看运行日志**
+
+```bash
+# 新开终端窗口执行
+python build/script/build.py -t brandy-mcu-bt -l
+```
+
+启动阶段串口应出现分区和升级模块的初始化打印，例如：
+
+```
+partition init success
+upg init success
+```
+
+运动健康服务在启动时不会自动运行。串口发送 `AT^HEALTHINIT` 后，应看到服务自己的打印：
+
+```
+[health_service] Initializing FarOS Health Service v1.0.0
+[health_service] Health task started
+[health_service] FarOS Health Service initialized successfully
+[HEALTH] Init OK
+```
+
+### 2.2 验证固件运行
+
+固件启动后，可通过 AT 命令验证运动健康服务是否正常工作：
+
+```
+# 在串口终端输入
+AT^HEALTHINIT
+# 预期输出:
+# [HEALTH] Init OK
+
+AT^HEALTHVER
+# 预期输出:
+# [HEALTH] Version: 1.0.0
+
+AT^HEALTHSTATUS
+# 预期输出:
+# [HEALTH] Status:
+#   IMU power: <uA>
+#   PPG power: <uA>
+#   Total sensor power: <uA>
+#   Storage: <used>/<total> bytes
+```
+
+`AT^HEALTHSTATUS` 里的传感器功耗单位是微安（uA），由 `uapi_sensor_get_power_estimate()` 返回。存储占用来自 `uapi_health_data_get_storage_usage()`。
+
+如果以上命令均返回预期结果，说明 FarOS 运动健康服务已成功运行。接下来可以：
+
+- 阅读 [第3章](#3-开发环境搭建) 深入了解开发环境配置
+- 阅读 [第7章](#7-运动健康功能开发) 学习运动健康功能开发
+- 阅读 [第5章](#5-驱动开发指南) 开发自定义传感器驱动
+
+---
+
+## 3. 开发环境搭建
+
+### 3.1 硬件环境
 
 开发 FarOS 应用需要准备以下硬件设备。Brandy EVB 开发板是官方推荐的硬件平台，集成了 Brandy SoC 及其外围电路，便于快速验证和调试。
 
@@ -342,7 +488,7 @@ Brandy SoC 面向可穿戴设备的关键设计：
 2. 使用 J-Link 连接开发板的 SWD 接口（用于调试和烧录）
 3. 确保串口波特率设置为 115200，数据位 8，停止位 1，无校验
 
-### 2.2 软件环境
+### 3.2 软件环境
 
 FarOS 采用 CMake 构建系统，支持 Windows 和 Linux 双平台开发。推荐使用 Windows 环境，因为部分工具链（如 Linx LLVM）在 Windows 上有更好的原生支持。
 
@@ -362,7 +508,7 @@ FarOS 采用 CMake 构建系统，支持 Windows 和 Linux 双平台开发。推
 - `tools/bin/compiler/linx/linx_170/bin/` — 编译器路径
 - `tools/bin/jlink_tool/` — J-Link 工具路径
 
-### 2.3 编译与烧录
+### 3.3 编译与烧录
 
 FarOS 提供统一的 Python 构建脚本，覆盖配置、编译、烧录、日志查看全流程。初次编译前需要先生成构建配置（仅第一次），后续可直接编译。
 
@@ -375,7 +521,7 @@ FarOS 提供统一的 Python 构建脚本，覆盖配置、编译、烧录、日
 python build/script/build.py -t brandy-mcu-bt -c
 
 # 步骤2：编译整个项目
-# 编译完成后，固件输出在 output/brandy/acore/ 目录下
+# 编译完成后，固件输出在 output/brandy/acore/<目标名>/ 目录下
 python build/script/build.py -t brandy-mcu-bt -b
 
 # 步骤3：烧录固件到开发板（通过J-Link）
@@ -402,21 +548,38 @@ python build/script/build.py -t brandy-mcu-bt -l
 
 **编译输出文件说明：**
 
-编译完成后，以下文件将生成在 `output/brandy/acore/` 目录：
+编译完成后，产物位于 `output/brandy/acore/<目标名>/`。当前 Brandy 目标对应的镜像名称如下：
 
 
-| 文件        | 说明                                |
-| ------------- | ------------------------------------- |
-| `FarOS.bin` | 固件二进制文件，用于烧录            |
-| `FarOS.elf` | ELF格式，用于调试                   |
-| `FarOS.map` | 内存映射文件，查看函数/变量地址分布 |
-| `FarOS.lst` | 反汇编列表，用于底层调试            |
+| 目标 | 镜像 | 说明 |
+| --- | --- | --- |
+| `brandy-mcu-bt` | 应用镜像 | 标准 MCU + 蓝牙固件，烧录和 J-Link 调试使用这一份 |
+| `brandy-mcu-bt-r` | `recovery` 镜像 | 恢复模式固件 |
+| `brandy-ssb` | `ssb.bin` | 安全启动镜像 |
+| `pack_brandy_mcu_bt` | 组合包 | 按 SSB、恢复镜像、应用镜像的顺序打包 |
+
+同一目录下还会生成 ELF（在线调试）、map（符号地址）和反汇编列表。打包脚本里的历史路径仍使用 `application.bin`、`recovery.bin`、`ssb.bin` 这组文件名，见 `build/config/target_config/brandy/build_brandy_update.py`。
+
+### 3.4 编译目标说明
+
+目标定义在 `build/config/target_config/brandy/config.py`。日常开发使用 `brandy-mcu-bt`。
+
+
+| 目标 | 内核与板级 | 包含的能力 |
+| --- | --- | --- |
+| `brandy-mcu-bt` | LiteOS，`board=evb`，模板 `target_standard_brandy_application_template` | BLE、BREDR、AT 命令、蓝牙管理 AT、DFX、NV、FAT/YAFFS2、电源管理、OTA 宏。配置注释标明该目标不含 GUI、多媒体和运动算法大包，运动健康服务需单独打开 `SUPPORT_HEALTH_SERVICE` |
+| `brandy-mcu-bt-r` | LiteOS，恢复模板 `target_brandy_recovery_template` | 分区、文件系统、电源管理和升级所需的最小组件 |
+| `brandy-ssb` | 裸机安全启动，`target=ssb` | 安全启动、code loader、NAND/EMMC 启动 |
+| `brandy-mcu-bt-ota` | 别名，基目标为 `brandy-mcu-bt` | 兼容旧的 OTA 目标名 |
+| `brandy-mcu-bt-ota-r` | 别名，基目标为 `brandy-mcu-bt-r` | 兼容旧的恢复 OTA 目标名 |
+
+`target_group` 中的 `pack_brandy_mcu_bt` 成员顺序是 `brandy-ssb`、`brandy-mcu-bt-r`、`brandy-mcu-bt`。整机烧录需要这三份镜像都编译成功。
 
 ---
 
-## 3. 内核编程指南
+## 4. 内核编程指南
 
-### 3.1 任务管理
+### 4.1 任务管理
 
 FarOS 通过 OSAL（操作系统抽象层）提供统一的多任务管理能力，底层可适配 LiteOS 或 FreeRTOS。任务管理是嵌入式实时系统的核心，合理的任务划分直接影响系统的响应速度和资源利用率。
 
@@ -457,7 +620,7 @@ static void my_task_func(void *arg)
 }
 ```
 
-### 3.2 消息队列
+### 4.2 消息队列
 
 消息队列是 FarOS 中模块间解耦通信的主要机制。通过消息队列，不同任务可以安全地交换数据，无需直接访问对方的内存空间。这种设计提高了系统的模块化和可维护性，尤其在运动健康场景中，传感器任务、算法任务、存储任务之间大量依赖消息队列进行数据传递。
 
@@ -494,7 +657,7 @@ osal_msg_queue_write_copy(queue_id, &msg, sizeof(msg), 0);
 osal_msg_queue_read_copy(queue_id, &msg, &size, OSAL_MSGQ_WAIT_FOREVER);
 ```
 
-### 3.3 定时器
+### 4.3 定时器
 
 FarOS 提供高精度定时器支持，基于 TCXO（温度补偿晶体振荡器）时钟源，确保在宽温度范围内保持稳定的时间精度。定时器系统支持微秒级和毫秒级延时，以及系统运行时间的获取，是传感器采样时序控制、算法周期性处理和低功耗管理的基础。
 
@@ -533,7 +696,7 @@ uint64_t start = uapi_tcxo_get_ms();
 uint64_t elapsed = uapi_tcxo_get_ms() - start;
 ```
 
-### 3.4 内存管理
+### 4.4 内存管理
 
 FarOS 支持多种内存分配策略，以适应不同场景的需求。在资源受限的嵌入式环境中，合理的内存管理是系统稳定运行的关键。运动健康算法涉及大量传感器数据缓冲（如IMU原始数据、PPG波形），对内存管理有较高要求。
 
@@ -579,7 +742,7 @@ memcpy_s(dst, dst_size, src, src_size);        /* 安全拷贝 */
 
 ---
 
-## 4. 驱动开发指南
+## 5. 驱动开发指南
 
 FarOS 驱动层采用 **HAL（硬件抽象层）+ Driver（设备驱动）** 双层架构。HAL 层封装了寄存器级操作，提供与具体芯片版本无关的统一接口；Driver 层基于 HAL 实现具体设备的功能逻辑。这种分层设计使得上层应用和中间件无需关心底层硬件细节，便于跨平台移植。
 
@@ -591,7 +754,7 @@ FarOS 驱动层采用 **HAL（硬件抽象层）+ Driver（设备驱动）** 双
 4. **Driver注册**：将设备注册到系统设备框架，提供标准文件操作接口
 5. **应用调用**：上层通过统一 API 访问设备
 
-### 4.1 I2C驱动
+### 5.1 I2C驱动
 
 I2C（Inter-Integrated Circuit）是运动健康设备中最常用的传感器通信接口，IMU（加速度计/陀螺仪）、PPG（心率传感器）、气压计、温湿度传感器等通常都通过 I2C 连接。FarOS 的 I2C 驱动支持主模式和多主模式，最高支持 3.4MHz 高速模式。
 
@@ -625,7 +788,7 @@ ret = uapi_i2c_master_read(I2C_BUS_0, 0x50, &data);
 ret = uapi_i2c_master_writeread(I2C_BUS_0, 0x50, &data);
 ```
 
-### 4.2 GPIO驱动
+### 5.2 GPIO驱动
 
 GPIO（General Purpose Input/Output）是控制外设和检测外部事件的基础接口。在运动健康设备中，GPIO 用于传感器中断输入、LED指示、按键检测、传感器使能控制等。FarOS 的 GPIO 驱动支持中断触发模式，可实现事件驱动的低功耗设计。
 
@@ -660,7 +823,7 @@ void sensor_irq_handler(gpio_id_t id, gpio_level_t level)
 uapi_gpio_register_interrupt(GPIO_2, GPIO_INTERRUPT_RISING_EDGE, sensor_irq_handler);
 ```
 
-### 4.3 ADC驱动
+### 5.3 ADC驱动
 
 ADC（Analog-to-Digital Converter）用于将模拟信号转换为数字值。在运动健康设备中，ADC 主要用于读取 PPG（光电容积脉搏波）传感器的原始模拟信号、电池电压监测、温度检测等。FarOS 的 ADC 驱动支持单次采样、连续扫描和自动触发模式。
 
@@ -697,7 +860,7 @@ uapi_adc_auto_scan_stop();
 
 ---
 
-## 5. 蓝牙开发指南
+## 6. 蓝牙开发指南
 
 FarOS 内置 **BTS (Bluetooth Stack)** 协议栈，完整支持 BLE 5.3 和经典蓝牙（BREDR）协议。蓝牙是运动健康设备与手机 APP、耳机、心率带等外设通信的核心通道，负责数据同步、固件升级、实时数据广播等功能。
 
@@ -728,9 +891,17 @@ FarOS 内置 **BTS (Bluetooth Stack)** 协议栈，完整支持 BLE 5.3 和经�
 | **通话控制**     | HFP        | 蓝牙耳机通话、来电提醒           |
 | **传感器外设**   | BLE Client | 连接外部心率带、功率计、踏频器等 |
 
-### 5.1 BLE GATT服务开发
+### 6.1 BLE GATT服务开发
 
-GATT（Generic Attribute Profile）是 BLE 设备间数据交换的标准协议。FarOS 支持 GATT Server（被连接方，如智能手表）和 GATT Client（主动连接方）两种角色。
+GATT（Generic Attribute Profile）是 BLE 设备间数据交换的标准协议。FarOS 支持 GATT Server（被连接方，如智能手表）和 GATT Client（主动连接方）两种角色。对外头文件在 `include/middleware/services/bts/ble/`：
+
+| 头文件 | 作用 |
+| --- | --- |
+| `bts_gatt_server.h` | GATT Server：注册服务、添加特征、通知/指示 |
+| `bts_gatt_client.h` | GATT Client：发现服务、读写对端特征 |
+| `bts_gatt_stru.h` | 特征属性位、权限位和 GATT 错误码 |
+| `bts_le_gap.h` | 设备名、广播参数、扫描和连接 |
+| `bts_def.h` | `bt_uuid_t`、`bd_addr_t` 和蓝牙错误码 `errcode_bt_t` |
 
 **GATT 基本概念：**
 
@@ -742,15 +913,66 @@ GATT（Generic Attribute Profile）是 BLE 设备间数据交换的标准协议�
 | **Descriptor**     | Characteristic 的附加属性                     | 字段的元数据 |
 | **UUID**           | 唯一标识符，区分不同的 Service/Characteristic | 主键         |
 
-**开发GATT Server的基本步骤：**
+`bt_uuid_t` 用 `uuid_len` 区分 16-bit UUID（2 字节）和 128-bit UUID（16 字节），内容放在 `uuid[]`。
 
-1. 定义 Service 和 Characteristic 的 UUID
-2. 注册 Service 到协议栈
-3. 实现 Characteristic 的读写回调函数
-4. 广播设备，等待连接
-5. 连接建立后，通过 Notification 主动上报数据
+特征属性使用 `gatt_characteristic_property_t` 的位掩码，可以按位组合：
 
-### 5.2 标准健康Profile
+| 宏 | 值 | 含义 |
+| --- | --- | --- |
+| `GATT_CHARACTER_PROPERTY_BIT_READ` | 0x02 | 允许读 |
+| `GATT_CHARACTER_PROPERTY_BIT_WRITE_NO_RSP` | 0x04 | 写且不需要响应 |
+| `GATT_CHARACTER_PROPERTY_BIT_WRITE` | 0x08 | 写且需要响应 |
+| `GATT_CHARACTER_PROPERTY_BIT_NOTIFY` | 0x10 | 通知（无需对端确认） |
+| `GATT_CHARACTER_PROPERTY_BIT_INDICATE` | 0x20 | 指示（需要对端确认） |
+
+权限使用 `gatt_attribute_permission_t`：`GATT_ATTRIBUTE_PERMISSION_READ`（0x01）、`GATT_ATTRIBUTE_PERMISSION_WRITE`（0x02），以及加密、认证、授权、MITM 等位。心率等敏感特征应加上 `GATT_ATTRIBUTE_PERMISSION_ENCRYPTION_NEED`。
+
+**GATT Server API：**
+
+| 函数 | 作用 |
+| --- | --- |
+| `gatts_register_callbacks(func)` | 注册添加服务、读写请求、MTU 变化等回调，类型为 `gatts_callbacks_t` |
+| `gatts_register_server(app_uuid, &server_id)` | 注册 Server，返回 `server_id` |
+| `gatts_add_service_sync(server_id, uuid, is_primary, &handle)` | 同步添加 Service，直接拿到句柄 |
+| `gatts_add_characteristic_sync(...)` | 同步添加 Characteristic，属性填在 `gatts_add_chara_info_t` |
+| `gatts_add_descriptor_sync(...)` | 同步添加 Descriptor，通知特征需要 CCCD（0x2902） |
+| `gatts_start_service(server_id, service_handle)` | 启动服务，之后才能被对端发现 |
+| `gatts_send_response(...)` | 回复读/写请求 |
+| `gatts_notify_indicate(...)` | 按句柄发送通知或指示 |
+| `gatts_set_mtu_size(server_id, mtu)` | 设置本端 MTU。运动记录建议协商到 185 以上，减少分片 |
+
+异步版本是 `gatts_add_service()`、`gatts_add_characteristic()`、`gatts_add_descriptor()`，句柄在对应回调里返回。应用代码推荐使用 `_sync` 版本，避免在回调里拼装数据库。
+
+**开发 GATT Server 的调用顺序：**
+
+```c
+#include "bts_gatt_server.h"
+#include "bts_le_gap.h"
+
+/* 1. 注册回调，再注册 Server */
+gatts_register_callbacks(&g_gatts_cb);
+gatts_register_server(&app_uuid, &server_id);
+
+/* 2. 添加 Service 和 Characteristic，然后启动 */
+gatts_add_service_sync(server_id, &service_uuid, true, &service_handle);
+gatts_add_characteristic_sync(server_id, service_handle, &chara, &result);
+gatts_start_service(server_id, service_handle);
+
+/* 3. 设置设备名和广播，等待手机连接 */
+gap_ble_set_local_name(name, name_len);
+gap_ble_set_adv_param(adv_id, &adv_param);
+gap_ble_set_adv_data(adv_id, &adv_data);
+gap_ble_start_adv(adv_id);
+
+/* 4. 连接建立后，用特征句柄主动上报 */
+gatts_notify_indicate(server_id, conn_id, &ntf);
+```
+
+读请求进 `gatts_read_request_callback`，写请求进 `gatts_write_request_callback`。回调里填写 `gatts_send_response()`，不要在回调中做长时间的算法计算。心率、步数这类周期数据放到健康服务回调或 `health_task` 里，再调用 `gatts_notify_indicate()`。
+
+作为中心设备连接心率带时，使用 `bts_gatt_client.h`：`gap_ble_start_scan()` 发现设备，`gap_ble_connect_remote_device()` 建立连接，再发现对端的 HRS Service。
+
+### 6.2 标准健康Profile
 
 FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康 APP（如 Keep、华为运动健康、Apple Health）的兼容性：
 
@@ -760,11 +982,21 @@ FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康
 | **HRS**  | Heart Rate Service        | 心率数据广播   | 当前心率、能量消耗、RR间期 | 待实现   |
 | **RSCS** | Running Speed and Cadence | 跑步速度和步频 | 瞬时速度、步频、总距离     | 待实现   |
 | **CSCS** | Cycling Speed and Cadence | 骑行速度和踏频 | 踏频、轮速、总里程         | 待实现   |
-| **BAS**  | Battery Service           | 电池电量       | 当前电量百分比             | 已实现   |
+| **BAS**  | Battery Service           | 电池电量       | 当前电量百分比，上限 `BLE_BAS_BATTERY_LEVEL_MAX`（100），默认 85 | 已实现   |
 | **DIS**  | Device Information        | 设备信息       | 厂商名、型号、固件版本     | 已实现   |
 | **CTS**  | Current Time Service      | 当前时间同步   | 年/月/日/时/分/秒          | 待实现   |
 
-**FarOS 自定义 GATT Service（扩展）：**
+已实现的示例代码：
+
+| Profile | 路径 |
+| --- | --- |
+| BAS Server | `protocol/bt/host/bt/bts/bt_sample/ble_profile/profiles/include/ble_bas_server.h` |
+| DIS Server | `protocol/bt/host/bt/bts/bt_sample/ble_profile/profiles/src/dis_profile_server.c` |
+| Find Me | `protocol/bt/host/bt/bts/bt_sample/ble_profile/ble_at_sample/src/sample_ble_fmp.c` |
+
+HRS、RSCS、CSCS、CTS 在协议栈日志和 HCI 事件里有预留标识，仓库中还没有对应的 Profile 实现。自定义健康 Service 也尚未分配 128-bit UUID，接入手机前需要先在 `bts_gatt_server.h` 的流程里建库。
+
+**FarOS 自定义 GATT Service（规划）：**
 
 除标准 Profile 外，FarOS 还定义了自定义 Service 用于传输专有数据：
 
@@ -778,11 +1010,11 @@ FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康
 
 ---
 
-## 6. 运动健康功能开发
+## 7. 运动健康功能开发
 
 > **本章为手册核心章节**，详细介绍 FarOS 运动健康服务模块的架构设计、接口规范和调用方式。参考 Far Beat 运动健康分析框架设计。
 
-### 6.1 模块架构
+### 7.1 模块架构
 
 运动健康服务模块采用**分层架构**设计，各层职责清晰、接口解耦：
 
@@ -805,7 +1037,7 @@ FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康
 +--------------------------------------------------+
 ```
 
-#### 6.1.1 模块依赖关系
+#### 7.1.1 模块依赖关系
 
 
 | 模块              | 依赖模块                   | 说明                    |
@@ -816,7 +1048,7 @@ FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康
 | `far_sleep`       | `far_sensor`, `far_physio` | 使用IMU+HR数据分析睡眠  |
 | `far_health_data` | 文件系统/NV                | 存储和查询健康记录      |
 
-#### 6.1.2 编译控制
+#### 7.1.2 编译控制
 
 运动健康服务通过 `SUPPORT_HEALTH_SERVICE` 宏控制编译：
 
@@ -826,9 +1058,82 @@ FarOS 计划实现以下标准蓝牙健康 Profile，确保与主流运动健康
  */
 ```
 
-### 6.2 传感器数据采集
+`brandy-mcu-bt` 的 `ram_component` 目前没有运动健康服务。`middleware/services/health/CMakeLists.txt` 生成的静态库名是 `health_service`。打开 `SUPPORT_HEALTH_SERVICE` 之后，还要把这个库加入目标链接。只改宏、不链接库时，会出现 `undefined reference to uapi_health_*`。
 
-#### 6.2.1 传感器抽象层 (`far_sensor`)
+#### 7.1.3 服务启动与数据通路
+
+对外只有一个总入口：`uapi_health_service_init()`，实现在 `middleware/services/health/health_service_init.c`。`AT^HEALTHINIT` 直接调用它。重复调用时若 `initialized` 已为真，函数直接返回 `ERRCODE_SUCC`。
+
+初始化按固定顺序执行，默认参数如下：
+
+| 步骤 | 调用 | 默认参数 |
+| --- | --- | --- |
+| 1 | `uapi_health_data_init(FAR_STORAGE_MODE_DUAL)` | NV 与文件系统双写 |
+| 2 | `uapi_sensor_imu_init()` | 加速度和陀螺仪都是 50 Hz，标准模式，加速度量程 8 g，陀螺仪量程 2000 dps |
+| 3 | `uapi_sensor_ppg_init()` | 25 Hz，标准模式，LED 电流 25 mA，只打开绿光 |
+| 4 | 注册 IMU/PPG 回调 | IMU 回调把样本同时送给运动识别和睡眠分析 |
+| 5 | `uapi_activity_init()` | 计步、活动类型、步频、距离全部打开；步态阈值 150 mg；置信度阈值 70% |
+| 6 | `uapi_physio_init()`、`uapi_physio_hr_init()` | 生理指标和心率监测 |
+| 7 | `uapi_sleep_init()` | 自动检测，入睡/起床时刻 255（自动），短于 30 分钟不记，打开 HRV 分析 |
+| 8 | `osal_kthread_create()` | 任务名 `health_task`，栈 `0x1000`（4 KB），优先级 18，低于蓝牙协议栈任务 |
+| 9 | 使能 | IMU（类型 0）、PPG（类型 1）、运动识别、睡眠分析、压力和身体电量 |
+
+`health_task` 每 100 ms 醒来一次，按最多 16 帧批量调用 `uapi_sensor_imu_read()`，再把读到的帧送给 `uapi_activity_feed_imu_data()` 和 `uapi_sleep_feed_imu_data()`。IMU 回调里也会做同样的投喂，因此查询步数前不需要应用自己读传感器。
+
+`uapi_health_service_deinit()` 先停任务，再按睡眠、心率、生理指标、运动识别、传感器回调、IMU、PPG、数据管理的顺序反初始化。
+
+当前源码里下面几步还是空实现，调用相关查询接口前需要知道这一点：
+
+| 通路 | 现状 |
+| --- | --- |
+| PPG 回调 | 回调已注册，尚未从原始 ADC 提取心率，也未调用 `uapi_physio_feed_hr_data()` 和 `uapi_sleep_feed_hr_data()` |
+| 周期算法 | 任务循环里预留了步频（10 秒）、活动类型（3 秒）、卡路里、HRV（5 分钟）、压力（3 分钟）、身体电量（5 分钟）、睡眠分期（30 秒），函数体尚未填充 |
+| 落盘 | 预留了每小时写每日汇总、运动结束写记录、睡眠结束写记录 |
+| 用户档案 | `uapi_health_set_user_profile()` 校验空指针后返回成功，尚未写入 NV；`uapi_health_get_user_profile()` 返回清零结构 |
+| 全局回调 | `uapi_health_register_callback()` 保存前的分发逻辑尚未接到各子模块 |
+
+心率、HRV、卡路里要得到非零结果，应用需要自行调用 `uapi_physio_feed_hr_data()` 和 `uapi_physio_feed_activity_data()`，或先补上 PPG 回调里的提取逻辑。
+
+#### 7.1.4 公共接口与用户档案
+
+公共接口声明在 `far_health_common.h`，版本号宏是 `FAR_HEALTH_API_VERSION_MAJOR/MINOR/PATCH`，当前为 1.0.0。
+
+| 函数 | 作用 |
+| --- | --- |
+| `uapi_health_service_init()` / `uapi_health_service_deinit()` | 按上一节的顺序启动或关闭全部子模块 |
+| `uapi_health_get_version(&major, &minor, &patch)` | 读取 API 版本 |
+| `uapi_health_set_user_profile(profile)` | 设置性别、年龄、身高、体重、最大心率和静息心率 |
+| `uapi_health_get_user_profile(profile)` | 读取当前档案 |
+| `uapi_health_register_callback(cb)` | 注册全局更新回调，类型为 `far_health_callback_t` |
+| `uapi_health_unregister_callback()` | 注销全局回调 |
+
+回调的 `type` 取值见 `far_health_data_type_t`，例如 `FAR_HEALTH_DATA_TYPE_STEP_COUNT`（0x01）、`FAR_HEALTH_DATA_TYPE_HEART_RATE`（0x02）、`FAR_HEALTH_DATA_TYPE_SLEEP_STAGE`（0x04）。完整枚举见附录 C.9。
+
+卡路里使用 Harris-Benedict 公式，依赖档案里的性别、年龄、身高和体重。`weight_kg` 的单位是 0.1 kg，70.5 kg 要写成 `705`。`max_hr` 为 0 时按 `220 - age` 计算。
+
+```c
+#include "far_health_common.h"
+
+far_user_profile_t profile = {
+    .gender = 1,          /* 1=男，0=女 */
+    .age = 30,
+    .height_cm = 175,
+    .weight_kg = 705,     /* 70.5 kg */
+    .max_hr = 0,          /* 自动计算 */
+    .rest_hr = 58,
+};
+
+errcode_t ret = uapi_health_service_init();
+if (ret == ERRCODE_SUCC) {
+    (void)uapi_health_set_user_profile(&profile);
+}
+```
+
+档案目前不会跨重启保留。需要掉电保存时，应用应在设置成功后自行写入 NV，启动时再读回并调用 `uapi_health_set_user_profile()`。
+
+### 7.2 传感器数据采集
+
+#### 7.2.1 传感器抽象层 (`far_sensor`)
 
 传感器抽象层提供统一的 IMU（加速度计+陀螺仪）和 PPG（光电容积脉搏波）传感器访问接口，屏蔽底层硬件差异。
 
@@ -850,6 +1155,17 @@ typedef struct {
     uint32_t timestamp;         /* 时间戳，单位：ms */
 } far_sensor_ppg_data_t;
 ```
+
+采样率和工作模式是枚举，不是裸数字：
+
+| 枚举 | 取值 | 含义 |
+| --- | --- | --- |
+| `FAR_SENSOR_RATE_12_5_HZ` … `FAR_SENSOR_RATE_400_HZ` | 0–5 | 12.5 / 25 / 50 / 100 / 200 / 400 Hz |
+| `FAR_SENSOR_MODE_LOW_POWER` | 0 | 低功耗，精度下降 |
+| `FAR_SENSOR_MODE_NORMAL` | 1 | 标准模式，服务初始化使用这个值 |
+| `FAR_SENSOR_MODE_HIGH_PERF` | 2 | 高性能 |
+
+`uapi_sensor_enable()` 和 `uapi_sensor_set_sample_rate()` 的 `sensor_type`：0 是 IMU，1 是 PPG。功耗估算接口返回值单位是 uA。
 
 **API接口：**
 
@@ -910,7 +1226,7 @@ void my_imu_callback(const void *data, uint32_t len, void *user_data)
 uapi_sensor_imu_register_callback(my_imu_callback, NULL);
 ```
 
-#### 6.2.2 传感器配置建议
+#### 7.2.2 传感器配置建议
 
 
 | 应用场景         | IMU采样率 | PPG采样率 | 功耗估算 |
@@ -920,9 +1236,9 @@ uapi_sensor_imu_register_callback(my_imu_callback, NULL);
 | 睡眠监测         | 12.5Hz    | 12.5Hz    | ~1.1mA   |
 | 高精度模式       | 200Hz     | 100Hz     | ~10mA    |
 
-### 6.3 运动识别算法接口
+### 7.3 运动识别算法接口
 
-#### 6.3.1 功能概述
+#### 7.3.1 功能概述
 
 运动识别模块基于 IMU 传感器数据，实现：
 
@@ -952,6 +1268,16 @@ uapi_sensor_imu_register_callback(my_imu_callback, NULL);
   step_length_cm = height_cm × (0.415 + 0.002 × (cadence_spm - 100))
 ```
 
+仓库提供了三段可回放的 IMU 样本，路径在 `application/brandy/brandy_standard/test_data/`：
+
+| 文件 | 标签 | 用途 |
+| --- | --- | --- |
+| `imu_sit.csv` | `sit` | 静止/久坐，对应 `FAR_ACTIVITY_TYPE_REST` |
+| `imu_walk.csv` | `walk` | 步行，对应 `FAR_ACTIVITY_TYPE_WALK` |
+| `imu_run.csv` | `run` | 跑步，对应 `FAR_ACTIVITY_TYPE_RUN` |
+
+列顺序是 `timestamp,ax,ay,az,gx,gy,gz,label`，时间戳间隔 10 ms（100 Hz）。加速度数值量级接近 9.8，与 `far_sensor_imu_data_t` 的 mg 单位不同。回放进 `uapi_activity_feed_imu_data()` 之前，先把加速度换算成 mg，再把角速度换算成 mdps。
+
 **API接口：**
 
 运动识别模块提供以下API接口。初始化后，模块会在后台持续处理传感器数据，开发者可以通过查询API获取实时结果，也可以注册回调函数接收活动变化通知。
@@ -969,6 +1295,8 @@ uapi_sensor_imu_register_callback(my_imu_callback, NULL);
 | `uapi_activity_get_distance(&info)`                    | 获取累计距离、今日距离和平均步长                        | `errcode_t` |
 | `uapi_activity_register_callback(cb, user)`            | 注册活动类型变化回调（如从步行变为跑步时触发）          | `errcode_t` |
 | `uapi_activity_get_daily_summary(&steps, &dist, &min)` | 获取当日活动汇总（步数、距离、活跃分钟）                | `errcode_t` |
+| `uapi_activity_feed_imu_data(data, len)`               | 投喂一批 IMU 样本。`health_task` 和 IMU 回调都会调用它   | `errcode_t` |
+| `uapi_activity_deinit()`                               | 反初始化运动识别模块                                     | `errcode_t` |
 
 **调用示例：**
 
@@ -1009,9 +1337,9 @@ uapi_activity_get_distance(&dist);
 PRINT("Distance today: %lu m\r\n", dist.distance_today_m);
 ```
 
-### 6.4 生理指标算法接口（参考Far Beat）
+### 7.4 生理指标算法接口（参考Far Beat）
 
-#### 6.4.1 功能概述
+#### 7.4.1 功能概述
 
 生理指标模块参考 **Far Beat** 运动健康分析框架，提供以下高级生理参数。Far Beat 是 FarOS 内置的生理数据分析引擎，融合了运动科学、生理信号处理和机器学习技术，旨在为可穿戴设备提供精准、实时的健康监测能力：
 
@@ -1027,7 +1355,7 @@ PRINT("Distance today: %lu m\r\n", dist.distance_today_m);
 | **压力指数** | Stress Monitoring    | 日间HRV压力分析      | 压力管理     |
 | **身体电量** | Body Battery         | HRV恢复+活动综合模型 | 能量管理     |
 
-#### 6.4.2 Far Beat核心概念参考
+#### 7.4.2 Far Beat核心概念参考
 
 **EPOC（运动后过量氧耗）模型：**
 
@@ -1069,7 +1397,7 @@ BodyBattery(t) = BodyBattery(t-1) + Δcharge - Δdrain
 范围：0-100
 ```
 
-#### 6.4.3 API接口
+#### 7.4.3 API接口
 
 生理指标模块的API按功能分为六大类。所有 API 均返回 `errcode_t` 类型错误码，`ERRCODE_SUCC` 表示调用成功。
 
@@ -1137,6 +1465,8 @@ VO2max（最大摄氧量）是衡量有氧能力的黄金标准。Far Beat通过
 | `uapi_physio_stress_enable(enable)`       | 使能/禁用压力监测 | 控制压力计算的开关                    |
 | `uapi_physio_body_battery_get(&battery)`  | 获取身体电量      | 返回0-100的能量储备水平               |
 | `uapi_physio_body_battery_enable(enable)` | 使能/禁用身体电量 | 控制身体电量追踪的开关                |
+| `uapi_physio_feed_hr_data(bpm, timestamp_ms)` | 投喂一次心率 | PPG 算法得到 BPM 后调用。服务初始化不会自动调用 |
+| `uapi_physio_feed_activity_data(type, intensity, duration_sec)` | 投喂活动强度 | 供卡路里计算使用。`intensity` 取值 0-100，`duration_sec` 为本次持续时间 |
 
 **调用示例：**
 
@@ -1178,9 +1508,9 @@ uapi_physio_body_battery_get(&bb);
 PRINT("Body Battery: %u/100\r\n", bb.current_level);
 ```
 
-### 6.5 睡眠分析接口
+### 7.5 睡眠分析接口
 
-#### 6.5.1 功能概述
+#### 7.5.1 功能概述
 
 睡眠分析模块基于 IMU 运动检测和 PPG 心率/HRV 数据，实现睡眠分期检测和睡眠质量评估。
 
@@ -1232,6 +1562,11 @@ REM睡眠：
 | `uapi_sleep_get_score(&score)`                       | 获取睡眠评分     | 返回0-100的综合睡眠质量评分                        |
 | `uapi_sleep_get_stages(&deep, &light, &rem, &awake)` | 获取睡眠分期     | 返回各睡眠阶段的持续时间（分钟）                   |
 | `uapi_sleep_is_sleeping(&is_sleeping)`               | 检查是否在睡眠中 | 返回当前睡眠状态，用于UI状态显示                   |
+| `uapi_sleep_get_quality_factors(&factors)`           | 获取分项评分     | 返回时长、深睡、效率、规律和 HRV 五项 0-100 评分   |
+| `uapi_sleep_register_stage_callback(cb, user)`       | 注册分期变化回调 | 分期切换时给出新分期、上一分期和上一分期时长       |
+| `uapi_sleep_feed_imu_data(data, len)`                | 投喂 IMU 样本    | `health_task` 与 IMU 回调已调用                    |
+| `uapi_sleep_feed_hr_data(bpm, timestamp_ms)`         | 投喂心率         | 睡眠分期使用。PPG 回调目前尚未自动调用             |
+| `uapi_sleep_disable()` / `uapi_sleep_deinit()`       | 关闭 / 反初始化  | `uapi_health_service_deinit()` 会调用反初始化      |
 
 **调用示例：**
 
@@ -1265,9 +1600,9 @@ uapi_sleep_get_score(&score);
 PRINT("Sleep Score: %u/100\r\n", score);
 ```
 
-### 6.6 数据管理接口
+### 7.6 数据管理接口
 
-#### 6.6.1 功能概述
+#### 7.6.1 功能概述
 
 数据管理模块提供运动记录存储、历史数据查询、每日汇总和数据同步功能。支持 **NV存储** 和 **文件系统** 双模式。
 
@@ -1295,73 +1630,105 @@ PRINT("Sleep Score: %u/100\r\n", score);
 | `uapi_health_data_delete_record(id)`                            | 删除记录       | 按记录ID删除单条记录                             |
 | `uapi_health_data_sync_start(callback, user)`                   | 启动数据同步   | 将本地数据同步到手机APP或云端，支持进度回调      |
 | `uapi_health_data_export(filename, &filter)`                    | 导出记录       | 将符合条件的记录导出为JSON或CSV文件              |
+| `uapi_health_data_get_sleep_records(start, end, records, max, &count)` | 查询睡眠记录 | 按日期范围读取，单次最多 `FAR_HEALTH_MAX_QUERY_RECORDS`（50）条 |
+| `uapi_health_data_delete_before(&date)`                        | 按日期清理     | 删除指定日期之前的记录                           |
+| `uapi_health_data_get_storage_usage(&used, &total)`            | 查询存储占用   | `AT^HEALTHSTATUS` 使用该接口，单位为字节         |
+| `uapi_health_data_deinit()`                                    | 反初始化       | 服务反初始化时调用                               |
 
-### 6.7 AT命令调试接口
+记录 ID 字符串最长 `FAR_HEALTH_RECORD_ID_MAX_LEN`（32）字节。一次睡眠记录最多保存 `FAR_HEALTH_MAX_SLEEP_SEGMENTS`（32）个分期段。查询过滤结构 `far_data_query_filter_t` 里，`type` 或 `activity_type` 填 `0xFF` 表示该条件不过滤。
 
-AT命令是开发和调试运动健康功能的重要工具。通过串口连接PC后，可以直接发送AT命令查询传感器数据、执行算法分析、控制模块开关等。所有AT命令以 `AT^HEALTH` 为前缀，便于识别和自动补全。
+同步回调 `far_data_sync_callback_t` 的 `progress` 为 0-100，`status` 为 0（成功）、1（错误）、2（进行中）。
+
+#### 7.6.2 调用示例
+
+```c
+#include "far_health_data.h"
+
+uapi_health_data_init(FAR_STORAGE_MODE_DUAL);
+
+far_workout_record_t workout = {0};
+strncpy_s(workout.record_id, sizeof(workout.record_id), "run-20261023-001", 17);
+workout.type = FAR_RECORD_TYPE_WORKOUT;
+workout.activity_type = FAR_ACTIVITY_TYPE_RUN;
+workout.start_time.year = 2026;
+workout.start_time.month = 10;
+workout.start_time.day = 23;
+workout.start_time.hour = 7;
+workout.duration_sec = 1800;
+workout.distance_m = 5000;
+workout.calories_kcal = 320;
+workout.avg_hr = 148;
+uapi_health_data_save_workout(&workout);
+
+far_data_query_filter_t filter = {0};
+filter.type = 0xFF;
+filter.activity_type = FAR_ACTIVITY_TYPE_RUN;
+filter.min_duration_sec = 600;
+far_workout_record_t records[8];
+uint32_t count = 0;
+uapi_health_data_get_workouts(&filter, records, 8, &count);
+
+uint32_t used = 0;
+uint32_t total = 0;
+uapi_health_data_get_storage_usage(&used, &total);
+```
+
+### 7.7 AT命令调试接口
+
+AT 命令是开发和调试运动健康功能的串口入口。命令字符串注册在 `application/wstp/at_service/app/app_cmd_manager.c`，处理函数在 `app_health_at_process.c`。所有命令以 `AT^HEALTH` 为前缀，成功时打印带 `[HEALTH]` 前缀的文本。下面的示例按处理函数里的格式串书写，数值会随运行数据变化。
 
 **使用方式：**
 
-1. 使用串口工具（如PuTTY、SecureCRT）连接开发板，波特率115200
+1. 使用串口工具连接开发板，波特率 115200，8N1
 2. 发送 `AT^HEALTHINIT` 初始化运动健康服务
-3. 使用各类查询命令获取实时数据和算法结果
-4. 发送 `AT^HEALTHDEINIT` 反初始化服务（测试结束）
+3. 使用查询命令读取实时结果
+4. 发送 `AT^HEALTHDEINIT` 反初始化服务
 
-**AT命令分类：**
+源码注释里出现过 `AT^HEALTHSLEEPSTAGE` 和 `AT^HEALTHPROFILE`，当前命令表没有注册这两条。睡眠分期用 `AT^HEALTHSLEEP`，用户档案用 `uapi_health_set_user_profile()`。
 
 **系统管理命令：**
 
-
-| AT命令            | 功能                     | 示例输出                                           |
-| ------------------- | -------------------------- | ---------------------------------------------------- |
-| `AT^HEALTHINIT`   | 初始化运动健康服务       | `Init OK`                                          |
-| `AT^HEALTHDEINIT` | 反初始化服务             | `Deinit OK`                                        |
-| `AT^HEALTHVER`    | 获取API版本号            | `Version: 1.0.0`                                   |
-| `AT^HEALTHSTATUS` | 查看传感器功耗和存储状态 | `IMU=1.5mA, PPG=1.2mA, Storage=1024/1048576 bytes` |
+| AT命令 | 功能 | 串口输出 |
+| --- | --- | --- |
+| `AT^HEALTHINIT` | 初始化运动健康服务 | `[HEALTH] Init OK` 或 `[HEALTH] Init FAIL` |
+| `AT^HEALTHDEINIT` | 反初始化服务 | `[HEALTH] Deinit OK` |
+| `AT^HEALTHVER` | 获取 API 版本号 | `[HEALTH] Version: 1.0.0` |
+| `AT^HEALTHSTATUS` | 查看传感器功耗和存储 | 分行打印 IMU/PPG/合计功耗（单位 uA）以及 `Storage: used/total bytes` |
 
 **运动数据查询命令：**
 
-
-| AT命令           | 功能             | 示例输出                                            |
-| ------------------ | ------------------ | ----------------------------------------------------- |
-| `AT^HEALTHSTEP`  | 获取步数统计     | `Steps: total=1234, today=5678`                     |
-| `AT^HEALTHACT`   | 获取当前活动类型 | `Activity: WALK, confidence=85%, duration=120s`     |
-| `AT^HEALTHCAD`   | 获取步频信息     | `Cadence: current=165, avg=160, max=180 SPM`        |
-| `AT^HEALTHDIST`  | 获取距离信息     | `Distance: total=5000m, today=3200m, stride=75.0cm` |
-| `AT^HEALTHDAILY` | 获取每日活动汇总 | `Daily: steps=10000, distance=7500m, active=45min`  |
+| AT命令 | 功能 | 串口输出 |
+| --- | --- | --- |
+| `AT^HEALTHSTEP` | 获取步数 | `[HEALTH] Steps: total=<n>, today=<n>` |
+| `AT^HEALTHACT` | 获取当前活动类型 | `[HEALTH] Activity: WALK, confidence=85%, duration=120s`。类型名为 `UNKNOWN/REST/WALK/RUN/CYCLE/SWIM/HIKE/ELLIPTICAL/ROWING/STAIR/OTHER` |
+| `AT^HEALTHCAD` | 获取步频 | `[HEALTH] Cadence: current=165, avg=160, max=180 SPM` |
+| `AT^HEALTHDIST` | 获取距离 | `[HEALTH] Distance: total=5000m, today=3200m, stride=75.0cm` |
+| `AT^HEALTHDAILY` | 获取当日汇总 | `[HEALTH] Daily: steps=10000, distance=7500m, active=45min`。数据来自 `uapi_activity_get_daily_summary()`，不是 `far_daily_summary_t` |
 
 **生理指标查询命令：**
 
+| AT命令 | 功能 | 串口输出 |
+| --- | --- | --- |
+| `AT^HEALTHHR` | 获取心率 | `[HEALTH] HR: current=72, rest=58, max=190, zone=AEROBIC, quality=95%`。区间名为 `WARMUP/FAT_BURN/AEROBIC/THRESHOLD/ANAEROBIC` |
+| `AT^HEALTHHRV` | 执行 HRV 分析 | 成功时两行：`SDNN/RMSSD`，以及 `LF/HF/score`。`LF/HF` 由 `lf_hf_ratio / 100` 打印。数据不足时输出 `HRV analysis failed (insufficient data)` |
+| `AT^HEALTHCAL` | 获取卡路里 | `[HEALTH] Calories: total=2150, active=450, BMR=1700, MET=3.5`。`MET` 由 `current_met / 10` 得到 |
+| `AT^HEALTHVO2` | 获取 VO2max | 有结果时打印 ml/kg/min、置信度和等级；结果为 0 时输出 `not available (need running/cycling data)` |
+| `AT^HEALTHLOAD` | 获取训练负荷 | `[HEALTH] Load: EPOC=125, session=850, weekly=5200, zone=OPTIMAL`。区间名为 `LOW/OPTIMAL/HIGH/OVERREACHING` |
+| `AT^HEALTHREC` | 获取恢复时间 | `[HEALTH] Recovery: 12h0m, score=75, not recovered`。完全恢复时最后一段为 `recovered` |
+| `AT^HEALTHSTR` | 获取压力指数 | `[HEALTH] Stress: current=35, avg=42, stressed=30min, rest=120min` |
+| `AT^HEALTHBAT` | 获取身体电量 | `[HEALTH] Body Battery: current=78, high=95, low=45, charging`。下降时最后一段为 `draining` |
 
-| AT命令          | 功能           | 示例输出                                                   |
-| ----------------- | ---------------- | ------------------------------------------------------------ |
-| `AT^HEALTHHR`   | 获取心率信息   | `HR: 72 BPM, Rest=58, Max=190, Zone: AEROBIC, Quality=95%` |
-| `AT^HEALTHHRV`  | 执行HRV分析    | `HRV: SDNN=45ms, RMSSD=35ms, LF=800, HF=600, Score=65`     |
-| `AT^HEALTHCAL`  | 获取卡路里消耗 | `Calories: total=2150, active=450, BMR=1700, MET=3.5`      |
-| `AT^HEALTHVO2`  | 获取VO2max估算 | `VO2max: 42 ml/kg/min, confidence=85%, level=7`            |
-| `AT^HEALTHLOAD` | 获取训练负荷   | `Load: EPOC=125, session=850, weekly=5200, zone=OPTIMAL`   |
-| `AT^HEALTHREC`  | 获取恢复时间   | `Recovery: 12h0m, score=75, not recovered`                 |
-| `AT^HEALTHSTR`  | 获取压力指数   | `Stress: current=35, avg=42, stressed=30min, rest=120min`  |
-| `AT^HEALTHBAT`  | 获取身体电量   | `Body Battery: current=78, high=95, low=45, charging`      |
+**睡眠与传感器命令：**
 
-**睡眠分析命令：**
+| AT命令 | 功能 | 串口输出 |
+| --- | --- | --- |
+| `AT^HEALTHSLEEP` | 获取最近睡眠记录 | 第一行 `total/deep/light/REM/awake`（分钟），第二行 `score` 和 `awakenings`。没有记录时输出 `Sleep: no record available` |
+| `AT^HEALTHSLEEPSCORE` | 获取睡眠评分 | `[HEALTH] Sleep Score: 82/100` |
+| `AT^HEALTHSENSOR=<type>,<enable>` | 开关传感器 | `type` 0 为 IMU，1 为 PPG；`enable` 1 为打开，0 为关闭。例如 `AT^HEALTHSENSOR=0,1`。成功时输出 `[HEALTH] Sensor 0 enabled` |
 
+### 7.8 性能指标与优化建议
 
-| AT命令                | 功能             | 示例输出                                                               |
-| ----------------------- | ------------------ | ------------------------------------------------------------------------ |
-| `AT^HEALTHSLEEP`      | 获取最近睡眠记录 | `Sleep: total=480min, score=82, Deep:90, Light:240, REM:120, Awake:30` |
-| `AT^HEALTHSLEEPSCORE` | 获取睡眠评分     | `Sleep Score: 82/100`                                                  |
-
-**传感器控制命令：**
-
-
-| AT命令            | 功能            | 用法示例                                                           |
-| ------------------- | ----------------- | -------------------------------------------------------------------- |
-| `AT^HEALTHSENSOR` | 传感器使能/禁用 | `AT^HEALTHSENSOR=0,1`（使能IMU），`AT^HEALTHSENSOR=1,0`（禁用PPG） |
-
-### 6.8 性能指标与优化建议
-
-#### 6.8.1 算法性能指标
+#### 7.8.1 算法性能指标
 
 算法性能指标定义了 FarOS 运动健康服务在真实使用场景下应达到的质量标准。这些指标基于行业通用测试方法和医学设备对比验证，确保算法输出具有实际参考价值。
 
@@ -1376,7 +1743,7 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | **VO2max估算误差** | ≤ 10%          | 与实验室跑台气体分析实测值对比                   | 有氧能力评估和训练计划制定         |
 | **睡眠分期准确率** | ≥ 85%          | 与PSG多导睡眠监测（金标准）对比分期结果          | 睡眠质量和睡眠障碍筛查参考         |
 
-#### 6.8.2 系统资源占用
+#### 7.8.2 系统资源占用
 
 系统资源占用指标反映了运动健康服务对 Brandy SoC 硬件资源的需求。在可穿戴设备中，内存和功耗是最关键的资源约束，需要在算法精度和资源消耗之间取得平衡。
 
@@ -1386,12 +1753,12 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | **算法任务内存**   | ≤ 16KB       | 运行时堆栈+数据区 | 堆栈约4KB，数据缓冲约12KB，适配中低端硬件  |
 | **传感器采样功耗** | ≤ 1mA @ 50Hz | IMU持续采样       | 50Hz为标准计步模式，12.5Hz低功耗时约0.3mA  |
 | **PPG采样功耗**    | ≤ 3mA @ 25Hz | 心率持续监测      | LED电流25mA为典型值，降低电流可进一步省电  |
-| **算法处理延迟**   | ≤ 10ms/周期  | 100Hz任务周期     | 确保传感器数据及时处理，不造成FIFO溢出     |
+| **算法处理延迟**   | ≤ 10ms/周期  | `health_task` 周期 100 ms | 任务栈为 `0x1000`（4 KB），单次处理留在 10 ms 内，避免挡住下一次批量读取 |
 | **存储空间占用**   | ≤ 256KB      | 健康数据存储      | NV存储索引+文件系统元数据，支持7天数据缓存 |
 
-#### 6.8.3 功耗优化建议
+#### 7.8.3 功耗优化建议
 
-功耗优化是运动健康设备的核心挑战。FarOS 通过传感器调度策略优化、算法任务调度和系统低功耗管理，实现算法精度与续航时间的平衡。以下是经过验证的功耗优化策略：
+功耗优化是运动健康设备的核心约束。`uapi_health_service_init()` 的默认配置是 IMU 50 Hz、PPG 25 Hz、任务周期 100 ms、每批最多 16 帧。下面的采样组合需要应用调用 `uapi_sensor_set_sample_rate()` 和 `uapi_sensor_enable()` 切换，服务本身还不会按活动类型自动改采样率。
 
 **1. 动态采样率调整**
 
@@ -1455,7 +1822,65 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 
 ---
 
-## 7. 附录
+## 8. 故障排除与FAQ
+
+> 本章汇总 FarOS 开发过程中常见的问题及其解决方案，按问题类型分类，便于快速定位。
+
+### 8.1 编译问题
+
+
+| 问题现象 | 可能原因 | 解决方案 |
+| ---------- | ---------- | ---------- |
+| `cc_riscv32_musl_fp_win: command not found` | 编译器未添加到 PATH | 检查 `tools/bin/compiler/linx/linx_170/bin/` 是否已加入系统环境变量 |
+| `CMake Error: Could not find CMakeLists.txt` | 未执行配置步骤 | 先运行 `build.py -t brandy-mcu-bt -c` 生成构建配置 |
+| 链接错误：`undefined reference to uapi_*` | 未链接对应的库或模块未使能 | 检查 `CMakeLists.txt` 中是否添加了对应模块的依赖，确认 `config.py` 中相关功能开关为 `YES` |
+| 编译报错：`SUPPORT_HEALTH_SERVICE not defined` | 运动健康服务宏未定义 | 在 `build/config/target_config/brandy/config.py` 中添加 `'SUPPORT_HEALTH_SERVICE': 'YES'` |
+| 编译耗时过长 | 未使用并行编译 | 添加 `-j8` 参数启用8线程编译，如 `build.py -t brandy-mcu-bt -b -j8` |
+
+### 8.2 烧录问题
+
+
+| 问题现象 | 可能原因 | 解决方案 |
+| ---------- | ---------- | ---------- |
+| `J-Link not found` | 调试器未连接或驱动未安装 | 检查USB连接，安装J-Link驱动，确认设备管理器中识别到J-Link |
+| `Failed to connect to target` | SWD接线错误或开发板未上电 | 检查SWD线序（VCC/GND/TCK/TMS），确认开发板电源指示灯亮起 |
+| 烧录成功但设备无响应 | 烧录了错误的固件目标 | 确认 `-t` 参数与开发板型号匹配，如 `brandy-mcu-bt` |
+| 烧录后反复重启 | 固件与硬件不匹配或NV数据损坏 | 尝试擦除整片Flash后重新烧录，或检查板级配置（`drivers/boards/`）是否正确 |
+
+### 8.3 运行时问题
+
+
+| 问题现象 | 可能原因 | 解决方案 |
+| ---------- | ---------- | ---------- |
+| 串口无输出 | 波特率设置错误 | 确认串口工具波特率为 **115200，8N1** |
+| 串口输出乱码 | 波特率不匹配或线序错误 | 检查USB转TTL接线（TX/RX交叉连接），确认波特率115200 |
+| 系统启动后panic重启 | 栈溢出或内存越界 | 增大任务栈空间（`attr.stack_size`），使用 `memset_s`/`memcpy_s` 替代不安全的内存操作 |
+| 任务无响应 | 优先级设置不当或死锁 | 检查任务优先级分配，使用 `osSemaphoreAcquire()` 替代忙等待，确认消息队列未满 |
+| 功耗异常偏高 | 传感器未正确关闭或tickless未启用 | 检查 `uapi_sensor_enable()` 是否在非使用场景调用了关闭，确认 `ENABLE_TICKLESS` 配置为 `YES` |
+
+### 8.4 运动健康模块问题
+
+
+| 问题现象 | 可能原因 | 解决方案 |
+| ---------- | ---------- | ---------- |
+| `AT^HEALTHINIT` 返回失败 | 传感器初始化失败或内存不足 | 检查IMU/PPG的I2C连接，确认 `far_sensor.c` 中传感器型号与实际硬件匹配 |
+| 步数统计为0 | IMU未使能或算法未启动 | 确认 `uapi_sensor_enable(0, true)` 已调用，且 `uapi_activity_enable()` 已执行 |
+| 心率显示为0或异常值 | PPG 回调尚未把原始 ADC 转成 BPM，或传感器未贴紧、LED 电流过低 | 调用 `uapi_physio_feed_hr_data()` 做通路验证；硬件侧检查贴合，并增大 `led_current_ma` |
+| HRV分析返回失败 | RR间期数据不足 | 确保心率监测已运行至少5分钟，且 `uapi_physio_hrv_feed_rr_data()` 正常被调用 |
+| 睡眠记录为空 | 自动检测未触发或追踪未启动 | 确认 `enable_auto_detect = true`，或手动调用 `uapi_sleep_start_tracking()` |
+| 数据同步失败 | 蓝牙未连接或存储空间满 | 检查BLE连接状态，使用 `AT^HEALTHSTATUS` 查看存储使用率，必要时删除旧记录 |
+| 卡路里计算偏差大 | 用户档案未设置或活动类型识别错误 | 调用 `uapi_health_set_user_profile()` 设置性别/年龄/身高/体重，确认活动类型识别正常 |
+
+**调试技巧：**
+
+1. **使用 AT 命令快速诊断**：`AT^HEALTHSTATUS` 打印 IMU/PPG 功耗（单位 uA）和存储字节数。心率一直为 0 时，先确认是否已调用 `uapi_physio_feed_hr_data()`，当前 PPG 回调还不会自动提取 BPM
+2. **开启DFX详细日志**：在 `config.py` 中设置 `'LOG_LEVEL': 'DEBUG'`，查看模块内部运行细节
+3. **检查任务状态**：通过 `osThreadGetCount()` 和 `osThreadEnumerate()` 查看当前运行的任务列表
+4. **内存泄漏排查**：定期打印 `osal_mem_get_heap_info()` 返回值，观察空闲内存是否持续下降
+
+---
+
+## 9. 附录
 
 ### 附录A: 运动健康API速查表
 
@@ -1469,6 +1894,8 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | `uapi_health_get_version()`      | `health_service_init.c` |
 | `uapi_health_set_user_profile()` | `health_service_init.c` |
 | `uapi_health_get_user_profile()` | `health_service_init.c` |
+| `uapi_health_register_callback()` | `health_service_init.c` |
+| `uapi_health_unregister_callback()` | `health_service_init.c` |
 
 #### A.2 传感器API
 
@@ -1493,6 +1920,8 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | `uapi_activity_get_type()`       | `far_activity.c` |
 | `uapi_activity_get_cadence()`    | `far_activity.c` |
 | `uapi_activity_get_distance()`   | `far_activity.c` |
+| `uapi_activity_feed_imu_data()`  | `far_activity.c` |
+| `uapi_activity_get_daily_summary()` | `far_activity.c` |
 
 #### A.4 生理指标API
 
@@ -1508,6 +1937,8 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | `uapi_physio_recovery_time_get()` | `far_physio.c` |
 | `uapi_physio_stress_get()`        | `far_physio.c` |
 | `uapi_physio_body_battery_get()`  | `far_physio.c` |
+| `uapi_physio_feed_hr_data()`      | `far_physio.c` |
+| `uapi_physio_feed_activity_data()` | `far_physio.c` |
 
 #### A.5 睡眠分析API
 
@@ -1519,6 +1950,9 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | `uapi_sleep_get_last_record()` | `far_sleep.c` |
 | `uapi_sleep_get_score()`       | `far_sleep.c` |
 | `uapi_sleep_get_stages()`      | `far_sleep.c` |
+| `uapi_sleep_feed_imu_data()`   | `far_sleep.c` |
+| `uapi_sleep_feed_hr_data()`    | `far_sleep.c` |
+| `uapi_sleep_get_quality_factors()` | `far_sleep.c` |
 
 #### A.6 数据管理API
 
@@ -1529,6 +1963,9 @@ AT命令是开发和调试运动健康功能的重要工具。通过串口连接
 | `uapi_health_data_save_workout()`      | `far_health_data.c` |
 | `uapi_health_data_get_daily_summary()` | `far_health_data.c` |
 | `uapi_health_data_sync_start()`        | `far_health_data.c` |
+| `uapi_health_data_get_sleep_records()` | `far_health_data.c` |
+| `uapi_health_data_get_storage_usage()` | `far_health_data.c` |
+| `uapi_health_data_save_sleep()`        | `far_health_data.c` |
 
 ### 附录B: 错误码表
 
@@ -1614,6 +2051,118 @@ typedef struct {
 } far_user_profile_t;
 ```
 
+`weight_kg` 的单位是 0.1 kg。时间戳 `far_health_timestamp_t` 的字段为 `year`、`month`、`day`、`hour`、`minute`、`second`。
+
+#### C.5 传感器配置
+
+```c
+typedef enum {
+    FAR_SENSOR_RATE_12_5_HZ = 0,
+    FAR_SENSOR_RATE_25_HZ   = 1,
+    FAR_SENSOR_RATE_50_HZ   = 2,
+    FAR_SENSOR_RATE_100_HZ  = 3,
+    FAR_SENSOR_RATE_200_HZ  = 4,
+    FAR_SENSOR_RATE_400_HZ  = 5,
+} far_sensor_rate_t;
+
+typedef enum {
+    FAR_SENSOR_MODE_LOW_POWER = 0,
+    FAR_SENSOR_MODE_NORMAL    = 1,
+    FAR_SENSOR_MODE_HIGH_PERF = 2,
+} far_sensor_mode_t;
+```
+
+`far_sensor_imu_config_t` 含 `accel_rate`、`gyro_rate`、`mode`、`accel_range_g`、`gyro_range_dps`。`far_sensor_ppg_config_t` 含 `sample_rate`、`mode`、`led_current_ma`，以及 `enable_green`、`enable_ir`、`enable_red`。
+
+#### C.6 运动识别结果
+
+```c
+typedef struct {
+    bool     enable_step_count;
+    bool     enable_activity_type;
+    bool     enable_cadence;
+    bool     enable_distance;
+    uint16_t step_threshold;       /* mg，默认 150 */
+    uint8_t  confidence_threshold; /* %，默认 70 */
+} far_activity_config_t;
+
+typedef struct {
+    uint32_t total_steps;
+    uint32_t steps_today;          /* 每日 0 点重置 */
+    uint32_t last_update_time;     /* ms */
+} far_step_info_t;
+
+typedef struct {
+    far_activity_type_t type;
+    uint8_t             confidence;    /* 0-100 */
+    uint32_t            duration_sec;
+    uint32_t            start_time;    /* ms */
+} far_activity_result_t;
+```
+
+`far_cadence_info_t` 含 `current_spm`、`avg_spm`、`max_spm`。`far_distance_info_t` 含 `total_distance_m`、`distance_today_m` 和 `avg_stride_length_cm`（单位厘米）。
+
+#### C.7 生理指标结果
+
+| 结构体 | 关键字段 |
+| --- | --- |
+| `far_hr_info_t` | `current_bpm`、`resting_bpm`、`max_bpm`、`current_zone`、`signal_quality`（0-100） |
+| `far_hrv_result_t` | `sdnn_ms`、`rmssd_ms`、`lf_power`、`hf_power`、`lf_hf_ratio`（实际比值×100）、`hrv_score` |
+| `far_calorie_info_t` | `total_kcal`、`active_kcal`、`bmr_kcal`、`current_met`（MET×10） |
+| `far_vo2max_result_t` | `vo2max_ml_kg_min`、`confidence`、`fitness_level`（1-10） |
+| `far_training_load_t` | `current_epoc`（ml/kg）、`session_load`、`weekly_load`、`load_zone`（0 低，1 最佳，2 高，3 过度） |
+| `far_recovery_info_t` | `recovery_hours`、`recovery_minutes`、`recovery_score`、`is_recovered` |
+| `far_stress_info_t` | `current_stress`、`avg_stress`（0-100）、`stress_duration_min`、`rest_duration_min` |
+| `far_body_battery_t` | `current_level`、`highest_today`、`lowest_today`（0-100）、`is_charging`、`charge_rate` |
+
+#### C.8 睡眠记录与存储
+
+```c
+typedef struct {
+    bool     enable_auto_detect;
+    uint8_t  bedtime_hour;           /* 0-23，255=自动 */
+    uint8_t  wake_time_hour;         /* 0-23，255=自动 */
+    uint16_t min_sleep_duration_min;
+    bool     enable_hrv_analysis;
+} far_sleep_config_t;
+
+typedef enum {
+    FAR_STORAGE_MODE_NV   = 0,
+    FAR_STORAGE_MODE_FS   = 1,
+    FAR_STORAGE_MODE_DUAL = 2,
+} far_storage_mode_t;
+
+typedef enum {
+    FAR_RECORD_TYPE_ACTIVITY     = 0,
+    FAR_RECORD_TYPE_WORKOUT      = 1,
+    FAR_RECORD_TYPE_SLEEP        = 2,
+    FAR_RECORD_TYPE_HRV          = 3,
+    FAR_RECORD_TYPE_BODY_BATTERY = 4,
+    FAR_RECORD_TYPE_STRESS       = 5,
+} far_record_type_t;
+```
+
+`far_sleep_record_t` 记录起止时间戳（ms）、总睡眠和深睡/浅睡/REM/清醒分钟数、觉醒次数、`sleep_score`，以及最多 32 个 `far_sleep_segment_t`。`far_workout_record_t` 保存记录 ID、活动类型、起止时间、步数、距离、卡路里、心率、步频、5 个心率区间停留分钟、VO2max 和训练负荷。`far_daily_summary_t` 按自然日汇总步数、距离、卡路里、活跃分钟、静息心率、压力、睡眠评分和身体电量高低值。
+
+#### C.9 健康数据更新类型
+
+`far_health_data_type_t` 用于 `uapi_health_register_callback()`：
+
+| 枚举 | 值 | 含义 |
+| --- | --- | --- |
+| `FAR_HEALTH_DATA_TYPE_STEP_COUNT` | 0x01 | 步数更新 |
+| `FAR_HEALTH_DATA_TYPE_HEART_RATE` | 0x02 | 心率更新 |
+| `FAR_HEALTH_DATA_TYPE_ACTIVITY` | 0x03 | 活动类型变化 |
+| `FAR_HEALTH_DATA_TYPE_SLEEP_STAGE` | 0x04 | 睡眠分期变化 |
+| `FAR_HEALTH_DATA_TYPE_HRV` | 0x05 | HRV 结果更新 |
+| `FAR_HEALTH_DATA_TYPE_STRESS` | 0x06 | 压力指数更新 |
+| `FAR_HEALTH_DATA_TYPE_BODY_BATTERY` | 0x07 | 身体电量更新 |
+| `FAR_HEALTH_DATA_TYPE_CALORIE` | 0x08 | 卡路里更新 |
+| `FAR_HEALTH_DATA_TYPE_DISTANCE` | 0x09 | 距离更新 |
+| `FAR_HEALTH_DATA_TYPE_VO2MAX` | 0x0A | VO2max 更新 |
+| `FAR_HEALTH_DATA_TYPE_TRAINING_LOAD` | 0x0B | 训练负荷更新 |
+| `FAR_HEALTH_DATA_TYPE_RECOVERY_TIME` | 0x0C | 恢复时间更新 |
+
 ### 附录D: 文件清单
 
 #### D.1 头文件
@@ -1663,13 +2212,73 @@ AT命令扩展为运动健康模块提供串口调试能力，便于开发阶段
 | `app_cmd_manager.c` | 注册健康AT命令到全局AT命令表 |
 | `app_msg_manager.h` | 添加健康相关消息ID枚举       |
 
+### 附录E: 术语表
+
+#### E.1 通用术语
+
+
+| 术语 | 英文全称 | 说明 |
+| ------ | ---------- | ------ |
+| **SoC** | System on Chip | 片上系统，将CPU、内存、外设集成在单一芯片上 |
+| **MCU** | Microcontroller Unit | 微控制器单元，集成处理器核心、存储器和外设接口的单芯片计算机 |
+| **RTOS** | Real-Time Operating System | 实时操作系统，保证任务在规定时间约束内完成响应 |
+| **HAL** | Hardware Abstraction Layer | 硬件抽象层，将底层硬件差异封装，向上层提供统一接口 |
+| **BSP** | Board Support Package | 板级支持包，包含特定开发板的引脚配置、外设初始化等 |
+| **DFX** | Design For X | 面向全生命周期的设计，涵盖可测试性、可制造性、可靠性等 |
+| **OTA** | Over-The-Air | 空中升级，通过无线网络远程更新设备固件 |
+| **NV** | Non-Volatile | 非易失性存储，断电后数据不丢失 |
+| **VFS** | Virtual File System | 虚拟文件系统，为不同底层文件系统提供统一访问接口 |
+| **FIFO** | First In First Out | 先进先出队列，常用于传感器数据缓冲 |
+| **DMA** | Direct Memory Access | 直接内存访问，无需CPU干预的数据传输方式 |
+| **CMSIS** | Cortex Microcontroller Software Interface Standard | ARM推出的微控制器软件接口标准，FarOS中用于RTOS2接口 |
+
+#### E.2 传感器与健康术语
+
+
+| 术语 | 英文全称 | 说明 |
+| ------ | ---------- | ------ |
+| **IMU** | Inertial Measurement Unit | 惯性测量单元，通常包含加速度计和陀螺仪 |
+| **PPG** | Photoplethysmography | 光电容积脉搏波描记法，通过光学方式检测血容量变化来测量心率 |
+| **HR** | Heart Rate | 心率，每分钟心跳次数（BPM） |
+| **HRV** | Heart Rate Variability | 心率变异性，连续心跳间期（RR间期）的波动程度 |
+| **BPM** | Beats Per Minute | 每分钟心跳次数 |
+| **ECG** | Electrocardiogram | 心电图，记录心脏电活动的医学金标准 |
+| **MET** | Metabolic Equivalent of Task | 代谢当量，衡量运动强度的单位，1MET≈静息代谢率 |
+| **VO2max** | Maximal Oxygen Uptake | 最大摄氧量，衡量有氧耐力的黄金指标 |
+| **EPOC** | Excess Post-exercise Oxygen Consumption | 运动后过量氧耗，运动后恢复期的额外氧气消耗 |
+| **SPM** | Steps Per Minute | 每分钟步数，即步频 |
+| **PSG** | Polysomnography | 多导睡眠监测，睡眠分期的医学金标准 |
+| **REM** | Rapid Eye Movement | 快速眼动睡眠期，梦境主要发生阶段 |
+| **SDNN** | Standard Deviation of NN intervals | RR间期的标准差，HRV时域指标 |
+| **RMSSD** | Root Mean Square of Successive Differences | 相邻RR间期差值的均方根，HRV时域指标 |
+| **LF/HF** | Low Frequency / High Frequency | HRV频域分析中的低频/高频功率比，反映交感/副交感神经平衡 |
+| **TRNG** | True Random Number Generator | 真随机数生成器，基于物理熵源产生不可预测的随机数 |
+
+#### E.3 蓝牙术语
+
+
+| 术语 | 英文全称 | 说明 |
+| ------ | ---------- | ------ |
+| **BLE** | Bluetooth Low Energy | 低功耗蓝牙，适合小数据量、低功耗的短距离通信 |
+| **BREDR** | Basic Rate / Enhanced Data Rate | 经典蓝牙，支持较高数据速率和音频传输 |
+| **GATT** | Generic Attribute Profile | 通用属性协议，BLE设备间数据交换的基础协议 |
+| **GAP** | Generic Access Profile | 通用访问协议，定义BLE设备的发现、连接流程 |
+| **UUID** | Universally Unique Identifier | 通用唯一识别码，用于标识蓝牙服务和特征值 |
+| **Profile** | - | 蓝牙规范定义的特定应用场景协议（如HRS心率服务、A2DP音频传输） |
+| **HCI** | Host Controller Interface | 主机控制器接口，定义蓝牙主机与控制器间的通信协议 |
+| **L2CAP** | Logical Link Control and Adaptation Protocol | 逻辑链路控制与适配协议，蓝牙数据链路层 |
+| **SMP** | Security Manager Protocol | 安全管理协议，负责BLE配对和密钥分发 |
+| **Coded PHY** | Coded Physical Layer | 编码物理层，BLE 5.0+特性，通过编码增益实现更远传输距离 |
+
 ---
 
 ## 版本历史
 
 
-| 版本 | 日期    | 修改内容                                             |
-| ------ | --------- | ------------------------------------------------------ |
+| 版本 | 日期 | 修改内容 |
+| --- | --- | --- |
+| v1.2 | 2026-10-23 | 按源码补充源码目录、启动顺序、编译目标、GATT Server API、健康服务初始化与数据通路、用户档案和数据管理示例；AT 输出与实现格式对齐；补齐附录数据类型；修正第 6 章标题编号 |
+| v1.1 | 2026-10 | 新增快速开始指南、故障排除与FAQ章节、术语表；修复标题层级一致性；完善系统架构图 |
 | v1.0 | 2024-10 | 初始版本，添加运动健康服务模块完整接口规范和骨架代码 |
 
 ---
